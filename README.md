@@ -1,4 +1,5 @@
-title: Cyber Threat Intelligence (CTI)Quality Metrics
+
+# Cyber Threat Intelligence (CTI)Quality Metrics
 
 ## Intro
 This project is part of the respective publication regarding the metrics of CTI quality. 
