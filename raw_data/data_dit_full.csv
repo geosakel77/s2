@@ -1,0 +1,1049 @@
+﻿NACE_CODE_1;NACE_CODE_2;NACE-Level;NACE Category Name;DIT Main Category;DIT Sub Category;DIT.ID.x
+A;A;1;Agriculture,forestry and fishing;Agriculture, Forestry, Fishing;;1000
+A1;A1;2;Crop and animal production, hunting and related service activities;Agriculture, Forestry, Fishing;Agriculture;1001
+A11;A1.1;3;Growing of non-perennial crops;Agriculture, Forestry, Fishing;Agriculture;1001
+A111;A1.11;4;Growing of cereals (except rice), leguminous crops and oil seeds;Agriculture, Forestry, Fishing;Agriculture;1001
+A112;A1.12;4;Growing of rice;Agriculture, Forestry, Fishing;Agriculture;1001
+A113;A1.13;4;Growing of vegetables and melons, roots and tubers;Agriculture, Forestry, Fishing;Agriculture;1001
+A114;A1.14;4;Growing of sugar cane;Agriculture, Forestry, Fishing;Agriculture;1001
+A115;A1.15;4;Growing of tobacco;Agriculture, Forestry, Fishing;Agriculture;1001
+A116;A1.16;4;Growing of fibre crops;Agriculture, Forestry, Fishing;Agriculture;1001
+A119;A1.19;4;Growing of other non-perennial crops;Agriculture, Forestry, Fishing;Agriculture;1001
+A12;A1.2;3;Growing of perennial crops;Agriculture, Forestry, Fishing;Agriculture;1001
+A121;A1.21;4;Growing of grapes;Agriculture, Forestry, Fishing;Agriculture;1001
+A122;A1.22;4;Growing of tropical and subtropical fruits;Agriculture, Forestry, Fishing;Agriculture;1001
+A123;A1.23;4;Growing of citrus fruits;Agriculture, Forestry, Fishing;Agriculture;1001
+A124;A1.24;4;Growing of pome fruits and stone fruits;Agriculture, Forestry, Fishing;Agriculture;1001
+A125;A1.25;4;Growing of other tree and bush fruits and nuts;Agriculture, Forestry, Fishing;Agriculture;1001
+A126;A1.26;4;Growing of oleaginous fruits;Agriculture, Forestry, Fishing;Agriculture;1001
+A127;A1.27;4;Growing of beverage crops;Agriculture, Forestry, Fishing;Agriculture;1001
+A128;A1.28;4;Growing of spices, aromatic, drug and pharmaceutical crops;Agriculture, Forestry, Fishing;Agriculture;1001
+A129;A1.29;4;Growing of other perennial crops;Agriculture, Forestry, Fishing;Agriculture;1001
+A13;A1.3;3;Plant propagation;Agriculture, Forestry, Fishing;Agriculture;1001
+A130;A1.30;4;Plant propagation;Agriculture, Forestry, Fishing;Agriculture;1001
+A14;A1.4;3;Animal production;Agriculture, Forestry, Fishing;Agriculture;1001
+A141;A1.41;4;Raising of dairy cattle;Agriculture, Forestry, Fishing;Agriculture;1001
+A142;A1.42;4;Raising of other cattle and buffaloes;Agriculture, Forestry, Fishing;Agriculture;1001
+A143;A1.43;4;Raising of horses and other equines;Agriculture, Forestry, Fishing;Agriculture;1001
+A144;A1.44;4;Raising of camels and camelids;Agriculture, Forestry, Fishing;Agriculture;1001
+A145;A1.45;4;Raising of sheep and goats;Agriculture, Forestry, Fishing;Agriculture;1001
+A146;A1.46;4;Raising of swine/pigs;Agriculture, Forestry, Fishing;Agriculture;1001
+A147;A1.47;4;Raising of poultry;Agriculture, Forestry, Fishing;Agriculture;1001
+A149;A1.49;4;Raising of other animals;Agriculture, Forestry, Fishing;Agriculture;1001
+A15;A1.5;3;Mixed farming;Agriculture, Forestry, Fishing;Agriculture;1001
+A150;A1.50;4;Mixed farming;Agriculture, Forestry, Fishing;Agriculture;1001
+A16;A1.6;3;Support activities to agriculture and post-harvest crop activities;Agriculture, Forestry, Fishing;Agriculture;1001
+A161;A1.61;4;Support activities for crop production;Agriculture, Forestry, Fishing;Agriculture;1001
+A162;A1.62;4;Support activities for animal production;Agriculture, Forestry, Fishing;Agriculture;1001
+A163;A1.63;4;Post-harvest crop activities;Agriculture, Forestry, Fishing;Agriculture;1001
+A164;A1.64;4;Seed processing for propagation;Agriculture, Forestry, Fishing;Agriculture;1001
+A17;A1.7;3;Hunting, trapping and related service activities;Agriculture, Forestry, Fishing;Agriculture;1001
+A170;A1.70;4;Hunting, trapping and related service activities;Agriculture, Forestry, Fishing;Agriculture;1001
+N7731;N77.31;4;Renting and leasing of agricultural machinery and equipment;Agriculture, Forestry, Fishing;Agriculture;1001
+A3;A3;2;Fishing and aquaculture;Agriculture, Forestry, Fishing;Fishing;1002
+A31;A3.1;3;Fishing;Agriculture, Forestry, Fishing;Fishing;1002
+A311;A3.11;4;Marine fishing;Agriculture, Forestry, Fishing;Fishing;1002
+A312;A3.12;4;Freshwater fishing;Agriculture, Forestry, Fishing;Fishing;1002
+A32;A3.2;3;Aquaculture;Agriculture, Forestry, Fishing;Fishing;1002
+A321;A3.21;4;Marine aquaculture;Agriculture, Forestry, Fishing;Fishing;1002
+A322;A3.22;4;Freshwater aquaculture;Agriculture, Forestry, Fishing;Fishing;1002
+A2;A2;2;Forestry and logging;Agriculture, Forestry, Fishing;Forestry;1003
+A21;A2.1;3;Silviculture and other forestry activities;Agriculture, Forestry, Fishing;Forestry;1003
+A210;A2.10;4;Silviculture and other forestry activities;Agriculture, Forestry, Fishing;Forestry;1003
+A22;A2.2;3;Logging;Agriculture, Forestry, Fishing;Forestry;1003
+A220;A2.20;4;Logging;Agriculture, Forestry, Fishing;Forestry;1003
+A23;A2.3;3;Gathering of wild growing non-wood products;Agriculture, Forestry, Fishing;Forestry;1003
+A230;A2.30;4;Gathering of wild growing non-wood products;Agriculture, Forestry, Fishing;Forestry;1003
+A24;A2.4;3;Support services to forestry;Agriculture, Forestry, Fishing;Forestry;1003
+A240;A2.40;4;Support services to forestry;Agriculture, Forestry, Fishing;Forestry;1003
+No Nace;No Nace;No Nace;No Nace;Agriculture, Forestry, Fishing;Other (Agriculture, Forestry, Fishing);1099
+B;B;1;Mining and quarrying;Mining and Drilling;;1100
+B5;B5;2;Mining of coal and lignite;Mining and Drilling;Mining and Drilling;1101
+B51;B5.1;3;Mining of hard coal;Mining and Drilling;Mining and Drilling;1101
+B510;B5.10;4;Mining of hard coal;Mining and Drilling;Mining and Drilling;1101
+B52;B5.2;3;Mining of lignite;Mining and Drilling;Mining and Drilling;1101
+B520;B5.20;4;Mining of lignite;Mining and Drilling;Mining and Drilling;1101
+B6;B6;2;Extraction of crude petroleum and natural gas;Mining and Drilling;Mining and Drilling;1101
+B61;B6.1;3;Extraction of crude petroleum;Mining and Drilling;Mining and Drilling;1101
+B610;B6.10;4;Extraction of crude petroleum;Mining and Drilling;Mining and Drilling;1101
+B62;B6.2;3;Extraction of natural gas;Mining and Drilling;Mining and Drilling;1101
+B620;B6.20;4;Extraction of natural gas;Mining and Drilling;Mining and Drilling;1101
+B7;B7;2;Mining of metal ores;Mining and Drilling;Mining and Drilling;1101
+B71;B7.1;3;Mining of iron ores;Mining and Drilling;Mining and Drilling;1101
+B710;B7.10;4;Mining of iron ores;Mining and Drilling;Mining and Drilling;1101
+B72;B7.2;3;Mining of non-ferrous metal ores;Mining and Drilling;Mining and Drilling;1101
+B721;B7.21;4;Mining of uranium and thorium ores;Mining and Drilling;Mining and Drilling;1101
+B729;B7.29;4;Mining of other non-ferrous metal ores;Mining and Drilling;Mining and Drilling;1101
+B8;B8;2;Other mining and quarrying;Mining and Drilling;Mining and Drilling;1101
+B81;B8.1;3;Quarrying of stone, sand and clay;Mining and Drilling;Mining and Drilling;1101
+B811;B8.11;4;Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate;Mining and Drilling;Mining and Drilling;1101
+B812;B8.12;4;"Operation of gravel and sand pits; mining of clays and kaolin";Mining and Drilling;Mining and Drilling;1101
+B89;B8.9;3;Mining and quarrying n.e.c.;Mining and Drilling;Mining and Drilling;1101
+B891;B8.91;4;Mining of chemical and fertiliser minerals;Mining and Drilling;Mining and Drilling;1101
+B892;B8.92;4;Extraction of peat;Mining and Drilling;Mining and Drilling;1101
+B893;B8.93;4;Extraction of salt;Mining and Drilling;Mining and Drilling;1101
+B899;B8.99;4;Other mining and quarrying n.e.c.;Mining and Drilling;Mining and Drilling;1101
+B9;B9;2;Mining support service activities;Mining and Drilling;Mining and Drilling;1101
+B91;B9.1;3;Support activities for petroleum and natural gas extraction;Mining and Drilling;Mining and Drilling;1101
+B910;B9.10;4;Support activities for petroleum and natural gas extraction;Mining and Drilling;Mining and Drilling;1101
+B99;B9.9;3;Support activities for other mining and quarrying;Mining and Drilling;Mining and Drilling;1101
+B990;B9.90;4;Support activities for other mining and quarrying;Mining and Drilling;Mining and Drilling;1101
+C2892;C28.92;4;Manufacture of machinery for mining, quarrying and construction;Mining and Drilling;Mining and Drilling;1101
+G4672;G46.72;4;Wholesale of metals and metal ores;Mining and Drilling;Mining and Drilling;1101
+C2015;C20.15;4;Manufacture of fertilisers and nitrogen compounds;Manufacturing ;"Manufacturing of Agricultural, Forestry and Gardening Supplies
+";1201
+C202;C20.2;3;Manufacture of pesticides and other agrochemical products;Manufacturing ;"Manufacturing of Agricultural, Forestry and Gardening Supplies
+";1201
+C2020;C20.20;4;Manufacture of pesticides and other agrochemical products;Manufacturing ;"Manufacturing of Agricultural, Forestry and Gardening Supplies
+";1201
+C283;C28.3;3;Manufacture of agricultural and forestry machinery;Manufacturing ;"Manufacturing of Agricultural, Forestry and Gardening Supplies
+";1201
+C2830;C28.30;4;Manufacture of agricultural and forestry machinery;Manufacturing ;"Manufacturing of Agricultural, Forestry and Gardening Supplies
+";1201
+C19;C19;2;Manufacture of coke and refined petroleum products;Manufacturing ;Manufacturing of Chemicals;1202
+C191;C19.1;3;Manufacture of coke oven products;Manufacturing ;Manufacturing of Chemicals;1202
+C1910;C19.10;4;Manufacture of coke oven products;Manufacturing ;Manufacturing of Chemicals;1202
+C192;C19.2;3;Manufacture of refined petroleum products;Manufacturing ;Manufacturing of Chemicals;1202
+C1920;C19.20;4;Manufacture of refined petroleum products;Manufacturing ;Manufacturing of Chemicals;1202
+C2011;C20.11;4;Manufacture of industrial gases;Manufacturing ;Manufacturing of Chemicals;1202
+C2012;C20.12;4;Manufacture of dyes and pigments;Manufacturing ;Manufacturing of Chemicals;1202
+C2013;C20.13;4;Manufacture of other inorganic basic chemicals;Manufacturing ;Manufacturing of Chemicals;1202
+C2014;C20.14;4;Manufacture of other organic basic chemicals;Manufacturing ;Manufacturing of Chemicals;1202
+C2016;C20.16;4;Manufacture of plastics in primary forms;Manufacturing ;Manufacturing of Chemicals;1202
+C2017;C20.17;4;Manufacture of synthetic rubber in primary forms;Manufacturing ;Manufacturing of Chemicals;1202
+C203;C20.3;3;Manufacture of paints, varnishes and similar coatings, printing ink and mastics;Manufacturing ;Manufacturing of Chemicals;1202
+C2030;C20.30;4;Manufacture of paints, varnishes and similar coatings, printing ink and mastics;Manufacturing ;Manufacturing of Chemicals;1202
+C2041;C20.41;4;Manufacture of soap and detergents, cleaning and polishing preparations;Manufacturing ;Manufacturing of Chemicals;1202
+C2051;C20.51;4;Manufacture of explosives;Manufacturing ;Manufacturing of Chemicals;1202
+C2052;C20.52;4;Manufacture of glues;Manufacturing ;Manufacturing of Chemicals;1202
+C2059;C20.59;4;Manufacture of other chemical products n.e.c.;Manufacturing ;Manufacturing of Chemicals;1202
+C13;C13;2;Manufacture of textiles;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C131;C13.1;3;Preparation and spinning of textile fibres;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1310;C13.10;4;Preparation and spinning of textile fibres;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C132;C13.2;3;Weaving of textiles;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1320;C13.20;4;Weaving of textiles;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C133;C13.3;3;Finishing of textiles;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1330;C13.30;4;Finishing of textiles;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C139;C13.9;3;Manufacture of other textiles;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1391;C13.91;4;Manufacture of knitted and crocheted fabrics;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1392;C13.92;4;Manufacture of made-up textile articles, except apparel;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1393;C13.93;4;Manufacture of carpets and rugs;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1394;C13.94;4;Manufacture of cordage, rope, twine and netting;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1395;C13.95;4;Manufacture of non-wovens and articles made from non;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1396;C13.96;4;Manufacture of other technical and industrial textiles;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1399;C13.99;4;Manufacture of other textiles n.e.c.;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C14;C14;2;Manufacture of wearing apparel;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C141;C14.1;3;Manufacture of wearing apparel, except fur apparel;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1411;C14.11;4;Manufacture of leather Clothes and Accessories;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1412;C14.12;4;Manufacture of workwear;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1413;C14.13;4;Manufacture of other outerwear;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1414;C14.14;4;Manufacture of underwear;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1419;C14.19;4;Manufacture of other wearing apparel and accessories;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C142;C14.2;3;Manufacture of articles of fur;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1420;C14.20;4;Manufacture of articles of fur;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C143;C14.3;3;Manufacture of knitted and crocheted apparel;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1431;C14.31;4;Manufacture of knitted and crocheted hosiery;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1439;C14.39;4;Manufacture of other knitted and crocheted apparel;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C15;C15;2;Manufacture of leather and related products;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C151;C15.1;3;"Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur";Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1511;C15.11;4;"Tanning and dressing of leather; dressing and dyeing of fur";Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1512;C15.12;4;Manufacture of luggage, handbags and the like, saddlery and harness;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C152;C15.2;3;Manufacture of footwear;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C1520;C15.20;4;Manufacture of footwear;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C206;C20.6;3;Manufacture of man-made fibres;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C2060;C20.60;4;Manufacture of man-made fibres;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C2652;C26.52;4;Manufacture of watches and clocks;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C2894;C28.94;4;Manufacture of machinery for textile, apparel and leather production;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C321;C32.1;3;Manufacture of jewellery, bijouterie and related articles;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C3212;C32.12;4;Manufacture of jewellery and related articles;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C3213;C32.13;4;Manufacture of imitation jewellery and related articles;Manufacturing ;Manufacturing of Clothes and Accessories;1203
+C265;C26.5;3;"Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks";Manufacturing ;"Manufacturing of Computer, Electronic and Optical Products
+";1204
+C2651;C26.51;4;Manufacture of instruments and appliances for measuring, testing and navigation;Manufacturing ;"Manufacturing of Computer, Electronic and Optical Products
+";1204
+C267;C26.7;3;Manufacture of optical instruments and photographic equipment;Manufacturing ;"Manufacturing of Computer, Electronic and Optical Products
+";1204
+C2670;C26.70;4;Manufacture of optical instruments and photographic equipment;Manufacturing ;"Manufacturing of Computer, Electronic and Optical Products
+";1204
+C268;C26.8;3;Manufacture of magnetic and optical media;Manufacturing ;"Manufacturing of Computer, Electronic and Optical Products
+";1204
+C2680;C26.80;4;Manufacture of magnetic and optical media;Manufacturing ;"Manufacturing of Computer, Electronic and Optical Products
+";1204
+C2711;C27.11;4;Manufacture of electric motors, generators and transformers;Manufacturing ;"Manufacturing of Computer, Electronic and Optical Products
+";1204
+C272;C27.2;3;Manufacture of batteries and accumulators;Manufacturing ;"Manufacturing of Computer, Electronic and Optical Products
+";1204
+C2720;C27.20;4;Manufacture of batteries and accumulators;Manufacturing ;"Manufacturing of Computer, Electronic and Optical Products
+";1204
+C273;C27.3;3;Manufacture of wiring and wiring devices;Manufacturing ;"Manufacturing of Computer, Electronic and Optical Products
+";1204
+C2731;C27.31;4;Manufacture of fibre optic cables;Manufacturing ;"Manufacturing of Computer, Electronic and Optical Products
+";1204
+C2732;C27.32;4;Manufacture of other electronic and electric wires and cables;Manufacturing ;"Manufacturing of Computer, Electronic and Optical Products
+";1204
+C2733;C27.33;4;Manufacture of wiring devices;Manufacturing ;"Manufacturing of Computer, Electronic and Optical Products
+";1204
+C279;C27.9;3;Manufacture of other electrical equipment;Manufacturing ;"Manufacturing of Computer, Electronic and Optical Products
+";1204
+C2790;C27.90;4;Manufacture of other electrical equipment;Manufacturing ;"Manufacturing of Computer, Electronic and Optical Products
+";1204
+C161;C16.1;3;Sawmilling and planing of wood;Manufacturing ;Manufacturing of Construction Products;1205
+C1610;C16.10;4;Sawmilling and planing of wood;Manufacturing ;Manufacturing of Construction Products;1205
+C1621;C16.21;4;Manufacture of veneer sheets and wood-based panels;Manufacturing ;Manufacturing of Construction Products;1205
+C1622;C16.22;4;Manufacture of assembled parquet floors;Manufacturing ;Manufacturing of Construction Products;1205
+C1623;C16.23;4;Manufacture of other builders' carpentry and joinery;Manufacturing ;Manufacturing of Construction Products;1205
+C1724;C17.24;4;Manufacture of wallpaper;Manufacturing ;Manufacturing of Construction Products;1205
+C2223;C22.23;4;Manufacture of builders’ ware of plastic;Manufacturing ;Manufacturing of Construction Products;1205
+C233;C23.3;3;Manufacture of clay building materials;Manufacturing ;Manufacturing of Construction Products;1205
+C2331;C23.31;4;Manufacture of ceramic tiles and flags;Manufacturing ;Manufacturing of Construction Products;1205
+C2332;C23.32;4;Manufacture of bricks, tiles and construction products, in baked clay;Manufacturing ;Manufacturing of Construction Products;1205
+C2342;C23.42;4;Manufacture of ceramic sanitary fixtures;Manufacturing ;Manufacturing of Construction Products;1205
+C2343;C23.43;4;Manufacture of ceramic insulators and insulating fittings;Manufacturing ;Manufacturing of Construction Products;1205
+C235;C23.5;3;Manufacture of cement, lime and plaster;Manufacturing ;Manufacturing of Construction Products;1205
+C2351;C23.51;4;Manufacture of cement;Manufacturing ;Manufacturing of Construction Products;1205
+C2352;C23.52;4;Manufacture of lime and plaster;Manufacturing ;Manufacturing of Construction Products;1205
+C236;C23.6;3;Manufacture of articles of concrete, cement and plaster;Manufacturing ;Manufacturing of Construction Products;1205
+C2361;C23.61;4;Manufacture of concrete products for construction purposes;Manufacturing ;Manufacturing of Construction Products;1205
+C2362;C23.62;4;Manufacture of plaster products for construction purposes;Manufacturing ;Manufacturing of Construction Products;1205
+C2363;C23.63;4;Manufacture of ready-mixed concrete;Manufacturing ;Manufacturing of Construction Products;1205
+C2364;C23.64;4;Manufacture of mortars;Manufacturing ;Manufacturing of Construction Products;1205
+C2365;C23.65;4;Manufacture of fibre cement;Manufacturing ;Manufacturing of Construction Products;1205
+C2369;C23.69;4;Manufacture of other articles of concrete, plaster and cement;Manufacturing ;Manufacturing of Construction Products;1205
+C237;C23.7;3;Cutting, shaping and finishing of stone;Manufacturing ;Manufacturing of Construction Products;1205
+C2370;C23.70;4;Cutting, shaping and finishing of stone;Manufacturing ;Manufacturing of Construction Products;1205
+C2512;C25.12;4;Manufacture of doors and windows of metal;Manufacturing ;Manufacturing of Construction Products;1205
+C2521;C25.21;4;Manufacture of central heating radiators and boilers;Manufacturing ;Manufacturing of Construction Products;1205
+C2572;C25.72;4;Manufacture of locks and hinges;Manufacturing ;Manufacturing of Construction Products;1205
+C274;C27.4;3;Manufacture of electric lighting equipment;Manufacturing ;Manufacturing of Construction Products;1205
+C2740;C27.40;4;Manufacture of electric lighting equipment;Manufacturing ;Manufacturing of Construction Products;1205
+C2824;C28.24;4;Manufacture of power-driven hand tools;Manufacturing ;Manufacturing of Construction Products;1205
+C2825;C28.25;4;Manufacture of non-domestic cooling and ventilation equipment;Manufacturing ;Manufacturing of Construction Products;1205
+C10;C10;2;Manufacture of food products;Manufacturing ;Manufacturing of Food Products;1206
+C101;C10.1;3;Processing and preserving of meat and production of meat products;Manufacturing ;Manufacturing of Food Products;1206
+C1011;C10.11;4;Processing and preserving of meat;Manufacturing ;Manufacturing of Food Products;1206
+C1012;C10.12;4;Processing and preserving of poultry meat;Manufacturing ;Manufacturing of Food Products;1206
+C1013;C10.13;4;Production of meat and poultry meat products;Manufacturing ;Manufacturing of Food Products;1206
+C102;C10.2;3;Processing and preserving of fish, crustaceans and molluscs;Manufacturing ;Manufacturing of Food Products;1206
+C1020;C10.20;4;Processing and preserving of fish, crustaceans and molluscs;Manufacturing ;Manufacturing of Food Products;1206
+C103;C10.3;3;Processing and preserving of fruit and vegetables;Manufacturing ;Manufacturing of Food Products;1206
+C1031;C10.31;4;Processing and preserving of potatoes;Manufacturing ;Manufacturing of Food Products;1206
+C1032;C10.32;4;Manufacture of fruit and vegetable juice;Manufacturing ;Manufacturing of Food Products;1206
+C1039;C10.39;4;Other processing and preserving of fruit and vegetables;Manufacturing ;Manufacturing of Food Products;1206
+C104;C10.4;3;Manufacture of vegetable and animal oils and fats;Manufacturing ;Manufacturing of Food Products;1206
+C1041;C10.41;4;Manufacture of oils and fats;Manufacturing ;Manufacturing of Food Products;1206
+C1042;C10.42;4;Manufacture of margarine and similar edible fats;Manufacturing ;Manufacturing of Food Products;1206
+C105;C10.5;3;Manufacture of dairy products;Manufacturing ;Manufacturing of Food Products;1206
+C1051;C10.51;4;Operation of dairies and cheese making;Manufacturing ;Manufacturing of Food Products;1206
+C1052;C10.52;4;Manufacture of ice cream;Manufacturing ;Manufacturing of Food Products;1206
+C106;C10.6;3;Manufacture of grain mill products, starches and starch products;Manufacturing ;Manufacturing of Food Products;1206
+C1061;C10.61;4;Manufacture of grain mill products;Manufacturing ;Manufacturing of Food Products;1206
+C1062;C10.62;4;Manufacture of starches and starch products;Manufacturing ;Manufacturing of Food Products;1206
+C107;C10.7;3;Manufacture of bakery and farinaceous products;Manufacturing ;Manufacturing of Food Products;1206
+C1071;C10.71;4;"Manufacture of bread; manufacture of fresh pastry goods and cakes";Manufacturing ;Manufacturing of Food Products;1206
+C1072;C10.72;4;"Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes";Manufacturing ;Manufacturing of Food Products;1206
+C1073;C10.73;4;Manufacture of macaroni, noodles, couscous and similar farinaceous products;Manufacturing ;Manufacturing of Food Products;1206
+C108;C10.8;3;Manufacture of other food products;Manufacturing ;Manufacturing of Food Products;1206
+C1081;C10.81;4;Manufacture of sugar;Manufacturing ;Manufacturing of Food Products;1206
+C1082;C10.82;4;Manufacture of cocoa, chocolate and sugar confectionery;Manufacturing ;Manufacturing of Food Products;1206
+C1083;C10.83;4;Processing of tea and coffee;Manufacturing ;Manufacturing of Food Products;1206
+C1084;C10.84;4;Manufacture of condiments and seasonings;Manufacturing ;Manufacturing of Food Products;1206
+C1085;C10.85;4;Manufacture of prepared meals and dishes;Manufacturing ;Manufacturing of Food Products;1206
+C1086;C10.86;4;Manufacture of homogenised food preparations and dietetic food;Manufacturing ;Manufacturing of Food Products;1206
+C1089;C10.89;4;Manufacture of other food products n.e.c.;Manufacturing ;Manufacturing of Food Products;1206
+C109;C10.9;3;Manufacture of prepared animal feeds;Manufacturing ;Manufacturing of Food Products;1206
+C1091;C10.91;4;Manufacture of prepared feeds for farm animals;Manufacturing ;Manufacturing of Food Products;1206
+C1092;C10.92;4;Manufacture of prepared pet foods;Manufacturing ;Manufacturing of Food Products;1206
+C11;C11;2;Manufacture of beverages;Manufacturing ;Manufacturing of Food Products;1206
+C110;C11.0;3;Manufacture of beverages;Manufacturing ;Manufacturing of Food Products;1206
+C1101;C11.01;4;Distilling, rectifying and blending of spirits;Manufacturing ;Manufacturing of Food Products;1206
+C1102;C11.02;4;Manufacture of wine from grape;Manufacturing ;Manufacturing of Food Products;1206
+C1103;C11.03;4;Manufacture of cider and other fruit wines;Manufacturing ;Manufacturing of Food Products;1206
+C1104;C11.04;4;Manufacture of other non-distilled fermented beverages;Manufacturing ;Manufacturing of Food Products;1206
+C1105;C11.05;4;Manufacture of beer;Manufacturing ;Manufacturing of Food Products;1206
+C1106;C11.06;4;Manufacture of malt;Manufacturing ;Manufacturing of Food Products;1206
+C1107;C11.07;4;"Manufacture of soft drinks; production of mineral waters and other bottled waters";Manufacturing ;Manufacturing of Food Products;1206
+C12;C12;2;Manufacture of tobacco products;Manufacturing ;Manufacturing of Food Products;1206
+C120;C12.0;3;Manufacture of tobacco products;Manufacturing ;Manufacturing of Food Products;1206
+C1200;C12.00;4;Manufacture of tobacco products;Manufacturing ;Manufacturing of Food Products;1206
+C2893;C28.93;4;Manufacture of machinery for food, beverage and tobacco processing;Manufacturing ;Manufacturing of Food Products;1206
+C275;C27.5;3;Manufacture of domestic appliances;Manufacturing ;"Manufacturing of Furniture and Appliances
+";1207
+C2751;C27.51;4;Manufacture of electric domestic appliances;Manufacturing ;"Manufacturing of Furniture and Appliances
+";1207
+C2752;C27.52;4;Manufacture of non-electric domestic appliances;Manufacturing ;"Manufacturing of Furniture and Appliances
+";1207
+C2823;C28.23;4;Manufacture of office machinery and equipment (except computers and peripheral equipment);Manufacturing ;"Manufacturing of Furniture and Appliances
+";1207
+C31;C31;2;Manufacture of furniture;Manufacturing ;"Manufacturing of Furniture and Appliances
+";1207
+C310;C31.0;3;Manufacture of furniture;Manufacturing ;"Manufacturing of Furniture and Appliances
+";1207
+C3101;C31.01;4;Manufacture of office and shop furniture;Manufacturing ;"Manufacturing of Furniture and Appliances
+";1207
+C3102;C31.02;4;Manufacture of kitchen furniture;Manufacturing ;"Manufacturing of Furniture and Appliances
+";1207
+C3103;C31.03;4;Manufacture of mattresses;Manufacturing ;"Manufacturing of Furniture and Appliances
+";1207
+C3109;C31.09;4;Manufacture of other furniture;Manufacturing ;"Manufacturing of Furniture and Appliances
+";1207
+C21;C21;2;Manufacture of basic pharmaceutical products and pharmaceutical preparations;Manufacturing ;Manufacturing of Healthcare and Medical products;1208
+C211;C21.1;3;Manufacture of basic pharmaceutical products;Manufacturing ;Manufacturing of Healthcare and Medical products;1208
+C2110;C21.10;4;Manufacture of basic pharmaceutical products;Manufacturing ;Manufacturing of Healthcare and Medical products;1208
+C212;C21.2;3;Manufacture of pharmaceutical preparations;Manufacturing ;Manufacturing of Healthcare and Medical products;1208
+C2120;C21.20;4;Manufacture of pharmaceutical preparations;Manufacturing ;Manufacturing of Healthcare and Medical products;1208
+C266;C26.6;3;Manufacture of irradiation, electromedical and electrotherapeutic equipment;Manufacturing ;Manufacturing of Healthcare and Medical products;1208
+C2660;C26.60;4;Manufacture of irradiation, electromedical and electrotherapeutic equipment;Manufacturing ;Manufacturing of Healthcare and Medical products;1208
+C325;C32.5;3;Manufacture of medical and dental instruments and supplies;Manufacturing ;Manufacturing of Healthcare and Medical products;1208
+C3250;C32.50;4;Manufacture of medical and dental instruments and supplies;Manufacturing ;Manufacturing of Healthcare and Medical products;1208
+C26;C26;2;Manufacture of computer, electronic and optical products;Manufacturing ;Manufacturing of Information Technology and Telecommunications Goods;1209
+C261;C26.1;3;Manufacture of electronic components and boards;Manufacturing ;Manufacturing of Information Technology and Telecommunications Goods;1209
+C2611;C26.11;4;Manufacture of electronic components;Manufacturing ;Manufacturing of Information Technology and Telecommunications Goods;1209
+C2612;C26.12;4;Manufacture of loaded electronic boards;Manufacturing ;Manufacturing of Information Technology and Telecommunications Goods;1209
+C262;C26.2;3;Manufacture of computers and peripheral equipment;Manufacturing ;Manufacturing of Information Technology and Telecommunications Goods;1209
+C2620;C26.20;4;Manufacture of computers and peripheral equipment;Manufacturing ;Manufacturing of Information Technology and Telecommunications Goods;1209
+C263;C26.3;3;Manufacture of communication equipment;Manufacturing ;Manufacturing of Information Technology and Telecommunications Goods;1209
+C2630;C26.30;4;Manufacture of communication equipment;Manufacturing ;Manufacturing of Information Technology and Telecommunications Goods;1209
+C264;C26.4;3;Manufacture of consumer electronics;Manufacturing ;Manufacturing of Information Technology and Telecommunications Goods;1209
+C2640;C26.40;4;Manufacture of consumer electronics;Manufacturing ;Manufacturing of Information Technology and Telecommunications Goods;1209
+C322;C32.2;3;Manufacture of musical instruments;Manufacturing ;Manufacturing of Leisure Equipment;1210
+C3220;C32.20;4;Manufacture of musical instruments;Manufacturing ;Manufacturing of Leisure Equipment;1210
+C323;C32.3;3;Manufacture of sports goods;Manufacturing ;Manufacturing of Leisure Equipment;1210
+C3230;C32.30;4;Manufacture of sports goods;Manufacturing ;Manufacturing of Leisure Equipment;1210
+C324;C32.4;3;Manufacture of games and toys;Manufacturing ;Manufacturing of Leisure Equipment;1210
+C3240;C32.40;4;Manufacture of games and toys;Manufacturing ;Manufacturing of Leisure Equipment;1210
+C281;C28.1;3;Manufacture of general-purpose machinery;Manufacturing ;Manufacturing of Machinery and Equipment;1211
+C2811;C28.11;4;Manufacture of engines and turbines, except aircraft, vehicle and cycle engines;Manufacturing ;Manufacturing of Machinery and Equipment;1211
+C2812;C28.12;4;Manufacture of fluid power equipment;Manufacturing ;Manufacturing of Machinery and Equipment;1211
+C2813;C28.13;4;Manufacture of other pumps and compressors;Manufacturing ;Manufacturing of Machinery and Equipment;1211
+C2814;C28.14;4;Manufacture of other taps and valves;Manufacturing ;Manufacturing of Machinery and Equipment;1211
+C2815;C28.15;4;Manufacture of bearings, gears, gearing and driving elements;Manufacturing ;Manufacturing of Machinery and Equipment;1211
+C282;C28.2;3;Manufacture of other general-purpose machinery;Manufacturing ;Manufacturing of Machinery and Equipment;1211
+C2821;C28.21;4;Manufacture of ovens, furnaces and furnace burners;Manufacturing ;Manufacturing of Machinery and Equipment;1211
+C2822;C28.22;4;Manufacture of lifting and handling equipment;Manufacturing ;Manufacturing of Machinery and Equipment;1211
+C2829;C28.29;4;Manufacture of other general-purpose machinery n.e.c.;Manufacturing ;Manufacturing of Machinery and Equipment;1211
+C284;C28.4;3;Manufacture of metal forming machinery and machine tools;Manufacturing ;Manufacturing of Machinery and Equipment;1211
+C2841;C28.41;4;Manufacture of metal forming machinery;Manufacturing ;Manufacturing of Machinery and Equipment;1211
+C2849;C28.49;4;Manufacture of other machine tools;Manufacturing ;Manufacturing of Machinery and Equipment;1211
+C2891;C28.91;4;Manufacture of machinery for metallurgy;Manufacturing ;Manufacturing of Machinery and Equipment;1211
+C2895;C28.95;4;Manufacture of machinery for paper and paperboard production;Manufacturing ;Manufacturing of Machinery and Equipment;1211
+C2896;C28.96;4;Manufacture of plastics and rubber machinery;Manufacturing ;Manufacturing of Machinery and Equipment;1211
+C2899;C28.99;4;Manufacture of other special-purpose machinery n.e.c.;Manufacturing ;Manufacturing of Machinery and Equipment;1211
+C251;C25.1;3;Manufacture of structural metal products;Manufacturing ;Manufacturing of Metal Products;1212
+C2511;C25.11;4;Manufacture of metal structures and parts of structures;Manufacturing ;Manufacturing of Metal Products;1212
+C254;C25.4;3;Manufacture of weapons and ammunition;Manufacturing ;Manufacturing of Metal Products;1212
+C2540;C25.40;4;Manufacture of weapons and ammunition;Manufacturing ;Manufacturing of Metal Products;1212
+C255;C25.5;3;"Forging, pressing, stamping and roll-forming of metal; powder metallurgy";Manufacturing ;Manufacturing of Metal Products;1212
+C2550;C25.50;4;"Forging, pressing, stamping and roll-forming of metal; powder metallurgy";Manufacturing ;Manufacturing of Metal Products;1212
+C256;C25.6;3;"Treatment and coating of metals; machining";Manufacturing ;Manufacturing of Metal Products;1212
+C2561;C25.61;4;Treatment and coating of metals;Manufacturing ;Manufacturing of Metal Products;1212
+C2562;C25.62;4;Machining;Manufacturing ;Manufacturing of Metal Products;1212
+C257;C25.7;3;Manufacture of cutlery, tools and general hardware;Manufacturing ;Manufacturing of Metal Products;1212
+C2571;C25.71;4;Manufacture of cutlery;Manufacturing ;Manufacturing of Metal Products;1212
+C2573;C25.73;4;Manufacture of tools;Manufacturing ;Manufacturing of Metal Products;1212
+C259;C25.9;3;Manufacture of other fabricated metal products;Manufacturing ;Manufacturing of Metal Products;1212
+C2593;C25.93;4;Manufacture of wire products, chain and springs;Manufacturing ;Manufacturing of Metal Products;1212
+C2594;C25.94;4;Manufacture of fasteners and screw machine products;Manufacturing ;Manufacturing of Metal Products;1212
+C2599;C25.99;4;Manufacture of other fabricated metal products n.e.c.;Manufacturing ;Manufacturing of Metal Products;1212
+C2211;C22.11;4;"Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres";Manufacturing ;Manufacturing of Motor Vehicles;1213
+C29;C29;2;Manufacture of motor vehicles, trailers and semi-trailers;Manufacturing ;Manufacturing of Motor Vehicles;1213
+C291;C29.1;3;Manufacture of motor vehicles;Manufacturing ;Manufacturing of Motor Vehicles;1213
+C2910;C29.10;4;Manufacture of motor vehicles;Manufacturing ;Manufacturing of Motor Vehicles;1213
+C292;C29.2;3;"Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers";Manufacturing ;Manufacturing of Motor Vehicles;1213
+C2920;C29.20;4;"Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers";Manufacturing ;Manufacturing of Motor Vehicles;1213
+C293;C29.3;3;Manufacture of parts and accessories for motor vehicles;Manufacturing ;Manufacturing of Motor Vehicles;1213
+C2931;C29.31;4;Manufacture of electrical and electronic equipment for motor vehicles;Manufacturing ;Manufacturing of Motor Vehicles;1213
+C2932;C29.32;4;Manufacture of other parts and accessories for motor vehicles;Manufacturing ;Manufacturing of Motor Vehicles;1213
+C3211;C32.11;4;Striking of coins;Manufacturing ;Manufacturing of Non-Electrical Consumer Goods;1214
+C3299;C32.99;4;Other manufacturing n.e.c.;Manufacturing ;Manufacturing of Non-Electrical Consumer Goods;1214
+C22;C22;2;Manufacture of rubber and plastic products;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C221;C22.1;3;Manufacture of rubber products;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2219;C22.19;4;Manufacture of other rubber products;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C222;C22.2;3;Manufacture of plastics products;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2221;C22.21;4;Manufacture of plastic plates, sheets, tubes and profiles;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2222;C22.22;4;Manufacture of plastic packing goods;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2229;C22.29;4;Manufacture of other plastic products;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C23;C23;2;Manufacture of other non-metallic mineral products;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C231;C23.1;3;Manufacture of glass and glass products;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2311;C23.11;4;Manufacture of flat glass;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2312;C23.12;4;Shaping and processing of flat glass;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2313;C23.13;4;Manufacture of hollow glass;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2314;C23.14;4;Manufacture of glass fibres;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2319;C23.19;4;Manufacture and processing of other glass, including technical glassware;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C232;C23.2;3;Manufacture of refractory products;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2320;C23.20;4;Manufacture of refractory products;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C234;C23.4;3;Manufacture of other porcelain and ceramic products;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2341;C23.41;4;Manufacture of ceramic household and ornamental articles;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2344;C23.44;4;Manufacture of other technical ceramic products;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2349;C23.49;4;Manufacture of other ceramic products;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C239;C23.9;3;Manufacture of abrasive products and non-metallic mineral products n.e.c.;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2391;C23.91;4;Production of abrasive products;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2399;C23.99;4;Manufacture of other non-metallic mineral products n.e.c.;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C24;C24;2;Manufacture of basic metals;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C241;C24.1;3;Manufacture of basic iron and steel and of ferro-alloys;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2410;C24.10;4;Manufacture of basic iron and steel and of ferro-alloys;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C242;C24.2;3;Manufacture of tubes, pipes, hollow profiles and related fittings, of steel;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2420;C24.20;4;Manufacture of tubes, pipes, hollow profiles and related fittings, of steel;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C243;C24.3;3;Manufacture of other products of first processing of steel;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2431;C24.31;4;Cold drawing of bars;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2432;C24.32;4;Cold rolling of narrow strip;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2433;C24.33;4;Cold forming or folding;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2434;C24.34;4;Cold drawing of wire;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C244;C24.4;3;Manufacture of basic precious and other non-ferrous metals;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2441;C24.41;4;Precious metals production;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2442;C24.42;4;Aluminium production;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2443;C24.43;4;Lead, zinc and tin production;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2444;C24.44;4;Copper production;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2445;C24.45;4;Other non-ferrous metal production;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2446;C24.46;4;Processing of nuclear fuel;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C245;C24.5;3;Casting of metals;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2451;C24.51;4;Casting of iron;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2452;C24.52;4;Casting of steel;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2453;C24.53;4;Casting of light metals;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2454;C24.54;4;Casting of other non-ferrous metals;Manufacturing ;Manufacturing of Raw Materials and Parts;1215
+C2591;C25.91;4;Manufacture of steel drums and similar containers;Manufacturing ;Manufacturing of Transportation Equipment;1216
+C2592;C25.92;4;Manufacture of light metal packaging;Manufacturing ;Manufacturing of Transportation Equipment;1216
+C30;C30;2;Manufacture of other transport equipment;Manufacturing ;Manufacturing of Transportation Equipment;1216
+C301;C30.1;3;Building of ships and boats;Manufacturing ;Manufacturing of Transportation Equipment;1216
+C3011;C30.11;4;Building of ships and floating structures;Manufacturing ;Manufacturing of Transportation Equipment;1216
+C3012;C30.12;4;Building of pleasure and sporting boats;Manufacturing ;Manufacturing of Transportation Equipment;1216
+C302;C30.2;3;Manufacture of railway locomotives and rolling stock;Manufacturing ;Manufacturing of Transportation Equipment;1216
+C3020;C30.20;4;Manufacture of railway locomotives and rolling stock;Manufacturing ;Manufacturing of Transportation Equipment;1216
+C303;C30.3;3;Manufacture of air and spacecraft and related machinery;Manufacturing ;Manufacturing of Transportation Equipment;1216
+C3030;C30.30;4;Manufacture of air and spacecraft and related machinery;Manufacturing ;Manufacturing of Transportation Equipment;1216
+C304;C30.4;3;Manufacture of military fighting vehicles;Manufacturing ;Manufacturing of Transportation Equipment;1216
+C3040;C30.40;4;Manufacture of military fighting vehicles;Manufacturing ;Manufacturing of Transportation Equipment;1216
+C309;C30.9;3;Manufacture of transport equipment n.e.c.;Manufacturing ;Manufacturing of Transportation Equipment;1216
+C3091;C30.91;4;Manufacture of motorcycles;Manufacturing ;Manufacturing of Transportation Equipment;1216
+C3092;C30.92;4;Manufacture of bicycles and invalid carriages;Manufacturing ;Manufacturing of Transportation Equipment;1216
+C3099;C30.99;4;Manufacture of other transport equipment n.e.c.;Manufacturing ;Manufacturing of Transportation Equipment;1216
+C1629;C16.29;4;"Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials";Manufacturing ;Manufacturing of Wood and Paper Products;1217
+C171;C17.1;3;Manufacture of pulp, paper and paperboard;Manufacturing ;Manufacturing of Wood and Paper Products;1217
+C1711;C17.11;4;Manufacture of pulp;Manufacturing ;Manufacturing of Wood and Paper Products;1217
+C1712;C17.12;4;Manufacture of paper and paperboard;Manufacturing ;Manufacturing of Wood and Paper Products;1217
+C1722;C17.22;4;Manufacture of household and sanitary goods and of toilet requisites;Manufacturing ;Manufacturing of Wood and Paper Products;1217
+C1723;C17.23;4;Manufacture of paper stationery;Manufacturing ;Manufacturing of Wood and Paper Products;1217
+C1729;C17.29;4;Manufacture of other articles of paper and paperboard;Manufacturing ;Manufacturing of Wood and Paper Products;1217
+No Nace;No Nace;No Nace;No Nace;Automotive;Other (Automotive);1299
+D;D;1;Electricity, gas, steam and air conditioning supply;Energy and Utility Suppliers;;1300
+E;E;1;"Water supply; sewerage; waste managment and remediation activities";Energy and Utility Suppliers;;1300
+C253;C25.3;3;Manufacture of steam generators, except central heating hot water boilers;Energy and Utility Suppliers;Electricity;1301
+C2530;C25.30;4;Manufacture of steam generators, except central heating hot water boilers;Energy and Utility Suppliers;Electricity;1301
+C2712;C27.12;4;Manufacture of electricity distribution and control apparatus;Energy and Utility Suppliers;Electricity;1301
+D351;D35.1;3;Electric power generation, transmission and distribution;Energy and Utility Suppliers;Electricity;1301
+D3511;D35.11;4;Production of electricity;Energy and Utility Suppliers;Electricity;1301
+D3512;D35.12;4;Transmission of electricity;Energy and Utility Suppliers;Electricity;1301
+D3513;D35.13;4;Distribution of electricity;Energy and Utility Suppliers;Electricity;1301
+D3514;D35.14;4;Trade of electricity;Energy and Utility Suppliers;Electricity;1301
+D353;D35.3;3;Steam and air conditioning supply;Energy and Utility Suppliers;Electricity;1301
+D3530;D35.30;4;Steam and air conditioning supply;Energy and Utility Suppliers;Electricity;1301
+D352;D35.2;3;"Manufacture of gas; distribution of gaseous fuels through mains";Energy and Utility Suppliers;Gas;1302
+D3521;D35.21;4;Manufacture of gas;Energy and Utility Suppliers;Gas;1302
+D3522;D35.22;4;Distribution of gaseous fuels through mains;Energy and Utility Suppliers;Gas;1302
+D3523;D35.23;4;Trade of gas through mains;Energy and Utility Suppliers;Gas;1302
+G4671;G46.71;4;Wholesale of solid, liquid and gaseous fuels and related products;Energy and Utility Suppliers;Gas;1302
+E36;E36;2;Water collection, treatment and supply;Energy and Utility Suppliers;Water Supply;1303
+E360;E36.0;3;Water collection, treatment and supply;Energy and Utility Suppliers;Water Supply;1303
+E3600;E36.00;4;Water collection, treatment and supply;Energy and Utility Suppliers;Water Supply;1303
+E37;E37;2;Sewerage;Energy and Utility Suppliers;Water Supply;1303
+E370;E37.0;3;Sewerage;Energy and Utility Suppliers;Water Supply;1303
+E3700;E37.00;4;Sewerage;Energy and Utility Suppliers;Water Supply;1303
+E38;E38;2;"Waste collection, treatment and disposal activities; materials recovery";Energy and Utility Suppliers;Waste Collection, Treatment and Disposal Activities;1304
+E381;E38.1;3;Waste collection;Energy and Utility Suppliers;Waste Collection, Treatment and Disposal Activities;1304
+E3811;E38.11;4;Collection of non-hazardous waste;Energy and Utility Suppliers;Waste Collection, Treatment and Disposal Activities;1304
+E3812;E38.12;4;Collection of hazardous waste;Energy and Utility Suppliers;Waste Collection, Treatment and Disposal Activities;1304
+E382;E38.2;3;Waste treatment and disposal;Energy and Utility Suppliers;Waste Collection, Treatment and Disposal Activities;1304
+E3821;E38.21;4;Treatment and disposal of non-hazardous waste;Energy and Utility Suppliers;Waste Collection, Treatment and Disposal Activities;1304
+E3822;E38.22;4;Treatment and disposal of hazardous waste;Energy and Utility Suppliers;Waste Collection, Treatment and Disposal Activities;1304
+E383;E38.3;3;Materials recovery;Energy and Utility Suppliers;Waste Collection, Treatment and Disposal Activities;1304
+E3831;E38.31;4;Dismantling of wrecks;Energy and Utility Suppliers;Waste Collection, Treatment and Disposal Activities;1304
+E3832;E38.32;4;Recovery of sorted materials;Energy and Utility Suppliers;Waste Collection, Treatment and Disposal Activities;1304
+E39;E39;2;Remediation activities and other waste management services;Energy and Utility Suppliers;Waste Collection, Treatment and Disposal Activities;1304
+E390;E39.0;3;Remediation activities and other waste management services;Energy and Utility Suppliers;Waste Collection, Treatment and Disposal Activities;1304
+E3900;E39.00;4;Remediation activities and other waste management services;Energy and Utility Suppliers;Waste Collection, Treatment and Disposal Activities;1304
+G4677;G46.77;4;Wholesale of waste and scrap;Energy and Utility Suppliers;Waste Collection, Treatment and Disposal Activities;1304
+F;F;1;Construction;Construction;;1400
+M7111;M71.11;4;Architectural activities;Construction;Architects & Planners;1401
+F41;F41;2;Construction of buildings;Construction;Development of Building Projects;1402
+F411;F41.1;3;Development of building projects;Construction;Development of Building Projects;1402
+F4110;F41.10;4;Development of building projects;Construction;Development of Building Projects;1402
+F412;F41.2;3;Construction of residential and non-residential buildings;Construction;Development of Building Projects;1402
+F4120;F41.20;4;Construction of residential and non-residential buildings;Construction;Development of Building Projects;1402
+F431;F43.1;3;Demolition and site preparation;Construction;Development of Building Projects;1402
+F4311;F43.11;4;Demolition;Construction;Development of Building Projects;1402
+F4312;F43.12;4;Site preparation;Construction;Development of Building Projects;1402
+F4313;F43.13;4;Test drilling and boring;Construction;Development of Building Projects;1402
+F42;F42;2;Civil engineering;Construction;Development of Infrastructure Projects;1403
+F421;F42.1;3;Construction of roads and railways;Construction;Development of Infrastructure Projects;1403
+F4211;F42.11;4;Construction of roads and motorways;Construction;Development of Infrastructure Projects;1403
+F4212;F42.12;4;Construction of railways and underground railways;Construction;Development of Infrastructure Projects;1403
+F4213;F42.13;4;Construction of bridges and tunnels;Construction;Development of Infrastructure Projects;1403
+F422;F42.2;3;Construction of utility projects;Construction;Development of Infrastructure Projects;1403
+F4221;F42.21;4;Construction of utility projects for fluids;Construction;Development of Infrastructure Projects;1403
+F4222;F42.22;4;Construction of utility projects for electricity and telecommunications;Construction;Development of Infrastructure Projects;1403
+F429;F42.9;3;Construction of other civil engineering projects;Construction;Development of Infrastructure Projects;1403
+F4291;F42.91;4;Construction of water projects;Construction;Development of Infrastructure Projects;1403
+F4299;F42.99;4;Construction of other civil engineering projects n.e.c.;Construction;Development of Infrastructure Projects;1403
+F4321;F43.21;4;Electrical installation;Construction;Electrical Installation;1404
+F4322;F43.22;4;Plumbing, heat and air-conditioning installation;Construction;Plumbing, Heating and Air-Conditioning Installation;1405
+F4391;F43.91;4;Roofing activities;Construction;Roofing Activities;1406
+F4334;F43.34;4;Painting and glazing;Construction;Painting and Glazing;1407
+F4333;F43.33;4;Floor and wall covering;Construction;Floor and Wall Covering;1408
+F4331;F43.31;4;Plastering;Construction;Plastering;1409
+F4332;F43.32;4;Joinery installation;Construction;Joinery Installation;1410
+N7732;N77.32;4;Renting and leasing of construction and civil engineering machinery and equipment;Construction;Rental of Construction and Earthmoving Machinery;1411
+N7739;N77.39;4;Renting and leasing of other machinery, equipment and tangible goods n.e.c.;Construction;Rental of Construction and Earthmoving Machinery;1411
+F4329;F43.29;4;Other construction installation;Construction;Other (Construction);1499
+F4339;F43.39;4;Other building completion and finishing;Construction;Other (Construction);1499
+F4399;F43.99;4;Other specialised construction activities n.e.c.;Construction;Other (Construction);1499
+G451;G45.1;3;Sale of motor vehicles;Automotive;Sale of Motor Vehicles;1501
+G4511;G45.11;4;Sale of cars and light motor vehicles;Automotive;Sale of Motor Vehicles;1501
+G4519;G45.19;4;Sale of other motor vehicles;Automotive;Sale of Motor Vehicles;1501
+G452;G45.2;3;Maintenance and repair of motor vehicles;Automotive;Maintenance and Repair of Motor Vehicles;1502
+G4520;G45.20;4;Maintenance and repair of motor vehicles;Automotive;Maintenance and Repair of Motor Vehicles;1502
+G473;G47.3;3;Retail sale of automotive fuel in specialised stores;Automotive;Maintenance and Repair of Motor Vehicles;1502
+G4730;G47.30;4;Retail sale of automotive fuel in specialised stores;Automotive;Maintenance and Repair of Motor Vehicles;1502
+N771;N77.1;3;Renting and leasing of motor vehicles;Automotive;Rental of Motor Vehicles;1503
+N7711;N77.11;4;Renting and leasing of cars and light motor vehicles;Automotive;Rental of Motor Vehicles;1503
+N7712;N77.12;4;Renting and leasing of trucks;Automotive;Rental of Motor Vehicles;1503
+G454;G45.4;3;Sale, maintenance and repair of motorcycles and related parts and accessories;Automotive;Sale, Maintenance and Repair of Motorcycles and Related Parts and Accessories;1504
+G4540;G45.40;4;Sale, maintenance and repair of motorcycles and related parts and accessories;Automotive;Sale, Maintenance and Repair of Motorcycles and Related Parts and Accessories;1504
+G453;G45.3;3;Sale of motor vehicle parts and accessories;Automotive;Trade of Motor Vehicle Parts and Accessories;1505
+G4531;G45.31;4;Wholesale trade of motor vehicle parts and accessories;Automotive;Trade of Motor Vehicle Parts and Accessories;1505
+G4532;G45.32;4;Retail trade of motor vehicle parts and accessories;Automotive;Trade of Motor Vehicle Parts and Accessories;1505
+No Nace;No Nace;No Nace;No Nace;Cleaning and Facility Management Services;Other (Cleaning and Caretaking Services);1599
+G4618;G46.18;4;Agents specialised in the sale of other particular products;Trade;General Mixed Trade;1601
+G4619;G46.19;4;Agents involved in the sale of a variety of goods;Trade;General Mixed Trade;1601
+G4649;G46.49;4;Wholesale of other household goods;Trade;General Mixed Trade;1601
+G469;G46.9;3;Non-specialised wholesale trade;Trade;General Mixed Trade;1601
+G4690;G46.90;4;Non-specialised wholesale trade;Trade;General Mixed Trade;1601
+G4719;G47.19;4;Other retail sale in non-specialised stores;Trade;General Mixed Trade;1601
+G4778;G47.78;4;Other retail sale of new goods in specialised stores;Trade;General Mixed Trade;1601
+G4789;G47.89;4;Retail sale via stalls and markets of other goods;Trade;General Mixed Trade;1601
+G479;G47.9;3;Retail trade not in stores, stalls or markets;Trade;General Mixed Trade;1601
+G4791;G47.91;4;Retail sale via mail order houses or via Internet;Trade;General Mixed Trade;1601
+G4799;G47.99;4;Other retail sale not in stores, stalls or markets;Trade;General Mixed Trade;1601
+G4611;G46.11;4;Agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods;Trade;Sale of Agricultural, Forestry and Gardening Supplies;1602
+G462;G46.2;3;Wholesale of agricultural raw materials and live animals;Trade;Sale of Agricultural, Forestry and Gardening Supplies;1602
+G4621;G46.21;4;Wholesale of grain, unmanufactured tobacco, seeds and animal feeds;Trade;Sale of Agricultural, Forestry and Gardening Supplies;1602
+G4622;G46.22;4;Wholesale of flowers and plants;Trade;Sale of Agricultural, Forestry and Gardening Supplies;1602
+G4623;G46.23;4;Wholesale of live animals;Trade;Sale of Agricultural, Forestry and Gardening Supplies;1602
+G4624;G46.24;4;Wholesale of hides, skins and leather;Trade;Sale of Agricultural, Forestry and Gardening Supplies;1602
+G4661;G46.61;4;Wholesale of agricultural machinery, equipment and supplies;Trade;Sale of Agricultural, Forestry and Gardening Supplies;1602
+G4776;G47.76;4;Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food in specialised stores;Trade;Sale of Agricultural, Forestry and Gardening Supplies;1602
+G4616;G46.16;4;Agents involved in the sale of textiles, clothing, fur, footwear and leather goods;Trade;Sale of Clothes and Accessories;1603
+G4641;G46.41;4;Wholesale of textiles;Trade;Sale of Clothes and Accessories;1603
+G4642;G46.42;4;Wholesale of clothing and footwear;Trade;Sale of Clothes and Accessories;1603
+G4648;G46.48;4;Wholesale of watches and jewellery;Trade;Sale of Clothes and Accessories;1603
+G4751;G47.51;4;Retail sale of textiles in specialised stores;Trade;Sale of Clothes and Accessories;1603
+G4771;G47.71;4;Retail sale of clothing in specialised stores;Trade;Sale of Clothes and Accessories;1603
+G4772;G47.72;4;Retail sale of footwear and leather goods in specialised stores;Trade;Sale of Clothes and Accessories;1603
+G4777;G47.77;4;Retail sale of watches and jewellery in specialised stores;Trade;Sale of Clothes and Accessories;1603
+G4782;G47.82;4;Retail sale via stalls and markets of textiles, clothing and footwear;Trade;Sale of Clothes and Accessories;1603
+S9523;S95.23;4;Repair of footwear and leather goods;Trade;Sale of Clothes and Accessories;1603
+S9525;S95.25;4;Repair of watches, clocks and jewellery;Trade;Sale of Clothes and Accessories;1603
+S9601;S96.01;4;Washing and (dry-)cleaning of textile and fur products;Trade;Sale of Clothes and Accessories;1603
+G4613;G46.13;4;Agents involved in the sale of timber and building materials;Trade;Sale of Construction Products;1604
+G4663;G46.63;4;Wholesale of mining, construction and civil engineering machinery;Trade;Sale of Construction Products;1604
+G4673;G46.73;4;Wholesale of wood, construction materials and sanitary equipment;Trade;Sale of Construction Products;1604
+G4674;G46.74;4;Wholesale of hardware, plumbing and heating equipment and supplies;Trade;Sale of Construction Products;1604
+G4752;G47.52;4;Retail sale of hardware, paints and glass in specialised stores;Trade;Sale of Construction Products;1604
+G4753;G47.53;4;Retail sale of carpets, rugs, wall and floor coverings in specialised stores;Trade;Sale of Construction Products;1604
+G475;G47.5;3;Retail sale of other household equipment in specialised stores;Trade;Sale of Electronics and Consumer goods;1605
+G4754;G47.54;4;Retail sale of electrical household appliances in specialised stores;Trade;Sale of Electronics and Consumer goods;1605
+G476;G47.6;3;Retail sale of cultural and recreation goods in specialised stores;Trade;Sale of Electronics and Consumer goods;1605
+S95;S95;2;Repair of computers and personal and household goods;Trade;Sale of Electronics and Consumer goods;1605
+S952;S95.2;3;Repair of personal and household goods;Trade;Sale of Electronics and Consumer goods;1605
+S9521;S95.21;4;Repair of consumer electronics;Trade;Sale of Electronics and Consumer goods;1605
+G4617;G46.17;4;Agents involved in the sale of food, beverages and tobacco;Trade;Sale of Food Products;1606
+G463;G46.3;3;Wholesale of food, beverages and tobacco;Trade;Sale of Food Products;1606
+G4631;G46.31;4;Wholesale of fruit and vegetables;Trade;Sale of Food Products;1606
+G4632;G46.32;4;Wholesale of meat and meat products;Trade;Sale of Food Products;1606
+G4633;G46.33;4;Wholesale of dairy products, eggs and edible oils and fats;Trade;Sale of Food Products;1606
+G4634;G46.34;4;Wholesale of beverages;Trade;Sale of Food Products;1606
+G4635;G46.35;4;Wholesale of tobacco products;Trade;Sale of Food Products;1606
+G4636;G46.36;4;Wholesale of sugar and chocolate and sugar confectionery;Trade;Sale of Food Products;1606
+G4637;G46.37;4;Wholesale of coffee, tea, cocoa and spices;Trade;Sale of Food Products;1606
+G4638;G46.38;4;Wholesale of other food, including fish, crustaceans and molluscs;Trade;Sale of Food Products;1606
+G4639;G46.39;4;Non-specialised wholesale of food, beverages and tobacco;Trade;Sale of Food Products;1606
+G4711;G47.11;4;Retail sale in non-specialised stores with food, beverages or tobacco predominating;Trade;Sale of Food Products;1606
+G472;G47.2;3;Retail sale of food, beverages and tobacco in specialised stores;Trade;Sale of Food Products;1606
+G4721;G47.21;4;Retail sale of fruit and vegetables in specialised stores;Trade;Sale of Food Products;1606
+G4722;G47.22;4;Retail sale of meat and meat products in specialised stores;Trade;Sale of Food Products;1606
+G4723;G47.23;4;Retail sale of fish, crustaceans and molluscs in specialised stores;Trade;Sale of Food Products;1606
+G4724;G47.24;4;Retail sale of bread, cakes, flour confectionery and sugar confectionery in specialised stores;Trade;Sale of Food Products;1606
+G4725;G47.25;4;Retail sale of beverages in specialised stores;Trade;Sale of Food Products;1606
+G4726;G47.26;4;Retail sale of tobacco products in specialised stores;Trade;Sale of Food Products;1606
+G4729;G47.29;4;Other retail sale of food in specialised stores;Trade;Sale of Food Products;1606
+G4781;G47.81;4;Retail sale via stalls and markets of food, beverages and tobacco products;Trade;Sale of Food Products;1606
+G4615;G46.15;4;Agents involved in the sale of furniture, household goods, hardware and ironmongery;Trade;Sale of Furniture and Appliances;1607
+G4643;G46.43;4;Wholesale of electrical household appliances;Trade;Sale of Furniture and Appliances;1607
+G4644;G46.44;4;Wholesale of china and glassware and cleaning materials;Trade;Sale of Furniture and Appliances;1607
+G4647;G46.47;4;Wholesale of furniture, carpets and lighting equipment;Trade;Sale of Furniture and Appliances;1607
+G4665;G46.65;4;Wholesale of office furniture;Trade;Sale of Furniture and Appliances;1607
+G4666;G46.66;4;Wholesale of other office machinery and equipment;Trade;Sale of Furniture and Appliances;1607
+G4759;G47.59;4;Retail sale of furniture, lighting equipment and other household articles in specialised stores;Trade;Sale of Furniture and Appliances;1607
+G4779;G47.79;4;Retail sale of second-hand goods in stores;Trade;Sale of Furniture and Appliances;1607
+N7729;N77.29;4;Renting and leasing of other personal and household goods;Trade;Sale of Furniture and Appliances;1607
+N7733;N77.33;4;Renting and leasing of office machinery and equipment (including computers);Trade;Sale of Furniture and Appliances;1607
+S9522;S95.22;4;Repair of household appliances and home and garden equipment;Trade;Sale of Furniture and Appliances;1607
+S9524;S95.24;4;Repair of furniture and home furnishings;Trade;Sale of Furniture and Appliances;1607
+S9529;S95.29;4;Repair of other personal and household goods;Trade;Sale of Furniture and Appliances;1607
+G4612;G46.12;4;Agents involved in the sale of fuels, ores, metals and industrial chemicals;Trade;Sale of Industrial Products;1608
+G4675;G46.75;4;Wholesale of chemical products;Trade;Sale of Industrial Products;1608
+G4676;G46.76;4;Wholesale of other intermediate products;Trade;Sale of Industrial Products;1608
+G465;G46.5;3;Wholesale of information and communication equipment;Trade;Sale of Information Technology and Telecommunications goods;1609
+G4651;G46.51;4;Wholesale of computers, computer peripheral equipment and software;Trade;Sale of Information Technology and Telecommunications goods;1609
+G4652;G46.52;4;Wholesale of electronic and telecommunications equipment and parts;Trade;Sale of Information Technology and Telecommunications goods;1609
+G474;G47.4;3;Retail sale of information and communication equipment in specialised stores;Trade;Sale of Information Technology and Telecommunications goods;1609
+G4741;G47.41;4;Retail sale of computers, peripheral units and software in specialised stores;Trade;Sale of Information Technology and Telecommunications goods;1609
+G4742;G47.42;4;Retail sale of telecommunications equipment in specialised stores;Trade;Sale of Information Technology and Telecommunications goods;1609
+G4743;G47.43;4;Retail sale of audio and video equipment in specialised stores;Trade;Sale of Information Technology and Telecommunications goods;1609
+S951;S95.1;3;Repair of computers and communication equipment;Trade;Sale of Information Technology and Telecommunications goods;1609
+S9511;S95.11;4;Repair of computers and peripheral equipment;Trade;Sale of Information Technology and Telecommunications goods;1609
+S9512;S95.12;4;Repair of communication equipment;Trade;Sale of Information Technology and Telecommunications goods;1609
+G4763;G47.63;4;Retail sale of music and video recordings in specialised stores;Trade;Sale of Leisure Equipment;1610
+G4764;G47.64;4;Retail sale of sporting equipment in specialised stores;Trade;Sale of Leisure Equipment;1610
+G4765;G47.65;4;Retail sale of games and toys in specialised stores;Trade;Sale of Leisure Equipment;1610
+G4614;G46.14;4;Agents involved in the sale of machinery, industrial equipment, ships and aircraft;Trade;Sale of Machinery and Equipment;1611
+G466;G46.6;3;Wholesale of other machinery, equipment and supplies;Trade;Sale of Machinery and Equipment;1611
+G4662;G46.62;4;Wholesale of machine tools;Trade;Sale of Machinery and Equipment;1611
+G4664;G46.64;4;Wholesale of machinery for the textile industry and of sewing and knitting machines;Trade;Sale of Machinery and Equipment;1611
+G4669;G46.69;4;Wholesale of other machinery and equipment;Trade;Sale of Machinery and Equipment;1611
+G4646;G46.46;4;Wholesale of pharmaceutical goods;Trade;Sale of Medical and Pharmaceutical products;1612
+G4773;G47.73;4;Dispensing chemist in specialised stores;Trade;Sale of Medical and Pharmaceutical products;1612
+G4774;G47.74;4;Retail sale of medical and orthopaedic goods in specialised stores;Trade;Sale of Medical and Pharmaceutical products;1612
+G4761;G47.61;4;Retail sale of books in specialised stores;Trade;Sale of Published Goods;1613
+G4762;G47.62;4;Retail sale of newspapers and stationery in specialised stores;Trade;Sale of Published Goods;1613
+No Nace;No Nace;No Nace;No Nace;Financial Services and Insurance;Other (Financial Service);1699
+H;H;1;Transporting and storage;Transportation;;1700
+H491;H49.1;3;Passenger rail transport, interurban;Transportation;Transport of Persons;1701
+H4910;H49.10;4;Passenger rail transport, interurban;Transportation;Transport of Persons;1701
+H493;H49.3;3;Other passenger land transport;Transportation;Transport of Persons;1701
+H4931;H49.31;4;Urban and suburban passenger land transport;Transportation;Transport of Persons;1701
+H4932;H49.32;4;Taxi operation;Transportation;Transport of Persons;1701
+H4939;H49.39;4;Other passenger land transport n.e.c.;Transportation;Transport of Persons;1701
+H501;H50.1;3;Sea and coastal passenger water transport;Transportation;Transport of Persons;1701
+H5010;H50.10;4;Sea and coastal passenger water transport;Transportation;Transport of Persons;1701
+H503;H50.3;3;Inland passenger water transport;Transportation;Transport of Persons;1701
+H5030;H50.30;4;Inland passenger water transport;Transportation;Transport of Persons;1701
+H511;H51.1;3;Passenger air transport;Transportation;Transport of Persons;1701
+H5110;H51.10;4;Passenger air transport;Transportation;Transport of Persons;1701
+C1624;C16.24;4;Manufacture of wooden containers;Transportation;Transport of Freight;1702
+C1721;C17.21;4;Manufacture of corrugated paper and paperboard and of containers of paper and paperboard;Transportation;Transport of Freight;1702
+C2529;C25.29;4;Manufacture of other tanks, reservoirs and containers of metal;Transportation;Transport of Freight;1702
+C3315;C33.15;4;Repair and maintenance of ships and boats;Transportation;Transport of Freight;1702
+C3316;C33.16;4;Repair and maintenance of aircraft and spacecraft;Transportation;Transport of Freight;1702
+C3317;C33.17;4;Repair and maintenance of other transport equipment;Transportation;Transport of Freight;1702
+H492;H49.2;3;Freight rail transport;Transportation;Transport of Freight;1702
+H4920;H49.20;4;Freight rail transport;Transportation;Transport of Freight;1702
+H494;H49.4;3;Freight transport by road and removal services;Transportation;Transport of Freight;1702
+H4941;H49.41;4;Freight transport by road;Transportation;Transport of Freight;1702
+H4942;H49.42;4;Removal services;Transportation;Transport of Freight;1702
+H495;H49.5;3;Transport via pipeline;Transportation;Transport of Freight;1702
+H4950;H49.50;4;Transport via pipeline;Transportation;Transport of Freight;1702
+H502;H50.2;3;Sea and coastal freight water transport;Transportation;Transport of Freight;1702
+H5020;H50.20;4;Sea and coastal freight water transport;Transportation;Transport of Freight;1702
+H504;H50.4;3;Inland freight water transport;Transportation;Transport of Freight;1702
+H5040;H50.40;4;Inland freight water transport;Transportation;Transport of Freight;1702
+H512;H51.2;3;Freight air transport and space transport;Transportation;Transport of Freight;1702
+H5121;H51.21;4;Freight air transport;Transportation;Transport of Freight;1702
+H5122;H51.22;4;Space transport;Transportation;Transport of Freight;1702
+H52;H52;2;Warehousing and support activities for transportation;Transportation;Transport of Freight;1702
+H521;H52.1;3;Warehousing and storage;Transportation;Transport of Freight;1702
+H5210;H52.10;4;Warehousing and storage;Transportation;Transport of Freight;1702
+H522;H52.2;3;Support activities for transportation;Transportation;Transport of Freight;1702
+H5221;H52.21;4;Service activities incidental to land transportation;Transportation;Transport of Freight;1702
+H5222;H52.22;4;Service activities incidental to water transportation;Transportation;Transport of Freight;1702
+H5223;H52.23;4;Service activities incidental to air transportation;Transportation;Transport of Freight;1702
+H5224;H52.24;4;Cargo handling;Transportation;Transport of Freight;1702
+H5229;H52.29;4;Other transportation support activities;Transportation;Transport of Freight;1702
+H53;H53;2;Postal and courier activities;Transportation;Transport of Freight;1702
+H531;H53.1;3;Postal activities under universal service obligation;Transportation;Transport of Freight;1702
+H5310;H53.10;4;Postal activities under universal service obligation;Transportation;Transport of Freight;1702
+H532;H53.2;3;Other postal and courier activities;Transportation;Transport of Freight;1702
+H5320;H53.20;4;Other postal and courier activities;Transportation;Transport of Freight;1702
+N7735;N77.35;4;Renting and leasing of air transport equipment;Transportation;Transport of Freight;1702
+N8292;N82.92;4;Packaging activities;Transportation;Transport of Freight;1702
+No Nace;No Nace;No Nace;No Nace;Legal, Public Order, Security;Other (Legal, Public Order, Security);1799
+I551;I55.1;3;Hotels and similar accommodation;Tourism and Accommodation;Hotels, Guest Houses and Hostels;1801
+I5510;I55.10;4;Hotels and similar accommodation;Tourism and Accommodation;Hotels, Guest Houses and Hostels;1801
+I552;I55.2;3;Holiday and other short-stay accommodation;Tourism and Accommodation;Self-Catered Acommodation;1802
+I5520;I55.20;4;Holiday and other short-stay accommodation;Tourism and Accommodation;Self-Catered Acommodation;1802
+I553;I55.3;3;Camping grounds, recreational vehicle parks and trailer parks;Tourism and Accommodation;Camp Sites and Caravan Parks;1803
+I5530;I55.30;4;Camping grounds, recreational vehicle parks and trailer parks;Tourism and Accommodation;Camp Sites and Caravan Parks;1803
+N7734;N77.34;4;Renting and leasing of water transport equipment;Tourism and Accommodation;Travel Agency and Tour Operators;1804
+N79;N79;2;Travel agency, tour operator and other reservation service and related activities;Tourism and Accommodation;Travel Agency and Tour Operators;1804
+N791;N79.1;3;Travel agency and tour operator activities;Tourism and Accommodation;Travel Agency and Tour Operators;1804
+N7911;N79.11;4;Travel agency activities;Tourism and Accommodation;Travel Agency and Tour Operators;1804
+N7912;N79.12;4;Tour operator activities;Tourism and Accommodation;Travel Agency and Tour Operators;1804
+N799;N79.9;3;Other reservation service and related activities;Tourism and Accommodation;Travel Agency and Tour Operators;1804
+N7990;N79.90;4;Other reservation service and related activities;Tourism and Accommodation;Travel Agency and Tour Operators;1804
+No Nace;No Nace;No Nace;No Nace;Leisure & Entertainment;Adult Entertainment;1899
+I559;I55.9;3;Other accommodation;Tourism and Accommodation;Other (Tourism and Accommodation);1899
+I5590;I55.90;4;Other accommodation;Tourism and Accommodation;Other (Tourism and Accommodation);1899
+I561;I56.1;3;Restaurants and mobile food service activities;Restaurants, Bars, Cafes, Catering;Restaurants, Cafes, Food Stands, Canteens;1901
+I5610;I56.10;4;Restaurants and mobile food service activities;Restaurants, Bars, Cafes, Catering;Restaurants, Cafes, Food Stands, Canteens;1901
+I5629;I56.29;4;Other food service activities;Restaurants, Bars, Cafes, Catering;Restaurants, Cafes, Food Stands, Canteens;1901
+I563;I56.3;3;Beverage serving activities;Restaurants, Bars, Cafes, Catering;Bars ;1902
+I5630;I56.30;4;Beverage serving activities;Restaurants, Bars, Cafes, Catering;Bars ;1902
+I5621;I56.21;4;Event catering activities;Restaurants, Bars, Cafes, Catering;Event Catering;1903
+No Nace;No Nace;No Nace;No Nace;Manufacturing ;Other (Manufacturing);1999
+C18;C18;2;Printing and reproduction of recorded media;Publishing, Printing and Photography;Publishing & Printing;2001
+C181;C18.1;3;Printing and service activities related to printing;Publishing, Printing and Photography;Publishing & Printing;2001
+C1811;C18.11;4;Printing of newspapers;Publishing, Printing and Photography;Publishing & Printing;2001
+C1812;C18.12;4;Other printing;Publishing, Printing and Photography;Publishing & Printing;2001
+C1813;C18.13;4;Pre-press and pre;Publishing, Printing and Photography;Publishing & Printing;2001
+C1814;C18.14;4;Binding and related services;Publishing, Printing and Photography;Publishing & Printing;2001
+C182;C18.2;3;Reproduction of recorded media;Publishing, Printing and Photography;Publishing & Printing;2001
+C1820;C18.20;4;Reproduction of recorded media;Publishing, Printing and Photography;Publishing & Printing;2001
+J58;J58;2;Publishing activities;Publishing, Printing and Photography;Publishing & Printing;2001
+J581;J58.1;3;Publishing of books, periodicals and other publishing activities;Publishing, Printing and Photography;Publishing & Printing;2001
+J5811;J58.11;4;Book publishing;Publishing, Printing and Photography;Publishing & Printing;2001
+J5812;J58.12;4;Publishing of directories and mailing lists;Publishing, Printing and Photography;Publishing & Printing;2001
+J5813;J58.13;4;Publishing of newspapers;Publishing, Printing and Photography;Publishing & Printing;2001
+J5814;J58.14;4;Publishing of journals and periodicals;Publishing, Printing and Photography;Publishing & Printing;2001
+J5819;J58.19;4;Other publishing activities;Publishing, Printing and Photography;Publishing & Printing;2001
+J582;J58.2;3;Software publishing;Publishing, Printing and Photography;Publishing & Printing;2001
+J5821;J58.21;4;Publishing of computer games;Publishing, Printing and Photography;Publishing & Printing;2001
+J5829;J58.29;4;Other software publishing;Publishing, Printing and Photography;Publishing & Printing;2001
+M741;M74.1;3;Specialised design activities;Publishing, Printing and Photography;Design & Photography;2002
+M7410;M74.10;4;Specialised design activities;Publishing, Printing and Photography;Design & Photography;2002
+M742;M74.2;3;Photographic activities;Publishing, Printing and Photography;Design & Photography;2002
+M7420;M74.20;4;Photographic activities;Publishing, Printing and Photography;Design & Photography;2002
+R;R;1;Arts, entertainment and recreation;Leisure & Entertainment;;2100
+R90;R90;2;Creative, arts and entertainment activities;Leisure & Entertainment;Cultural & Arts;2101
+R900;R90.0;3;Creative, arts and entertainment activities;Leisure & Entertainment;Cultural & Arts;2101
+R9001;R90.01;4;Performing arts;Leisure & Entertainment;Cultural & Arts;2101
+R9002;R90.02;4;Support activities to performing arts;Leisure & Entertainment;Cultural & Arts;2101
+R9003;R90.03;4;Artistic creation;Leisure & Entertainment;Cultural & Arts;2101
+R9004;R90.04;4;Operation of arts facilities;Leisure & Entertainment;Cultural & Arts;2101
+R91;R91;2;Libraries, archives, museums and other cultural activities;Leisure & Entertainment;Cultural & Arts;2101
+R910;R91.0;3;Libraries, archives, museums and other cultural activities;Leisure & Entertainment;Cultural & Arts;2101
+R9101;R91.01;4;Library and archives activities;Leisure & Entertainment;Cultural & Arts;2101
+R9102;R91.02;4;Museums activities;Leisure & Entertainment;Cultural & Arts;2101
+R9103;R91.03;4;Operation of historical sites and buildings and similar visitor attractions;Leisure & Entertainment;Cultural & Arts;2101
+R9104;R91.04;4;Botanical and zoological gardens and nature reserves activities;Leisure & Entertainment;Cultural & Arts;2101
+J591;J59.1;3;Motion picture, video and television programme activities;Leisure & Entertainment;Television, Film & Music Production;2102
+J5911;J59.11;4;Motion picture, video and television programme production activities;Leisure & Entertainment;Television, Film & Music Production;2102
+J5912;J59.12;4;Motion picture, video and television programme post-production activities;Leisure & Entertainment;Television, Film & Music Production;2102
+J5913;J59.13;4;Motion picture, video and television programme distribution activities;Leisure & Entertainment;Television, Film & Music Production;2102
+J5914;J59.14;4;Motion picture projection activities;Leisure & Entertainment;Television, Film & Music Production;2102
+J592;J59.2;3;Sound recording and music publishing activities;Leisure & Entertainment;Television, Film & Music Production;2102
+J5920;J59.20;4;Sound recording and music publishing activities;Leisure & Entertainment;Television, Film & Music Production;2102
+J60;J60;2;Programming and broadcasting activities;Leisure & Entertainment;Television, Film & Music Production;2102
+J601;J60.1;3;Radio broadcasting;Leisure & Entertainment;Television, Film & Music Production;2102
+J6010;J60.10;4;Radio broadcasting;Leisure & Entertainment;Television, Film & Music Production;2102
+J602;J60.2;3;Television programming and broadcasting activities;Leisure & Entertainment;Television, Film & Music Production;2102
+J6020;J60.20;4;Television programming and broadcasting activities;Leisure & Entertainment;Television, Film & Music Production;2102
+J59;J59;2;Motion picture, video and television programme production, sound recording and music publishing activities;Leisure & Entertainment ;Television, Film & Music Production;2102
+R931;R93.1;3;Sports activities;Leisure & Entertainment;Sport;2103
+R9311;R93.11;4;Operation of sports facilities;Leisure & Entertainment;Sport;2103
+R9312;R93.12;4;Activities of sport clubs;Leisure & Entertainment;Sport;2103
+R9313;R93.13;4;Fitness facilities;Leisure & Entertainment;Sport;2103
+R9319;R93.19;4;Other sports activities;Leisure & Entertainment;Sport;2103
+R92;R92;2;Gambling and betting activities;Leisure & Entertainment;Gambling & Betting;2104
+R920;R92.0;3;Gambling and betting activities;Leisure & Entertainment;Gambling & Betting;2104
+R9200;R92.00;4;Gambling and betting activities;Leisure & Entertainment;Gambling & Betting;2104
+No Nace;No Nace;No Nace;No Nace;Personal Services;Residential Cleaning;2105
+N772;N77.2;3;Renting and leasing of personal and household goods;Leisure & Entertainment;Other (Leisure & Entertainment);2199
+N7721;N77.21;4;Renting and leasing of recreational and sports goods;Leisure & Entertainment;Other (Leisure & Entertainment);2199
+N7722;N77.22;4;Renting of video tapes and disks;Leisure & Entertainment;Other (Leisure & Entertainment);2199
+R932;R93.2;3;Amusement and recreation activities;Leisure & Entertainment;Other (Leisure & Entertainment);2199
+R9321;R93.21;4;Activities of amusement parks and theme parks;Leisure & Entertainment;Other (Leisure & Entertainment);2199
+R9329;R93.29;4;Other amusement and recreation activities;Leisure & Entertainment;Other (Leisure & Entertainment);2199
+S9604;S96.04;4;Physical well-being activities;Leisure & Entertainment;Other (Leisure & Entertainment);2199
+C2042;C20.42;4;Manufacture of perfumes and toilet preparations;Beauty and Perfume;Beauty and Perfume;2201
+C2053;C20.53;4;Manufacture of essential oils;Beauty and Perfume;Beauty and Perfume;2201
+G4645;G46.45;4;Wholesale of perfume and cosmetics;Beauty and Perfume;Beauty and Perfume;2201
+G4775;G47.75;4;Retail sale of cosmetic and toilet articles in specialised stores;Beauty and Perfume;Beauty and Perfume;2201
+S9602;S96.02;4;Hairdressing and other beauty treatment;Beauty and Perfume;Beauty and Perfume;2201
+J61;J61;2;Telecommunications;IT;IT;2301
+J611;J61.1;3;Wired telecommunications activities;IT;IT;2301
+J6110;J61.10;4;Wired telecommunications activities;IT;IT;2301
+J612;J61.2;3;Wireless telecommunications activities;IT;IT;2301
+J6120;J61.20;4;Wireless telecommunications activities;IT;IT;2301
+J613;J61.3;3;Satellite telecommunications activities;IT;IT;2301
+J6130;J61.30;4;Satellite telecommunications activities;IT;IT;2301
+J619;J61.9;3;Other telecommunications activities;IT;IT;2301
+J6190;J61.90;4;Other telecommunications activities;IT;IT;2301
+J62;J62;2;Computer programming, consultancy and related activities;IT;IT;2301
+J620;J62.0;3;Computer programming, consultancy and related activities;IT;IT;2301
+J6201;J62.01;4;Computer programming activities;IT;IT;2301
+J6202;J62.02;4;Computer consultancy activities;IT;IT;2301
+J6203;J62.03;4;Computer facilities management activities;IT;IT;2301
+J6209;J62.09;4;Other information technology and computer service activities;IT;IT;2301
+J63;J63;2;Information service activities;IT;IT;2301
+J631;J63.1;3;"Data processing, hosting and related activities; web portals";IT;IT;2301
+J6311;J63.11;4;Data processing, hosting and related activities;IT;IT;2301
+J6312;J63.12;4;Web portals;IT;IT;2301
+J639;J63.9;3;Other information service activities;IT;IT;2301
+J6391;J63.91;4;News agency activities;IT;IT;2301
+J6399;J63.99;4;Other information service activities n.e.c.;IT;IT;2301
+K;K;1;Financial and insurance activities;Financial Services and Insurance;;2400
+K64;K64;2;Financial service activities, except insurance and pension funding;Financial Services and Insurance;Financial Service;2401
+K641;K64.1;3;Monetary intermediation;Financial Services and Insurance;Financial Service;2401
+K6411;K64.11;4;Central banking;Financial Services and Insurance;Financial Service;2401
+K6419;K64.19;4;Other monetary intermediation;Financial Services and Insurance;Financial Service;2401
+K642;K64.2;3;Activities of holding companies;Financial Services and Insurance;Financial Service;2401
+K6420;K64.20;4;Activities of holding companies;Financial Services and Insurance;Financial Service;2401
+K643;K64.3;3;Trusts, funds and similar financial entities;Financial Services and Insurance;Financial Service;2401
+K6430;K64.30;4;Trusts, funds and similar financial entities;Financial Services and Insurance;Financial Service;2401
+K649;K64.9;3;Other financial service activities, except insurance and pension funding;Financial Services and Insurance;Financial Service;2401
+K6491;K64.91;4;Financial leasing;Financial Services and Insurance;Financial Service;2401
+K6492;K64.92;4;Other credit granting;Financial Services and Insurance;Financial Service;2401
+K6499;K64.99;4;Other financial service activities, except insurance and pension funding n.e.c.;Financial Services and Insurance;Financial Service;2401
+K66;K66;2;Activities auxiliary to financial services and insurance activities;Financial Services and Insurance;Financial Service;2401
+K661;K66.1;3;Activities auxiliary to financial services, except insurance and pension funding;Financial Services and Insurance;Financial Service;2401
+K6611;K66.11;4;Administration of financial markets;Financial Services and Insurance;Financial Service;2401
+K6612;K66.12;4;Security and commodity contracts brokerage;Financial Services and Insurance;Financial Service;2401
+K6619;K66.19;4;Other activities auxiliary to financial services, except insurance and pension funding;Financial Services and Insurance;Financial Service;2401
+K662;K66.2;3;Activities auxiliary to insurance and pension funding;Financial Services and Insurance;Financial Service;2401
+K6621;K66.21;4;Risk and damage evaluation;Financial Services and Insurance;Financial Service;2401
+K6622;K66.22;4;Activities of insurance agents and brokers;Financial Services and Insurance;Financial Service;2401
+K6629;K66.29;4;Other activities auxiliary to insurance and pension funding;Financial Services and Insurance;Financial Service;2401
+K663;K66.3;3;Fund management activities;Financial Services and Insurance;Financial Service;2401
+K6630;K66.30;4;Fund management activities;Financial Services and Insurance;Financial Service;2401
+N8291;N82.91;4;Activities of collection agencies and credit bureaus;Financial Services and Insurance;Financial Service;2401
+K65;K65;2;Insurance, reinsurance and pension funding, except compulsory social security;Financial Services and Insurance;Insurance and Pension Funding;2402
+K651;K65.1;3;Insurance;Financial Services and Insurance;Insurance and Pension Funding;2402
+K6511;K65.11;4;Life insurance;Financial Services and Insurance;Insurance and Pension Funding;2402
+K6512;K65.12;4;Non-life insurance;Financial Services and Insurance;Insurance and Pension Funding;2402
+K652;K65.2;3;Reinsurance;Financial Services and Insurance;Insurance and Pension Funding;2402
+K6520;K65.20;4;Reinsurance;Financial Services and Insurance;Insurance and Pension Funding;2402
+K653;K65.3;3;Pension funding;Financial Services and Insurance;Insurance and Pension Funding;2402
+K6530;K65.30;4;Pension funding;Financial Services and Insurance;Insurance and Pension Funding;2402
+M692;M69.2;3;"Accounting, bookkeeping and auditing activities; tax consultancy";Financial Services and Insurance;Accounting Services;2403
+M6920;M69.20;4;"Accounting, bookkeeping and auditing activities; tax consultancy";Financial Services and Insurance;Accounting Services;2403
+No Nace;No Nace;No Nace;No Nace;Personal Services;Pet Services;2499
+L;L;1;Real estate activities;Real Estate;;2500
+L68;L68;2;Real estate activities;Real Estate;Real Estate;2501
+L681;L68.1;3;Buying and selling of own real estate;Real Estate;Real Estate;2501
+L6810;L68.10;4;Buying and selling of own real estate;Real Estate;Real Estate;2501
+L682;L68.2;3;Renting and operating of own or leased real estate;Real Estate;Real Estate;2501
+L6820;L68.20;4;Renting and operating of own or leased real estate;Real Estate;Real Estate;2501
+L683;L68.3;3;Real estate activities on a fee or contract basis;Real Estate;Real Estate;2501
+L6831;L68.31;4;Real estate agencies;Real Estate;Real Estate;2501
+L6832;L68.32;4;Management of real estate on a fee or contract basis;Real Estate;Real Estate;2501
+M743;M74.3;3;Translation and interpretation activities;Project Management, Marketing and Admin;Office Admin and Support ;2601
+M7430;M74.30;4;Translation and interpretation activities;Project Management, Marketing and Admin;Office Admin and Support ;2601
+N821;N82.1;3;Office administrative and support activities;Project Management, Marketing and Admin;Office Admin and Support ;2601
+N8211;N82.11;4;Combined office administrative service activities;Project Management, Marketing and Admin;Office Admin and Support ;2601
+N8219;N82.19;4;Photocopying, document preparation and other specialised office support activities;Project Management, Marketing and Admin;Office Admin and Support ;2601
+N822;N82.2;3;Activities of call centres;Project Management, Marketing and Admin;Office Admin and Support ;2601
+N8220;N82.20;4;Activities of call centres;Project Management, Marketing and Admin;Office Admin and Support ;2601
+N823;N82.3;3;Organisation of conventions and trade shows;Project Management, Marketing and Admin;Office Admin and Support ;2601
+N8230;N82.30;4;Organisation of conventions and trade shows;Project Management, Marketing and Admin;Office Admin and Support ;2601
+N8299;N82.99;4;Other business support service activities n.e.c.;Project Management, Marketing and Admin;Office Admin and Support ;2601
+M7021;M70.21;4;Public relations and communication activities;Project Management, Marketing and Admin;Advertising, Market Research and PR;2602
+M73;M73;2;Advertising and market research;Project Management, Marketing and Admin;Advertising, Market Research and PR;2602
+M731;M73.1;3;Advertising;Project Management, Marketing and Admin;Advertising, Market Research and PR;2602
+M7311;M73.11;4;Advertising agencies;Project Management, Marketing and Admin;Advertising, Market Research and PR;2602
+M7312;M73.12;4;Media representation;Project Management, Marketing and Admin;Advertising, Market Research and PR;2602
+M732;M73.2;3;Market research and public opinion polling;Project Management, Marketing and Admin;Advertising, Market Research and PR;2602
+M7320;M73.20;4;Market research and public opinion polling;Project Management, Marketing and Admin;Advertising, Market Research and PR;2602
+M7022;M70.22;4;Business and other management consultancy activities;Project Management, Marketing and Admin;Management Consulting;2603
+M701;M70.1;3;Activities of head offices;Project Management, Marketing and Admin;Holding Companies;2604
+M7010;M70.10;4;Activities of head offices;Project Management, Marketing and Admin;Holding Companies;2604
+No Nace;No Nace;No Nace;No Nace;Project Management, Marketing and Admin;Other (Project Management, Marketing and Admin);2699
+O8413;O84.13;4;Regulation of and contribution to more efficient operation of businesses;Project Management, Marketing and Admin;Other (Project Management, Marketing and Admin);2699
+N78;N78;2;Employment activities;Employment, Recruitment, HR;Employment and Human Resources;2701
+N781;N78.1;3;Activities of employment placement agencies;Employment, Recruitment, HR;Employment and Human Resources;2701
+N7810;N78.10;4;Activities of employment placement agencies;Employment, Recruitment, HR;Employment and Human Resources;2701
+N782;N78.2;3;Temporary employment agency activities;Employment, Recruitment, HR;Employment and Human Resources;2701
+N7820;N78.20;4;Temporary employment agency activities;Employment, Recruitment, HR;Employment and Human Resources;2701
+N783;N78.3;3;Other human resources provision;Employment, Recruitment, HR;Employment and Human Resources;2701
+N7830;N78.30;4;Other human resources provision;Employment, Recruitment, HR;Employment and Human Resources;2701
+C3311;C33.11;4;Repair of fabricated metal products;Science and Engineering;Engineers;2801
+C3312;C33.12;4;Repair of machinery;Science and Engineering;Engineers;2801
+C3313;C33.13;4;Repair of electronic and optical equipment;Science and Engineering;Engineers;2801
+C3314;C33.14;4;Repair of electrical equipment;Science and Engineering;Engineers;2801
+C3319;C33.19;4;Repair of other equipment;Science and Engineering;Engineers;2801
+C332;C33.2;3;Installation of industrial machinery and equipment;Science and Engineering;Engineers;2801
+C3320;C33.20;4;Installation of industrial machinery and equipment;Science and Engineering;Engineers;2801
+M7112;M71.12;4;Engineering activities and related technical consultancy;Science and Engineering;Engineers;2801
+M712;M71.2;3;Technical testing and analysis;Science and Engineering;Engineers;2801
+M7120;M71.20;4;Technical testing and analysis;Science and Engineering;Engineers;2801
+M72;M72;2;Scientific research and development;Science and Engineering;Engineers;2801
+M721;M72.1;3;Research and experimental development on natural sciences and engineering;Science and Engineering;Engineers;2801
+M7211;M72.11;4;Research and experimental development on biotechnology;Science and Engineering;Engineers;2801
+M7219;M72.19;4;Other research and experimental development on natural sciences and engineering;Science and Engineering;Engineers;2801
+M722;M72.2;3;Research and experimental development on social sciences and humanities;Science and Engineering;Engineers;2801
+M7220;M72.20;4;Research and experimental development on social sciences and humanities;Science and Engineering;Engineers;2801
+M749;M74.9;3;Other professional, scientific and technical activities n.e.c.;Science and Engineering;Scientific Activities;2802
+M7490;M74.90;4;Other professional, scientific and technical activities n.e.c.;Science and Engineering;Scientific Activities;2802
+No Nace;No Nace;No Nace;No Nace;Restaurants, Bars, Cafes, Catering;Other (Restaurants, Bars, Cafes, Catering);2899
+M691;M69.1;3;Legal activities;Legal, Public Order, Security;Legal Services;2901
+M6910;M69.10;4;Legal activities;Legal, Public Order, Security;Legal Services;2901
+N774;N77.4;3;Leasing of intellectual property and similar products, except copyrighted works;Legal, Public Order, Security;Legal Services;2901
+N7740;N77.40;4;Leasing of intellectual property and similar products, except copyrighted works;Legal, Public Order, Security;Legal Services;2901
+N80;N80;2;Security and investigation activities;Legal, Public Order, Security;Security;2902
+N801;N80.1;3;Private security activities;Legal, Public Order, Security;Security;2902
+N8010;N80.10;4;Private security activities;Legal, Public Order, Security;Security;2902
+N802;N80.2;3;Security systems service activities;Legal, Public Order, Security;Security;2902
+N8020;N80.20;4;Security systems service activities;Legal, Public Order, Security;Security;2902
+N803;N80.3;3;Investigation activities;Legal, Public Order, Security;Security;2902
+N8030;N80.30;4;Investigation activities;Legal, Public Order, Security;Security;2902
+O842;O84.2;3;Provision of services to the community as a whole;Legal, Public Order, Security;Defence, Public Order and Safety;2903
+O8421;O84.21;4;Foreign affairs;Legal, Public Order, Security;Defence, Public Order and Safety;2903
+O8422;O84.22;4;Defence activities;Legal, Public Order, Security;Defence, Public Order and Safety;2903
+O8423;O84.23;4;Justice and judicial activities;Legal, Public Order, Security;Defence, Public Order and Safety;2903
+O8424;O84.24;4;Public order and safety activities;Legal, Public Order, Security;Defence, Public Order and Safety;2903
+O8425;O84.25;4;Fire service activities;Legal, Public Order, Security;Defence, Public Order and Safety;2903
+No Nace;No Nace;No Nace;No Nace;Science and Engineering;Other (Science and Engineering);2999
+C3291;C32.91;4;Manufacture of brooms and brushes;Cleaning and Facility Management Services;Cleaning, Landscaping and Building Maintenance;3001
+N81;N81;2;Services to buildings and landscape activities;Cleaning and Facility Management Services;Cleaning, Landscaping and Building Maintenance;3001
+N811;N81.1;3;Combined facilities support activities;Cleaning and Facility Management Services;Cleaning, Landscaping and Building Maintenance;3001
+N8110;N81.10;4;Combined facilities support activities;Cleaning and Facility Management Services;Cleaning, Landscaping and Building Maintenance;3001
+N812;N81.2;3;Cleaning activities;Cleaning and Facility Management Services;Cleaning, Landscaping and Building Maintenance;3001
+N8121;N81.21;4;General cleaning of buildings;Cleaning and Facility Management Services;Cleaning, Landscaping and Building Maintenance;3001
+N8122;N81.22;4;Other building and industrial cleaning activities;Cleaning and Facility Management Services;Cleaning, Landscaping and Building Maintenance;3001
+N8129;N81.29;4;Other cleaning activities;Cleaning and Facility Management Services;Cleaning, Landscaping and Building Maintenance;3001
+N813;N81.3;3;Landscape service activities;Cleaning and Facility Management Services;Cleaning, Landscaping and Building Maintenance;3001
+N8130;N81.30;4;Landscape service activities;Cleaning and Facility Management Services;Cleaning, Landscaping and Building Maintenance;3001
+No Nace;No Nace;No Nace;No Nace;Tourism and Accommodation;Other (Tourism and Accommodation);3099
+P;P;1;Education;Education;;3100
+P851;P85.1;3;Pre-primary education;Education;Pre-School & Childcare;3101
+P8510;P85.10;4;Pre-primary education;Education;Pre-School & Childcare;3101
+Q8891;Q88.91;4;Child day-care activities;Education;Pre-School & Childcare;3101
+P852;P85.2;3;Primary education;Education;Schools, Colleges & Universities;3102
+P8520;P85.20;4;Primary education;Education;Schools, Colleges & Universities;3102
+P853;P85.3;3;Secondary education;Education;Schools, Colleges & Universities;3102
+P8531;P85.31;4;General secondary education;Education;Schools, Colleges & Universities;3102
+P8532;P85.32;4;Technical and vocational secondary education;Education;Schools, Colleges & Universities;3102
+P854;P85.4;3;Higher education;Education;Schools, Colleges & Universities;3102
+P8541;P85.41;4;Post-secondary non;Education;Schools, Colleges & Universities;3102
+P8542;P85.42;4;Tertiary education;Education;Schools, Colleges & Universities;3102
+P855;P85.5;3;Other education;Education;Other (Education);3199
+P8551;P85.51;4;Sports and recreation education;Education;Other (Education);3199
+P8552;P85.52;4;Cultural education;Education;Other (Education);3199
+P8553;P85.53;4;Driving school activities;Education;Other (Education);3199
+P8559;P85.59;4;Other education n.e.c.;Education;Other (Education);3199
+P856;P85.6;3;Educational support activities;Education;Other (Education);3199
+P8560;P85.60;4;Educational support activities;Education;Other (Education);3199
+Q8621;Q86.21;4;General medical practice activities;Healthcare;Medical Practices;3201
+Q8622;Q86.22;4;Specialist medical practice activities;Healthcare;Medical Practices;3201
+Q8623;Q86.23;4;Dental practice activities;Healthcare;Dentists;3202
+M75;M75;2;Veterinary activities;Healthcare;Vets;3203
+M750;M75.0;3;Veterinary activities;Healthcare;Vets;3203
+M7500;M75.00;4;Veterinary activities;Healthcare;Vets;3203
+Q87;Q87;2;Residential care activities;Healthcare;Residential Care;3204
+Q871;Q87.1;3;Residential nursing care activities;Healthcare;Residential Care;3204
+Q8710;Q87.10;4;Residential nursing care activities;Healthcare;Residential Care;3204
+Q872;Q87.2;3;Residential care activities for mental retardation, mental health and substance abuse;Healthcare;Residential Care;3204
+Q8720;Q87.20;4;Residential care activities for mental retardation, mental health and substance abuse;Healthcare;Residential Care;3204
+Q873;Q87.3;3;Residential care activities for the elderly and disabled;Healthcare;Residential Care;3204
+Q8730;Q87.30;4;Residential care activities for the elderly and disabled;Healthcare;Residential Care;3204
+Q879;Q87.9;3;Other residential care activities;Healthcare;Residential Care;3204
+Q8790;Q87.90;4;Other residential care activities;Healthcare;Residential Care;3204
+Q861;Q86.1;3;Hospital activities;Healthcare;Other (Healthcare);3299
+Q8610;Q86.10;4;Hospital activities;Healthcare;Other (Healthcare);3299
+Q869;Q86.9;3;Other human health activities;Healthcare;Other (Healthcare);3299
+Q8690;Q86.90;4;Other human health activities;Healthcare;Other (Healthcare);3299
+Q881;Q88.1;3;Social work activities without accommodation for the elderly and disabled;Healthcare;Other (Healthcare);3299
+Q8810;Q88.10;4;Social work activities without accommodation for the elderly and disabled;Healthcare;Other (Healthcare);3299
+Q8899;Q88.99;4;Other social work activities without accommodation n.e.c.;Healthcare;Other (Healthcare);3299
+O8411;O84.11;4;General public administration activities;Community Groups, Social, Political and Religious;Governmental Administration and Regulation;3301
+O8412;O84.12;4;Regulation of the activities of providing health care, education, cultural services and other socia  Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security;Community Groups, Social, Political and Religious;Governmental Administration and Regulation;3301
+O843;O84.3;3;Compulsory social security activities;Community Groups, Social, Political and Religious;Governmental Administration and Regulation;3301
+O8430;O84.30;4;Compulsory social security activities;Community Groups, Social, Political and Religious;Governmental Administration and Regulation;3301
+U;U;1;Activities of extraterritorial organisations and bodies;Community Groups, Social, Political and Religious;Governmental Administration and Regulation;3301
+U99;U99;2;Activities of extraterritorial organisations and bodies;Community Groups, Social, Political and Religious;Governmental Administration and Regulation;3301
+U990;U99.0;3;Activities of extraterritorial organisations and bodies;Community Groups, Social, Political and Religious;Governmental Administration and Regulation;3301
+U9900;U99.00;4;Activities of extraterritorial organisations and bodies;Community Groups, Social, Political and Religious;Governmental Administration and Regulation;3301
+S9491;S94.91;4;Activities of religious organisations;Community Groups, Social, Political and Religious;Religious Organisations;3302
+S94;S94;2;Activities of membership organisations;Community Groups, Social, Political and Religious;Other (Community Groups, Social, Political and Religious);3399
+S941;S94.1;3;Activities of business, employers and professional membership organisations;Community Groups, Social, Political and Religious;Other (Community Groups, Social, Political and Religious);3399
+S9411;S94.11;4;Activities of business and employers membership organisations;Community Groups, Social, Political and Religious;Other (Community Groups, Social, Political and Religious);3399
+S9412;S94.12;4;Activities of professional membership organisations;Community Groups, Social, Political and Religious;Other (Community Groups, Social, Political and Religious);3399
+S942;S94.2;3;Activities of trade unions;Community Groups, Social, Political and Religious;Other (Community Groups, Social, Political and Religious);3399
+S9420;S94.20;4;Activities of trade unions;Community Groups, Social, Political and Religious;Other (Community Groups, Social, Political and Religious);3399
+S949;S94.9;3;Activities of other membership organisations;Community Groups, Social, Political and Religious;Other (Community Groups, Social, Political and Religious);3399
+S9492;S94.92;4;Activities of political organisations;Community Groups, Social, Political and Religious;Other (Community Groups, Social, Political and Religious);3399
+S9499;S94.99;4;Activities of other membership organisations n.e.c.;Community Groups, Social, Political and Religious;Other (Community Groups, Social, Political and Religious);3399
+S9603;S96.03;4;Funeral and related activities;Community Groups, Social, Political and Religious;Other (Community Groups, Social, Political and Religious);3399
+No Nace;No Nace;No Nace;No Nace;Trade;Other (Trade);3401
+No Nace;No Nace;No Nace;No Nace;Transportation;Other (Transportation);3402
+S9609;S96.09;4;Other personal service activities n.e.c.;Personal Services;Other (Personal Services);3499
+T;T;1;"Activities of households as employers; undifferentiated goods - and services ";Personal Services;Other (Personal Services);3499
+T97;T97;2;Activities of households as employers of domestic personnel;Personal Services;Other (Personal Services);3499
+T970;T97.0;3;Activities of households as employers of domestic personnel;Personal Services;Other (Personal Services);3499
+T9700;T97.00;4;Activities of households as employers of domestic personnel;Personal Services;Other (Personal Services);3499
+T98;T98;2;Undifferentiated goods- and services;Personal Services;Other (Personal Services);3499
+T981;T98.1;3;Undifferentiated goods-producing activities of private households for own use;Personal Services;Other (Personal Services);3499
+T9810;T98.10;4;Undifferentiated goods-producing activities of private households for own use;Personal Services;Other (Personal Services);3499
+T982;T98.2;3;Undifferentiated service-producing activities of private households for own use;Personal Services;Other (Personal Services);3499
+T9820;T98.20;4;Undifferentiated service-producing activities of private households for own use;Personal Services;Other (Personal Services);3499
+G45;G45;2;Wholesale and retail trade and repair of motor vehicles and motorcycles;Automotive;Mixed;
+F43;F43;2;Specialised construction activities;Construction;Mixed;
+F432;F43.2;3;Electrical, plumbing and other construction installation activities;Construction;Mixed;
+F433;F43.3;3;Building completion and finishing;Construction;Mixed;
+F439;F43.9;3;Other specialised construction activities;Construction;Mixed;
+P85;P85;2;Education;Education;Mixed;
+D35;D35;2;Electricity, gas, steam and air conditioning supply;Energy and Utility Suppliers;Mixed;
+Q86;Q86;2;Human health activities;Healthcare;Mixed;
+Q862;Q86.2;3;Medical and dental practice activities;Healthcare;Mixed;
+R93;R93;2;Sports activities and amusement and recreation activities;Leisure & Entertainment;Mixed;
+C329;C32.9;3;Manufacturing n.e.c.;Mixed;Cleaning, Landscaping and Building Maintenance;
+Q88;Q88;2;Social work activities without accommodation;Mixed;Healthcare other/misc.;
+Q889;Q88.9;3;Other social work activities without accommodation;Mixed;Healthcare other/misc.;
+C20;C20;2;Manufacture of chemicals and chemical products;Mixed;Manufacturing of Chemicals;
+C201;C20.1;3;Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms;Mixed;Manufacturing of Chemicals;
+C204;C20.4;3;Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations;Mixed;Manufacturing of Chemicals;
+C27;C27;2;Manufacture of electrical equipment;Mixed;"Manufacturing of Computer, Electronic and Optical products
+";
+C271;C27.1;3;Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus;Mixed;"Manufacturing of Computer, Electronic and Optical products
+";
+C162;C16.2;3;Manufacture of products of wood, cork, straw and plaiting materials;Mixed;Manufacturing of Construction products;
+C28;C28;2;Manufacture of machinery and equipment n.e.c.;Mixed;Manufacturing of Machinery and Equipment;
+C289;C28.9;3;Manufacture of other special-purpose machinery;Mixed;Manufacturing of Machinery and Equipment;
+C33;C33;2;Repair and installation of machinery and equipment;Mixed;Manufacturing of Machinery and Equipment;
+C331;C33.1;3;Repair of fabricated metal products, machinery and equipment;Mixed;Manufacturing of Machinery and Equipment;
+C25;C25;2;Manufacture of fabricated metal products, except machinery and equipment;Mixed;Manufacturing of Metal Products;
+C252;C25.2;3;Manufacture of tanks, reservoirs and containers of metal;Mixed;Manufacturing of Metal Products;
+C17;C17;2;Manufacture of paper and paper products;Mixed;Manufacturing of Wood and Paper Products;
+C172;C17.2;3;Manufacture of articles of paper and paperboard;Mixed;Manufacturing of Wood and Paper Products;
+C16;C16;2;"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials";Mixed;Mixed;
+C205;C20.5;3;Manufacture of other chemical products;Mixed;Mixed;
+C32;C32;2;Other manufacturing;Mixed;Mixed;
+G46;G46;2;Wholesale trade, except of motor vehicles and motorcycles;Mixed;Mixed;
+G464;G46.4;3;Wholesale of household goods;Mixed;Mixed;
+G47;G47;2;Retail trade, except of motor vehicles and motorcycles;Mixed;Mixed;
+G477;G47.7;3;Retail sale of other goods in specialised stores;Mixed;Mixed;
+M69;M69;2;Legal and accounting activities;Mixed;Mixed;
+M71;M71;2;"Architectural and engineering activities; technical testing and analysis";Mixed;Mixed;
+M711;M71.1;3;Architectural and engineering activities and related technical consultancy;Mixed;Mixed;
+M74;M74;2;Other professional, scientific and technical activities;Mixed;Mixed;
+N77;N77;2;Rental and leasing activities;Mixed;Mixed;
+N773;N77.3;3;Renting and leasing of other machinery, equipment and tangible goods;Mixed;Mixed;
+O84;O84;2;"Public administration and defence; compulsory social security";Mixed;Mixed;
+O841;O84.1;3;Administration of the State and the economic and social policy of the community;Mixed;Mixed;
+N82;N82;2;Office administrative, office support and other business support activities;Mixed;Office Admin and Support ;
+N829;N82.9;3;Business support service activities n.e.c.;Mixed;Office Admin and Support ;
+G467;G46.7;3;Other specialised wholesale;Mixed;Sale of Industrial Products;
+C;C;1;Manufacturing;Mixed;;
+G;G;1;"Wholesale and retail trade; repair of motor vehicles and motorcycles";Mixed;;
+I;I;1;Accommodation and food service activities;Mixed;;
+J;J;1;Information and communication;Mixed;;
+M;M;1;Professional, scientific and technical activities;Mixed;;
+N;N;1;Administrative and support service activities;Mixed;;
+O;O;1;"Public administration and defence; compulsory social security";Mixed;;
+Q;Q;1;Human health and social work activities;Mixed;;
+S;S;1;Other services activities;Mixed;;
+S96;S96;2;Other personal service activities;Mixed   ;Mixed;
+S960;S96.0;3;Other personal service activities;Mixed   ;Mixed;
+M70;M70;2;"Activities of head offices; management consultancy activities";Project Management, Marketing and Admin;Mixed;
+M702;M70.2;3;Management consultancy activities;Project Management, Marketing and Admin;Mixed;
+I56;I56;2;Food and beverage service activities;Restaurants, Bars, Cafes, Catering;Mixed;
+I562;I56.2;3;Event catering and other food service activities;Restaurants, Bars, Cafes, Catering;Mixed;
+I55;I55;2;Accommodation;Tourism and Accommodation;Mixed;
+G471;G47.1;3;Retail sale in non-specialised stores;Trade;Mixed;
+G478;G47.8;3;Retail sale via stalls and markets;Trade;Mixed;
+G461;G46.1;3;Wholesale on a fee or contract basis;Trade;Mixed ;
+H49;H49;2;Land transport and transport via pipelines;Transportation;Mixed;
+H50;H50;2;Water transport;Transportation;Mixed;
+H51;H51;2;Air transport;Transportation;Mixed;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
