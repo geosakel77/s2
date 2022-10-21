@@ -1,0 +1,113 @@
+JPCERT-AT-2018-0044
+                                                             JPCERT/CC
+                                                            2018-11-14
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-11-14 &gt;&gt;&gt;
+
+   Alert Regarding Vulnerability in Adobe Flash Player (APSB18-39)
+
+        https://www.jpcert.or.jp/english/at/2018/at180044.html
+
+
+I. Overview
+Adobe Systems has released a security update to address a vulnerability
+in Adobe Flash Player (APSB18-39). A remote attacker may cause Adobe
+Flash Player to disclose information by convincing an user to
+open specially crafted contents leveraging this vulnerability.
+For more information on the vulnerability, please refer to the
+information provided by Adobe.
+
+    Adobe Systems Incorporated
+    Security updates available for Flash Player | APSB18-39
+    https://helpx.adobe.com/security/products/flash-player/apsb18-39.html
+
+
+II. Affected Products
+The following versions are affected by this vulnerability:
+
+  - Adobe Flash Player Desktop Runtime (31.0.0.122) and earlier
+    (Windows, macOS and Linux)
+  - Adobe Flash Player for Google Chrome (31.0.0.122) and earlier
+    (Windows, macOS, Linux and Chrome OS)
+  - Adobe Flash Player for Microsoft Edge and Internet Explorer 11 (31.0.0.122) and earlier
+    (Windows 10 and Windows 8.1)
+
+Users can check the version of Adobe Flash Player that they are using
+at the following link:
+    
+    Flash Player Help
+    https://helpx.adobe.com/flash-player.html
+
+
+III. Solution
+Please update Adobe Flash Player to the latest version listed below:
+
+  - Adobe Flash Player Desktop Runtime (31.0.0.148)
+    (Windows, macOS and Linux)
+  - Adobe Flash Player for Google Chrome (31.0.0.148)
+    (Windows, macOS, Linux and Chrome OS)
+  - Adobe Flash Player for Microsoft Edge and Internet Explorer 11 (31.0.0.148)
+    (Windows 10 and Windows 8.1)
+
+    Adobe Flash Player Download Center
+    https://get.adobe.com/flashplayer/
+
+Please be aware of information provided by any distributors that
+include Adobe Flash Player in their products such as web browsers.
+As for the following products, update program for Adobe Flash
+Player is provided by distributor.
+
+  - Microsoft Windows 10
+  - Microsoft Windows 8.1
+  - Google Chrome
+
+The latest version of Adobe Flash Player will be applied through Windows
+Update, etc. 
+    
+    ADV180025 | November 2018 Adobe Flash Security Update
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180025
+
+In addition to web browsers, some softwares such as Microsoft Office
+use Adobe Flash Player. Please apply the security update even if Adobe
+Flash Player is not enabled on web browser.
+
+
+IV. Workaround
+As a temporary countermeasure until security updates can be applied,
+please consider the following workaround such as disabling Flash on
+the browser or restricting display of contents using Flash to mitigate
+impacts of the vulnerability. In addition, applying these countermeasures
+may affect other applications. Please carefully consider and test any
+side effects prior to applying any of the workaround.
+
+  - Limit the Flash content
+    Please disable Flash on your browser or enable Click-to-Play features.
+    In Microsoft Office, enable protected view to avoid the impacts.
+
+
+V. References
+    Adobe Systems Incorporated
+    Security updates available for Flash Player | APSB18-39
+    https://helpx.adobe.com/security/products/flash-player/apsb18-39.html
+
+    Adobe Systems Incorporated
+    Security Bulletins Posted
+    https://blogs.adobe.com/psirt/?p=1648
+
+    Microsoft Corporation
+    Enable/Disable Flash Player for Microsoft Edge (Japanese)
+    https://answers.microsoft.com/ja-jp/windows/wiki/apps_windows_10-msedge/microsoft-edge/248bf728-44f4-4b4a-ae50-8b66ee7a96ca
+
+    Microsoft Corporation
+    ADV180025 | November 2018 Adobe Flash Security Update
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180025
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

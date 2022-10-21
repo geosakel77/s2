@@ -1,0 +1,141 @@
+JPCERT-AT-2008-0013
+                                                             JPCERT/CC
+                                            2008-07-09 (First edition)
+                                                  2008-07-25 (Updated)
+
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2008-07-09 &gt;&gt;&gt;
+
+        Cache-Poisoning Vulnerability In Multiple DNS Servers
+
+             http://www.jpcert.or.jp/at/2008/at080013.txt
+
+
+*** Update: Added on July 25, 2008 *********************************
+
+  This alert has been updated in response to changes in the situation
+such as attack tools being published, also outlined in the 
+JPCERT-AT-2008-0014.
+
+  JPCERT-AT-2008-0014
+  Cache-Poisoning Vulnerability In Multiple DNS Servers
+  http://www.jpcert.or.jp/at/2008/at080014.txt
+
+********************************************************************
+
+
+I. Overview
+
+  The DNS protocol and multiple DNS servers contain a vulnerability
+that allows cache-poisoning attacks. A remote attacker could use this
+vulnerability and pollute a DNS cache server with forged DNS 
+information.
+
+  Details of this vulnerability will be announced by an overseas 
+security researcher in August 2008.
+
+*** Update: Added on July 23, 2008 ***********************************
+
+  On July 22, 2008, information of attack techniques against this 
+vulnerability was accidentally made public earlier than originally
+scheduled. Because of this, attacks targeting this vulnerability are
+more likely to occur within several days. Administrators should
+immediately apply corrected software provided by the vendors.
+
+**********************************************************************
+
+II. Products Affected
+
+  This vulnerability affects multiple DNS servers.
+
+  Major products affected are as follows:
+  - ISC BIND (including BIND 8) 
+  - Microsoft DNS servers
+  - Multiple Cisco products
+  - Multiple Juniper products (including Netscreen products)
+
+  For more information, refer to the advisories issued by the vendors.
+
+  Note that other products may also be affected. When using a DNS
+server not mentioned above, contact its vendor.
+
+
+III. Solution
+
+  Update the products to the corrected software provided by the 
+vendors.
+
+*** Update: Added on July 11, 2008 ***********************************
+
+  When BIND is used in distributions such as Debian GNU/Linux and
+Fedora, named.conf may have been configured as follows, which fixes
+the source port of DNS queries:
+
+    query-source    port 53;
+    query-source-v6 port 53;
+
+  In this case, the countermeasure to the cache-poisoning
+vulnerability is not sufficient until this configuration is changed
+after updating BIND. For information on how to change the
+configuration, refer to the vendors' websites.
+
+  Once the configuration is changed, source ports for queries from a
+DNS server become randomized. This could cause a firewall to restrict
+communication from the DNS server. Administrators are recommended to
+check the firewall settings before changing the configuration.
+
+**********************************************************************
+
+
+IV. References
+
+    US-CERT Technical Cyber Security Alert TA08-190B
+    Multiple DNS implementations vulnerable to cache poisoning
+    http://www.us-cert.gov/cas/techalerts/TA08-190B.html
+
+    US-CERT Vulnerability Note VU#800113
+    Multiple DNS implementations vulnerable to cache poisoning
+    http://www.kb.cert.org/vuls/id/800113
+
+    ISC - CERT VU#800113 DNS Cache Poisoning Issue
+    http://www.isc.org/index.pl?/sw/bind/forgery-resilience.php
+
+    Microsoft MS08-037
+    Vulnerabilities in DNS Could Allow Spoofing (953230)
+    http://www.microsoft.com/technet/security/bulletin/MS08-037.mspx
+
+    Cisco Security Advisory: Multiple Cisco Products Vulnerable to DNS
+      Cache Poisoning Attacks
+    Advisory ID: cisco-sa-20080708-dns
+    http://www.cisco.com/en/US/products/products_security_advisory09186a00809c2168.shtml
+
+*** Update: Added on July 9, 2008 ************************************
+
+    Japan Registry Services Co., Ltd. (JPRS)
+    Cache-Poisoning Vulnerability In Multiple DNS Software
+    http://jprs.jp/tech/security/multiple-dns-vuln-cache-poisoning.html
+
+    Japan Network Information Center (JPNIC)
+    Multiple DNS implementations cache-poisoning vulnerability
+    http://www.nic.ad.jp/ja/topics/2008/20080709-02.html
+
+**********************************************************************
+
+
+  If you have any information you could provide regarding this alert,
+please contact us.
+
+__________
+
+Revision history
+2008-07-09 First edition
+2008-07-09 Added the links to JPRS and JPNIC
+2008-07-11 Added the countermeasure for some Linux distributions
+2008-07-23 Added about the publication of the attack techniques
+2008-07-25 Added the information on the updated alert
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

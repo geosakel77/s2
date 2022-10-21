@@ -1,0 +1,71 @@
+JPCERT-AT-2022-0011
+                                                             JPCERT/CC
+                                                            2022-04-13
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2022-04-13 &gt;&gt;&gt;
+
+      Alert Regarding Vulnerability in Apache Struts 2 (S2-062)
+
+       https://www.jpcert.or.jp/english/at/2022/at220011.html
+
+
+I. Overview
+On April 12, 2022 (Local Time), the Apache Software Foundation has
+released information (S2-062) on vulnerability (CVE-2021-31805)
+in Apache Struts 2. This vulnerability is due to the incomplete fix
+for the vulnerability (CVE-2020-17530) published in the advisory
+S2-061 on December 8, 2020. A remote attacker leveraging this
+vulnerability may execute arbitrary code on the server that runs
+Apache Struts 2.
+
+    Apache Struts 2 Documentation
+    Security Bulletins S2-062
+    https://cwiki.apache.org/confluence/display/WW/S2-062
+
+The Apache Software Foundation has rated this vulnerability as
+"Important". It is recommended to upgrade the version by referring to
+the information provided in "III.  Solution" if a version of Apache
+Struts 2 which is affected by the vulnerability is used.
+
+
+II. Affected Products
+The following versions of Apache Struts 2 are affected by the
+vulnerability:
+
+  Apache Struts 2
+  - Versions 2.0.0 to 2.5.29
+
+
+III. Solution
+The Apache Software Foundation has released versions of Apache Struts 2
+that address this vulnerability. Please update to the versions by
+referring to the information provided by the Apache Software Foundation.
+
+  Apache Struts 2
+  - Versions 2.5.30
+
+For more information, please refer to the updated information provided
+by the Apache Software Foundation.
+
+    Apache Struts 2 Documentation
+    Version Notes 2.5.30
+    https://cwiki.apache.org/confluence/display/WW/Version+Notes+2.5.30
+
+
+IV. References
+    Apache Software Foundation
+    04 April 2022 - Struts 2.5.30 General Availability
+    https://struts.apache.org/announce-2022#a20220404
+
+    Apache Struts 2 Documentation
+    Security Bulletins S2-061
+    https://cwiki.apache.org/confluence/display/WW/S2-061
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

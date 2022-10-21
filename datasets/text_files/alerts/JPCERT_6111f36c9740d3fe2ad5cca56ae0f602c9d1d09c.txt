@@ -1,0 +1,82 @@
+JPCERT-AT-2021-0033
+                                                             JPCERT/CC
+                                                            2021-07-29
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-07-29 &gt;&gt;&gt;
+
+Alert Regarding Vulnerabilities in Trend Micro Multiple Endpoint Security Products for Enterprises
+
+       https://www.jpcert.or.jp/english/at/2021/at210033.html
+
+
+I. Overview
+On July 29, 2021, Trend Micro has released the information regarding
+vulnerabilities (CVE-2021-36741, CVE-2021-36742) in multiple endpoint
+security products for enterprises. If the vulnerabilities are exploited,
+an attacker who can log in to the OS where the product is running may
+obtain SYSTEM privileges, or a remote attacker who can log in to the
+product may upload arbitrary files.
+According to Trend Micro, these vulnerabilities are already exploited
+in the wild.
+
+    Trend Micro Incorporated
+    [Alert] Apply the latest Critical Patches; An attack exploiting the vulnerabilities (CVE-2021-36741, CVE-2021-36742) in Trend Micro products has been observed (Text in Japanese)
+    https://appweb.trendmicro.com/SupportNews/NewsDetail.aspx?id=4219
+
+Since the vulnerabilities are already being exploited in the wild, the
+users of the affected products are recommended to update the affected
+system to the latest version as soon as possible. Please refer to the
+information provided by Trend Micro.
+
+
+II. Affected Products
+Affected products and versions are as follows:
+
+  - Apex One On Premise (2019) prior to Build 9601
+  - Apex One as a Service prior to Build 202107
+  - Worry-Free Business Security 10 SP1 prior to Build 2329
+
+
+III. Solution
+Trend Micro has released patches that address the vulnerabilities.
+It is recommended to apply the patch as soon as possible.
+
+  - Apex One On Premise (2019) Critical Patch B9601
+  - Worry-Free Business Security 10 SP1 Patch B2329
+
+According to Trend Micro, the issues in Apex One as a Service are
+already fixed in the July 21th, 2021 updates.
+
+
+IV. Workarounds
+The following measure is mentioned as workarounds. As for the details,
+please refer to the information provided by Trend Micro.
+
+  - Permit access to the product to only trusted network
+
+
+V. References
+    Trend Micro Incorporated
+    [Alert] Apply the latest Critical Patches; An attack exploiting the vulnerabilities (CVE-2021-36741, CVE-2021-36742) in Trend Micro products has been observed (Text in Japanese)
+    https://appweb.trendmicro.com/SupportNews/NewsDetail.aspx?id=4219
+
+    Trend Micro Incorporated
+    SECURITY BULLETIN:  July 28, 2021, Security Bulletin for Trend Micro Apex One and Apex One as a Service
+    https://success.trendmicro.com/solution/000287819
+
+    Trend Micro Incorporated
+    SECURITY BULLETIN: July 28, 2021, Security Bulletin for Worry-Free Business Security
+    https://success.trendmicro.com/solution/000287820
+
+    Japan Vulnerability Notes JVNVU#93876919
+    Multiple vulnerabilities in multiple Trend Micro Endpoint security products for enterprises
+    https://jvn.jp/en/vu/JVNVU93876919/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

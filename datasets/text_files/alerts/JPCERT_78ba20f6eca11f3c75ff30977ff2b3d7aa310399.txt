@@ -1,0 +1,140 @@
+JPCERT-AT-2017-0024
+                                                             JPCERT/CC
+                                                    2017-06-30(Initial)
+                                                    2017-07-13(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-06-30 &gt;&gt;&gt;
+
+             Alert Regarding Vulnerability in ISC BIND 9
+
+        https://www.jpcert.or.jp/english/at/2017/at170024.html
+
+
+I. Overview
+ISC BIND 9 contains a vulnerability in TSIG. When this vulnerability is
+exploited, a remote attacker may conduct unauthorized DNS dynamic update
+(CVE-2017-3143) and zone transfer (CVE-2017-3142).
+This vulnerability has impacts when access restriction by TSIG is enabled.
+For more details on this vulnerability, please refer to the information
+provided by ISC.
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2017-3143: An error in TSIG authentication can permit unauthorized dynamic updates
+    https://kb.isc.org/article/AA-01503/
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2017-3142: An error in TSIG authentication can permit unauthorized zone transfers
+    https://kb.isc.org/article/AA-01504/
+
+The vulnerability CVE-2017-3143 has impacts if an attacker can send and
+receive messages to authoritative DNS servers and has the valid TSIG
+key name of the target zone and service.
+
+** Update: July 13, 2017 Update **************************************
+ISC updated the advisory. The local update policy (configured with
+"update-policy local;" in named.conf) implicitly defines a TSIG key
+with a known key name (local-ddns) and default algorithm and no IP-based
+access controls on the zone updates. If you are using the affected
+version version, please confirm the settings.
+**********************************************************************
+
+The vulnerability CVE-2017-3142 has impacts if an attacker is able to
+send and receive messages to authoritative DNS servers and has the valid
+TSIG key name. The vulnerability can be exploited by sending constructed
+request packets to circumvent TSIG authentication.
+In addition, ISC has rated the severity of the vulnerability CVE-2017-3143
+as "High" and CVE-2017-3142 as "Medium". 
+
+If you are operating an affected version of ISC BIND 9, please consider
+updating to a version that addresses this vulnerability by referring to
+the information in "III. Solution".
+
+
+II. Affected Systems
+According to ISC, the following versions are affected by this
+vulnerability.
+In addition, this vulnerability is affected when TSIG access restriction
+is enabled.
+
+  - CVE-2017-3143 : High
+    - Versions from 9.9.0 to 9.9.10-P1
+    - Versions from 9.10.0 to 9.10.5-P1
+    - Versions from 9.11.0 to 9.11.1-P1
+    - Versions 9.4.x to 9.8.x which are no longer supported are also
+      affected
+
+  - CVE-2017-3142 : Medium
+    - Versions from 9.9.0 to 9.9.10-P1
+    - Versions from 9.10.0 to 9.10.5-P1
+    - Versions from 9.11.0 to 9.11.1-P1
+    - Versions 9.4.x to 9.8.x which are no longer supported are also
+      affected
+
+For more details, please refer to the following:
+
+    BIND 9 Security Vulnerability Matrix
+    https://kb.isc.org/article/AA-00913/
+
+If you are using BIND provided by a distributor, please refer to the
+information provided by that distributor.
+
+
+III. Solution
+ISC has released versions of ISC BIND that address these vulnerabilities.
+Distributors are likely to provide their own versions that address
+these vulnerabilities. Consider updating to an updated version after
+thorough testing.
+
+Versions that address these vulnerabilities are as follows:
+
+  ISC BIND
+  - BIND 9 version 9.9.10-P2
+  - BIND 9 version 9.10.5-P2
+  - BIND 9 version 9.11.1-P2
+
+
+IV. Workaround
+According to ISC, the effects of this vulnerability can be mitigated
+by applying the following workarounds.
+
+  - Use Access Control List (ACL) that require both IP address range
+    validation and TSIG authentication in conjunction
+
+    Using Access Control Lists (ACLs) with both addresses and keys
+    https://kb.isc.org/article/AA-00723
+
+** Update: July 13, 2017 Update **************************************
+Administrators who have made use of named.conf option "update-policy local;"
+should patch their servers as soon as possible.
+If this is not possible should replace the update-policy configuration
+statement implementing the key requirement for updates but additionally
+imposing an IP ACL limitation.
+
+    allow-update { !{ !localhost; }; key local-ddns; };
+**********************************************************************
+
+
+V. References
+    Japan Registry Services (JPRS)
+    (Urgent) Vulnerability in BIND 9.x (An error in TSIG authentication permit unauthorized dynamic updates) (CVE-2017-3143) (Japanese)
+    - Strongly recommended to update the version - 
+    https://jprs.jp/tech/security/2017-06-30-bind9-vuln-circumvent-tsig-auth-dynamic-update.html
+
+    Japan Registry Services (JPRS)
+    Vulnerability in BIND 9.x (An error in TSIG authentication permit unauthorized zone transfers) (CVE-2017-3142) (Japanese)
+    https://jprs.jp/tech/security/2017-06-30-bind9-vuln-circumvent-tsig-auth-axfr.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2017-06-30 First edition
+2017-07-13 Updated "I. Overview" and "IV. Workaround"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

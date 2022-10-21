@@ -1,0 +1,179 @@
+JPCERT-AT-2016-0039
+                                                             JPCERT/CC
+                                                    2016-10-12(Initial)
+                                                     2016-10-28(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-10-12 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for October 2016
+                 (including 5 critical patches)
+
+      https://www.jpcert.or.jp/english/at/2016/at160039.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for October 2016.
+This bulletin contains five (5) updates that are rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+** Update: October 13, 2016 Update ***********************************
+ On October 13, 2016 (local time), Microsoft updated its Security Bulletin
+for October 2016. One new update rated as "critical" was added to the
+bulletin which now makes it six (6) updates in total.
+**********************************************************************
+
+** Update: October 28, 2016 Update ***********************************
+ On October 28, 2016 (local time), Microsoft updated its Security Bulletin
+for October 2016. One new update rated as "critical" was added to the
+bulletin which now makes it seven (7) updates in total.
+**********************************************************************
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for October 2016
+    https://technet.microsoft.com/en-us/library/security/ms16-oct
+
+  [Security updates rated as "critical"]
+
+    MS16-118
+    Cumulative Security Update for Internet Explorer (3192887)
+    https://technet.microsoft.com/en-us/library/security/MS16-118
+
+    MS16-119
+    Cumulative Security Update for Microsoft Edge (3192890)
+    https://technet.microsoft.com/en-us/library/security/MS16-119
+
+    MS16-120
+    Security Update for Microsoft Graphics Component (3192884)
+    https://technet.microsoft.com/en-us/library/security/MS16-120
+
+** Update: October 13, 2016 Update ***********************************
+    MS16-121
+    Security Update for Microsoft Office (3194063)
+    https://technet.microsoft.com/en-us/library/security/MS16-121
+**********************************************************************
+
+    MS16-122
+    Security Update for Microsoft Video Control (3195360)
+    https://technet.microsoft.com/en-us/library/security/MS16-122
+
+    MS16-127
+    Security Update for Adobe Flash Player (3194343)
+    https://technet.microsoft.com/en-us/library/security/MS16-127
+
+** Update: October 28, 2016 Update ***********************************
+    MS16-128
+    Security Update for Adobe Flash Player (3201860)
+    https://technet.microsoft.com/en-us/library/security/MS16-128
+**********************************************************************
+
+  According to Microsoft, attacks leveraging the vulnerability which
+is addressed in MS16-118 (Critical), MS16-119 (Critical),
+MS16-120 (Critical), MS16-121 (Important), and MS16-126 (Moderate)
+have been observed in the wild.
+
+** Update: October 13, 2016 Update ***********************************
+  On October 13, 2016 (local time), Microsoft updated its Security Bulletin.
+According to Microsoft, attacks leveraging the vulnerability (CVE-2016-7189)
+which is addressed in MS16-119 (Critical) has not been observed in the wild.
+Therefore, attacks leveraging the vulnerability which is addressed in
+MS16-118 (Critical), MS16-120 (Critical), MS16-121 (Important), and 
+MS16-126 (Moderate) are those which have been observed in the wild.
+**********************************************************************
+
+** Update: October 28, 2016 Update ***********************************
+ On October 28, 2016 (local time), Microsoft released its Security Update
+for MS16-128 (Critical). According to Adobe Systems, Adobe is aware of a
+report that an exploit for this vulnerability (CVE-2016-7855) exists in
+the wild, and is being used in limited, targeted attacks against users
+running Windows versions 7, 8.1 and 10.
+**********************************************************************
+
+  Please apply the security update programs as soon as possible.
+
+  Microsoft has announced its service model changes of update program
+for Windows 7 SP1, Windows 8.1, Windows Server 2008 R2, Windows Server
+2012, and Windows Server 2012 R2. These changes will take effect from
+the update program of this month and the following three packages will
+be prepared.
+
+1) A security-only quality update
+  A single update containing all new security fixes for the month.
+This update is classified as "Security Updates" and will be released
+on the second Tuesday of the month (US time). This will be published
+to Windows Server Update Services (WSUS) and the Windows Update Catalog. *1)
+
+2) A security monthly quality rollup
+  A single update containing all new security fixes for the month as
+well as fixes from all previous monthly rollups. This update is
+classified as "Security Updates" and will be released on the second
+Tuesday of the month (US time). This will be published only to Windows
+Server Update Services (WSUS) and the Windows Update Catalog.
+
+3) A preview of the monthly quality rollup
+  An additional monthly rollup containing a preview of new non-security
+fixes that will be included in the next monthly rollup, as well as
+fixes from all previous monthly rollup. This update is classified as
+ "Security Updates" and will be released on the third Tuesday of the
+month as an optional update. This will be published only to Windows
+Server Update Services (WSUS) and the Windows Update Catalog.
+
+  *1) Website of Microsoft where users can download update programs for
+  all of the operating systems.
+
+  For more details, please refer to the information provided by Microsoft. 
+
+  More on Windows 7 and Windows 8.1 servicing changes
+  https://blogs.technet.microsoft.com/windowsitpro/2016/10/07/more-on-windows-7-and-windows-8-1-servicing-changes/
+
+  Notes on WSUS operation regarding the rollup release starting from October 2016 (Japanese)
+  https://blogs.technet.microsoft.com/jpwsus/2016/10/10/wsus_rollup_start/
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+    Microsoft Update Catalog
+    http://catalog.update.microsoft.com/
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for October 2016
+    https://technet.microsoft.com/en-us/library/security/ms16-oct
+
+    Microsoft
+    Microsoft Security Information for October 2016 (Monthly) MS16-118 - MS16-127 (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2016/10/12/201610-security-bulletin/
+
+** Update: October 28, 2016 Update ***********************************
+    Adobe Systems
+    Security updates available for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsb16-36.html
+**********************************************************************
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2016-09-28 First edition
+2016-10-13 Updated "I. Overview"
+2016-10-28 Updated "I. Overview" and "III. References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,133 @@
+JPCERT-AT-2021-0012
+                                                             JPCERT/CC
+                                                    2021-03-03(Initial)
+                                                    2021-03-08(Update)
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-03-03 &gt;&gt;&gt;
+
+    Alert Regarding Vulnerabilities in Microsoft Exchange Server
+
+       https://www.jpcert.or.jp/english/at/2021/at210012.html
+
+
+I. Overview
+On March 2, 2021 (US Time), Microsoft has released information regarding
+multiple vulnerabilities in Microsoft Exchange Server. A remote attacker
+may execute arbitrary code with SYSTEM privileges by leveraging these
+vulnerabilities. According to Microsoft, four of these vulnerabilities
+have already been exploited in limited targeted attacks, and it is
+recommended to take measures as soon as possible. For more information,
+please refer to the information provided by Microsoft.
+
+    Microsoft The_Exchange_Team
+    Released: March 2021 Exchange Server Security Updates
+    https://techcommunity.microsoft.com/t5/exchange-team-blog/released-march-2021-exchange-server-security-updates/ba-p/2175901
+
+    Microsoft Security Response Center
+    Multiple Security Updates Released for Exchange Server
+    https://msrc-blog.microsoft.com/2021/03/02/multiple-security-updates-released-for-exchange-server/
+
+
+II. Affected Products and Versions
+Affected products and versions are as follows. Microsoft Exchange
+Online is not affected.
+
+  - Microsoft Exchange Server 2019
+  - Microsoft Exchange Server 2016
+  - Microsoft Exchange Server 2013
+
+
+III. Solution
+Microsoft has released versions that address these vulnerabilities.
+Microsoft recommends prioritizing installing updates on Exchange
+Servers that are externally facing. Please consider to take measures
+as soon as possible by referring to the information provided by
+Microsoft.
+
+  - Microsoft Exchange Server 2019 (CU 8, CU 7)
+  - Microsoft Exchange Server 2016 (CU 19, CU 18)
+  - Microsoft Exchange Server 2013 (CU 23)
+
+In addition, the security updates are also available for Microsoft
+Exchange Server 2010, which is no longer supported.
+
+
+IV. Related Information
+Information that explains the details of the observed attacks has been
+released by Microsoft and others. In addition to the details of the
+exploited vulnerabilities, the Microsoft's blog provides information on
+activities confirmed in the attack, investigation methods and indicator
+information for confirming the presence of damage from the attack.
+Please check the information as a reference for your investigation.
+
+    Microsoft
+    HAFNIUM targeting Exchange Servers with 0-day exploits
+    https://www.microsoft.com/security/blog/2021/03/02/hafnium-targeting-exchange-servers/
+
+** Update: March 8, 2021 Update **************************************
+Microsoft released a new blog and recommended to promptly apply
+countermeasures as well as to investigate if attacks exploiting these
+vulnerabilities have already been conducted. Microsoft also released
+PowerShell scripts on Github to investigate the evidence of compromise.
+In addition, other parties such as Volexity, FireEye and CISA have also
+released information on indicators and investigation methods for attacks
+that exploit these vulnerabilities. It is recommended to take measures
+and investigate as soon as possible by referring to the information by
+Microsoft and others.
+
+    Microsoft
+    Microsoft Exchange Server Vulnerabilities Mitigations - updated March 6, 2021
+    https://msrc-blog.microsoft.com/2021/03/05/microsoft-exchange-server-vulnerabilities-mitigations-march-2021/
+
+    Microsoft
+    microsoft / CSS-Exchange
+    https://github.com/microsoft/CSS-Exchange/tree/main/Security
+
+    CISA
+    Alert (AA21-062A) Mitigate Microsoft Exchange Server Vulnerabilities
+    https://us-cert.cisa.gov/ncas/alerts/aa21-062a
+    
+    Volexity
+    Operation Exchange Marauder: Active Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities
+    https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/
+
+    FireEye
+    Detection and Response to Exploitation of Microsoft Exchange Zero-Day Vulnerabilities
+    https://www.fireeye.com/blog/threat-research/2021/03/detection-response-to-exploitation-of-microsoft-exchange-zero-day-vulnerabilities.html
+**********************************************************************
+
+
+V. References
+    Microsoft
+    New nation-state cyberattacks
+    https://blogs.microsoft.com/on-the-issues/2021/03/02/new-nation-state-cyberattacks/
+
+    Microsoft
+    CVE-2021-26855 | Microsoft Exchange Server Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-26855
+
+    Microsoft
+    CVE-2021-26857 | Microsoft Exchange Server Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-26857
+
+    Microsoft
+    CVE-2021-26858 | Microsoft Exchange Server Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-26858
+
+    Microsoft
+    CVE-2021-27065 | Microsoft Exchange Server Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-27065
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2021-03-03 First edition
+2021-03-08 Updated "IV. Related Information"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

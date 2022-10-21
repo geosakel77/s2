@@ -1,0 +1,137 @@
+JPCERT-AT-2011-0007
+                                                             JPCERT/CC
+                                                            2011-03-22
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 22.03.11 &gt;&gt;&gt;
+
+    Vulnerability in Adobe Flash Player , Adobe Reader and Acrobat
+
+            https://www.jpcert.or.jp/at/2011/at110007.txt
+
+
+I. Overview
+
+  Adobe Flash Player contains a vulnerability. As a result, a remote 
+attacker could execute arbitrary code by convincing a user to open 
+specially crafted contents. Furthermore, this vulnerablity also 
+affects some versions of Adobe Reader and Acrobat that contain the 
+Authplay.dll.
+  JPCERT/CC has confirmed attacks exploiting this vulnerability. Users
+are recommended to update to the corrected software provided by Adobe 
+Systems, or apply mitigation measures.
+
+    APSB11-05
+    Security update available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb11-05.html
+
+    APSB11-06
+    Security updates available for Adobe Reader and Acrobat
+    http://www.adobe.com/support/security/bulletins/apsb11-06.html
+
+
+II. Products Affected
+
+  Affected products and versions are as follows:
+
+  - Adobe Flash Player 10.2.152.33 and earlier
+  - Adobe AIR 2.5.1 and earlier
+
+  The following products that contain Authplay.dll are also affected 
+by this vulnerability.
+  - Adobe Reader 9.x, Adobe Reader X(10.0.x)
+  - Adobe Acrobat 9.x, Adobe Acrobat X(10.0.x)
+
+  However, according to Adobe Systems, Adobe Reader X Protected Mode 
+mitigates the effect of this vulnerability. The corrected software of 
+Adobe Reader X is planned to be released with the next quarterly 
+security update on June 14, 2011 (USA time). 
+  Futhermore, Adobe Reader and Acrobat 8.x are not affected by this 
+vulnerability.
+
+  For more information, refer to Adobe Systems' website.
+
+
+III. Solution
+
+- Adobe Flash Player
+
+  Update Adobe Flash Player to the following latest version. For more 
+information, refer to Adobe Systems' website.
+
+  - Adobe Flash Player 10.2.153.1
+
+    Adobe Flash Player Download Center
+    http://get.adobe.com/jp/flashplayer/
+    http://get.adobe.com/flashplayer/
+
+  The Adobe Flash Player version number installed on your PC can be 
+verified through the following page:
+
+    Adobe Flash Player: Version Information
+    http://www.adobe.com/jp/software/flash/about/
+    http://www.adobe.com/products/flash/about/
+
+* Even if using browsers other than Internet Explorer, Flash Player 
+  may be installed on Internet Explorer. Therefore, the Flash Player 
+  for Internet Explorer should also be updated.
+
+- Adobe AIR
+
+  Update Adobe AIR to the following latest version. For more 
+information, refer to Adobe Systems' website.
+
+  - Adobe AIR 2.6
+
+    Adobe AIR Download Center
+    http://get.adobe.com/jp/air/
+    http://get.adobe.com/air/
+
+- Adobe Reader and Acrobat
+
+  Update Adobe Reader and Acrobat to the following latest version.
+Corrected software of some of the products are not released, but 
+information for mitigating the effect is published. For more 
+information, refer to Adobe Systems' website.
+
+  - Adobe Reader 9.4.3 / Adobe Acrobat 9.4.3, Adobe Acrobat 10.0.2:
+
+  Apply the corrected software provided by Adobe Systems. Adobe Reader
+and Acrobat will be updated by starting the products, selecting the 
+menu Help (H), and then clicking Check for Updates (U).
+
+  If update is not possible, download the latest Adobe Reader and 
+Acrobat from the following URL:
+
+    Adobe.com - New downloads
+    http://www.adobe.com/support/downloads/new.jsp
+
+  For more information, refer to Adobe Systems' website.
+
+  - Adobe Reader 10.0.x:
+    The effect of this vulnerablity is mitigated by the Protected Mode.
+Therefore, confirm that the Protected Mode is enabled.
+
+
+IV. References
+
+    Adobe Security Bulletins APSB11-05
+    Security update available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb11-05.html
+
+    Adobe Security Bulletins APSB11-06 
+    Security updates available for Adobe Reader and Acrobat
+    http://www.adobe.com/support/security/bulletins/apsb11-06.html
+
+    Adobe Security Bulletins APSB11-03
+    Security Advisory for Adobe Flash Player, Adobe Reader and Acrobat
+    http://www.adobe.com/support/security/advisories/apsa11-01.html
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

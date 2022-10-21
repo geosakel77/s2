@@ -1,0 +1,99 @@
+JPCERT-AT-2017-0012
+                                                             JPCERT/CC
+                                                            2017-03-30
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-03-30 &gt;&gt;&gt;
+
+    Alert on cyber attacks stealing data from USB storage devices
+
+        https://www.jpcert.or.jp/english/at/2017/at170012.html
+
+
+I. Overview
+
+  JPCERT/CC has received information on cyber attacks that steal data
+stored on USB storage devices. In these attacks, attackers infect
+machines with malware. When a USB storage device is connected to an
+infected machine, a list of files in the storage is automatically
+generated, from which the data is screened and stolen.
+  This attack method makes it possible to steal confidential data from
+a USB storage device even when information is being managed within a
+closed network.
+  System administrators are recommended to check whether any unauthorized
+programs are running within the organizations' machines and to reconsider
+the handling of information when using USB storage devices.
+
+
+II. Reported Attack Method
+
+(1) Attacker infects an Internet-connected machine with malware.
+(2) When a USB storage device is mounted to an infected machine, a list
+    of the files in the storage device is generated in the machine.
+(3) The attacker checks the generated file list, and creates a list of
+    targeted files on the machine.
+(4) Based on the file list created in (3), the targeted files from the
+    USB storage device are compressed and stored on the infected machine.
+(5) Compressed files are divided into small parts and exfiltrated
+    through another machine which is infected with malware.
+
+  Characteristics of malware that check the list of files in a USB
+storage device is as follows. Note that depending on the configuration
+of the attack target, file configuration to change.
+
+  * The following files are placed under "C:\intel\logs", "C:\Windows\system32"
+
+    - An executable file with name similar to a legitimate executable file
+       intelUPD.exe, intelu.exe, IgfxService.exe
+    - A generated file list
+       interad.log, slog.log
+    - A compressed file for exfiltration
+
+https://www.jpcert.or.jp/english/at/2017/at170012-usb-alert_ENG.png
+
+
+III. Solution
+
+  For machines that can access to Internet, caution must be taken when
+handling information through a USB storage device. If files listed in
+"II. Reported Attack Method" are observed, there is a possibility of
+malware infection, therefore, please contact JPCERT/CC.
+
+  Consider changing operations when handling information through a USB
+storage device. For example, use a machine that is disconnected from the
+Internet when handling confidential files, using encryption, etc.
+
+  It is also recommended to check logs for any remote operations or
+evidence of an attacker presence. For details on how to check logs,
+please refer to the following document.
+
+    JPCERT/CC
+    Analysis and utilization of logs to counter sophisticated cyber attacks (Japanese)
+    https://www.jpcert.or.jp/research/apt-loganalysis.html
+
+
+IV. References
+
+    @Police
+    Alert on cyber attacks (PDF) (Japanese)
+    https://www.npa.go.jp/cyberpolice/detect/pdf/20170330.pdf
+
+
+V. Contact Information
+
+JPCERT/CC Incident Response Group
+Tel: 03-3518-4600  Fax: 03-3518-2177
+E-mail: info@jpcert.or.jp
+
+JPCERT/CC Watch and Warning Group
+Tel: 03-3518-4600  Fax: 03-3518-4602
+E-mail: ww-info@jpcert.or.jp
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,71 @@
+JPCERT-AT-2021-0017
+                                                             JPCERT/CC
+                                                            2021-04-14
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-04-14 &gt;&gt;&gt;
+
+           Microsoft Releases April 2021 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2021/at210013.html
+
+
+I. Overview
+Microsoft has released April 2021 Security Updates to address the
+vulnerabilities in their products. Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code. It is
+recommended to check the information provided by Microsoft and
+apply the updates.
+
+    Microsoft Corporation
+    April 2021 Security Updates
+    https://msrc.microsoft.com/update-guide/en-us/releaseNote/2021-Apr
+
+    Microsoft Corporation
+    Release Notes
+    https://msrc.microsoft.com/update-guide/releaseNote
+
+According to Microsoft, the Win32k elevation of privilege vulnerability
+CVE-2021-28310 has been confirmed to be exploited in the wild. Please
+consider applying the security update programs as soon as possible.
+
+Also, security updates for new vulnerabilities of Exchange Server have
+been released. Although Microsoft is not aware of any active exploits
+in the wild, it is recommended to install these updates immediately.
+
+    Microsoft The_Exchange_Team
+    Released: April 2021 Exchange Server Security Updates
+    https://techcommunity.microsoft.com/t5/exchange-team-blog/released-april-2021-exchange-server-security-updates/ba-p/2254617
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    April 2021 Security Updates
+    https://msrc.microsoft.com/update-guide/en-us/releaseNote/2021-Apr
+
+    Microsoft Corporation
+    Win32k Elevation of Privilege Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2021-28310
+
+    Microsoft Corporation
+    April 2021 Update Tuesday packages now available
+    https://msrc-blog.microsoft.com/2021/04/13/april-2021-update-tuesday-packages-now-available/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,107 @@
+JPCERT-AT-2016-0010
+                                                             JPCERT/CC
+                                                   2016-03-02(Initial)
+                                                   2016-03-03(Update)
+
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-03-02 &gt;&gt;&gt;
+                  
+           Alert regarding multiple vulnerabilities in OpenSSL
+
+          https://www.jpcert.or.jp/english/at/2016/at160010.html
+
+
+I. Overview
+
+  OpenSSL provided by the OpenSSL Project contains multiple vulnerabilities.
+For more details on the vulnerabilities, please check the information provided
+by the OpenSSL Project.
+
+    OpenSSL Project
+    OpenSSL Security Advisory [1st March 2016]
+    https://www.openssl.org/news/secadv/20160301.txt
+
+  Versions of OpenSSL affected by CVE-2016-0800 that have SSLv2 enabled,
+may allow a remote attacker to obtain critical information such as private
+keys.
+
+** Update: March 3, 2016 Update ****************************************
+  Vulnerability Note VU#583776 notes a possibility where private keys may
+be obtained. However, according to the reporter of CVE-2016-0800, private
+keys will not be obtained but encrypted communications may be decrypted.
+************************************************************************
+
+
+II. Affected Software
+
+  The following versions are affected:
+
+  - OpenSSL 1.0.1r and earlier for the 1.0.1 line
+  - OpenSSL 1.0.2f and earlier for the 1.0.2 line
+
+
+III. Solution
+
+  The OpenSSL Project has provided versions of OpenSSL that address the
+vulnerabilities. Please consider applying the update after thorough testing. 
+
+  - OpenSSL 1.0.1s
+  - OpenSSL 1.0.2g
+
+  According to the OpenSSL Project, the 0.9.8 and 1.0.0 lines of OpenSSL
+are no longer supported as of December 31, 2015. No updates to these versions
+will be provided.
+
+    OpenSSL Project
+    The New Release Strategy
+    https://www.openssl.org/blog/blog/2014/12/23/the-new-release-strategy/
+
+  If an update cannot be applied, please consider disabling SSLv2 as a 
+countermeasure to CVE-2016-0800.
+
+
+IV. References
+
+    Vulnerability Note VU#583776
+    Network traffic encrypted using RSA-based SSL certificates over SSLv2 may be decrypted by the DROWN attack
+    https://www.kb.cert.org/vuls/id/583776
+
+    OpenSSL Project
+    Release Strategy
+    https://www.openssl.org/policies/releasestrat.html
+
+    RedHat, Inc.
+    DROWN - Cross-protocol attack on TLS using SSLv2 - CVE-2016-0800
+    https://access.redhat.com/security/vulnerabilities/drown
+
+    Debian Project
+    DSA-3500-1 openssl -- security update
+    https://www.debian.org/security/2016/dsa-3500
+
+    Canonical Ltd (Ubuntu)
+    USN-2914-1: OpenSSL vulnerabilities
+    http://www.ubuntu.com/usn/usn-2914-1/
+
+** Update: March 3, 2016 Update ****************************************
+    The DROWN Attack
+    https://drownattack.com/
+
+    JVNVU#90617353
+    Network traffic encrypted over SSLv2 may be decrypted by the DROWN attack (Japanese)
+    https://jvn.jp/vu/JVNVU90617353/
+************************************************************************
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2016-03-02 First edition
+2016-03-03 Updated "Overview" and "References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

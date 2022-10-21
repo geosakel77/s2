@@ -1,0 +1,86 @@
+JPCERT-AT-2010-0021
+                                                             JPCERT/CC
+                                                            2010-08-11
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2010-08-11 &gt;&gt;&gt;
+
+                Vulnerabilities in Adobe Flash Player
+
+             https://www.jpcert.or.jp/at/2010/at100021.txt
+
+I. Overview
+
+  Adobe Flash Player contains multiple vulnerabilities. As a result, a 
+remote attacker could execute arbitrary code by convincing a user to 
+open specially crafted contents. Although JPCERT/CC has not confirmed 
+any attacks exploiting these vulnerabilities, users are recommended to 
+update to the corrected software provided by Adobe.
+
+    Adobe Security bulletin APSB10-16
+    Security update available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb10-16.html
+
+  Adobe has released security information on Adobe Acrobat/Reader 
+vulnerabilities (APSB10-17), and security updates will be released in 
+the week of August 16, 2010. Users are recommended to apply the 
+updates as soon as they are released.
+
+    Adobe - TechNote:
+    Security updates available for Adobe Reader and Acrobat (APSB10-17)
+    http://kb2.adobe.com/jp/cps/858/cpsid_85842.html
+    http://www.adobe.com/support/security/bulletins/apsb10-17.html
+
+
+II. Products Affected
+
+  Affected products are as follows:
+
+  - Adobe Flash Player 10.1.53.64 and earlier
+  - Adobe AIR 2.0.2.12610 and earlier
+
+For more information, refer to Adobe website.
+
+
+III. Solution
+
+  Please update Adobe Flash Player and Adobe AIR to the latest 
+versions shown below. For more information, refer to Adobe website.
+
+  - Adobe Flash Player 10.1.82.76
+  - Adobe AIR 2.0.3
+
+    Adobe Flash Player Download Center
+    http://get.adobe.com/jp/flashplayer/
+    http://get.adobe.com/flashplayer/
+
+  The Adobe Flash Player version number installed on your PC can be 
+verified through the following page:
+
+    Adobe Flash Player: Version Information
+    http://www.adobe.com/jp/software/flash/about/
+    http://www.adobe.com/products/flash/about/
+
+
+IV. References
+
+    Adobe - Security Advisories:
+    Security update available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb10-16.html
+
+    Adobe - TechNote:
+    Security updates available for Adobe Reader and Acrobat (APSB10-17)
+    http://kb2.adobe.com/jp/cps/858/cpsid_85842.html
+    http://www.adobe.com/support/security/bulletins/apsb10-17.html
+
+    US-CERT Vulnerability Note VU#660993
+    Adobe Flash 10.1 ActionScript AVM1 ActionPush vulnerability
+    http://www.kb.cert.org/vuls/id/660993
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

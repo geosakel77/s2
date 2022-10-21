@@ -1,0 +1,63 @@
+JPCERT-AT-2015-0026
+                                                            JPCERT/CC
+                                                           2015-07-21
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2015-07-21 &gt;&gt;&gt;
+
+             Alert on Microsoft Security Bulletin (MS15-078)
+
+      https://www.jpcert.or.jp/english/at/2015/at150026.html
+
+
+I. Overview
+
+  Microsoft released a Microsoft Security Bulletin (MS15-078) about a
+vulnerability in the Microsoft Font Driver. When this vulnerability is 
+leveraged, a user opening a specially crafted document or visiting a 
+malicious website may result in execution of arbitrary code by a 
+third-party.
+
+  For more information on the vulnerability, refer to the following URL:
+
+    Vulnerability in Microsoft Font Driver Could Allow Remote Code Execution (3079904)
+    https://technet.microsoft.com/en-us/library/security/ms15-078.aspx
+
+  According to Microsoft, information on this vulnerability is public
+which may lead to attackers exploiting this vulnerability.
+
+
+II. Solution
+
+  Apply the security update through Microsoft Update or Windows Update
+as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+
+III. References
+
+    Microsoft
+    Vulnerability in Microsoft Font Driver Could Allow Remote Code Execution (3079904)
+    https://technet.microsoft.com/en-us/library/security/ms15-078.aspx
+
+    Microsoft
+    Out-of-band release for Security Bulletin MS15-078
+    http://blogs.technet.com/b/msrc/archive/2015/07/20/out-of-band-release-for-security-bulletin-ms15-078.aspx
+
+    Microsoft
+    MS15-078: Vulnerability in Microsoft font driver could allow remote code execution: July 16, 2015
+    https://support.microsoft.com/en-us/kb/3079904
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

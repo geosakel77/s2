@@ -1,0 +1,146 @@
+JPCERT-AT-2020-0042
+                                                             JPCERT/CC
+                                                            2020-11-11
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2020-11-11 &gt;&gt;&gt;
+
+          Microsoft Releases November 2020 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2020/at200042.html
+
+
+I. Overview
+Microsoft has released November 2020 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    November 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Nov
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* If the same vulnerability spans multiple KBs, listing up each
+
+    CVE-2020-16988
+    Azure Sphere Elevation of Privilege Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-16988
+    - KB number is not assigned
+
+    CVE-2020-17042
+    Windows Print Spooler Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-17042
+    - KB4586781, KB4586785, KB4586786, KB4586787, KB4586793, KB4586805
+      KB4586807, KB4586808, KB4586817, KB4586823, KB4586827, KB4586830
+      KB4586834, KB4586845
+
+    CVE-2020-17048
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-17048
+    - KB4586781, KB4586785, KB4586786, KB4586793, KB4586830
+
+    CVE-2020-17051
+    Windows Network File System Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-17051
+    - KB4586781, KB4586786, KB4586793, KB4586805, KB4586807, KB4586808
+      KB4586817, KB4586823, KB4586827, KB4586830, KB4586834, KB4586845
+
+    CVE-2020-17052
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-17052
+    - KB4586768, KB4586781, KB4586785, KB4586786, KB4586787, KB4586793
+      KB4586827, KB4586830, KB4586845
+
+    CVE-2020-17053
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-17053
+    - KB4586781, KB4586785, KB4586786, KB4586793
+
+    CVE-2020-17058
+    Microsoft Browser Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-17058
+    - KB4586781, KB4586785, KB4586786, KB4586787, KB4586793, KB4586830
+
+    CVE-2020-17078
+    Raw Image Extension Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-17078
+    - KB number is not assigned
+
+    CVE-2020-17079
+    Raw Image Extension Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-17079
+    - KB number is not assigned
+
+    CVE-2020-17082
+    Raw Image Extension Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-17082
+    - KB number is not assigned
+
+    CVE-2020-17101
+    HEIF Image Extensions Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-17101
+    - KB number is not assigned
+
+    CVE-2020-17105
+    AV1 Video Extension Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-17105
+    - KB number is not assigned
+
+    CVE-2020-17106
+    HEVC Video Extensions Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-17106
+    - KB number is not assigned
+
+    CVE-2020-17107
+    HEVC Video Extensions Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-17107
+    - KB number is not assigned
+
+    CVE-2020-17108
+    HEVC Video Extensions Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-17108
+    - KB number is not assigned
+
+    CVE-2020-17109
+    HEVC Video Extensions Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-17109
+    - KB number is not assigned
+
+    CVE-2020-17110
+    HEVC Video Extensions Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-17110
+    - KB number is not assigned
+
+According to Microsoft, attacks leveraging the vulnerability
+CVE-2020-17087 (Important) has been observed in the wild. Please apply
+the security update programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    November 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Nov
+
+    Microsoft Corporation
+    Microsoft Security Updates for November 2020 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2020/11/10/202011-security-updates/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

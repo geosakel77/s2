@@ -1,0 +1,237 @@
+JPCERT-AT-2018-0016
+                                                             JPCERT/CC
+                                                            2018-04-11
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-04-11 &gt;&gt;&gt;
+
+            Microsoft Releases April 2018 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2018/at1800XX.html
+
+
+I. Overview
+Microsoft has released April 2018 Security Updates. This contains
+updates that are rated as "critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    April 2018 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/abf77563-8612-e811-a966-000d3a33a34d
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    ADV180007
+    April 2018 Adobe Flash Security Update
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV180007
+    - KB4093110
+
+    CVE-2018-0870
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0870
+    - KB4092946, KB4093107, KB4093109, KB4093111, KB4093112, KB4093114
+      KB4093118, KB4093119
+
+    CVE-2018-0979
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0979
+    - KB4093107, KB4093109, KB4093111, KB4093112, KB4093119
+
+    CVE-2018-0980
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0980
+    - KB4093107, KB4093109, KB4093111, KB4093112, KB4093119
+
+    CVE-2018-0981
+    Scripting Engine Information Disclosure Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0981
+    - KB4092946, KB4093107, KB4093109, KB4093111, KB4093112, KB4093114
+      KB4093118, KB4093119
+
+    CVE-2018-0988
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0988
+    - KB4092946, KB4093107, KB4093109, KB4093111, KB4093112, KB4093114
+      KB4093118, KB4093119
+
+    CVE-2018-0990
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0990
+    - KB4093107, KB4093109, KB4093111, KB4093112, KB4093119
+
+    CVE-2018-0991
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0991
+    - KB4092946, KB4093107, KB4093109, KB4093111, KB4093112, KB4093114,
+      KB4093118, KB4093119
+
+    CVE-2018-0993
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0993
+    - KB4093107, KB4093109, KB4093111, KB4093112, KB4093119
+
+    CVE-2018-0994
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0994
+    - KB4093107, KB4093109, KB4093111, KB4093112, KB4093119
+
+    CVE-2018-0995
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0995
+    - KB4093107, KB4093109, KB4093111, KB4093112, KB4093119
+
+    CVE-2018-0996
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0996
+    - KB4092946, KB4093107, KB4093109, KB4093111, KB4093112, KB4093114,
+      KB4093118, KB4093119
+
+    CVE-2018-1000
+    Scripting Engine Information Disclosure Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-1000
+    - KB4092946, KB4093107, KB4093109, KB4093111, KB4093112, KB4093114,
+      KB4093118, KB4093119
+
+    CVE-2018-1004
+    Windows VBScript Engine Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-1004
+    - KB4092946, KB4093107, KB4093108, KB4093109, KB4093111, KB4093112, 
+      KB4093114, KB4093115, KB4093118, KB4093119, KB4093122, KB4093123
+
+    CVE-2018-1010
+    Microsoft Graphics Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-1010
+    - KB4093107, KB4093108, KB4093109, KB4093111, KB4093112, KB4093114,
+      KB4093115, KB4093118, KB4093119, KB4093122, KB4093123, KB4093223
+
+    CVE-2018-1012
+    Microsoft Graphics Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-1012
+    - KB4093107, KB4093108, KB4093109, KB4093111, KB4093112, KB4093114,
+      KB4093115, KB4093118, KB4093119, KB4093122, KB4093123, KB4093223
+
+    CVE-2018-1013
+    Microsoft Graphics Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-1013
+    - KB4093107, KB4093108, KB4093109, KB4093111, KB4093112, KB4093114,
+      KB4093115, KB4093118, KB4093119, KB4093122, KB4093123, KB4093223
+
+    CVE-2018-1015
+    Microsoft Graphics Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-1015
+    - KB4093107, KB4093108, KB4093109, KB4093111, KB4093112, KB4093114,
+      KB4093115, KB4093118, KB4093119, KB4093122, KB4093123, KB4093223
+
+    CVE-2018-1016
+    Microsoft Graphics Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-1016
+    - KB4093107, KB4093108, KB4093109, KB4093111, KB4093112, KB4093114,
+      KB4093115, KB4093118, KB4093119, KB4093122, KB4093123, KB4093223
+
+    CVE-2018-1018
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-1018
+    - KB4092946, KB4093107, KB4093109, KB4093111, KB4093112, KB4093114,
+      KB4093118, KB4093119
+
+    CVE-2018-1019
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-1019
+    - KB4093112
+
+    CVE-2018-1020
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-1020
+    - KB4092946, KB4093107, KB4093109, KB4093111, KB4093112, KB4093114,
+      KB4093118, KB4093119
+
+    CVE-2018-1023
+    Microsoft Browser Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-1023
+    - KB4093107, KB4093109, KB4093111, KB4093112, KB4093119
+
+In addition, CERT/CC released the information (CVE-2018-0950) regarding
+Microsoft Outlook. Microsoft has addressed this vulnerability in the
+April 2018 Security Updates, and rated as "important". Please refer to
+the following website for details.
+
+    Vulnerability Note VU#974272
+    Microsoft Outlook retrieves remote OLE content without prompting
+    https://www.kb.cert.org/vuls/id/974272
+
+According to Microsoft, attacks leveraging the vulnerabilities have
+not been observed in the wild. However, please apply the security
+update programs as soon as possible.
+
+In addition, Microsoft has released information on support for Microsoft
+Visual Studio 2008 and Microsoft SQL Server Compact 3.5. Please refer
+to Microsoft website for more details. The security updates will not
+be provided for products and versions that are no longer supported, 
+which increases the security risk. Please consider updating to supported
+versions based on the compatibility with the running applications.
+
+    Microsoft Corporation
+    Products Reaching End of Support for 2018
+    https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018
+
+The following products and versions are no longer supported:
+
+  - Microsoft SQL Server Compact 3.5
+  - Microsoft Visual Studio 2008, all editions
+  - Microsoft Visual Studio Team System 2008, all editions
+  - Microsoft Visual Studio Team System 2008 Team Foundation Server
+  - Microsoft Dynamics CRM 4.0
+  - Microsoft Office Accounting 2008, all editions
+  - Microsoft System Center Capacity Planner 2007
+  - Microsoft Visual Basic 2008 Express Edition
+  - Microsoft Visual C# 2008 Express Edition
+  - Microsoft Visual Web Developer 2008 Express Edition
+  - Windows Embedded CE 6.0
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update / Windows Update
+    http://www.update.microsoft.com/
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+
+III. References
+    Microsoft Corporation
+    April 2018 Security Updates 
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/abf77563-8612-e811-a966-000d3a33a34d
+
+    Microsoft Corporation
+    Microsoft Security Updates for April 2018 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2018/04/11/201804-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Adobe Systems Incorporated
+    Security updates available for Flash Player | APSB18-08
+    https://helpx.adobe.com/security/products/flash-player/apsb18-08.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerability in Adobe Flash Player (APSB18-08)
+    https://www.jpcert.or.jp/english/at/2018/at180015.html
+
+    CERT/CC
+    Microsoft Outlook retrieves remote OLE content without prompting
+    https://www.kb.cert.org/vuls/id/974272
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

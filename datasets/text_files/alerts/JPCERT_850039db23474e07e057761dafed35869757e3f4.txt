@@ -1,0 +1,165 @@
+JPCERT-AT-2019-0012
+                                                             JPCERT/CC
+                                                            2019-03-13
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-03-13 &gt;&gt;&gt;
+
+           Microsoft Releases March 2019 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2019/at190012.html
+
+
+I. Overview
+Microsoft has released March 2019 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    March 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/ac45e477-1019-e911-a98b-000d3a33a34d
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    CVE-2019-0592
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0592
+    - KB4489899
+
+    CVE-2019-0603
+    Windows Deployment Services TFTP Server Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0603
+    - KB4489868, KB4489876, KB4489878, KB4489880, KB4489881, KB4489882
+      KB4489883, KB4489884, KB4489885, KB4489891, KB4489899
+
+    CVE-2019-0609
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0609
+    - KB4489868, KB4489871, KB4489872, KB4489873, KB4489878, KB4489881
+      KB4489882, KB4489886, KB4489899
+
+    CVE-2019-0639
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0639
+    - KB4489868, KB4489899
+
+    CVE-2019-0666
+    Windows VBScript Engine Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0666
+    - KB4489868, KB4489871, KB4489872, KB4489873, KB4489878, KB4489881
+      KB4489882, KB4489886, KB4489899
+
+    CVE-2019-0667
+    Windows VBScript Engine Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0667
+    - KB4489868, KB4489871, KB4489872, KB4489873, KB4489878, KB4489881
+      KB4489882, KB4489886, KB4489899
+
+    CVE-2019-0680
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0680
+    - KB4489868, KB4489871, KB4489872, KB4489873, KB4489878, KB4489881
+      KB4489882, KB4489886, KB4489899
+
+    CVE-2019-0697
+    Windows DHCP Client Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0697
+    - KB4489868, KB4489899
+
+    CVE-2019-0698
+    Windows DHCP Client Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0698
+    - KB4489868, KB4489899
+
+    CVE-2019-0726
+    Windows DHCP Client Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0726
+    - KB4489868, KB4489899
+
+    CVE-2019-0756
+    MS XML Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0756
+    - KB4489868, KB4489871, KB4489872, KB4489876, KB4489878, KB4489880,
+      KB4489881, KB4489882, KB4489883, KB4489884, KB4489885, KB4489886,
+      KB4489891, KB4489899
+
+    CVE-2019-0763
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0763
+    - KB4489868, KB4489871, KB4489872, KB4489873, KB4489878, KB4489881
+      KB4489882, KB4489886, KB4489899
+
+    CVE-2019-0769
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0769
+    - KB4489868, KB4489871, KB4489872, KB4489882, KB4489886, KB4489899
+
+    CVE-2019-0770
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0770
+    - KB4489868, KB4489871, KB4489872, KB4489882, KB4489886
+
+    CVE-2019-0771
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0771
+    - KB4489868, KB4489871, KB4489872, KB4489882, KB4489886, KB4489899
+
+    CVE-2019-0773
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0773
+    - KB4489868, KB4489871, KB4489872, KB4489882, KB4489886, KB4489899
+
+    CVE-2019-0784
+    Windows ActiveX Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0784
+    - KB4489868, KB4489871, KB4489872, KB4489876, KB4489878, KB4489880, 
+      KB4489881, KB4489882, KB4489883, KB4489884, KB4489885, KB4489886, 
+      KB4489891, KB4489899
+
+This month's security release contains an update for Adobe Flash
+Player that is rated as "low".
+
+According to Microsoft, attacks leveraging the vulnerability
+CVE-2019-0797 (Important) and CVE-2019-0808 (Important) have been
+observed in the wild. Please apply the security update programs as
+soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    March 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/ac45e477-1019-e911-a98b-000d3a33a34d
+
+    Microsoft Corporation
+    Microsoft Security Updates for March 2019 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2019/3/13/201903-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Google
+    Disclosing vulnerabilities to protect users across platforms
+    https://security.googleblog.com/2019/03/disclosing-vulnerabilities-to-protect.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-6271-8901  FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,61 @@
+JPCERT-AT-2007-0006
+                                                             JPCERT/CC
+                                                     February 19, 2007
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2007-02-19 &gt;&gt;&gt;
+
+     Vulnerability in VeriSign Managed PKI Service ActiveX control
+
+             http://www.jpcert.or.jp/at/2007/at070006.txt
+                                   
+I. Overview
+
+  The ActiveX control, used in VeriSign Managed PKI Service to obtain,
+update, and renew digital certificates, contains a buffer overflow
+vulnerability. Exploitation of this vulnerability could allow a remote
+attacker to execute arbitrary code. For more information on this
+vulnerability, see the following URL:
+
+    Information on Measures for Buffer Overflow Vulnerability in
+      VeriSign Managed PKI Service
+    https://download.verisign.co.jp/support/announce/20070216.html
+
+  According to the information from VeriSign, it was confirmed that
+this vulnerability only affects the ActiveX control used in VeriSign
+Managed PKI Service and does not affect the system of digital
+certificates and authentication using digital certificates.
+
+
+II. Systems Affected
+
+  Users who obtained, updated, or renewed digital certificates issued
+by VeriSign Managed PKI Service through Microsoft Internet Explorer
+may be affected by this vulnerability. To check if the vulnerable
+ActiveX control is installed, access the above URL and follow the
+steps described in "Solution."
+
+
+III. Solution
+
+  If the vulnerable ActiveX control is installed, remove the ActiveX
+control by following the steps provided by the vendor.
+
+
+IV. Reference Information
+
+    VeriSign Japan
+    FAQ (Frequently Asked Questions)
+    https://download.verisign.co.jp/support/announce/20070216/faq.html
+
+    JP Vendor Status Notes JVNVU#308087
+    Buffer Overflow Vulnerability in VeriSign ActiveX Control
+    http://jvn.jp/cert/JVNVU%23308087/
+
+
+  If you have any information regarding this matter, please contact
+us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

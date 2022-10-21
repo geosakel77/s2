@@ -1,0 +1,78 @@
+JPCERT-AT-2010-0013
+                                                             JPCERT/CC
+                                                            2010-06-01
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2010-06-01 &gt;&gt;&gt;
+
+           Emails purporting to advise of company internal
+                   malware outbreak contain malware
+
+             https://www.jpcert.or.jp/at/2010/at100013.txt
+
+
+I. Overview
+
+  JPCERT/CC has received several reports on emails written in 
+Japanese which have malware attached as files. These email messages 
+purport to advise of company internal malware outbreak and lead users 
+to open the attached files. When a user opens and executes the file 
+attached to such email, malware may be installed on the PC.
+
+  Emails with Japanese subjects and message text increase the chances 
+for users who receive the emails to open the attachments. Even if the 
+message text is in Japanese, please pay careful consideration before 
+opening the attachments.
+
+
+II. Overview of email with malware attached
+
+  So far, JPCERT/CC has confirmed the existence of email messages 
+such as the following (actual email messages are written in Japanese):
+
+  Email subject:
+    URGENT: All staff involvement in investigating viruses and files 
+    for malicious script
+
+  Message text (excerpt):
+    Please follow the attached manual to investigate if the PCs in 
+    the office are infected with viruses.
+    Your cooperation is appreciated.
+    Thank you! 
+
+  Attached file name:
+    Virus Check.zip
+
+  If the zip file attached to the email is decompressed, a 
+screen-saver (.scr) file which is disguised as a Microsoft Office 
+Word icon is extracted. If a user executes the screen-saver file, 
+malware could be installed on the user's PC. (At the same time, the 
+document "VIRUS/malicious script investigation" will be opened.)
+
+
+III. Countermeasures
+
+  As of June 1, 2010, the malware used for this attack does not 
+execute just by viewing the email. Do not open suspicious email 
+attachments because this malware will be installed by extracting and 
+executing the attached file.
+
+  Users should also consider taking countermeasures, such as keeping 
+the anti-virus software pattern files updated and scanning email 
+attachments using the anti-virus software.
+
+
+IV. References
+
+    The Information-technology Promotion Agency, Japan (IPA)
+    Five hints for handling email attachments
+    http://www.ipa.go.jp/security/antivirus/attach5.html
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,119 @@
+JPCERT-AT-2016-0027
+                                                             JPCERT/CC
+                                                   2016-06-20(Initial)
+                                                    2016-06-21(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-06-20 &gt;&gt;&gt;
+
+                 Vulnerability in Apache Struts 2 (S2-037)
+
+          https://www.jpcert.or.jp/english/at/2016/at160027.html
+
+
+I. Overview
+
+ Apache Struts 2 provided by the Apache Software Foundation contains a
+vulnerability (S2-037/CVE-2016-4438). When using REST Plugin*1, a remote 
+attacker sending a specially crafted HTTP request leveraging the vulnerability
+may execute arbitrary code on the server that runs an application using
+Apache Struts 2 (Struts application). 
+  For more details on the vulnerability, please refer to the information 
+provided by the Apache Software Foundation.
+
+   *1 A plugin for implementation of REST services in Struts application
+   REST Plugin
+   https://struts.apache.org/docs/rest-plugin.html
+
+  Proof-of-Concept (PoC) code for this vulnerability has been already 
+made public, and JPCERT/CC's test of this code confimed that arbitrary 
+code was executed with the execution privilege of the application server
+which runs the Struts application. 
+
+  Apache Software Foundation has provided versions of the software that
+address the vulnerability. For those using an affected version of the
+software, it is strongly recommended to quickly resolve the issue based 
+on information provided in "V. Solution".
+
+
+II. A Possible Attack Scenario
+
+  Sending a specially crafted HTTP request leveraging the vulnerability 
+to a Struts application with REST Plugin may result in arbitrary code 
+execution on the server which runs the Struts application.
+
+
+III. Affected Systems
+
+  The following versions are affected by this vulnerability:
+
+  - Apache Struts versions 2.3.20 through 2.3.28.1
+
+
+IV. Test Results from JPCERT/CC
+
+  JPCERT/CC tested the PoC code that leverages this vulnerability.
+
+  [Test content]
+  - Deploy a sample application that uses Apache Struts 2 on 
+    Apache Tomcat. We examined if arbitrary code is executed by 
+    sending a specially crafted HTTP request using the proof-of-concept
+    code.
+
+  [Test Environment]
+  - Application Server
+    - CentOS 6.6
+    - Apache Tomcat 8.0.30
+    - Java 1.8.0_91
+    - Sample application that uses Apache Struts 2
+
+  [Test Results] 
+   - Apache Struts 2.3.28.1 | affected     |
+   - Apache Struts 2.3.29   | not affected |
+
+
+V. Solution
+
+ Apache Software Foundation has released a version addressing this
+vulnerability. It is recommended to update to this latest version
+after thorough testing.
+  
+  -  Apache Struts 2.3.29
+
+
+VII. References
+
+    Apache Struts 2 Documentation
+    S2-037: Remote Code Execution can be performed when using REST Plugin.
+    https://struts.apache.org/docs/s2-037.html
+
+    Apache Struts 2 Documentation
+    Version Notes 2.3.29
+    https://struts.apache.org/docs/version-notes-2329.html
+
+    Apache Struts 2 Documentation
+    REST Plugin
+    https://struts.apache.org/docs/rest-plugin.html
+
+** Update: June 21, 2016 Update ***************************************
+    JVN#07710476
+    Code execution vulnerability in Apache Struts 2 (Japanese)
+    https://jvn.jp/jp/JVN07710476/
+
+    Information-technology Promotion Agency
+    A countermeasure for code execution vulnerability in Apache Struts 2(JVN#07710476) (Japanese)
+    https://www.ipa.go.jp/security/ciadr/vul/20160620-jvn.html
+**********************************************************************
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2016-06-20 First edition
+2016-06-21 Updated "VII. References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

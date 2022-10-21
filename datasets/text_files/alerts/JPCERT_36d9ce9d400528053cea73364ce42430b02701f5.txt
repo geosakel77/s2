@@ -1,0 +1,178 @@
+JPCERT-AT-2014-0037
+                                                             JPCERT/CC
+                                                   2014-09-25(Initial)
+                                                    2014-10-08(Update)
+
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2014-09-25 &gt;&gt;&gt;
+
+                      Vulnerability in GNU Bash
+
+        https://www.jpcert.or.jp/english/at/2014/at140037.html
+
+
+I. Overview
+
+  GNU bash contains a vulnerability in the processing of environment
+parameters. Arbitrary code may executed by a remote attacker in
+environments where GNU bash environment variables are configured.
+
+** Update: 09/30/2014 Update *****************************************
+JPCERT/CC has observed attacks leveraging this vulnerability. If you
+are using a vulnerable version GNU bash, refer to "III. Solution" and
+update as soon as feasibly possible to a version that has addressed
+the vulnerability.
+
+Multiple vulnerabilities have been disclosed related to GNU bash. For
+more details, refer to "VI. Test Results"
+**********************************************************************
+
+  Note that attack methods exploiting this vulnerability are public.
+
+
+II. Affected Versions
+
+** Update: 10/08/2014 Update *****************************************
+  The following versions are affected by the vulnerability
+
+  - Bash 4.3 Patch 28 and earlier
+  - Bash 4.2 Patch 51 and earlier
+  - Bash 4.1 Patch 15 and earlier
+  - Bash 4.0 Patch 42 and earlier
+  - Bash 3.2 Patch 55 and earlier
+  - Bash 3.1 Patch 21 and earlier
+  - Bash 3.0 Patch 20 and earlier
+
+  If you are using bash provided by a distributor, refer to the
+information provided by the distributor.
+**********************************************************************
+
+
+III. Solution
+
+** Update: 10/08/2014 Update *****************************************
+  The GNU Project has released versions of GNU bash that have
+addressed the vulnerability. Consider updating GNU bash after thorough
+testing.
+
+  The following versions have addressed the vulnerability
+
+  - Bash 4.3 Patch 29
+  - Bash 4.2 Patch 52
+  - Bash 4.1 Patch 16
+  - Bash 4.0 Patch 43
+  - Bash 3.2 Patch 56
+  - Bash 3.1 Patch 22
+  - Bash 3.0 Patch 21
+
+Some distributors have provided versions that address the
+vulnerability. For more details, refer to the information provided by
+each distributor.
+
+If there are issues with applying the patch, consider applying one of
+the following workaround.
+**********************************************************************
+
+
+IV. Workarounds
+
+** Update: 09/30/2014 Update *****************************************
+  - Replace GNU bash with another shell
+  - Use WAF or IDS to filter inputs to vulnerable services
+  - Continuous system monitoring
+**********************************************************************
+
+
+V. References
+
+    GNU Project
+    bug-bash (thread)
+    https://lists.gnu.org/archive/html/bug-bash/2014-09/threads.html
+
+    Red Hat, Inc
+    Bash specially-crafted environment variables code injection attack
+    https://securityblog.redhat.com/2014/09/24/bash-specially-crafted-environment-variables-code-injection-attack/
+
+    Red Hat, Inc
+     Resolution for Bash Code Injection  Vulnerability via Specially  Crafted  Environment Variables  (CVE-2014-6271) in Red Hat Enterprise  Linux
+    https://access.redhat.com/site/solutions/1207723
+
+    Centos Project
+    [CentOS] Critical update for bash released today.
+    http://lists.centos.org/pipermail/centos/2014-September/146099.html
+
+    Debian Project
+    Debian Security Advisory
+    https://www.debian.org/security/2014/dsa-3032.en.html
+
+    Ubuntu
+    USN-2362-1: Bash vulnerability
+    http://www.ubuntu.com/usn/usn-2362-1/
+
+** Update: 09/26/2014 Update *****************************************
+    Red Hat, Inc
+    Important: bash security update
+    https://rhn.redhat.com/errata/RHSA-2014-1306.html
+
+    Centos Project
+    [CentOS-announce] CESA-2014:1306 Important CentOS 7 bash Security Update
+    http://lists.centos.org/pipermail/centos-announce/2014-September/020592.html
+
+    Centos Project
+    [CentOS-announce] CESA-2014:1306 Important CentOS 6 bash Security Update
+    http://lists.centos.org/pipermail/centos-announce/2014-September/020593.html
+
+    Centos Project
+    [CentOS-announce] CESA-2014:1306 Important CentOS 5 bash Security Update
+    http://lists.centos.org/pipermail/centos-announce/2014-September/020591.html
+
+    Debian Project
+    Debian Security Advisory
+    https://www.debian.org/security/2014/dsa-3035.en.html
+
+    Ubuntu
+    USN-2363-2: Bash vulnerability
+    http://www.ubuntu.com/usn/usn-2363-2/
+**********************************************************************
+
+** Update: 09/30/2014 Update *****************************************
+    GNU Project
+    GNU Project Archives
+    http://ftp.gnu.org/gnu/bash/
+
+    Japan Vulnerability Notes JVN#97219505
+    GNU bash vulnerable to OS command injection (Japanese Only)
+    https://jvn.jp/vu/JVNVU97219505/index.html
+**********************************************************************
+
+
+** Update: 10/08/2014 Update *****************************************
+VI. Test Results from JPCERT/CC
+
+  JPCERT/CC has performed some testing on this vulnerability and the
+results are at the following:
+
+    JPCERT/CC Alert 2014-09-25
+    Vulnerability in GNU Bash
+    https://www.jpcert.or.jp/english/at/2014/at140037.html
+    ※ 10/08/2014 Update
+**********************************************************************
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2014-09-25 First edition
+2014-09-26 Updated "Overview", "Solution" and "References"
+2014-09-30 Updated "Overview", "Affected Systems", "Workarounds", "References" and "Test Results from JPCERT/CC"
+2014-10-02 Updated "Affected Systems", "Solution" and "Test Results from JPCERT/CC"
+2014-10-03 Updated "Test Results from JPCERT/CC"
+2014-10-08 Updated "Affected Systems", "Solution" and "Test Results from JPCERT/CC"     
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

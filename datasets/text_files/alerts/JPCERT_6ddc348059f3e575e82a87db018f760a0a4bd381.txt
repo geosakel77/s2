@@ -1,0 +1,195 @@
+JPCERT-AT-2019-0026
+                                                             JPCERT/CC
+                                                            2019-06-12
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-06-12 &gt;&gt;&gt;
+
+             Microsoft Releases June 2019 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2019/at190026.html
+
+
+I. Overview
+Microsoft has released June 2019 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    June 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/253dc509-9a5b-e911-a98e-000d3a33c573
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    ADV190015
+    June 2019 Adobe Flash Security Update
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV190015
+    - KB4503308
+
+    CVE-2019-0620
+    Windows Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0620
+    - KB4503263, KB4503267, KB4503276, KB4503279, KB4503284, KB4503285
+      KB4503286, KB4503290, KB4503291, KB4503293, KB4503327
+
+    CVE-2019-0709
+    Windows Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0709
+    - KB4503267, KB4503279, KB4503284, KB4503291
+
+    CVE-2019-0722
+    Windows Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0722
+    - KB4503263, KB4503267, KB4503269, KB4503273, KB4503276, KB4503279
+      KB4503284, KB4503285, KB4503286, KB4503287, KB4503290, KB4503291
+      KB4503292, KB4503293, KB4503327
+
+    CVE-2019-0888
+    ActiveX Data Objects (ADO) Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0888
+    - KB4503263, KB4503267, KB4503269, KB4503273, KB4503276, KB4503279
+      KB4503284, KB4503285, KB4503286, KB4503287, KB4503290, KB4503291
+      KB4503292, KB4503293, KB4503327
+
+    CVE-2019-0920
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0920
+    - KB4503259, KB4503267, KB4503276, KB4503279, KB4503284, KB4503286
+      KB4503291, KB4503292, KB4503293, KB4503327
+
+    CVE-2019-0985
+    Microsoft Speech API Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0985
+    - KB4503269, KB4503292
+
+    CVE-2019-0988
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0988
+    - KB4503259, KB4503267, KB4503276, KB4503279, KB4503284, KB4503286
+      KB4503291, KB4503292, KB4503293, KB4503327
+
+    CVE-2019-0989
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0989
+    - KB4503267, KB4503279, KB4503284, KB4503286, KB4503291, KB4503293
+      KB4503327
+
+    CVE-2019-0990
+    Scripting Engine Information Disclosure Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0990
+    - KB4503267, KB4503279, KB4503284, KB4503286, KB4503291, KB4503293
+      KB4503327
+
+    CVE-2019-0991
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0991
+    - KB4503267, KB4503279, KB4503284, KB4503286, KB4503291, KB4503293
+      KB4503327
+
+    CVE-2019-0992
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0992
+    - KB4503267, KB4503279, KB4503284, KB4503286, KB4503291, KB4503293
+      KB4503327
+
+    CVE-2019-0993
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0993
+    - KB4503267, KB4503279, KB4503284, KB4503286, KB4503291, KB4503293
+      KB4503327
+
+    CVE-2019-1002
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1002
+    - KB4503267, KB4503279, KB4503284, KB4503286, KB4503291
+
+    CVE-2019-1003
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1003
+    - KB4503267, KB4503279, KB4503284, KB4503286, KB4503291, KB4503293
+      KB4503327
+
+    CVE-2019-1023
+    Scripting Engine Information Disclosure Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1023
+    - KB4503267, KB4503279, KB4503284, KB4503286, KB4503291, KB4503293
+      KB4503327
+
+    CVE-2019-1024
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1024
+    - KB4503279, KB4503284, KB4503286, KB4503293, KB4503327
+
+    CVE-2019-1038
+    Microsoft Browser Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1038
+    - KB4503259, KB4503267, KB4503276, KB4503279, KB4503284, KB4503286
+      KB4503291, KB4503292, KB4503293, KB4503327
+
+    CVE-2019-1051
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1051
+    - KB4503267, KB4503279, KB4503284, KB4503286, KB4503291, KB4503293
+      KB4503327
+
+    CVE-2019-1052
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1052
+    - KB4503267, KB4503279, KB4503284, KB4503286, KB4503291, KB4503293
+      KB4503327
+
+    CVE-2019-1055
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1055
+    - KB4503259, KB4503267, KB4503276, KB4503279, KB4503284, KB4503286
+      KB4503291, KB4503292, KB4503293, KB4503327
+
+    CVE-2019-1080
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1080
+    - KB4503259, KB4503267, KB4503276, KB4503279, KB4503284, KB4503286
+      KB4503290, KB4503291, KB4503292, KB4503293, KB4503327
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation 
+    June 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/253dc509-9a5b-e911-a98e-000d3a33c573
+
+    Microsoft Corporation
+    Microsoft Security Updates for June 2019 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2019/6/12/201906-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Adobe
+    Security Bulletin for Adobe Flash Player | APSB19-30
+    https://helpx.adobe.com/security/products/flash-player/apsb19-30.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerability in Adobe Flash Player (APSB19-30)
+    https://www.jpcert.or.jp/english/at/2019/at190025.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-6271-8901  FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,99 @@
+JPCERT-AT-2021-0036
+                                                             JPCERT/CC
+                                                            2021-08-25
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2021-08-25 &gt;&gt;&gt;
+
+Alert Regarding Vulnerabilities (CVE-2021-3711, CVE-2021-3712) in OpenSSL
+
+       https://www.jpcert.or.jp/english/at/2020/at210036.html
+
+
+I. Overview
+On August 24, 2021 (Local Time), OpenSSL Project released information
+regarding the OpenSSL vulnerabilities (CVE-2021-3711, CVE-2021-3712).
+
+A High severity vulnerability CVE-2021-3711 is a bug in the
+implementation of the SM2 decryption code that can lead to a buffer
+overflow when calling the API function to decrypt SM2 encrypted data.
+An attacker presenting a specially crafted SM2 content may be able to
+exploit the vulnerability and change application behavior or cause
+the application to crash.
+
+A Medium severity vulnerability CVE-2021-3712 is a read buffer overruns
+vulnerability when processing ASN.1 strings. An attacker exploiting
+the vulnerability may be able to disclose private memory contents or
+perform a Denial of Service (DoS) attack.
+
+For more information on these vulnerabilities, please refer to the
+information provided by the OpenSSL Project.
+
+    OpenSSL Project
+    OpenSSL Security Advisory [24 August 2021]
+    https://www.openssl.org/news/secadv/20210824.txt
+
+If you are using an affected version, it is recommended to address
+the issue as soon as possible by referring to the information in
+"III. Solution".
+
+
+II. Affected Software
+The following versions are affected by these vulnerabilities:
+
+  CVE-2021-3711
+  - OpenSSL versions 1.1.1k and earlier 1.1.1x
+
+  CVE-2021-3712
+  - OpenSSL versions 1.1.1k and earlier 1.1.1x
+  - OpenSSL versions 1.0.2y and earlier 1.0.2x
+
+According to OpenSSL Project, OpenSSL 1.0.2 and 1.1.0 are out of
+support and no longer receiving updates. Users of these versions
+are recommended to upgrade to OpenSSL 1.1.1l.
+
+
+III. Solution
+The OpenSSL Project has released a version of OpenSSL to address
+these vulnerabilities. Please consider applying the update after
+thorough testing.
+
+  - OpenSSL 1.1.1l
+
+
+IV. References
+    OpenSSL Project
+    OpenSSL Security Advisory [24 August 2021]
+    https://www.openssl.org/news/secadv/20210824.txt
+
+    Ubuntu
+    CVE-2021-3711
+    https://ubuntu.com/security/CVE-2021-3711
+    CVE-2021-3712
+    https://ubuntu.com/security/CVE-2021-3712
+
+    Red Hat Customer Portal
+    CVE-2021-3711
+    https://access.redhat.com/security/cve/cve-2021-3711
+    CVE-2021-3712
+    https://access.redhat.com/security/cve/cve-2021-3712
+
+    SUSE
+    CVE-2021-3711
+    https://www.suse.com/security/cve/CVE-2021-3711.html
+    CVE-2021-3712
+    https://www.suse.com/security/cve/CVE-2021-3712.html
+
+    Debian
+    CVE-2021-3711
+    https://security-tracker.debian.org/tracker/CVE-2021-3711
+    CVE-2021-3712
+    https://security-tracker.debian.org/tracker/CVE-2021-3712
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

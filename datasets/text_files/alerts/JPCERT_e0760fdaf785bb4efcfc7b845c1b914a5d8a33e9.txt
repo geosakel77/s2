@@ -1,0 +1,64 @@
+JPCERT-AT-2008-0018
+                                                             JPCERT/CC
+                                                            2008-10-24
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2008-10-24 &gt;&gt;&gt;
+
+              Vulnerability in Microsoft Server Service
+
+             http://www.jpcert.or.jp/at/2008/at080018.txt
+
+I. Overview
+
+   Microsoft has released an urgent advisory regarding a Server
+service vulnerability, containing one security update with severity
+rating "Critical". A remote attacker could use this vulnerability to
+execute arbitrary code.
+
+  According to Microsoft, some targeted attacks exploiting this 
+vulnerability have already been found. Prompt action is recommended
+since this vulnerability could also be exploited by worms that spread
+automatically.
+
+  For further information about the vulnerability, refer to the
+following URL.
+
+  Microsoft Security Bulletin MS08-067 - Critical
+  http://www.microsoft.com/technet/security/bulletin/MS08-067.mspx
+
+
+II. Solution
+
+  Use means such as Microsoft Update or Windows Update to apply the 
+security update immediately.
+
+    Microsoft Update
+    https://www.update.microsoft.com/
+
+    Windows Update
+    https://windowsupdate.microsoft.com/
+
+
+III. References
+
+    Japan Security Team
+    Security release on October 24, 2008 (extra)
+    http://blogs.technet.com/jpsecurity/archive/2008/10/24/3141026.aspx
+
+    Technical Cyber Security Alert TA08-297A
+    Microsoft Windows Server Service RPC Vulnerability
+    http://www.us-cert.gov/cas/techalerts/TA08-297A.html
+
+    US-CERT Vulnerability Note VU#827267
+    Microsoft Server Service RPC stack buffer overflow vulnerability
+    http://www.kb.cert.org/vuls/id/827267
+
+
+  If you have any information you could provide regarding this alert,
+please contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

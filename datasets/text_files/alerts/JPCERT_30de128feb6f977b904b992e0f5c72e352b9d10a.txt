@@ -1,0 +1,90 @@
+JPCERT-AT-2018-0014
+                                                             JPCERT/CC
+                                                            2018-04-10
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-04-10 &gt;&gt;&gt;
+
+          Alert Regarding Vulnerabilities in Spring Framework
+
+        https://www.jpcert.or.jp/english/at/2018/at180014.html
+
+
+I. Overview
+On April 3, 5 and 9, 2018 (local time), Pivotal Software released
+information regarding multiple vulnerabilities in Spring Framework.
+Spring Framework is one of the frameworks for Java web application
+development. According to the information, the Spring Framework
+contains multiple vulnerabilities, and a remote attacker leveraging
+these vulnerabilities may execute arbitrary OS commands using the
+execution privilege of the running application server. For details on
+these vulnerabilities, please refer to the information provided by
+Pivotal Software.
+
+    Pivotal Software
+    CVE-2018-1270: Remote Code Execution with spring-messaging
+    https://pivotal.io/en/security/cve-2018-1270
+    
+    Pivotal Software
+    CVE-2018-1271: Directory Traversal with Spring MVC on Windows
+    https://pivotal.io/en/security/cve-2018-1271
+    
+    Pivotal Software
+    CVE-2018-1272: Multipart Content Pollution with Spring Framework
+    https://pivotal.io/en/security/cve-2018-1272
+    
+    Pivotal Software
+    CVE-2018-1275: Address partial fix for CVE-2018-1270
+    https://pivotal.io/en/security/cve-2018-1275
+
+JPCERT/CC confirmed the Proof of Concept (PoC) in the wild that
+explains how to exploit these vulnerabilities on the web application,
+and also confirmed that remote OS command execution is possible using
+the PoC.
+
+
+II. Affected Versions
+According to Pivotal Software, the following versions are affected by
+these vulnerabilities.
+
+  - Spring Framework version 5.0 to 5.0.4
+  - Spring Framework version 4.3 to 4.3.15
+
+In addition, versions which are no longer supported are also affected
+by these vulnerabilities.
+
+
+III. Solution
+Pivotal Software has released updated versions of Spring Framework
+that address these vulnerabilities. It is recommended to update to the
+latest version after thorough testing.
+
+  - Spring Framework 5.0.5
+  - Spring Framework 4.3.16
+
+
+IV. References
+    Pivotal Software
+    Spring Framework 5.0.5 and 4.3.15 available now
+    https://spring.io/blog/2018/04/03/spring-framework-5-0-5-and-4-3-15-available-now
+
+    Pivotal Software
+    Multiple CVE reports published for the Spring Framework 
+    https://spring.io/blog/2018/04/05/multiple-cve-reports-published-for-the-spring-framework
+
+    Pivotal Software
+    Spring Framework
+    https://projects.spring.io/spring-framework/
+
+    GitHub
+    spring-projects/spring-framework
+    https://github.com/spring-projects/spring-framework
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

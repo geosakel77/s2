@@ -1,0 +1,67 @@
+JPCERT-AT-2017-0046
+                                                             JPCERT/CC
+                                                            2017-12-07
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-12-07 &gt;&gt;&gt;
+
+Alert Regarding Microsoft Malware Protection Engine Remote Code Execution Vulnerability (CVE-2017-11937)
+
+        https://www.jpcert.or.jp/english/at/2017/at170046.html
+
+
+I. Overview
+Microsoft has released Security Updates regarding Microsoft Malware
+Protection Engine Remote Code Execution Vulnerability (CVE-2017-11937). 
+This contains updates that are rated as "critical". Remote attackers
+leveraging this vulnerability may be able to execute arbitrary code.
+
+Details on the vulnerability can be found at the following URL:
+
+    CVE-2017-11937
+    Microsoft Malware Protection Engine Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11937
+
+
+II. Affected Products
+The following software versions are affected by this vulnerability.
+According to Microsoft, systems running supported versions of Windows
+Server 2008 R2 are not affected if the Desktop Experience feature is
+not installed. 
+
+  - Windows Defender             
+  - Microsoft Exchange Server 2016
+  - Windows Intune Endpoint Protection
+  - Microsoft Forefront Endpoint Protection 2010
+  - Microsoft Security Essentials
+  - Microsoft Exchange Server 2013
+  - Microsoft Endpoint Protection
+  - Microsoft Forefront Endpoint Protection  
+
+
+III. Solution
+Microsoft released the version of Microsoft Malware Protection Engine
+which addresses this vulnerability. It will be updated automatically
+by default settings. If you are using this product, please confirm that
+it has been updated to the following version.
+
+  - Microsoft Malware Protection Engine Version 1.1.14405.2
+
+
+IV. References
+    Microsoft Corporation
+    CVE-2017-11937 | Microsoft Malware Protection Engine Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11937
+
+    Microsoft Corporation
+    Microsoft Malware Protection Engine deployment information
+    https://support.microsoft.com/en-us/help/2510781/microsoft-malware-protection-engine-deployment-information
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

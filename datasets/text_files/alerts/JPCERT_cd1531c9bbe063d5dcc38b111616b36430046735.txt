@@ -1,0 +1,79 @@
+JPCERT-AT-2007-0004
+                                                             JPCERT/CC
+                             February 10, 2007 (Original release date)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2007-02-10 &gt;&gt;&gt;
+
+                     Vulnerability in CCC Cleaner
+
+                http://www.jpcert.or.jp/at/2007/at070004.txt
+
+I. Overview
+
+
+  "CCC Cleaner," provided by Cyber Clean Center
+(https://www.ccc.go.jp/), using the Trend Micro AntiVirus scanning 
+engine, is affected by a "buffer overflow vulnerability in scanning
+UPX archived files" found in the scanning engine.
+
+  This vulnerability can cause an exception error or abnormal OS
+termination. For more information on this vulnerability, see the
+following URL.
+
+   Alert/Advisory: Buffer overflow vulnerability in the AntiVirus
+scanning engine VSAPI 8.0 and later versions in scanning UPX archived
+files:
+   http://esupport.trendmicro.co.jp/supportjp/viewxml.do?ContentID=JP-2061390&amp;id=JP-2061390
+
+
+II. Systems Affected
+
+  The products of the following version provided during the period
+from January 25, 2007 to February 9, 2007 are affected by this
+vulnerability:
+
+     CCC Cleaner (CCC Pattern Ver: 185)
+
+  If the "CCC Cleaner" folder created at the time of execution
+contains the following file, the product is affected by this
+vulnerability.
+
+     File name: lpt$vpn.185
+
+
+III. Solution
+
+  Users should stop using vulnerable "CCC Cleaner" products. Also,
+users should delete the downloaded file (CCC.com) and the "CCC
+Cleaner" folder created when executing it.
+
+
+IV. Reference Information
+
+   JP Vendor Status Notes JVNVU#276432
+   Trend Micro AntiVirus fails to properly process malformed UPX
+     packed executables
+   http://jvn.jp/cert/JVNVU%23276432/index.html
+
+   Information on Vulnerability of "CCC Cleaner" Provided at Cyber
+     Clean Center
+   http://www.jpcert.or.jp/pr/2007/pr070002.pdf
+
+   [Vulnerability Confirmation] Antivirus UPX Parsing Kernel Buffer
+     Overflow Vulnerability
+   http://esupport.trendmicro.com/support/viewxml.do?ContentID=EN-1034289
+
+
+V. Contact
+
+   Personnel in charge of Cyber Clean Center
+   JPCERT Coordination Center
+   mail: office@jpcert.or.jp
+
+
+End
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

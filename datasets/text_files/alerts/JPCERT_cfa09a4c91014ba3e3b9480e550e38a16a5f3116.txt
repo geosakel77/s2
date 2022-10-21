@@ -1,0 +1,111 @@
+JPCERT-AT-2014-0038
+                                                             JPCERT/CC
+                                                            2014-10-10
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2014-10-10 &gt;&gt;&gt;
+
+         Alert regarding increase in scans to TCP port 10000
+
+        https://www.jpcert.or.jp/english/at/2014/at140038.html
+
+
+I. Overview
+
+  JPCERT/CC has been observing an increase in scans to TCP port 10000
+since September, 2014 on its internet traffic monitoring system
+(TSUBAME *1).
+
+TCP port 10000 is commonly used as the default port for Webmin, which
+is a web-based system administration tool, and according to the
+developer of Webmin, it is vulnerable to the GNU bash vulnerability
+that was recently made public.
+
+    Changes since Webmin version 1.700
+    http://www.webmin.com/changes-1.710.html
+
+    Vulnerability in GNU Bash
+    https://www.jpcert.or.jp/english/at/2014/at140037.html
+
+  * JPCERT/CC has verified arbitrary code execution with the
+    privileges of Webmin, on an environment where Webmin and a
+    vulnerable version of GNU bash was installed. *2 (Default Webmin
+    installation running as root)
+
+It has been verified that some responses from the source IP addresses
+that conducted scans to TCP port 10000 were likely to be from the
+Webmin login screen. As a result, if a server that is running Webmin
+is attacked, it may be leveraged by a third-party, and may be a reason
+for the increase in the scans to TCP port 10000.
+
+As of October 10, 2014, scans to TCP port 10000 are still on-going,
+thus there is a possibility that servers that have not patched or
+updated may be attacked and leveraged by a third-party for an
+attack. If you are using a vulnerable version of Webmin and GNU bash,
+please update according to the information in "III. Solution".
+
+At JPCERT/CC we have contacted the network administrators of the
+source IP addresses that we have observed to be leveraged for attacks.
+
+  *1 The name of the Asia / Pacific internet traffic monitoring system  
+    https://www.jpcert.or.jp/english/tsubame/readme.html
+  
+  *2 Used Webmin 1.700(RPM) and a version of GNU bash that is affected
+     by CVE-2014-6271
+
+
+II. Monitoring Results
+
+  Please refer to the following for what TSUBAME has received for
+scans to TCP port 10000.
+
+   TSUBAME graph for TCP port 10000 (2014/09/20-2014/10/08)
+   https://www.jpcert.or.jp/at/2014/at140038-10000tcp.png
+   
+   Scab activity video of network monitoring system (TSUBAME) 
+   for the AP region
+   https://www.jpcert.or.jp/at/2014/at140038_10000tcp_movie.wmv
+
+
+III. Solution
+
+  After performing the necessary testing, please consider updating to
+latest versions of Webmin and GNU bash.
+
+  - GNU bash
+    For more information on GNU bash, please refer to "Vulnerability
+    in GNU Bash"
+
+    Vulnerability in GNU bash
+    https://www.jpcert.or.jp/english/at/2014/at140037.html
+  
+  - Webmin
+    If you are using a vulnerable version, prior to 1.7000, please
+    update to version 1.710, which addresses the vulnerability.
+
+
+IV. References
+
+    @police
+    Observations of access attempts targeting Bash vulnerabilities (2nd update) (Japanese)
+    https://www.npa.go.jp/cyberpolice/topics?seq=14737
+
+    JPCERT/CC
+    Vulnerability in GNU Bash
+    https://www.jpcert.or.jp/english/at/2014/at140037.html
+
+    Webmin
+    http://www.webmin.com/index.html
+
+    JPCERT/CC
+    Internet Traffic Monitoring System (TSUBAME)
+    https://www.jpcert.or.jp/english/tsubame/readme.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

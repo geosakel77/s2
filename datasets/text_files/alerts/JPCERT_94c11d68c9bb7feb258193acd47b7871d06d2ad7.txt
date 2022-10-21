@@ -1,0 +1,95 @@
+JPCERT-AT-2012-0018
+                                                             JPCERT/CC
+                                                            2012-06-05
+
+                   &lt;&lt;&lt; JPCERT/CC Alert 05.06.12 &gt;&gt;&gt;
+
+         Denial of service (DoS) vulnerability in ISC BIND 9
+
+        https://www.jpcert.or.jp/english/at/2012/at120018.html
+
+
+I. Overview
+
+  ISC BIND 9 has a vulnerability that can cause a denial of service
+(DoS). When BIND handling a zero length record in RDATA field, the
+cache DNS server may crash or disclose information in server
+memory. Whether BIND acts as a cache DNS server or authoritative DNS
+server, it will be affected by this vulnerability.
+
+  
+  When BIND acts as an authoritative DNS server, since a special
+record must be added to a zone controlled by the administrator, the
+exposure from an attack is limited. While, when it acts as a cache DNS
+server, a remote attacker may cause a DoS attack by referring to a
+specially crafted authoritative DNS server. According to ISC, any
+attacks exploiting this vulnerability have not been confirmed yet.
+  
+  ISC has released a fixed version, so refer to “III. Solution” and
+consider applying it.
+
+    Internet Systems Consortium, Inc. (ISC)
+    Handling of zero length rdata can cause named to terminate unexpectedly
+    https://www.isc.org/software/bind/advisories/cve-2012-1667
+
+
+II. Products Affected
+
+  According to ISC, the following versions are affected by this
+vulnerability.
+
+  All versions of ISC BIND 9
+  * For more information, refer to the ISC website.
+
+    Internet Systems Consortium, Inc. (ISC)
+    Handling of zero length rdata can cause named to terminate unexpectedly
+    https://www.isc.org/software/bind/advisories/cve-2012-1667
+
+  If you use BIND provided by a distributor, refer to the information
+supplied by them.
+
+
+III. Solution
+
+  The ISC has released a version that corrects this vulnerability. We
+recommend deploying the corrected version immediately after thorough
+testing.
+
+  Corrected versions are as follows:
+
+  ISC BIND
+  - 9.6-ESV-R7-P1
+  - 9.7.6-P1
+  - 9.8.3-P1
+  - 9.9.1-P1
+
+
+IV. References
+
+    Internet Systems Consortium, Inc. (ISC)
+    Handling of zero length rdata can cause named to terminate unexpectedly
+    https://www.isc.org/software/bind/advisories/cve-2012-1667
+
+    Handling of zero length rdata can cause named to terminate unexpectedly
+    https://www.isc.org/advisories/cve-2012-1667-jp
+
+    BIND software version status
+    https://www.isc.org/software/bind/versions
+
+    Japan Registry Services Co., Ltd. (JPRS)
+    (Urgent) Vulnerability in ISC BIND 9.x (including service outages)
+    http://jprs.jp/tech/security/2012-06-05-bind9-vuln-zero-length-rdata.html
+
+    JVNVU#381699
+    Denial of service (DoS) vulnerability in ISC BIND
+    https://jvn.jp/cert/JVNVU381699/index.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

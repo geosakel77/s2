@@ -1,0 +1,60 @@
+JPCERT-AT-2022-0014
+                                                             JPCERT/CC
+                                                            2022-05-11
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2022-05-11 &gt;&gt;&gt;
+
+            Microsoft Releases May 2022 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2022/at220014.html
+
+
+I. Overview
+Microsoft has released May 2022 Security Updates to address the
+vulnerabilities in their products. Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code. It is
+recommended to check the information provided by Microsoft and
+apply the updates.
+
+    Microsoft Corporation
+    May 2022 Security Updates
+    https://msrc.microsoft.com/update-guide/en-us/releaseNote/2022-May
+
+    Microsoft Corporation
+    Microsoft Security Updates for May 2022 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2022/05/10/202205-security-updates/
+
+According to Microsoft, among these vulnerabilities, the following
+vulnerability has been confirmed to be exploited in the wild. Please
+consider applying the security update programs by referring to the
+information provided by Microsoft.
+
+    CVE-2022-26925
+    Windows LSA Spoofing Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2022-26925
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    Release Notes
+    https://msrc.microsoft.com/update-guide/releaseNote
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

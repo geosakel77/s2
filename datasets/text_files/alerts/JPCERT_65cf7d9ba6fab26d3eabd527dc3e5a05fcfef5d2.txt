@@ -1,0 +1,97 @@
+JPCERT-AT-2012-0031
+                                                             JPCERT/CC
+                                                            2012-10-09
+
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2012-10-09 &gt;&gt;&gt;
+
+          Vulnerabilities in Adobe Flash Player (APSB12-22)
+
+        https://www.jpcert.or.jp/english/at/2012/at120031.html
+
+
+I. Overview
+
+  Adobe Flash Player contains multiple vulnerabilities. As a result, a
+remote attacker could terminate Adobe Flash Player or execute
+arbitrary code by convincing a user to open specially crafted
+contents. We recommend users to update to the latest version of
+software provided by suppliers.
+
+    Adobe Security Bulletins APSB12-22
+    Security updates available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb12-22.html
+
+
+II. Affected Systems
+
+  The affected products and versions are as follows:
+
+  - Adobe Flash Player 11.4.402.278 and earlier (Internet Explorer 9, Mozilla Firefox, etc.)
+  - Adobe Flash Player 11.3.374.7 and earlier (Internet Explorer 10)
+  - Adobe Flash Player 11.3.31.331 and earlier (Google Chrome)
+
+For details, refer to the information provided by Adobe Systems.
+
+
+III. Solution
+
+  Update Adobe Flash Player to the following latest version. For
+details, refer to the information provided by Adobe Systems.
+
+  - Adobe Flash Player 11.4.402.287 (Internet Explorer 9 and older, Mozilla Firefox, etc.)
+
+    Adobe Flash Player Download Center
+    http://get.adobe.com/flashplayer/
+
+  - Adobe Flash Player 11.3.375.10 (Internet Explorer 10)
+  - Adobe Flash Player 11.4.31.110 (Google Chrome)
+
+  Note that Adobe Flash Player is integrated into Internet Explorer 10
+and Google Chrome and it will automatically be updated by default
+settings. For details, refer to the information provided by Microsoft
+and Google.
+
+    Microsoft Security Advisory (2755801)
+    Update for Vulnerabilities in Adobe Flash Player in Internet Explorer 10
+    http://technet.microsoft.com/en-us/security/advisory/2755801
+
+    Google Chrome Releases
+    Stable Channel Update
+    http://googlechromereleases.blogspot.jp/2012/10/stable-channel-update.html
+
+  The version of your Adobe Flash Player can be checked on the
+following Web page:
+
+    Adobe Flash Player: Version Information
+    http://www.adobe.com/software/flash/about/
+
+* Flash player may be installed in Internet Explorer. Therefore, if
+  using a browser other than Internet Explorer in daily use, it is
+  recommended that Adobe Flash Player for Internet Explorer also be
+  updated.
+
+
+IV. References
+
+    Adobe Security Bulletins APSB12-22
+    Security updates available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb12-22.html
+
+    Microsoft Security Advisory (2755801)
+    Update for Vulnerabilities in Adobe Flash Player in Internet Explorer 10
+    http://technet.microsoft.com/en-us/security/advisory/2755801
+
+    Google Chrome Releases
+    Stable Channel Update
+    http://googlechromereleases.blogspot.jp/2012/10/stable-channel-update.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

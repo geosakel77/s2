@@ -1,0 +1,114 @@
+JPCERT-AT-2020-0015
+                                                             JPCERT/CC
+                                                    2020-03-24(Initial)
+                                                    2020-03-25(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-03-24 &gt;&gt;&gt;
+
+     Alert Regarding Vulnerability in Adobe Type Manager Library
+
+        https://www.jpcert.or.jp/english/at/2020/at200015.html
+
+
+I. Overview
+On March 23, 2020 (Local Time), Microsoft has released an advisory
+regarding a vulnerability in Adobe Type Manager Library (ADV200006).
+According to Microsoft, the vulnerability has already been exploited
+in the wild.
+
+    Microsoft
+    ADV200006 | Type 1 Font Parsing Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/adv200006
+
+Remote attackers leveraging this vulnerability may be able to execute
+arbitrary code. For systems running supported versions of
+Windows 10, a successful attack could only result in code execution
+within an AppContainer sandbox context with limited privileges and
+capabilities.
+
+** Update: March 25, 2020 Update *************************************
+On March 24, 2020 (US Time), the advisory has been updated regarding
+impact of the vulnerability on the Windows 10.
+
+    Microsoft
+    ADV200006 | Type 1 Font Parsing Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/adv200006
+
+According to the advisory, Microsoft is not aware of any attacks
+against the Windows 10 platform. Also, since the possibility of
+remote code execution is negligible and elevation of privilege is not
+possible, Microsoft is not recommending implementing the workarounds
+on systems running Windows 10.
+**********************************************************************
+
+As of March 24, 2020, Microsoft has not released update addressing
+this vulnerability, however provided several workarounds to mitigate
+the impact in case the vulnerability is exploited. Since the
+vulnerability has already been exploited in the wild, we recommend
+the users of affected products to consider applying workaround.
+For more detail, please refer to the information provided by
+Microsoft.
+
+
+II. Affected Products
+Regarding affected products and versions, please refer to information
+provided by Microsoft.
+
+    Microsoft
+    ADV200006 | Type 1 Font Parsing Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/adv200006
+
+
+III. Solution
+As of March 24, 2020, an update to address this vulnerability has not
+been provided. Please consider applying workaround by referring
+to "IV. Workaround".
+
+
+IV. Workaround
+It is recommended to consider applying the following workarounds to
+mitigate the impact of the exploit until the update for the
+vulnerability is provided. Please test the effects that the workarounds
+may cause prior to applying the workarounds as it may cause impact on
+other applications. For more details, please refer to the information
+provided by Microsoft.
+
+  - Disable the Preview Pane and Details Panel in Windows Explorer
+  - Disable the WebClient service
+  - Rename ATMFD.DLL
+
+    Microsoft
+    ADV200006 | Type 1 Font Parsing Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/adv200006
+
+** Update: March 25, 2020 Update *************************************
+When the WebClient service is disabled, Web Distributed Authoring and
+Versioning (WebDAV) requests are not transmitted. It may cause impact
+on services or features that explicitly depend on the WebClient service
+such as when opening a file on Microsoft Sharepoint or opening OneDrive
+with the explorer.
+**********************************************************************
+
+
+V. References
+    CERT/CC Vulnerability Note VU#354840
+    Microsoft Windows Type 1 font parsing remote code execution vulnerabilities
+    https://kb.cert.org/vuls/id/354840/
+
+    US-CERT
+    Microsoft RCE Vulnerabilities Affecting Windows, Windows Server
+    https://www.us-cert.gov/ncas/current-activity/2020/03/23/microsoft-rce-vulnerabilities-affecting-windows-windows-server
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2020-03-24 First edition
+2020-03-25 Updated "I. Overview" and "IV. Workaround"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+TEL: +81-3-6811-0610  MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

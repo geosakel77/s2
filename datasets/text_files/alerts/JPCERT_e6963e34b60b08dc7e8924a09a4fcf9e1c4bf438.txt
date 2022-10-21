@@ -1,0 +1,168 @@
+JPCERT-AT-2011-0028
+                                                             JPCERT/CC
+                                                            2011-10-28
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 28.10.11 &gt;&gt;&gt;
+
+                        Targeted Email Attacks
+
+             https://www.jpcert.or.jp/at/2011/at110002.txt
+
+
+I. Overview
+
+  As has recently been reported in the media, there has been an 
+increase in the spread of malware through targeted e-mails sent to 
+specific organizations and corporate groups. Infection of a user's 
+computer by malware attached to a targeted e-mail may result in the 
+theft of corporate or organization confidential information by the 
+attacker. There is also a risk of the malware infection spreading to 
+other computers and servers connected to the company network from the 
+infected PC.
+  JPCERT/CC has confirmed cases of malware in the form of document 
+files that exploit vulnerabilities, as well as in the form of 
+executable files in recent targeted e-mail attachments. In these cases,
+most of the document form malware that exploit vulnerabilities 
+utilized known vulnerabilities, and infection would have been 
+prevented had security updates been applied. 
+  JPCERT/CC has also confirmed executable file form malware that uses 
+misleading icons to trick users into opening the file, as well as 
+using RLO (Right-to-Left Override) to disguise file name extensions.
+  In order to prevent damage from these targeted e-mails, JPCERT/CC 
+recommends implementing the steps described in "III. Solution".
+
+
+II. Detection of Targeted E-Mail Attacks 
+
+  Targeted e-mail attacks are generally performed stealthily, and 
+their target scope is relatively small. This makes them difficult to 
+detect. Attacks and malware infection may be detected by regularly 
+confirming the following items.
+  It is recommended that system administrators regularly check the 
+following items in order to detect if their organization is the target
+of a targeted e-mail attack, or if it has been infected by malware as 
+a result of such an attack.
+
+  - Check for unusual internal/external traffic in traffic logs
+    Regularly check logs and gateway devices such as routers, 
+    firewalls, and proxy servers, and confirm whether there has been 
+    any unusual traffic.
+    (JPCERT/CC has confirmed the existence of malware which 
+    communicates using ports 80 and 443, so detection based on 
+    transmission port alone may be difficult.)  For example, check if 
+    there have been communications with countries that are not 
+    normally accessed, or frequent communications from computers or 
+    servers outside of business hours. 
+
+  - Unplanned server reboots
+    There have been cases in the past where malware infection has been
+    detected due to unplanned server reboots. If any unplanned server 
+    reboots occur, check the system just in case for unauthorized 
+    intrusion.
+
+  - Regular virus scanning
+    Malware may be updated periodically in response to commands issued
+    by attackers. When this happens, old malware may remain on hard 
+    disks. Such old malware may not have been detectable by anti-virus
+    software at the time of infection, but later virus pattern file 
+    updates may have enabled the anti-virus software to detect the 
+    malware. Therefore, old malware may be detectable by regularly 
+    running full hard disk virus scans. However, even if old malware 
+    is removed, undetectable new malware may still be running. It is 
+    recommended, for example, that computers in which malware has been
+    found are moved to an isolated network, and their behavior 
+    observed in order to confirm if they are attempting any unintended
+    communications. If this is not feasible, please consider 
+    consulting with the anti-virus software vendor. 
+
+
+III. Solution
+
+  The following targeted e-mail countermeasures are recommended for 
+use on client PCs. Attacks frequently exploit known vulnerabilities, 
+so application security updates should be immediately applied, if they
+have not been applied already.
+
+  - Keep the operating system and applications up to date;
+    - Microsoft Office products, etc.
+    - Adobe Reader/Acrobat/Flash Player
+    - Oracle Java SE
+  - If suspicious e-mails, or e-mails with even slightly suspicious 
+    aspects, are received, do not open any attachments, or consult 
+    with a system administrator
+  - Keep anti-virus software pattern files up to date
+
+  Some recent software has protective modes or employs other 
+approaches to allow files to be used safely. It is recommended to use 
+the latest versions of applications whenever possible. 
+
+  Even if the measures above are implemented, malware infection can 
+occur if a user opens an executable malware file. Perform the steps in
+"V. Introduction to IT Security Inoculation" - "IT Security 
+Inoculation", and consider improving the computer literacy of users. 
+
+
+IV. JPCERT/CC Incident Response
+
+  The spread or new occurence of damage by malware can be prevented by
+shutting down the servers malware uses to propagate itself, and 
+prevent new damage.
+  If incidents are reported to JPCERT/CC, it can take steps to shut 
+down the sites being used in the attack, so please contact JPCERT/CC 
+via one of the following.
+
+    JPCERT Coordination Center
+    Incident reporting: https://www.jpcert.or.jp/form/
+      - Web form:  https://form.jpcert.or.jp/
+      - E-mail:  info@jpcert.or.jp
+
+
+V. Introduction to IT Security Inoculation
+
+  JPCERT/CC carries out IT security inoculation training in order to 
+improve the security consciousness of general employees and system 
+administrators, and publishes its results.
+  In IT security inoculation, harmless fake targeted e-mails are sent 
+to subject employees (up to twice per employee) in order to further 
+their understanding of targeted e-mails, and improve their security 
+consciousness. IT security inoculations have been performed at 
+multiple companies, with the likelihood of employees opening fake 
+targeted e-mails dropping for the second e-mail, so the inoculation 
+shows promise for increasing computer literacy. Please see the 
+following research reports for information regarding the techniques 
+and effectiveness of IT security inoculations. 
+
+   Research Report on IT Security Inoculation - 2009
+   http://www.jpcert.or.jp/research/#inoculation2009
+
+   Research Report on IT Security Inoculation - 2008
+   http://www.jpcert.or.jp/research/#inoculation2008
+
+  If you wish to perform an IT security inoculation, manuals and tools
+are available free of charge from JPCERT/CC. Please contact JPCERT/CC 
+at the following address.
+
+    JPCERT Coordination Center
+    Contact
+      - E-mail: office@jpcert.or.jp
+
+
+VI. References
+
+   The Growing Threat of Targeted Cyber Attacks
+   http://www.ipa.go.jp/about/press/20111018.html
+
+   Confirmation of E-mails Containing Virus Payloads, Claiming to Be Part of Study Regarding Infection by Viruses Targeting Companies in Japan and Using RLO Control Code to Hide Attachment Extensions
+   http://blog.trendmicro.co.jp/archives/3555
+
+   Keep Your Software Up to Date!!  - Security Intelligence Report 11 - Security Intelligence Report 11
+   http://blogs.technet.com/b/jpsecurity/archive/2011/10/20/3460367.aspx
+
+If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

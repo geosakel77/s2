@@ -1,0 +1,166 @@
+JPCERT-AT-2018-0038
+                                                             JPCERT/CC
+                                                            2018-09-12
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-09-12 &gt;&gt;&gt;
+
+          Microsoft Releases September 2018 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2018/at180038.html
+
+
+I. Overview
+Microsoft has released September 2018 Security Updates. This contains
+updates that are rated as "critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    September 2018 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/498f2484-a096-e811-a978-000d3a33c573
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    CVE-2018-0965
+    Windows Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0965
+    - KB4457128, KB4457131, KB4457138, KB4457142
+
+    CVE-2018-8332
+    Win32k Graphics Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8332
+    - KB4457128, KB4457129, KB4457131, KB4457132, KB4457135, KB4457138
+      KB4457140, KB4457142, KB4457143, KB4457144, KB4457145, KB4457984
+      KB4458010
+
+    CVE-2018-8367
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8367
+    - KB4457128, KB4457131, KB4457132, KB4457138, KB4457142
+
+    CVE-2018-8420
+    MS XML Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8420
+    - KB4457128, KB4457129, KB4457131, KB4457132, KB4457135, KB4457138
+      KB4457140, KB4457142, KB4457143, KB4457144, KB4457145, KB4457984
+      KB4458010
+
+    CVE-2018-8421
+    .NET Framework Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8421
+    - KB4457025, KB4457026, KB4457027, KB4457028, KB4457029, KB4457030
+      KB4457033, KB4457034, KB4457035, KB4457036, KB4457037, KB4457038
+      KB4457042, KB4457043, KB4457044, KB4457045, KB4457053, KB4457054
+      KB4457055, KB4457056, KB4457128, KB4457131, KB4457132, KB4457138
+      KB4457142
+
+    CVE-2018-8439
+    Windows Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8439
+    - KB4457128, KB4457129, KB4457131, KB4457132, KB4457138, KB4457142
+      KB4457143
+
+    CVE-2018-8447
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8447
+    - KB4457128, KB4457129, KB4457131, KB4457132, KB4457138, KB4457142
+      KB4457144, KB4457426
+
+    CVE-2018-8456
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8456
+    - KB4457128, KB4457138, KB4457142
+
+    CVE-2018-8457
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8457
+    - KB4457128, KB4457129, KB4457131, KB4457132, KB4457138, KB4457142
+      KB4457144, KB4457426
+
+    CVE-2018-8459
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8459
+    - KB4457128
+
+    CVE-2018-8461
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8461
+    - KB4457128, KB4457142
+
+    CVE-2018-8464
+    Microsoft Edge PDF Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8464
+    - KB4457128, KB4457131, KB4457132, KB4457138, KB4457142
+
+    CVE-2018-8465
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8465
+    - KB4457128, KB4457131, KB4457138, KB4457142
+
+    CVE-2018-8466
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8466
+    - KB4457128, KB4457131, KB4457132, KB4457138, KB4457142
+
+    CVE-2018-8467
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8467
+    - KB4457128, KB4457131, KB4457132, KB4457138, KB4457142
+
+    CVE-2018-8475
+    Windows Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8475
+    - KB4457128, KB4457129, KB4457131, KB4457132, KB4457135, KB4457138
+      KB4457140, KB4457142, KB4457143, KB4457144, KB4457145, KB4457984
+      KB4458010
+
+This month's security release contains an update for Adobe Flash Player
+that is rated as "important".
+
+According to Microsoft, attacks leveraging the vulnerability
+CVE-2018-8440 (Important) have been observed in the wild. Please apply
+the security update programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    September 2018 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/498f2484-a096-e811-a978-000d3a33c573
+
+    Microsoft Corporation
+    Microsoft Security Updates for September 2018 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2018/09/12/201809-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Adobe Systems Incorporated
+    Security updates available for Flash Player | APSB18-31
+    https://helpx.adobe.com/security/products/flash-player/apsb18-31.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerability in Adobe Flash Player (APSB18-31)
+    https://www.jpcert.or.jp/english/at/2018/at180037.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

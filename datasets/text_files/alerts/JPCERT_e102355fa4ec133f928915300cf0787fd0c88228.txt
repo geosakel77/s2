@@ -1,0 +1,122 @@
+JPCERT-AT-2011-0017
+                                                             JPCERT/CC
+                                            2011-06-15 (First edition)
+                                                   2011-06-15(Updated)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 15.06.11 &gt;&gt;&gt;
+
+             Vulnerabilities in Adobe Reader and Acrobat
+
+            https://www.jpcert.or.jp/at/2011/at110017.txt
+
+
+I. Overview
+
+  Multiple vulnerabilities exist in Adobe Acrobat Reader, a PDF file 
+viewing software, and Adobe Acrobat, a PDF file creation and 
+conversion software. As a result, a remote attacker could terminate 
+Adobe Reader and Acrobat or execute arbitrary code by convincing a 
+user to open a specially crafted PDF file.
+
+    Adobe Security Bulletins APSB11-16
+    Security updates available for Adobe Reader and Acrobat
+    http://www.adobe.com/support/security/bulletins/apsb11-16.html
+
+The security updates also contain a fix to a known vulnerability of 
+Flash Player that affects Adobe Acrobat and Reader (9.x/10.x). For 
+more information, refer to the following website:
+
+    Adobe Security Bulletins APSB11-12
+    Security update available for Adobe Flash Player 
+    http://kb2.adobe.com/jp/cps/903/cpsid_90300.html
+    http://www.adobe.com/support/security/bulletins/apsb11-12.html
+
+    Adobe Security Bulletins APSB11-13
+    Security update available for Adobe Flash Player 
+    http://kb2.adobe.com/jp/cps/906/cpsid_90656.html
+    http://www.adobe.com/support/security/bulletins/apsb11-13.html
+
+*** Update: Revised on June 15, 2011 *********************************
+
+  JPCERT/CC has contacted Adobe Systems and has confirmed that the 
+vulnerability of Adobe Reader X reported in the following alert is 
+fixed with the security update.
+
+**********************************************************************
+
+    JPCERT/CC Alert 22.03.11
+    Vulnerabilities in Adobe Flash Player, Adobe Acrobat/Reader
+    https://www.jpcert.or.jp/at/2011/at110007.txt
+    http://www.jpcert.or.jp/english/at/2011/at110007.html
+
+    JPCERT/CC Alert 22.04.11
+    Vulnerabilities in Adobe Reader and Acrobat 
+    https://www.jpcert.or.jp/at/2011/at110010.txt
+    http://www.jpcert.or.jp/english/at/2011/at110010.html
+
+
+II. Products Affected
+
+  Affected products and versions are as follows:
+
+  - Adobe Reader X (10.0.1) and earlier
+  - Adobe Reader 9.4.4 and earlier
+  - Adobe Reader 8.2.6 and earlier
+  - Adobe Acrobat X (10.0.3) and earlier
+  - Adobe Acrobat 9.4.4 and earlier
+  - Adobe Acrobat 8.2.6 and earlier
+
+For more information, refer to Adobe Systems' website.
+
+
+III. Solution
+
+  Apply the corrected software provided by Adobe Systems. Adobe Reader
+and Acrobat will be updated by starting the products, selecting the 
+menu Help (H), and then clicking Check for Updates (U).
+
+  If update is not possible, download the latest Adobe Reader and 
+Acrobat from the following URL:
+
+    Adobe.com - New downloads
+    http://www.adobe.com/support/downloads/new.jsp
+
+  For more information, refer to Adobe Systems' website.
+
+
+IV. References
+
+    Adobe Security Bulletins APSB11-16
+    Security updates available for Adobe Reader and Acrobat
+    http://www.adobe.com/support/security/bulletins/apsb11-16.html
+
+    Adobe Security Bulletins APSB11-12
+    Security update available for Adobe Flash Player 
+    http://kb2.adobe.com/jp/cps/903/cpsid_90300.html
+    http://www.adobe.com/support/security/bulletins/apsb11-12.html
+
+    Adobe Security Bulletins APSB11-13
+    Security update available for Adobe Flash Player 
+    http://kb2.adobe.com/jp/cps/906/cpsid_90656.html
+    http://www.adobe.com/support/security/bulletins/apsb11-13.html
+
+    JPCERT-AT-2011-0013
+    Vulnerabilities in Adobe Flash Player
+    https://www.jpcert.or.jp/at/2011/at110013.txt
+    http://www.jpcert.or.jp/english/at/2011/at110013.html
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+________
+Revision history
+2011-06-15 First edition
+2011-06-15 Revised the applicability of the update to Adobe Reader X 
+           in "I. Overview"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

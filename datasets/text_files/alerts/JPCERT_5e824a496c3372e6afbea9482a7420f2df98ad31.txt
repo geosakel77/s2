@@ -1,0 +1,117 @@
+JPCERT-AT-2013-0027
+                                                             JPCERT/CC
+                                                            2013-06-07
+
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2013-06-07 &gt;&gt;&gt;
+
+                  Alert regarding compromised websites
+
+          https://www.jpcert.or.jp/english/at/2013/at130027.html
+
+
+I. Overview
+
+  JPCERT/CC has been receiving a large number of incident reports
+regarding compromised websites (About 1000 reports since April, 2013)
+According to the reports, most of the compromised websites contain
+embedded iframes or obfuscated JavaScript that redirects users to an 
+attack site. When a user visits a compromised website, the PC may be
+infected by malware.
+
+  Most of the attacks sites to where users are redirected contain an
+attack tool called, "Exploit kits."  These kits attempt to leverage
+vulnerabilities in Oracle Java, Adobe Acrobat/Reader or Adobe Flash
+installed on the PC that visits the attack site. If the software
+contains vulnerabilities, then the PC may be infected with
+malware. JPCERT/CC has observed that some of the targeted
+vulnerabilities are known, so by updating the OS and software on the
+PC to the latest versions, the infection by malware may be reduced.
+
+  Malware being used in some of the attacks contain a function to
+obtain account information stored in FTP/SSH clients or web
+browsers. Account information used to update Web contents may be
+obtained by malware as well.  Administrators of websites should
+consider the information in "II. Solution" to verify that the contents
+of the website being administered are not compromised and to ensure 
+that proper measures are in place.
+
+II. Solution
+
+[For website administrators] 
+ Please consider the following checkpoints, countermeasures to protect
+against these attacks and to prevent user PC's from being infected by
+malware.
+
+  (Checkpoints)
+  - Verify that the OS and software being used on the website are the
+    latest versions available.
+  - Check the web server FTP/SSH logs and make sure that the IP addresses
+    that accessed the server and access times do not contain anything 
+    suspicious.
+  - Verify that the contents on the website do not contain any malicious
+    programs, and that the contents have not been compromised.
+  - Verify that the PC being used to update the website contents is not
+    infected by malware. If website administration is being outsourced,
+    make sure that they are verifying that the PC's being used are not
+    infected by malware.
+
+  (Countermeasures)
+  - Update the OS and software being used on the website to latest versions.
+  - Restrict the locations (IP addresses, etc.) and PC's that can update
+    the website contents.
+  - Change the password for the FTP/SSH account for updating the website
+    contents, so that it is less susceptible to brute force or dictionary
+    attacks. 
+    (It is recommended that passwords are unpredictable stings that are 
+     more than 8 characters long and contain alphanumeric and symbol
+     characters)
+
+[Users]
+  At the attack sites to where users are redirected, known
+vulnerabilities are used to install malware. Using the URL's below,
+update the software to the latest versions.
+
+  [Microsoft]
+    Microsoft Update
+    https://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+  [Adobe]
+    Adobe - Install Adobe Flash Player
+    https://get.adobe.com/flashplayer/
+
+    Adobe - Latest Product Updates (Adobe AcrobatAAdobe Reader)
+    https://www.adobe.com/downloads/updates/
+
+  [Oracle Java]
+    Free Java Download (JRE 7AEnglish)
+    https://java.com/download/
+
+
+III. References
+
+    IPA:INFORMATION-TECHNOLOGY PROMOTION AGENCY, JAPAN (Japanese)
+    Call for June 2013
+    https://www.ipa.go.jp/security/txt/2013/06outline.html
+
+    @Police
+    Alert regarding the increasing number of compromised website (Japanese)
+    https://www.npa.go.jp/cyberpolice/detect/pdf/20130524_1.pdf
+
+    Adobe Systems
+    Security updates available for Adobe Reader and Acrobat
+    https://www.adobe.com/support/security/bulletins/apsb13-15.html
+
+    Adobe Systems
+    Security updates available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb13-14.html
+
+    Oracle
+    Java SE Development Kit 7, Update 21 (JDK 7u21)
+    http://www.oracle.com/technetwork/java/javase/7u21-relnotes-1932873.html
+
+    Alert regarding the usage of old versions of Parallels Plesk Panel (Japanese)
+    https://www.jpcert.or.jp/english/at/2013/at130018.html

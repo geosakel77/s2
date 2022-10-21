@@ -1,0 +1,88 @@
+JPCERT-AT-2016-0033
+                                                             JPCERT/CC
+                                                            2016-08-10
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-08-10 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for August 2016
+                 (including 5 critical patches)
+
+      https://www.jpcert.or.jp/english/at/2016/at160033.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for August, 2016.
+This bulletin contains five (5) updates that are rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for August 2016
+    https://technet.microsoft.com/en-us/library/security/ms16-aug
+
+  [Security updates rated as "critical"]
+
+    MS16-095
+    Cumulative Security Update for Internet Explorer (3177356)
+    https://technet.microsoft.com/library/security/MS16-095
+
+    MS16-096
+    Cumulative Security Update for Microsoft Edge (3177358)
+    https://technet.microsoft.com/library/security/MS16-096
+
+    MS16-097
+    Security Update for Microsoft Graphics Component (3177393)
+    https://technet.microsoft.com/library/security/MS16-097
+
+    MS16-099
+    Security Update for Microsoft Office (3177451)
+    https://technet.microsoft.com/library/security/MS16-099
+
+    MS16-102
+    Security Update for Microsoft Windows PDF Library (3182248)
+    https://technet.microsoft.com/library/security/MS16-102
+
+  According to Microsoft, with the release of MS16-095 and MS16-096,
+RC4 encryption will no longer be supported in Internet Explorer 11 or
+Edge. For more information, please refer to the Microsoft website.
+
+    Microsoft
+    RC4 is no longer supported in Internet Explorer 11 or Edge
+    https://support.microsoft.com/en-us/kb/3151631
+
+  Please apply the security update programs as soon as possible.
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for August 2016
+    https://technet.microsoft.com/en-us/library/security/ms16-aug
+
+    Microsoft
+    Microsoft Security Information for August 2016 (Monthly) - MS16-095 - MS16-103 (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2016/08/10/201608-security-bulletin/
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

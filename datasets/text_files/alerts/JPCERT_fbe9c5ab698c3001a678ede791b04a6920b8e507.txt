@@ -1,0 +1,126 @@
+JPCERT-AT-2014-0013
+                                                             JPCERT/CC
+                                            2014-04-08 (First edition)
+                                                  2014-04-11 (Updated)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2014-04-08 &gt;&gt;&gt;&gt;
+
+                  [Updated] Vulnerability in OpenSSL
+
+        https://www.jpcert.or.jp/english/at/2014/at140013.html
+
+
+I. Overview
+
+ The heartbeat extension of OpenSSL provided by the OpenSSL Project
+contains a vulnerability. As a result, a remote third party may gain
+access to information from memory inside the system and retrieve
+sensitive information such as private keys by sending a crafted packet.
+
+ For systems using affected versions of OpenSSL, it is recommended to
+update to a version provided by OpenSSL Project that has this 
+vulnerability addressed.
+
+  OpenSSL Project
+  OpenSSL Security Advisory [07 Apr 2014] - TLS heartbeat read overrun (CVE-2014-0160)
+  https://www.openssl.org/news/secadv_20140407.txt
+
+*** Update: Revised on April 11, 2014 *********************************
+  Exploit code for this vulnerability is publicly available. According
+to information provided by National Police Agency (NPA),
+network traffic leveraging this vulnerability have been observed.
+Therefore, please consider of applying the solution mentioned in
+"III. Solution".
+***********************************************************************
+
+
+II. Affected Products
+
+ The following versions are affected by this vulnerability:
+
+  - OpenSSL 1.0.1 through 1.0.1f
+  - OpenSSL 1.0.2-beta through 1.0.2-beta1
+
+*** Update: Revised on April 11, 2014 *********************************
+ Software products that support OpenSSL may also be affected.
+Please refer to the information provided by the developers of the
+Software products.
+***********************************************************************
+
+
+III. Solution
+
+  OpenSSL Project has released a version addressing this 
+vulnerability. It is recommended to update to this latest version,
+after thorough testing. For OpenSSL 1.0.2-beta, versions addressing
+this vulnerability have yet to be released (as of April 8, 2014).
+
+ Updated version
+  - OpenSSL 1.0.1g
+
+    Tarballs
+    http://www.openssl.org/source/
+
+ If the update cannot be applied for an extended period of time, please
+consider the following workaround.
+
+ - turn on -DOPENSSL_NO_HEARTBEATS option and recompile OpenSSL
+
+ If the system is using OpenSSL provided by a distributor, please refer
+to the information provided by the distributor.
+
+    USN-2165-1: OpenSSL vulnerabilities
+    http://www.ubuntu.com/usn/usn-2165-1/
+
+    Important: openssl security update
+    https://rhn.redhat.com/errata/RHSA-2014-0376.html
+
+    Debian Security Advisory DSA-2896-1 openssl -- security update
+    http://www.debian.org/security/2014/dsa-2896
+
+*** Update: Revised on April 11, 2014 *********************************
+ If your system is using OpenSSL affected by this vulnerability,
+sensitive information such as private keys and account information may
+already have leaked. With the assumption that an attacker has already
+used this vulnerability to obtain those sensitive information, please
+consider of taking measures such as generating new private keys and
+issuing new server certificates.
+***********************************************************************
+
+
+IV. References
+
+  JVNVU#94401838
+  OpenSSL 'Heartbleed' vulnerability (Japanese)
+  https://jvn.jp/vu/JVNVU94401838/index.html
+
+*** Update: Revised on April 11, 2014 *********************************
+  CERT/CC Vulnerability Note VU#720951
+  OpenSSL heartbeat information disclosure
+  https://www.kb.cert.org/vuls/id/720951
+
+  Information-technology Promotion Agency, Japan (IPA)
+  Measures on OpenSSL Vulnerability (CVE-2014-0160) (Japanese)
+  https://www.ipa.go.jp/security/ciadr/vul/20140408-openssl.html
+
+  National Police Agency @Police
+  Increase in Network Access Targeting Vulnerability of OpenSSL (Japanese)
+  https://www.npa.go.jp/cyberpolice/detect/pdf/20140410.pdf
+***********************************************************************
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2014-04-08 First edition
+2014-04-11 Updated "I. Overview", "II. Affected Products",
+           "III. Solution" and "IV. References"
+
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

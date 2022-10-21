@@ -1,0 +1,103 @@
+JPCERT-AT-2019-0018
+                                                             JPCERT/CC
+                                                            2019-04-17
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-04-17 &gt;&gt;&gt;
+
+Alert Regarding Multiple Vulnerabilities in Confluence Server and Confluence Data Center
+
+       https://www.jpcert.or.jp/english/at/2019/at190018.html
+
+
+I. Overview
+On March 20, 2019 (local time), Atlassian released a security advisory
+regarding multiple vulnerabilities (CVE-2019-3395, CVE-2019-3396) in
+Confluence Server and Confluence Data Center. According to the advisory,
+the WebDAV plugin in Confluence Server and Data Center contains
+a Server-Side Request Forgery (SSRF) vulnerability, and the Widget
+Connector contains a server-side template injection vulnerability.
+A remote attacker leveraging these vulnerabilities may execute
+arbitrary code. For details on the vulnerabilities, please refer to
+the information provided by Atlassian.
+
+    Atlassian
+    Confluence Security Advisory - 2019-03-20
+    https://confluence.atlassian.com/doc/confluence-security-advisory-2019-03-20-966660264.html
+
+JPCERT/CC confirmed that Proof-of-Concept code for vulnerability
+(CVE-2019-3396) in the Widget Connector has been made public. In
+addition, since we are also aware of exploit of this vulnerability
+targeting organizations in Japan, JPCERT/CC decided to release this
+alert.
+
+
+II. Affected Products
+The following versions are affected by these vulnerabilities:
+
+  - Confluence Server and Data Center 6.14.x versions prior to 6.14.2
+  - Confluence Server and Data Center 6.13.x versions prior to 6.13.3
+  - Confluence Server and Data Center 6.12.x versions prior to 6.12.3
+  - Confluence Server and Data Center 6.11.x versions
+  - Confluence Server and Data Center 6.10.x versions
+  - Confluence Server and Data Center 6.9.x versions
+  - Confluence Server and Data Center 6.8.x versions
+  - Confluence Server and Data Center 6.7.x versions
+  - Confluence Server and Data Center 6.6.x versions prior to 6.6.12
+  - Confluence Server and Data Center 6.5.x versions
+  - Confluence Server and Data Center 6.4.x versions
+  - Confluence Server and Data Center 6.3.x versions
+  - Confluence Server and Data Center 6.2.x versions
+
+Confluence Server and Data Center versions 6.1.x and earlier which
+are no longer supported are also affected by these vulnerabilities.
+
+
+III. Solution
+Atlassian has released updated versions of Confluence Server and Data
+Center that address these vulnerabilities. It is recommended to update
+to the latest version after thorough testing.
+
+Versions that address the vulnerabilities are as follows:
+
+  - Confluence Server and Data Center version 6.15.1
+  - Confluence Server and Data Center version 6.14.2
+  - Confluence Server and Data Center version 6.13.3
+  - Confluence Server and Data Center version 6.12.3
+  - Confluence Server and Data Center version 6.6.12
+
+Atlassian recommends that you upgrade to the latest version 6.15.1
+that contains fixes for these issues.
+If you are using a version between 6.7.x and 6.11.x, a version 6.5.x
+or earlier version, it is recommended to upgrade to the above fixed
+version.
+
+
+IV. Workaround
+If you are unable to upgrade Confluence Server and Confluence Data
+Center immediately, it is recommended to disable the following plugins
+as a temporary workaround according to Atlassian.
+
+  - WebDAV plugin
+  - Widget Connector
+
+For more details, please refer to the information provided by Atlassian.
+
+
+IV. References
+    Atlassian
+    Confluence Security Advisory - 2019-03-20
+    https://confluence.atlassian.com/doc/confluence-security-advisory-2019-03-20-966660264.html
+
+    Atlassian
+    Atlassian Support End of Life Policy
+    https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-6271-8901  FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

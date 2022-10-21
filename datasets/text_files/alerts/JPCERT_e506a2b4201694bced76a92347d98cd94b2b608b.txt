@@ -1,0 +1,108 @@
+JPCERT-AT-2015-0041
+                                                            JPCERT/CC
+                                                           2015-12-09
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2015-12-09 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for December 2015
+                 (including 8 critical patches)
+
+      https://www.jpcert.or.jp/english/at/2015/at150041.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for December, 2015.
+This bulletin contains eight (8) updates that are rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for December 2015
+    https://technet.microsoft.com/en-us/library/security/ms15-dec
+
+  [Security updates rated as "critical"]
+
+    MS15-124
+    Cumulative Security Update for Internet Explorer (3116180)
+    https://technet.microsoft.com/en-us/library/security/ms15-124
+
+    MS15-125
+    Cumulative Security Update for Microsoft Edge (3116184)
+    https://technet.microsoft.com/en-us/library/security/ms15-125
+
+    MS15-126
+    Cumulative Security Update for JScript and VBScript to Address Remote Code Execution (3116178)
+    https://technet.microsoft.com/en-us/library/security/ms15-126
+
+    MS15-127
+    Security Update for Microsoft Windows DNS to Address Remote Code Execution (3100465)
+    https://technet.microsoft.com/en-us/library/security/ms15-127
+
+    MS15-128
+    Security Update for Microsoft Graphics Component to Address Remote Code Execution (3104503)
+    https://technet.microsoft.com/en-us/library/security/ms15-128
+
+    MS15-129
+    Security Update for Silverlight to Address Remote Code Execution (3106614)
+    https://technet.microsoft.com/en-us/library/security/ms15-129
+
+    MS15-130
+    Security Update for Microsoft Uniscribe to Address Remote Code Execution (3108670)
+    https://technet.microsoft.com/en-us/library/security/ms15-130
+
+    MS15-131
+    Security Update for Microsoft Office to Address Remote Code Execution (3116111)
+    https://technet.microsoft.com/en-us/library/security/ms15-131
+
+* According to Microsoft, attacks leveraging MS15-131 and MS15-135
+  have been observed in the wild. Please apply the security update
+  programs as soon as possible.
+
+* Microsoft has released information on support for Internet Explorer.
+  After January 12, 2016 (US time), Microsoft will no longer provide
+  security updates or technical support for older versions of Internet
+  Explorer. 
+  Concerns on security risks will rise henceforth, and therefore 
+  please consider updating to a newer version of Internet Explorer.
+
+    Microsoft
+    Stay up-to-date with Internet Explorer
+    https://blogs.msdn.microsoft.com/ie/2014/08/07/stay-up-to-date-with-internet-explorer/
+    
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for December 2015
+    https://technet.microsoft.com/en-us/library/security/ms15-Dec
+
+    Microsoft
+    Microsoft Security Information for December 2015 (Monthly) MS15-094 - MS15-105 (Japanese)
+    http://blogs.technet.com/b/jpsecurity/archive/2015/12/09/201512-security-bulletin.aspx
+
+    Microsoft
+    Support for older versions of Internet Explorer ends on January 12, 2016
+    https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

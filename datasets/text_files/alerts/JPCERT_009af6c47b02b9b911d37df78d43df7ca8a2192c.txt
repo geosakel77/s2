@@ -1,0 +1,120 @@
+JPCERT-AT-2021-0001
+                                                             JPCERT/CC
+                                                            2021-01-13
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-01-13 &gt;&gt;&gt;
+
+          Microsoft Releases January 2021 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2021/at210001.html
+
+
+I. Overview
+Microsoft has released January 2021 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    January 2021 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2021-Jan
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* If the same vulnerability spans multiple KBs, listing up each
+
+    CVE-2021-1643
+    HEVC Video Extensions Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2021-1643
+    - KB number is not assigned
+
+    CVE-2021-1647
+    Microsoft Defender Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2021-1647
+    - KB number is not assigned
+
+    CVE-2021-1658
+    Remote Procedure Call Runtime Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2021-1658
+    - KB4598229, KB4598230, KB4598231, KB4598242, KB4598243, KB4598245
+      KB4598275, KB4598278, KB4598279, KB4598285, KB4598287, KB4598288
+      KB4598289, KB4598297
+
+    CVE-2021-1660
+    Remote Procedure Call Runtime Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2021-1660
+    - KB4598229, KB4598230, KB4598231, KB4598242, KB4598243, KB4598245
+      KB4598275, KB4598278, KB4598279, KB4598285, KB4598287, KB4598288
+      KB4598289, KB4598297
+
+    CVE-2021-1665
+    GDI+ Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2021-1665
+    - KB4598229, KB4598230, KB4598231, KB4598242, KB4598243, KB4598245
+      KB4598275, KB4598278, KB4598279, KB4598285, KB4598287, KB4598288
+      KB4598289, KB4598297
+
+    CVE-2021-1666
+    Remote Procedure Call Runtime Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2021-1666
+    - KB4598229, KB4598230, KB4598231, KB4598242, KB4598243, KB4598245
+      KB4598275, KB4598278, KB4598279, KB4598285, KB4598287, KB4598288
+      KB4598289, KB4598297
+
+    CVE-2021-1667
+    Remote Procedure Call Runtime Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2021-1667
+    - KB4598229, KB4598230, KB4598231, KB4598242, KB4598243, KB4598245
+      KB4598275, KB4598278, KB4598279, KB4598285, KB4598287, KB4598288
+      KB4598289, KB4598297
+
+    CVE-2021-1668
+    Microsoft DTV-DVD Video Decoder Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2021-1668
+    - KB4598229, KB4598230, KB4598231, KB4598242, KB4598243, KB4598245
+      KB4598275, KB4598278, KB4598279, KB4598285, KB4598289, KB4598297
+
+    CVE-2021-1673
+    Remote Procedure Call Runtime Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2021-1673
+    - KB4598229, KB4598230, KB4598231, KB4598242, KB4598243, KB4598245
+      KB4598275, KB4598278, KB4598279, KB4598285, KB4598287, KB4598288
+      KB4598289, KB4598297
+
+    CVE-2021-1705
+    Microsoft Edge (HTML-based) Memory Corruption Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2021-1705
+    - KB4598229, KB4598230, KB4598231, KB4598242, KB4598243, KB4598245
+
+According to Microsoft, attacks leveraging the vulnerability
+CVE-2021-1647 (Critical) has been observed in the wild. Please apply
+the security update programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    January 2021 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2021-Jan
+
+    Microsoft Corporation
+    Microsoft Security Updates for January 2021 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2021/01/12/202101-security-updates/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

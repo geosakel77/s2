@@ -1,0 +1,100 @@
+JPCERT-AT-2007-0013
+                                                             JPCERT/CC
+                                                          May 24, 2007
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2007-05-24 &gt;&gt;&gt;
+
+             DoS vulnerability in multiple Cisco products
+
+             http://www.jpcert.or.jp/at/2007/at070013.txt
+
+I. Overview
+
+  Multiple Cisco products contain a vulnerability that may cause a
+Denial of Service (DoS) condition. Cisco products using RSA BSAFE
+components are affected by the vulnerability reported in
+"JVNVU#754281 RSA BSAFE Cert-C and Crypto-C libraries vulnerable to
+Denial of Service (DoS)" by JVN on May 22, 2007.
+
+  Exploitation of this vulnerability could allow a remote attacker to
+cause a continuous Denial of Service (DoS) condition.
+
+
+II. Systems Affected
+
+  This vulnerability affects a wide range of Cisco products, 
+versions, and protocols. For more information, refer to the 
+advisories released by Cisco Systems.
+
+  Products Affected
+    - Cisco IOS
+    - Cisco IOS XR
+    - Cisco PIX and ASA Security Appliances 
+        Only version 7.x is affected.
+    - Cisco Firewall Service Module (FWSM) 
+        All releases prior to 2.3(5) and 3.1(6) are affected.
+    - Cisco Unified CallManager
+
+  Protocols Affected
+    - Internet Security Association and Key Management Protocol 
+      (ISAKMP)
+    - SSL (some IOS versions)
+    - Threat Information Distribution Protocol (TIDP)
+    - Cisco IOS SIP Gateway Signaling Support Over TLS (SIP-TLS)
+    - Extensible Authentication Protocol-Transport Layer Security 
+      (EAP-TLS)
+
+  Protocols that are not listed above may be affected. For detailed 
+information on combinations of vulnerable products and protocols, 
+refer to the advisories released by Cisco Systems.
+
+
+III. Solution
+
+  To fix this problem, update to a fixed version of the software
+provided by Cisco Systems. If it is difficult to update the product,
+implement workarounds provided by Cisco Systems.
+
+    Cisco Security Advisory: Vulnerability In Crypto Library
+    Workarounds
+    http://www.cisco.com/en/US/products/products_security_advisory09186a0080847c5d.shtml#workarounds
+
+
+IV. Reference Information
+
+    Cisco Security Advisory: Vulnerability In Crypto Library
+    Advisory ID: cisco-sa-20070522-crypto.shtml
+    http://www.cisco.com/en/US/products/products_security_advisory09186a0080847c5d.shtml
+
+    Japan Vulnerability Notes JVNVU#754281
+    Denial of Service (DoS) Vulnerability in RSA BSAFE Cert-C and Crypto-C
+    http://jvn.jp/cert/JVNVU%23754281/index.html
+
+    US-CERT Vulnerability Note VU#754281
+    RSA BSAFE libraries denial of service vulnerability
+    http://www.kb.cert.org/vuls/id/754281
+
+    CPNI Advisory 137
+    Cisco Security Advisory: Vulnerability In Crypto Library Advisory
+      ID: cisco-sa-20070522-crypto
+    http://www.cpni.gov.uk/Products/advisories/default.aspx?id=al-20070522-137.xml
+
+    Cisco Security Advisory: Multiple Vulnerabilities in Cisco IOS
+      While Processing SSL Packets
+    Advisory ID: cisco-sa-20070522-SSL
+    http://www.cisco.com/en/US/products/products_security_advisory09186a0080847c49.shtml
+
+    Cisco Applied Intelligence Response: 
+    Identifying and Mitigating Exploitation of the Multiple
+      Vulnerabilities in Cisco IOS While Processing SSL Packets
+    http://www.cisco.com/en/US/products/products_applied_intelligence_response09186a0080847c7e.html
+
+
+  If you have any information regarding this matter, please contact us.
+
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

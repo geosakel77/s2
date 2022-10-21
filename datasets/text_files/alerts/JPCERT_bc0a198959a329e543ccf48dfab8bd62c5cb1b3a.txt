@@ -1,0 +1,90 @@
+JPCERT-AT-2015-0043
+                                                             JPCERT/CC
+                                                            2015-12-16
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2015-12-16 &gt;&gt;&gt;
+                  
+ Alert on denial-of-service vulnerability (CVE-2015-8000) in ISC BIND 9
+
+      https://www.jpcert.or.jp/english/at/2015/at150043.html
+
+
+I. Overview
+
+  ISC BIND 9 contains a vulnerability that leads to a denial-of-service (DoS).
+When this vulnerability is leveraged, a remote attacker may cause an 
+abnormal termination of named.
+
+  If you are running an affected version of ISC BIND 9 (authoritative DNS
+server, cache DNS server), please consider updating to a version that
+addresses this vulnerability after referring to the information in 
+"III. Solution".
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2015-8000: Responses with a malformed class attribute can trigger an assertion failure in db.c
+    https://kb.isc.org/article/AA-01317
+
+
+II. Affected Systems
+
+  According to the information provided by ISC, the following versions
+are affected by this vulnerability. ISC has rated this vulnerability as
+"Critical"
+
+  ISC BIND
+    - Versions prior to 9.9.8 for 9.9.x versions
+    - Versions prior to 9.10.3 for 9.10.x versions
+
+  For more details, refer to the following:
+
+    BIND 9 Security Vulnerability Matrix
+    https://kb.isc.org/article/AA-00913/
+
+  If you are using BIND provided by a distributor, please refer to the
+information provided by the distributor.
+
+
+III. Solution
+
+ISC has released versions of ISC BIND that address this vulnerability. 
+Distributors are likely to provide their own versions that address
+this vulnerability.Please consider updating to the latest version after
+thorough testing.
+
+In addition, ISC has released updated versions of ISC BIND 9 that 
+address another vulnerability (CVE-2015-8461) rated as "Medium".
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2015-8461: A race condition when handling socket errors can lead to an assertion failure in resolver.c
+    https://kb.isc.org/article/AA-01319
+
+  Versions that address this vulnerability are as follows:
+
+  ISC BIND
+  - BIND 9 version 9.9.8-P2
+  - BIND 9 version 9.10.3-P2
+
+
+IV. References
+
+    US-CERT
+    Internet Systems Consortium (ISC) Releases Security Updates for BIND
+    https://www.us-cert.gov/ncas/current-activity/2015/12/15/Internet-Systems-Consortium-ISC-Releases-Security-Updates-BIND
+
+    Japan Registry Services (JPRS)
+    (Critical) Vulnerability in BIND 9.x (DNS Service suspension) (Released 12/16/2015)(Japanese)
+    http://jprs.jp/tech/security/2015-12-16-bind9-vuln-respclass.html
+
+    Japan Registry Services (JPRS)
+    Vulnerability in BIND 9.x (DNS Service suspension) (Released 12/16/2015)(Japanese)
+    http://jprs.jp/tech/security/2015-12-16-bind9-vuln-racecond.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

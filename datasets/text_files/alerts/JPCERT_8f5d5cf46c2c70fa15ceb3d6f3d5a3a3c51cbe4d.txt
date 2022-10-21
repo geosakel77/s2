@@ -1,0 +1,60 @@
+JPCERT-AT-2022-0026
+                                                             JPCERT/CC
+                                                            2022-10-11
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2022-10-11 &gt;&gt;&gt;
+
+Alert Regarding Authentication Bypass Vulnerability (CVE-2022-42458) in bingo!CMS
+
+       https://www.jpcert.or.jp/english/at/2022/at220026.html
+
+
+I. Overview
+On October 11, 2022, Shift Tech Inc. released information regarding
+an authentication bypass vulnerability (CVE-2022-42458) in bingo!CMS.
+An unauthenticated remote attacker exploiting the vulnerability may
+upload an arbitrary file containing a malicious code without
+authentication.
+
+Shift Tech Inc. states that attacks exploiting this vulnerability have
+been observed, and has published the information regarding the solution.
+
+    Shift Tech Inc.
+     [Important / Action Required] Please take action regarding the bingo!CMS authentication bypass vulnerability (Text in Japanese)
+    https://www.bingo-cms.jp/information/20221011.html
+
+
+II. Affected Software
+The following versions are affected by this vulnerability.
+
+  - bingo!CMS version1.7.4.1 and earlier
+
+According to Shift Tech Inc., bingo!CMS (Cloud Edition), bingo!CMS
+Enterprise Edition and bingo!Express are not affected.
+
+
+III. Solution
+Please update to the latest version according to the information provided
+by the developer. Shift Tech Inc. has released the following version
+that addressed the vulnerability.
+
+  - bingo!CMS Version1.7.4.2
+
+
+IV. References
+    Shift Tech Inc.
+    [Important / Action Required] Please take action regarding the bingo!CMS authentication bypass vulnerability (Text in Japanese)
+    https://www.bingo-cms.jp/information/20221011.html
+
+    Japan Vulnerability Notes JVN#74592196
+    bingo!CMS vulnerable to authentication bypass
+    https://jvn.jp/en/jp/JVN74592196/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

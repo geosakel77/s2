@@ -1,0 +1,106 @@
+JPCERT-AT-2018-0013
+                                                             JPCERT/CC
+                                                            2018-04-06
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-04-06 &gt;&gt;&gt;
+
+    Alert Regarding Attacks Leveraging Cisco Smart Install Client
+
+       https://www.jpcert.or.jp/english/at/2018/at180013.html
+
+
+I. Overview
+On April 5, 2018 (US time), Cisco Talos released a blog article
+about attacks leveraging Cisco Smart Install Client. Cisco Smart
+Install Client is a function and its protocol to configure
+plug-and-play and image management functions. According to the
+article, Cisco Talos has been observing attacks targeting Cisco
+switches that leverage the protocol. For more information, please
+refer to the information provided by Cisco.
+
+    Cisco Talos
+    Critical Infrastructure at Risk: Advanced Actors Target Smart Install Client 
+    http://blog.talosintelligence.com/2018/04/critical-infrastructure-at-risk.html
+
+Cisco released a security advisory regarding this issue in February 2017.
+
+    Cisco
+    Cisco Smart Install Protocol Misuse
+    https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170214-smi
+
+Beside the advisory, on March 28, 2018 (US time), Cisco released the
+information regarding the vulnerability (CVE-2018-0171) on Cisco Smart
+Install Client. For more details on this vulnerability, please refer
+to the information provided by Cisco.
+
+    Cisco
+    Cisco IOS and IOS XE Software Smart Install Remote Code Execution Vulnerability
+    https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180328-smi2
+
+JPCERT/CC confirmed that the proof of concept of this vulnerability
+is already in the wild,  and JPCERT/CC's Internet threat monitoring
+system (TSUBAME) also observed that the scan for port 4786/tcp, which
+is used by the Cisco Smart Install Client, has increased since the
+vulnerability information was disclosed.
+
+https://www.jpcert.or.jp/english/at/2018/at180013_fig1_english.png
+Scan observations from TSUBAME for port 4786/tcp (Cisco Smart Install Client) (March 1, 2018 - April 5, 2018)
+
+Cisco provided countermeasures to prevent these issues. Users of
+the affected products are recommended to take appropriate
+countermeasures.
+
+
+II. Affected Products
+According to Cisco, the following software is affected by these
+issues:
+
+  - Cisco IOS software with the Cisco Smart Install Client feature enabled
+  - Cisco IOS XE software with the Cisco Smart Install Client feature enabled 
+
+
+III. Solution
+It is recommended to take the following countermeasures by referring
+the advisory by Cisco.
+
+ 1. cisco-sa-20180328-smi2
+ Cisco released the updated version that addresses the vulnerability.
+It is recommended to apply the updated version by referring the
+information provided by Cisco.
+
+ 2. cisco-sa-20170214-smi
+ Please consider taking the following countermeasures.
+
+  - Check if the Cisco Smart Install Client feature is left enabled
+    Disable the Smart Install client feature on Cisco switches if the feature is not necessary.
+
+  - Restrict inbound communication to the Cisco Smart Install Client
+    Please consider restricting the number of IP addresses that can access to Cisco Smart Install Client.
+
+
+IV. References
+    Cisco Talos
+    Critical Infrastructure at Risk: Advanced Actors Target Smart Install Client 
+    http://blog.talosintelligence.com/2018/04/critical-infrastructure-at-risk.html
+
+    Cisco
+    Cisco Smart Install Protocol Misuse
+    https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170214-smi
+
+    Cisco
+    Cisco IOS and IOS XE Software Smart Install Remote Code Execution Vulnerability
+    https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180328-smi2
+
+    NICTER Blog
+    Sharp increase in attacks leveraging Cisco Smart Install protocol (Japanese)
+    http://blog.nicter.jp/reports/2018-03/cisco-switch-hack/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

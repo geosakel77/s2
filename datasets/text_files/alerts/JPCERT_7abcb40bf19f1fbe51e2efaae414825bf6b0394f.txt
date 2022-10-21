@@ -1,0 +1,179 @@
+JPCERT-AT-2011-0023
+                                                             JPCERT/CC
+                                            2011-08-31 (First edition)
+                                                  2011-09-15 (Updated)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 31.08.11 &gt;&gt;
+
+                  Apache HTTP Server DoS Vulnerability
+
+            https://www.jpcert.or.jp/at/2011/at110023.txt
+
+
+I. Overview
+
+  Apache HTTP Server contains a vulnerability that will cause a Denial 
+of Service (DoS). A remote attacker could cause a high level of system 
+resource utilization by sending a specially crafted HTTP request to an 
+Apache HTTP Server, causing a denial of service.
+
+    Range header DoS vulnerability Apache HTTPD 1.3/2.x (CVE-2011-3192)
+    http://mail-archives.apache.org/mod_mbox/httpd-announce/201108.mbox/%3C20110826103531.998348F82@minotaur.apache.org%3E
+
+  According to The Apache Software Foundation, attack tools targeting 
+this vulnerability have been made public, and there have been 
+confirmed attacks targeting this vulnerability.
+
+*** Update:  Added on 15.09.2011 *************************************
+
+On September 14, 2011 (Japan time), The Apache Software Foundation 
+released Apache HTTPD Security ADVISORY (UPDATE 3 - FINAL). The main 
+changes are listed below.
+
+  - Apache HTTP Server 1.3 has been removed from the list of versions
+    affected by this vulnerability
+  - The date of the release of the corrected version of Apache HTTP
+    Server 2.0 has been made public
+  - Apache HTTP Server 2.2.21 has been released (correction of bug
+    introduced in 2.2.20)
+    - In addition to this vulnerability, CVE-2011-3348 (mod_proxy_ajp)
+      has also been solved.
+
+For more information, refer to the following websites:
+
+    Apache HTTPD Security ADVISORY (UPDATE 3 - FINAL)
+    Range header DoS vulnerability Apache HTTPD prior to 2.2.20.
+    http://httpd.apache.org/security/CVE-2011-3192.txt
+
+    Apache HTTP Server 2.2.21 Released
+    http://www.apache.jp/news/apache-http-server-2.2.21-released
+    http://www.apache.org/dist/httpd/Announcement2.2.html
+
+**********************************************************************
+
+
+II. Products Affected
+
+  According to The Apache Software Foundation, the following versions 
+may be affected by this vulnerability. 
+
+  - All versions of Apache HTTP Server 1.3
+  - All versions of Apache HTTP Server 2.x
+
+  In addition to these products, products which incorporate the Apache 
+HTTP Server may also be affected.
+
+  Those who are using Apache HTTP Server versions provided by 
+distributors should refer to information provided by the distributors.
+
+
+III. Solution
+
+  The Apache Software Foundation has released Apache HTTP Server 
+2.2.20, which resolves this vulnerability. Additionally, corrected 
+versions are also being provided by several distributors.  We 
+recommend quickly deploying the corrected version after thorough 
+testing.
+
+  The corrected versions are as follows:
+
+  - Apache HTTP Server 2.2.20
+    Apache HTTP Server Source Code Distributions
+    http://www.apache.org/dist/httpd/
+
+  - Debian
+    Debian Security Advisory
+    DSA-2298-1 apache2 -- denial of service
+    http://www.debian.org/security/2011/dsa-2298
+
+  - NetBSD
+    NetBSD pkgsrc-Bugs archive
+    CVS commit:  [pkgsrc-2011Q2] pkgsrc/www/apache22
+    http://mail-index.netbsd.org/pkgsrc-changes/2011/08/30/msg059529.html
+
+  For more information regarding this solution, refer to The Apache 
+Software Foundation and distributors' websites.
+
+  As of August 31, 2011, The Apache Software Foundation has not 
+released corrected versions of Apache HTTP Server 2.0.x, so please 
+consider applying workarounds. Support has ended for Apache HTTP 
+Server 1.3, so please consider upgrading to 2.0/2.2 or applying 
+workarounds.
+
+(Workaround)
+  The Apache Software Foundation has released a workaround. However, 
+applying the workaround may have a negative impact, so sufficient 
+consideration to its effects should be given before applying it.
+
+  For more information regarding this workaround, refer to The Apache 
+Software Foundation advisory.
+
+    Advisory: Range header DoS vulnerability Apache HTTPD 1.3/2.x (CVE-2011-3192)
+    http://mail-archives.apache.org/mod_mbox/httpd-announce/201108.mbox/%3C20110826103531.998348F82@minotaur.apache.org%3E
+
+
+IV. Result of JPCERT/CC Verification
+
+  JPCERT/CC has examined the exploit code for this vulnerability. It 
+has been confirmed that with Apache HTTP Server 2.2.20, even if the 
+attack code is executed, it will not cause a denial of Web server 
+services.
+
+    [Verification environment]
+    Attack target versions
+    Apache: 2.0.64, 2.2.9, 2.2.19, 2.2.20
+
+    [Verification content]
+    Execute attack tool and confirm behavior of each Apache version
+
+    [Verification result]
+    - Apache 2.0.64, 2.2.9
+      - Server itself became inoperable
+      - Condition did not change even when attack was stopped, and
+        denial of service continued
+    - Apache 2.2.19
+      - Memory usage rose and response slowed, but Web content
+        remained viewable
+    - Apache 2.2.20
+      - No denial of service occurred
+
+
+V. References
+
+    Range header DoS vulnerability Apache HTTPD 1.3/2.x (CVE-2011-3192)
+    http://mail-archives.apache.org/mod_mbox/httpd-announce/201108.mbox/%3C20110826103531.998348F82@minotaur.apache.org%3E
+
+    Apache HTTP Server 2.2.20 Released
+    https://www.apache.org/dist/httpd/Announcement2.2.html
+
+    Apache HTTP Server Source Code Distributions
+    http://www.apache.org/dist/httpd/
+
+    Vulnerability Note VU#405811
+    Apache HTTPD 1.3/2.x Range header DoS vulnerability
+    http://www.kb.cert.org/vuls/id/405811
+
+    JVNVU#405811
+    Denial of service vulnerability affecting Apache HTTPD servers
+    https://jvn.jp/cert/JVNVU405811/index.html
+
+    Red Hat, Inc.
+    CVE-2011-3192 httpd: multiple ranges DoS
+    https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2011-3192
+
+    Apache HTTP Server 1.3.42 released (final release of 1.3.x)
+    http://mail-archives.apache.org/mod_mbox/httpd-announce/201002.mbox/%3C20100203000334.GA19021@infiltrator.stdlib.net%3E
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+________
+Revision history
+2011-08-31 First edition
+2011-09-15 Added Security ADVISORY (UPDATE 3)
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

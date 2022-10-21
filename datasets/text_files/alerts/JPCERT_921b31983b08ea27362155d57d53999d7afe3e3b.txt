@@ -1,0 +1,72 @@
+JPCERT-AT-2020-0048
+                                                             JPCERT/CC
+                                                            2020-12-09
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-12-09 &gt;&gt;&gt;
+
+      Alert Regarding Vulnerability (CVE-2020-1971) in OpenSSL
+
+       https://www.jpcert.or.jp/english/at/2020/at200048.html
+
+
+I. Overview
+On December 8, 2020 (US Time), OpenSSL Project released update
+information regarding the OpenSSL vulnerability (CVE-2020-1971).
+According to published information, OpenSSL provides a function
+GENERAL_NAME_cmp which compares different instances of a GENERAL_NAME,
+and this function behaves incorrectly when both GENERAL_NAMEs contain
+an EDIPARTYNAME. When this vulnerability is exploited, a NULL pointer
+dereference and a crash may occur leading to a possible denial of
+service attack on a server or client application running OpenSSL.
+
+For more information on the impacts of this vulnerability, please
+refer to the information provided by the OpenSSL Project.
+
+    OpenSSL Project
+    OpenSSL Security Advisory [08 December 2020]
+    https://www.openssl.org/news/secadv/20201208.txt
+
+If you are using an affected version, it is recommended to address
+the issue as soon as possible by referring to the information in
+"III. Solution".
+
+
+II. Affected Software
+The following versions are affected by this vulnerability:
+
+  - OpenSSL versions 1.1.1, 1.0.2
+
+According to OpenSSL Project, OpenSSL 1.0.2 and 1.1.0 are out of
+support and no longer receiving updates. Users of these versions
+are recommended to upgrade to OpenSSL 1.1.1i.
+
+
+III. Solution
+The OpenSSL Project has released a version of OpenSSL to address
+this vulnerability. Please consider applying the update after thorough
+testing.
+
+  - OpenSSL 1.1.1i
+
+
+IV. References
+    OpenSSL Project
+    OpenSSL Security Advisory [08 December 2020]
+    https://www.openssl.org/news/secadv/20201208.txt
+
+    Debian
+    CVE-2020-1967
+    https://security-tracker.debian.org/tracker/CVE-2020-1971
+
+    Red Hat Customer Portal
+    CVE-2020-1967
+    https://access.redhat.com/security/cve/CVE-2020-1971
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

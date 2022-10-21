@@ -1,0 +1,92 @@
+JPCERT-AT-2016-0035
+                                                             JPCERT/CC
+                                                            2016-09-14
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-09-14 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for September 2016
+                 (including 7 critical patches)
+
+      https://www.jpcert.or.jp/english/at/2016/at160035.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for September 2016.
+This bulletin contains seven (7) updates that are rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for September 2016
+    https://technet.microsoft.com/en-us/library/security/ms16-sep
+
+  [Security updates rated as "critical"]
+
+    MS16-104
+    Cumulative Security Update for Internet Explorer (3183038)
+    https://technet.microsoft.com/library/security/MS16-104
+
+    MS16-105
+    Cumulative Security Update for Microsoft Edge (3183043)
+    https://technet.microsoft.com/library/security/MS16-105
+
+    MS16-106
+    Security Update for Microsoft Graphics Component (3185848)
+    https://technet.microsoft.com/library/security/MS16-106
+
+    MS16-107
+    Security Update for Microsoft Office (3185852)
+    https://technet.microsoft.com/library/security/MS16-107
+
+    MS16-108
+    Security Update for Microsoft Exchange Server (3185883)
+    https://technet.microsoft.com/library/security/MS16-108
+
+    MS16-116
+    Security Update in OLE Automation for VBScript Scripting Engine (3188724)
+    https://technet.microsoft.com/library/security/MS16-116
+
+    MS16-117
+    Security Update for Adobe Flash Player (3188128)
+    https://technet.microsoft.com/library/security/MS16-117
+
+  According to Microsoft, attacks leveraging the vulnerability which
+is addressed by applying MS16-104 and MS16-105 (both critical), have
+been observed in the wild.
+
+  Please apply the security update programs as soon as possible.
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for September 2016
+    https://technet.microsoft.com/en-us/library/security/ms16-sep
+
+    Microsoft
+    Microsoft Security Information for September 2016 (Monthly) – MS16-104 - MS16-117 (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2016/09/14/201609-security-bulletin/
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

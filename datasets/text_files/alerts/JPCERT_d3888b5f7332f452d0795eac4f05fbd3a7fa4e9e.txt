@@ -1,0 +1,60 @@
+JPCERT-AT-2012-0001
+                                                             JPCERT/CC
+                                                            2012-01-04
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 04.01.12 &gt;&gt;&gt;
+
+              Vulnerabilities in Microsoft .NET Framework
+
+            https://www.jpcert.or.jp/at/2012/at120001.html
+
+
+I. Overview
+
+  Microsoft has released an "out-of-band" vulnerability information of
+.NET Framework on December 30, 2011. The severity rating of this 
+security update is "Critical". An exploit of this vulnerability could 
+result in a remote denial-of-service attack or arbitrary command 
+execution (after escalating privilege of a stolen existing account).
+
+  For further information about the vulnerability, refer to the 
+following URL:
+
+    Microsoft Security Bulletin MS11-100 - Critical
+    Vulnerability in the .NET Framework could allow elevation of privilege (2638420)
+    http://support.microsoft.com/kb/2638420
+
+  At this point, JPCERT/CC has not confirmed attacks exploiting these 
+vulnerabilities.
+
+
+II. Solution
+
+  Apply the update immediately by using means such as Microsoft Update
+or Windows Update.
+
+    Microsoft Update
+    https://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+
+III. References
+
+    Japan Security Team
+    MS11-100 released out-of-bound to resolve vulnerability described in Security Advisory (2659883) (Japanese)
+    http://blogs.technet.com/b/jpsecurity/archive/2011/12/30/3473364.aspx
+
+    JVNVU#903934
+    Denial of Service Vulnerability in Web Applications using Hash Functions (Japanese)
+    https://jvn.jp/cert/JVNVU903934/
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

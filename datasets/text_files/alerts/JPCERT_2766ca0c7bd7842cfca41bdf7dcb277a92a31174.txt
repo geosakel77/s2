@@ -1,0 +1,195 @@
+JPCERT-AT-2018-0006
+                                                             JPCERT/CC
+                                                    2018-02-02(Initial)
+                                                    2018-02-07(Update)
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2018-02-02 &gt;&gt;&gt;
+
+ Alert Regarding Vulnerability (CVE-2018-4878) in Adobe Flash Player
+
+        https://www.jpcert.or.jp/english/at/2018/at180006.html
+
+
+I. Overview
+On January 31, 2018, KrCERT/CC released a security alert regarding a
+vulnerability in Adobe Flash Player. Regarding this issue, Adobe
+Systems has also released a security advisory about the vulnerability
+(CVE-2018-4878) which is not addressed yet. According to Adobe,
+targetted attacks in the wild exploiting this vulnerability have been
+observed. Publicly available information in abroad also states that
+attacks leveraging this vulnerability has already been observed in
+Korea.
+
+    KrCERT/CC
+    Alert Regarding Vulnerability in Adobe Flash Player 2018.01.31 (Korean)
+    https://www.krcert.or.kr/data/secNoticeView.do?bulletin_writing_sequence=26998
+
+    Adobe
+    Security Advisory for Flash Player | APSA18-01
+    https://helpx.adobe.com/security/products/flash-player/apsa18-01.html
+
+As of February 2, 2018, the detail on the vulnerability has not been
+released. However, the information published so far has shown that
+remote attackers leveraging this vulnerability may be able to execute
+arbitrary code.
+According to Adobe, a security update to address the vulnerability
+will be released on the week of February 5, 2018. It is strongly
+recommended to apply the corrected version as soon as it is released.
+
+** Update: February 7, 2018 Update ***********************************
+On February 6, 2018 (local time), Adobe released an updated version 
+of Adobe Flash Player that addresses the vulnerability. Please update
+to the latest version as soon as possible by referring to the
+information in "III. Solution".
+**********************************************************************
+
+
+II. Affected Products
+The following versions are affected by this vulnerability according to
+Adobe:
+
+  - Adobe Flash Player Desktop Runtime (28.0.0.137) and earlier
+    (Windows, Macintosh and Linux)
+  - Adobe Flash Player for Google Chrome (28.0.0.137) and earlier
+    (Windows, Macintosh, Linux and Chrome OS)
+  - Adobe Flash Player for Microsoft Edge and Internet Explorer 11 (28.0.0.137) and earlier
+    (Windows 10 and Windows 8.1)
+
+According to the security alert from KrCERT/CC, the Adobe Flash Player
+for Microsoft Internet Explorer is affected by this vulnerability.
+However, the security update from Adobe states that Adobe Flash Player
+for other browsers are also affected.
+
+Users can check the version of Adobe Flash Player that they are using
+at the following link:
+    
+    Flash Player Help
+    https://helpx.adobe.com/flash-player.html
+
+For Internet Explorer 11 and Microsoft Edge on Windows 10 and Windows
+8.1, the latest version of Adobe Flash Player will be applied through
+Windows Update, etc. Please check the latest information provided by
+Microsoft.
+
+** Update: February 7, 2018 Update ***********************************
+Adobe Flash Player Update has been released for Windows 10 and
+Windows 8.1. Please apply the security update programs through
+Microsoft Update, Windows Update, etc. as soon as possible.
+
+    ADV180004 | February 2018 Adobe Flash Security Update
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV180004
+**********************************************************************
+
+  * Even if you use a web browser other than Internet Explorer, there
+    is software that uses Adobe Flash Player installed for Internet
+    Explorer, such as Microsoft Office, so please update Adobe Flash
+    Player for Internet Explorer.
+
+
+III. Solution
+As of February 2, 2018, Adobe has not released a security update to
+address the vulnerability. According to Adobe, a security update to
+address the vulnerability will be released on the week of February 5,
+2018. 
+
+Also, other distributors may be releasing a security update on their
+product that include Adobe Flash Player to address the vulnerability.
+It is recommended to check information provided by Adobe and other
+distributors that include Adobe Flash Player in their products, and
+quickly apply the corrected version as soon as it is released.
+
+JPCERT/CC will update this alert once Adobe releases the corrected
+version.
+
+** Update: February 7, 2018 Update ***********************************
+Adobe has released an updated version of Adobe Flash Player. Please
+update to the latest version by referring to the information below.
+This update contains fixes for vulnerabilities other than 
+CVE-2018-4878 stated in the advisory (APSA18-01).
+
+  - Adobe Flash Player Desktop Runtime (28.0.0.161)
+    (Windows, Macintosh and Linux)
+  - Adobe Flash Player for Google Chrome (28.0.0.161)
+    (Windows, Macintosh, Linux and Chrome OS)
+  - Adobe Flash Player for Microsoft Edge and Internet Explorer 11 (28.0.0.161)
+    (Windows 10 and Windows 8.1)
+
+    Adobe Flash Player Download Center
+    https://get.adobe.com/flashplayer/
+
+    Adobe Systems Incorporated
+    Security updates available for Flash Player | APSB18-03
+    https://helpx.adobe.com/security/products/flash-player/apsb18-03.html
+**********************************************************************
+
+
+IV. Workaround
+Please consider the following workarounds to mitigate impacts of the
+vulnerability. In addition, applying these countermeasures may affect
+other applications. Please carefully consider and test any side
+effects prior to applying any of the workarounds.
+
+  - Limit the Flash content
+    Please disable Flash on your browser or enable Click-to-Play
+    features.
+
+  - Open the security tab on "Internet Options" in Internet Explorer
+    and change the security level to "High" for the Internet zone and
+    local intranet zone.
+
+Also, JPCERT/CC has received a report on a case where malicious Flash
+contents are embedded in Microsoft Office documents. Please refrain
+from opening any suspicious Microsoft document files. If the file
+needs to be open, security risks can be avoided by using Protected
+View feature on Microsoft Office.
+
+If Internet Explorer is running with Adobe Flash Player version 27
+or later and on Windows 7 or later, exploit on the vulnerability can
+be avoided by displaying prompt screen when SWF content is played.
+For more details, please refer to the information provided by Adobe.
+
+
+V. References
+    Adobe Systems Incorporated
+    Security Advisory for Flash Player | APSA18-01
+    https://helpx.adobe.com/security/products/flash-player/apsa18-01.html
+
+    Adobe Systems Incorporated
+    Security Advisory for Adobe Flash Player
+    http://blogs.adobe.com/psirt/?p=1520
+
+    KrCERT/CC
+    Alert Regarding Vulnerability in Adobe Flash Player 2018.01.31 (Korean)
+    https://www.krcert.or.kr/data/secNoticeView.do?bulletin_writing_sequence=26998
+
+    Microsoft Corporation
+    Enable/Disable Flash Player for Microsoft Edge (Japanese)
+    https://answers.microsoft.com/ja-jp/windows/wiki/apps_windows_10-msedge/microsoft-edge/248bf728-44f4-4b4a-ae50-8b66ee7a96ca
+
+** Update: February 7, 2018 Update ***********************************
+    Adobe Systems Incorporated
+    Security updates available for Flash Player | APSB18-03
+    https://helpx.adobe.com/security/products/flash-player/apsb18-03.html
+
+    Adobe Systems Incorporated
+    Security updates available for Adobe Flash Player (APSB18-03)
+    https://blogs.adobe.com/psirt/?p=1522
+
+    Microsoft Corporation
+    ADV180004 | February 2018 Adobe Flash Security Update
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV180004
+**********************************************************************
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2018-02-02 First edition
+2018-02-07 Updated "I. Overview", "II. Affected Products", "III. Solution" and "V. References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

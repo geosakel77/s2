@@ -1,0 +1,116 @@
+JPCERT-AT-2016-0022
+                                                             JPCERT/CC
+                                                   2016-05-11(Initial)
+                                                    2016-05-16(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-05-11 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for May 2016
+                 (including 8 critical patches)
+
+        https://www.jpcert.or.jp/english/at/2016/at160022.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for May, 2016.
+This bulletin contains eight (8) updates that are rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for May 2016
+    https://technet.microsoft.com/en-us/library/security/ms16-may
+
+  [Security updates rated as "critical"]
+
+    MS16-051
+    Cumulative Security Update for Internet Explorer (3155533)
+    https://technet.microsoft.com/en-us/library/security/MS16-051
+
+    MS16-052
+    Cumulative Security Update for Microsoft Edge (3155538)
+    https://technet.microsoft.com/en-us/library/security/MS16-052
+
+    MS16-053
+    Cumulative Security Update for JScript and VBScript (3156764)
+    https://technet.microsoft.com/en-us/library/security/MS16-053
+
+    MS16-054
+    Security Update for Microsoft Office (3155544)
+    https://technet.microsoft.com/en-us/library/security/MS16-054
+
+    MS16-055
+    Security Update for Microsoft Graphics Component (3156754)
+    https://technet.microsoft.com/en-us/library/security/MS16-055
+
+    MS16-056
+    Security Update for Windows Journal (3156761)
+    https://technet.microsoft.com/en-us/library/security/MS16-056
+
+    MS16-057
+    Security Update for Windows Shell (3156987)
+    https://technet.microsoft.com/en-us/library/security/MS16-057
+
+    MS16-064
+    Security Update for Adobe Flash Player (3157993)
+    https://technet.microsoft.com/en-us/library/security/MS16-064
+    
+** Update: May 16, 2016 Update ***************************************
+ On May 14, 2016, Microsoft updated Security Bulletin (MS16-064) and 
+released a Security Update (3163207). Microsoft strongly recommends  
+updating to the latest version as soon as possible since this update 
+replaces the update (3157993) which was released previously. 
+For more information, please refer to the information provided by 
+Microsoft.
+**********************************************************************
+
+  According to Microsoft, attacks that leverage the vulnerability
+ (CVE-2016-0189) which is addressed by applying MS16-051 and MS16-053
+(both critical), have been observed in the wild.
+
+  Please apply the security update programs as soon as possible.
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for May 2016
+    https://technet.microsoft.com/en-us/library/security/ms16-may
+
+    Microsoft
+    Microsoft Security Information for May 2016 (Monthly) - MS16-051 - MS16-062, MS16-064 - MS16-067 (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2016/05/11/201605-security-bulletin/
+
+** Update: May 16, 2016 Update ***************************************
+    JPCERT/CC
+    Vulnerabilities in Adobe Flash Player (APSB16-15)
+    https://www.jpcert.or.jp/english/at/2016/at160024.html
+**********************************************************************
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2016-05-11 First edition
+2016-05-16 Updated "I. Overview" and "V. References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

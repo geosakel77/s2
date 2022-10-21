@@ -1,0 +1,91 @@
+JPCERT-AT-2020-0027
+                                                             JPCERT/CC
+                                                    2020-07-01(Initial)
+                                                    2020-07-08(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-07-01 &gt;&gt;&gt;
+
+Alert Regarding Vulnerabilities (CVE-2020-1425, CVE-2020-1457) in Microsoft Windows Codecs Library
+
+        https://www.jpcert.or.jp/english/at/2020/at200027.html
+
+
+I. Overview
+On June 30, 2020 (Local Time), Microsoft has released information
+regarding vulnerabilities (CVE-2020-1425, CVE-2020-1457) in Microsoft
+Windows Codecs Library. This contains updates that are rated as
+"Critical". Remote attackers leveraging these vulnerabilities may be
+able to execute arbitrary code.
+
+For more information on the vulnerabilities, please refer to the
+information provided by Microsoft.
+
+    Microsoft
+    CVE-2020-1425 | Microsoft Windows Codecs Library Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1425
+
+    Microsoft
+    CVE-2020-1457 | Microsoft Windows Codecs Library Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1457
+
+
+II. Affected Products
+Affected products and versions are as follows:
+
+  - Windows 10 Version 1709 for 32-bit Systems
+  - Windows 10 Version 1709 for ARM64-based Systems
+  - Windows 10 Version 1709 for x64-based Systems
+  - Windows 10 Version 1803 for 32-bit Systems
+  - Windows 10 Version 1803 for ARM64-based Systems
+  - Windows 10 Version 1803 for x64-based Systems
+  - Windows 10 Version 1809 for 32-bit Systems
+  - Windows 10 Version 1809 for ARM64-based Systems
+  - Windows 10 Version 1809 for x64-based Systems
+  - Windows 10 Version 1903 for 32-bit Systems
+  - Windows 10 Version 1903 for ARM64-based Systems
+  - Windows 10 Version 1903 for x64-based Systems
+  - Windows 10 Version 1909 for 32-bit Systems
+  - Windows 10 Version 1909 for ARM64-based Systems
+  - Windows 10 Version 1909 for x64-based Systems
+  - Windows 10 Version 2004 for 32-bit Systems
+  - Windows 10 Version 2004 for ARM64-based Systems
+  - Windows 10 Version 2004 for x64-based Systems
+
+** Update: July 8, 2020 Update *************************************
+Removed the Windows Server from the above Affected Products list as
+they had been removed from the list on Microsoft advisory pages.
+**********************************************************************
+
+
+III. Solution
+Affected users will be automatically updated by Microsoft Store.
+According to Microsoft, users who want to receive the update immediately
+can check for updates with the Microsoft Store App.
+
+    Microsoft
+    Get updates for apps and games in Microsoft Store
+    https://support.microsoft.com/en-us/help/4026259/microsoft-store-get-updates-for-apps-and-games
+
+
+IV. References
+    Microsoft
+    CVE-2020-1425 | Microsoft Windows Codecs Library Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1425
+
+    Microsoft
+    CVE-2020-1457 | Microsoft Windows Codecs Library Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1457
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2020-07-01 First edition
+2020-07-08 Updated "II. Affected Products"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

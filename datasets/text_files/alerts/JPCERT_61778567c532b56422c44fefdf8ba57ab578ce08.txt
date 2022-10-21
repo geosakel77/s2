@@ -1,0 +1,79 @@
+JPCERT-AT-2021-0015
+                                                             JPCERT/CC
+                                                            2021-03-26
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2021-03-26 &gt;&gt;&gt;
+
+Alert Regarding Vulnerabilities (CVE-2021-3450, CVE-2021-3449) in OpenSSL
+
+       https://www.jpcert.or.jp/english/at/2020/at210015.html
+
+
+I. Overview
+On March 25, 2021 (Local Time), OpenSSL Project released information
+regarding the OpenSSL vulnerabilities (CVE-2021-3450, CVE-2021-3449).
+OpenSSL have vulnerabilities regarding improper verification of X.509
+certificates and a null pointer reference by processing a specially
+crafted message when establishing a session. When these vulnerabilities
+are exploited, a fraudulent CA certificate may be authenticated or
+a denial of service (DoS) may occur on a server running OpenSSL.
+
+For more information on these vulnerabilities, please refer to the
+information provided by the OpenSSL Project.
+
+    OpenSSL Project
+    OpenSSL Security Advisory [25 March 2021]
+    https://www.openssl.org/news/secadv/20210325.txt
+
+If you are using an affected version, it is recommended to address
+the issue as soon as possible by referring to the information in
+"III. Solution".
+
+
+II. Affected Software
+The following versions are affected by these vulnerabilities:
+
+  CVE-2021-3450
+  - OpenSSL versions 1.1.1h, 1.1.1i, 1.1.1j
+
+  CVE-2021-3449
+  - OpenSSL versions 1.1.1x prior to 1.1.1k
+
+According to OpenSSL Project, OpenSSL 1.0.2 and 1.1.0 are out of
+support and no longer receiving updates. Users of these versions
+are recommended to upgrade to OpenSSL 1.1.1k.
+
+
+III. Solution
+The OpenSSL Project has released a version of OpenSSL to address
+these vulnerabilities. Please consider applying the update after
+thorough testing.
+
+  - OpenSSL 1.1.1k
+
+
+IV. References
+    OpenSSL Project
+    OpenSSL Security Advisory [25 March 2021]
+    https://www.openssl.org/news/secadv/20210325.txt
+
+    Debian
+    CVE-2021-3450
+    https://security-tracker.debian.org/tracker/CVE-2021-3450
+    CVE-2021-3449
+    https://security-tracker.debian.org/tracker/CVE-2021-3449
+
+    Red Hat Customer Portal
+    CVE-2021-3450
+    https://access.redhat.com/security/cve/CVE-2021-3450
+    CVE-2021-3449
+    https://access.redhat.com/security/cve/CVE-2021-3449
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

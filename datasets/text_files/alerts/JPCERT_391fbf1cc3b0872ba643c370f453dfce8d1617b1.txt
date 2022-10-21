@@ -1,0 +1,182 @@
+JPCERT-AT-2019-0006
+                                                             JPCERT/CC
+                                                            2019-02-13
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-02-13 &gt;&gt;&gt;
+
+          Microsoft Releases February 2019 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2019/at190006.html
+
+
+I. Overview
+Microsoft has released February 2019 Security Updates. This contains
+updates that are rated as "critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    February 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/51503ac5-e6d2-e811-a983-000d3a33c573
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    ADV190003
+    February 2019 Adobe Flash Security Update
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV190003
+    - KB4487038
+
+    CVE-2019-0590
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0590
+    - KB4486996, KB4487017, KB4487018, KB4487020, KB4487026, KB4487044
+
+    CVE-2019-0591
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0591
+    - KB4486996, KB4487017, KB4487018, KB4487020, KB4487026, KB4487044
+
+    CVE-2019-0593
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0593
+    - KB4486996, KB4487017, KB4487018, KB4487020, KB4487026, KB4487044
+
+    CVE-2019-0594
+    Microsoft SharePoint Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0594
+    - KB4461630, KB4462143, KB4462155, KB4462171
+
+    CVE-2019-0604
+    Microsoft SharePoint Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0604
+    - KB4461630, KB4462143, KB4462155, KB4462171
+
+    CVE-2019-0605
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0605
+    - KB4486996, KB4487017, KB4487018, KB4487020, KB4487026, KB4487044
+
+    CVE-2019-0606
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0606
+    - KB4486474, KB4486563, KB4486996, KB4487000, KB4487017, KB4487018
+      KB4487020, KB4487026, KB4487044
+
+    CVE-2019-0607
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0607
+    - KB4486996, KB4487017, KB4487044
+
+    CVE-2019-0618
+    GDI+ Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0618
+    - KB4486563, KB4486564, KB4486993, KB4486996, KB4487000, KB4487017
+      KB4487018, KB4487019, KB4487020, KB4487023, KB4487025, KB4487026
+      KB4487028, KB4487044
+
+    CVE-2019-0626
+    Windows DHCP Server Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0626
+    - KB4486563, KB4486564, KB4486993, KB4486996, KB4487000, KB4487017
+      KB4487018, KB4487019, KB4487020, KB4487023, KB4487025, KB4487026
+      KB4487028, KB4487044
+
+    CVE-2019-0634
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0634
+    - KB4486996, KB4487017, KB4487020, KB4487044
+
+    CVE-2019-0640
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0640
+    - KB4486996, KB4487017, KB4487020, KB4487044
+
+    CVE-2019-0642
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0642
+    - KB4486996, KB4487017, KB4487018, KB4487020, KB4487026, KB4487044
+
+    CVE-2019-0644
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0644
+    - KB4486996, KB4487017, KB4487020, KB4487026, KB4487044
+
+    CVE-2019-0645
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0645
+    - KB4486996, KB4487017, KB4487018, KB4487020, KB4487026, KB4487044
+
+    CVE-2019-0650
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0650
+    - KB4487017, KB4487044
+
+    CVE-2019-0651
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0651
+    - KB4486996, KB4487017, KB4487018, KB4487020, KB4487026, KB4487044
+
+    CVE-2019-0652
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0652
+    - KB4486996, KB4487017, KB4487018, KB4487020, KB4487026, KB4487044
+
+    CVE-2019-0655
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0655
+    - KB4486996, KB4487017, KB4487018, KB4487020, KB4487026, KB4487044
+
+    CVE-2019-0662
+    GDI+ Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0662
+    - KB4486563, KB4486564, KB4486993, KB4486996, KB4487000, KB4487017
+      KB4487018, KB4487019, KB4487020, KB4487023, KB4487025, KB4487026
+      KB4487028, KB4487044
+
+According to Microsoft, attacks leveraging the vulnerability
+CVE-2019-0676 (Important) have been observed in the wild. Please apply
+the security update programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    February 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/51503ac5-e6d2-e811-a983-000d3a33c573
+
+    Microsoft Corporation
+    Microsoft Security Updates for February 2019 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2019/2/13/201902-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Adobe
+    Security updates available for Flash Player | APSB19-06
+    https://helpx.adobe.com/security/products/flash-player/apsb19-06.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerability in Adobe Flash Player (APSB19-06)
+    https://www.jpcert.or.jp/english/at/2019/at190005.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-6271-8901  FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

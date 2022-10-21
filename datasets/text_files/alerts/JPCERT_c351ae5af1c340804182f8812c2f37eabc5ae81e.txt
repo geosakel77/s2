@@ -1,0 +1,119 @@
+JPCERT-AT-2012-0016
+                                                             JPCERT/CC
+                                            2012-05-09 (First edition)
+                                                  2012-05-10 (Updated)
+                           
+                   &lt;&lt;&lt; JPCERT/CC Alert 09.05.12 &gt;&gt;&gt;
+
+                         Vulnerability in PHP
+				   
+        https://www.jpcert.or.jp/english/at/2012/at120016.html
+
+
+I. Overview
+ 
+  The PHP Group released information regarding a vulnerability in
+php-cgi request processing. According to the PHP Group, when PHP is
+running on a web server in CGI mode, a remote attacker could use this
+vulnerability to view the source code of the PHP script or execute
+arbitrary code with the privileges of the web server.
+
+  Attack methods that use this vulnerability have been released
+publicly. Therefore, refer to “III. Confirmation method” to find
+whether the servers managed can be affected by this vulnerability and
+if so, we recommend updating PHP to the corrected version supplied by
+the PHP Group.
+
+    PHP Group
+    #61910 VU#520827 - PHP-CGI query string parameter vulnerability
+    https://bugs.php.net/bug.php?id=61910
+
+
+II. Products Affected
+
+  Affected versions are as follows:
+
+  - Earlier than PHP version 5.4.3 
+  - Earlier than PHP version 5.3.13 
+
+
+III. Confirmation method
+
+  According to the PHP Group, when browsing a website with a URL
+ending in “?-s” (option that displays the source code), if the
+source code appears, your PC is affected by this vulnerability.
+
+   (Confirmation method example)
+   http://example.com/index.php?-s
+
+   * The above URL method is one of the examples.
+   * If both module mode and CGI mode might possibly be used, confirm
+     all the directories where PHP runs.
+
+*** Update: information added on 10 May, 2012 ************************
+
+  Since a part of the vulnerability is corrected in PHP 5.4.2/PHP
+5.3.12 released by the PHP Group on May 3, the source code may not
+appear even if the confirmation method is taken.
+
+**********************************************************************
+
+
+IV. Solution
+
+  The PHP Group has released a version that corrects this
+vulnerability. We recommend deploying the corrected version after
+thorough testing.
+  
+Corrected versions
+  - PHP version 5.4.3
+  - PHP version 5.3.13
+
+  * Support for PHP 5.2 ended in January 2011, so we recommend that
+    anyone using versions 5.2 and older update to the latest version.
+
+  If you use PHP provided by a distributor, refer to information
+supplied by them.
+
+
+V. References
+
+    PHP Group
+    PHP 5.4.3 and PHP 5.3.13 Released!
+    http://www.php.net/archive/2012.php#id2012-05-08-1
+
+    PHP Group
+    #61910 VU#520827 - PHP-CGI query string parameter vulnerability
+    https://bugs.php.net/bug.php?id=61910
+
+    JVNVU#520827
+     PHP-CGI query string request processing vulnerability
+    https://jvn.jp/cert/JVNVU520827/index.html
+
+*** Update: information added on 10 May, 2012 ************************
+    Debian
+    DSA-2465-1 php5 -- several vulnerabilities
+    http://www.debian.org/security/2012/dsa-2465
+
+    Canonical Ltd.
+    CVE-2012-2311 in Ubuntu
+    http://people.canonical.com/~ubuntu-security/cve/2012/CVE-2012-2311.html
+
+    Novell, Inc.
+    SUSE-SU-2012:0604-1: critical: Security update for PHP5
+    http://lists.opensuse.org/opensuse-security-announce/2012-05/msg00011.html
+**********************************************************************
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision history
+2012-05-09 First edition
+2012-05-10 Information added in “III. Confirmation method” and References.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

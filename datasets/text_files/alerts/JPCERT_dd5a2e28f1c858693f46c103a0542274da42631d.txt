@@ -1,0 +1,56 @@
+JPCERT-AT-2019-0016
+                                                             JPCERT/CC
+                                                            2019-04-10
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-04-10 &gt;&gt;&gt;
+
+             Intel Releases April 2019 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2019/at190016.html
+
+
+I. Overview
+On April 9, 2019 (US time), Intel has released security advisories
+about Intel products. Attackers leveraging these vulnerabilities may
+cause a Denial of Service (DoS) or information disclosure.
+
+For more information, please refer to the Intel website.
+
+    INTEL-SA-00201 (CVE-2018-18094)
+    Intel Media SDK Advisory
+    https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00201.html
+    
+    INTEL-SA-00236 (CVE-2019-0158)
+    Intel Graphics Performance Analyzer for Linux Advisory
+    https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00236.html
+
+    INTEL-SA-00238 (CVE-2019-0162)
+    Microprocessor Memory Mapping Advisory
+    https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00238.html
+
+    INTEL-SA-00239 (CVE-2019-0163)
+    Intel NUC Advisory
+    https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00239.html
+
+
+II. Solution
+Please check the products affected by the vulnerabilities described
+in each advisory. Users of these products should consider updating to
+the latest version, applying the patch or workarounds by referring to
+"Recommendations:" section of each advisory.
+
+
+III. References
+    Intel Corporation
+    Intel Product Security Center Advisories
+    https://www.intel.com/content/www/us/en/security-center/default.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-6271-8901  FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

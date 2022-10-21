@@ -1,0 +1,84 @@
+JPCERT-AT-2021-0027
+                                                             JPCERT/CC
+                                                            2021-06-09
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-06-09 &gt;&gt;&gt;
+
+            Microsoft Releases June 2021 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2021/at210027.html
+
+
+I. Overview
+Microsoft has released June 2021 Security Updates to address the
+vulnerabilities in their products. Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code. It is
+recommended to check the information provided by Microsoft and
+apply the updates.
+
+    Microsoft Corporation
+    June 2021 Security Updates
+    https://msrc.microsoft.com/update-guide/en-us/releaseNote/2021-June
+
+    Microsoft Corporation
+    Release Notes
+    https://msrc.microsoft.com/update-guide/releaseNote
+
+According to Microsoft, the following six vulnerabilities have been
+confirmed to be exploited in the wild. Please consider applying the
+security update programs as soon as possible.
+
+    CVE-2021-31955
+    Windows Kernel Information Disclosure Vulnerability
+    https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2021-31955
+
+    CVE-2021-31956
+    Windows NTFS Elevation of Privilege Vulnerability
+    https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2021-31956
+
+    CVE-2021-33739
+    Microsoft DWM Core Library Elevation of Privilege Vulnerability
+    https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2021-33739
+
+    CVE-2021-33742
+    Windows MSHTML Platform Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2021-33742
+
+    CVE-2021-31199
+    Microsoft Enhanced Cryptographic Provider Elevation of Privilege Vulnerability
+    https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2021-31199
+
+    CVE-2021-31201
+    Microsoft Enhanced Cryptographic Provider Elevation of Privilege Vulnerability
+    https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2021-31201
+
+Microsoft Enhanced Cryptographic Provider Elevation of Privilege
+vulnerabilities (CVE-2021-31199, CVE-2021-31201) are related to
+Adobe Acrobat and Reader vulnerability (CVE-2021-28550), released in
+Adobe Security Bulletin APSB21-29 in May 2021.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    Microsoft Security Updates for June 2021 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2021/06/08/202106-security-updates/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,135 @@
+JPCERT-AT-2018-0050
+                                                             JPCERT/CC
+                                                            2018-12-12
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-12-12 &gt;&gt;&gt;
+
+          Microsoft Releases December 2018 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2018/at180050.html
+
+
+I. Overview
+Microsoft has released December 2018 Security Updates. This contains
+updates that are rated as "critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    December 2018 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/6c54acc6-2ed2-e811-a980-000d3a33a34d
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    CVE-2018-8540
+    .NET Framework Remote Code Injection Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8540
+    - KB4470491, KB4470492, KB4470493, KB4470498, KB4470499, KB4470500
+      KB4470502, KB4470600, KB4470601, KB4470602, KB4470622, KB4470623
+      KB4470629, KB4470630, KB4470633, KB4470637, KB4470638, KB4470639
+      KB4470640, KB4470641, KB4471102, KB4471321, KB4471323, KB4471324
+      KB4471327, KB4471329
+
+    CVE-2018-8583
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8583
+    - KB4471324, KB4471327, KB4471329, KB4471332
+
+    CVE-2018-8617
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8617
+    - KB4471321, KB4471323, KB4471324, KB4471327, KB4471329, KB4471332
+
+    CVE-2018-8618
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8618
+    - KB4471321, KB4471324, KB4471327, KB4471329, KB4471332
+
+    CVE-2018-8624
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8624
+    - KB4471321, KB4471324, KB4471327, KB4471329, KB4471332
+
+    CVE-2018-8626
+    Windows DNS Server Heap Overflow Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8626
+    - KB4471320, KB4471321, KB4471322, KB4471324, KB4471329, KB4471332
+
+    CVE-2018-8629
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8629
+    - KB4471321, KB4471323, KB4471324, KB4471327, KB4471329, KB4471332
+
+    CVE-2018-8631
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8631
+    - KB4470199, KB4471318, KB4471320, KB4471321, KB4471323, KB4471324
+      KB4471327, KB4471329, KB4471332
+
+    CVE-2018-8634
+    Microsoft Text-To-Speech Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8634
+    - KB4471321, KB4471323, KB4471324, KB4471327, KB4471329, KB4471332
+
+According to Microsoft, attacks leveraging the vulnerability
+CVE-2018-8611 (Important) have been observed in the wild. Please apply
+the security update programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+In addition, Microsoft has released the security advisory ADV180030 on
+November 20, 2018 (US time) and ADV180031 on December 5, 2018 (US time),
+and provided security update on Adobe Flash Player vulnerabilities.
+For more details, please refer to the following URL.
+
+    ADV180030 | November 20, 2018 Flash Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV180030
+
+    ADV180031 | December 2018 Adobe Flash Security Update
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV180031
+
+
+III. References
+    Microsoft Corporation
+    December 2018 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/6c54acc6-2ed2-e811-a980-000d3a33a34d
+
+    Microsoft Corporation
+    Microsoft Security Updates for December 2018 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2018/12/12/201812-security-updates/
+
+    Adobe Systems Incorporated
+    Security updates available for Flash Player | APSB18-44
+    https://helpx.adobe.com/security/products/flash-player/apsb18-44.html
+
+    Adobe Systems Incorporated
+    Security updates available for Flash Player | APSB18-42
+    https://helpx.adobe.com/security/products/flash-player/apsb18-42.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerability in Adobe Flash Player (APSB18-44)
+    https://www.jpcert.or.jp/english/at/2018/at180047.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerability in Adobe Flash Player (APSB18-42)
+    https://www.jpcert.or.jp/english/at/2018/at180048.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-6271-8901  FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

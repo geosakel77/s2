@@ -1,0 +1,96 @@
+JPCERT-AT-2014-0043
+                                                            JPCERT/CC
+                                                           2014-10-22
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2014-10-22 &gt;&gt;&gt;
+
+ Alert regarding unaddressed vulnerability in Microsoft OLE from October 2014
+
+        https://www.jpcert.or.jp/english/at/2014/at140043.html
+
+
+I. Overview
+
+  Microsoft OLE contains an unaddressed vulnerability. As a result, a
+remote attacker may execute arbitrary code by forcing a user to open a
+specially crafted Microsoft Office file that contains an OLE object.
+
+    Microsoft Security Advisory 3010060
+    Vulnerability in Microsoft OLE Could Allow Remote Code Execution
+    https://technet.microsoft.com/en-us/library/security/3010060
+
+  According to Microsoft, targeted attacks leveraging this vulnerability
+have been observed.
+
+
+II. Affected Versions
+
+  Affected products and versions are listed below.
+
+  - Windows Vista Service Pack 2
+  - Windows Vista x64 Edition Service Pack 2
+  - Windows Server 2008 for 32-bit Systems Service Pack 2
+  - Windows Server 2008 for x64-based Systems Service Pack 2
+  - Windows Server 2008 for Itanium-based Systems Service Pack 2
+  - Windows 7 for 32-bit Systems Service Pack 1
+  - Windows 7 for x64-based Systems Service Pack 1
+  - Windows Server 2008 R2 for x64-based Systems Service Pack 1
+  - Windows Server 2008 R2 for Itanium-based Systems Service Pack 1
+  - Windows 8 for 32-bit Systems
+  - Windows 8 for x64-based Systems
+  - Windows 8.1 for 32-bit Systems
+  - Windows 8.1 for x64-based Systems
+  - Windows Server 2012
+  - Windows Server 2012 R2
+  - Windows RT
+  - Windows RT 8.1
+
+    For more details, refer to the Microsoft Security Advisory (3010060).
+
+
+III. Solution
+
+  As of October 22, 2014 (Japan time), Microsoft has not released a security
+program to address this vulnerability. They have released a "Microsoft Fix
+it" solution as a workaround.
+
+
+IV. Workaround
+
+  Microsoft has released workarounds for this vulnerability. Until a security
+update program is released, consider applying one of the workarounds provided.
+Prior to applying a workaround, please test the effects that the workaround
+may have to other systems.
+
+   - Apply Microsoft Fix it 51026
+     Vulnerability in Microsoft OLE could allow remote code execution
+     https://support2.microsoft.com/kb/3010060/en
+
+   - Add a setting to use the Attack Surface Reduction (ASR) function in the
+     Enhanced Mitigation Experience Toolkit (EMET)
+     Enhanced Mitigation Experience Toolkit
+     https://technet.microsoft.com/en-us/security/jj653751
+
+  For details on each of the workarounds, refer to Microsoft Security Advisory
+(3010060).
+
+
+V. References
+
+    Microsoft
+    Microsoft Security Advisory 3010060
+    https://technet.microsoft.com/en-us/library/security/3010060
+
+    Microsoft
+    Vulnerability in Microsoft OLE could allow remote code execution
+    https://support2.microsoft.com/kb/3010060/en
+
+    Microsoft
+    Security Advisory 3010060 Annoucement "Remote code execution due to vulnerability in Microsoft OLE"
+    http://blogs.technet.com/b/jpsecurity/archive/2014/10/22/advisory-3010060.aspx
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

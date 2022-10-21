@@ -1,0 +1,82 @@
+JPCERT-AT-2017-0043
+                                                             JPCERT/CC
+                                                            2017-11-15
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-11-15 &gt;&gt;&gt;
+
+Alert Regarding Vulnerabilities in Adobe Reader and Acrobat (APSB17-36)
+
+       https://www.jpcert.or.jp/english/at/2017/at170043.html
+
+
+I. Overview
+Multiple vulnerabilities exist in Adobe Acrobat Reader, a PDF file
+viewing software, and Adobe Acrobat, a PDF file creation and conversion
+software. As a result, a remote attacker may terminate Adobe Reader
+and Acrobat, or execute arbitrary code by convincing a user to open
+contents leveraging the vulnerabilities. For more information, please
+refer to the Adobe website.
+
+    Security Update Available for Adobe Acrobat and Reader | APSB17-36
+    https://helpx.adobe.com/security/products/acrobat/apsb17-36.html
+
+
+II. Affected Products
+Affected products and versions are as follows:
+
+  - Adobe Acrobat Reader DC Continuous (2017.012.20098) and earlier
+  - Adobe Acrobat Reader DC Classic (2015.006.30355) and earlier
+  - Adobe Acrobat DC Continuous (2017.012.20098) and earlier
+  - Adobe Acrobat DC Classic (2015.006.30355) and earlier
+  - Adobe Acrobat Reader 2017 (2017.011.30066) and earlier
+  - Adobe Acrobat 2017 (2017.011.30066) and earlier
+  - Adobe Acrobat XI (11.0.22) and earlier
+  - Adobe Reader XI (11.0.22) and earlier
+
+
+III. Solution
+Please update Adobe Reader and Acrobat to the latest version listed
+below. 
+
+  - Adobe Acrobat Reader DC Continuous (2018.009.20044)
+  - Adobe Acrobat Reader DC Classic (2015.006.30392)
+  - Adobe Acrobat DC Continuous (2018.009.20044)
+  - Adobe Acrobat DC Classic (2015.006.30392)
+  - Adobe Acrobat Reader 2017 (2017.011.30068)
+  - Adobe Acrobat 2017 (2017.011.30068)
+  - Adobe Acrobat XI (11.0.23)
+  - Adobe Reader XI (11.0.23)
+
+Support for Adobe Acrobat 11.x and Adobe Reader 11.x ended on October 15,
+2017. Version 11.0.23 is the final release for Adobe Acrobat 11.x and
+Adobe Reader 11.x. Adobe strongly recommend that you update to the
+latest version of Adobe Acrobat DC and Adobe Acrobat Reader DC.
+
+Acrobat will be updated by starting the product, selecting the menu
+"Help (H)", and then clicking "Check for Updates (U)". If an update
+from the menu is not available, please download the latest Adobe
+Reader and Acrobat from the following URL. For more information,
+please refer to the Adobe website.
+
+    Adobe.com - New downloads
+    https://www.adobe.com/support/downloads/new.jsp
+
+
+IV. References
+    Adobe Systems Incorporated
+    Security Update Available for Adobe Acrobat and Reader | APSB17-36
+    https://helpx.adobe.com/security/products/acrobat/apsb17-36.html
+
+    Adobe Systems Incorporated
+    Security Bulletins Posted
+    https://blogs.adobe.com/psirt/?p=1510
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

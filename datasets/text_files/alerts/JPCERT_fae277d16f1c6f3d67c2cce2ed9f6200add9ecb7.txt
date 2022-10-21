@@ -1,0 +1,117 @@
+JPCERT-AT-2009-0006
+                                                            JPCERT/CC
+                                           2009-03-11 (First edition)
+                                                 2009-03-19 (Updated)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2009-03-11 &gt;&gt;&gt;
+
+              Vulnerability in Adobe Reader and Acrobat
+
+             http://www.jpcert.or.jp/at/2009/at090006.txt
+
+
+I. Overview
+
+  Adobe Acrobat and Adobe Reader, a PDF file creation and conversion
+software and a PDF file viewing software respectively, contain a
+vulnerability in the processing of JBIG2. As a result, a remote
+attacker could terminate Adobe Acrobat and Adobe Reader or execute
+arbitrary code by convincing a user to open a specially crafted PDF
+file.
+
+    Security Updates available for Adobe Reader 9 and Acrobat 9
+    http://www.adobe.com/support/security/bulletins/apsb09-03.html
+
+  According to Adobe Systems, several attacks exploiting this
+vulnerability have been observed.
+
+
+II. Products Affected
+
+  Affected products and versions are as follows:
+
+  - Adobe Reader 9 and earlier
+  - Adobe Acrobat 9 Standard, Pro, Pro Extended and earlier
+
+
+III. Solution
+
+  Apply the corrected software provided by Adobe Systems. Adobe Reader
+and Acrobat will be updated by starting the products, selecting the
+menu Help (H), and then clicking Check for Updates (U).
+
+  If update is not possible, download the latest Adobe Acrobat and
+Adobe Reader from the following URLs (for Windows):
+
+    Adobe - Adobe Reader download
+    http://get.adobe.com/reader/
+
+    Adobe Acrobat 9.1 Pro and Standard update
+    http://www.adobe.com/support/downloads/detail.jsp?ftpID=4375
+
+    Adobe Acrobat 9.1 Pro Extended update
+    http://www.adobe.com/support/downloads/detail.jsp?ftpID=4381
+
+*** Update: Revised on March 19, 2009 ********************************
+
+    Adobe Acrobat 8.1.4 Professional, Standard update - multiple
+      languages
+    http://www.adobe.com/support/downloads/detail.jsp?ftpID=4410
+
+    Adobe Acrobat 8.1.4 3D update - multiple languages
+    http://www.adobe.com/support/downloads/detail.jsp?ftpID=4414
+
+    Adobe Reader 8.1.4 Update - Multiple Languages
+    http://www.adobe.com/support/downloads/detail.jsp?ftpID=4417
+
+    Adobe Acrobat 7.1.1 Standard and Professional Update - Multiple 
+      Languages
+    http://www.adobe.com/support/downloads/detail.jsp?ftpID=4412
+
+    Adobe Acrobat 7.1.1 3D update - multiple languages
+    http://www.adobe.com/support/downloads/detail.jsp?ftpID=4415
+
+    Adobe Reader 7.1.1 Update - Multiple Languages
+    http://www.adobe.com/support/downloads/detail.jsp?ftpID=4416
+
+**********************************************************************
+
+
+  For more information, refer to Adobe Systems' website.
+
+
+IV. References
+
+    JVNTA09-051A
+    Adobe Reader and Acrobat Vulnerability
+    http://jvn.jp/cert/JVNTA09-051A/index.html
+
+    Adobe - Security Advisories
+    APSB09-03 - Security Updates available for Adobe Reader 9 and 
+      Acrobat 9
+    http://www.adobe.com/support/security/bulletins/apsb09-03.html
+
+    Security updates for buffer overflow vulnerability in Adobe Reader
+      and Acrobat versions 9 and earlier (prior information released
+      on February 19, 2009)
+    http://www.adobe.com/jp/support/security/advisories/apsa09-01.html
+
+
+  If you have any information you could provide regarding this alert,
+please contact us.
+
+________
+
+Revision history
+2009-03-11 First edition
+2009-03-12 Revised the descriptions of the product names
+           Deleted the statement that the automatic update did not
+           work
+2009-03-19 Revised the security update information for Adobe Reader 7
+           and 8, as well as Adobe Acrobat 7 and 8
+
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602

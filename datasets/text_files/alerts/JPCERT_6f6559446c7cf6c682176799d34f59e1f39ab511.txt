@@ -1,0 +1,144 @@
+JPCERT-AT-2011-0019
+                                                             JPCERT/CC
+                                            2011-07-06 (First edition)
+                                                  2011-07-08 (Updated)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 06.07.11 &gt;&gt;&gt;
+
+ ISC BIND 9 DoS Vulnerability of Authoritative and Recursive Servers
+
+            https://www.jpcert.or.jp/at/2011/at110019.txt
+
+
+I. Overview
+
+  ISC BIND 9 contains a vulnerability that will cause a Denial of 
+Service (DoS).
+As a result, a remote attacker could easily initiate a Denial of 
+Service (DoS) attack on DNS servers (authoritative DNS servers and 
+cache DNS servers) running BIND 9 by sending specially crafted DNS 
+packets to the servers. 
+
+    Internet Systems Consortium, Inc. (ISC)
+    ISC BIND 9 Remote packet Denial of Service against Authoritative and Recursive Servers
+    https://www.isc.org/software/bind/advisories/cve-2011-2464
+
+  This vulnerability is applicable with many of the DNS servers 
+(authoritative DNS servers and cache DNS servers) running BIND 9. 
+This vulnerability cannot be mitigated using the access control 
+features of ISC BIND 9. Therefore, temporary mitigation is difficult, 
+and since attacks can be initiated based on vulnerability information 
+pubished on the Internet, we recommend quickly deploying the corrected
+version based on "III. Solution."
+
+  ISC has also published vulnerability information with regard to BIND
+9.8 (CVE-2011-2465). BIND 9.8 may unintentionally terminate its 
+service when it is run as a cache DNS server with the RPZ feature 
+enabled. For more information, refer to information from ISC.
+
+    Internet Systems Consortium, Inc. (ISC)
+    ISC BIND 9 Remote Crash with Certain RPZ Configurations
+    https://www.isc.org/software/bind/advisories/cve-2011-2465
+
+
+II. Products Affected
+
+  According to ISC, the following versions may be affected by this 
+vulnerability. 
+
+  ISC BIND
+  - 9.6.3, 9.6-ESV-R4, 9.6-ESV-R4-P1, 9.6-ESV-R5b1
+  - 9.7.0, 9.7.0-P1, 9.7.0-P2, 9.7.1, 9.7.1-P1, 9.7.1-P2, 9.7.2, 
+    9.7.2-P1, 9.7.2-P2, 9.7.2-P3, 9.7.3, 9.7.3-P1, 9.7.3-P2, 9.7.4b1
+  - 9.8.0, 9.8.0-P1, 9.8.0-P2, 9.8.0-P3, 9.8.1b1
+
+  Note that versions 9.5.3b1 and 9.5.3rc1 which are no longer 
+supported are also affected by this vulnerability.
+
+  * Versions other than BIND 9 listed above are not affected by this 
+    vulnerability.
+
+  Those who are using BIND versions provided by distributors should 
+refer to information provided by the distributors.
+
+
+III. Solution
+
+  ISC has released BIND versions that correct this vulnerability. 
+Additionally, corrected versions are also being provided by several 
+distributors. We recommend quickly deploying the corrected version 
+after thorough testing.
+
+  The corrected versions are as follows:
+
+  ISC BIND
+  - 9.6-ESV-R4-P3
+  - 9.7.3-P3
+  - 9.8.0-P4
+
+
+IV. References
+
+    Internet Systems Consortium, Inc. (ISC)
+    ISC BIND 9 Remote packet Denial of Service against Authoritative and Recursive Servers
+    https://www.isc.org/software/bind/advisories/cve-2011-2464
+
+    Internet Systems Consortium, Inc. (ISC)
+    ISC BIND 9 Remote Crash with Certain RPZ Configurations
+    https://www.isc.org/software/bind/advisories/cve-2011-2465
+
+    Japan Registry Services Co., Ltd. (JPRS)
+    (Critical) Denial of Service (DoS) attacks exploiting a vulnerability in BIND 9.x
+    http://jprs.jp/tech/security/2011-07-05-bind9-vuln-remote-packet-auth-and-recurse.html
+
+    Japan Registry Services Co., Ltd. (JPRS)
+    BIND 9.8.x service interruption caused by an implemenation defect in its RPZ (Response Policy Zones) feature
+    http://jprs.jp/tech/security/2011-07-05-bind98-vuln-rpz-dname.html
+
+    US-CERT Vulnerability Note VU#142646
+    ISC BIND 9 named denial of service vulnerability
+    http://www.kb.cert.org/vuls/id/142646
+
+    US-CERT Vulnerability Note VU#137968
+    ISC BIND 9 RPZ zone named denial-of-service vulnerability
+    http://www.kb.cert.org/vuls/id/137968
+
+*** Update: Added on July 8, 2011 ************************************
+
+    JVNVU#142646
+    ISC BIND Denial of Service (DoS) vulnerability 
+    https://jvn.jp/cert/JVNVU142646/
+
+    JVNVU#137968
+    ISC BIND 9.8.x Denial of Service (DoS) vulnerability 
+    https://jvn.jp/cert/JVNVU137968/
+
+    Red Hat Network
+    Important: bind security update
+    https://rhn.redhat.com/errata/RHSA-2011-0926.html
+
+**********************************************************************
+
+    Debian
+    DSA-2272-1 bind9 -- denial of service
+    http://www.debian.org/security/2011/dsa-2272
+    http://www.debian.org/security/2011/dsa-2272.en.html
+
+    Ubuntu
+    Ubuntu Security Notice USN-1163-1
+    http://www.ubuntu.com/usn/usn-1163-1/
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+________
+Revision history
+2011-07-06 First edition
+2011-07-08 Added reference information
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

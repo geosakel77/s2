@@ -1,0 +1,118 @@
+JPCERT-AT-2011-0024
+                                                             JPCERT/CC
+                                                            2011-09-07
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 07.09.11 &gt;&gt;&gt;
+
+                Scan activity targeting TCP port 3389
+
+            https://www.jpcert.or.jp/at/2011/at110024.txt
+
+I. Overview
+
+  JPCERT/CC Internet Scan Data Acquisition System (ISDAS) has observed 
+that scans against TCP port 3389 have been increasing since late 
+August of 2011. Although the cause of these scans has not been 
+identified yet, they may be due to the Morto malware, which scans for 
+ports offering Windows RDP (Remote Desktop Protocol) services, and 
+then attempts to crack the password. After scanning, this malware 
+attempts to crack weak passwords and propagate itself.
+  ISDAS has observed scanning activity from multiple IP addresses in 
+Japan, and has notified their respective administrators.
+  Since August 28, 2011, the amount of scanning of TCP 3389 has 
+decreased, but there is the possibility that malware activity has been 
+temporarily suspended, and attention is still required.
+Please consider implementing the solution in IV. Solution.
+
+
+II. Observation status
+
+  For the TCP port 3389 scan trends observed by ISDAS, refer to the 
+following websites:
+
+    ISDAS graph for TCP port 3389 (01.08.11-07.09.11)
+    https://www.jpcert.or.jp/at/2011/at110024_3389port.png
+
+    AP region regular monitoring system (TSUBAME) monitoring video
+    https://www.jpcert.or.jp/at/2011/at110024_3389port_movie.wmv
+
+
+III. Malware activity confirmed by JPCERT/CC
+
+  JPCERT/CC has obtained one type of malware (Morto) which is believed
+to be performing this scan, and has verified how it operates.
+
+  1. Computers infected with this malware send requests to DNS servers, 
+     and scan TCP port 3389 of nearby IP addresses.
+  2. When a computer responds to the scan, the computer infected with 
+     the malware attempts to login to the target computer via RDP.
+     - Examples of targeted user IDs:
+       administrator, admin, test, user, guest, 
+       support_388945a0 (remote assistance default ID), etc.
+  3. When the computer infected with the malware succeeds in logging 
+     into the target computer, it infects the target computer.
+  4. The computer infected with the malware in 3 begins scanning 
+     activity from step 1 above.
+
+
+IV. Solution
+
+  Users of the services running on RDP (TCP port 3389) are recommended 
+to consider taking the following countermeasures:
+
+   1) Not to use a vulnerable password for system accounts.
+
+   2) Restrict remote login of accounts which do not need to be logged 
+      into remotely
+
+   3) As needed, have routers and/or firewalls perform access control 
+      of external access to TCP port 3389
+
+    How to use the Windows XP Professional remote desktop function
+    http://support.microsoft.com/kb/882287/ja
+
+    Configuring remote desktop access on Windows 7 systems
+    http://technet.microsoft.com/ja-jp/windows/ff189332
+
+    Creating strong passwords
+    http://www.microsoft.com/ja-jp/security/online-privacy/passwords-create.aspx
+    http://www.microsoft.com/security/online-privacy/passwords-create.aspx
+
+
+V. References
+
+    Microsoft
+    New worm targeting weak passwords on Remote Desktop connections (port 3389)
+    http://blogs.technet.com/b/mmpc/archive/2011/08/28/new-worm-targeting-weak-passwords-on-remote-desktop-connections-port-3389.aspx
+
+    Microsoft
+    More on Morto
+    http://blogs.technet.com/b/mmpc/archive/2011/08/29/more-on-morto.aspx
+
+    Microsoft
+    Morto malware shows the importance of strong passwords
+    http://blogs.technet.com/b/jpsecurity/archive/2011/09/06/3451299.aspx
+
+    F-Secure
+    Windows Remote Desktop Worm "Morto" Spreading
+    http://blog.f-secure.jp/archives/50625847.html
+    http://www.f-secure.com/weblog/archives/00002227.html
+
+    Symantec
+    Morto worm sets a (DNS) record
+    http://www.symantec.com/connect/blogs/dns-morto
+    http://www.symantec.com/connect/blogs/morto-worm-sets-dns-record
+
+    JPCERT/CC
+    Internet Scan Data Acquisition System (ISDAS)
+    https://www.jpcert.or.jp/isdas/
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

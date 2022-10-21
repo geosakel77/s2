@@ -1,0 +1,108 @@
+JPCERT-AT-2016-0009
+                                                            JPCERT/CC
+                                                  2016-02-17(Initial)
+                                                  2016-02-19(Update)
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2016-02-17 &gt;&gt;&gt;
+
+        Alert on Vulnerability in glibc library (CVE-2015-7547)
+
+         https://www.jpcert.or.jp/english/at/2016/at160009.html
+
+
+I. Overview
+
+  The glibc library contains a vulnerability that leads to a buffer 
+overflow(CVE-2015-7547). When this vulnerability is leveraged, 
+a remote attacker may cause a denial-of-service (DoS) or execute 
+arbitrary code. For more information on this vulnerability, please
+refer to the following information.
+
+    Japan Vulnerability Notes JVNVU#97236594
+    The glibc library vulnerable to buffer overflow (JAPANESE)
+    https://jvn.jp/vu/JVNVU97236594/
+
+
+II. Affected Products
+
+  The following versions are affected by this vulnerability:
+
+  - glibc 2.9 and later
+
+  The glibc library provided by distributors may also be affected by 
+this vulnerability. Distributors are providing information on affected
+products and versions related to this vulnerability. 
+For more information, please refer to the information provided by your
+distributor.
+
+  - RedHat
+    - Red Hat Enterprise Linux Server EUS (v. 6.6)
+    - Red Hat Enterprise Linux Server AUS (v. 6.5)
+    - Red Hat Enterprise Linux Server AUS (v. 6.4)
+    - Red Hat Enterprise Linux Server AUS (v. 6.2)
+    - Red Hat Enterprise Linux Server EUS (v. 7.1)
+    - Red Hat Enterprise Linux version 6
+    - Red Hat Enterprise Linux version 7
+  - Debian
+    - squeeze
+    - wheezy
+    - jessie
+  - Ubuntu
+    - Ubuntu 15.10
+    - Ubuntu 14.04 LTS
+    - Ubuntu 12.04 LTS
+
+
+III. Solution
+
+  The glibc project has provided a patch to address this vulnerability. 
+Please consider applying the update after thorough testing. 
+
+    [PATCH] CVE-2015-7547 --- glibc getaddrinfo() stack-based buffer overflow
+    https://sourceware.org/ml/libc-alpha/2016-02/msg00416.html
+
+   In the case of using the glibc library provided by a distributor,  
+please refer to the information provided by the distributor and consider
+updating to the version that addresses this vulnerability.
+
+
+IV. References
+
+    SANS Internet Storm Center
+    CVE-2015-7547: Critical Vulnerability in glibc getaddrinfo
+    https://isc.sans.edu/forums/diary/CVE20157547+Critical+Vulnerability+in+glibc+getaddrinfo/20737/
+
+    RedHat,Inc
+    CVE-2015-7547
+    https://access.redhat.com/security/cve/cve-2015-7547
+
+    Debian Project
+    CVE-2015-7547
+    https://security-tracker.debian.org/tracker/CVE-2015-7547
+
+    Canonical Ltd (Ubuntu)
+    USN-2900-1: GNU C Library vulnerability
+    http://www.ubuntu.com/usn/usn-2900-1/
+
+** Update: 02/19/2016 Update ******************************************
+    US-CERT
+    GNU glibc Vulnerability
+    https://www.us-cert.gov/ncas/current-activity/2016/02/17/GNU-glibc-Vulnerability
+
+    Japan Registry Services (JPRS)
+    (Urgent) Vulnerability in GNU C Library (glibc) (Japanese)
+    https://jprs.jp/tech/security/2016-02-18-glibc-vuln-getaddrinfo.html
+*********************************************************************
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2016-02-17 First edition
+2016-02-19 Updated "References"
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

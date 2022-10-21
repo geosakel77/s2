@@ -1,0 +1,105 @@
+JPCERT-AT-2007-0017
+                                                            JPCERT/CC
+                                                            July 11, 2007
+
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2007-07-11 &gt;&gt;&gt;
+
+                   July 2007 Microsoft Security Bulletin
+                    (including three critical patches)
+
+                  http://www.jpcert.or.jp/at/2007/at070017.txt
+
+I. Overview
+
+  Microsoft has released security bulletins for July 2007 which
+include three "Critical" security updates.
+
+  Exploitation of these vulnerabilities could allow a remote attacker
+to execute arbitrary code.
+
+    Security Bulletin for July 2007
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-jul.mspx
+
+  Detailed information on each vulnerability is available from the
+following URLs:
+
+  [Critical Security Updates]
+
+    MS07-036
+    Vulnerabilities in Microsoft Excel Could Allow Remote Code
+      Execution (936542)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-036.mspx
+
+    MS07-039
+    Vulnerability in Windows Active Directory Could Allow Remote Code
+      Execution (926122)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-039.mspx
+
+    MS07-040
+    Vulnerabilities in .NET Framework Could Allow Remote Code 
+      Execution (931212)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-040.mspx
+
+
+II. Solution
+
+  Apply the security updates immediately by using Microsoft Update or
+Windows Update.
+
+    Microsoft Update
+    https://update.microsoft.com/microsoftupdate
+
+    Windows Update
+    https://windowsupdate.microsoft.com/
+
+    Office Update
+    http://office.microsoft.com/ja-jp/officeupdate/default.aspx
+
+  Depending on the version of the product, updates may not be 
+available from Microsoft Update. Use Windows Update or Office Update
+as needed.
+
+  For example, to apply security updates for Office 2000, they need
+to be downloaded from Office Update. For details of operating systems
+supported by Microsoft Update, see "Security Requirements" in the
+following URL:
+
+    About Microsoft Update
+    http://www.microsoft.com/japan/technet/prodtechnol/microsoftupdate/default.mspx
+
+
+III. Reference Information
+
+    JP Vendor Status Notes JVNTA07-191A
+    Multiple Vulnerabilities in Microsoft Products
+    http://jvn.jp/cert/JVNTA07-191A/index.html
+
+    Security Bulletin for July 2007
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-jul.mspx
+
+    Microsoft Update and other services: Frequently asked questions
+    http://www.microsoft.com/japan/athome/security/protect/update.mspx
+
+    US-CERT Vulnerability Note VU#487905
+    Microsoft Windows Active Directory fails to properly validate LDAP
+      requests
+    http://www.kb.cert.org/vuls/id/487905
+
+    US-CERT Vulnerability Note VU#101321
+    Microsoft Windows Vista firewall bypass vulnerability
+    http://www.kb.cert.org/vuls/id/101321
+
+    @police
+    About Microsoft security updates
+    (MS07-036, 037, 038, 039, 040, 041) (July 11)
+    http://www.cyberpolice.go.jp/important/2007/20070711_044737.html
+
+
+  If you have any information regarding this matter, please contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

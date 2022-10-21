@@ -1,0 +1,76 @@
+JPCERT-AT-2016-0002
+                                                             JPCERT/CC
+                                                            2016-01-12
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-01-12 &gt;&gt;&gt;
+
+Alert regarding possible information leakage due to improper DNS zone transfer settings
+
+        https://www.jpcert.or.jp/english/at/2016/at160002.html
+
+
+I. Overview
+
+  Improperly configured authoritative name servers may respond to
+zone transfer requests from unexpected IP addresses, which may lead
+to the disclosure of zone information to a third party.
+
+  Zone information contains zone management information (server name,
+IP address, etc.) and when such information is disclosed, the 
+potential threat to an organization's server and network security may
+increase since the organization's server and network configurations
+may be speculated.
+
+  JPCERT/CC has obtained information that a number of domestic 
+authoritative name servers may potentially disclose zone information. 
+It is recommended that system administrators check DNS server 
+configurations, and change to an appropriate configuration if necessary.
+
+
+II. Solution
+
+  When configuring the transfer of zone information in authoritative
+name servers, it is recommended to restrict zone transfer requests from
+unexpected IP addresses in order to prevent information from being
+leaked unknowingly.
+
+  - Configure the primary server to accept zone transfer request from
+    secondary server's IP address only.
+  - Configure the secondary server to reject zone transfer request from
+    any IP address.
+
+  The method to configure depends on the DNS server software in use. 
+Consider applying the changes after thorough testing. For more 
+information, refer to the following:
+
+  Japan Registry Services (JPRS)
+  Configuration Guide: How to restrict responses to zone transfer requests [for BIND] (Japanese)
+  http://jprs.jp/tech/notice/2016-01-12-fixing-bind-zonetransfer.html
+  
+  Microsoft Corporation
+  Change zone transfer configuration
+  https://technet.microsoft.com/en-us/library/cc771652.aspx
+
+III. References
+
+    Japan Registry Services (JPRS)
+    Risk of information leakage caused by misconfiguration of authoritative name server and how to recheck the settings (Japanese)
+    http://jprs.jp/tech/security/2016-01-12-unauthorized-zone-transfer.html
+    
+    Japan Network Information Center (JPNIC)
+    Alert regarding zone transfer settings in authoritative name servers (Japanese)
+    https://www.nic.ad.jp/ja/topics/2016/20160112-01.html
+    
+    US-CERT
+    DNS Zone Transfer AXFR Requests May Leak Domain Information
+    http://www.us-cert.gov/ncas/alerts/TA15-103A
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

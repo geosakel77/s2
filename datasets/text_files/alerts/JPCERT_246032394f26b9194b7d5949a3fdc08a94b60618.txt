@@ -1,0 +1,105 @@
+JPCERT-AT-2014-0041
+                                                             JPCERT/CC
+                                                            2014-10-15
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2014-10-15 &gt;&gt;&gt;
+
+        Critical Patch Update for Oracle Java SE, October 2014
+
+        https://www.jpcert.or.jp/english/at/2014/at140041.html
+
+
+I. Overview
+
+  Java SE JDK and JRE provided by Oracle contain multiple
+vulnerabilities. A remote attacker may cause Java to crash or execute
+arbitrary code by leveraging these vulnerabilities. For more
+information on the vulnerabilities, please refer to the information
+provided by Oracle:
+
+  It is recommended to update to the latest version of the software
+provided by Oracle: 
+
+    Oracle Critical Patch Update Advisory - October 2014
+    http://www.oracle.com/technetwork/topics/security/cpuoct2014-1972960.html
+
+
+II. Affected Products
+
+  The following products and versions are affected by these vulnerabilities:
+
+  - Java SE JDK/JRE 7 Update 67 and earlier
+  - Java SE JDK/JRE 8 Update 20 and earlier
+
+  * According to Oracle, Java SE JDK / JRE 5 and 6, which are no
+    longer supported, are also affected by these vulnerabilities.
+
+  * Some manufacturer PC's may have JRE pre-installed. Please check
+    the PC that you are using for any installed versions of JRE.
+
+
+III. Solution
+
+  Oracle has released an update. Please update to the latest version of the
+software.
+
+  - Java SE JDK/JRE 7 Update 71
+  - Java SE JDK/JRE 8 Update 25
+
+  * A separate Oracle Java SE 7u72 is available for developers and
+    users requiring additional non-security improvements or for testing
+    updated features. Please consider updating to 7u72.
+
+    Java SE Downloads
+    http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+    Free Java Download
+    https://java.com/en/download/
+
+  Users of 64-bit Windows may have either or both 32-bit and 64-bit
+versions of JDK/JRE installed. Please check the versions installed on
+your system and apply the appropriate updates.
+
+  Users can check the version of Java that they are using at the page
+below.  If both 32-bit and 64-bit versions of Java are installed,
+please check the versions installed, using a 32-bit and 64-bit browser
+respectively. (In environments where Java is not installed, there may
+be a request to install Java. If you do not require Java, please do
+not install.)
+
+    Verify Java and Find Out-of-Date Versions
+    https://www.java.com/en/download/installed.jsp
+
+  * Some applications that use Java may not run properly after
+    updating Java to the latest version. Please update to the latest
+    version after considering any impacts to applications that you may
+    use.
+
+
+IV. References
+
+    Oracle
+    Oracle Critical Patch Update Advisory - October 2014
+    http://www.oracle.com/technetwork/topics/security/cpuoct2014-1972960.html
+
+    Oracle
+    October 2014 Critical Patch Update Released
+    https://blogs.oracle.com/security/entry/october_2014_critical_patch_update
+
+    Oracle
+    Java SE 1.7.x Update Release Notes
+    http://www.oracle.com/technetwork/java/javase/documentation/7u-relnotes-515228.html
+
+    Oracle
+    Release Notes for JDK 8 and JDK 8 Update Releases
+    http://www.oracle.com/technetwork/java/javase/8all-relnotes-2226344.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

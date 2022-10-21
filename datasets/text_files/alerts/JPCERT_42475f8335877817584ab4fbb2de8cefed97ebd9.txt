@@ -1,0 +1,67 @@
+JPCERT-AT-2020-0031
+                                                             JPCERT/CC
+                                                            2020-08-03
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-08-03 &gt;&gt;&gt;
+
+ Alert Regarding Vulnerability (CVE-2020-5617) in SKYSEA Client View
+
+       https://www.jpcert.or.jp/english/at/2020/at200031.html
+
+
+I. Overview
+Sky Co., LTD. published information about a vulnerability in SKYSEA
+Client View (CVE-2020-5617). An attacker who can login to a client PC
+where SKYSEA Client View is installed may be able to execute arbitrary
+code with system privileges on the PC by leveraging the vulnerability.
+
+As for the details of the vulnerability, please refer to the following
+URL.
+
+    Sky Co., LTD.
+    [Important] Privilege escalation vulnerability (CVE-2020-5617) (JAPANESE)
+    https://www.skygroup.jp/security-info/200803.html
+
+    JVN#25422698
+    SKYSEA Client View vulnerable to privilege escalation
+    https://jvn.jp/en/jp/JVN25422698/
+
+
+II. Affected Products
+Affected products and versions are as follows:
+
+  - SKYSEA Client View Versions from Ver.12.200.12n to 15.210.05f
+
+
+III. Solution
+Affected users are recommended to apply the module provided by
+Sky Co., LTD. that addressed the vulnerability.
+
+    Sky Co., LTD.
+    Website for contracted users (JAPANESE)
+    https://sp.skyseaclientview.net/topics/detail_2092.html
+    * Requires User ID and password for login
+
+
+IV. References
+    Sky Co., LTD.
+    [Important] Privilege escalation vulnerability (CVE-2020-5617) (JAPANESE)
+    https://www.skygroup.jp/security-info/200803.html
+
+    Sky Co., LTD.
+    FAQ regarding the vulnerability (CVE-2020-5617) (JAPANESE)
+    https://sp.skyseaclientview.net/faq/detail_875.html
+    * Requires User ID and password for login
+
+    JVN#25422698
+    SKYSEA Client View vulnerable to privilege escalation
+    https://jvn.jp/en/jp/JVN25422698/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

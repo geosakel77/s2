@@ -1,0 +1,81 @@
+JPCERT-AT-2017-0003
+                                                             JPCERT/CC
+                                                            2017-01-11
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-01-11 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for January 2017
+                     (including 1 critical patch)
+
+      https://www.jpcert.or.jp/english/at/2017/at170003.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for January 2017.
+This bulletin contains one (1) update that is rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for January 2017
+    https://technet.microsoft.com/en-us/library/security/ms17-Jan
+
+  [Security updates rated as "critical"]
+
+    MS17-003
+    Security Update for Adobe Flash Player (3214628)
+    https://technet.microsoft.com/en-us/library/security/MS17-003
+
+  According to Microsoft, Security update information will be published
+as "bulletins" and on the "Security Update Guide" until January 2017.
+From the February 2017 Update Tuesday release, Microsoft is planning
+to only publish update information to the "Security Update Guide".
+
+    Furthering our commitment to security updates
+    https://blogs.technet.microsoft.com/msrc/2016/11/08/furthering-our-commitment-to-security-updates/
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+    Microsoft Update Catalog
+    https://catalog.update.microsoft.com/
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for January 2017
+    https://technet.microsoft.com/en-us/library/security/ms17-Jan
+
+    Microsoft
+    Microsoft Security Information for January 2017 (Monthly) MS17-001 - MS17-004 (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2017/01/11/201701-security-bulletin/
+
+    Adobe Systems
+    Security updates available for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsb17-02.html
+
+    JPCERT/CC
+    Vulnerabilities in Adobe Flash Player (APSB17-02)
+    https://www.jpcert.or.jp/english/at/2017/at170002.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

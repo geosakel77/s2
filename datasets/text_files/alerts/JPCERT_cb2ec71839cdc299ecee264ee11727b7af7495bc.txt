@@ -1,0 +1,80 @@
+JPCERT-AT-2019-0031
+                                                             JPCERT/CC
+                                                            2019-08-14
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-08-14 &gt;&gt;&gt;
+
+Alert Regarding Vulnerabilities in Adobe Acrobat and Reader (APSB19-41)
+
+       https://www.jpcert.or.jp/english/at/2019/at190031.html
+
+
+I. Overview
+Vulnerabilities exists in Adobe Acrobat, a PDF file creation and
+conversion software, and Adobe Acrobat Reader, a PDF file viewing
+software. As a result, an attacker may execute arbitrary code or
+disclose information by convincing a user to open contents leveraging
+the vulnerabilities. For more information, please refer to the Adobe
+website.
+
+    Adobe Systems Incorporated
+    Security bulletin for Adobe Acrobat and Reader | APSB19-41
+    https://helpx.adobe.com/security/products/acrobat/apsb19-41.html
+
+
+II. Affected Products
+Affected products and versions are as follows:
+
+  - Adobe Acrobat Reader DC Continuous (2019.012.20034) and earlier (macOS)
+  - Adobe Acrobat Reader DC Continuous (2019.012.20035) and earlier (Windows)
+  - Adobe Acrobat Reader DC 2017 Classic 2017 (2017.011.30142) and earlier (macOS)
+  - Adobe Acrobat Reader DC 2017 Classic 2017 (2017.011.30143) and earlier (Windows)
+  - Adobe Acrobat Reader DC Classic 2015 (2015.006.30497) and earlier (macOS)
+  - Adobe Acrobat Reader DC Classic 2015 (2015.006.30498) and earlier (Windows)
+  - Adobe Acrobat DC Continuous (2019.012.20034) and earlier (macOS)
+  - Adobe Acrobat DC Continuous (2019.012.20035) and earlier (Windows)
+  - Adobe Acrobat 2017 Classic 2017 (2017.011.30142) and earlier (macOS)
+  - Adobe Acrobat 2017 Classic 2017 (2017.011.30143) and earlier (Windows)
+  - Adobe Acrobat DC Classic 2015 (2015.006.30497) and earlier (macOS)
+  - Adobe Acrobat DC Classic 2015 (2015.006.30498) and earlier (Windows)
+
+
+III. Solution
+Please update Adobe Acrobat and Reader to the latest version listed
+below. 
+
+  - Adobe Acrobat Reader DC Continuous (2019.012.20036) (Windows, macOS)
+  - Adobe Acrobat Reader DC 2017 Classic 2017 (2017.011.30144) (Windows, macOS)
+  - Adobe Acrobat Reader DC Classic 2015 (2015.006.30499) (Windows, macOS)
+  - Adobe Acrobat DC Continuous (2019.012.20036) (Windows, macOS)
+  - Adobe Acrobat 2017 Classic 2017 (2017.011.30144) (Windows, macOS)
+  - Adobe Acrobat DC Classic 2015 (2015.006.30499) (Windows, macOS)
+
+Acrobat will be updated by starting the product, selecting the menu
+"Help (H)", and then clicking "Check for Updates (U)". If an update
+from the menu is not available, please download the latest Adobe
+Acrobat and Reader from the following URL. For more information,
+please refer to the Adobe website.
+
+    Adobe.com - New downloads
+    https://supportdownloads.adobe.com/new.jsp
+
+
+IV. References
+    Adobe Systems Incorporated
+    Security bulletin for Adobe Acrobat and Reader | APSB19-41
+    https://helpx.adobe.com/security/products/acrobat/apsb19-41.html
+
+    Adobe Systems Incorporated
+    Security Bulletins Posted
+    https://blogs.adobe.com/psirt/?p=1773
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: ew-info@jpcert.or.jp
+TEL: +81-3-6271-8901 FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

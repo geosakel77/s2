@@ -1,0 +1,132 @@
+JPCERT-AT-2012-0028
+                                                             JPCERT/CC
+                                            2012-08-31 (First edition)
+                                                  2012-09-03 (Updated)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2012-08-31 &gt;&gt;&gt;
+
+               Vulnerabilities in Java SE, August 2012
+
+        https://www.jpcert.or.jp/english/at/2012/at120028.html
+
+
+I. Overview
+
+  Multiple vulnerabilities exist in Oracle’s Java SE JDK and JRE. If
+these vulnerabilities are exploited, a remote attacker may execute
+arbitrary code on systems. For more information, refer to the Oracle
+website.
+
+*** Update: Revised on 3 September, 2012 *****************************
+
+    Oracle
+    Java SE Development Kit 7 Update 7 Release Notes
+    http://www.oracle.com/technetwork/java/javase/7u7-relnotes-1835816.html
+
+  An exploit code for CVE-2012-4681 is publicly available; it has been
+confirmed that exploit kits leveraging this vulnerability has been
+found. After testing the exploit code, JPCERT/CC has found that the
+code may attackers to execute arbitrary code.
+
+  Incidents have also been reported regarding malicious web sites that
+leverages this vulnerability.
+
+    Oracle
+    Oracle Security Alert for CVE-2012-4681
+    http://www.oracle.com/technetwork/topics/security/alert-cve-2012-4681-1835715.html
+
+*** Update: Revised on 3 September, 2012 *****************************
+
+  Attack activity targeting this vulnerability may increase in the
+future, so we recommend updating the software provided by Oracle as
+soon as possible.
+
+
+II. Products affected
+
+  Affected products and versions are as follows:
+
+  JDK and JRE 7 Update 6 and earlier
+  JDK and JRE 6 Update 34 and earlier
+
+  * JDK and JRE 6 is not affected by CVE-2012-4681.
+
+
+III. Test results from JPCERT/CC
+
+  JPCERT/CC has tested the exploit code for this vulnerability CVE-2012-4681.
+
+    [Test environment]
+    OS: Windows 7 SP1 (with the August 2012 security update already applied)
+    Browser: Internet Explorer 9
+
+  - Test results with JRE 7 Update 6
+
+    JPCERT/CC has confirmed that under the above test environment with
+    JRE 7 update 6 installed, when executing the exploit code, it
+    allows the execution of arbitrary code.
+
+  It has also been confirmed that this vulnerability does not affect
+JRE 7 Update 7.
+
+
+IV. Solution
+
+  Oracle has released an update. Please update to the latest version.
+
+    - Java SE JDK and JRE 7 Update 7
+    - Java SE JDK and JRE 6 Update 35
+
+    Java Downloads for All Operating Systems:
+    http://java.com/en/download/manual.jsp?locale=en
+
+ * Oracle has announced that support for Java SE 6 will end in
+   February 2013. User should update to Java 7 before February 2013.
+
+    Java 6 End of Public Updates extended to February 2013
+    https://blogs.oracle.com/henrik/entry/java_6_eol_h_h
+
+    Java 6 Auto-Update to Java 7
+    http://www.oracle.com/technetwork/java/javase/documentation/autoupdate-1667051.html
+
+
+V. References
+
+    Oracle
+    Oracle Security Alert for CVE-2012-4681
+    http://www.oracle.com/technetwork/topics/security/alert-cve-2012-4681-1835715.html
+
+    Oracle
+    Java SE Development Kit 7 Update 7 Release Notes
+    http://www.oracle.com/technetwork/java/javase/7u7-relnotes-1835816.html
+
+    Oracle
+    Security Alert for CVE-2012-4681 Released
+    https://blogs.oracle.com/security/entry/security_alert_for_cve_20121
+
+    JVNTA12-240A
+    Vulnerability Found in Oracle Java 7
+    https://jvn.jp/cert/JVNTA12-240A/index.html
+
+    US-CERT Vulnerability Note VU#636312
+    Oracle Java JRE 1.7 allows untrusted code to set arbitrary Security Manager Permissions
+    http://www.kb.cert.org/vuls/id/636312
+
+    IBM Tokyo SOC Report
+    Status of Detection of Attacks against Zero-Day Vulnerability of JRE / JDK Version 7
+    https://www-304.ibm.com/connections/blogs/tokyo-soc/entry/java_0day_20120830?lang=ja
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision history
+2012-08-31 First edition 
+2012-09-03 Information added in “I. Overview”
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

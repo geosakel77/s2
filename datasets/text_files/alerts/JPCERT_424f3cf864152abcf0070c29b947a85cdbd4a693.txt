@@ -1,0 +1,57 @@
+JPCERT-AT-2020-0005
+                                                             JPCERT/CC
+                                                            2020-01-27
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-01-27 &gt;&gt;&gt;
+
+      Alert Regarding Vulnerability (CVE-2019-17026) in Firefox
+
+        https://www.jpcert.or.jp/english/at/2020/at200005.html
+
+
+I. Overview
+On January 8, 2020 (US Time), Mozilla has released information
+regarding vulnerability (CVE-2019-17026) in Firefox and Firefox ESR.
+JPCERT/CC confirmed the attacks that exploit this vulnerability have
+already been conducted in Japan. We recommend the users of affected
+products to apply the solution as soon as possible.
+
+This vulnerability is a type confusion vulnerability in IonMonkey JIT
+compiler. Remote attackers leveraging this vulnerability may be able
+to execute arbitrary code. According to Mozilla, the vulnerability
+is already being exploited in the wild. For more information on the
+vulnerability, please refer to the information provided by Mozilla.
+
+    Mozilla
+    Security Vulnerabilities fixed in Firefox 72.0.1 and Firefox ESR 68.4.1
+    https://www.mozilla.org/en-US/security/advisories/mfsa2020-03/
+
+
+II. Affected Products
+The following versions are affected by this vulnerability:
+
+  - Firefox versions prior to 72.0.1
+  - Firefox ESR versions prior to 68.4.1
+
+
+III. Solution
+Mozilla has released versions of Firefox that address this vulnerability.
+It is recommended to update to the latest version after thorough testing.
+
+  - Firefox 72.0.1
+  - Firefox ESR 68.4.1
+
+
+IV. References
+    Mozilla
+    Security Vulnerabilities fixed in Firefox 72.0.1 and Firefox ESR 68.4.1
+    https://www.mozilla.org/en-US/security/advisories/mfsa2020-03/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+TEL: +81-3-6811-0610  MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

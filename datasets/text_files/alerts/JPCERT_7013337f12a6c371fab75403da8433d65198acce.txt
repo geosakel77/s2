@@ -1,0 +1,101 @@
+JPCERT-AT-2011-0011
+                                                             JPCERT/CC
+                                                            2011-04-28
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 28.04.11&gt;&gt;&gt;
+
+             Unauthorized use of leaked IDs and passwords
+
+            https://www.jpcert.or.jp/at/2011/at110011.txt
+
+
+I. Overview
+
+  On April 27, 2011, Sony Computer Entertainment Inc. released 
+information regarding account information leakage that was due to 
+unauthorized access of the PlayStation Network and Qriocity.
+
+  According to Sony Computer Entertainment Inc., there is a 
+possibility that this unauthorized access may have resulted in the 
+leak of the names, addresses, email addresses, dates of birth, 
+passwords and online IDs of registered PlayStation Network and 
+Qriocity users. In addition, Sony Computer Entertainment Inc. says it 
+cannot deny the possibility that credit card information registered 
+with these services by users may also have been leaked.
+
+  If account information (ID/Password) registered with these services 
+have had been used with other services as well, the attacker may use 
+the illegally acquired account information to log into services other 
+than PlayStation Network and Qriocity to illegally access these 
+services or steal personal and credit card information registered with
+those services.
+
+  Attacks such as the following may also be carried out.
+
+  (1) Attacks using the illegally acquired personal information to 
+      direct users to sites that lead to virus infections.
+  (2) Attacks that involve attaching viruses to emails that look like
+      they are messages inquiring about this incident.
+  (3) Attacks that involve the attackers posing as a party related to 
+      this incident and directing users to phishing sites that 
+      encourage users to change their registered information.
+
+  Users who use the same account information for multiple services are
+urged to refer to the solution below and register different 
+ID/Password information for each service. Furthermore, if emails 
+regarding this incident are received, check that there are no 
+suspicious aspects to the email including the sender and message body 
+of the email.
+
+
+II. Solution
+
+  If the same account information is registered with multiple services,
+change the account information using the service provider's web site.
+(For information on how to change the registered information, refer 
+to the FAQ or other similar pages of the service providers.)
+
+  Refer to the following publication for information regarding 
+creating a secure password.
+
+    Information Security Manual for the Training of New Employees Rev2
+    (P27 - 28  Learning how to create secure passwords)
+    https://www.jpcert.or.jp/magazine/security/newcomer.html
+
+  In addition, if any received emails that appear to be from parties 
+related to this incident try to direct the recipient to phishing sites
+that require to enter information such as credit card or personal 
+information, or if a received email directs the recipient to open a 
+suspicious attachment, do not try to access the listed URLs or and 
+open the attachment.
+
+  If an email that directs the recipient to suspicous sites is 
+recieved or an email with suspicious attachments is recieved, do not 
+open the attachments and please report these to the Council of 
+Anti-Phishing Japan or JPCERT/CC.
+
+    Council of Anti-Phishing Japan
+    https://www.antiphishing.jp/registration.html
+
+    JPCERT/CC Incident Reporting
+    https://www.jpcert.or.jp/form/#report
+
+  For other solutions, refer to information from Sony Computer 
+Entertainment Inc.
+
+
+III. References
+
+    Sony Computer Entertainment Inc.
+    An Apology and Request to the Users of PlayStation Network/Qriocity(TM)
+    http://cdn.jp.playstation.com/msg/sp_20110427_psn.html
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

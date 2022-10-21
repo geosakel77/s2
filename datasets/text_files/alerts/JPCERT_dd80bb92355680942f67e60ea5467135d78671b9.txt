@@ -1,0 +1,170 @@
+JPCERT-AT-2020-0029
+                                                             JPCERT/CC
+                                                            2020-07-15
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-07-15 &gt;&gt;&gt;
+
+            Microsoft Releases July 2020 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2020/at200029.html
+
+
+I. Overview
+Microsoft has released July 2020 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    July 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Jul
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    CVE-2020-1025
+    Microsoft Office Elevation of Privilege Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1025
+    - KB4484436, KB4484448, KB4484453, KB4571332, KB4571333, KB4571334
+
+    CVE-2020-1032
+    Hyper-V RemoteFX vGPU Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1032
+    - KB number is not assigned
+
+    CVE-2020-1036
+    Hyper-V RemoteFX vGPU Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1036
+    - KB number is not assigned
+
+    CVE-2020-1040
+    Hyper-V RemoteFX vGPU Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1040
+    - KB number is not assigned
+
+    CVE-2020-1041
+    Hyper-V RemoteFX vGPU Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1041
+    - KB number is not assigned
+
+    CVE-2020-1042
+    Hyper-V RemoteFX vGPU Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1042
+    - KB number is not assigned
+
+    CVE-2020-1043
+    Hyper-V RemoteFX vGPU Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1043
+    - KB number is not assigned
+
+    CVE-2020-1147
+    .NET Framework, SharePoint Server, and Visual Studio Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1147
+    - KB4484436, KB4484443, KB4484453, KB4484460, KB4565489, KB4565508
+      KB4565511, KB4565513, KB4565627, KB4565628, KB4565630, KB4565631
+      KB4565633, KB4566466, KB4566467, KB4566468, KB4566469, KB4566516
+      KB4566517, KB4566518, KB4566519, KB4566520
+
+    CVE-2020-1349
+    Microsoft Outlook Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1349
+    - KB4484363, KB4484382, KB4484433
+
+    CVE-2020-1350
+    Windows DNS Server Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1350
+    - KB4558998, KB4565483, KB4565503, KB4565511, KB4565524, KB4565529
+      KB4565535, KB4565536, KB4565537, KB4565539, KB4565540, KB4565541
+
+    CVE-2020-1374
+    Remote Desktop Client Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1374
+    - KB4558998, KB4565483, KB4565489, KB4565503, KB4565508, KB4565511
+      KB4565513, KB4565524, KB4565535, KB4565537, KB4565539, KB4565540
+      KB4565541
+
+    CVE-2020-1403
+    VBScript Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1403
+    - KB4558998, KB4565479, KB4565483, KB4565489, KB4565503, KB4565508
+      KB4565511, KB4565513, KB4565524, KB4565541
+
+    CVE-2020-1409
+    DirectWrite Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1409
+    - KB4558998, KB4565483, KB4565489, KB4565503, KB4565508, KB4565511
+      KB4565513, KB4565524, KB4565529, KB4565535, KB4565536, KB4565537
+      KB4565539, KB4565540, KB4565541
+
+    CVE-2020-1410
+    Windows Address Book Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1410
+    - KB4558998, KB4565483, KB4565489, KB4565503, KB4565508, KB4565511
+      KB4565513, KB4565524, KB4565529, KB4565535, KB4565536, KB4565537
+      KB4565539, KB4565540, KB4565541
+
+    CVE-2020-1421
+    LNK Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1421
+    - KB4558998, KB4565483, KB4565489, KB4565503, KB4565508, KB4565511
+      KB4565513, KB4565524, KB4565529, KB4565535, KB4565536, KB4565537
+      KB4565539, KB4565540, KB4565541
+
+    CVE-2020-1435
+    GDI+ Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1435
+    - KB4558998, KB4565483, KB4565489, KB4565503, KB4565508, KB4565511
+      KB4565513, KB4565524, KB4565529, KB4565535, KB4565536, KB4565537
+      KB4565539, KB4565540, KB4565541
+
+    CVE-2020-1436
+    Windows Font Library Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1436
+    - KB4558998, KB4565483, KB4565489, KB4565503, KB4565508, KB4565511
+      KB4565513, KB4565524, KB4565529, KB4565535, KB4565536, KB4565537
+      KB4565539, KB4565540, KB4565541
+
+    CVE-2020-1439
+    PerformancePoint Services Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1439
+    - KB4484353, KB4484374, KB4484411, KB4484436, KB4484440, KB4484443
+      KB4484448, KB4484451, KB4484453
+
+Microsoft published a blog about Windows DNS Server vulnerability
+(CVE-2020-1350). While this vulnerability is not currently known to be
+used in active attacks, it is recommended to apply updates as soon as
+possible.
+
+    Microsoft Security Response Center
+    July 2020 Security Update: CVE-2020-1350 Vulnerability in Windows Domain Name System (DNS) Server
+    https://msrc-blog.microsoft.com/2020/07/14/july-2020-security-update-cve-2020-1350-vulnerability-in-windows-domain-name-system-dns-server/
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation 
+    July 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Jul
+
+    Microsoft Corporation
+    Microsoft Security Updates for July 2020 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2020/07/14/202007-security-updates/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

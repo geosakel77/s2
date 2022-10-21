@@ -1,0 +1,100 @@
+JPCERT-AT-2017-0028
+                                                             JPCERT/CC
+                                                            2017-07-18
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-07-18 &gt;&gt;&gt;
+
+Alert Regarding Vulnerability in Cisco WebEx Browser Extension (CVE-2017-6753)
+
+       https://www.jpcert.or.jp/english/at/2017/at170028.html
+
+
+I. Overview
+On July 17, 2017 (US time), Cisco released a security advisory about
+a vulnerability of Cisco WebEx Browser Extension (CVE-2017-6753). If
+you visit a specially crafted web page that exploits the vulnerability,
+a remote attacker may execute arbitrary code on a Windows PC with
+Cisco WebEx browser extension installed. For more information on the
+vulnerability, please refer to the information provided by Cisco.
+In addition, the reporter of this vulnerability has released a
+demonstration on the vulnerability.
+
+    Cisco Systems
+    Cisco WebEx Browser Extension Remote Code Execution Vulnerability
+    https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170717-webex
+
+Cisco has rated this vulnerability as "Critical". If you are using the
+affected version of Cisco WebEx Browser Extension, please apply the
+security update programs by referring to the information in "III. Solution".
+
+
+II. Affected Products
+The following versions are affected by this vulnerability:
+
+  - Cisco WebEx extension on Google Chrome (prior to version 1.0.12)
+  - Cisco WebEx extension on Mozilla Firefox (prior to version 1.0.12)
+
+Since this vulnerability is affected only when Cisco WebEx Browser
+extension is installed on the affected browser in Windows, the following
+products are not affected by this vulnerability.
+
+  - Cisco WebEx Productivity Tools
+  - Cisco WebEx browser extensions for Mac or Linux
+  - Cisco WebEx on Microsoft Edge or Internet Explorer
+
+The currently used version can be checked by the following method.
+
+(1) Google Chrome
+  * Click the menu button and choose "More Tools" &gt; "Extension"
+    (or access "chrome://extensions/")
+  * The Version will be displayed
+
+(2) Mozilla Firefox
+  * Click the menu button, choose "Add-ons", and click the "Extensions"
+    tab (or access "about:addons")
+  * Locate "Cisco WebEx Extension" in the list of extensions and click
+    the "More" link
+  * The version will be displayed
+
+
+III. Solution
+Cisco has released the version that addresses the vulnerability.
+Please apply the update using the function of each browser.
+
+  - Cisco WebEx extension on Google Chrome (1.0.12)
+  - Cisco WebEx extension on Mozilla Firefox (1.0.12)
+
+In addition, Cisco has released the information on how to remove WebEx
+related software, in case you are not using it.
+
+    Cisco Systems
+    Meeting Services Removal Tool 
+    https://help.webex.com/docs/DOC-2672#jive_content_id_Meeting_Services_Removal_Tool
+
+
+IV. References
+    US-CERT
+    Cisco Releases Security Updates
+    https://www.us-cert.gov/ncas/current-activity/2017/07/17/Cisco-Releases-Security-Updates
+
+    Cisco Systems
+    Cisco WebEx Browser Extension Remote Code Execution Vulnerability
+    https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170717-webex
+
+    Google Chrome
+    Cisco WebEx Extension (Google Chrome)
+    https://chrome.google.com/webstore/detail/cisco-webex-extension/jlhmfgmfgeifomenelglieieghnjghma?hl=en
+
+    Mozilla Firefox
+    Cisco WebEx Extension (Mozilla Firefox)
+    https://addons.mozilla.org/en-US/firefox/addon/cisco-webex-extension/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

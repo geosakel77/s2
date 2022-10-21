@@ -1,0 +1,71 @@
+JPCERT-AT-2010-0011
+                                                             JPCERT/CC
+                                                            2010-04-28
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2010-04-28 &gt;&gt;&gt;
+
+Gumblar-related drive-by-download attacks
+                                       infecting PCs with DDoS clients
+
+            https://www.jpcert.or.jp/at/2010/at100011.txt
+
+
+I. Overview
+
+  Since last year, JPCERT/CC has been receiving reports on website 
+alteration caused by so-called Gumblar viruses. When a user views a 
+site altered by a series of attacks, the user's PC may get infected 
+with multiple malware. Among the infectious malware, JPCERT/CC has 
+found the one that executes a DDos attack is newly added.
+  If the PC is infected with this malware, it could execute a DDos 
+attack against companies or organizations inside and outside of Japan.
+
+
+II. Solution
+
+  If a user views an altered site on the PC where vulnerable software 
+is installed, malware infects the user's PC by exploiting the 
+multiple software vulnerabilities. Currently known software products 
+targeted by the attack are as follows:
+
+   - Adobe Acrobat, Adobe Reader
+   - Adobe Flash Player
+   - Java (JRE)
+   - Microsoft Windows
+
+As far as JPCERT/CC has confirmed, exploited vulnerabilities of the 
+above software have already been fixed. Therefore, malware infection 
+can be prevented by applying the corresponding corrected software to 
+each product.
+
+When the PC is infected with malware, the following may happen: fake 
+security software is activated; the Java startup screen is 
+unintentionally displayed; the PC becomes unstable, etc. If infection 
+is suspected, disconnect the PC from the network, and take necessary 
+measures.
+
+
+III. References
+
+  JPCERT-AT-2010-0001
+  Web site compromises and Gumblar attacks continue to increase
+  https://www.jpcert.or.jp/at/2010/at100001.txt
+  http://www.jpcert.or.jp/english/at/2010/at100001.txt
+
+  JPCERT-AT-2010-0005
+  Increase in malware stealing FTP credentials
+  https://www.jpcert.or.jp/at/2010/at100005.txt
+  http://www.jpcert.or.jp/english/at/2010/at100005.txt
+
+  JPCERT-AT-2010-0010
+  Vulnerabilities in Oracle Sun JDK and JRE 
+  https://www.jpcert.or.jp/at/2010/at100010.txt
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

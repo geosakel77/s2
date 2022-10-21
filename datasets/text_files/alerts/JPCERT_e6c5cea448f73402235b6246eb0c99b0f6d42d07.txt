@@ -1,0 +1,107 @@
+JPCERT-AT-2008-0022
+                                                             JPCERT/CC
+                                                            2008-12-10
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2008-12-10 &gt;&gt;&gt;
+
+              December 2008 Microsoft Security Bulletin
+                   (including six critical patches)
+
+             http://www.jpcert.or.jp/at/2008/at080022.txt
+
+I. Overview
+
+  Microsoft has released its security bulletin summary for December
+2008, which contains six security updates with severity rating 
+"Critical".
+
+  A remote attacker could use these vulnerabilities to cause a denial
+of service or execute arbitrary code.
+
+  For further information about these vulnerabilities, refer to the
+following URLs.
+
+    Microsoft Security Bulletin Summary for December 2008
+    http://www.microsoft.com/technet/security/bulletin/ms08-dec.mspx
+
+
+  [Critical Security Update]
+
+    MS08-070
+    Vulnerabilities in Visual Basic 6.0 Runtime Extended Files
+      (ActiveX Controls) Could Allow Remote Code Execution (932349)
+    http://www.microsoft.com/technet/security/bulletin/MS08-070.mspx
+
+    MS08-071
+    Vulnerabilities in GDI Could Allow Remote Code Execution (956802)
+    http://www.microsoft.com/technet/security/bulletin/MS08-071.mspx
+
+    MS08-072
+    Vulnerabilities in Microsoft Office Word Could Allow Remote Code
+      Execution (957173)
+    http://www.microsoft.com/technet/security/bulletin/MS08-072.mspx
+
+    MS08-073
+    Cumulative Security Update for Internet Explorer (958215)
+    http://www.microsoft.com/technet/security/bulletin/MS08-073.mspx
+
+    MS08-074
+    Vulnerabilities in Microsoft Office Excel Could Allow Remote Code
+      Execution (959070)
+    http://www.microsoft.com/technet/security/bulletin/MS08-074.mspx
+
+    MS08-075
+    Vulnerabilities in Windows Search Could Allow Remote Code
+      Execution (959349)
+    http://www.microsoft.com/technet/security/bulletin/MS08-075.mspx
+
+  Visual Basic 6.0 Runtime components handled in MS08-070 may have
+been redistributed with applications. Product developers who have
+developed applications using the vulnerable Runtime components should
+consider redistributing the applications with the corrected runtime
+components.
+
+
+II. Solution
+
+  Use means such as Microsoft Update or Windows Update to apply the
+security update immediately.
+
+    Microsoft Update
+    https://update.microsoft.com/
+
+    Windows Update
+    https://windowsupdate.microsoft.com/
+
+    Office Update
+    http://office.microsoft.com/en-us/officeupdate/default.aspx
+
+
+III. References
+
+    Microsoft Security Bulletin Summary for December 2008
+    http://www.microsoft.com/technet/security/bulletin/ms08-dec.mspx
+
+    US-CERT Technical Cyber Security Alert TA08-344A
+    Microsoft Updates for Multiple Vulnerabilities
+    http://www.us-cert.gov/cas/techalerts/TA08-344A.html
+
+    US-CERT Vulnerability Note (search for ms08-dec)
+    http://www.kb.cert.org/vuls/byid?searchview&amp;query=ms08-dec
+
+    Japan Security Team
+    http://blogs.technet.com/jpsecurity/archive/2008/12/10/3165894.aspx
+
+    MS08-070
+    Vulnerabilities in Visual Basic 6.0 Runtime Extended Files
+      (ActiveX Controls) Could Allow Remote Code Execution
+    http://support.microsoft.com/kb/932349
+
+
+  If you have any information you could provide regarding this alert, 
+please contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602

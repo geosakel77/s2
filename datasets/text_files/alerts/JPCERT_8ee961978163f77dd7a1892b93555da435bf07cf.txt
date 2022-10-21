@@ -1,0 +1,137 @@
+JPCERT-AT-2019-0042
+                                                             JPCERT/CC
+                                                            2019-11-13
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-11-13 &gt;&gt;&gt;
+
+         Microsoft Releases November 2019 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2019/at190042.html
+
+
+I. Overview
+Microsoft has released November 2019 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    November 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/164aa83e-499c-e911-a994-000d3a33c573
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    CVE-2019-0719
+    Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0719
+    - KB4523205, KB4524570, KB4525232, KB4525233, KB4525234, KB4525235
+      KB4525236, KB4525237, KB4525239, KB4525241, KB4525243, KB4525246
+      KB4525250, KB4525253
+
+    CVE-2019-0721
+    Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0721
+    - KB4523205, KB4524570, KB4525237, KB4525241
+
+    CVE-2019-1373
+    Microsoft Exchange Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1373
+    - KB4523171
+
+    CVE-2019-1389
+    Windows Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1389
+    - KB4525232, KB4525233, KB4525234, KB4525235, KB4525236, KB4525237
+      KB4525239, KB4525241, KB4525243, KB4525246, KB4525250, KB4525253
+
+    CVE-2019-1390
+    VBScript Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1390
+    - KB4523205, KB4524570, KB4525106, KB4525232, KB4525235, KB4525236
+      KB4525237, KB4525241, KB4525243
+
+    CVE-2019-1397
+    Windows Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1397
+    - KB4523205, KB4524570, KB4525232, KB4525233, KB4525234, KB4525235
+      KB4525236, KB4525237, KB4525239, KB4525241, KB4525243, KB4525246
+      KB4525250, KB4525253
+
+    CVE-2019-1398
+    Windows Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1398
+    - KB4523205, KB4524570, KB4525237, KB4525241
+
+    CVE-2019-1419
+    OpenType Font Parsing Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1419
+    - KB4523205, KB4524570, KB4525232, KB4525233, KB4525234, KB4525235
+      KB4525236, KB4525237, KB4525239, KB4525241, KB4525243, KB4525246
+      KB4525250, KB4525253
+
+    CVE-2019-1426
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1426
+    - KB4523205, KB4524570, KB4525232, KB4525236, KB4525237, KB4525241
+
+    CVE-2019-1427
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1427
+    - KB4523205, KB4524570
+
+    CVE-2019-1428
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1428
+    - KB4523205, KB4524570, KB4525236, KB4525237, KB4525241
+
+    CVE-2019-1429
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1429
+    - KB4523205, KB4524570, KB4525106, KB4525232, KB4525235, KB4525236
+      KB4525237, KB4525241, KB4525243
+
+    CVE-2019-1430
+    Microsoft Windows Media Foundation Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1430
+    - KB4524570
+
+    CVE-2019-1441
+    Win32k Graphics Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1441
+    - KB4525233, KB4525234, KB4525235, KB4525239
+
+According to Microsoft, attacks leveraging the vulnerability CVE-2019-1429
+(Critical) have been observed in the wild. Please apply the security
+update programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation 
+    November 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/164aa83e-499c-e911-a994-000d3a33c573
+
+    Microsoft Corporation
+    Microsoft Security Updates for November 2019 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2019/11/12/201911-security-updates/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: ew-info@jpcert.or.jp
+TEL: +81-3-6811-0610 FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

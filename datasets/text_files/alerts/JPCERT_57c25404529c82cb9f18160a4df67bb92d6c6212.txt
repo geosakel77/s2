@@ -1,0 +1,73 @@
+JPCERT-AT-2008-0012
+                                                            JPCERT/CC
+                                           2008-06-24 (First edition)
+                                                 2008-06-25 (Updated)
+
+            &lt;&lt;&lt; JPCERT/CC Alert 2008-06-24 &gt;&gt;&gt;
+
+       Vulnerability in Adobe Acrobat and Adobe Reader
+
+        http://www.jpcert.or.jp/at/2008/at080012.txt
+
+
+I. Overview
+
+  Adobe Acrobat and Adobe Reader, PDF file creation and conversion
+software and PDF file viewing software respectively, contain a 
+vulnerability concerning the processing of JavaScript in a document.
+As a result, a remote attacker could terminate Adobe Acrobat and
+Adobe Reader or execute arbitrary code by convincing a user to open
+a specially crafted PDF file.
+
+    Security Update available for Adobe Reader and Acrobat 8.1.2
+    http://www.adobe.com/support/security/bulletins/apsb08-15.html
+
+  According to the information provided by Adobe Systems, attacks
+exploiting this vulnerability have already been found.
+
+
+II. Products Affected
+
+  Affected products and versions are as follows:
+
+  - Adobe Reader 8.0 through 8.1.2
+  - Adobe Reader 7.0.9 and earlier
+  - Adobe Acrobat Professional, 3D and Standard 8.0 through 8.1.2
+  - Adobe Acrobat Professional, 3D and Standard 7.0.9 and earlier
+
+  Note that Adobe Reader 7.1.0 and Acrobat 7.1.0 are not affected
+by this vulnerability. 
+
+
+III. Solution
+
+  Apply the corrected software provided by Adobe Systems. In Windows
+and Mac environments, Adobe Reader will be updated automatically by
+starting the product, selecting the menu Help (H), and then clicking
+Check for Updates (U). For more information, refer to Adobe Systems'
+website.
+
+
+IV. References
+
+    @police
+    Security update for Adobe Systems Adobe Reader and Acrobat (6/24)
+    http://www.cyberpolice.go.jp/important/2008/20080624_111241.html
+
+
+  If you have any information you could provide regarding this alert,
+please contact us.
+
+__________
+
+Revision history
+2008-06-24 First edition
+2008-06-24 Revised typos and added references
+2008-06-25 Deleted the statement that the automatic update did not 
+           work
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

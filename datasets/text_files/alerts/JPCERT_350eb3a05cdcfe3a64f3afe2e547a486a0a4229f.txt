@@ -1,0 +1,112 @@
+JPCERT-AT-2019-0010
+                                                             JPCERT/CC
+                                                            2019-02-26
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-02-26 &gt;&gt;&gt;
+
+       Alert Regarding Vulnerability (CVE-2019-6340) in Drupal
+
+       https://www.jpcert.or.jp/english/at/2019/at190010.html
+
+
+I. Overview
+On February 20, 2019 (local time), Drupal released a security advisory
+information (SA-CORE-2019-003). According to the information, Drupal
+contains a vulnerability (CVE-2019-6340) that leads to improper
+validation of requested data such as by using REST API. This vulnerability
+affects Drupal with certain modules enabled that uses REST API such as
+RESTful Web Services. RESTful Web Services is disabled by default.
+A remote attacker leveraging this vulnerability may execute arbitrary
+PHP code. JPCERT/CC has confirmed that multiple Proof-of-Concept
+codes for this vulnerability have been made public, and JPCERT/CC has
+confirmed that arbitrary code may be executed remotely.
+
+For details on the vulnerability, please refer to the information
+provided by Drupal.
+
+    Drupal
+    Drupal core - Highly critical - Remote Code Execution - SA-CORE-2019-003
+    https://www.drupal.org/sa-core-2019-003
+
+    Drupal
+    SA-CORE-2019-003 Notice of increased risk and Additional exploit path - PSA-2019-02-22
+    https://www.drupal.org/psa-2019-02-22
+
+
+II. Affected Products
+The following versions are affected by this vulnerability under the
+certain conditions.
+
+[Versions]
+  - Drupal versions 8.6.x prior to 8.6.10
+  - Drupal versions 8.5.x prior to 8.5.11
+
+[Affected conditions]
+ According to Drupal, the above versions of Drupal with a certain module
+enabled such as the following are affected by this vulnerability. For
+more details, please refer to the information provided by Drupal.
+
+  - The site which has the "RESTful Web Services" module enabled in Drupal 8
+  - The site which has the "JSON:API" module enabled in Drupal 8
+  - The site which has the "RESTful Web Services" module enabled in Drupal 7
+  - The site which has the "Services" module enabled in Drupal 7
+
+* According to Drupal, Drupal 8 prior to 8.5.x are
+end-of-life and do not receive security coverage. Also, Drupal version
+7 which has above conditions is also affected by the vulnerability.
+
+
+III. Solution
+Drupal has released updated versions of Drupal that address this
+vulnerability. It is recommended to update to the latest version after
+thorough testing.
+
+Versions that address the vulnerability are as follows:
+
+  - Drupal 8.6.10
+  - Drupal 8.5.11
+
+* For Drupal 7, the updated version has not been released.
+
+In addition, please update module used in Drupal once an updated
+version of the module is provided.
+
+
+IV. References
+    Drupal
+    drupal 8.6.10
+    https://www.drupal.org/project/drupal/releases/8.6.10
+
+    Drupal
+    drupal 8.5.11
+    https://www.drupal.org/project/drupal/releases/8.5.11
+
+    Drupal
+    Drupal core - Highly critical - Remote Code Execution - SA-CORE-2019-003
+    https://www.drupal.org/sa-core-2019-003
+
+    Drupal
+    SA-CORE-2019-003 Notice of increased risk and Additional exploit path - PSA-2019-02-22
+    https://www.drupal.org/psa-2019-02-22
+
+    Drupal
+    RESTful Web Services
+    https://www.drupal.org/project/restws
+
+    Drupal
+    JSON:API
+    https://www.drupal.org/project/jsonapi
+
+    Drupal
+    Services
+    https://www.drupal.org/project/services
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-6271-8901  FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

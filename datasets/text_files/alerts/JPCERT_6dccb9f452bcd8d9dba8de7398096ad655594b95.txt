@@ -1,0 +1,60 @@
+JPCERT-AT-2009-0004
+                                                             JPCERT/CC
+                                                            2009-02-25
+
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2009-02-25 &gt;&gt;&gt;
+
+                Vulnerabilities in Adobe Flash Player
+
+             http://www.jpcert.or.jp/at/2009/at090004.txt
+
+I. Overview
+
+  Adobe Flash Player contains a vulnerability in the processing of SWF
+files.  As a result, a remote attacker could execute arbitrary code by
+convincing a user to open a specially crafted SWF file. Users are
+strongly recommended to update to the corrected software provided by
+Adobe.
+
+    Flash Player update available to address security vulnerabilities
+    http://www.adobe.com/support/security/bulletins/apsb09-01.html
+
+
+II. Products Affected
+
+  Products affected:
+
+  Adobe Flash Player 10.0.12.36 and earlier
+  Flash Player 9.0.151 and earlier
+
+For more information, refer to Adobe website.
+
+
+III. Solution
+
+  To solve this vulnerability, update Adobe Flash Player to the latest
+version. For more information, refer to the following website:
+
+    Adobe Flash Player download center
+    http://www.adobe.com/go/getflash
+
+
+IV. References
+
+    Adobe Product Security Incident Response Team (PSIRT)
+    Security Bulletins -- Flash Player and RoboHelp
+    http://blogs.adobe.com/psirt/2009/02/security_bulletins_flash_playe_2.html
+
+    Adobe Flash Player 10
+    http://www.adobe.com/jp/products/flashplayer/
+
+
+  If you have any information you could provide regarding this alert,
+please contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

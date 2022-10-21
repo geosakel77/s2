@@ -1,0 +1,63 @@
+JPCERT-AT-2009-0001
+                                                             JPCERT/CC
+                                                            2009-01-14
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2009-01-14 &gt;&gt;&gt;
+
+               January 2009 Microsoft Security Bulletin
+                   (including one critical patch)
+
+             http://www.jpcert.or.jp/at/2009/at090001.txt
+
+I. Overview
+
+  Microsoft has released the security bulletin summary for January
+2009, which contains one security update with severity rating
+"Critical".
+
+  A remote attacker could use this vulnerability, and cause a denial
+of service or execute arbitrary code.
+
+  For further information about this vulnerability, refer to the
+following URLs.
+
+    Microsoft Security Bulletin Summary for January 2009
+    http://www.microsoft.com/technet/security/bulletin/ms09-jan.mspx
+
+
+  [Critical Security Update]
+
+    MS09-001
+    Vulnerabilities in SMB Could Allow Remote Code Execution (958687)
+    http://www.microsoft.com/technet/security/bulletin/MS09-001.mspx
+
+
+II. Solution
+
+  Use means such as Microsoft Update or Windows Update to apply the
+security update immediately.
+
+    Microsoft Update
+    https://update.microsoft.com/
+
+    Windows Update
+    https://windowsupdate.microsoft.com/
+
+
+III. References
+
+    Microsoft Security Bulletin Summary for January 2009
+    http://www.microsoft.com/technet/security/bulletin/ms09-jan.mspx
+
+    US-CERT Technical Cyber Security Alert TA09-013A
+    Microsoft Updates for Multiple SMB Protocol Vulnerabilities
+    http://www.us-cert.gov/cas/techalerts/TA09-013A.html
+
+
+  If you have any information you could provide regarding this alert,
+please contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602

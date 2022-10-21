@@ -1,0 +1,188 @@
+JPCERT-AT-2007-0012
+                                                            JPCERT/CC
+                                  May 9, 2007 (Original release date)
+                                          May 14, 2007 (Last revised)
+
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2007-05-09 &gt;&gt;&gt;
+
+                 May 2007 Microsoft Security Bulletin
+                       (seven critical patches)
+
+               http://www.jpcert.or.jp/at/2007/at070012.txt
+
+I. Overview
+
+  Microsoft has released security bulletins for May 2007 which include
+seven "Critical" security updates.
+
+  Exploitation of these vulnerabilities could allow a remote attacker
+to execute arbitrary code.
+
+    Security Bulletin for May 2007
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-may.mspx
+
+  Detailed information on each vulnerability is available from the
+following URLs:
+
+  [Critical Security Updates]
+    MS07-023
+    Vulnerabilities in Microsoft Excel Could Allow Remote Code 
+    Execution (934233)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-023.mspx
+
+    MS07-024
+    Vulnerabilities in Microsoft Word Could Allow Remote Code 
+    Execution (934232) 
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-024.mspx
+
+    MS07-025
+    Vulnerability in Microsoft Office Could Allow Remote Code 
+    Execution (934873)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-025.mspx
+
+    MS07-026
+    Vulnerabilities in Microsoft Exchange Could Allow Remote Code 
+    Execution (931832) 
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-026.mspx
+
+    MS07-027
+    Cumulative Security Update for Internet Explorer (931768) 
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-027.mspx
+
+    MS07-028
+    Vulnerability in CAPICOM Could Allow Remote Code Execution 
+    (931906)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-028.mspx
+
+    MS07-029
+    Vulnerability in Windows DNS RPC Interface Could Allow Remote Code
+    Execution (935966)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-029.mspx
+
+
+  The patches released this time include security updates for 
+vulnerabilities discussed in the following Security Advisories
+released by Microsoft:
+
+    Microsoft Security Advisory (935964)
+    Vulnerability in RPC on Windows DNS Server Could Allow Remote Code Execution
+    http://www.microsoft.com/japan/technet/security/advisory/935964.mspx
+
+    Microsoft Security Advisory (933052)
+    Vulnerability in Microsoft Word Could Allow Remote Code Execution
+    http://www.microsoft.com/japan/technet/security/advisory/933052.mspx
+
+
+II. Solution
+
+  Apply the security updates immediately by using Microsoft Update or Windows Update.
+
+    Microsoft Update
+    https://update.microsoft.com/microsoftupdate
+
+    Windows Update
+    https://windowsupdate.microsoft.com/
+
+    Office Update
+    http://office.microsoft.com/ja-jp/officeupdate/default.aspx
+
+  Depending on the version of the product, updates may not be
+available from Microsoft Update. Use Windows Update or Office Update
+as needed.
+
+  For example, to apply security updates for Office 2000, they need
+to be downloaded from Office Update. For details of operating systems
+supported by Microsoft Update, see "Security Requirements" in the
+following URL:
+
+    About Microsoft Update
+    http://www.microsoft.com/japan/technet/prodtechnol/microsoftupdate/default.mspx
+
+
+*** Updated: Added on May 14, 2007 **********************************
+
+  According to the information from Microsoft, when Microsoft Update
+or Windows Update runs on Windows XP, Windows Server 2003, or Windows
+2000, it may not finish scanning for a long time or may fail.
+
+  For more information and solutions, see the following website:
+
+    Microsoft Update or Windows Update does not finish scanning
+    http://support.microsoft.com/kb/937383/ja
+
+**********************************************************************
+
+
+
+III. Reference Information
+
+    Security Bulletin for May 2007
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-may.mspx
+
+    Microsoft Update and other services: Frequently asked questions
+    http://www.microsoft.com/japan/athome/security/protect/update.mspx
+
+    US-CERT Technical Cyber Security Alert TA07-128A
+    Microsoft Updates for Multiple Vulnerabilities
+    http://www.us-cert.gov/cas/techalerts/TA07-128A.html
+
+    US-CERT Vulnerability Note VU#253825
+    Microsoft Excel fails to properly process files with crafted
+      filter records
+    http://www.kb.cert.org/vuls/id/253825
+
+    US-CERT Vulnerability Note VU#260777
+    Microsoft Word fails to properly process crafted array data
+    http://www.kb.cert.org/vuls/id/260777
+
+    US-CERT Vulnerability Note VU#332404
+    Microsoft Word fails to properly handle malformed strings
+    http://www.kb.cert.org/vuls/id/332404
+
+    US-CERT Vulnerability Note VU#853184
+    Microsoft Office drawing object vulnerability
+    http://www.kb.cert.org/vuls/id/853184
+
+    US-CERT Vulnerability Note VU#343145
+    Microsoft Exchange Server fails to properly decode MIME email
+      messages
+    http://www.kb.cert.org/vuls/id/343145
+
+    US-CERT Vulnerability Note VU#124113
+    Microsoft Exchange Outlook Web Access UTF character set label
+      script injection vulnerability
+    http://www.kb.cert.org/vuls/id/124113
+
+    US-CERT Vulnerability Note VU#869641
+    Research In Motion TeamOn Import Object ActiveX control buffer
+      overflow
+    http://www.kb.cert.org/vuls/id/869641
+
+    US-CERT Vulnerability Note VU#866305
+    Microsoft Cryptographic API Component Object Model Certificates
+      ActiveX control contains a remote code execution vulnerability
+    http://www.kb.cert.org/vuls/id/866305
+
+    US-CERT Vulnerability Note VU#555920
+    Microsoft Windows DNS RPC buffer overflow
+    http://www.kb.cert.org/vuls/id/555920
+
+    @police
+    About Microsoft security updates
+    (MS07-023, 024, 025, 026, 027, 028, 029) (May 9)
+    http://www.cyberpolice.go.jp/important/2007/20070509_050131.html
+
+
+  If you have any information regarding this matter, please contact us.
+__________
+
+Revision History
+May 9, 2007   Initial release
+May 14, 2007  Added the problem of high CPU usage
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

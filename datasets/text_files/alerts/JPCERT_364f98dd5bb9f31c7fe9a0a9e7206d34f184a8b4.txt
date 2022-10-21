@@ -1,0 +1,98 @@
+JPCERT-AT-2021-0043
+                                                             JPCERT/CC
+                                                    2021-10-06(Initial)
+                                                    2021-10-08(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2021-10-06 &gt;&gt;&gt;
+
+Alert Regarding Path Traversal Vulnerability (CVE-2021-41773) in Apache HTTP Server
+
+       https://www.jpcert.or.jp/english/at/2021/at210043.html
+
+
+I. Overview
+Apache HTTP Server version 2.4.49 has a path traversal vulnerability
+(CVE-2021-41773). A remote attacker sending a specially crafted request
+may read a file outside the document root that is not protected by
+access control from the server running Apache HTTP Server.
+
+    The Apache Software Foundation
+    important: Path traversal and file disclosure vulnerability in Apache HTTP Server 2.4.49 (CVE-2021-41773)
+    https://httpd.apache.org/security/vulnerabilities_24.html#2.4.50
+
+The Apache Software Foundation has revealed that the vulnerability is
+known to be exploited in the wild. Also, JPCERT/CC is aware of multiple
+Proof-of-Concept (PoC) codes that appear to exploit this vulnerability
+being made public.
+
+Users of the affected Apache HTTP Server version 2.4.49 are advised to
+check the information published by The Apache Software Foundation and
+update as soon as possible.
+
+** Update: October 8, 2021 Update ***********************************
+On October 7, 2021 (US time), The Apache Software Foundation released
+Apache HTTP Server version 2.4.51 which had addressed another path
+traversal vulnerability (CVE-2021-42013) due to insufficient fix for
+the vulnerability (CVE-2021-41773) in Apache HTTP Server 2.4.50.
+
+A remote attacker may read a file outside the document root where
+access is not properly restricted, and also remotely execute arbitrary
+code if CGI scripts are enabled for these aliased paths.
+
+    The Apache Software Foundation
+    critical: Path Traversal and Remote Code Execution in Apache HTTP Server 2.4.49 and 2.4.50 (incomplete fix of CVE-2021-41773) (CVE-2021-42013)
+    https://httpd.apache.org/security/vulnerabilities_24.html#2.4.51
+
+JPCERT/CC has confirmed that Proof-of-Concept codes that exploit
+the vulnerability are made public. If you are using the affected
+Apache HTTP Server version 2.4.49 or 2.4.50, please consider updating
+to fixed version as soon as possible.
+*********************************************************************
+
+
+II. Affected Version
+The following version of Apache HTTP Server is affected:
+
+  - Apache HTTP Server 2.4.49
+
+** Update: October 8, 2021 Update ***********************************
+Another path traversal vulnerability (CVE-2021-42013) affects the
+following versions of Apache HTTP Server:
+
+  - Apache HTTP Server 2.4.49
+  - Apache HTTP Server 2.4.50
+*********************************************************************
+
+
+III. Solution
+The Apache Software Foundation has released the following version that
+fixes this vulnerability. Please consider updating as soon as possible.
+
+  - Apache HTTP Server 2.4.50
+
+** Update: October 8, 2021 Update ***********************************
+The following version was released to address another path traversal
+vulnerability (CVE-2021-42013).
+
+  - Apache HTTP Server 2.4.51
+*********************************************************************
+
+
+IV. References
+    The Apache Software Foundation
+    Apache HTTP Server 2.4.50 Released
+    https://downloads.apache.org/httpd/Announcement2.4.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2021-10-06 First edition
+2021-10-08 Updated "I. Overview", "II. Affected Version" and "III. Solution"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

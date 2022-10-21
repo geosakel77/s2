@@ -1,0 +1,92 @@
+JPCERT-AT-2019-0043
+                                                             JPCERT/CC
+                                                    2019-11-21(Initial)
+                                                    2019-12-06(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-11-21 &gt;&gt;&gt;
+
+             Alert Regarding Vulnerability in ISC BIND 9
+
+        https://www.jpcert.or.jp/english/at/2019/at190043.html
+
+
+I. Overview
+ISC BIND 9 contains a vulnerability regarding TCP-pipelining. When this
+vulnerability is exploited, a remote attacker may cause named to become
+temporarily unresponsive or potentially degrade service quality by
+consuming excessive system resource.
+ISC has rated the severity of the vulnerability CVE-2019-6477 as
+"Medium". For more information on the vulnerability, please refer to
+the information provided by ISC.
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2019-6477: TCP-pipelined queries can bypass tcp-clients limit
+    https://kb.isc.org/docs/cve-2019-6477
+
+If you are operating an affected version of ISC BIND 9, please consider
+updating to a version that addresses this vulnerability by referring to
+the information in "III. Solution".
+
+
+II. Affected Systems
+According to ISC, the following versions are affected by this
+vulnerability.
+
+  - BIND 9.14.x versions from 9.14.1 to 9.14.7
+  - BIND 9.12.x versions from 9.12.4-P1 to 9.12.4-P2
+  - BIND 9.11.x versions from 9.11.6-P1 to 9.11.12
+  - BIND 9 Supported Preview Edition versions from 9.11.5-S6 to 9.11.12-S1
+
+If you are using BIND provided by a distributor, please refer to the
+information provided by that distributor. Also, versions prior to
+BIND 9.11.0, which are no longer supported, have not been evaluated
+for this vulnerability according to ISC.
+
+
+III. Solution
+ISC has released versions of ISC BIND 9 that address this
+vulnerability. Distributors are likely to provide their own versions
+that address the vulnerability. Consider updating to an updated
+version after thorough testing.
+
+  - BIND 9 version 9.11.13
+  - BIND 9 version 9.14.8
+  - BIND Supported Preview Edition version 9.11.13-S1
+
+Also, the vulnerability can be mitigated by disabling server TCP-pipelining
+by configuring as follows. However, the server restart is necessary because
+neither a 'reload' nor a 'reconfig' operation will properly reset currently
+pipelining TCP clients.
+
+keep-response-order { any; };
+
+
+IV. References
+    Japan Registry Services (JPRS)
+    (Urgent) Vulnerability in BIND 9.x (Excessive exhaustion of system resource) (CVE-2019-6477) - Both full resolver (cache dns server) / authoritative name server affected. Strongly recommended to update the version - (Japanese)
+    https://jprs.jp/tech/security/2019-11-21-bind9-vuln-tcp-pipelining.html
+
+    Internet Systems Consortium, Inc. (ISC)
+    BIND 9 Security Vulnerability Matrix
+    https://kb.isc.org/docs/aa-00913
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+
+** Update: December 6, 2019 Update ***********************************
+We corrected the TEL number below as it was incorrect. We apologize
+for any inconvenience caused.
+**********************************************************************
+
+________
+Revision History
+2019-11-21 First edition
+2019-12-06 Updated TEL number at the bottom
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: ew-info@jpcert.or.jp
+TEL: +81-3-6811-0610  FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

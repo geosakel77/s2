@@ -1,0 +1,245 @@
+JPCERT-AT-2019-0032
+                                                             JPCERT/CC
+                                                            2019-08-14
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-08-14 &gt;&gt;&gt;
+
+           Microsoft Releases August 2019 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2019/at190032.html
+
+
+I. Overview
+Microsoft has released August 2019 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    August 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-US/security-guidance/releasenotedetail/312890cc-3673-e911-a991-000d3a33a34d
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    CVE-2019-0720
+    Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0720
+    - KB4511553, KB4512476, KB4512482, KB4512486, KB4512488, KB4512489
+      KB4512491, KB4512497, KB4512501, KB4512506, KB4512507, KB4512516
+      KB4512517, KB4512518
+
+    CVE-2019-0736
+    Windows DHCP Client Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0736
+    - KB4512476, KB4512482, KB4512486, KB4512488, KB4512489, KB4512491
+      KB4512497, KB4512501, KB4512506, KB4512507, KB4512516, KB4512517
+      KB4512518
+
+    CVE-2019-0965
+    Windows Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0965
+    - KB4511553, KB4512501, KB4512508, KB4512516
+
+    CVE-2019-1131
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1131
+    - KB4511553, KB4512501, KB4512508, KB4512516
+
+    CVE-2019-1133
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1133
+    - KB4511553, KB4511872, KB4512488, KB4512497, KB4512501, KB4512506
+      KB4512507, KB4512508, KB4512516, KB4512517
+
+    CVE-2019-1139
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1139
+    - KB4511553, KB4512497, KB4512501, KB4512507, KB4512508, KB4512516
+      KB4512517
+
+    CVE-2019-1140
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1140
+    - KB4511553, KB4512497, KB4512501, KB4512507, KB4512508, KB4512516
+      KB4512517
+
+    CVE-2019-1141
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1141
+    - KB4511553, KB4512508
+
+    CVE-2019-1144
+    Microsoft Graphics Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1144
+    - KB4511553, KB4512476, KB4512482, KB4512486, KB4512488, KB4512489
+      KB4512491, KB4512497, KB4512501, KB4512506, KB4512507, KB4512508
+      KB4512516, KB4512517, KB4512518
+
+    CVE-2019-1145
+    Microsoft Graphics Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1145
+    - KB4511553, KB4512476, KB4512482, KB4512486, KB4512488, KB4512489
+      KB4512491, KB4512497, KB4512501, KB4512506, KB4512507, KB4512508
+      KB4512516, KB4512517, KB4512518
+
+    CVE-2019-1149
+    Microsoft Graphics Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1149
+    - KB4511553, KB4512476, KB4512482, KB4512486, KB4512488, KB4512489
+      KB4512491, KB4512497, KB4512501, KB4512506, KB4512507, KB4512508
+      KB4512516, KB4512517, KB4512518
+
+    CVE-2019-1150
+    Microsoft Graphics Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1150
+    - KB4511553, KB4512476, KB4512482, KB4512486, KB4512488, KB4512489
+      KB4512491, KB4512497, KB4512501, KB4512506, KB4512507, KB4512508
+      KB4512516, KB4512517, KB4512518
+
+    CVE-2019-1151
+    Microsoft Graphics Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1151
+    - KB4511553, KB4512476, KB4512482, KB4512486, KB4512488, KB4512489
+      KB4512491, KB4512497, KB4512501, KB4512506, KB4512507, KB4512508
+      KB4512516, KB4512517, KB4512518
+
+    CVE-2019-1152
+    Microsoft Graphics Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1152
+    - KB4511553, KB4512476, KB4512482, KB4512486, KB4512488, KB4512489
+      KB4512491, KB4512497, KB4512501, KB4512506, KB4512507, KB4512508
+      KB4512516, KB4512517, KB4512518
+
+    CVE-2019-1181
+    Remote Desktop Services Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1181
+    - KB4511553, KB4512482, KB4512486, KB4512488, KB4512489, KB4512497
+      KB4512501, KB4512506, KB4512507, KB4512508, KB4512516, KB4512517
+      KB4512518
+
+    CVE-2019-1182
+    Remote Desktop Services Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1182
+    - KB4511553, KB4512482, KB4512486, KB4512488, KB4512489, KB4512497
+      KB4512501, KB4512506, KB4512507, KB4512508, KB4512516, KB4512517
+      KB4512518
+
+    CVE-2019-1183
+    Windows VBScript Engine Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1183
+    - KB4511553, KB4512476, KB4512482, KB4512486, KB4512488, KB4512489
+      KB4512491, KB4512497, KB4512501, KB4512506, KB4512507, KB4512508
+      KB4512516, KB4512517, KB4512518
+
+    CVE-2019-1188
+    LNK Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1188
+    - KB4511553, KB4512501, KB4512508, KB4512516
+
+    CVE-2019-1194
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1194
+    - KB4511553, KB4511872, KB4512488, KB4512497, KB4512501, KB4512506
+      KB4512507, KB4512508, KB4512516, KB4512517
+
+    CVE-2019-1195
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1195
+    - KB4511553, KB4512501, KB4512507, KB4512508, KB4512516, KB4512517
+
+    CVE-2019-1196
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1196
+    - KB4511553, KB4512501, KB4512507, KB4512508, KB4512516
+
+    CVE-2019-1197
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1197
+    - KB4511553, KB4512497, KB4512501, KB4512507, KB4512508, KB4512516
+      KB4512517
+
+    CVE-2019-1199
+    Microsoft Outlook Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1199
+    - The KB number is not assigned
+
+    CVE-2019-1200
+    Microsoft Outlook Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1200
+    - KB4475553, KB4475563, KB4475573
+
+    CVE-2019-1201
+    Microsoft Word Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1201
+    - KB4462137, KB4462216, KB4475528, KB4475530, KB4475531, KB4475533
+      KB4475534, KB4475540, KB4475547, KB4475549, KB4475555
+
+    CVE-2019-1205
+    Microsoft Word Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1205
+    - KB4475528, KB4475555
+
+    CVE-2019-1213
+    Windows DHCP Server Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1213
+    - KB4512476, KB4512491
+
+    CVE-2019-1222
+    Remote Desktop Services Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1222
+    - KB4511553, KB4512501, KB4512508
+
+    CVE-2019-1226
+    Remote Desktop Services Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1226
+    - KB4511553, KB4512501, KB4512508
+
+Also, as for vulnerabilities in Remote Desktop Services
+(CVE-2019-1181/1182), Microsoft published a blog and recommended users
+of affected system to apply the patch as quickly as possible as any
+future malware that exploits the vulnerability could propagate from
+vulnerable computer to vulnerable computer without user interaction.
+
+    Microsoft Security Response Center (MSRC) 
+    Patch new wormable vulnerabilities in Remote Desktop Services (CVE-2019-1181/1182) 
+    https://msrc-blog.microsoft.com/2019/08/13/patch-new-wormable-vulnerabilities-in-remote-desktop-services-cve-2019-1181-1182/
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation 
+    August 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-US/security-guidance/releasenotedetail/312890cc-3673-e911-a991-000d3a33a34d
+
+    Microsoft Corporation
+    Microsoft Security Updates for August 2019 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2019/08/13/201908-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Microsoft Security Response Center (MSRC) 
+    Patch new wormable vulnerabilities in Remote Desktop Services (CVE-2019-1181/1182) 
+    https://msrc-blog.microsoft.com/2019/08/13/patch-new-wormable-vulnerabilities-in-remote-desktop-services-cve-2019-1181-1182/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: ew-info@jpcert.or.jp
+TEL: +81-3-6271-8901 FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

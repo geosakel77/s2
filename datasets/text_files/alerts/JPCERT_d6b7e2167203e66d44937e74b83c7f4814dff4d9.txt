@@ -1,0 +1,79 @@
+JPCERT-AT-2021-0013
+                                                             JPCERT/CC
+                                                            2021-03-10
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-03-10 &gt;&gt;&gt;
+
+           Microsoft Releases March 2021 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2021/at210013.html
+
+
+I. Overview
+Microsoft has released March 2021 Security Updates to address the
+vulnerabilities in their products. Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code. It is
+recommended to check the information provided by Microsoft and
+apply the updates.
+
+    Microsoft Corporation
+    March 2021 Security Updates
+    https://msrc.microsoft.com/update-guide/en-us/releaseNote/2021-Mar
+
+    Microsoft Corporation
+    Release Notes
+    https://msrc.microsoft.com/update-guide/releaseNote
+
+According to Microsoft, the Internet Explorer memory corruption
+vulnerability CVE-2021-26411 has been confirmed to be exploited in the
+wild. Please consider applying the security update programs as soon as
+possible.
+
+In addition, security updates for vulnerabilities related to Exchange
+Server were released on March 2nd and 8th, 2021 (US time). As information
+on attacks that exploit these vulnerabilities has already been released,
+it is recommended to check the environment and apply countermeasures
+as soon as possible by referring to the information provided by
+Microsoft and others.
+
+    Microsoft Security Response Center
+    Multiple Security Updates Released for Exchange Server
+    https://msrc-blog.microsoft.com/2021/03/02/multiple-security-updates-released-for-exchange-server/
+
+    Microsoft
+    Microsoft Exchange Server Vulnerabilities Mitigations
+    https://msrc-blog.microsoft.com/2021/03/05/microsoft-exchange-server-vulnerabilities-mitigations-march-2021/
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    March 2021 Security Updates
+    https://msrc.microsoft.com/update-guide/en-us/releaseNote/2021-Mar
+
+    Microsoft Corporation
+    Internet Explorer Memory Corruption Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2021-26411
+
+    JPCERT/CC
+    Alert Regarding Vulnerabilities in Microsoft Exchange Server
+    https://www.jpcert.or.jp/english/at/2021/at210012.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

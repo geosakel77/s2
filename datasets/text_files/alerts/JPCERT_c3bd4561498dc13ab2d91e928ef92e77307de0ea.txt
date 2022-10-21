@@ -1,0 +1,79 @@
+JPCERT-AT-2020-0046
+                                                             JPCERT/CC
+                                                    2020-12-09(Initial)
+                                                    2020-12-21(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-12-09 &gt;&gt;&gt;
+
+      Alert Regarding Vulnerability in Apache Struts 2 (S2-061)
+
+       https://www.jpcert.or.jp/english/at/2020/at200046.html
+
+
+I. Overview
+On December 8, 2020 (Local Time), the Apache Software Foundation has
+released information (S2-061) on vulnerability (CVE-2020-17530)
+in Apache Struts 2. This vulnerability is due to improper verification
+of input values. A remote attacker leveraging this vulnerability
+may execute arbitrary code on the server that runs Apache Struts 2.
+
+    Apache Struts 2 Documentation
+    Security Bulletins S2-061
+    https://cwiki.apache.org/confluence/display/WW/S2-061
+
+The Apache Software Foundation has rated this vulnerability as
+"Important".
+It is recommended to upgrade the version as soon as possible by
+referring to the information provided in "III.  Solution" if a version
+of Apache Struts 2 which is affected by the vulnerability is used.
+
+** Update: December 21, 2020 Update **********************************
+JPCERT/CC has confirmed the information that attack activity that
+exploited this vulnerability had been observed. It is recommended to
+upgrade the version as soon as possible, if a version of Apache
+Struts 2 which is affected by this vulnerability is used.
+**********************************************************************
+
+
+II. Affected Products
+The following versions of Apache Struts 2 are affected by the
+vulnerability:
+
+  Apache Struts 2
+  - Versions 2.0.0 to 2.5.25
+
+
+III. Solution
+The Apache Software Foundation has released versions of Apache Struts 2
+that address this vulnerability. Please update to the versions by
+referring to the information provided by the Apache Software Foundation.
+
+  Apache Struts 2
+  - Versions 2.5.26
+
+For more information, please refer to the updated information provided
+by the Apache Software Foundation.
+
+    Apache Struts 2 Documentation
+    Version Notes 2.5.26
+    https://cwiki.apache.org/confluence/display/WW/Version+Notes+2.5.26
+
+
+IV. References
+    The Apache Software Foundation
+    08 December 2020 - Potential RCE when using forced evaluation - CVE-2020-17530
+    https://struts.apache.org/announce#a20201208
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2020-12-09 First edition
+2020-12-21 Updated "I. Overview"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

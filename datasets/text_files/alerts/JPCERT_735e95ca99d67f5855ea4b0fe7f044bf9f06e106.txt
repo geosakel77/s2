@@ -1,0 +1,133 @@
+JPCERT-AT-2010-0005
+                                                             JPCERT/CC
+                                                            2010-02-03
+
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2010-02-03  &gt;&gt;&gt;
+
+             Increase in malware stealing FTP credentials
+
+            https://www.jpcert.or.jp/at/2010/at100005.txt
+
+
+I.  Overview
+
+  From late year, widespread attacks have used stolen FTP accounts to
+deface web sites.  Affected web sites include embedded obfuscated
+Javascript, which attempts to infect visitors to that site with
+malware such as Gumblar.  The number of systems infected in this way
+continues to climb.
+
+  As a result of analyzing the malware used in this attack, JPCERT has
+established the existence of feature designed to steal saved account
+credentials.  This bulletin aims to increase awareness of how to
+counteract such malware.
+
+
+II. Details
+
+  If a user visits a defaced web site, the user may be infected with
+malware which harvests any saved account credentials and transmits
+them to external servers.  Such account credential theft targets
+multiple FTP clients.  JPCERT/CC has confirmed that the following FTP
+clients are affected:
+
+   - ALFTP 5.2 beta1
+   - BulletPloof FTP Client 2009.72.0.64
+   - EmFTP 2.02.2
+   - FFFTP 1.96d
+   - FileZilla 3.3.1
+   - FlashFXP 3.6
+   - Frigate 3.36
+   - FTP Commander 8
+   - FTP Navigator 7.77
+   - FTP Now 2.6.93
+   - FTP Rush 1.1b
+   - SmartFTP 4.0.1072.0
+   - Total Commander 7.50a
+   - UltraFXP 1.07
+   - WinSCP 4.2.5
+
+  Furthermore, credentials saved in the following web browsers'
+password manager are also harvested and transmitted to an external
+site:
+
+   - Microsoft Internet Explorer 6
+     (Internet Explorer 7 and 8 are not believed to be affected)
+   - Opera 10.10
+     (The use of a master password for the password manager mitigates 
+     credential theft.).
+
+  Please note that the software targeted by such malware may change in
+the future.
+
+
+III. Countermeasures
+
+  The malware used in this particular attack abuses multiple software
+vulnerabilities to infect others.  Software products exploited by the
+current attack include:
+
+   - Adobe Acrobat, Adobe Reader
+   - Adobe Flash Player
+   - Java(JRE)
+   - Microsoft Windows
+
+  As far as JPCERT/CC has been able to confirm, software fixes are
+already available for the vulnerabilities targeted by this attack.
+Therefore, each affected product's software update procedure should be
+applied to reduce the risk of future infections.
+
+  In addition, attacks such as this may increase in the future,
+targeting different software vulnerabilities.  Users should ensure
+that all software they use is updated to its latest version.
+
+  Web site administrators should refer to the following alert for
+information about how to recover from web site infections related to
+this attack:
+
+  Web site compromises and Gumblar attacks continue to increase
+  https://www.jpcert.or.jp/english/at/2010/at100001.txt
+
+
+IV. References
+
+   Ministry of Economy, Trade and Industry
+   New Year's holiday Internet activity bulletin
+   http://www.meti.go.jp/policy/netsecurity/downloadfiles/nenmatsunenshi.pdf
+
+   JPCERT/CC
+   Large amount of malware infections occurring via web sites
+   https://www.jpcert.or.jp/at/2009/at090023.txt
+
+   JPCERT/CC
+   Winter vacation preparation tips Vol.2
+   Important tips for New Year's holiday Internet usage
+   https://www.jpcert.or.jp/pr/2009/pr090008.txt
+
+   JPCERT/CC
+   Web site compromises and Gumblar attacks continue to increase
+   https://www.jpcert.or.jp/pr/2010/pr100001.txt
+
+   Internet Promotion Agency
+   Bulletin for web site administrators regarding web site defacements
+   Bulletin for users: Users being infected while visiting defaced web sites
+   http://www.ipa.go.jp/security/topics/20091224.html
+
+   National Information Security Center (NISC)
+   Information Security Month
+   http://www.nisc.go.jp/ism/index.html
+
+   Microsoft
+   Microsoft Update
+   http://windowsupdate.microsoft.com/
+
+
+  If you have any further questions or information regarding this
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

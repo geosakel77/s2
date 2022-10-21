@@ -1,0 +1,71 @@
+JPCERT-AT-2014-0047
+                                                             JPCERT/CC
+                                                            2014-11-13
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2014-11-13 &gt;&gt;&gt;
+
+          Vulnerability in Ichitaro series, November 2014
+
+        https://www.jpcert.or.jp/english/at/2014/at140047.html
+
+
+I. Overview
+
+  JustSystems Corporation has released an update module to address a
+vulnerability in the Ichitaro series. Leveraging this vulnerability
+may allow a remote attacker to execute arbitrary code.
+
+For details on the vulnerability, refer to the following URL:
+
+    [JS14003] Possible malicious program execution leveraging vulnerability in Ichitaro
+    https://www.justsystems.com/jp/info/js14003.html
+
+
+II. Affected Systems
+
+  The following versions are affected by this vulnerability:
+
+  - Ichitaro 2014 Tetsu
+  - Ichitaro 2013 Gen
+  - Ichitaro 2012 Shou
+  - Ichitaro 2011 Sou / Ichitaro 2011
+  - Ichitaro Pro 2
+  - Ichitaro Pro
+  - Ichitaro Government 7
+  - Ichitaro Government 6
+  - Ichitaro 2010
+  - Ichitaro Government 2010
+  - Ichitaro 2009
+  - Ichitaro Government 2009
+  - Ichitaro 2008
+  - Ichitaro Government 2008
+
+  For more details, refer to the information provided by JustSystems
+Corporation
+
+
+III. Solution
+
+  An update module is available on the web site of JustSystems
+Corporation. Please apply the update module.
+
+
+IV. References
+
+    JustSystems Corporation
+    [JS14003] Possible malicious program execution leveraging vulnerability in Ichitaro
+    https://www.justsystems.com/jp/info/js14003.html
+
+    Japan Vulnerability Notes JVN#16318793
+    Ichitaro series vulnerable to arbitrary code execution
+    https://jvn.jp/en/jp/JVN16318793/index.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

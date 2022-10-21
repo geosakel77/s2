@@ -1,0 +1,134 @@
+JPCERT-AT-2010-0025
+                                                             JPCERT/CC
+                                                            2010-10-01
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2010-10-01 &gt;&gt;&gt;
+
+       Attacks using exploit packs via websites are on the rise
+
+             https://www.jpcert.or.jp/at/2010/at100025.txt
+
+
+I. Overview
+
+  JPCERT/CC has been observing multiple attacks that use exploit packs 
+to infect a user's PC with malware when the user browses a website. 
+
+The attacker alters the contents of a website or the contents of 
+advertisements on a website by using methods such as SQL injection. 
+When a user browses an altered website, the user is redirected to a 
+website where an exploit pack has been placed by an attacker, and 
+malware may be installed on the user's PC by exploiting multiple 
+vulnerabilities. 
+
+  A PC infected by this malware may be affected in ways such as a false 
+security software being installed, or becoming subject to a bot 
+infection. 
+
+Check that software installed on the computer is up to date, and 
+perform updates if required. 
+
+
+II. Vulnerabilities exploited by exploit packs
+
+  JPCERT/CC has confirmed that vulnerabilities of the following 
+products are being exploited by exploit packs. 
+
+  Vulnerabilities exploited by exploit packs
+  - Adobe Acrobat, Reader, Flash Player from Adobe Systems
+  - Microsoft Windows from Microsoft
+  - Java (JRE) from Oracle
+
+The vulnerabilities include those published in 2010.
+
+
+III. Solution
+
+  As far as JPCERT/CC has confirmed, exploited vulnerabilities of the 
+above software have already been fixed. Therefore, malware infection 
+can be prevented by applying the corresponding corrected software to 
+each product.
+
+Refer to the following procedures and update the software.
+
+* The following software may be preinstalled in some PCs provided by 
+certain manufacturers. Just in case, it is recommended to make sure 
+whether the software is installed on the PC.
+
+  [Adobe Acrobat, Adobe Reader]
+  From the Acrobat or Reader menu, selecting "Help" -&gt; "Check for 
+  Updates" will allow you to upgrade to the latest version. If 
+  upgrading fails for some reason, please install the latest version 
+  from the following URL:
+
+    Acrobat for Windows
+    http://www.adobe.com/support/downloads/product.jsp?product=1&amp;platform=Windows
+
+    Download of the latest and older versions of Adobe Reader
+    http://get.adobe.com/jp/reader/otherversions/
+
+  [Adobe Flash Player]
+  Please check whether you are running the latest version of Flash 
+  Player at the following URL:
+
+    Adobe Flash Player: Version Information
+    http://www.adobe.com/jp/software/flash/about/
+    http://www.adobe.com/products/flash/about/
+
+  If your installed version of Flash Player is not the latest version, 
+  please install the latest version from the following URL:
+
+    Adobe Flash Player installation
+    http://get.adobe.com/jp/flashplayer/
+    http://get.adobe.com/flashplayer/
+
+  [Java(JRE)]
+  Please check your version of Java at the following URL:
+  (If Java is not installed on your system, this website may prompt 
+  you to install it. If you do not wish to install Java, you may safely 
+  ignore this.)
+
+    Java version checker:
+    http://www.java.com/ja/download/installed.jsp
+
+  If you do not have the latest version of Java, please download it 
+  from the following URL:
+
+    Java downloads for all operating systems:
+    http://java.com/ja/download/manual.jsp?locale=ja&amp;host=java.com
+
+  * When upgrading Java, other software relying on Java may be 
+    affected. Please consider this while applying the patch.
+
+  [Microsoft Windows]
+
+  Use means such as Microsoft Update or Windows Update to apply the 
+  security update.
+
+    Microsoft Update
+    https://www.update.microsoft.com/
+
+    Windows Update
+    https://windowsupdate.microsoft.com/
+
+
+IV. References
+
+    An Overview of Exploit Packs
+    http://www.avertlabs.com/research/blog/index.php/2010/05/28/an-overview-of-exploit-packs/
+
+    About the false antivirus software that displays the string "Security Tool"
+    http://dynabook.com/assistpc/info/20100925.htm
+
+    A micro-ad advertisement distribution server is altered (1) Destinations are infected with false security software
+    http://www.so-net.ne.jp/security/news/view.cgi?type=2&amp;no=2361
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

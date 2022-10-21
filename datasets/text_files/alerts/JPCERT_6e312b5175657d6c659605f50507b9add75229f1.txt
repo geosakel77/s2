@@ -1,0 +1,71 @@
+JPCERT-AT-2020-0037
+                                                             JPCERT/CC
+                                                            2020-09-15
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-09-15 &gt;&gt;&gt;
+
+     Alert Regarding Vulnerabilities in Multiple MobileIron Products
+
+       https://www.jpcert.or.jp/english/at/2020/at200037.html
+
+
+I. Overview
+Multiple MDM (Mobile Device Management) related MobileIron products
+contain vulnerabilities (CVE-2020-15505, CVE-2020-15506, CVE-2020-15507).
+A remote attacker leveraging these vulnerabilities may execute
+arbitrary code, bypass authentication and read arbitrary file without
+authentication. For more information on the vulnerabilities, please
+refer to the information provided by MobileIron.
+
+    MobileIron
+    MobileIron Security Updates Available
+    https://www.mobileiron.com/en/blog/mobileiron-security-updates-available
+
+The vulnerabilities have been disclosed and addressed in June 2020,
+and on September 12, the reporter of the vulnerabilities released
+an article and presentation report explaining the details of the
+vulnerabilities. Also, the codes that appear to exploit the
+vulnerabilities have already been confirmed in the wild.
+
+Scans and exploits leveraging these vulnerabilities may be increased,
+and attackers may perform further attacks and intrusions after gaining
+information from the affected products. Users of the affected products
+are expected to check the situation and apply patches as soon as possible.
+
+
+II. Affected Products and Versions
+Following products and versions are affected by these vulnerabilities.
+
+  - MobileIron Core 10.6 and earlier versions
+  - MobileIron Sentry 9.8 and earlier versions
+  - MobileIron Cloud
+  - Enterprise Connector 10.6 and earlier versions
+  - Reporting Database (RDB)
+
+
+III. Solution
+On June 15, 2020, MobileIron released patches that address these
+vulnerabilities. It is recommended to apply patches as soon as possible
+by referring to the information published by MobileIron.
+
+    MobileIron
+    https://help.mobileiron.com/s/article-detail-page?Id=kA12T000000g065SAA (Requires Login)
+
+
+IV. References
+    MobileIron
+    MobileIron Security Updates Available
+    https://www.mobileiron.com/en/blog/mobileiron-security-updates-available
+
+    Orange Tsai
+    How I Hacked Facebook Again! Unauthenticated RCE on MobileIron MDM
+    https://blog.orange.tw/2020/09/how-i-hacked-facebook-again-mobileiron-mdm-rce.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

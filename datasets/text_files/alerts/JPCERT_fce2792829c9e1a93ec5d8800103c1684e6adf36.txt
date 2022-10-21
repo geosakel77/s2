@@ -1,0 +1,96 @@
+JPCERT-AT-2021-0051
+                                                             JPCERT/CC
+                                                            2021-12-15
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-12-15 &gt;&gt;&gt;
+
+          Microsoft Releases December 2021 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2021/at210051.html
+
+
+I. Overview
+Microsoft has released December 2021 Security Updates to address the
+vulnerabilities in their products. Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code. It is
+recommended to check the information provided by Microsoft and
+apply the updates.
+
+    Microsoft Corporation
+    December 2021 Security Updates
+    https://msrc.microsoft.com/update-guide/en-us/releaseNote/2021-Dec
+
+    Microsoft Corporation
+    Microsoft Security Updates for December 2021 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2021/12/14/202112-security-updates/
+
+&lt;(1) A vulnerability known to be exploited in the wild&gt;
+ According to Microsoft, among these vulnerabilities, the Windows AppX
+Installer Spoofing Vulnerability (CVE-2021-43890) has been confirmed to
+be exploited in the wild.
+
+Microsoft is aware of attacks that attempt to exploit this vulnerability
+by using specially crafted packages that include the malware such as
+Emotet. Microsoft released Microsoft App Installer that has addressed
+the vulnerability, and also the workarounds to mitigate the impact with
+GPO.
+
+    CVE-2021-43890
+    Windows AppX Installer Spoofing Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-43890
+
+The vulnerability was exploited in an attack where a victim connects to
+an external website from a link in a malicious email's body, then clicks
+a link on the website that will display a window that asks Microsoft App
+Installer to install a program that looks like a trusted app, which will
+ultimately lead to an infection upon installation of the malicious app.
+
+&lt;(2) Active Directory Security Enhancement&gt;
+ The security update since November 2021 includes four security
+enhancements in Active Directory, and Microsoft has released reference information for Active Directory administrators.
+
+Microsoft has pointed out that this vulnerability may be widely exploited
+in the future, and JPCERT/CC is already aware of a proof-of-concept (PoC)
+code that seems to exploit a part of these vulnerabilities. A user without
+administrative privilege exploiting these vulnerabilities may gain domain
+administrator access.
+
+    Microsoft Corporation
+    [For IT administrators] Check for Active Directory Security Enhancement (Japanese)
+    https://msrc-blog.microsoft.com/2021/12/14/ad-hardenings/
+
+&lt;(3) Regarding Log4j&gt;
+ Regarding the remote code execution vulnerability in Apache Log4j
+(CVE-2021-44228), Microsoft has released information on the impact and
+mitigation measures on the Microsoft services. For the latest information,
+please check the information provided by Microsoft.
+
+    Microsoft Security Response Center
+    Microsoft's Response to CVE-2021-44228 Apache Log4j 2
+    https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    Release Notes
+    https://msrc.microsoft.com/update-guide/releaseNote
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

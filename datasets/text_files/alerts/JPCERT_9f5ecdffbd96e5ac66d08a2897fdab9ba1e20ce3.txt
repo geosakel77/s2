@@ -1,0 +1,97 @@
+JPCERT-AT-2021-0039
+                                                             JPCERT/CC
+                                                   2021-09-13(Initial)
+                                                   2021-09-29(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2021-09-13 &gt;&gt;&gt;
+
+Alert Regarding Command Execution Vulnerability (CVE-2021-3781) in Ghostscript
+
+       https://www.jpcert.or.jp/english/at/2021/at210039.html
+
+
+I. Overview
+On September 9, 2021 (Local Time), Ghostscript provider Artifex Software
+released a security advisory regarding a vulnerability (CVE-2021-3781)
+that allows arbitrary command execution in Ghostscript. On a server
+running Ghostscript, an attacker may execute arbitrary commands by
+processing content that exploits this vulnerability.
+
+    Artifex Software
+    SECURITY ADVISORY SEPTEMBER 9, 2021 - CVE-2021-3781
+    https://ghostscript.com/CVE-2021-3781.html
+
+JPCERT/CC has confirmed the material that seems to explain the details
+of this vulnerability and the Proof-of-Concept code that exploits the
+vulnerability are made public.
+
+The users of the Ghostscript or Ghostscript-dependent software are
+recommended to check the information provided by Artifex Software and
+each distributor and take measures as soon as possible.
+
+
+II. Affected Products and Versions
+The following versions are affected by this vulnerability:
+
+  - Ghostscript/GhostPDL 9.54.0
+  - Ghostscript/GhostPDL 9.53.3
+  - Ghostscript/GhostPDL 9.52
+  - Ghostscript/GhostPDL 9.50
+
+If you are using software that depends on Ghostscript or Ghostscript
+provided by a distributor, please also refer to the information provided
+by the software provider or distributor.
+
+
+III. Solution
+Artifex Software has released a patch that addresses the vulnerability.
+
+In addition, Ghostscript/GhostPDL 9.55.0, which fixes this vulnerability,
+is scheduled to be released around the end of September 2021.
+
+** Update: September 29, 2021 Update ********************************
+On September 27, 2021 (local time), Artifex Software released a
+version that fixed this vulnerability. Please consider updating to
+fixed version by referring to the information published by Artifex
+Software.
+
+    Artifex Software
+    Version 9.55.0 (2021-09-27)
+    https://www.ghostscript.com/doc/9.55.0/News.htm
+*********************************************************************
+
+
+IV. Workarounds
+If it is difficult to take measures against this vulnerability, it is
+recommended to consider reviewing the filter settings in programs that
+call Ghostscript such as ImageMagick in order to reduce the impact of
+attacks that exploit the vulnerability.
+
+According to the information published so far, it has been confirmed
+that the vulnerability can be exploited by loading a malicious SVG format
+file. Note that changing the settings may affect the processing of SVG
+format files, so please consider implementing it depending on the situation.
+
+    ImageMagick Studio LLC
+    Security Policy
+    https://imagemagick.org/script/security-policy.php
+
+
+V. References
+    Artifex Software
+    SECURITY ADVISORY SEPTEMBER 9, 2021 - CVE-2021-3781
+    https://ghostscript.com/CVE-2021-3781.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2021-09-13 First edition
+2021-09-29 Updated "III. Solution"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

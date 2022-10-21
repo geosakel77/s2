@@ -1,0 +1,153 @@
+JPCERT-AT-2019-0029
+                                                             JPCERT/CC
+                                                            2019-07-10
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-07-10 &gt;&gt;&gt;
+
+             Microsoft Releases July 2019 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2019/at190029.html
+
+
+I. Overview
+Microsoft has released July 2019 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    July 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-US/security-guidance/releasenotedetail/48293f19-d662-e911-a98e-000d3a33c573
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    CVE-2019-0785
+    Windows DHCP Server Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0785
+    - KB4507435, KB4507448, KB4507453, KB4507457, KB4507460, KB4507462
+      KB4507464, KB4507469
+
+    CVE-2019-1001
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1001
+    - KB4507434, KB4507435, KB4507448, KB4507449, KB4507450, KB4507453
+      KB4507455, KB4507458, KB4507460, KB4507469
+
+    CVE-2019-1004
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1004
+    - KB4507434, KB4507435, KB4507448, KB4507449, KB4507450, KB4507453
+      KB4507455, KB4507458, KB4507460, KB4507469
+
+    CVE-2019-1056
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1056
+    - KB4507434, KB4507435, KB4507448, KB4507449, KB4507450, KB4507453
+      KB4507455, KB4507458, KB4507460, KB4507469
+
+    CVE-2019-1059
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1059
+    - KB4507434, KB4507435, KB4507448, KB4507449, KB4507450, KB4507453
+      KB4507455, KB4507458, KB4507460, KB4507469
+
+    CVE-2019-1062
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1062
+    - KB4507435, KB4507450, KB4507453, KB4507455, KB4507458, KB4507460
+      KB4507469
+
+    CVE-2019-1063
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1063
+    - KB4507434, KB4507435, KB4507448, KB4507449, KB4507450, KB4507453
+      KB4507455, KB4507458, KB4507460, KB4507469
+
+    CVE-2019-1072
+    Azure DevOps Server and Team Foundation Server Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1072
+    - The KB number is not assigned
+
+    CVE-2019-1092
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1092
+    - KB4507435, KB4507450, KB4507453, KB4507455, KB4507458, KB4507460
+      KB4507469
+
+    CVE-2019-1102
+    GDI+ Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1102
+    - KB4507435, KB4507448, KB4507449, KB4507450, KB4507452, KB4507453
+      KB4507455, KB4507456, KB4507457, KB4507458, KB4507460, KB4507461
+      KB4507462, KB4507464, KB4507469
+
+    CVE-2019-1103
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1103
+    - KB4507435, KB4507450, KB4507453, KB4507455, KB4507458, KB4507460
+      KB4507469
+
+    CVE-2019-1104
+    Microsoft Browser Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1104
+    - KB4507434, KB4507435, KB4507448, KB4507449, KB4507450, KB4507453
+      KB4507455, KB4507458, KB4507460, KB4507469
+
+    CVE-2019-1106
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1106
+    - KB4507435, KB4507450, KB4507453, KB4507455, KB4507460, KB4507469
+
+    CVE-2019-1107
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1107
+    - KB4507435, KB4507450, KB4507453, KB4507455, KB4507458, KB4507460
+      KB4507469
+
+    CVE-2019-1113
+    .NET Framework Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1113
+    - KB4506986, KB4506987, KB4506988, KB4506989, KB4506991, KB4507411
+      KB4507412, KB4507413, KB4507414, KB4507419, KB4507420, KB4507421
+      KB4507422, KB4507423, KB4507435, KB4507450, KB4507455, KB4507458
+      KB4507460
+
+According to Microsoft, attacks leveraging the vulnerability CVE-2019-0880
+(Important) and CVE-2019-1132 (Important) have been observed in the wild.
+Please apply the security update programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation 
+    July 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-US/security-guidance/releasenotedetail/48293f19-d662-e911-a98e-000d3a33c573
+
+    Microsoft Corporation
+    Microsoft Security Updates for July 2019 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2019/07/09/201907-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: ew-info@jpcert.or.jp
+TEL: +81-3-6271-8901  FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

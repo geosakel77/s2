@@ -1,0 +1,96 @@
+JPCERT-AT-2022-0012
+                                                             JPCERT/CC
+                                                    2022-04-20(Initial)
+                                                    2022-04-22(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2022-04-20 &gt;&gt;&gt;
+
+         Oracle Releases Critical Patch Update, April 2022
+
+        https://www.jpcert.or.jp/english/at/2022/at220012.html
+
+
+I. Overview
+On April 19, 2022 (US Time), Oracle released critical patch updates
+for multiple Oracle products.
+
+    Oracle Corporation
+    Oracle Critical Patch Update Advisory - April 2022
+    https://www.oracle.com/security-alerts/cpuapr2022.html
+
+A remote attacker exploiting these vulnerabilities may perform
+unauthorized operations or unauthorized deletion or falsification
+of sensitive information. Users of the affected products are
+recommended to update to the latest version appropriately by referring
+to the information provided by Oracle.
+
+** Update: April 22, 2022 Update ************************************
+Among these vulnerabilities, a researcher who found a vulnerability
+(CVE-2022-21449) in Oracle Java SE and Oracle GraalVM Enterprise Edition,
+published an article explaining the details of the vulnerability.
+
+An attacker using a specially crafted ECDSA signature exploiting the
+vulnerability may access to critical data on the affected system.
+It is recommended to consider taking measures on the vulnerability by
+referring to the information provided by Oracle or the researcher.
+
+    Neil Madden
+    CVE-2022-21449: Psychic Signatures in Java
+    https://neilmadden.blog/2022/04/19/psychic-signatures-in-java/
+
+    Oracle Corporation
+    Text Form of Risk Matrix for Oracle Java SE
+    https://www.oracle.com/security-alerts/cpuapr2022verbose.html#JAVA
+*********************************************************************
+
+
+II. Solutions
+Oracle has provided patches that address vulnerabilities in each
+product. Some products or applications may not run properly after
+updating the software to the latest version. Please update to
+the latest version after considering any possible impacts to the
+products or applications.
+
+In addition, there are cases where Java JRE is pre-installed on the PC
+or WebLogic is used in software products for servers. Please check if
+any of the affected products is included in the PCs or servers that
+you use.
+
+The latest version of Java can be downloaded from the following link.
+
+    Java Downloads for All Operating Systems
+    https://www.java.com/en/download/manual.jsp
+
+
+III. References
+    Oracle Corporation
+    Oracle Java SE Support Roadmap
+    https://www.oracle.com/technetwork/java/eol-135779.html
+
+    Oracle Corporation
+    Critical Patch Updates, Security Alerts and Bulletins
+    https://www.oracle.com/security-alerts/
+
+    Oracle Corporation
+    April 2022 Critical Patch Update Released
+    https://blogs.oracle.com/security/post/april-2022-cpu-released
+
+** Update: April 22, 2022 Update ************************************
+    OpenJDK
+    OpenJDK Vulnerability Advisory: 2022/04/19
+    https://openjdk.java.net/groups/vulnerability/advisories/2022-04-19
+*********************************************************************
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2022-04-10 First edition
+2022-04-22 Updated "I. Overview" and "III. References"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

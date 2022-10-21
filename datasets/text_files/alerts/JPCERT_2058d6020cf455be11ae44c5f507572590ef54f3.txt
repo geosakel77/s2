@@ -1,0 +1,86 @@
+JPCERT-AT-2010-0015
+                                                             JPCERT/CC
+                                                            2010-06-11
+
+                   &lt;&lt;&lt; JPCERT/CC Alert 2010-06-11 &gt;&gt;&gt;
+
+     Vulnerabilities in Adobe Flash Player, Adobe Acrobat/Reader
+
+             https://www.jpcert.or.jp/at/2010/at100015.txt
+
+
+I. Overview
+  Multiple vulnerabilities have been found in Adobe Flash Player and 
+Adobe Acrobat/Reader. The vulnerabilities exist in a common component 
+of these products. As a result, an attacker could execute arbitrary 
+code by convincing a user to open a specially crafted PDF file or view 
+a specially crafted web page.
+
+    Adobe - Security Bulletins:
+    APSB10-14 Security update available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb10-14.html
+
+  Users are strongly recommended to update Flash Player to the 
+corrected software provided by Adobe.
+  As for Adobe Acrobat/Reader, product updates will be released on 
+June 30, 2010. Until then, please consider applying the workaround 
+recommended by Adobe.
+
+
+II. Products Affected
+
+  Affected products are as follows:
+  - Adobe Flash Player 10.0.45.2 and earlier
+  - Adobe Reader and Acrobat 9.3.2 and earlier
+  - Adobe AIR 1.5.3.9130 and earlier
+
+
+III. Solution
+
+  1) Adobe Flash Player
+     Update Adobe Flash Player to the latest version (10.1.53.64). For 
+     more information, refer to the following website:
+
+     Adobe Flash Player Download Center
+     http://get.adobe.com/jp/flashplayer/
+     http://get.adobe.com/flashplayer/ 
+
+     The Adobe Flash Player version number installed on your PC can be 
+     verified through the following page:
+
+     Adobe Flash Player: Version Information
+     http://www.adobe.com/jp/software/flash/about/
+     http://www.adobe.com/products/flash/about/  
+
+  2) Adobe Acrobat and Reader
+     On June 30, 2010 (Japan time), the latest versions of Adobe 
+     Acrobat and Reader will be released. Apply the updates as soon as 
+     they are released.
+
+     Adobe Reader and Acrobat will be updated by starting the products, 
+     selecting the menu Help (H), and then clicking Check for Updates 
+     (U).
+
+
+IV. References
+
+    Adobe - Security Advisories:
+    Security Advisory for Flash Player, Adobe Reader and Acrobat
+    http://www.adobe.com/support/security/advisories/apsa10-01.html
+
+    JVNTA10-159A
+    Vulnerabilities in Adobe Reader, Acrobat, and Flash Player
+    http://jvn.jp/cert/JVNTA10-159A/index.html
+
+    Adobe.com - New downloads
+    http://www.adobe.com/support/downloads/new.jsp
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

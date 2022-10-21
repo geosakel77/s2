@@ -1,0 +1,74 @@
+JPCERT-AT-2012-0026
+                                                             JPCERT/CC
+                                                            2012-08-22
+
+                   &lt;&lt;&lt; JPCERT/CC Alert 22-08-12 &gt;&gt;&gt;
+
+          Vulnerabilities in Adobe Flash Player (APSB12-19)
+
+        https://www.jpcert.or.jp/english/at/2012/at120026.html
+
+
+I. Overview
+
+  Adobe Flash Player contains multiple vulnerabilities. As a result, 
+a remote attacker could terminate Adobe Flash Player or execute
+arbitrary code by convincing a user to open specially crafted
+contents. We recommend that users update to the latest version of
+software provided by Adobe Systems.
+
+* These vulnerabilities are different from those described in the
+  August 15 release “Vulnerabilities in Adobe Flash Player
+  (APSB12-18).”
+
+    Adobe Security Bulletins APSB12-19 (English)
+    Security updates available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb12-19.html
+
+
+II. Products Affected
+
+  Affected products and versions are as follows:
+
+  - Adobe Flash Player 11.3.300.271 and earlier
+
+For more information, refer to the Adobe Systems website.
+
+
+III. Solution
+
+  Update Adobe Flash Player to the following latest version. For more
+information, refer to the Adobe Systems website.
+
+  - Adobe Flash Player 11.4.402.265
+
+    Adobe Flash Player Download Center
+    http://get.adobe.com/flashplayer/
+
+  The Adobe Flash Player version number installed on your PC can be
+verified through the following page:
+
+    Adobe Flash Player: Version Information
+    http://www.adobe.com/software/flash/about/
+
+* Flash player may be installed in Internet Explorer. Therefore, if
+  using a browser other than Internet Explorer on daily use, it is
+  recommended that Adobe Flash Player for Internet Explorer also be
+  updated.
+
+
+IV. References
+
+    Adobe Security Bulletins APSB12-19 (English)
+    Security updates available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb12-19.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

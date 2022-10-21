@@ -1,0 +1,72 @@
+JPCERT-AT-2020-0018
+                                                             JPCERT/CC
+                                                            2020-04-22
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-04-22 &gt;&gt;&gt;
+
+      Alert Regarding Vulnerability (CVE-2020-1967) in OpenSSL
+
+       https://www.jpcert.or.jp/english/at/2020/at200018.html
+
+
+I. Overview
+On April 21, 2020 (US Time), OpenSSL Project released update
+information regarding the OpenSSL vulnerability (CVE-2020-1967).
+According to published information, the vulnerability is due to a
+NULL pointer dereference as a result of incorrect handling of the
+"signature_algorithms_cert" TLS extension. A remote attacker who
+sends a specially crafted message exploiting this vulnerability
+may cause a denial-of-service on the server or client application
+where OpenSSL is running.
+
+For more information on the impacts of this vulnerability, please
+refer to the information provided by the OpenSSL Project.
+
+    OpenSSL Project
+    OpenSSL Security Advisory [21 April 2020]
+    https://www.openssl.org/news/secadv/20200421.txt
+
+If you are using an affected version, it is recommended to address
+the issue as soon as possible by referring to the information in
+"III. Solution".
+
+
+II. Affected Software
+The following versions are affected by this vulnerability:
+
+  - OpenSSL version 1.1.1d, 1.1.1e and 1.1.1f
+
+This issue does not affect OpenSSL 1.0.2 or 1.1.0, however these
+versions are out of support and no longer receiving updates. Users of
+these versions are recommended to upgrade to OpenSSL 1.1.1.
+
+
+III. Solution
+The OpenSSL Project has released a version of OpenSSL to address
+this vulnerability. Please consider applying the update after thorough
+testing.
+
+  - OpenSSL 1.1.1g
+
+
+IV. References
+    JVNVU#97087254
+    Vulnerability due to NULL pointer dereference in OpenSSL (JAPANESE)
+    https://jvn.jp/vu/JVNVU97087254/
+
+    Debian
+    CVE-2020-1967
+    https://security-tracker.debian.org/tracker/CVE-2020-1967
+
+    Red Hat Enterprise Linux/CentOS
+    CVE-2020-1967
+    https://access.redhat.com/security/cve/CVE-2020-1967
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,72 @@
+JPCERT-AT-2008-0019
+                                                             JPCERT/CC
+                                                            2008-11-04
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2008-11-04 &gt;&gt;&gt;
+
+               Increased activity targeting TCP port 445
+
+             http://www.jpcert.or.jp/at/2008/at080019.txt
+
+I. Overview
+
+  JPCERT/CC Internet Scan Data Acquisition System (ISDAS) has observed
+that scans against TCP port 445 have been increasing since late
+evening on October 30, 2008. The increasing scans are mainly from
+inside Japan and from China. Although the cause of these scans has not
+been identified yet, they may be infection attempts by worms
+exploiting a Server service vulnerability in Microsoft Windows
+products (MS08-067), for which a security update has been recently
+released.
+
+
+II. Observation status
+
+  For the TCP port 445 scan trends observed by ISDAS, refer to the
+following website:
+
+    ISDAS graph for TCP port 445 (2008/08/05-11/04)
+    http://www.jpcert.or.jp/isdas/2008/20080805-1104_445_port.png
+
+
+III. Solution
+
+  Users of the services running on TCP port 445 are recommended to
+consider taking the following countermeasures:
+
+   1) When using a Microsoft Windows product, apply the security
+      update according to "IV. References".
+
+   2) In order to prevent secondary damage from virus infection,
+      restrict packets from internal to external TCP port 445.
+
+
+IV. References
+
+    Vulnerability in Microsoft Server Service
+    http://www.jpcert.or.jp/at/2008/at080018.txt
+
+    Japan Vulnerability Notes JVNTA08-297A
+    Microsoft Windows Server service buffer overflow vulnerability
+    http://jvn.jp/cert/JVNTA08-297A/index.html
+
+    Microsoft
+    Microsoft Security Advisory (958963) 
+    http://www.microsoft.com/technet/security/advisory/958963.mspx
+
+    US-CERT
+    Worm Exploiting Microsoft MS08-067 Circulating
+    http://www.us-cert.gov/current/archive/2008/11/03/archive.html#worm_exploiting_microsoft_ms08_067
+
+    Internet Scan Data Acquisition System (ISDAS)
+    http://www.jpcert.or.jp/isdas/
+
+
+  If you have any information you could provide regarding this alert, 
+please contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

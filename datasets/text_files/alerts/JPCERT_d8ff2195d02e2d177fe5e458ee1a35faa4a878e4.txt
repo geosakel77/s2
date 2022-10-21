@@ -1,0 +1,116 @@
+JPCERT-AT-2013-0036
+                                                             JPCERT/CC
+                                                            2013-09-06
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2013-09-06 &gt;&gt;&gt;
+
+                  Alert regarding the abuse of SIP servers
+
+           https://www.jpcert.or.jp/english/at/2013/at130036.html
+
+
+I. Overview
+
+  JPCERT/CC has received an incident report related to the abuse of a
+SIP server. Around the same time, a separate report from another
+reporter was received stating that a compromised server contained an
+attack tool to abuse SIP servers. From these reports, it can be
+assumed that the attacker used a compromised server to search for SIP
+servers and placed an attack tool to obtain SIP accounts (*1).  For
+more details on the behavior of the attack tool, please refer to
+"II. Attack Scenario"
+
+The Telecommunications Carriers Association (TCA) has issued the
+following alert, which leads to the assumption that this attack led to
+the unauthorized use of IP Phone services through the abuse of stolen
+SIP accounts.
+
+   Telecommunications Carriers Association (TCA)
+   Unauthorized third-party use of IP phones through impersonation (Japanese only)
+   http://www.tca.or.jp/press_release/2013/0806_583.html
+
+Also based on data collected by the internet traffic monitoring system
+(TSUBAME *2) run by JPCERT/CC, an increase in packets searching for
+SIP servers has been observed. Regarding these observations, we believe
+that this may continue, therefore to prevent further abuse of SIP servers, 
+this alert is being published.
+
+  *1 Account information to use services provided by the SIP server
+  *2 The name of the Asia / Pacific internet traffic monitoring system 
+     run by JPCERT/CC
+
+
+II. Attack Scenario
+
+  The attacker is most likely conducting an attack such as the
+following, based on information from the attack tool and other
+information provided to JPCERT/CC.
+
+  1. The attacker modifies a publicly available SIP vulnerability scanning tool
+     into a program where information can be collected by the attacker.
+  2. The attacker gains access to servers that use weak passwords or have 
+     vulnerabilities not addressed and runs the tool from step 1.
+  3. The server with the attack tool running, will look for SIP servers that
+     can be searched for on the internet.
+  4. When the attack server locates a SIP server, it will conduct a 130 
+     thousand line dictionary attack to obtain the SIP account.
+  5. When the SIP account is obtained, the attack tool will send the 
+     information to an external server via email.
+
+
+III. Observations from the internet traffic monitoring system (TSUBAME)
+
+  The packets used for the search in step 3 of "II. Attack Scenario"
+have been observed since July, 2010 by TSUBAME system sensors (Figure 1). 
+Similar packets have been observed by other sensors placed in the
+Asia / Pacific region.
+
+   https://www.jpcert.or.jp/at/2013/at130036_tsubame.png
+   Figure 1: Domestic 5060/Udp packet trend observation
+
+
+IV. Solution
+
+  Users that are using SIP servers or SIP enabled devices should set strong
+passwords to prevent the SIP account being stolen for unauthorized use.
+
+  - Countermeasures for the SIP account
+    - Do not use the default password
+    - Do not use the same string for the ID and password
+    - Do not use a blank or simple string for the password
+      * The dictionary file in the attack tool contains numbers within 
+        10 digits, English words from the dictionary and English words
+        with some characters replaced with numbers or symbols. This file
+        is used to determine the ID and password
+  - Unless it is necessary, do not allow direct access from the internet to
+    SIP servers and SIP enabled devices
+    - Using functions provided by a router or firewall, block external packets
+      directed to SIP servers and SIP enabled devices
+    - If connection from the internet is required, use a VPN connection
+  - Periodically check the logs from the SIP server and SIP enabled devices for
+    unauthorized outgoing transmissions
+
+The attack tool also collects the software information (version
+number, etc.)  of the SIP server, so if using a SIP server that
+contains vulnerabilities, it may become the subject of a separate
+attack leveraging such vulnerabilities. Therefore, please apply the
+latest security update program to SIP servers and SIP enabled devices.
+
+
+V. References
+
+   Telecommunications Carriers Association (TCA) 
+   Unauthorized third-party use of IP phones through impersonation (Japanese only)
+   http://www.tca.or.jp/press_release/2013/0806_583.html
+
+   National Police Agency @Police
+   Increased access due to increase in searches for SIP servers (Japanese only)
+   http://www.npa.go.jp/cyberpolice/detect/pdf/20130906.pdf
+
+   JPCERT/CC Alert 2010-12-09
+   Improperly setup Asterisk may be exploited for malicious purposes
+   https://www.jpcert.or.jp/english/at/2010/at100032.html
+
+   JPCERT/CC Alert 2011-02-08
+   Security settings of Internet servers (mainly UNIX / Linux servers)
+   https://www.jpcert.or.jp/english/at/2011/at110002.html

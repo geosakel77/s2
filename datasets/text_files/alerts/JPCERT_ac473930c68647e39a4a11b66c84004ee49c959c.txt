@@ -1,0 +1,92 @@
+JPCERT-AT-2012-0033
+                                                             JPCERT/CC
+                                                            2012-10-10
+
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2012-10-10 &gt;&gt;&gt;
+
+ Denial of service (DoS) vulnerability in ISC BIND 9 (CVE-2012-5166)
+
+        https://www.jpcert.or.jp/english/at/2012/at120033.html
+
+
+I. Overview
+
+  ISC BIND 9 has a vulnerability that may cause a denial of service
+(DoS). If specific combinations of RDATA are loaded into a name
+server, either via cache or an authoritative zone, a subsequent query
+for a related record will cause named to lock up.
+
+  According to the advisory of Internet Systems Consortium (ISC),
+attacks exploiting this vulnerability have not been confirmed;
+however, please apply the updated version by referring to the solution
+shown in III since many DNS servers using ISC BIND 9
+(i.e. authoritative DNS servers and cache DNS servers) are affected.
+
+    Internet Systems Consortium, Inc. 
+    CVE-2012-5166: Specially crafted DNS data can cause a lockup in named
+    https://kb.isc.org/article/AA-00801
+
+
+II. Affected Systems
+
+  According to the advisory of ISC, the following versions will be
+affected by this vulnerability.
+
+  All versions of ISC BIND 9
+
+  * The versions of the 9.2 series through the 9.5 series, for which
+    support has ended, will also be affected.  By referring to the
+    following information, please check whether your version is
+    supported. Users using versions which are no longer supported are
+    advised to update to currently supported versions.
+
+    Internet Systems Consortium, Inc. (ISC)
+    BIND software version status
+    https://www.isc.org/software/bind/versions
+
+  Users who use BIND provided by a distributor, refer to the
+information provided by the relevant distributor.
+
+
+III. Solution
+
+  The ISC has released a version that addressed this vulnerability. We
+recommend applying the updated version after testing.
+
+  Updated versions are as follows:
+
+  ISC BIND
+  - 9.6-ESV-R8, 9.6-ESV-R7-P4
+  - 9.7.7, 9.7.6-P4
+  - 9.8.4, 9.8.3-P4
+  - 9.9.2, 9.9.1-P4
+
+
+IV. References
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2012-5166 [JP]: Specially crafted DNS data can cause a lockup in named
+    https://kb.isc.org/article/AA-00808
+
+    Japan Registry Services Co., Ltd. (JPRS)
+    (Critical) Vulnerability in BIND 9.x (Service suspension) (Released on October 10, 2012)
+    http://jprs.jp/tech/security/2012-10-10-bind9-vuln-rr-combination.html
+
+    Japan Network Information Center (JPNIC)
+    Vulnerability in ISC BIND 9 (October 2012)
+    http://www.nic.ad.jp/ja/topics/2012/20121010-1.html
+
+    Red Hat Bugzilla
+    Bug 864273 - (CVE-2012-5166) CVE-2012-5166 bind: Specially crafted DNS data can cause a lockup in named
+    https://bugzilla.redhat.com/show_bug.cgi?id=864273
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

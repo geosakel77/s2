@@ -1,0 +1,78 @@
+JPCERT-AT-2022-0022
+                                                             JPCERT/CC
+                                                            2022-08-24
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2022-08-24 &gt;&gt;&gt;
+
+      Alert Regarding Vulnerability in Movable Type XMLRPC API
+
+       https://www.jpcert.or.jp/english/at/2022/at220022.html
+
+
+I. Overview
+On August 24, 2022, Six Apart Ltd. released information on command
+injection vulnerability in Movable Type XMLRPC API. A remote attacker
+may be able to execute arbitrary Perl script or OS command by sending
+a specially crafted message that exploits the vulnerability to the
+affected product.
+
+    Six Apart Ltd.
+    Movable Type 7 r.5301 (v7.9.5), v6.8.7: Security update
+    https://movabletype.org/news/2022/08/mt-795-687-released.html
+
+
+II. Affected Versions
+Affected versions of Movable Type are as follows:
+
+  - Movable Type 7 r.5202 and earlier (Movable Type 7 Series)
+  - Movable Type Advanced 7 r.5202 and earlier (Movable Type Advanced 7 Series)
+  - Movable Type 6.8.6 and earlier (Movable Type 6 Series)
+  - Movable Type Advanced 6.8.6 and earlier (Movable Type Advanced 6 Series)
+  - Movable Type Premium 1.52 and earlier
+  - Movable Type Premium Advanced 1.52 and earlier
+
+According to the developer, all versions of Movable Type 4.0 or later,
+including unsupported (End-of-Life, EOL) versions are affected by this
+vulnerability.
+
+
+III. Solution
+Six Apart Ltd. has released versions that address the vulnerability.
+Please consider updating as soon as possible.
+
+  - Movable Type 7 r.5301 (Movable Type 7 Series)
+  - Movable Type Advanced 7 r.5301 (Movable Type Advanced 7 Series)
+  - Movable Type 6.8.7 (Movable Type 6 Series)
+  - Movable Type Advanced 6.8.7 (Movable Type Advanced 6 Series)
+  - Movable Type Premium 1.53
+  - Movable Type Premium Advanced 1.53
+
+As for the details, please refer to the information and update provided
+by Six Apart Ltd..
+
+
+IV. Workarounds
+Six Apart Ltd. has provided information on workarounds to reduce the
+impact of attacks that exploit the vulnerability. For more details,
+please check the information provided by Six Apart Ltd..
+
+  - Disable Movable Type XMLRPC API feature
+
+
+V. References
+    Six Apart Ltd.
+    Movable Type 7 r.5301 (v7.9.5), v6.8.7: Security update
+    https://movabletype.org/news/2022/08/mt-795-687-released.html
+
+    Japan Vulnerability Notes JVN#57728859
+    Movable Type XMLRPC API vulnerable to OS command injection
+    https://jvn.jp/en/jp/JVN57728859/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

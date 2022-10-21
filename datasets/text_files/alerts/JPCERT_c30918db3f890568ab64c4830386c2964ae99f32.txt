@@ -1,0 +1,83 @@
+JPCERT-AT-2016-0006
+                                                             JPCERT/CC
+                                                            2016-01-20
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-01-20 &gt;&gt;&gt;
+
+Alert on denial-of-service vulnerability (CVE-2015-8704) in ISC BIND 9
+
+      https://www.jpcert.or.jp/english/at/2016/at160006.html
+
+
+I. Overview
+
+  ISC BIND 9 contains a vulnerability that leads to a denial-of-service (DoS).
+When this vulnerability is leveraged, a remote attacker may cause an 
+abnormal termination of named.
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2015-8704: Specific APL data could trigger an INSIST in apl_42.c
+    https://kb.isc.org/article/AA-01335/
+
+  If operating an affected version of ISC BIND 9 (authoritative DNS 
+server, cache DNS server), please consider updating to a version that
+addresses this vulnerability after referring to the information in 
+"III. Solution".
+
+II. Affected Systems
+
+  According to the information provided by ISC, the following versions
+are affected by this vulnerability. ISC has rated this vulnerability as
+"High"
+
+  ISC BIND
+    - Versions from 9.9.0 to 9.9.8-P2
+    - Versions from 9.10.0 to 9.10.3-P2
+
+  Unsupported versions of ISC BIND 9.3.x through 9.8.x are also affected
+by this vulnerability. For more details, refer to the following:
+
+    BIND 9 Security Vulnerability Matrix
+    https://kb.isc.org/article/AA-00913/
+
+  If you are using BIND provided by a distributor, refer to the
+information provided by that distributor.
+
+
+III. Solution
+
+  ISC has released versions of ISC BIND that address this vulnerability.
+Distributors are likely to provide their own versions that address this
+vulnerability. Consider updating to an updated version after thorough
+testing.
+
+  Versions that address this vulnerability are as follows:
+
+  ISC BIND
+  - Versions from 9.9.0 to 9.9.8-P3
+  - Versions from 9.10.0 to 9.10.3-P3
+
+
+IV. References
+
+    US-CERT
+    Internet Systems Consortium (ISC) Releases Security Updates for BIND
+    https://www.us-cert.gov/ncas/current-activity/2016/01/19/Internet-Systems-Consortium-ISC-Releases-Security-Updates-BIND
+
+    Japan Registry Services (JPRS)
+    (Urgent) Vulnerability in BIND 9.X (DNS Service suspension) (CVE-2015-8704) (Released 1/20/2016)(Japanese)
+    http://jprs.jp/tech/security/2016-01-20-bind9-vuln-stringformat.html
+
+    Japan Registry Services (JPRS)
+    Vulnerability in BIND 9.X (DNS Service suspension) (CVE-2015-8705) (Released 1/20/2016)(Japanese)
+    http://jprs.jp/tech/security/2016-01-20-bind9-vuln-debuglog.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

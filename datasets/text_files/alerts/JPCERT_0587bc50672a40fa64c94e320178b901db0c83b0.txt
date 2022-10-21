@@ -1,0 +1,98 @@
+JPCERT-AT-2017-0007
+                                                             JPCERT/CC
+                                                            2017-02-09
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-02-09 &gt;&gt;&gt;
+
+Alert on denial-of-service vulnerability (CVE-2017-3135) in ISC BIND 9
+
+        https://www.jpcert.or.jp/english/at/2017/at170007.html
+
+
+I. Overview
+
+  ISC BIND 9 contains a vulnerability that leads to a denial-of-service
+(DoS). When this vulnerability is exploited, a remote attacker may
+cause named to terminate. For more details on this vulnerability,
+please refer to the information provided by ISC.
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2017-3135: Combination of DNS64 and RPZ Can Lead to Crash
+    https://kb.isc.org/article/AA-01453/
+
+  According to ISC, only servers which are configured to simultaneously
+use both Response Policy Zones (RPZ) and DNS64 can be affected by this
+vulnerability (both DNS 64 and RPZ are invalid by default). If you are
+operating the servers with affected settings, please consider updating
+to a version that addresses this vulnerability by referring to the
+information in "III. Solution" and "IV. Workarounds".
+
+
+II. Affected Systems
+
+  According to ISC, the following versions are affected by this
+vulnerability. ISC has rated the severity of this vulnerability
+as "High".
+
+  ISC BIND
+  - Versions from 9.9.3 to 9.9.9-P5
+  - Versions from 9.10.0 to 9.10.4-P5
+  - Versions from 9.11.0 to 9.11.0-P2
+
+  For more details, please refer to the following:
+
+    BIND 9 Security Vulnerability Matrix
+    https://kb.isc.org/article/AA-00913/
+
+  If you are using BIND provided by a distributor, please refer to the
+information provided by that distributor.
+
+
+III. Solution
+
+  ISC has released versions of ISC BIND that address this vulnerability.
+Distributors are likely to provide their own versions that address
+this vulnerability. Consider updating to an updated version after
+thorough testing.
+
+  Versions that address these vulnerabilities are as follows:
+
+  ISC BIND
+  - BIND 9 version 9.9.9-P6
+  - BIND 9 version 9.10.4-P6
+  - BIND 9 version 9.11.0-P3
+
+
+IV. Workarounds
+
+  According to ISC, it is possible to mitigate the impact of this
+vulnerability by applying one of the following workarounds.
+
+  - Removing either DNS64 or RPZ from the configuration, if not in use
+  - Carefully restricting the contents of the policy zone
+
+
+V. References
+
+    US-CERT
+    ISC Releases Security Updates for BIND
+    https://www.us-cert.gov/ncas/current-activity/2017/02/08/ISC-Releases-Security-Updates-BIND
+
+    Internet Systems Consortium, Inc. (ISC)
+    Response Policy Zones
+    https://www.isc.org/?faqs=response-policy-zones
+
+    Japan Registry Services (JPRS)
+    Vulnerability in BIND 9.X (DNS Service Suspension) (CVE-2017-3135)(Japanese)
+    - Servers utilizing both DNS64 and RPZ are affected; Recommended to update the version - 
+    https://jprs.jp/tech/security/2017-02-09-bind9-vuln-dns64-rpz.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

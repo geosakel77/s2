@@ -1,0 +1,70 @@
+JPCERT-AT-2017-0006
+                                                             JPCERT/CC
+                                                            2017-02-06
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-02-06 &gt;&gt;&gt;
+
+                 Alert on vulnerability in WordPress
+
+         https://www.jpcert.or.jp/english/at/2017/at170006.html
+
+
+I. Overview
+
+  The REST API in WordPress contains a vulnerability. When this
+vulnerability is exploited, a remote attacker may compromise the
+contents of a WordPress site.
+  Proof-of-Concept code for this vulnerability has been made public,
+and JPCERT/CC tested this code. The test resulted in confirmation that
+WordPress contents being compromised. In addition, a number of
+domestic websites that use an affected version of WordPress have been
+compromised. JPCERT/CC has also been confirming compromised websites
+that are exploited by this vulnerability.
+  In order to protect your website from compromise and other attacks,
+it is recommended to review the information in "III. Solution" and
+apply any countermeasures as soon as possible.
+
+
+II. Affected Products
+
+  The following products and versions are affected by the vulnerability:
+
+  - WordPress 4.7 and 4.7.1
+
+
+III. Solution
+
+  Update WordPress to the latest available version.
+
+  - WordPress 4.7.2
+
+  As a protection until the update can be applied, consider not using
+or restricting the use of the REST API in WordPress to mitigate the
+effects of the vulnerability. However, it will be necessary to apply
+fixes to change the behavior of WordPress and change settings on the
+Web server.
+
+
+IV. References
+
+    WordPress
+    WordPress 4.7.2 Security Release
+    https://wordpress.org/news/2017/01/wordpress-4-7-2-security-release/
+
+    Sucuri
+    Content Injection Vulnerability in WordPress
+    https://blog.sucuri.net/2017/02/content-injection-vulnerability-wordpress-rest-api.html
+
+    Internet-technology Promotion Agency (IPA)
+    About countermeasures for WordPress vulnerability (Japanese)
+    https://www.ipa.go.jp/security/ciadr/vul/20170206-wordpress.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

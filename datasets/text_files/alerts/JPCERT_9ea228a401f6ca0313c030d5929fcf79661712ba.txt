@@ -1,0 +1,122 @@
+JPCERT-AT-2021-0038
+                                                             JPCERT/CC
+                                                    2021-09-09(Initial)
+                                                    2021-09-15(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2021-09-09 &gt;&gt;&gt;
+
+  Alert Regarding Vulnerability (CVE-2021-40444) in Microsoft MSHTML
+
+       https://www.jpcert.or.jp/english/at/2021/at210038.html
+
+
+I. Overview
+On September 7, 2021 (US Time), Microsoft released a security advisory
+regarding the vulnerability (CVE-2021-40444) in Microsoft MSHTML.
+A remote attacker leveraging this vulnerability may be able to execute
+arbitrary code by using specially-crafted Microsoft Office documents.
+
+    Microsoft
+    Microsoft MSHTML Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40444
+
+Microsoft has announced that it has confirmed an attack using Microsoft
+Office file that exploits this vulnerability. In the future, attacks
+using Microsoft Office files that exploit this vulnerability may
+increase. The users of the affected products are recommended to consider
+applying the workaround, and also apply security program for this
+vulnerability as soon as it becomes available.
+
+** Update: September 10, 2021 Update ********************************
+On September 9, 2021 (US time), Microsoft released additional
+information about a workaround for the vulnerability. Regarding this
+vulnerability, we recommend to continue paying close attention to the
+information released by Microsoft and others, and consider applying
+necessary workarounds. Also, be careful not to open untrusted
+Microsoft Office documents and files.
+*********************************************************************
+
+
+II. Affected Products and Versions
+The following versions are affected by this vulnerability. For the
+latest information and details, please refer to the information
+provided by Microsoft.
+
+  - Windows Server 2022
+  - Windows Server 2019
+  - Windows Server 2016
+  - Windows Server 2012 R2
+  - Windows Server 2012
+  - Windows Server 2008 R2
+  - Windows Server 2008
+  - Windows Server, version 20H2
+  - Windows Server, version 2004
+  - Windows 10
+  - Windows RT 8.1
+  - Windows 8.1
+  - Windows 7
+
+
+III. Solution
+As of September 9, 2021, Microsoft has not released an update that
+addresses the vulnerability. We recommend to pay close attention to
+the information provided by Microsoft and take the measures as soon as
+the information on the countermeasure is released.
+
+** Update: September 15, 2021 Update ********************************
+On September 14, 2021 (US time), Microsoft released the security
+update for the vulnerability. Please consider applying update as
+soon as possible by referring to the information provided by Microsoft.
+
+    CVE-2021-40444
+    Microsoft MSHTML Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40444
+*********************************************************************
+
+
+IV. Workarounds
+As a workaround for the vulnerability, Microsoft has shown how to change
+the registry settings to disable the installation of all ActiveX
+controls in Internet Explorer. Please refer to the Microsoft information
+and consider applying the workaround.
+
+** Update: September 10, 2021 Update ********************************
+On September 9, 2021 (US time), Microsoft released additional
+information about a workaround for this vulnerability. In addition to
+how to apply the workaround in Group Policy, it shows how to disable
+file preview in Windows Explorer.
+*********************************************************************
+
+
+V. Mitigations
+Microsoft introduced the "Protected View" and "Application Guard for
+Office" of Microsoft Office.
+
+    Microsoft
+    What is Protected View?
+    https://support.microsoft.com/en-us/topic/what-is-protected-view-d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653
+
+    Microsoft
+    Application Guard for Office
+    https://support.microsoft.com/en-us/topic/application-guard-for-office-9e0fb9c2-ffad-43bf-8ba3-78f785fdba46
+
+
+VI. References
+    Microsoft
+    Microsoft MSHTML Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40444
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2021-09-09 First edition
+2021-09-10 Updated "I. Overview" and "IV. Workarounds"
+2021-09-15 Updated "III. Solution"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

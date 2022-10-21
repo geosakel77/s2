@@ -1,0 +1,201 @@
+JPCERT-AT-2017-0020
+                                                             JPCERT/CC
+                                                   2017-05-14(Initial)
+                                                    2017-05-17(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-05-14 &gt;&gt;&gt;
+
+               Alert regarding ransomware "WannaCrypt"
+
+       https://www.jpcert.or.jp/english/at/2017/at170020.html
+
+
+I. Overview
+Since around May 12, 2017, there have been reports around the globe
+related to damages caused by malware called "WannaCrypt". JPCERT/CC
+analyzed a sample of the malware and found that when infected, files
+on the device are encrypted and a message in Japanese demanding a
+payment in exchange for decrypting the files is displayed.
+
+As of May 14, 2017, JPCERT/CC has confirmed information related to
+"WannaCrypt" infections within Japan. It is recommended to be prepared
+for future infection attempts and the spread of damages.
+
+It has been confirmed that "WannaCrypt" exploits a vulnerability that
+was addressed with the security update MS17-010. This vulnerability is
+exploited for the purpose of spreading the infection through networks.
+    
+    Microsoft Security Bulletin MS17-010 - Critical
+    Security Update for Microsoft Windows SMB Server (4013389)
+    https://technet.microsoft.com/en-us/library/security/ms17-010.aspx
+
+In order to prevent infection by the malware and the spreading of the
+malware after infection, it is recommended to update virus definitions
+for anti-virus software, exercise caution when opening an email, in
+particular its contents and any attachments as well as updating the OS
+and any software to the latest available versions.
+
+** Update: May 17, 2017 Update ***************************************
+The whole picture of the infection route of "WannaCrypt" is not yet
+confirmed. However, as an example of infection, JPCERT/CC has
+confirmed a case where a portable PC that connects to the Internet via
+mobile data connection was infected by "WannaCrypt" without being
+noticed by the user.
+
+JPCERT/CC analyzed the behavior of "WannaCrypt" and confirmed that
+infected PCs scan Port 445/TCP towards external IP addresses or PCs
+within the same network segment in order to find a device that still
+carries the vulnerability.
+
+If the infected PC is connected to an network, infection may spread to
+other PCs and servers within the network in the organization. Please
+take countermeasures such as applying the security update program
+MS17-010 to prevent the exploitation of the vulnerability. If it is
+difficult to apply the update, please consider terminating unnecessary
+services or blocking unnecessary Ports.
+
+In addition, JPCERT/CC's Internet threat monitoring system "TSUBAME"
+has observed an increase in the number of scan packets to Port 445/TCP
+for Japan since April 23, 2017. However, the relation with "WannaCrypt"
+remains uncertain.
+Please continue to prepare for infection and damage expansion.
+
+https://www.jpcert.or.jp/at/2017/at1700020-fig1.png
+[image: Transition of the number of scan packets to Port445/TCP from April through May, 2017]
+**********************************************************************
+
+
+II. Solution
+As of May 14, 2017, JPCERT/CC has yet to confirm any information
+related to the infection route of "WannaCrypt". However, ransomware is
+typically distributed via e-mail or through a malicious site that a
+victim is redirected when browsing the web. In order to reduce the
+chances for infection and spreading of the ransomware, it is recommended
+to update the OS and any software to the latest available versions and
+virus definitions for anti-virus software. Since e-mails may be received
+over the weekend, it is thought that infections may spread starting on
+Monday as employees open and read e-mails when businesses open. Prior
+to opening any e-mail attachments, it is recommended to scan the file
+using anti-virus software with updated virus definitions.
+
+In addition, "WannaCrypt" exploits a vulnerability (CVE-2017-0145) to
+spread infection to other PCs or servers on the network so it is
+strongly recommended to apply updates as soon as possible.
+
+** Update: May 17, 2017 Update ***************************************
+If it is difficult to apply updates immediately, it is strongly
+recommended to terminate unnecessary services or to block related
+Port (445/TCP).
+**********************************************************************
+
+    JPCERT/CC
+    Microsoft Security Bulletin for March 2017 (including 9 critical patches)
+    https://www.jpcert.or.jp/english/at/2017/at170011.html
+
+Microsoft has released security updates to address this vulnerability
+on May 13, 2017 for the following OSes, whose support has ended; 
+Windows XP, Windows 8 and Windows Server 2003.
+
+    Microsoft Corporation
+    Microsoft Update Catalog (Japanese)
+    http://www.catalog.update.microsoft.com/Search.aspx?q=KB4012598
+
+System administrators and users should consider the following in order
+to prevent ransomware infection and for recovering encrypted files
+after an infection:
+
+  - Update the OS and any installed software to the latest versions
+
+  - If a PC is infected with ransomware and files are encrypted, these
+    files are difficult to decrypt. So it is recommended to take
+    backups on a regular schedule. Also, please make sure to check
+    that these backups can be used for recovery.
+
+  - If infected with ransomware, it is possible that all files
+    accessible from the infected device have been encrypted.
+    Therefore, it is recommended to store backup data in storage
+    devices that are both physically and network disconnected.
+    Also, it is recommended to connect storage devices with
+    backup data only for recovery.
+
+** Update: May 17, 2017 Update ***************************************
+In addition, please manage the backup generations carefully. 
+Please do not overwrite the backup containing ransomware infected
+files on the backup which is not infected.
+**********************************************************************
+
+
+III. References
+    US-CERT
+    Multiple Ransomware Infections Reported 
+    https://www.us-cert.gov/ncas/current-activity/2017/05/12/Multiple-Ransomware-Infections-Reported
+
+    US-CERT
+    Alert (TA17-132A) Indicators Associated With WannaCry Ransomware
+    https://www.us-cert.gov/ncas/alerts/TA17-132A
+
+    SANS Internet Storm Center
+    Massive wave of ransomware ongoing
+    https://isc.sans.edu/forums/diary/Massive+wave+of+ransomware+ongoing/22412/
+
+    Microsoft Corporation
+    Customer Guidance for WannaCrypt attacks
+    https://blogs.technet.microsoft.com/jpsecurity/2017/05/14/ransomware-wannacrypt-customer-guidance/
+
+    JPCERT/CC
+    Alert regarding ransomware infections
+    https://www.jpcert.or.jp/english/at/2015/at150015.html
+
+    JPCERT/CC
+    Microsoft Security Bulletin for March 2017 (including 9 critical patches)
+    https://www.jpcert.or.jp/english/at/2017/at170011.html
+
+    Information-technology Promotion Agency (IPA)
+    [Alert] Beware of attacks attempting to infect with ransomware (Japanese)
+    https://www.ipa.go.jp/security/topics/alert280413.html
+
+    Information-technology Promotion Agency (IPA)
+    Threats and countermeasures for ransomware (Japanese)
+    https://www.ipa.go.jp/files/000055582.pdf
+
+    JPCERT/CC
+    JPCERT/CC participates "No More Ransom" to Combat Ransomware as a Supporting Partner
+    https://www.jpcert.or.jp/english/pub/2017/20170405-nomorepj.html
+
+    Japan Cybercrime Control Center (JC3)
+    Countermeasures against ransomware (Japanese)
+    https://www.jc3.or.jp/info/nmransom.html
+
+** Update: May 17, 2017 Update ***************************************
+    Information-technology Promotion Agency (IPA)
+    Countermeasures for Microsoft product vulnerability leveraged for globally-spreading ransomware (Japanese)
+    https://www.ipa.go.jp/security/ciadr/vul/20170514-ransomware.html
+
+    Microsoft Corporation
+    [WannaCrypt] How to check the application status of MS 17-010 (WSUS) (Japanese)
+    https://blogs.technet.microsoft.com/jpwsus/2017/05/15/wannacrypt-ms17-010-wsus/
+
+    FBI
+    Ransomware Prevention and Response for CISOs
+    https://www.fbi.gov/file-repository/ransomware-prevention-and-response-for-cisos.pdf/view
+
+    National Police Agency
+    Observation on the access which is considered as an attack exploiting the attack tool "Eternalblue" (Japanese)
+    https://www.npa.go.jp/cyberpolice/important/2017/201705151.html
+**********************************************************************
+
+
+JPCERT/CC is in support of the activities of the global project,
+"No More Ransom", which aims to reducing the damages caused by
+ransomware. If you have any information regarding this alert, please
+contact JPCERT/CC.
+
+________
+Revision History
+2017-05-14 First edition
+2017-05-17 Updated "I. Overview", "II. Solution" and "III. References"
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

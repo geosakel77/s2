@@ -1,0 +1,114 @@
+JPCERT-AT-2017-0031
+                                                             JPCERT/CC
+                                                    2017-08-09(Initial)
+                                                    2017-08-30(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-08-09 &gt;&gt;&gt;
+
+Alert Regarding Vulnerabilities in Adobe Reader and Acrobat (APSB17-24)
+
+       https://www.jpcert.or.jp/english/at/2017/at170031.html
+
+
+I. Overview
+Multiple vulnerabilities exist in Adobe Acrobat Reader, a PDF file
+viewing software, and Adobe Acrobat, a PDF file creation and conversion
+software. As a result, a remote attacker may terminate Adobe Reader
+and Acrobat, or execute arbitrary code by convincing a user to open
+contents leveraging the vulnerabilities. For more information, please
+refer to the Adobe website.
+
+    Security Update Available for Adobe Acrobat and Reader | APSB17-24
+    https://helpx.adobe.com/security/products/acrobat/apsb17-24.html
+
+** Update: August 30, 2017 Update ************************************
+According to Adobe, this update caused regression with XFA forms
+functionality which affected some users. Due to a functional regression
+in those releases, optional hotfixes were provided to affected customers,
+and this restores the vulnerability of CVE-2017-11223 (Critical) which
+was fixed in this update. On August 29, updates that fix regression
+with XFA forms functionality and vulnerability of CVE-2017-11223 are
+released. If you have applied any of the hotfixes, please apply the
+security update programs as soon as possible. 
+
+For more details, please refer to the following:
+
+    Update to Security Bulletin (APSB17-24)
+    https://blogs.adobe.com/psirt/?p=1484
+
+In addition, Adobe is not aware of exploits in the wild for CVE-2017-11223,
+or any of the other issues addressed in the August 8 releases.
+**********************************************************************
+
+
+II. Affected Products
+Affected products and versions are as follows:
+
+  - Adobe Acrobat Reader DC Continuous (2017.009.20058) and earlier
+  - Adobe Acrobat Reader DC Classic (2015.006.30306) and earlier
+  - Adobe Acrobat DC Continuous (2017.009.20058) and earlier
+  - Adobe Acrobat DC Classic (2015.006.30306) and earlier
+  - Adobe Acrobat Reader 2017 (2017.008.30051) and earlier
+  - Adobe Acrobat 2017 (2017.008.30051) and earlier
+  - Adobe Acrobat XI (11.0.20) and earlier
+  - Adobe Reader XI (11.0.20) and earlier
+
+
+III. Solution
+Please update Adobe Reader and Acrobat to the latest version listed
+below. 
+
+** Update: August 30, 2017 Update ************************************
+  - Adobe Acrobat Reader DC Continuous (2017.012.20098)
+  - Adobe Acrobat Reader DC Classic (2015.006.30355)
+  - Adobe Acrobat DC Continuous (2017.012.20098)
+  - Adobe Acrobat DC Classic (2015.006.30355)
+  - Adobe Acrobat Reader 2017 (2017.011.30066)
+  - Adobe Acrobat 2017 (2017.011.30066)
+  - Adobe Acrobat XI (11.0.21)
+  - Adobe Reader XI (11.0.21)
+
+In addition, Adobe Acrobat XI (11.0.22) and Adobe Reader XI (11.0.22),
+which were provided in response to the regression, fix the vulnerabilities
+released in ASPB17-24 including CVE-2017-11223.
+**********************************************************************
+
+Acrobat will be updated by starting the product, selecting the menu
+"Help (H)", and then clicking "Check for Updates (U)". If an update
+from the menu is not available, please download the latest Adobe
+Reader and Acrobat from the following URL. For more information,
+please refer to the Adobe website.
+
+    Adobe.com - New downloads
+    https://www.adobe.com/support/downloads/new.jsp
+
+
+IV. References
+    Adobe Systems Incorporated
+    Security Update Available for Adobe Acrobat and Reader | APSB17-24
+    https://helpx.adobe.com/security/products/acrobat/apsb17-24.html
+
+    Adobe Systems Incorporated
+    Security Bulletins Posted
+    https://blogs.adobe.com/psirt/?p=1480
+
+** Update: August 30, 2017 Update ************************************
+    Adobe Systems Incorporated
+    Update to Security Bulletin (APSB17-24)
+    https://blogs.adobe.com/psirt/?p=1484
+**********************************************************************
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2017-08-09 First edition
+2017-08-30 Updated "I. Overview", "III. Solution" and "IV. References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,68 @@
+JPCERT-AT-2007-0007
+                                                             JPCERT/CC
+                                                         March 1, 2007
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2007-03-01 &gt;&gt;&gt;
+
+                     Sun Solaris in.telnetd Worm
+
+               http://www.jpcert.or.jp/at/2007/at070007.txt
+
+I. Overview
+
+  Sun Solaris in.telnetd contains an authentication vulnerability.
+According to the information from Sun Microsystems, this
+vulnerability has already been exploited by a worm to spread.
+
+
+II. Systems Affected
+
+  According to Sun Microsystems, the following systems are affected
+by the vulnerability in in.telnetd:
+
+  SPARC Platform
+    Solaris 10 without patch 120068-02
+
+  x86 Platform
+    Solaris 10 without patch 120069-02
+
+For more information, contact the vendor.
+
+
+III. Solution
+
+  To fix this problem, apply the patch provided by Sun Microsystems
+or stop telnet services. For more information, refer to the
+advisories and other information released by Sun Microsystems.
+
+
+IV. Reference Information
+
+    JP Vendor Status Notes JVNTA07-059A    Sun Solaris Telnet Worm
+    http://jvn.jp/cert/JVNTA07-059A/index.html
+
+    Sun Alert Notification
+    #102802: Security Vulnerability in the in.telnetd(1M) Daemon May 
+      Allow Unauthorized Remote Users to Gain Access to a Solaris Host
+    http://sunsolve.sun.com/search/document.do?assetkey=1-26-102802-1
+
+    Sun Microsystems is aware of an active worm which exploits the
+      in.telnetd vulnerability described in Sun Alert
+    http://blogs.sun.com/security/entry/solaris_in_telnetd_worm_seen
+
+    US-CERT Technical Cyber Security Alert TA07-059A
+    Sun Solaris Telnet Worm
+    http://www.us-cert.gov/cas/techalerts/TA07-059A.html
+
+    US-CERT Vulnerability Note VU#881872
+    Sun Solaris telnet authentication bypass vulnerability
+    http://www.kb.cert.org/vuls/id/881872
+
+
+  If you have any information regarding this matter, please contact
+us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

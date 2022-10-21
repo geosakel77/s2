@@ -1,0 +1,69 @@
+JPCERT-AT-2015-0021
+                                                             JPCERT/CC
+                                                            2015-07-14
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2015-07-14 &gt;&gt;&gt;
+                  
+        Alert on vulnerability in security appliance software 
+                          provided by Cisco
+                          
+        https://www.jpcert.or.jp/english/at/2015/at150021.html
+        
+I. Overview
+
+  Security appliance software provided by Cisco contains multiple 
+vulnerabilities. An attacker sending a specially crafted packet may
+cause the software to crash or execute arbitrary code. According to 
+Cisco, they have observed multiple attacks leveraging CVE-2014-3383 on 
+July 8, 2015 US time. JPCERT/CC has observed multiple scan attempts 
+to a particular port on July 8, 2015, from 16:00 to around 20:30 Japan 
+time.
+
+  Cisco has released a software update to address these vulnerabilities.
+If you are using an affected version of the software, we strongly recommend
+updating immediately to the latest version according to the information 
+provided in "III. Solution".
+
+    Multiple Vulnerabilities in Cisco ASA Software
+    http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20141008-asa
+
+
+II. Affected Products
+
+  Security appliance software by Cisco in the following products are affected
+by these vulnerabilities
+
+  - Cisco ASA 5500 Series Adaptive Security Appliances
+  - Cisco ASA 5500-X Series Next-Generation Firewalls
+  - Cisco ASA Services Module for Cisco Catalyst 6500 Series Switches and Cisco 7600 Series Routers
+  - Cisco ASA 1000V Cloud Firewall
+  - Cisco Adaptive Security Virtual Appliance (ASAv)
+
+
+III. Solution
+
+  Update the software for the product according to the information
+provided by Cisco. For details, please refer to the information provided
+by Cisco. If using an affected version of the software, we strongly 
+recommend updating immediately.
+
+
+IV. References
+
+    Multiple Vulnerabilities in Cisco ASA Software (Revision 3.0)
+    http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20141008-asa
+
+    Multiple Vulnerabilities in Cisco ASA Software (Revision 1.0 : Japanese)
+    http://www.cisco.com/cisco/web/support/JP/112/1126/1126286_cisco-sa-20141008-asa-j.html
+   * As of this writing, the Japanese advisory has not reflected the 
+     updates made on July 8th, 2015.
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,81 @@
+JPCERT-AT-2016-0007
+                                                            JPCERT/CC
+                                                           2016-02-10
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2016-02-10 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for February 2016
+                 (including 6 critical patches)
+
+      https://www.jpcert.or.jp/english/at/2016/at160007.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for February, 2016.
+This bulletin contains six (6) updates that are rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for February 2016
+    https://technet.microsoft.com/en-us/library/security/ms16-feb
+
+  [Security updates rated as "critical"]
+
+    MS16-009
+    Cumulative Security Update for Internet Explorer (3134220)
+    https://technet.microsoft.com/en-us/library/security/MS16-009
+
+    MS16-011
+    Cumulative Security Update for Microsoft Edge (3134225)
+    https://technet.microsoft.com/en-us/library/security/MS16-011
+
+    MS16-012
+    Security Update for Microsoft Windows PDF Library to Address Remote Code Execution (3138938)
+    https://technet.microsoft.com/en-us/library/security/MS16-012
+
+    MS16-013
+    Security Update for Windows Journal to Address Remote Code Execution (3134811)
+    https://technet.microsoft.com/en-us/library/security/MS16-013
+
+    MS16-015
+    Security Update for Microsoft Office to Address Remote Code Execution (3134226)
+    https://technet.microsoft.com/en-us/library/security/MS16-015
+
+    MS16-022
+    Security Update for Adobe Flash Player (3135782)
+    https://technet.microsoft.com/en-us/library/security/MS16-022
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for February 2016
+    https://technet.microsoft.com/en-us/library/security/ms16-feb
+
+    Microsoft
+    Microsoft Security Information for February 2016 (Monthly) MS16-009, MS16-011 - MS16-022 (Japanese)
+    http://blogs.technet.com/b/jpsecurity/archive/2016/02/10/201602-security-bulletin.aspx
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

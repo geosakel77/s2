@@ -1,0 +1,70 @@
+JPCERT-AT-2009-0009
+                                                            JPCERT/CC
+                                                           2009-05-13
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2009-05-13 &gt;&gt;&gt;
+
+              Vulnerability in Adobe Reader and Acrobat
+
+             http://www.jpcert.or.jp/at/2009/at090009.txt
+
+
+I. Overview
+
+  Adobe Acrobat and Adobe Reader, a PDF file creation and conversion
+software and a PDF file viewing software respectively, contain a
+vulnerability concerning the processing of JavaScript in a document.
+As a result, a remote attacker could terminate Adobe Acrobat and
+Adobe Reader processes or execute arbitrary code by convincing a user
+to open a specially crafted PDF file.
+
+    Security Updates available for Adobe Reader and Acrobat
+    http://www.adobe.com/support/security/bulletins/apsb09-06.html
+
+
+II. Products Affected
+
+  Affected products and versions are as follows:
+
+  - Adobe Reader 9.1 and earlier
+  - Adobe Acrobat 9.1 Standard, Pro, Pro Extended and earlier
+
+
+III. Solution
+
+  Apply the corrected software provided by Adobe Systems. Adobe Reader
+and Acrobat will be updated by starting the products, selecting the
+menu Help (H), and then clicking Check for Updates (U).
+
+  If update is not possible, download the latest Adobe Acrobat and
+Adobe Reader from the following URLs (for Windows):
+
+    Adobe.com - New downloads
+    http://www.adobe.com/support/downloads/new.jsp
+
+  * Note: as of 13 May 2009, patches for the Macintosh editions of
+    Adobe Reader 7 and Acrobat 7 were not available.  These are
+    expected to be released by the end of June.
+
+**********************************************************************
+
+  For more information, refer to Adobe Systems' website.
+
+
+IV. References
+
+    JVNVU#970180
+    Adobe Reader and Acrobat customDictionaryOpen(), getAnnots() vulnerability (Japanese)
+    http://jvn.jp/cert/JVNVU970180/index.html
+
+    Security updates available for buffer overflow issues in Adobe Reader and Acrobat
+    http://www.adobe.com/support/security/advisories/apsa09-02.html
+
+
+If you have any information you could provide regarding this alert, please contact us.
+
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602

@@ -1,0 +1,103 @@
+JPCERT-AT-2020-0043
+                                                             JPCERT/CC
+                                                    2020-11-18(Initial)
+                                                    2020-12-09(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-11-18 &gt;&gt;&gt;
+
+      Alert Regarding Vulnerabilities in Cisco Security Manager
+
+       https://www.jpcert.or.jp/english/at/2020/at200043.html
+
+
+I. Overview
+On November 16, 2020, Cisco released information on vulnerabilities
+(CVE-2020-27125, CVE-2020-27130, CVE-2020-27131) in Cisco Security
+Manager. A remote attacker leveraging these vulnerabilities may download
+arbitrary files from the affected device or may execute arbitrary java
+code with administrator privileges.
+
+    Cisco
+    Cisco Security Manager Static Credential Vulnerability
+    https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-csm-rce-8gjUz9fW
+    * Advisory for CVE-2020-27125
+
+    Cisco
+    Cisco Security Manager Path Traversal Vulnerability
+    https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-csm-path-trav-NgeRnqgR
+    * Advisory for CVE-2020-27130
+
+    Cisco
+    Cisco Security Manager Java  Deserialization Vulnerabilities
+    https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-csm-java-rce-mWJEedcD
+    * Advisory for CVE-2020-27131
+
+JPCERT/CC is aware that Proof-of-Concept code for some of these
+vulnerabilities have been made public. Although we have not confirmed
+any information regarding attacks that exploit these vulnerabilities,
+it is strongly recommended to apply the versions that address these
+vulnerabilities. For more details on these vulnerabilities, please
+refer to the information provided by Cisco.
+
+
+II. Affected Products and Versions
+Following products and versions are affected by these vulnerabilities.
+
+  CVE-2020-27125, CVE-2020-27130
+  - Cisco Security Manager version 4.21 and earlier
+
+  CVE-2020-27131
+  - Cisco Security Manager version 4.22 and earlier
+
+
+III. Solution
+Cisco has provided versions that address these vulnerabilities. It is
+strongly recommended to apply the versions after thorough testing.
+In addition, Cisco Security Manager Release 4.23, which is a version
+that addresses the vulnerability CVE-2020-27131, has not been released
+as of November 18, 2020.
+
+** Update: December 9, 2020 Update ***********************************
+On December 7, 2020 (Local Time), Cisco released a version of Cisco
+Security Manager that addresses the vulnerability CVE-2020-27131.
+JPCERT/CC have not confirmed information on attacks leveraging this
+vulnerability, but since there is a possibility that the vulnerability
+will be exploited, users of the affected products are recommended to
+apply the latest version. For more information, plsease refer to the
+information provided by Cisco.
+**********************************************************************
+
+
+IV. References
+    Cisco
+    Cisco Security Manager Static Credential Vulnerability
+    https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-csm-rce-8gjUz9fW
+    * Advisory for CVE-2020-27125
+
+    Cisco
+    Cisco Security Manager Path Traversal Vulnerability
+    https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-csm-path-trav-NgeRnqgR
+    * Advisory for CVE-2020-27130
+
+    Cisco
+    Cisco Security Manager Java  Deserialization Vulnerabilities
+    https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-csm-java-rce-mWJEedcD
+    * Advisory for CVE-2020-27131
+
+    Tenable
+    CVE-2020-27125, CVE-2020-27130, CVE-2020-27131: Pre-Authentication Vulnerabilities in Cisco Security Manager Disclosed
+    https://jp.tenable.com/blog/cve-2020-27125-cve-2020-27130-cve-2020-27131-vulnerabilities-in-cisco-security-manager
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2020-11-18 First edition
+2020-12-09 Updated "III. Solution"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

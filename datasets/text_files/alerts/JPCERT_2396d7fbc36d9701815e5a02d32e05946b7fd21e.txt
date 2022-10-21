@@ -1,0 +1,118 @@
+JPCERT-AT-2014-0016
+                                                             JPCERT/CC
+                                                            2014-04-15
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2014-04-15 &gt;&gt;&gt;
+
+             Alert regarding DNS cache poisoning attack
+
+        https://www.jpcert.or.jp/english/at/2014/at140016.html
+
+
+I. Overview
+
+  Cache DNS servers that do not randomize the UDP source port
+(hereinafter "source port randomization") contain known vulnerability
+which may allow attackers to perform cache poisoning attack. A remote
+attacker may leverage this vulnerability and poison a cache DNS
+server with forged DNS information.
+
+  According to the information provided by Japan Registry Services
+Co., Ltd. (hereinafter "JPRS"), they have been observing DNS queries
+from DNS servers that do not implement source port randomization to
+DNS servers operated by JPRS. Additionally, they are informed by some
+Internet Service Providers that the access targeting this
+vulnerability has been increasingly observed.
+
+  It is estimated that such attacks may keep increasing henceforth,
+and therefore administrators are recommended to take measures such as
+applying a patch addressing this vulnerability and modifying the
+configuration.
+
+
+II. Products Affected
+
+  This vulnerability may affect multiple DNS server software. For more
+information, please refer to the advisory issued by the vendors on the
+following websites:
+
+    JVNVU#800113
+    Multiple DNS implementations vulnerable to cache poisoning (Japanese)
+    https://jvn.jp/cert/JVNVU800113/index.html
+
+    Vulnerability Note VU#800113
+    Multiple DNS implementations vulnerable to cache poisoning
+    https://www.kb.cert.org/vuls/id/800113
+
+  Note that the software products which are not mentioned in the
+websites above may also be affected. For other software products used
+in your system, please contact the vendors.
+
+
+III. Solution
+
+  For administrators operating DNS server software affected by this
+vulnerability, it is recommended to take measures such as applying
+a patch which addresses this vulnerability and modifying the
+configuration.
+
+  Please be aware of the following 3 notes upon applying the
+solutions:
+
+  Note 1: 'named.conf' configuration
+
+  When BIND is used, named.conf may have been configured to specify a
+  static DNS query source port as follows:
+
+    query-source    port 53;
+    query-source-v6 port 53;
+
+  In this case, even after updating the version, the source port
+  randomization will not take effect as long as you do not modify the
+  configuration.
+
+
+  Note 2: Port translation on network devices
+
+  Due to the function of Network Address Translation (NAT) of network
+  devices such as firewalls and routers, the source port randomization
+  implemented by DNS server may not work properly. For more details on
+  how to modify the configuration and update the firmware, please
+  refer to the information provided by the vendors.
+
+
+  Note 3: Firewall configuration
+
+  Once the solution is applied, source ports for queries from a DNS
+  server become randomized. This may cause a firewall to restrict
+  communication from the DNS server. Administrators are recommended to
+  check the firewall settings before modifying the configuration of the
+  DNS server.
+
+
+IV. References
+
+    (Critical) Reconfirmation of DNS server configuration regarding
+    the increasing risk of cache poisoning attack (Japanese)
+    (Released on April 15, 2014)
+    -- Strongly recommending to quickly confirm and respond to the
+       randomization of UDP port request --
+    http://jprs.jp/tech/security/2014-04-15-portrandomization.html
+
+    JVNVU#800113
+    Multiple DNS implementations vulnerable to cache poisoning (Japanese)
+    https://jvn.jp/cert/JVNVU800113/index.html
+
+    Vulnerability Note VU#800113
+    Multiple DNS implementations vulnerable to cache poisoning
+    https://www.kb.cert.org/vuls/id/800113
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

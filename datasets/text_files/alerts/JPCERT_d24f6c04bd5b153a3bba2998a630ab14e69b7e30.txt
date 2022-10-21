@@ -1,0 +1,101 @@
+JPCERT-AT-2021-0021
+                                                             JPCERT/CC
+                                                            2021-04-30
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-04-30 &gt;&gt;&gt;
+
+            Alert Regarding Vulnerabilities in ISC BIND 9
+
+       https://www.jpcert.or.jp/english/at/2021/at210021.html
+
+
+I. Overview
+ISC BIND 9 contains multiple vulnerabilities. A remote attacker
+leveraging these vulnerabilities may cause named to terminate
+unexpectedly or execute arbitrary code, etc.
+
+ISC has rated the vulnerabilities CVE-2021-25215 and CVE-2021-25216 as
+"High", and CVE-2021-25214 as "Medium". For more information on these
+vulnerabilities, please refer to the information provided by ISC.
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2021-25214: A broken inbound incremental zone update (IXFR) can cause named to terminate unexpectedly
+    https://kb.isc.org/docs/cve-2021-25214
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2021-25215: An assertion check can fail while answering queries for DNAME records that require the DNAME to be processed to resolve itself
+    https://kb.isc.org/docs/cve-2021-25215
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2021-25216: A second vulnerability in BIND's GSSAPI security policy negotiation can be targeted by a buffer overflow attack
+    https://kb.isc.org/docs/cve-2021-25216
+
+If you are operating an affected version of ISC BIND 9, please consider
+updating to a version that addresses the vulnerability by referring
+to the information in "III. Solution".
+
+
+II. Affected Products and Versions
+According to ISC, the following versions are affected by these
+vulnerabilities.
+
+  - BIND 9.16.x versions from 9.16.0 to 9.16.13
+  - BIND 9.11.x versions from 9.11.0 to 9.11.29
+  - BIND 9 Supported Preview Edition from 9.16.8-S1 to 9.16.11-S3
+  - BIND 9 Supported Preview Edition from 9.11.3-S1 to 9.11.27-S1
+
+CVE-2021-25214 can only affect a server if named accepts zone
+transfers. CVE-2021-25216 can affect a server if its configuration has
+explicity setting values for the option related to GSS-API
+(tkey-gssapi-keytab or tkey-gssapi-credential). Also, affected
+versions includes prior to 9.10.x, from 9.12.x to 9.15.x which are no
+longer supported, and development branch 9.17.x. The environment
+affected by the vulnerability includes a mixed-server environment that
+combined BIND 9.x servers with Active Directory domain controllers,
+as well as in networks where BIND 9.x is integrated with Samba. 
+
+If you are using BIND provided by a distributor, please refer to the
+information provided by that distributor.
+
+
+III. Solution
+ISC has released fixed versions of ISC BIND 9 that address these
+vulnerabilitiese. Distributors will provide their own versions
+that address these vulnerabilities. Consider updating to a fixed
+version after thorough testing.
+
+  - BIND 9.16.15
+  - BIND 9.11.31
+  - BIND 9 Supported Preview Edition 9.16.15-S1
+  - BIND 9 Supported Preview Edition 9.11.31-S1
+
+
+V. References
+    Internet Systems Consortium, Inc. (ISC)
+    BIND 9 Security Vulnerability Matrix
+    https://kb.isc.org/docs/aa-00913
+
+    Japan Network Information Center (JPNIC)
+    Multiple Vulnerabilities in BIND 9 (April 2021) (Japanese)
+    https://www.nic.ad.jp/ja/topics/2021/20210429-01.html
+
+    Japan Registry Services (JPRS)
+    Vulnerability in BIND 9.x (Termination of DNS service) (CVE-2021-25214) - Only for secondary server, recommended to update the version - (Japanese)
+    https://jprs.jp/tech/security/2021-04-30-bind9-vuln-ixfr.html
+
+    Japan Registry Services (JPRS)
+    (Urgent) Vulnerability in BIND 9.x (Termination of DNS service) (CVE-2021-25215) - Strongly recommended to update the version - (Japanese)
+    https://jprs.jp/tech/security/2021-04-30-bind9-vuln-dname.html
+
+    Japan Registry Services (JPRS)
+    (Urgent) Vulnerability in BIND 9.x (Termination of DNS service/Remote code execution) (CVE-2021-25216) - Only applicable when GSS-TSIG is enabled, Strongly recommended to update the version - (Japanese)
+    https://jprs.jp/tech/security/2021-04-30-bind9-vuln-gsstsig.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

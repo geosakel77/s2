@@ -1,0 +1,93 @@
+JPCERT-AT-2019-0002
+                                                             JPCERT/CC
+                                                            2019-01-09
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-01-09 &gt;&gt;&gt;
+
+          Microsoft Releases January 2019 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2019/at190002.html
+
+
+I. Overview
+Microsoft has released January 2019 Security Updates. This contains
+updates that are rated as "critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    January 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/b4384b95-e6d2-e811-a983-000d3a33c573
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    CVE-2019-0539
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0539
+    - KB4480116, KB4480961, KB4480962, KB4480966, KB4480973, KB4480978
+
+    CVE-2019-0547
+    Windows DHCP Client Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0547
+    - KB4480966
+
+    CVE-2019-0550
+    Windows Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0550
+    - KB4480116, KB4480966
+
+    CVE-2019-0551
+    Windows Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0551
+    - KB4480116, KB4480961, KB4480966, KB4480973, KB4480978
+
+    CVE-2019-0565
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0565
+    - KB4480116, KB4480966
+
+    CVE-2019-0567
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0567
+    - KB4480116, KB4480961, KB4480962, KB4480966, KB4480973, KB4480978
+
+    CVE-2019-0568
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0568
+    - KB4480116, KB4480966
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    January 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/b4384b95-e6d2-e811-a983-000d3a33c573
+
+    Microsoft Corporation
+    Microsoft Security Updates for January 2019 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2019/1/9/201901-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-6271-8901  FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,87 @@
+JPCERT-AT-2018-0019
+                                                             JPCERT/CC
+                                                            2018-04-26
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-04-26 &gt;&gt;&gt;
+
+       Alert Regarding Vulnerability (CVE-2018-7602) in Drupal
+
+        https://www.jpcert.or.jp/english/at/2018/at180019.html
+
+
+I. Overview
+On April 25, 2018 (local time), Drupal released a security advisory
+information (SA-CORE-2018-004). According to the information, Drupal
+contains a vulnerability (CVE-2018-7602) that leads to a remote code
+execution. A remote attacker leveraging this vulnerability may
+compromise websites built with Drupal. According to Drupal, this
+vulnerability is related to the previous security advisory
+(SA-CORE-2018-002) and is already being exploited in the wild.
+
+For details on the vulnerability, refer to the information provided
+by Drupal.
+
+    Drupal
+    Drupal core - Highly critical - Remote Code Execution - SA-CORE-2018-004
+    https://www.drupal.org/sa-core-2018-004
+
+
+II. Affected Versions
+The following versions are affected by this vulnerability.
+
+  - Drupal versions prior to 8.5.3
+  - Drupal versions prior to 7.59
+
+  * Drupal versions 8.4.x, which is no longer supported, is also affected by the vulnerability.
+
+III. Solution
+Drupal has released updated versions of Drupal that address this
+vulnerability. It is recommended to update to the latest version after
+thorough testing.
+
+Versions that address the vulnerability are as follows:
+
+  - Drupal 8.5.3
+  - Drupal 7.59
+  - Drupal 8.4.8
+
+For Drupal versions 8.4.x, which is no longer supported, updated
+versions were released as a temporary workaround. If it is difficult
+to update to the supported version early, please consider updating
+to the latest version that addresses the vulnerability.
+
+
+IV. References
+    Drupal
+    drupal 8.5.3
+    https://www.drupal.org/project/drupal/releases/8.5.3
+
+    Drupal
+    drupal 7.59
+    https://www.drupal.org/project/drupal/releases/7.59
+
+    Drupal
+    drupal 8.4.8
+    https://www.drupal.org/project/drupal/releases/8.4.8
+
+    Drupal
+    Drupal core - Highly critical - Remote Code Execution - SA-CORE-2018-004
+    https://www.drupal.org/sa-core-2018-004
+
+    Drupal
+    Drupal core - Highly critical - Remote Code Execution - SA-CORE-2018-002
+    https://www.drupal.org/sa-core-2018-002
+
+    US-CERT
+    Drupal Releases Critical Security Updates
+    https://www.us-cert.gov/ncas/current-activity/2018/04/25/Drupal-Releases-Critical-Security-Updates
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

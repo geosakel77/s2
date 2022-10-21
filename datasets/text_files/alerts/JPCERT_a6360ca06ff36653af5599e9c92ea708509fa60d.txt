@@ -1,0 +1,90 @@
+JPCERT-AT-2010-0010
+                                                            JPCERT/CC
+                                                           2010-04-16
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2010-04-16 &gt;&gt;&gt;
+
+              Vulnerabilities in Oracle Sun JDK and JRE
+
+            https://www.jpcert.or.jp/at/2010/at100010.txt
+
+
+I. Overview
+
+  Oracle JDK and JRE contain multiple vulnerabilities. As a result, a 
+remote attacker could execute arbitrary code by convincing a user to 
+view a specially crafted website. Attack sites that might be 
+exploiting this vulnerability have already been made public. Users 
+are recommended to apply a patch immediately.
+
+  Oracle Security Alert CVE-2010-0886
+  http://www.oracle.com/technology/deploy/security/alerts/alert-cve-2010-0886.html
+
+
+II. Products Affected
+
+  Affected products and versions are as follows:
+
+  JDK and JRE 6 Update 19 and earlier
+
+* The JRE is preinstalled in some PCs provided by certain 
+manufacturers. Just in case, make sure if the JRE is installed on the 
+PC.
+
+
+III. Result of JPCERT/CC Verification
+
+  JPCERT/CC has examined the exploit code for this vulnerability.
+
+    [Verification environment]
+    OS: Windows XP SP3 (with April 2010 security update applied)
+     Browser: IE 8.0.6001.18702 or Firefox 3.6.3
+
+  - Verification result for JRE 6 Update 19
+    As a result of executing the exploit code in the above 
+    verification environment with JRE 6 update 19 installed, 
+    JPCERT/CC has confirmed that calc.exe is executed.
+    (The Java logo is displayed on the browser.)
+
+  - Verification result for JRE 6 Update 20
+    As a result of executing the exploit code in the above 
+    verification environment with JRE 6 update 20 installed, 
+    JPCERT/CC has confirmed that calc.exe is not executed.
+    (The Java logo is not displayed on the browser.)
+
+
+IV. Solution
+
+  Apply the corrected software (update 20) provided by Oracle. 
+
+  Java SE Downloads
+  http://java.sun.com/javase/downloads/index.jsp
+
+When 64-bit Windows is used, either 32-bit JRE or 64-bit JDK/JRE, or 
+both may be installed. Users should check their JDK/JRE, and apply 
+the corresponding corrected software.
+
+
+V. References
+
+  Oracle
+  Security Alert for CVE-2010-0886 and CVE-2010-0887 Released
+  http://blogs.oracle.com/security/2010/04/security_alert_for_cve-2010-08.html
+
+  JVNVU#886582
+  Oracle Sun Java Deployment Toolkit insufficient argument validation
+  https://jvn.jp/cert/JVNVU886582/index.html
+
+  ISS Tokyo SOC Report
+  Zero-day attacks exploiting a Java Deployment Toolkit vulnerability have been observed
+  https://www-950.ibm.com/blogs/tokyo-soc/entry/javaws-201004?lang=ja
+
+
+If you have any further questions or information regarding this alert, 
+please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

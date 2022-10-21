@@ -1,0 +1,69 @@
+JPCERT-AT-2015-0034
+                                                            JPCERT/CC
+                                                           2015-10-14
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2015-10-14 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for October 2015
+                 (including 3 critical patches)
+
+      https://www.jpcert.or.jp/english/at/2015/at150034.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for October, 2015.
+This bulletin contains three (3) updates that are rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for October 2015 
+    https://technet.microsoft.com/en-us/library/security/ms15-oct
+
+  [Security updates rated as "critical"]
+
+    MS15-106
+    Cumulative Security Update for Internet Explorer (3096441) 
+    https://technet.microsoft.com/en-us/library/security/MS15-106
+
+    MS15-108
+    Security Update for JScript and VBScript to Address Remote Code Execution (3089659)
+    https://technet.microsoft.com/en-us/library/security/MS15-108
+
+    MS15-109
+    Security Update for Windows Shell to Address Remote Code Execution (3096443)
+    https://technet.microsoft.com/en-us/library/security/MS15-109
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/windowsupdate/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/windowsupdate/
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for October 2015 
+    https://technet.microsoft.com/en-us/library/security/ms15-oct
+    
+    Microsoft
+    Microsoft Security Information for October 2015 (Monthly) MS15-106 - MS15-111 (Japanese)
+    http://blogs.technet.com/b/jpsecurity/archive/2015/10/14/201510-security-bulletin.aspx
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,122 @@
+JPCERT-AT-2019-0038
+                                                             JPCERT/CC
+                                                            2019-10-09
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-10-09 &gt;&gt;&gt;
+
+         Microsoft Releases October 2019 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2019/at190038.html
+
+
+I. Overview
+Microsoft has released October 2019 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    October 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/28ef0a64-489c-e911-a994-000d3a33c573
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    CVE-2019-1060
+    MS XML Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1060
+    - KB4517389, KB4519338, KB4519985, KB4519990, KB4519998, KB4520004
+      KB4520005, KB4520007, KB4520008, KB4520010, KB4520011
+
+    CVE-2019-1238
+    VBScript Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1238
+    - KB4517389, KB4519338, KB4519974, KB4519976, KB4519998, KB4520004
+      KB4520005, KB4520008, KB4520010, KB4520011
+
+    CVE-2019-1239
+    VBScript Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1239
+    - KB4519338
+
+    CVE-2019-1307
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1307
+    - KB4517389, KB4519338, KB4519998, KB4520004, KB4520008, KB4520010
+      KB4520011
+
+    CVE-2019-1308
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1308
+    - KB4517389, KB4519338, KB4519998, KB4520004, KB4520008, KB4520010
+      KB4520011
+
+    CVE-2019-1333
+    Remote Desktop Client Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1333
+    - KB4517389, KB4519338, KB4519976, KB4519985, KB4519990, KB4519998
+      KB4520002, KB4520003, KB4520004, KB4520005, KB4520007, KB4520008
+      KB4520009, KB4520010, KB4520011
+
+    CVE-2019-1335
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1335
+    - KB4517389, KB4519338, KB4519998, KB4520004, KB4520008, KB4520010
+      KB4520011
+
+    CVE-2019-1366
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1366
+    - KB4517389, KB4519338, KB4519998, KB4520004, KB4520008, KB4520010
+      KB4520011
+
+    CVE-2019-1367
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1367
+    - KB4517389, KB4519338, KB4519974, KB4519976, KB4519998, KB4520004
+      KB4520005, KB4520008, KB4520010, KB4520011
+
+    CVE-2019-1372
+    Azure App Service Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1372
+    - Not listed because the KB number is not assigned
+
+As for the vulnerability in Internet Explorer (CVE-2019-1367), it is
+reported that installing security updates provided on September 23 and
+October 3 (US time) causes a printing issue. To address these issues,
+installing the October security updates is recommended.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation 
+    October 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/28ef0a64-489c-e911-a994-000d3a33c573
+
+    Microsoft Corporation
+    Microsoft Security Updates for October 2019 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2019/10/08/201910-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: ew-info@jpcert.or.jp
+TEL: +81-3-6271-8901 FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,168 @@
+JPCERT-AT-2016-0020
+                                                             JPCERT/CC
+                                                            2016-04-28
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-04-28 &gt;&gt;&gt;
+
+                 Vulnerability in Apache Struts 2 (S2-032)
+
+          https://www.jpcert.or.jp/english/at/2016/at160020.html
+
+
+I. Overview
+
+ Apache Struts 2 provided by the Apache Software Foundation contains a
+vulnerability (S2-032/CVE-2016-3081). When Dynamic Method Invocation (DMI)
+is enabled, a remote attacker sending a specially crafted HTTP request
+may execute arbitrary code on the server that runs an application using
+Apache Struts 2 (Struts application). For more details on the vulnerability,
+please refer to the information provided by the Apache Software Foundation.
+
+  Proof-of-Concept (PoC) code for this vulnerability has been already made
+public, and JPCERT/CC's test of this code confimed that arbitrary code
+was executed with the execution privilege of the application server
+which runs the Struts application. In Apache Struts versions 2.3.15.2 and
+later, DMI has been disabled by default. However, if DMI is enabled,
+it is recommended to consider applying a countermeasure as soon as possible.
+The National Police Agency has observed activity attempting to leverage
+this Apache Struts 2 vulnerability.
+
+  Apache Software Foundation has provided versions of the software that
+address the vulnerability. For those using an affected version of the
+software and those with DMI enabled, it is strongly recommended to quickly
+resolve the issue based on information provided in "V. Solution" or
+"VI. Workarounds".
+
+
+II. A Possible Attack Scenario
+
+  Sending a specially crafted HTTP request to a Struts application with
+DMI enabled may result in arbitrary code execution on the server which
+runs the Struts application.
+
+
+III. Affected Systems
+
+  The following versions are affected by this vulnerability:
+
+  - Apache Struts versions 2.3.20 through 2.3.28
+    (except for 2.3.20.3 and 2.3.24.3)
+
+  Products that contain Apache Struts 2 are also affected by this
+vulnerability. 
+
+
+IV. Test Results from JPCERT/CC
+
+  JPCERT/CC tested the PoC code that leverages this vulnerability.
+
+  [Test content]
+  - Using the proof-of-concept code, a sample application that uses 
+    Apache Struts 2 was deployed in Apache Tomcat. We examined if arbitrary
+    OS command is executed by sending a specially crafted HTTP request.
+
+  [Test Environment]
+  - Application Server
+    - CentOS 7.2.1511
+    - Apache Tomcat 7.0.57
+    - Java 1.8.0_71
+    - Sample application that uses Apache Struts 2
+
+  [Test Results] 
+  - We observed that arbitrary code execution is possible on a server 
+    that uses the affected versions of Apache Struts 2.
+  - We observed that arbitrary code is not executed on a server that
+    uses the versions of Apache Struts 2 where the vulnerability has 
+    been addressed.
+  - We observed that arbitrary code is not executed on servers with
+    Apache Struts 2 with disabled DMI. DMI is disabled by default in
+    Apache Struts versions 2.3.15.2 and later.
+
+                             |  enable DMI  | disable DMI  |
+   - Apache Struts 2.3.28.1  | not affected |              |
+   - Apache Struts 2.3.28    |   affected   | not affected |
+   - Apache Struts 2.3.24.3  | not affected |              |
+   - Apache Struts 2.3.24.1  |   affected   | not affected |
+   - Apache Struts 2.3.24    |   affected   | not affected |
+   - Apache Struts 2.3.20.3  | not affected |              |
+   - Apache Struts 2.3.20.1  |   affected   | not affected |
+   - Apache Struts 2.3.20    |   affected   | not affected |
+
+
+V. Solution
+
+ Apache Software Foundation has released a version addressing this
+vulnerability. It is recommended to update to this latest version
+after thorough testing. If an update cannot be applied, please consider
+applying workarounds based on the information provided in "VI. Workarounds"
+to mitigate the impacts of the vulnerability.
+  
+  -  Apache Struts 2.3.20.3
+  -  Apache Struts 2.3.24.3
+  -  Apache Struts 2.3.28.1
+
+
+VI. Workarounds
+
+  Please consider the following workarounds to mitigate the impacts of the
+vulnerability. 
+
+  (1) If Direct Method Invocation (DMI) is enabled, disable it.
+       For more details, please refer to the following information.
+
+      Apache Struts 2 Documentation
+      Dynamic Method Invocation
+      https://struts.apache.org/docs/action-configuration.html#ActionConfiguration-DynamicMethodInvocation
+
+  (2) Implement a customized ActionMapper based on the source code of a
+      version of Apache Struts 2 that has the vulnerability addressed.
+      For more details, please refer to the following information.
+
+      Apache Struts 2 Documentation
+      ActionMapper and ActionMapping objects
+      https://struts.apache.org/docs/actionmapper.html#ActionMapper-Customize
+
+
+VII. References
+
+    Apache Struts 2 Documentation
+    Version Notes 2.3.28.1
+    https://struts.apache.org/docs/version-notes-23281.html
+
+    Apache Struts 2 Documentation
+    Version Notes 2.3.24.3
+    https://struts.apache.org/docs/version-notes-23243.html
+
+    Apache Struts 2 Documentation
+    Version Notes 2.3.20.3
+    https://struts.apache.org/docs/version-notes-23203.html
+
+    Apache Struts 2 Documentation
+    S2-032 : Remote Code Execution can be performed via method: prefix when Dynamic Method Invocation is enabled.
+    https://struts.apache.org/docs/s2-032.html
+
+    Apache Struts 2 Documentation
+    S2-019 : Dynamic Method Invocation disabled by default
+    https://struts.apache.org/docs/s2-019.html
+
+    JVNVU#91375252
+    Code execution vulnerability in Apache Struts 2 (Japanese)
+    https://jvn.jp/vu/JVNVU91375252/
+
+    Information-technology Promotion Agency
+    About countermeasure for vulnerability in Apache Struts2(CVE-2016-3081)(S2-032) (Japanese)
+    https://www.ipa.go.jp/security/ciadr/vul/20160427-struts.html
+
+    National Police Agency
+    Observations of access attempts targeting Apache Struts 2 vulnerabilities (PDF) (Japanese)
+    https://www.npa.go.jp/cyberpolice/detect/pdf/20160427.pdf
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

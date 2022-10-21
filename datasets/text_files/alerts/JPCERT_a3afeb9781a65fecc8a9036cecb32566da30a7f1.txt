@@ -1,0 +1,142 @@
+JPCERT-AT-2018-0011
+                                                             JPCERT/CC
+                                                            2018-03-14
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-03-14 &gt;&gt;&gt;
+
+            Microsoft Releases March 2018 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2018/at180011.html
+
+
+I. Overview
+Microsoft has released March 2018 Security Updates. This contains
+updates that are rated as "critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    March 2018 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/6c8fa125-28f6-e711-a963-000d3a33a34d
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    ADV180006
+    March 2018 Adobe Flash Security Update
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV180006
+    - KB4088785
+
+    CVE-2018-0872
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0872
+    - KB4088776, KB4088779, KB4088782, KB4088786, KB4088787
+
+    CVE-2018-0874
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0874
+    - KB4088776, KB4088779, KB4088782, KB4088786, KB4088787
+
+    CVE-2018-0876
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0876
+    - KB4088776, KB4088779, KB4088782, KB4088786, KB4088787
+
+    CVE-2018-0889
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0889
+    - KB4088776, KB4088779, KB4088782, KB4088786, KB4088787, KB4088875
+      KB4088876, KB4089187
+
+    CVE-2018-0893
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0893
+    - KB4088776, KB4088779, KB4088782, KB4088787
+
+    CVE-2018-0930
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0930
+    - KB4088776
+
+    CVE-2018-0931
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0931
+    - KB4088776, KB4088779, KB4088782, KB4088786, KB4088787
+
+    CVE-2018-0932
+    Microsoft Browser Information Disclosure Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0932
+    - KB4088776, KB4088779, KB4088782, KB4088786, KB4088787, KB4088875
+      KB4088876, KB4089187
+
+    CVE-2018-0933
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0933
+    - KB4088776, KB4088779, KB4088782, KB4088786, KB4088787
+
+    CVE-2018-0934
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0934
+    - KB4088776, KB4088779, KB4088782, KB4088786, KB4088787
+
+    CVE-2018-0936
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0936
+    - KB4088776
+
+    CVE-2018-0937
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0937
+    - KB4088776, KB4088782
+
+    CVE-2018-0939
+    Scripting Engine Information Disclosure Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0939
+    - KB4088776, KB4088782
+
+According to Microsoft, attacks leveraging the vulnerabilities have
+not been observed in the wild. However, please apply the security
+update programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update / Windows Update
+    http://www.update.microsoft.com/
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+
+III. References
+    Microsoft Corporation
+    March 2018 Security Updates 
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/6c8fa125-28f6-e711-a963-000d3a33a34d
+
+    Microsoft Corporation
+    Microsoft Security Updates for March 2018 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2018/03/14/201803-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Adobe Systems Incorporated
+    Security updates available for Flash Player | APSB18-05
+    https://helpx.adobe.com/security/products/flash-player/apsb18-05.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerability in Adobe Flash Player (APSB18-05)
+    https://www.jpcert.or.jp/english/at/2018/at180010.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,97 @@
+JPCERT-AT-2012-0036
+                                                             JPCERT/CC
+                                            2012-11-14 (First Edition)
+                                                  2012-11-16 (Updated)
+
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2012-11-14 &gt;&gt;&gt;
+
+    Attacks targeting Java SE vulnerabilities disclosed on October 2012
+
+        https://www.jpcert.or.jp/english/at/2012/at120036.html
+
+
+I. Overview
+
+  JPCERT/CC has observed attacks that target known vulnerabilities in
+Java SE JDK and JRE provided by Oracle. Of the vulnerabilities in Java
+SE JDK and JRE that were disclosed on October 17, 2012, these attacks
+are targeting vulnerabilities in Java 7. Therefore, users of Java 7 who
+are not using the most recent version of Java 7 may be vulnerable to 
+arbitrary code execution by a remote attacker. For more information on
+the vulnerabilities, refer to the information provided by Oracle.
+
+    Oracle
+    Oracle Java SE Critical Patch Update Advisory - October 2012
+    http://www.oracle.com/technetwork/topics/security/javacpuoct2012-1515924.html
+
+*** Update: Revised on November 16, 2012 *****************************
+  JPCERT/CC has received incident reports regarding official Japanese
+websites being altered. Users who access the altered website are
+redirected to a malicious website and infected with malware that
+leverage the Java vulnerabilities.
+*** Update: Revised on November 16, 2012 *****************************
+
+  Also it has been confirmed that parts of the attack code have been
+incorporated into Exploit Kits. Attacks targeting these vulnerabilities
+may increase. We recommend updating the software to the most recent 
+version provided by Oracle.
+
+
+II. Products Affected
+
+  JDK and JRE 7 Update 7 and earlier versions
+
+
+III. JPCERT/CC test results
+
+  JPCERT/CC conducted a test against the attack code that leveraged the
+vulnerabilities placed in a malicious website.
+
+    [Testing Environment]
+    OS: Windows 7 SP1 (with October 2012 security updates applied)
+    Web Browser: Internet Explorer 9
+
+  - Test Results with JRE 7 Update 7
+    In the testing environment above with JRE 7 Update 7 installed, 
+    arbitrary code execution was confirmed when the proof-of-concept
+    code was executed.
+
+  Also, it has been verified that JRE 7 Update 9 is not affected.
+
+
+IV. Solution
+
+  Oracle has released software that addresses the vulnerabilities.
+Please update to the most recent version of the software.
+
+  - Java SE JDK and JRE 7 Update 9
+
+    Java Downloads for All Operating Systems
+    http://www.java.com/en/download/manual.jsp
+
+
+V. References
+
+    Oracle
+    Oracle Java SE Critical Patch Update Advisory - October 2012
+    http://www.oracle.com/technetwork/topics/security/javacpuoct2012-1515924.html
+
+    Oracle
+    Java SE Development Kit 7 Update 9 Release Notes
+    http://www.oracle.com/technetwork/java/javase/7u9-relnotes-1863279.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision history
+2012-11-14 First edition 
+2012-11-16 Information added in "I. Overview"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

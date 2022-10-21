@@ -1,0 +1,134 @@
+JPCERT-AT-2007-0008
+                                                             JPCERT/CC
+                                March 30, 2007 (Original release date)
+                                         April 11, 2007 (Last revised)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2007-03-30 &gt;&gt;&gt;
+
+          Vulnerability in Processing Windows Animated Cursor
+
+             http://www.jpcert.or.jp/at/2007/at070008.txt
+
+I. Overview
+
+  Microsoft has released a security advisory regarding a vulnerability
+in animated cursor handling which remains unfixed. Animated cursors
+are a feature that allows a series of frames to appear at the mouse
+pointer location instead of a single image, thus producing a short
+loop of animation.
+
+  Exploitation of this vulnerability could allow a remote attacker to
+execute arbitrary code. Actually, attacks exploiting this
+vulnerability have been confirmed, but they are targeted attacks that
+aim at specific targets.
+
+    Microsoft Security Advisory (935423)
+    Vulnerability in Windows Animated Cursor Handling
+    http://www.microsoft.com/japan/technet/security/advisory/935423.mspx
+
+
+II. Systems Affected
+
+  According to Microsoft, the following systems are affected:
+
+  Microsoft Windows 2000 Service Pack 4
+  Microsoft Windows XP Service Pack 2
+  Microsoft Windows XP 64-Bit Edition Version 2003 (Itanium)
+  Microsoft Windows XP Professional x64 Edition
+  Microsoft Windows Server 2003
+  Microsoft Windows Server 2003 for Itanium-based Systems
+  Microsoft Windows Server 2003 Service Pack 1
+  Microsoft Windows Server 2003 with SP1 for Itanium-based Systems
+  Microsoft Windows Server 2003 x64 Edition
+  Microsoft Windows Vista
+
+
+III. Solution
+
+  As of March 30, 2007, Microsoft has not released any security
+updates for this vulnerability.
+
+*** Update: Added on April 4, 2007 ***********************************
+
+  On April 4, 2007 (JST), Microsoft released security updates. For
+more information, refer to the following vendor's website:
+
+    Microsoft Security Bulletin MS07-017
+    Vulnerabilities in GDI Could Allow Remote Code Execution (925902)
+      (MS07-017)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-017.mspx
+
+**********************************************************************
+
+
+IV. Workarounds
+
+  For detailed information on workarounds, refer to the advisories
+released by Microsoft. As information on workarounds and solutions is
+subject to review, users should check the latest versions.
+
+    Microsoft Security Advisory (935423)
+    Vulnerability in Windows Animated Cursor Handling
+    http://www.microsoft.com/japan/technet/security/advisory/935423.mspx
+
+  According to the reports from multiple security vendors, this
+vulnerability does not affect systems running Mozilla Firefox.
+
+*** Update: Added on April 11, 2007 **********************************
+  
+  It was confirmed that systems running Mozilla Firefox are also
+affected by this vulnerability. Users are recommended to apply the
+security updates released by Microsoft regardless of the browser used.
+
+**********************************************************************
+
+
+V. Reference Information
+
+    JP Vendor Status Notes JVNVU#191609
+    Microsoft Windows animated cursor ANI header stack buffer overflow
+    http://jvn.jp/cert/JVNVU%23191609/index.html
+
+    US-CERT Vulnerability Note VU#191609
+    Microsoft Windows animated cursor ANI header stack buffer overflow
+    http://www.kb.cert.org/vuls/id/191609
+
+    CERT/CC Current Activity Archive
+    Active Exploitation of an Unpatched Vulnerability in Microsoft
+      Windows ANI Handling
+    http://www.us-cert.gov/current/archive/2007/03/29/archive.html#WINANI
+
+    @police
+    Vulnerability in Microsoft Windows Animated Cursor Handling
+      (March 30)
+    http://www.cyberpolice.go.jp/important/2007/20070330_092644.html
+
+*** Update: Added on April 4, 2007 ******************************************
+
+    US-CERT Technical Cyber Security Alert TA07-089A
+    Microsoft Windows Animated Cursor Buffer Overflow
+    http://www.us-cert.gov/cas/techalerts/TA07-089A.html 
+
+    US-CERT Technical Cyber Security Alert TA07-093A
+    Microsoft Update for Windows Animated Cursor Vulnerability
+    http://www.us-cert.gov/cas/techalerts/TA07-093A.html 
+
+*********************************************************************
+
+
+  If you have any information regarding this matter, please contact
+us.
+
+__________
+
+Revision History
+March 30, 2007   Initial release
+April 4, 2007    Added information on the release of security updates
+                 for this vulnerability
+                 Added reference information URLs
+April 11, 2007   Corrected the description of the impact on Mozilla Firefox
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

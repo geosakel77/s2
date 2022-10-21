@@ -1,0 +1,82 @@
+JPCERT-AT-2018-0023
+                                                             JPCERT/CC
+                                                            2018-05-15
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-05-15 &gt;&gt;&gt;
+
+Alert Regarding OpenPGP and S/MIME Message Handling on Email Clients
+
+       https://www.jpcert.or.jp/english/at/2018/at180023.html
+
+
+I. Overview
+On May 14, 2018 (local time), security researchers announced an issue
+regarding the handling of OpenPGP and S/MIME on email clients. The
+researchers call the issue "EFAIL."
+
+    EFAIL
+    https://efail.de/
+
+According to the researchers, if the issue is exploited, an attacker
+may obtain the plain text of an encrypted email message by decrypting
+the specially crafted message on a user's email client. For more
+information, please refer to the information made public by the
+researchers.
+
+
+II. Affected Products
+Users affected by this issue are as follows:
+
+  - Users who use messages encrypted with OpenPGP or S/MIME on email clients.
+
+For information on email clients that are affected, please refer to
+the "Vendor Information" on the following URL and other information
+from vendors.
+
+    CERT/CC Vulnerability Note VU#122919
+    OpenPGP and S/MIME mail client vulnerabilities
+    https://www.kb.cert.org/vuls/id/122919
+
+
+III. Solution and workarounds
+The researchers suggested to take the following measures on the email
+client used as solutions or workarounds for reducing the impact of
+this issue.
+
+    (1) Decrypt a message on an environment outside of the email client
+    (2) Disable HTML rendering
+    (3) Change configurations so that network resources (that may be referred to as active content or remote content) included in messages will not be loaded automatically
+    (4) Apply patches and updates
+
+As of May 15, 2018, JPCERT/CC has not confirmed any updates and other
+information releases on email clients, OpenPGP, and S/MIME.
+It is recommended to check information from email client vendors or
+distributors to see if secured versions have been released.
+
+
+IV. References
+    Japan Vulnerability Notes JVNVU#95575473
+    Vulnerability in OpenPGP and S/MIME Email Clients Regarding Message Handling (Japanese)
+    https://jvn.jp/vu/JVNVU95575473/
+
+    EFAIL
+    Efail: Breaking S/MIME and OpenPGP Email Encryption using Exfiltration Channels
+    https://efail.de/efail-attack-paper.pdf
+
+    CERT/CC Vulnerability Note VU#122919
+    OpenPGP and S/MIME mail client vulnerabilities
+    https://www.kb.cert.org/vuls/id/122919
+
+    US-CERT
+    OpenPGP, S/MIME Mail Client Vulnerabilities
+    https://www.us-cert.gov/ncas/current-activity/2018/05/14/OpenPGP-SMIME-Mail-Client-Vulnerabilities
+    
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

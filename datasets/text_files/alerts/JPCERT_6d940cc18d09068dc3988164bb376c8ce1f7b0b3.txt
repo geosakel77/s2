@@ -1,0 +1,113 @@
+JPCERT-AT-2021-0009
+                                                             JPCERT/CC
+                                                    2021-02-16(Initial)
+                                                    2021-04-23(Update)
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-02-16 &gt;&gt;&gt;
+
+      Alert Regarding Vulnerability (CVE-2021-20655) in FileZen
+
+       https://www.jpcert.or.jp/english/at/2021/at210009.html
+
+
+I. Overview
+On February 16, 2021, Soliton Systems K.K. released information
+regarding a vulnerability (CVE-2021-20655) in the file data transfer
+appliance FileZen. A remote attacker who has access to the system
+administrator account may execute arbitrary OS commands by leveraging
+this vulnerability.
+
+    Soliton Systems K.K.
+    [Important] Request to check the configuration of FileZen (Japanese)
+    https://www.soliton.co.jp/support/2021/004334.html
+
+** Update: April 23, 2021 Update *************************************
+On April 23, 2021, in response to the news that there was a zero-day
+attack on Filezen, Soliton Systems K.K. released information
+requesting an update to the latest firmware of the product.
+In addition to the previous alerts regarding vulnerabilities published
+in December 2020 (CVE-2020-5639) and February 2021 (CVE-2021-20655),
+the information "History of response to vulnerabilities" has been
+announced, and it is recommended to take measures as soon as possible. 
+
+    Soliton Systems K.K.
+    [File Zen] Regarding report about our products (Japanese)
+    https://www.soliton.co.jp/news/2021/004393.html
+    
+    Soliton Systems K.K.
+    [File Zen] History of response to vulnerabilities (Japanese)
+    https://www.soliton.co.jp/support_info/fz2104.html
+**********************************************************************
+
+
+II. Affected Products and Versions
+The following products and versions are affected.
+
+  - FileZen versions from V3.0.0 to V4.2.7
+  - FileZen versions from V5.0.0 to V5.0.2
+
+
+III. Solution
+The versions that address the vulnerability have not been provided
+as of February 16, 2021. According to Soliton Systems K.K., the fixed
+versions are expected to be provided in March 2021.
+
+** Update: March 5, 2021 Update **************************************
+On March 5, 2021, Soliton Systems K.K. released versions of FileZen
+that address the vulnerability (CVE-2021-20655). Please consider to
+update to the updated versions. In addition, Soliton Systems K.K.
+recommends applying the workaround even if it is updated. For more
+information, please refer to the "IV. Workarounds".
+
+  - FileZen V4.2.8
+  - FileZen V5.0.3
+
+    Soliton Systems K.K.
+     [Important] Request to check the configuration of FileZen (Japanese)
+    https://www.soliton.co.jp/support/2021/004334.html
+**********************************************************************
+
+
+IV. Workarounds
+Until the versions that address the vulnerability are available, the
+following workarounds can be applied to mitigate the impact of the
+vulnerability. In addition, Soliton Systems K.K. recommends to apply
+the workarounds even after updating the version. For details, please
+refer to the information provided by Soliton Systems K.K..
+
+  - Disable default administrator account "admin"
+  - Change the system administrator account ID and password
+  - Restrict the login with the system administrator account from the Internet
+
+
+V. References
+    Soliton Systems K.K.
+    [Important] Request to check the configuration of FileZen (Japanese)
+    https://www.soliton.co.jp/support/2021/004334.html
+
+    Soliton Systems K.K.
+    FileZen update pack/manual (Japanese)
+    https://www.soliton.co.jp/support/soliton/hardware/filezen/
+
+    Japan Vulnerability Notes JVN#58774946
+    FileZen vulnerable to OS command injection
+    https://jvn.jp/en/jp/JVN58774946/
+
+    Information-technology Promotion Agency, Japan (IPA)
+    Regarding OS Command Injection vulnerability in FileZen (JVN#58774946) (Japanese)
+    https://www.ipa.go.jp/security/ciadr/vul/20210216-jvn.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2021-02-16 First edition
+2021-03-05 Updated "III. Solution"
+2021-04-23 Updated "I. Overview"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

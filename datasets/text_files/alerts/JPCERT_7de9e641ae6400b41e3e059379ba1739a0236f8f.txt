@@ -1,0 +1,78 @@
+JPCERT-AT-2021-0035
+                                                             JPCERT/CC
+                                                            2021-08-19
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-08-19 &gt;&gt;&gt;
+
+     Alert Regarding Vulnerability (CVE-2021-25218) in ISC BIND 9
+
+       https://www.jpcert.or.jp/english/at/2021/at210035.html
+
+
+I. Overview
+ISC BIND 9 contains a vulnerability. If named attempts to respond over
+UDP with a response that is larger than the current effective interface
+maximum transmission unit (MTU), and if response-rate limiting (RRL)
+is active, an assertion failure is triggered. A remote attacker
+leveraging the vulnerability may cause named to terminate unexpectedly.
+
+ISC has rated the vulnerability CVE-2021-25218 as "High". For more
+information on the vulnerability, please refer to the information
+provided by ISC.
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2021-25218: A too-strict assertion check could be triggered when responses in BIND 9.16.19 and 9.17.16 require UDP fragmentation if RRL is in use
+    https://kb.isc.org/docs/cve-2021-25218
+
+If you are operating an affected version of ISC BIND 9, please consider
+updating to a version that addresses the vulnerability by referring
+to the information in "III. Solution".
+
+
+II. Affected Products and Versions
+According to ISC, the following versions are affected by the
+vulnerability.
+
+  - BIND 9.17.16
+  - BIND 9.16.19
+  - BIND 9 Supported Preview Edition 9.16.19-S1
+
+This vulnerability only affects the above versions. 
+
+RRL is only enabled for the CHAOS (CH) class by default. If you are
+using BIND provided by a distributor, please refer to the information
+provided by that distributor.
+
+
+III. Solution
+ISC has released fixed versions of ISC BIND 9 that address the
+vulnerability. Distributors will provide their own versions that
+address the vulnerability. Consider updating to a fixed version after
+thorough testing.
+
+  - BIND 9.17.17
+  - BIND 9.16.20
+  - BIND 9 Supported Preview Edition 9.16.20-S1
+
+As a workaround, ISC recommends removing all existing rate-limit
+statements from named.conf to disable RRL for all classes including
+CHAOS and defining a replacement for the default CHAOS view.
+
+
+IV. References
+    Internet Systems Consortium, Inc. (ISC)
+    BIND 9 Security Vulnerability Matrix
+    https://kb.isc.org/docs/aa-00913
+
+    Japan Network Information Center (JPNIC)
+    (Urgent) Vulnerability in BIND 9.16.19 (Termination of DNS service) (CVE-2021-25218) - Only for BIND 9.16.19, Strongly recommended to update the version - (Japanese)
+    https://jprs.jp/tech/security/2021-08-19-bind9-vuln-rrl.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

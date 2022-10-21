@@ -1,0 +1,134 @@
+JPCERT-AT-2015-0036
+                                                             JPCERT/CC
+                                                   2015-10-14(Initial)
+                                                   2015-10-20 (Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2015-10-14 &gt;&gt;&gt;
+
+           Vulnerabilities in Adobe Flash Player (APSB15-25)
+
+         https://www.jpcert.or.jp/english/at/2015/at150036.html
+
+
+I. Overview
+
+  Adobe Flash Player contains multiple vulnerabilities. A remote
+attacker may cause Adobe Flash Player to crash or execute arbitrary
+code by convincing a user to open specially crafted contents
+leveraging these vulnerabilities. For more information on the
+vulnerabilities, please refer to the information provided by
+Adobe Systems.
+
+    Security updates available for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsb15-25.html
+
+  JPCERT/CC has observed the public information that Adobe Flash
+Player has a vulnerability even if the latest version has been 
+applied. We recommend that apply "III. Solution" and "IV. Workaround".
+
+** Update: 10/20/2015 Update *****************************************
+A software update for Adobe Flash Player that addresses the vulnerabilities has
+been released. Using the information below, please update to the 
+latest version. This update also contains fixes for vulnerabilities other 
+than CVE-2015-7645 stated in the advisory (APSA15-05).
+
+    Adobe Security Bulletin
+    Security Advisory for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsa15-05.html
+
+    Security updates available for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsb15-27.html
+
+    Vulnerabilities in Adobe Flash Player (APSB15-27)
+    https://www.jpcert.or.jp/english/at/2015/at150037.html
+*********************************************************************
+
+
+II. Affected Products
+
+  The following versions are affected by these vulnerabilities:
+
+  - Adobe Flash Player 19.0.0.185 and earlier
+    (Internet Explorer, Microsoft Edge, Google Chrome, Mozilla Firefox, etc)
+
+
+III. Solution
+
+  Please update Adobe Flash Player to the latest version listed below:
+
+  - Adobe Flash Player 19.0.0.207
+    (Internet Explorer, Microsoft Edge, Google Chrome, Mozilla Firefox, etc)
+
+  Note that the following browsers contain Adobe Flash Player by default.
+
+  - Internet Explorer 10 (Windows 8)
+  - Internet Explorer 11 (Windows 8.1 and Windows 10)
+  - Microsoft Edge (Windows 10)
+  - Google Chrome
+
+For Internet Explorer and Microsoft Edge, the latest version of 
+Adobe Flash Player will be applied through Windows Update etc.
+Also, the latest version of Adobe Flash Player will be updated when
+Google Chrome is updated. For more information, please refer to 
+the following:
+
+    Adobe Flash Player Download Center
+    https://get.adobe.com/flashplayer/
+
+    Microsoft Security Advisory (2755801)
+    Update for Vulnerabilities in Adobe Flash Player in Internet Explorer and Microsoft Edge
+    https://technet.microsoft.com/en-us/library/security/2755801.aspx
+
+  Users can check the version of Adobe Flash Player that they are
+using at the following link:
+
+    Adobe Flash Player: Version Information
+    https://www.adobe.com/software/flash/about/
+
+  * Even if you use a web browser other than Internet Explorer, there is
+    software that uses Adobe Flash Player installed for Internet
+    Explorer, such as Microsoft Office, so please update Adobe Flash
+    Player for Internet Explorer.
+
+
+IV. Workaround
+
+  As a temporary countermeasure until a security update can be applied, 
+please apply "III. Solution" and consider the following workaround to
+mitigate affects of the vulnerability. Applying these countermeasures
+may cause other applications to not run properly. Please carefully consider
+and test any side effects prior to applying any of the workaround.
+
+    - Open the security tab from "Internet Options" in Internet Explorer
+      and change the security level to "High" for the internet zone and
+      local intranet zone.
+
+
+V. References
+
+    Microsoft Security Advisory (2755801)
+    Update for Vulnerabilities in Adobe Flash Player in Internet Explorer and Microsoft Edge
+    https://technet.microsoft.com/en-us/library/security/2755801.aspx
+
+    TrendLabs Security Intelligence Blog
+    New Adobe Flash Zero-Day Used in Pawn Storm Campaign
+    http://blog.trendmicro.com/trendlabs-security-intelligence/new-adobe-flash-zero-day-used-in-pawn-storm-campaign/
+
+** Update: 10/20/2015 Update *****************************************
+    Adobe Security Bulletin
+    Security Advisory for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsa15-05.html
+*********************************************************************
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+________
+Revision History
+2015-10-14 First edition
+2015-10-20 Updated "Overview" and "References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

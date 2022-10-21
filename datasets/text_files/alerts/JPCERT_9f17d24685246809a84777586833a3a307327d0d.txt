@@ -1,0 +1,85 @@
+JPCERT-AT-2015-0006
+                                                            JPCERT/CC
+                                                           2015-02-12
+                 &lt;&lt;&lt; JPCERT/CC Alert 2015-02-12 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for February 2015
+                 (including 3 critical patches)
+
+          https://www.jpcert.or.jp/english/at/2015/at150006.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for February, 2015.
+This bulletin contains three (3) updates that is rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for February 2015
+    https://technet.microsoft.com/en-us/library/security/ms15-feb
+
+  [Security update rated as "critical"]
+
+    MS15-009
+    Security Update for Internet Explorer (3034682)
+    https://technet.microsoft.com/en-us/library/security/ms15-009
+
+    MS15-010
+    Vulnerabilities in Windows Kernel-Mode Driver Could Allow Remote Code Execution (3036220)
+    https://technet.microsoft.com/en-us/library/security/ms15-010
+
+    MS15-011
+    Vulnerability in Group Policy Could Allow Remote Code Execution (3000483)
+    https://technet.microsoft.com/en-us/library/security/ms15-011
+
+  For MS15-011, in addition to the application of security updates,
+additional configuration by the system administrator is required.
+For more information, please refer to the following Knowledge Base.
+
+    Microsoft Knowledge Base Article 3000483
+    MS15-011: Vulnerability in Group Policy could allow remote code execution
+    https://support.microsoft.com/kb/3000483/
+
+  Also, according to Microsoft, attacks leveraging MS15-009 (critical)
+have been observed in the wild.
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+  * With the April 2014 update, Microsoft has ended the support for
+    Windows XP and Office 2003. Concerns on security risk will rise
+    henceforth, and therefore please consider updating to a newer OS
+    and software.
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for February 2015
+    https://technet.microsoft.com/en-us/library/security/ms15-feb
+
+    Microsoft
+    Microsoft Security Information for February 2015 (Monthly) - MS15-009 - MS15-017 (Japanese)
+    http://blogs.technet.com/b/jpsecurity/archive/2015/02/11/201502-security-bulletin.aspx
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,145 @@
+JPCERT-AT-2018-0008
+                                                             JPCERT/CC
+                                                            2018-02-14
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-02-14 &gt;&gt;&gt;
+
+          Microsoft Releases February 2018 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2018/at180008.html
+
+
+I. Overview
+Microsoft has released February 2018 Security Updates. This contains
+updates that are rated as "critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    February 2018 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/879af9c3-970b-e811-a961-000d3a33c573
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    CVE-2018-0763
+    Microsoft Edge Information Disclosure Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0763
+    - KB4074588, KB4074592
+
+    CVE-2018-0825
+    StructuredQuery Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0825
+    - KB4074587, KB4074588, KB4074589, KB4074590, KB4074591, KB4074592,
+      KB4074593, KB4074594, KB4074596, KB4074597, KB4074598, KB4074851
+
+    CVE-2018-0834
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0834
+    - KB4074588, KB4074590, KB4074591, KB4074592, KB4074596
+
+    CVE-2018-0835
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0835
+    -KB4074588, KB4074590, KB4074591,  KB4074592,  KB4074596
+
+    CVE-2018-0837
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0837
+    - KB4074588, KB4074590, KB4074591,  KB4074592,  KB4074596
+
+    CVE-2018-0838
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0838
+    - KB4074588, KB4074590, KB4074591,  KB4074592,  KB4074596
+
+    CVE-2018-0840
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0840
+    - KB4074588, KB4074590, KB4074591, KB4074592, KB4074594, KB4074596,
+      KB4074598, KB4074736
+
+    CVE-2018-0852
+    Microsoft Outlook Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0852
+    - KB4011200, KB4011682,  KB4011697,  KB4011711
+
+    CVE-2018-0856
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0856
+    - KB4074588, KB4074592
+
+    CVE-2018-0857
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0857
+    - KB4074588, KB4074590, KB4074591, KB4074592, KB4074596
+
+    CVE-2018-0859
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0859
+    - KB4074588, KB4074590, KB4074591, KB4074592, KB4074596
+
+    CVE-2018-0860
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0860
+    - KB4074588, KB4074590, KB4074591, KB4074592, KB4074596
+
+    CVE-2018-0861
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0861
+    - KB4074590, KB4074592
+
+According to Microsoft, attacks leveraging the vulnerabilities have
+not been observed in the wild. However, please apply the security
+update programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update / Windows Update
+    http://www.update.microsoft.com/
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+In addition, Microsoft has released the security advisory ADV180004
+and provided security update on Adobe Flash Player vulnerabilities
+(CVE-2018-4877, CVE-2018-4878). For more details, please refer to
+the following URL.
+
+    ADV180004 | February 2018 Adobe Flash Security Update
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV180004
+
+
+III. References
+    Microsoft Corporation
+    February 2018 Security Updates 
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/879af9c3-970b-e811-a961-000d3a33c573
+
+    Microsoft Corporation
+    Microsoft Security Updates for February 2018 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2018/02/14/201802-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Adobe Systems Incorporated
+    Security updates available for Flash Player | APSB18-03
+    https://helpx.adobe.com/security/products/flash-player/apsb18-03.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerability (CVE-2018-4878) in Adobe Flash Player
+    https://www.jpcert.or.jp/english/at/2018/at180006.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

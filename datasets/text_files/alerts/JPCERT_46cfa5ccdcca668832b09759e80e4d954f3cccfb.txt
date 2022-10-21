@@ -1,0 +1,79 @@
+JPCERT-AT-2008-0020
+                                                            JPCERT/CC
+                                                           2008-11-05
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2008-11-05 &gt;&gt;&gt;
+
+           Vulnerability in Adobe Acrobat and Adobe Reader
+
+             http://www.jpcert.or.jp/at/2008/at080020.txt
+
+
+I. Overview
+
+  Adobe Acrobat and Adobe Reader, a PDF file creation and conversion
+software and a PDF file viewing software respectively, contain a
+vulnerability concerning the processing of JavaScript in a document.
+As a result, a remote attacker could terminate Adobe Acrobat and Adobe
+Reader processes or execute arbitrary code by convincing a user to
+open a specially crafted PDF file.
+
+    Security Update available for Adobe Reader 8 and Acrobat 8
+    http://www.adobe.com/support/security/bulletins/apsb08-19.html
+
+  According to Adobe Systems, no attacks exploiting this vulnerability
+have been found as of November 5, 2008.
+
+
+II. Products Affected
+
+  Affected products and versions are as follows:
+
+  - Adobe Reader 8.1.2 and earlier
+  - Adobe Acrobat Professional, 3D and Standard 8.1.2 and earlier
+
+  Adobe Acrobat 9 and Adobe Reader 9 are not affected by this
+vulnerability.
+
+
+III. Solution
+
+  Apply the corrected software provided by Adobe Systems. Adobe
+Acrobat and Adobe Reader will be updated automatically by starting
+the products, selecting the menu Help (H), and then clicking Check for
+Updates (U).
+
+  If automatic update is not possible, download Adobe Reader 8.1.3
+from the following URL (for Windows):
+
+    Adobe Reader 8.1.3 update - multiple languages
+    http://www.adobe.com/support/downloads/detail.jsp?ftpID=4084
+
+  Otherwise, update to Adobe Acrobat 9 and Adobe Reader 9, which are
+not affected by this vulnerability.
+
+  For more information, refer to Adobe Systems' website.
+
+
+IV. References
+
+    JVNTA08-309A
+    Update for multiple vulnerabilities in Adobe Reader and Acrobat
+    http://jvn.jp/cert/JVNTA08-309A/index.html
+
+    US-CERT Vulnerability Notes for Adobe Security Bulletin APSB08-19
+    http://www.kb.cert.org/vuls/byid?searchview&amp;query=APSB08-19
+
+    @police
+    Security update for Adobe Systems Adobe Reader and Acrobat (11/5)
+    http://www.cyberpolice.go.jp/important/2008/20081105_102211.html
+
+
+  If you have any information you could provide regarding this alert,
+please contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

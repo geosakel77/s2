@@ -1,0 +1,58 @@
+JPCERT-AT-2007-0020
+                                                             JPCERT/CC
+                                                    September 21, 2007
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2007-09-21 &gt;&gt;&gt;
+
+                    Vulnerability in file archiver Lhaplus
+
+             http://www.jpcert.or.jp/at/2007/at070020.txt
+
+I. Overview
+
+  Lhaplus, a file archiver widely used in Japan, contains a buffer
+overflow vulnerability in ARJ-archive handling. Exploitation of this
+vulnerability could allow a remote attacker to execute arbitrary code
+when a user opens a specially crafted archive created by the attacker.
+
+
+II. Systems Affected
+
+  The following products and versions are affected:
+
+    - Lhaplus for Windows 1.54 beta 1 and earlier
+
+  For more information, refer to the developer's website.
+
+
+III. Solution
+
+  To fix this problem, update to a fixed version of the software
+provided by the developer. For more information, see the following
+website:
+
+    Lhaplus distribution site
+    http://www7a.biglobe.ne.jp/~schezo/
+
+
+IV. Reference Information
+
+    Japan Vulnerability Notes JVN#70734805
+    Buffer Overflow Vulnerability in Lhaplus
+    http://jvn.jp/jp/JVN%2370734805/index.html
+
+    IT Security Center, Information-technology Promotion Agency, Japan (IPA)
+    Security Alert on "Lhaplus" Vulnerability
+    http://www.ipa.go.jp/security/vuln/200709_Lhaplus.html
+
+    ARJ Archive Handling Buffer Overflow
+    http://www7a.biglobe.ne.jp/~schezo/arj_vul.html
+
+
+  If you have any information regarding this matter, please contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

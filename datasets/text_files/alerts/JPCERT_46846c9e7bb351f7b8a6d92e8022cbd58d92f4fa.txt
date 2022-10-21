@@ -1,0 +1,92 @@
+JPCERT-AT-2010-0026
+                                                             JPCERT/CC
+                                                            2010-10-06
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2010-10-06 &gt;&gt;&gt;
+
+             Vulnerabilities in Adobe Reader and Acrobat
+
+            https://www.jpcert.or.jp/at/2010/at100026.txt
+
+
+I. Overview
+
+   Multiple vulnerabilities exist in Adobe Reader, a PDF file viewing 
+software, and Adobe Acrobat, a PDF file creation and conversion 
+software. As a result, a remote attacker could terminate Adobe Reader 
+and Acrobat or execute arbitrary code by convincing a user to open a 
+specially crafted PDF file. JPCERT/CC has already observed attacks 
+exploiting this vulnerability. Users are recommended to update to the 
+corrected software provided by Adobe Systems.
+
+    Adobe - Security Bulletins:
+    Security Updates available for Adobe Reader and Acrobat
+    http://www.adobe.com/support/security/bulletins/apsb10-21.html
+
+
+III. Affected products
+
+  Products affected by this vulnerability are listed below.
+
+  - Adobe Reader 9.3.4 and earlier
+  - Adobe Acrobat 9.3.4 and earlier
+  - Adobe Reader 8.2.4 and earlier
+  - Adobe Acrobat 8.2.4 and earlier
+
+
+III. Solution
+
+  Apply the corrected software provided by Adobe Systems. Adobe Reader 
+and Acrobat will be updated by starting the products, selecting the 
+menu "Help (H)", and then clicking "Check for Updates (U)".
+
+  If update is not possible, download the latest Adobe Reader and 
+Acrobat from the following URL:
+
+    Adobe.com - New downloads
+    http://www.adobe.com/support/downloads/new.jsp
+
+  For more information, refer to Adobe Systems' website.
+
+
+IV. Result of JPCERT/CC Verification
+
+  JPCERT/CC has verified that widely spread exploit code that exploits 
+Adobe Reader and Acrobat vulnerabilities does not run in the following 
+verification environment. 
+
+  [Verification environment]
+    Windows XP SP3, Vista SP2, 7
+    Adobe Reader 9.4
+
+  [Verification result]
+    JPCERT/CC has opened an exploit PDF file in the above environment 
+    and has confirmed that the exploit code does not execute.
+
+V. References
+
+    Adobe - Security Bulletins
+    Security Updates available for Adobe Reader and Acrobat
+    http://www.adobe.com/support/security/bulletins/apsb10-21.html
+
+    Adobe - Security Bulletins
+    Security updates available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb10-22.html
+
+    IBM Tokyo SOC Report
+    Targeted attack exploiting Adobe Reader zero-day vulnerability
+    https://www-950.ibm.com/blogs/tokyo-soc/entry/adobe_0day_20100922
+
+    IBM Tokyo SOC Report
+    Drive-by-download attack exploiting Adobe Reader zero-day vulnerability
+    https://www-950.ibm.com/blogs/tokyo-soc/entry/adobe_0day_20100928
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

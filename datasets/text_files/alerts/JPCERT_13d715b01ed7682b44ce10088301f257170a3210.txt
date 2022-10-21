@@ -1,0 +1,126 @@
+JPCERT-AT-2011-0014
+                                                             JPCERT/CC
+                                             2011-05-31(First edition)
+                                                   2011-06-01(Updated)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert  31.05.11 &gt;&gt;&gt;
+
+           ISC BIND 9 DoS Vulnerability by caching resolver
+
+            https://www.jpcert.or.jp/at/2011/at110014.txt
+
+
+I. Overview
+
+  ISC BIND 9 contains a vulnerability that will cause a Denial of 
+Service (DoS). As a result, a remote attacker could easily initiate a 
+Denial of Service (DoS) attack on DNS servers (mainly DNS cache 
+servers) running BIND 9. Detailed attack techniques that exploit this 
+vulnerability have been published on the Internet.  We recommend 
+applying measures based on "III. Solution." For more information about
+the vulnerability, refer to the information from Internet Systems 
+Consortium, Inc.
+
+    Internet Systems Consortium, Inc. (ISC)
+    Large RRSIG RRsets and Negative Caching can crash named
+    https://www.isc.org/software/bind/advisories/cve-2011-1910
+
+Note that servers will be affected by this vulnerability even when 
+DNSSEC is disabled.
+
+
+II. Products Affected
+
+*** Update: Revised on June 1, 2011 **********************************
+
+  The following versions may be affected by this vulnerability.
+  ISC BIND
+  - Versions earlier than 9.4-ESV-R4-P1
+  - Versions earlier than 9.6-ESV-R4-P1
+  - Versions earlier than 9.7.3-P1
+  - Versions earlier than 9.8.0-P2
+
+  * According to ISC, the 9.5.2-P3 version of BIND is not affected by 
+    this vulnerability.
+
+  * Versions no longer supported by ISC may also be affected by this 
+    vulnerability. Refer to the following to check whether the version
+    in use is supported. 
+
+    BIND software version status
+    http://www.isc.org/software/bind/versions
+
+**********************************************************************
+
+For more information, refer to information from ISC and distributors.
+
+
+III. Solution
+
+  ISC has released a BIND version that corrects this vulnerability. 
+Additionally, corrected versions are also being provided by several 
+distributors. We recommend quickly deploying the corrected version 
+after thorough testing.
+
+  When an attack that expoilts this vulnerability is successful, error
+messages such as the following will be contained in the log file.
+
+    named[
+<process number="">
+ ]: buffer.c:285: REQUIRE(b-&gt;used + 1 &lt;= b-&gt;length) failed
+    named[
+ <process number="">
+  ]: exiting (due to assertion failure)
+
+Monitor the log file and take measures such as restarting the process 
+if necessary.
+
+
+IV. References
+
+    Internet Systems Consortium, Inc. (ISC)
+    Large RRSIG RRsets and Negative Caching can crash named
+    https://www.isc.org/software/bind/advisories/cve-2011-1910
+
+    Japan Registry Services Co., Ltd. (JPRS)
+    (Critical)  A bug in the implementation of Negative Caching in BIND 9.x can crash named
+    http://jprs.jp/tech/security/2011-05-27-bind9-vuln-large-rrsig-and-ncache.html
+
+    JVNVU#795694
+    ISC BIND Denial of Service (DoS) vulnerability
+    https://jvn.jp/cert/JVNVU795694/index.html
+
+    Debian Security Advisory
+    DSA-2244-1 bind9 -- incorrect boundary  condition
+    http://www.debian.org/security/2011/dsa-2244
+
+    The FreeBSD Project
+    BIND remote DoS with large RRSIG RRsets and negative caching
+    http://security.freebsd.org/advisories/FreeBSD-SA-11:02.bind.asc
+
+    NetBSD pkgsrc-Bugs archive
+    Re: pkg/44997 (Large RRSIG RRsets and Negative Caching can crash named)
+    http://mail-index.netbsd.org/pkgsrc-bugs/2011/05/28/msg043108.html
+
+    Red Hat, Inc.
+    CVE-2011-1910 bind: Large RRSIG RRsets and Negative Caching can crash named
+    https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2011-1910
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+________
+Revision history
+2011-05-31 First edition
+2011-05-31 Title and "II. Products Affected" revised
+2011-06-01 "II. Products Affected" revised, ISC version status URL 
+           added.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/
+ </process>
+</process>

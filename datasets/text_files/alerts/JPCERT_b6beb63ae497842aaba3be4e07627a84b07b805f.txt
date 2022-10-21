@@ -1,0 +1,131 @@
+JPCERT-AT-2014-0024
+                                                             JPCERT/CC
+                                                            2014-05-15
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2014-05-15 &gt;&gt;&gt;
+
+       Alert regarding the usage of old versions of Movable Type
+
+        https://www.jpcert.or.jp/english/at/2014/at140024.html
+
+
+I. Overview
+
+  JPCERT/CC has received multiple incident reports regarding
+compromised websites related to the usage of old versions of Movable
+Type.
+
+  According to the information that we have obtained, attacks
+leveraging known vulnerabilities in Movable Type to place arbitrary
+files on the websites and embed iframes or obfuscated JavaScript to
+redirect to an attack sites have been observed.
+
+  We have not been able to identify that all compromises of websites
+that use old versions of Movable Type leveraged vulnerabilities, but
+if using a vulnerable version, there remains a possibility that
+attackers may leverage a vulnerability to compromise the website. As
+a proactive measure, we recommend updating not only Movable Type but
+the OS and other software to the latest versions.
+
+  Website administrators are recommended to refer to "II. Solution -
+For Website Administrators" and check if their website has been
+compromised and consider implementing any countermeasures as
+necessary.
+
+  In addition, JPCERT/CC has observed that the attack sites have
+attack tools referred to as Exploit kits embedded in them. If the
+software installed on the user PC contains any vulnerabilities, when
+the website is viewed, the user is redirected to the attack site and
+the PC may become infected with malware.
+
+  The redirected attack sites that have been observed by JPCERT/CC,
+leverage known vulnerabilities in the following software. Updating the
+following software along with other software and the OS to the latest
+versions will reduce the probability of being infected by malware.
+Please refer to the "II. Solution - For Users" and update the software
+to the latest versions.
+
+  - Oracle Java
+  - Adobe Reader
+  - Adobe Flash Player
+  - Internet Explorer
+
+
+II. Solution
+
+[For Website Administrators] 
+  In order to prevent your website from being compromised and user
+PC's from being infected by malware, please check the following and
+consider implementing any countermeasures as necessary.
+
+  (Points to be Check)
+  - Check if Movable Type being used is the latest version
+  - Check if the OS and software used for the website are the latest
+    versions
+  - Check the web server FTP / SSH logs to see if there is anything
+    unusual with the source IP address, access times, etc.
+  - Check if web contents is being modified to embed malicious program
+    in it
+  - Check if the PC used to update the website is infected with
+    malware.  If administration of the website is outsourced, verify
+    with the outsourcing company that the PC's used are not infected
+    with malware
+
+  (Countermeasures)
+  - Update Movable Type to the latest version
+    Security Updates for 6.0.3, 5.2.10, 5.17 now available (Japanese)
+    http://www.movabletype.jp/blog/6035210517.html
+    
+  - If Movable Type cannot be updated for some reason, please refer to
+    the following for any workarounds that may be implemented.
+    Advices on how to use Movable Type safely (Japanese)
+    http://www.movabletype.jp/blog/secure_movable_type.html
+
+  - Update the OS and software being used for the website to the
+    latest versions as necessary
+  - Only allow website content updates from designated locations and
+    PC's (IP address, etc)
+  - Change the FTP / SSH account passwords used for website content
+    updates to a password that cannot be easily compromised by means
+    of brute-force attacks and dictionary attacks.  (Passwords are
+    recommended to be at least 8 alphanumeric characters in length and
+    also be a string that cannot be easily guessed)
+
+[For Users]
+  The redirected attacks site leverage known vulnerabilities in order
+to install malware. Refer the following URL's to update software being
+used to the latest versions.
+
+  [Microsoft]
+    Microsoft Update
+    https://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+  [Adobe]
+    Adobe Flash Player Download Center
+    https://get.adobe.com/flashplayer/
+
+    Adobe - Product Updates (Adobe Acrobat¡¢Adobe Reader)
+    https://www.adobe.com/downloads/updates/
+
+  [Oracle Java]
+    Free Java Download (JRE 7, English)
+    https://java.com/en/download/
+
+
+III. References
+
+    Advices on how to use Movable Type safely (Japanese)
+    http://www.movabletype.jp/blog/secure_movable_type.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

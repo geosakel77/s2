@@ -1,0 +1,94 @@
+JPCERT-AT-2019-0024
+                                                             JPCERT/CC
+                                                    2019-05-15(Initial)
+                                                    2019-05-15(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-05-15 &gt;&gt;&gt;
+
+Alert Regarding Multiple Vulnerabilities in Intel Products (INTEL-SA-00213)
+
+       https://www.jpcert.or.jp/english/at/2019/at190024.html
+
+
+I. Overview
+On May 14, 2019 (US time), Intel has released security advisory
+(INTEL-SA-00213) about Intel products. Attackers leveraging these
+vulnerabilities may cause a Denial of Service (DoS) or information
+disclosure. For more information, please refer to the following
+Intel advisory.
+
+    INTEL-SA-00213
+    Intel CSME, Intel SPS, Intel TXE, Intel DAL and Intel AMT 2019.1 QSR Advisory
+    https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00213.html
+
+In addition to this advisory, Intel has released multiple advisories
+on the same day. For more information, please refer to the information
+provided by Intel.
+
+
+II. Affected Products
+Affected products and versions are as follows:
+
+    Intel Converged Security &amp; Management Engine (Intel CSME)*
+    - versions 12.0 prior to 12.0.35
+    - versions 11.20 prior to 11.22.65
+    - versions 11.10 prior to 11.11.65
+    - versions 11.0 prior to 11.8.65
+
+    Intel Server Platform Services (Intel SPS)
+    - versions prior to SPS_E3_05.00.04.027.0
+
+    Intel Trusted Execution Engine Interface (Intel TXE)
+    - versions 4.0 prior to 4.0.15
+    - versions 3.0 prior to 3.1.65
+
+* Intel Dynamic Application Loader (Intel DAL) and Intel Active
+Management Technology (Intel AMT) using Intel CSME firmware are also
+be affeceted by these vulnerabities.
+
+In addition, several products that are no longer supported may also
+be affected by these vulnerabilities. For more information, please
+refer to the information provided by Intel.
+
+
+III. Solution
+Please update the affected products to the latest version listed below
+by referring to the information provided by Intel.
+
+    Intel Converged Security &amp; Management Engine (Intel CSME)
+    - 12.0.35
+    - 11.22.65
+    - 11.11.65
+    - 11.8.65
+
+    Intel Server Platform Services (Intel SPS)
+    - SPS_E3_05.00.04.027.0
+    
+    Intel Trusted Execution Engine Interface (Intel TXE)
+    - 4.0.15
+    - 3.1.65
+
+In addition, please be aware of information provided by each computer
+hardware vendor or OS vendor since the update related to this issue
+may be released from vendor in the future.
+
+
+IV. References
+    Intel Corporation
+    Intel Product Security Center Advisories
+    https://www.intel.com/content/www/us/en/security-center/default.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2019-05-15 First edition
+2019-05-15 Deleted the links in "I. Overview" and "IV. References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-6271-8901  FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

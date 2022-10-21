@@ -1,0 +1,87 @@
+JPCERT-AT-2013-0022
+                                                             JPCERT/CC
+                                                            2013-04-18
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2013-04-18 &gt;&gt;&gt;
+
+                 DDoS attacks using recursive DNS requests
+
+         http://www.jpcert.or.jp/english/at/2013/at130022.html
+
+
+I. Overview
+
+  JPCERT/CC has received reports from overseas CSIRT's regarding DDoS
+attacks leveraging DNS cache servers in Japan.
+
+  According to the attacks reported to JPCERT/CC, attackers are using
+DNS cache servers (herein 'open resolvers') that allow recursive
+requests to conduct DNS amplification attacks. Attackers send
+recursive requests to the open resolver by spoofing the IP address of
+the target device to send a massive number of response packets or
+response packet of large size to the target of a DDoS attack (e.g. a
+web site).
+
+  Open resolvers that accept recursive requests from external sources
+may be exploited to participate in a DDoS attack. Also there is a
+possibility that network devices or software products have an embedded
+DNS server that users are not aware and may be used as an open
+resolver.
+
+  We recommend checking whether a DNS cache server is running on your
+server or network device, and change the configuration accordingly.
+
+
+II. Products Affected
+
+  Products such as servers and network devices that accept recursive
+DNS requests from external sources are affected.
+
+  - DNS cache servers
+  - Network devices with a DNS cache server running
+
+Also some software products may automatically install a DNS server and 
+may run as an open resolver without the user knowing.
+
+
+III. Solution
+
+  Check all cache servers that accept recursive requests under
+administration and restrict access so that the effects of an attack
+can be minimized. Also, it is recommended to check the configuration
+of the DNS server to ensure that it is running as intended.
+
+For more details, please refer to the following:
+
+    JPRS
+    Countermeasures for DDoS attacks using DNS recursive requests (Japanese only)
+    http://jprs.jp/tech/notice/2006-03-29-dns-cache-server.html
+
+
+IV. References
+
+    JPNIC
+    About Open Resolvers (Japanese only)
+    https://www.nic.ad.jp/ja/dns/openresolver/
+
+    JPRS
+    About "Open Resolvers" - Improper DNS server settings (Japanese only)
+    http://jprs.jp/important/2013/130418.html
+
+    JPCERT/CC
+    [This week's one point memo] Warning about DNS server settings (Japanese only)
+    https://www.jpcert.or.jp/tips/2013/wr131201.html
+
+    US-CERT
+    DNS Amplification Attacks
+    https://www.us-cert.gov/ncas/alerts/TA13-088A
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,135 @@
+JPCERT-AT-2017-0004
+                                                             JPCERT/CC
+                                                   2017-01-12(Initial)
+                                                   2017-01-13(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-01-12 &gt;&gt;&gt;
+
+          Alert on multiple vulnerabilities in ISC BIND 9
+
+        https://www.jpcert.or.jp/english/at/2017/at170004.html
+
+
+I. Overview
+
+  ISC BIND 9 contains multiple vulnerabilities. When these vulnerabilities
+are exploited, a remote attacker may cause named to terminate. For more
+details on these vulnerabilities, please refer to the information
+provided by ISC.
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2016-9131: A malformed response to an ANY query can cause an assertion failure during recursion
+    https://kb.isc.org/article/AA-01439/74/CVE-2016-9131%3A-A-malformed-response-to-an-ANY-query-can-cause-an-assertion-failure-during-recursion.html
+
+    CVE-2016-9147: An error handling a query response containing inconsistent DNSSEC information could cause an assertion failure 
+    https://kb.isc.org/article/AA-01440/74/CVE-2016-9147%3A-An-error-handling-a-query-response-containing-inconsistent-DNSSEC-information-could-cause-an-assertion-failure-.html
+
+    CVE-2016-9444: An unusually-formed DS record response could cause an assertion failure
+    https://kb.isc.org/article/AA-01441/74/CVE-2016-9444%3A-An-unusually-formed-DS-record-response-could-cause-an-assertion-failure.html
+
+    CVE-2016-9778: An error handling certain queries using the nxdomain-redirect feature could cause a REQUIRE assertion failure in db.c
+    https://kb.isc.org/article/AA-01442/74/CVE-2016-9778%3A-An-error-handling-certain-queries-using-the-nxdomain-redirect-feature-could-cause-a-REQUIRE-assertion-failure-in-db.c.html
+
+  If you are operating an affected version of ISC BIND 9 (authoritative
+server, recursive server), please consider updating to a version that
+addresses these vulnerabilities by referring to the information in
+"III. Solution".
+
+
+II. Affected Systems
+
+  According to ISC, the following versions are affected by these
+vulnerabilities. ISC has rated the severity of these vulnerabilities
+as "High".
+
+  ISC BIND
+    - Versions from 9.9.3 to 9.9.9-P4
+    - Versions from 9.10.0 to 9.10.4-P4
+    - Versions from 9.11.0 to 9.11.0-P1
+
+  The affected versions differ for each vulnerability. 
+  For more details, please refer to the following:
+
+    BIND 9 Security Vulnerability Matrix
+    https://kb.isc.org/article/AA-00913/
+
+** Update: Jan 13, 2017 Update ***************************************
+  According to ISC, ISC BIND 9 series which are 9.8 and earlier that
+ended the support, will also be affected by the vulnerabilities of
+CVE-2016-9131 and CVE-2016-9444. If you are using the affected version,
+please consider updating by referring to the vulnerability information.
+Regarding the affected version, please refer to the following.
+
+    JVNVU#94085539
+    ISC BIND 9 contains multiple vulnerabilities that lead to a denial-of-service
+(DoS)(Japanese)
+    https://jvn.jp/vu/JVNVU94085539/
+**********************************************************************
+
+  If you are using BIND provided by a distributor, please refer to the
+information provided by that distributor.
+
+
+III. Solution
+
+  ISC has released versions of ISC BIND that address these vulnerabilities.
+Distributors are likely to provide their own versions that address
+these vulnerabilities. Consider updating to an updated version after
+thorough testing.
+
+  Versions that address these vulnerabilities are as follows:
+
+  ISC BIND
+  - BIND 9 version 9.9.9-P5
+  - BIND 9 version 9.10.4-P5
+  - BIND 9 version 9.11.0-P2
+
+
+IV. References
+
+    US-CERT
+    ISC Releases Security Updates for BIND
+    https://www.us-cert.gov/ncas/current-activity/2017/01/11/ISC-Releases-Security-Updates-BIND
+
+    Japan Registry Services (JPRS)
+    (Urgent) Vulnerability in BIND 9.X (DNS Service Suspension) (CVE-2016-9131)(Japanese)
+    - Strongly recommended to update the version - 
+    https://jprs.jp/tech/security/2017-01-12-bind9-vuln-malformed-any.html
+
+    (Urgent) Vulnerability in BIND 9.X (DNS Service Suspension) (CVE-2016-9147) (Japanese)
+    - Servers with DNSSEC invalidated are also affected; Strongly recommended to update the version -
+    https://jprs.jp/tech/security/2017-01-12-bind9-vuln-inconsistent-dnssec.html
+
+    (Urgent) Vulnerability in BIND 9.X (DNS Service Suspension) (CVE-2016-9444) (Japanese)
+    - Strongly recommended to update the version -
+    https://jprs.jp/tech/security/2017-01-12-bind9-vuln-unusually-formed-ds.html
+
+    Vulnerability in BIND 9.X (DNS Service Suspension) (CVE-2016-9778) (Japanese)
+    - Servers using the nxdomain-redirect feature are affected; Recommended to update the version -
+    https://jprs.jp/tech/security/2017-01-12-bind9-vuln-nxdomain-redirect.html
+
+** Update: Jan 13, 2017 Update ***************************************
+    JVNVU#94085539
+    ISC BIND 9 contains multiple vulnerabilities that lead to a denial-of-service
+(DoS)(Japanese)
+    https://jvn.jp/vu/JVNVU94085539/
+
+    Japan Network Information Center (JPNIC)
+    Multiple vulnerabilities in ISC BIND 9 (January, 2017) (Japanese)
+    https://www.nic.ad.jp/ja/topics/2017/20170112-01.html
+**********************************************************************
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2017-01-12 First edition
+2017-01-13 Updated "II. Affected System" and "V. References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

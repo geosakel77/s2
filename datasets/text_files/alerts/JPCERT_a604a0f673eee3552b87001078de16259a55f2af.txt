@@ -1,0 +1,149 @@
+JPCERT-AT-2019-0033
+                                                             JPCERT/CC
+                                                    2019-09-02(Initial)
+                                                    2019-09-06(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-09-02 &gt;&gt;&gt;
+
+     Alert Regarding Vulnerabilities in Multiple SSL VPN Products
+
+       https://www.jpcert.or.jp/english/at/2019/at190033.html
+
+
+I. Overview
+JPCERT/CC confirmed details of vulnerabilities in multiple SSL VPN
+products including Proof-of-Concept code have been made public.
+
+  - Palo Alto Networks (CVE-2019-1579)
+  - Fortinet (CVE-2018-13379)
+  - Pulse Secure (CVE-2019-11510)
+
+If these vulnerabilities are exploited, a remote attacker may execute
+arbitrary code (CVE-2019-1579) or disclose sensitive information by
+reading arbitrary file (CVE-2018-13379, CVE-2019-11510).
+Also, reporter of the vulnerabilities revealed information about
+vulnerabilities other than listed above for each product. Since the
+vulnerabilities are likely to be exploited as the details of the
+vulnerabilities such as the Proof-of-Concept code have already been
+made public, it is recommended to update the affected system to the
+latest version as soon as possible.
+
+On August 24, 2019 (local time), Bad Packets already published a blog
+and revealed that scanning activities targeting the vulnerability in
+Pulse Connect Secure (CVE-2019-11510) were observed.
+
+    Bad Packets
+    Over 14,500 Pulse Secure VPN endpoints vulnerable to CVE-2019-11510
+    https://badpackets.net/over-14500-pulse-secure-vpn-endpoints-vulnerable-to-cve-2019-11510/
+
+JPCERT/CC's sensors also observed the scans which seem to be similar.
+Figure 1 shows scans observed at JPCERT/CC's sensors from IP address
+observed by Bad Packets.
+
+https://www.jpcert.or.jp/english/at/2019/at190033_fig1.png
+Figure 1: Scans observed by Internet threat monitoring system TSUBAME against the vulnerability (CVE-2019-11510)
+
+On August 31, 2019 (local time), according to Bad Packets, 10,471 hosts
+were confirmed to be vulnerable, and 1,381 of them were hosts in Japan.
+Upon receiving this report, JPCERT/CC started contacting administrators
+of these hosts.
+
+** Update: September 6, 2019 Update **********************************
+JPCERT/CC received information from other organization that an attack
+seemingly exploiting the vulnerability (CVE-2019-11510) has been
+observed on September 2, 2019 (Japan Time). As the attack is observed,
+it is strongly recommended to implement the solution stated below.
+
+Also, aside from the vulnerability (CVE-2019-11510), JPCERT/CC is aware
+that the information of the command injection vulnerability
+(CVE-2019-11539) which includes Proof-of-Concept code has been made
+public. If these vulnerabilities are exploited, a remote attacker may
+execute arbitrary command on device running the affected product.
+**********************************************************************
+
+
+II. Affected Products
+Affected products and versions of the vulnerabilities shown in
+[I. Overview] are listed below.
+
+Palo Alto Networks (CVE-2019-1579, if GlobalProtect is enabled)
+  - PAN-OS 7.1.18 and earlier
+  - PAN-OS 8.0.11-h1 and earlier
+  - PAN-OS 8.1.2 and earlier
+
+Fortinet (CVE-2018-13379, if SSL VPN service is enabled)
+  - FortiOS versions from 5.4.6 to 5.4.12
+  - FortiOS versions from 5.6.3 to 5.6.7
+  - FortiOS versions from 6.0.0 to 6.0.4
+
+Pulse Secure (CVE-2019-11510)
+  - Pulse Policy Secure versions from 5.1R1 to 5.1R15
+  - Pulse Policy Secure versions from 5.2R1 to 5.2R12
+  - Pulse Policy Secure versions from 5.3R1 to 5.3R12
+  - Pulse Policy Secure versions from 5.4R1 to 5.4R7
+  - Pulse Policy Secure versions from 9.0R1 to 9.0R3.3
+  - Pulse Connect Secure versions from 8.1R1 to 8.1R15
+  - Pulse Connect Secure versions from 8.2R1 to 8.2R12
+  - Pulse Connect Secure versions from 8.3R1 to 8.3R7
+  - Pulse Connect Secure versions from 9.0R1 to 9.0R3.3
+
+** Update: September 6, 2019 Update **********************************
+The above Pulse Secure products and versions are affected by
+vulnerabilities listed in the following advisory.
+
+    Pulse Secure
+    SA44101 - 2019-04: Out-of-Cycle Advisory: Multiple vulnerabilities  resolved in Pulse Connect Secure / Pulse Policy Secure 9.0RX
+    https://kb.pulsesecure.net/articles/Pulse_Security_Advisories/SA44101
+
+Pulse Connect Secure versions affected by the vulnerabilities
+(CVE-2019-11510 and CVE-2019-11539) are as follows.
+
+Pulse Secure (CVE-2019-11510)
+  - Pulse Connect Secure versions from 8.2 R1 to 8.2 R12
+  - Pulse Connect Secure versions from 8.3 R1 to 8.3 R7
+  - Pulse Connect Secure versions from 9.0 R1 to 9.0 R3.3
+
+Pulse Secure (CVE-2019-11539)
+  - Pulse Connect Secure versions from 8.1 R1 to 8.1 R15
+  - Pulse Connect Secure versions from 8.2 R1 to 8.2 R12
+  - Pulse Connect Secure versions from 8.3 R1 to 8.3 R7
+  - Pulse Connect Secure versions from 9.0 R1 to 9.0 R3.3
+**********************************************************************
+
+
+III. Solution
+Please update the affected products to the latest version by referring to
+information provided by each product vendor.
+
+
+IV. References
+    Bad Packets
+    Over 14,500 Pulse Secure VPN endpoints vulnerable to CVE-2019-11510
+    https://badpackets.net/over-14500-pulse-secure-vpn-endpoints-vulnerable-to-cve-2019-11510/
+
+    Palo Alto Networks
+    Remote Code Execution in GlobalProtect Portal/Gateway Interface  (PAN-SA-2019-0020)
+    https://securityadvisories.paloaltonetworks.com/Home/Detail/158
+
+    Fortinet
+    FortiOS system file leak through SSL VPN via specially crafted HTTP resource requests
+    https://fortiguard.com/psirt/FG-IR-18-384
+
+    Pulse Secure
+    SA44101 - 2019-04: Out-of-Cycle Advisory: Multiple vulnerabilities resolved in Pulse Connect Secure / Pulse Policy Secure 9.0RX
+    https://kb.pulsesecure.net/articles/Pulse_Security_Advisories/SA44101
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2019-09-02 First edition
+2019-09-06 Updated "I. Overview", "II. Affected Systems"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: ew-info@jpcert.or.jp
+TEL: +81-3-6271-8901 FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

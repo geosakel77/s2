@@ -1,0 +1,91 @@
+JPCERT-AT-2011-0032
+                                                             JPCERT/CC
+                                                            2011-12-05
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 05.12.11 &gt;&gt;&gt;
+
+                Attacks on known Java SE vulnerabilities
+
+            https://www.jpcert.or.jp/at/2011/at110032.txt
+
+
+I. Overview
+
+  JPCERT/CC has confirmed attacks targeting a known vulnerability in 
+Oracle's Java SE JDK and JRE. A remote attackers may execute arbitrary
+code on systems using Java SE JDK versions older than the October 11, 
+2011 release, or predating JRE6 Update 29. For more information on 
+this vulnerability, refer to information from Oracle.
+
+    Oracle Java SE Critical Patch Update Advisory - October 2011
+    http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html
+
+  JPCERT/CC has confirmed attack sites exploiting this vulnerability, 
+and has confirmed at present two methods of attack.
+
+  1. Standard websites are altered, redirecting users who access the 
+     site to an attack site, where malware infection is intended.
+  2. Users clicking on a link in the text of a spam e-mail are sent to
+     an attack site, where malware infection is intended.
+
+  This exploit has already been found in some vulnerability diagnosis 
+tools, and some of the exploit kits used by the so-called gumblar 
+botnet. Attack activity targeting this vulnerability may increase in 
+the future, so it is recommended to apply the software update provided
+by Oracle that addresses this vulnerability.
+
+
+II. Products Affected
+
+  Java SE JDK and JRE 6 Update 27 and earlier
+
+  Regarding JDK/JRE product support period:
+  Support for JDK/JRE 5.0 series products ended on October 30, 2009, 
+  so no free updates are available. Please consider switching to a 
+  newer application version or purchasing support.
+
+    Java SE 6 End of Life (EOL) Notice
+    http://www.oracle.com/technetwork/java/eol-135779.html
+
+  * The JRE is preinstalled in some PCs provided by certain 
+    manufacturers. Make sure whether or not JRE is installed on the PC.
+
+
+III. Solution
+
+  Oracle has released a corrected version of the software. Please 
+update to the corrected version of the software.
+
+    - Java SE 6 Update 29
+
+    Java Downloads for All Operating Systems:
+    http://java.com/ja/download/manual.jsp?locale=ja
+    http://java.com/en/download/manual.jsp?locale=en
+
+
+IV. References
+
+    Oracle
+    Oracle Java SE Critical Patch Update Advisory - October 2011
+    http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html
+
+    October 2011 Critical Patch Updates Released
+    http://blogs.oracle.com/security/entry/october_2011_critical_patch_updates
+
+    NTT Data Intellilink Corporation
+    Verification Report on Rhino Script Engine Vulnerability (CVE-2011-3544) in Oracle Java SE JDK and JRE
+    http://security.intellilink.co.jp/article/vulner/111202.html
+
+    So-net Security Bulletin
+    Exploit Code Which Targets Vulnerability in Recently Corrected JRE Publicly Available
+    http://security-t.blog.so-net.ne.jp/2011-12-01
+
+
+If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

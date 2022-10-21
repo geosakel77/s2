@@ -1,0 +1,114 @@
+JPCERT-AT-2014-0007
+                                                            JPCERT/CC
+                                                           2014-02-10
+                                            2014-02-10 (First edition)
+                                                  2014-02-20 (Updated)
+                                                  2014-03-07 (Updated)
+
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2014-02-10 &gt;&gt;&gt;
+
+ [Updated] Vulnerability in Apache Commons FileUpload and Apache Tomcat
+
+          https://www.jpcert.or.jp/english/at/2014/at140007.html
+
+
+I. Overview
+
+  Apache Commons FileUpload and Apache Tomcat contain a vulnerability
+in the processing of multipart requests. As a result, a denial-of-service
+(DoS) attack may be conducted by a remote attacker when sending a specially
+crafted HTTP request to a web server. For more details on the vulnerability,
+please refer to the information provided by the Apache Software Foundation.
+
+    [SECURITY] CVE-2014-0050 Apache Commons FileUpload and Apache Tomcat DoS
+    http://mail-archives.us.apache.org/mod_mbox/www-announce/201402.mbox/%3C52F373FC.9030907@apache.org%3E
+
+
+II. Affected Systems
+
+  According to the information provided by the Apache Software Foundation the
+software versions below are affected by this issue:
+
+  - Apache Commons FileUpload 1.0 through 1.3
+  - Apache Tomcat 8.0.0-RC1 through 8.0.1
+  - Apache Tomcat 7.0.0 through 7.0.50
+
+  Other software that uses Apache Commons FileUpload may also be affected.
+
+
+III. Solution
+
+  The Apache Software Foundation has released a version of Apache Commons
+FileUpload that addresses this vulnerability. We recommend updating to this
+version after thorough testing.
+
+  - Apache Commons FileUpload 1.3.1
+    http://commons.apache.org/proper/commons-fileupload/download_fileupload.cgi
+
+*** Update: Revised on March 7, 2014 *********************************
+
+  The Apache Software Foundation has released a version of Apache Tomcat 7
+and 8 that addresses this vulnerability. We recommend updating to this
+version after thorough testing.
+
+  - Apache Tomcat 7 Downloads
+    http://tomcat.apache.org/download-70.cgi
+
+  - Apache Tomcat 8 Downloads
+    http://tomcat.apache.org/download-80.cgi
+
+  Additionally, Apache Struts 2.3.16.1 which includes Apache Commons
+  FileUpload that addresses this vulnerability is released.
+
+  - Download a Release Struts 2.3.16.1
+    https://struts.apache.org/download.cgi#struts23161
+
+  It is recommended to update to the version that addresses this
+  vulnerability, after thorough testing. If the above solution cannot be
+  applied, please consider applying the following workaround.
+
+  - Limit the size of the Content-Type header to less than 4091 bytes
+
+**********************************************************************
+
+
+IV. References
+
+  JVN#14876762 (Japanese)
+  Apache Commons FileUpload vulnerable to denial-of-service (DoS) (Critical)
+  https://jvn.jp/en/jp/JVN14876762/index.html
+
+  Apache Software Foundation
+  FileUpload - Release Notes
+  http://commons.apache.org/proper/commons-fileupload/changes-report.html
+
+*** Update: Revised on February 20, 2014 *********************************
+
+  Apache Software Foundation
+  Apache Tomcat 7 (7.0.52) - Changelog
+  http://tomcat.apache.org/tomcat-7.0-doc/changelog.html#Tomcat_7.0.51_(violetagg)
+
+  Apache Software Foundation
+  Apache Tomcat 8 (8.0.3) - Changelog
+  http://tomcat.apache.org/tomcat-8.0-doc/changelog.html#Tomcat_8.0.2_(markt)
+
+**********************************************************************
+
+*** Update: Revised on March 7, 2014 *************************************
+
+  Apache Software Foundation
+  Apache Struts 2 Documentation S2-020
+  https://struts.apache.org/release/2.3.x/docs/s2-020.html
+
+**********************************************************************
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

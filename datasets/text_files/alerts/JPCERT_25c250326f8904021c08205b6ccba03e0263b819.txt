@@ -1,0 +1,192 @@
+JPCERT-AT-2020-0036
+                                                             JPCERT/CC
+                                                            2020-09-09
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-09-09 &gt;&gt;&gt;
+
+           Microsoft Releases September 2020 Security Updates
+
+         https://www.jpcert.or.jp/english/at/2020/at200036.html
+
+
+I. Overview
+Microsoft has released September 2020 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    September 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Sep
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+* If the same vulnerability spans multiple KBs, listing up each
+
+    CVE-2020-0878
+    Microsoft Browser Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0878
+    - KB4570333, KB4571756, KB4574727, KB4577010, KB4577015, KB4577032
+      KB4577038, KB4577041, KB4577049, KB4577051, KB4577064, KB4577066
+
+    CVE-2020-0908
+    Windows Text Service Module Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0908
+    - KB4570333, KB4571756, KB4574727, KB4577015, KB4577032, KB4577041
+
+    CVE-2020-0922
+    Microsoft COM for Windows Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0922
+    - KB4570333, KB4571756, KB4574727, KB4577015, KB4577032, KB4577038
+      KB4577041, KB4577048, KB4577049, KB4577051, KB4577053, KB4577064
+      KB4577066, KB4577070, KB4577071
+
+    CVE-2020-0997
+    Windows Camera Codec Pack Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0997
+    - KB4570333, KB4571756, KB4574727, KB4577015, KB4577032, KB4577041
+      KB4577049
+
+    CVE-2020-1057
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1057
+    - KB4570333, KB4571756, KB4574727, KB4577015, KB4577032, KB4577041
+      KB4577049
+
+    CVE-2020-1129
+    Microsoft Windows Codecs Library  Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1129
+    - KB4570333, KB4571756, KB4574727, KB4577015, KB4577032, KB4577041
+
+    CVE-2020-1172
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1172
+    - KB4570333, KB4571756, KB4574727, KB4577015, KB4577032, KB4577041
+      KB4577049
+
+    CVE-2020-1200
+    Microsoft SharePoint Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1200
+    - KB4484505, KB4484506, KB4484525, KB4486667
+
+    CVE-2020-1210
+    Microsoft SharePoint Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1210
+    - KB3101523, KB4484480, KB4484504, KB4484505, KB4484506, KB4484512
+      KB4486664
+
+    CVE-2020-1252
+    Windows Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1252
+    - KB4570333, KB4571756, KB4574727, KB4577015, KB4577032, KB4577038
+      KB4577041, KB4577048, KB4577049, KB4577051, KB4577053, KB4577064
+      KB4577066, KB4577070, KB4577071
+
+    CVE-2020-1285
+    GDI+ Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1285
+    - KB4570333, KB4571756, KB4574727, KB4577015, KB4577032, KB4577038
+      KB4577041, KB4577048, KB4577049, KB4577051, KB4577053, KB4577064
+      KB4577066, KB4577070, KB4577071
+
+    CVE-2020-1319
+    Microsoft Windows Codecs Library Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1319
+    - KB number is not assigned
+
+    CVE-2020-1452
+    Microsoft SharePoint Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1452
+    - KB4484505, KB4484506, KB4484515, KB4484525, KB4486667
+
+    CVE-2020-1453
+    Microsoft SharePoint Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1453
+    - KB4484505, KB4484506, KB4484515, KB4484525, KB4486667
+
+    CVE-2020-1460
+    Microsoft SharePoint Server Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1460
+    - KB4484488, KB4484505, KB4484506, KB4484515, KB4486667
+
+    CVE-2020-1508
+    Windows Media Audio Decoder Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1508
+    - KB4570333, KB4571756, KB4574727, KB4577015, KB4577032, KB4577038
+      KB4577041, KB4577048, KB4577049, KB4577051, KB4577053, KB4577064
+      KB4577066, KB4577070, KB4577071
+
+    CVE-2020-1576
+    Microsoft SharePoint Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1576
+    - KB4484505, KB4484506, KB4484515, KB4484525, KB4486664, KB4486667
+
+    CVE-2020-1593
+    Windows Media Audio Decoder Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1593
+    - KB4570333, KB4571756, KB4574727, KB4577015, KB4577032, KB4577038
+      KB4577041, KB4577048, KB4577049, KB4577051, KB4577053, KB4577064
+      KB4577066, KB4577070, KB4577071
+
+    CVE-2020-1595
+    Microsoft SharePoint Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1595
+    - KB4484505, KB4484506, KB4484515, KB4484525
+
+    CVE-2020-16857
+    Microsoft Dynamics 365 for Finance and Operations (on-premises) Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-16857
+    - KB number is not assigned
+
+    CVE-2020-16862
+    Microsoft Dynamics 365 (on-premises) Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-16862
+    - KB4574742
+
+    CVE-2020-16874
+    Visual Studio Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-16874
+    - KB4571479, KB4571480, KB4571481
+
+    CVE-2020-16875
+    Microsoft Exchange Server Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-16875
+    - KB4577352
+
+Microsoft has announced that it will be ending support for Adobe Flash
+Player on Microsoft Edge (both the new Microsoft Edge and Microsoft Edge
+Legacy) and Internet Explorer 11 by the end of 2020. 
+
+    Windows Blog
+    Update on Adobe Flash Player End of Support 
+    https://blogs.windows.com/msedgedev/2020/09/04/update-adobe-flash-end-support/
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation 
+    September 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Sep
+
+    Microsoft Corporation
+    Microsoft Security Updates for September 2020 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2020/09/8/202009-security-updates/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,120 @@
+JPCERT-AT-2016-0004
+                                                            JPCERT/CC
+                                                           2016-01-13
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2016-01-13 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for January 2016
+                 (including 6 critical patches)
+
+      https://www.jpcert.or.jp/english/at/2016/at160004.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for January, 2016.
+This bulletin contains six (6) updates that are rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for January 2016
+    https://technet.microsoft.com/en-us/library/security/ms16-jan
+
+  [Security updates rated as "critical"]
+
+    MS16-001
+    Cumulative Security Update for Internet Explorer (3124903)
+    https://technet.microsoft.com/en-us/library/security/MS16-001
+
+    MS16-002
+    Cumulative Security Update for Microsoft Edge (3124904)
+    https://technet.microsoft.com/en-us/library/security/MS16-002
+
+    MS16-003
+    Cumulative Security Update for JScript and VBScript to Address Remote Code Execution (3125540)
+    https://technet.microsoft.com/en-us/library/security/MS16-003
+
+    MS16-004
+    Security Update for Microsoft Office to Address Remote Code Execution (3124585)
+    https://technet.microsoft.com/en-us/library/security/MS16-004
+
+    MS16-005
+    Security Update for Windows Kernel-Mode Drivers to Address Remote Code Execution (3124584)
+    https://technet.microsoft.com/en-us/library/security/MS16-005
+
+    MS16-006
+    Security Update for Silverlight to Address Remote Code Execution (3126036)
+    https://technet.microsoft.com/en-us/library/security/MS16-006
+
+* Microsoft has released information on support for Internet Explorer
+  and .NET Framework. For more information, please refer to the Microsoft
+  website. Concerns on security risks will rise henceforth, and therefore
+  please consider updating to newer versions of Internet Explorer and 
+  .NET Framework.
+
+    Microsoft
+    Internet Explorer and .NET Framework 4.x Support Announcements
+    https://support.microsoft.com/en-us/lifecycle#gp/msl-ie-dotnet-an
+
+  - Internet Explorer
+    After January 12, 2016 (US time), Microsoft no longer provides
+    security updates or technical support for older versions of Internet
+    Explorer. 
+
+     - Internet Explorer 9 (Windows Vista SP2, Windows Server 2008 SP2)
+     - Internet Explorer 10 (Windows Server 2012)
+     - Internet Explorer 11 (Windows 7 SP1, Windows Server 2008 R2 SP1,
+       Windows 8.1 Update, Windows Server 2012 R2)
+
+  - .NET Framework
+    Microsoft has announced the change in support for .NET Framework after 
+    January 12, 2016 (US time). Support for .NET Framework 4, 4.5 and 4.5.1 
+    terminated on January 12, 2016 (US time). Users of .NET Framework 4, 4.5 
+    and 4.5.1 are recommended to update to 4.5.2.
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for January 2016
+    https://technet.microsoft.com/en-us/library/security/ms16-jan
+
+    Microsoft
+    Microsoft Security Information for January 2016 (Monthly) MS16-001 - MS16-010 (Japanese)
+    http://blogs.technet.com/b/jpsecurity/archive/2016/01/13/201601-security-bulletin.aspx
+
+    Microsoft
+    Support for older versions of Internet Explorer ended on January 12th, 2016 
+    https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support
+
+    Microsoft
+    Internet Explorer and .NET Framework 4.x Support Announcements
+    https://support.microsoft.com/en-us/lifecycle#gp/msl-ie-dotnet-an
+
+    IPA: INFORMATION-TECHNOLOGY PROMOTION AGENCY
+    Internet Explorer support policy changed, urging upgrade (Japanese)
+    https://www.ipa.go.jp/security/ciadr/vul/20151215-IEsupport.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

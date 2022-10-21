@@ -1,0 +1,170 @@
+JPCERT-AT-2019-0015
+                                                             JPCERT/CC
+                                                            2019-04-10
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-04-10 &gt;&gt;&gt;
+
+           Microsoft Releases April 2019 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2019/at190015.html
+
+
+I. Overview
+Microsoft has released April 2019 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    April 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/18306ed5-1019-e911-a98b-000d3a33a34d
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    ADV190011
+    April 2019 Adobe Flash Security Update
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV190011
+    - KB4493478
+
+    CVE-2019-0739
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0739
+    - KB4493441, KB4493464, KB4493470, KB4493474, KB4493475, KB4493509
+
+    CVE-2019-0753
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0753
+    - KB4493435, KB4493441, KB4493446, KB4493464, KB4493470, KB4493472
+      KB4493474, KB4493475, KB4493509
+
+    CVE-2019-0786
+    SMB Server Elevation of Privilege Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0786
+    - KB4493441, KB4493464, KB4493509
+
+    CVE-2019-0790
+    MS XML Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0790
+    - KB4493441, KB4493446, KB4493450, KB4493451, KB4493464, KB4493467
+      KB4493470, KB4493474, KB4493475, KB4493509
+
+    CVE-2019-0791
+    MS XML Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0791
+    - KB4493441, KB4493446, KB4493448, KB4493450, KB4493451, KB4493458
+      KB4493464, KB4493467, KB4493470, KB4493471, KB4493472, KB4493474
+      KB4493475, KB4493509
+
+    CVE-2019-0792
+    MS XML Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0792
+    - KB4493441, KB4493446, KB4493448, KB4493450, KB4493451, KB4493458
+      KB4493464, KB4493467, KB4493470, KB4493471, KB4493472, KB4493474
+      KB4493475, KB4493509
+
+    CVE-2019-0793
+    MS XML Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0793
+    - KB4493441, KB4493446, KB4493448, KB4493450, KB4493451, KB4493458
+      KB4493464, KB4493467, KB4493470, KB4493471, KB4493472, KB4493474
+      KB4493475, KB4493509
+
+    CVE-2019-0795
+    MS XML Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0795
+    - KB4493441, KB4493446, KB4493448, KB4493450, KB4493451, KB4493458
+      KB4493464, KB4493467, KB4493470, KB4493471, KB4493472, KB4493474
+      KB4493475, KB4493509
+
+    CVE-2019-0806
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0806
+    - KB4493441, KB4493464, KB4493470, KB4493474, KB4493475, KB4493509
+
+    CVE-2019-0810
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0810
+    - KB4493441, KB4493464, KB4493470, KB4493474, KB4493475, KB4493509
+
+    CVE-2019-0812
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0812
+    - KB4493441, KB4493464, KB4493470, KB4493474, KB4493475, KB4493509
+
+    CVE-2019-0829
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0829
+    - KB4493441, KB4493464, KB4493470, KB4493474, KB4493509
+
+    CVE-2019-0845
+    Windows IOleCvt Interface Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0845
+    - KB4493441, KB4493446, KB4493448, KB4493450, KB4493451, KB4493458
+      KB4493464, KB4493467, KB4493470, KB4493471, KB4493472, KB4493474
+      KB4493475, KB4493509
+
+    CVE-2019-0853
+    GDI+ Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0853
+    - KB4493441, KB4493446, KB4493448, KB4493450, KB4493451, KB4493458
+      KB4493464, KB4493467, KB4493470, KB4493471, KB4493472, KB4493474
+      KB4493475, KB4493509
+
+    CVE-2019-0860
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0860
+    - KB4493441, KB4493464, KB4493470, KB4493474, KB4493475, KB4493509
+
+    CVE-2019-0861
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0861
+    - KB4493441, KB4493464, KB4493470, KB4493474, KB4493475, KB4493509
+
+According to Microsoft, attacks leveraging the vulnerability
+CVE-2019-0803 (Important) and CVE-2019-0859 (Important) have been
+observed in the wild. Please apply the security update programs as
+soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    April 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/18306ed5-1019-e911-a98b-000d3a33a34d
+
+    Microsoft Corporation
+    Microsoft Security Updates for April 2019 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2019/4/10/201904-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Adobe
+    Security updates available for Flash Player | APSB19-19
+    https://helpx.adobe.com/security/products/flash-player/apsb19-19.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerability in Adobe Flash Player (APSB19-19)
+    https://www.jpcert.or.jp/english/at/2019/at190014.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-6271-8901  FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

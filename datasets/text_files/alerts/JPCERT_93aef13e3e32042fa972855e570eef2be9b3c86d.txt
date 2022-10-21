@@ -1,0 +1,75 @@
+JPCERT-AT-2014-0025
+                                                             JPCERT/CC
+                                                            2014-06-11
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2014-06-11 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for June 2014
+                 (including 2 critical patches)
+
+          https://www.jpcert.or.jp/english/at/2014/at140025.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for June, 2014. This
+bulletin contains two (2) updates that are rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for Jun 2014
+    https://technet.microsoft.com/en-us/library/security/ms14-jun
+
+  [Security updates rated as "critical"]
+
+    MS14-035
+    Cumulative Security Update for Internet Explorer (2969262)
+    https://technet.microsoft.com/library/security/ms14-035
+
+    MS14-036
+    Vulnerabilities in Microsoft Graphics Component Could Allow Remote Code Execution (2967487)
+    https://technet.microsoft.com/library/security/ms14-036
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+  * With the April 2014 update, Microsoft have ended the support for
+    Windows XP and Office 2003. Concerns on security risk will rise
+    henceforth, and therefore please consider updating to a newer OS
+    and software.
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for Jun 2014
+    https://technet.microsoft.com/en-us/library/security/ms14-jun
+
+    Microsoft
+    Microsoft Security Information for Jun 2014 (Monthly) - MS14-030 - MS14-036 (Japanese)
+    http://blogs.technet.com/b/jpsecurity/archive/2014/06/11/201406-security-bulletin.aspx
+
+    Microsoft
+    Update for Vulnerabilities in Adobe Flash Player in Internet Explorer
+    https://technet.microsoft.com/library/security/2755801
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

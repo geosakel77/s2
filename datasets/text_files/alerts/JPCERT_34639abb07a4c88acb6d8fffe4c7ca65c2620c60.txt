@@ -1,0 +1,77 @@
+JPCERT-AT-2007-0022
+                                                             JPCERT/CC
+                                                     November 14, 2007
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2007-11-14 &gt;&gt;&gt;
+
+                 Nov 2007 Microsoft Security Bulletin
+                    (including one critical patch)
+
+               http://www.jpcert.or.jp/at/2007/at070022.txt
+
+I. Overview
+
+  Microsoft has released security bulletins for November 2007 which
+include one "Critical" security update.
+
+  Exploitation of this vulnerability could allow a remote attacker to
+execute arbitrary code.
+
+    Security Bulletin for November 2007
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-nov.mspx
+
+  Detailed information on this vulnerability is available from the
+following URL:
+
+  [Critical Security Updates]
+
+    MS07-061
+    Vulnerability in Windows URI Handling Could Allow Remote Code
+      Execution (943460)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-061.mspx
+
+
+II. Solution
+
+  Apply the security updates immediately by using Microsoft Update or
+    Windows Update.
+
+    Microsoft Update
+    https://www.update.microsoft.com/
+
+    Windows Update
+    https://windowsupdate.microsoft.com/
+
+
+III. Reference Information
+
+    US-CERT Technical Cyber Security Alert TA07-317A
+    Microsoft Updates for Multiple Vulnerabilities
+    http://www.us-cert.gov/cas/techalerts/TA07-317A.html
+
+    Security Bulletin for November 2007
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-nov.mspx
+
+    Microsoft Update and other services: Frequently asked questions
+    http://www.microsoft.com/japan/athome/security/protect/update.mspx
+
+    Vulnerability Note VU#403150
+    Microsoft Windows URI protocol handling vulnerability
+    http://www.kb.cert.org/vuls/id/403150
+
+    Vulnerability Note VU#484649
+    Microsoft Windows DNS Server vulnerable to cache poisoning
+    http://www.kb.cert.org/vuls/id/484649 
+    
+    @police
+    About Microsoft security updates (MS07-061, 062) (November 14)
+    http://www.cyberpolice.go.jp/important/2007/20071114_064045.html
+  
+
+  If you have any information regarding this matter, please contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

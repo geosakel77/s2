@@ -1,0 +1,169 @@
+JPCERT-AT-2017-0015
+                                                             JPCERT/CC
+                                                            2017-04-12
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-04-12 &gt;&gt;&gt;
+
+            Microsoft Releases April 2017 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2017/at170015.html
+
+
+I. Overview
+Microsoft has released April 2017 Security Updates. This contains
+updates that are rated as "critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    April 2017 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/42b8fa28-9d09-e711-80d9-000d3a32fc99
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    2017-3447
+    April Flash Security Update
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/2017-3447
+    - KB4018483
+
+    CVE-2017-0093
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0093
+    - KB4015219, KB4015217, KB4015583
+
+    CVE-2017-0106
+    Microsoft Outlook Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0106
+    - KB3127890, KB3118388, KB3172519, KB3178664
+
+    CVE-2017-0158
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0158
+    - KB4015067, KB4015549, KB4015550, KB4015219, KB4015217, KB4015221,
+      KB4015551, KB4015583
+
+    CVE-2017-0160
+    .NET Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0160
+    - KB4014981, KB4014983, KB4015219, KB4014982, KB4015217, KB4015221,
+      KB4014984, KB4015583
+
+    CVE-2017-0162
+    Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0162
+    - KB4015550, KB4015219, KB4015217, KB4015221, KB4015583
+
+    CVE-2017-0163
+    Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0163
+    - KB4015550, KB3211308, KB4015219, KB4015217, KB4015221, KB4015551,
+      KB4015549, KB4015583
+
+    CVE-2017-0180
+    Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0180
+    - KB3211308, KB4015217, KB4015219, KB4015221, KB4015549, KB4015550,
+      KB4015551, KB4015583
+
+    CVE-2017-0181
+    Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0181
+    - KB4015217, KB4015219, KB4015221, KB4015583
+
+    CVE-2017-0199
+    Microsoft Office/WordPad Remote Code Execution Vulnerability w/Windows API
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0199
+    - KB3141529, KB3141538, KB3178703, KB3178710
+
+    CVE-2017-0200
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0200
+    - KB4015217
+
+    CVE-2017-0201
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0201
+    - KB4014661, KB4015551
+
+    CVE-2017-0202
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0202
+    - KB4015217, KB4015219, KB4015221, KB4015549, KB4015550, KB4015583
+
+    CVE-2017-0205
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0205
+    - KB4015217, KB4015219, KB4015583
+
+According to Microsoft, attacks leveraging the vulnerabilities
+CVE-2017-0199 (Critical and Important) and CVE-2017-0210 (Important)
+have been observed in the wild. Please apply the security update
+programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+    Microsoft Update Catalog
+    https://catalog.update.microsoft.com/
+
+According to Microsoft, extended support for the following software
+end as follows.
+
+  - Windows Vista        : April 11, 2017 (US time)
+  - Exchange Server 2007 : April 11, 2017 (US time)
+
+After the extended support, Microsoft will not address any security
+issues for the software. Please check if there are any clients or
+server products that have the software installed, and please switch to
+the supported versions as soon as possible.
+
+  Windows Vista support has ended
+  https://support.microsoft.com/en-us/help/22882/windows-vista-end-of-support
+
+  Exchange 2007 End of Life Roadmap
+  https://support.office.com/en-us/article/Exchange-2007-End-of-Life-Roadmap-c3024358-326b-404e-9fe6-b618e54d977d
+
+
+III. References
+    Microsoft Corporation
+    April 2017 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/42b8fa28-9d09-e711-80d9-000d3a32fc99
+
+    Microsoft Corporation
+    Microsoft Security Updates for April 2017 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2017/04/12/201704-security-update/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Adobe Systems Incorporated
+    Security updates available for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsb17-10.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerabilities in Adobe Flash Player (APSB17-10) 
+    https://www.jpcert.or.jp/english/at/2017/at170013.html
+
+    Vulnerability Note VU#921560
+    Microsoft OLE2Link object improperly handles remotely-linked HTA data
+    https://www.kb.cert.org/vuls/id/921560
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

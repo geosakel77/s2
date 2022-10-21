@@ -1,0 +1,96 @@
+JPCERT-AT-2021-0011
+                                                             JPCERT/CC
+                                                    2021-02-25(Initial)
+                                                    2021-03-01(Update)
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-02-25 &gt;&gt;&gt;
+
+Alert Regarding Vulnerability (CVE-2021-21972) in VMware vCenter Server
+
+       https://www.jpcert.or.jp/english/at/2021/at210011.html
+
+
+I. Overview
+On February 23, 2021 (US Time), VMware has released advisory
+(VMSA-2021-0002) regarding vulnerabilities in their multiple products.
+A remote attacker may upload an arbitrary file or execute arbitrary
+command with SYSTEM privileges by leveraging these vulnerabilities.
+For more information, please refer to the information provided by
+VMware.
+
+    VMware
+    VMSA-2021-0002
+    https://www.vmware.com/security/advisories/VMSA-2021-0002.html
+
+In addition, JPCERT/CC has confirmed the information that describes
+the details of the vulnerability of VMware vCenter Server
+(CVE-2021-21972), and the Proof-of-concept code, and scanning activity
+to search for systems affected by this vulnerability.
+
+** Update: March 1, 2021 Update **************************************
+On February 25, 2021, JPCERT/CC sensors in Japan also observed
+scans that appear to be searching for systems affected by
+this vulnerability. There is a possibility that attacks using the
+scanning information may take place in the future. Please consider
+taking measures as soon as possible.
+**********************************************************************
+
+If you are using a product which is affected by this vulnerability,
+please apply the measures by referring to "III. Solution" and
+"IV. Workarounds". 
+
+
+II. Affected Products and Versions
+Affected products and versions are as follows:
+
+  - vCenter Server versions 7.0 prior to 7.0 U1c
+  - vCenter Server versions 6.7 prior to 6.7 U3l
+  - vCenter Server versions 6.5 prior to 6.5 U3n
+  - Cloud Foundation (vCenter Server) versions 4.x prior to 4.2
+  - Cloud Foundation (vCenter Server) versions 3.x prior to 3.10.1.2
+
+
+III. Solution
+VMware has released versions that address the vulnerability.
+Please consider updating to an updated version.
+
+  - vCenter Server version 7.0 U1c
+  - vCenter Server version 6.7 U3l
+  - vCenter Server version 6.5 U3n
+  - Cloud Foundation (vCenter Server) version 4.2
+  - Cloud Foundation (vCenter Server) version 3.10.1.2
+
+
+IV. Workarounds
+The following measures are mentioned as workarounds.
+
+  - Change VMware vRops Client Plugin to incompatible
+
+VMware states that the application of the workaround will affect
+the environment in which VMware vRealize Operations is used.
+For more information, please refer to the information provided
+by VMware.
+
+    VMware
+    VMware vCenter Server Workaround Instructions for CVE-2021-21972 and CVE-2021-21973 (82374)
+    https://kb.vmware.com/s/article/82374
+
+
+V. References
+    VMware
+    VMSA-2021-0002
+    https://www.vmware.com/security/advisories/VMSA-2021-0002.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2021-02-25 First edition
+2021-03-01 Updated "I. Overview"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

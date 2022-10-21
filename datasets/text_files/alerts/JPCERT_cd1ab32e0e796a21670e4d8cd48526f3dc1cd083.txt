@@ -1,0 +1,144 @@
+JPCERT-AT-2016-0021
+                                                             JPCERT/CC
+                                                   2016-05-06(Initial)
+                                                   2016-05-09(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-05-06 &gt;&gt;&gt;
+
+       Alert Regarding Vulnerability (CVE-2016-3714) in ImageMagick
+
+         https://www.jpcert.or.jp/english/at/2016/at160021.html
+
+
+I. Overview
+
+  ImageMagick provided by ImageMagick Studio LLC contains a vulnerability
+(CVE-2016-3714). When opening contents that leverage this vulnerability in
+ImageMagick, an arbitrary OS command may be executed.
+  For details on the vulnerability, please refer to the information provided
+by ImageMagick Studio LLC.
+
+    ImageMagick Security Issue
+    https://www.imagemagick.org/discourse-server/viewtopic.php?f=4&amp;t=29588
+
+  Proof-of-Concept code for this vulnerability has been made public. 
+JPCERT/CC has tested this code and verified that an arbitrary OS command
+can be executed with the privileges of the user running ImageMagick.
+
+  ImageMagick Studio LLC has released updated versions of software that 
+address this vulnerability. Users using an affected version of the software
+are strongly recommended to update as soon as possible. Also, if ImageMagick 
+is being used within a web application, this may also be affected, so it is 
+recommended to check if affected and if so, apply the update.
+
+
+II. Affected Software
+
+  The following product and versions are affected by this vulnerability;
+
+  ImageMagick
+    - 6.9.3-9 and earlier versions of 6.x
+    - 7.0.1-0 and earlier versions of 7.x
+
+  JPCERT/CC has verified an arbitrary OS command execution in the versions
+above using the proof-of-concept code.
+
+  If using a version of ImageMagick provided by a distributor, please refer
+to the information provided by the distributor.
+
+
+III. Solution
+
+  Update ImageMagick to one of the following versions that address the
+vulnerability.
+
+  ImageMagick
+    - Version 6.9.3-10 for 6.x
+    - Version 7.0.1-1 for 7.x
+
+  JPCERT/CC has tested the proof-of-concept code on the above versions and
+verified that the vulnerability (CVE-2016-3714) was not exploited.
+
+  Other vulnerabilities (VE-2016-3715, CVE-2016-3716, CVE-2016-3717, 
+CVE-2016-3718) also reported in addition to this vulnerability (CVE-2016-3714),
+require changing the ImageMagick configuration file (policy.xml) as a 
+workaround besides updating the software. For more details, please refer to 
+"IV. Workarounds".
+
+** Update: May 9, 2016 Update ******************************************
+  ImageMagick Studio LLC has released the latest versions of ImageMagick
+on May 5 and 6, 2016(local time). ImageMagick Studio LLC states that these
+versions address the vulnerability.
+
+  For more details, please refer to the information provided by ImageMagick 
+Studio LLC.
+
+    ImageMagick Studio LLC
+    ImageMagick Security Issue
+    http://www.imagemagick.org/discourse-server/viewtopic.php?f=4&amp;t=29588
+
+  Please consider updating to the following latest versions.
+
+  ImageMagick
+    - Version 6.9.4-0 for 6.x
+    - Version 7.0.1-2 for 7.x
+************************************************************************
+
+
+IV. Workarounds
+
+  If the update cannot be applied immediately, change the settings to limit
+processing, in order to mitigate the effects of the vulnerability. Before
+applying this workarounds, carefully consider any side effects.
+
+  - For details on the changes necessary to the ImageMagick configuration file 
+    (policy.xml) to limit processing, please refer to the information provided
+    by ImageMagick Studio LLC and the distributor. If the configuration file
+    (policy.xml) does not exist, disable the functions that process MVG.
+  
+    ImageMagick Studio LLC
+    ImageMagick Security Issue
+    https://www.imagemagick.org/discourse-server/viewtopic.php?f=4&amp;t=29588
+
+    RedHat,Inc
+    ImageMagick Filtering Vulnerability - CVE-2016-3714
+    https://access.redhat.com/security/vulnerabilities/2296071
+
+
+V. References
+
+    ImageMagick Studio LLC
+    ImageMagick: Changelog
+    https://imagemagick.org/script/changelog.php
+
+    ImageMagick Studio LLC
+    ImageMagick/ChangeLog at ImageMagick/ChangeLog at ImageMagick-6
+    https://github.com/ImageMagick/ImageMagick/blob/ImageMagick-6/ChangeLog
+
+    US-CERT Current Activity
+    ImageMagick Vulnerability
+    https://www.us-cert.gov/ncas/current-activity/2016/05/04/ImageMagick-Vulnerability
+
+    Vulnerability Note VU#250519
+    ImageMagick does not properly validate input before processing images using a delegate
+    https://www.kb.cert.org/vuls/id/250519
+
+    SANS Internet Storm Center
+    ImageTragick: Another Vulnerability, Another Nickname
+    https://isc.sans.edu/forums/diary/ImageTragick+Another+Vulnerability+Another+Nickname/21023/
+
+** Update: May 9, 2016 Update ******************************************
+    JVNVU#92998929
+    ImageMagick does not properly validate input before processing images using a delegate (Japanese)
+    https://jvn.jp/vu/JVNVU92998929/
+************************************************************************
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

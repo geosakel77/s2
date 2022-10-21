@@ -1,0 +1,205 @@
+JPCERT-AT-2007-0005
+                                                             JPCERT/CC
+                                                     February 14, 2007
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2007-02-14 &gt;&gt;&gt;
+
+               February 2007 Microsoft Security Bulletin
+                   (including six critical patches)
+
+             http://www.jpcert.or.jp/at/2007/at070005.txt
+
+I. Overview
+
+  Microsoft has released security bulletins for February 2007 which
+include six "Critical" and six "Important" security updates.
+
+  Exploitation of these vulnerabilities could allow a remote attacker
+to execute arbitrary code.
+
+    Security Bulletin for February 2007
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-feb.mspx
+
+  Detailed information on each vulnerability is available from the
+following URLs:
+
+   [Critical Security Updates]
+    MS07-008
+    Vulnerability in HTML Help ActiveX Control Could Allow Remote
+      Code Execution (928843)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-008.mspx
+
+    MS07-009
+    Vulnerability in Microsoft Data Access Components Could Allow
+      Remote Code Execution (927779)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-009.mspx
+
+    MS07-010
+    Vulnerability in Microsoft Malware Protection Engine Could Allow
+      Remote Code Execution (932135)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-010.mspx
+
+    MS07-014
+    Vulnerabilities in Microsoft Word Could Allow Remote Code
+      Execution (929434)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-014.mspx
+    MS07-015
+    Vulnerabilities in Microsoft Office Could Allow Remote Code
+      Execution (932554)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-015.mspx
+
+    MS07-016
+    Cumulative Security Update for Internet Explorer (928090)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-016.mspx
+
+
+   [Important Security Updates]
+    MS07-005
+    Vulnerability in Step-by-Step Interactive Training Could Allow
+      Remote Code Execution (923723)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-005.mspx
+
+    MS07-006
+    Vulnerability in Windows Shell Could Allow Elevation of Privilege
+      (928255)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-006.mspx
+
+    MS07-007
+    Vulnerability in Windows Image Acquisition Service Could Allow
+      Elevation of Privilege (927802)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-007.mspx
+
+    MS07-011
+    Vulnerability in Microsoft OLE Dialog Could Allow Remote Code 
+      Execution (926436)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-011.mspx
+
+    MS07-012
+    Vulnerability in Microsoft MFC Could Allow Remote Code Execution
+      (924667)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-012.mspx
+
+    MS07-013
+    Vulnerability in Microsoft RichEdit Could Allow Remote Code
+      Execution (918118)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-013.mspx
+
+  The patches released this time include security updates for
+vulnerabilities discussed in the following Security Advisories
+released by Microsoft:
+
+    Microsoft Security Advisory (932553)
+    Vulnerability in Microsoft Office Could Allow Remote Code Execution
+    http://www.microsoft.com/japan/technet/security/advisory/932553.mspx
+
+    Microsoft Security Advisory (932114)
+    Vulnerability in Microsoft Word 2000 Could Allow Remote Code Execution
+    http://www.microsoft.com/japan/technet/security/advisory/932114.mspx
+
+    Microsoft Security Advisory (929433)
+    Vulnerability in Microsoft Word Could Allow Remote Code Execution
+    http://www.microsoft.com/japan/technet/security/advisory/929433.mspx
+
+  According to Microsoft, the security update provided in
+"Vulnerabilities in Microsoft PowerPoint Could Allow Remote Code
+Execution (924163) (MS06-058)" addressing the vulnerability reported
+in CVE-2006-3877 in MS06-058 is not effective in removing the
+vulnerability. Customers should apply the security updates released in
+MS07-015 issued to properly address CVE-2006-3877.
+
+
+II. Solution
+
+  Apply the security updates immediately by using Microsoft Update or
+Windows Update.
+
+    Microsoft Update
+    https://update.microsoft.com/microsoftupdate
+
+    Windows Update
+    https://windowsupdate.microsoft.com/
+
+    Office Update
+    http://office.microsoft.com/ja-jp/officeupdate/default.aspx
+
+  Depending on the version of the product, updates may not be
+available from Microsoft Update. Use Windows Update or Office Update
+as needed.
+
+  For example, to apply security updates for Office 2000, they need
+to be downloaded from Office Update. For details of operating systems
+supported by Microsoft Update, see "Security Requirements" in the
+following URL:
+
+    About Microsoft Update
+    http://www.microsoft.com/japan/technet/prodtechnol/microsoftupdate/default.mspx
+
+
+III. Reference Information
+
+    JP Vendor Status Notes JVNTA07-044A
+    Multiple Vulnerabilities in Microsoft Products
+    http://jvn.jp/cert/JVNTA07-044A/index.html
+
+    Security Bulletin for February 2007
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-feb.mspx
+
+    Microsoft Update and other services: Frequently asked questions
+    http://www.microsoft.com/japan/athome/security/protect/update.mspx
+
+    US-CERT Technical Cyber Security Alert TA07-044A
+    Microsoft Updates for Multiple Vulnerabilities
+    http://www.us-cert.gov/cas/techalerts/TA07-044A.html
+
+    US-CERT Vulnerability Note VU#563756
+    Microsoft HTML Help ActiveX control fails to properly validate
+      input
+    http://www.kb.cert.org/vuls/id/563756
+
+    US-CERT Vulnerability Note VU#753924
+    Microsoft Internet Explorer fails to properly instantiate COM
+      objects
+    http://www.kb.cert.org/vuls/id/753924
+
+    US-CERT Vulnerability Note VU#613740
+    Microsoft Excel memory access vulnerability
+    http://www.kb.cert.org/vuls/id/613740
+
+    US-CERT Vulnerability Note VU#205948
+    Microsoft PowerPoint malformed record memory corruption
+    http://www.kb.cert.org/vuls/id/205948
+
+    US-CERT Vulnerability Note VU#412225
+    Microsoft Word 2000 stack buffer overflow
+    http://www.kb.cert.org/vuls/id/412225
+
+    US-CERT Vulnerability Note VU#996892
+    Microsoft Word malformed pointer vulnerability
+    http://www.kb.cert.org/vuls/id/996892
+
+    US-CERT Vulnerability Note VU#589272
+    ADODB.Connection ActiveX control memory corruption vulnerability
+    http://www.kb.cert.org/vuls/id/589272
+
+    US-CERT Vulnerability Note VU#166700
+    Microsoft Word malformed data structure vulnerability
+    http://www.kb.cert.org/vuls/id/166700
+
+    US-CERT Vulnerability Note VU#854856
+    WMI Object Broker ActiveX Control bypasses ActiveX security model
+    http://www.kb.cert.org/vuls/id/854856
+
+    @Police
+    About Microsoft security updates
+    (MS07-005, 006, 007, 008, 009, 010, 011, 012, 013, 014, 015, and
+      016)
+    http://www.cyberpolice.go.jp/important/2007/20070214_072429.html
+
+
+  If you have any information regarding this matter, please contact
+us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

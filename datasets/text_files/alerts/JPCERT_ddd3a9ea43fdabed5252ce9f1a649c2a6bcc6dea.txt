@@ -1,0 +1,129 @@
+JPCERT-AT-2020-0035
+                                                             JPCERT/CC
+                                                            2020-08-21
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-08-21 &gt;&gt;&gt;
+
+             Alert Regarding Vulnerabilities in ISC BIND 9
+
+        https://www.jpcert.or.jp/english/at/2020/at200035.html
+
+
+I. Overview
+ISC BIND 9 contains vulnerabilities (CVE-2020-8620, CVE-2020-8621,
+CVE-2020-8622, CVE-2020-8623, CVE-2020-8624). A remote attacker
+leveraging these vulnerabilities may cause Denial of Service (DoS) etc.
+
+ISC has rated the vulnerability CVE-2020-8620, CVE-2020-8621,
+CVE-2020-8622 and CVE-2020-8623 as "Medium", and CVE-2020-8624 as "Low".
+For more information on the vulnerabilities, please refer to the
+information provided by ISC.
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2020-8620: A specially crafted large TCP payload can trigger an assertion failure in tcpdns.c
+    https://kb.isc.org/docs/cve-2020-8620
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2020-8621: Attempting QNAME minimization after forwarding can lead to an assertion failure in resolver.c
+    https://kb.isc.org/docs/cve-2020-8621
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2020-8622: A truncated TSIG response can lead to an assertion failure
+    https://kb.isc.org/docs/cve-2020-8622
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2020-8623: A flaw in native PKCS#11 code can lead to a remotely triggerable assertion failure in pk11.c
+    https://kb.isc.org/docs/cve-2020-8623
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2020-8624: update-policy rules of type "subdomain" are enforced incorrectly
+    https://kb.isc.org/docs/cve-2020-8624
+
+If you are operating an affected version of ISC BIND 9, please consider
+updating to a version that addresses these vulnerabilities by referring
+to the information in "III. Solution".
+
+
+II. Affected Systems
+According to ISC, the following versions are affected by these
+vulnerabilities.
+
+  CVE-2020-8620
+  - BIND 9.16.x versions from 9.16.0 to 9.16.5
+
+  CVE-2020-8621
+  - BIND 9.16.x versions from 9.16.0 to 9.16.5
+  - BIND 9.14.x versions from 9.14.0 to 9.14.12
+
+  CVE-2020-8622
+  - BIND 9.16.x versions from 9.16.0 to 9.16.5
+  - BIND 9.14.x versions from 9.14.0 to 9.14.12
+  - BIND 9.11.x versions from 9.11.0 to 9.11.21
+  - BIND 9 Supported Preview Edition from 9.9.3-S1 to 9.11.21-S1
+
+  CVE-2020-8623
+  - BIND 9.16.x versions from 9.16.0 to 9.16.5
+  - BIND 9.14.x versions from 9.14.0 to 9.14.12
+  - BIND 9.11.x versions from 9.11.0 to 9.11.21
+  - BIND 9 Supported Preview Edition from 9.10.5-S1 to 9.11.21-S1
+
+  CVE-2020-8624
+  - BIND 9.16.x versions from 9.16.0 to 9.16.5
+  - BIND 9.14.x versions from 9.14.0 to 9.14.12
+  - BIND 9.11.x versions from 9.11.0 to 9.11.21
+  - BIND 9 Supported Preview Edition from 9.9.12-S1 to 9.9.13-S1
+  - BIND 9 Supported Preview Edition from 9.11.3-S1 to 9.11.21-S1
+
+ISC BIND 9 versions prior to 9.10.x, 9.10.x, 9.12.x, 9.13.x and 9.15.x
+which are no longer supported, and development branch versions 9.17.x
+are also affected by these vulnerabilities.
+
+If you are using BIND provided by a distributor, please refer to the
+information provided by that distributor.
+
+
+III. Solution
+ISC has released versions of ISC BIND 9 that address these
+vulnerabilities. Distributors are likely to provide their own versions
+that address the vulnerabilities. Consider updating to an updated
+version after thorough testing.
+
+  - BIND 9.11.22
+  - BIND 9.16.6
+  - BIND 9.17.4
+  - BIND Supported Preview Edition 9.11.22-S1
+
+
+IV. References
+    Japan Registry Services (JPRS)
+    Vulnerability in BIND 9.x (Termination of DNS service) (CVE-2020-8620) - recommended to update the version - (Japanese)
+    https://jprs.jp/tech/security/2020-08-21-bind9-vuln-libuv.html
+
+    Japan Registry Services (JPRS)
+    Vulnerability in BIND 9.x (Termination of DNS service) (CVE-2020-8621) - recommended to update the version - (Japanese)
+    https://jprs.jp/tech/security/2020-08-21-bind9-vuln-forwarding.html
+
+    Japan Registry Services (JPRS)
+    Vulnerability in BIND 9.x (Termination of DNS service) (CVE-2020-8622) - recommended to update the version - (Japanese)
+    https://jprs.jp/tech/security/2020-08-21-bind9-vuln-tsig.html
+
+    Japan Registry Services (JPRS)
+    Vulnerability in BIND 9.x (Termination of DNS service) (CVE-2020-8623) - Applicable only when BIND is built with "--enable-native-pkcs11", recommended to update the version - (Japanese)
+    https://jprs.jp/tech/security/2020-08-21-bind9-vuln-pkcs11.html
+
+    Japan Registry Services (JPRS)
+    Vulnerability in BIND 9.x (Allowing dynamic update that the service provider does not intend) (CVE-2020-8624) - recommended to update the version - (Japanese)
+    https://jprs.jp/tech/security/2020-08-21-bind9-vuln-updatepolicy.html
+
+    Internet Systems Consortium, Inc. (ISC)
+    BIND 9 Security Vulnerability Matrix
+    https://kb.isc.org/docs/aa-00913
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

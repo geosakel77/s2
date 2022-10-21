@@ -1,0 +1,98 @@
+JPCERT-AT-2019-0034
+                                                             JPCERT/CC
+                                                            2019-09-10
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-09-10 &gt;&gt;&gt;
+
+Alert Regarding Vulnerability (CVE-2019-9489) in Trend Micro Products
+
+       https://www.jpcert.or.jp/english/at/2019/at190034.html
+
+
+I. Overview
+JPCERT/CC confirmed the information that the vulnerability (CVE-2019-9489)
+in multiple Trend Micro products such as Virus Buster Corporate Edition
+is exploited in the wild. Trend Micro has released alerts regarding
+this vulnerability.
+
+    Trend Micro Incorporated
+    Request to Apply the Latest Fixed Patch Regarding Multiple Attacks Exploiting Vulnerability (CVE-2019-9489) in Our Products (Japanese)
+    https://appweb.trendmicro.com/SupportNews/NewsDetail.aspx?id=3545
+
+If the vulnerability (CVE-2019-9489) is exploited, an attacker may
+manipulate arbitrary files on a server running the affected products.
+
+    Trend Micro Incorporated
+    Regarding Directory Traversal Vulnerability (CVE-2019-9489) in Virus Buster Corporate Edition and Virus Buster Business Security (Japanese)
+    https://success.trendmicro.com/jp/solution/1122253
+
+Since the vulnerability is already being exploited in the wild, if you
+are using the affected products, it is recommended to update the
+affected system to the latest version as soon as possible.
+According to Trend Micro, it is recommended to check whether various
+settings including search settings have been changed as a way to check
+whether the attack has been made. For more information on the
+vulnerability, please refer to the information provided by Trend Micro.
+
+
+II. Affected Products
+Affected products and versions are as follows:
+
+  - Virus Buster Corporate Edition XG SP1, XG and 11.0 SP1
+  - Virus Buster Business Security 10.0, 9.5 and 9.0
+
+Please also refer to the additional information for the affected products
+and versions for this vulnerability as product name may differ in Japan
+and other countries.
+
+    Trend Micro Incorporated
+    SECURITY BULLETIN:  Directory Traversal Vulnerability in Trend Micro Apex One, OfficeScan and Worry-Free Business Security
+    https://success.trendmicro.com/solution/1122250
+
+    JVNVU#94051551
+    Multiple Trend Micro products vulnerable to directory traversal
+    https://jvn.jp/en/vu/JVNVU94051551/
+
+
+III. Solution
+Trend Micro has released a patch that addresses this vulnerability. 
+It is recommended to apply the patch as soon as possible.
+
+  - Virus Buster Corporate Edition XG Service Pack 1, Critical Patch (Build 5338)
+  - Virus Buster Corporate Edition XG Patch 1, Critical Patch 1 (Build 1933)
+  - Virus Buster Corporate Edition 11.0 Service Pack 1, Critical Patch (Build 6598)
+  - Virus Buster Business Security 10.0, Patch (Build 1531)
+  - Virus Buster Business Security 9.5, Critical Patch (Build 1487)
+  - Virus Buster Business Security 9.0 Service Pack 3, Critical Patch (Build 4394)
+
+
+IV. References
+    Trend Micro Incorporated
+    Request to Apply the Latest Fixed Patch Regarding Multiple Attacks Exploiting Vulnerability (CVE-2019-9489) in Our Products (Japanese)
+    https://appweb.trendmicro.com/SupportNews/NewsDetail.aspx?id=3545
+
+    Trend Micro Incorporated
+    Regarding Directory Traversal Vulnerability (CVE-2019-9489) in Virus Buster Corporate Edition and Virus Buster Business Security (Japanese)
+    https://success.trendmicro.com/jp/solution/1122253
+
+    JVNVU#94051551
+    Directory Traversal Vulnerability in Virus Buster Corporate Edition and Virus Buster Business Security (Japanese)
+    https://jvn.jp/vu/JVNVU94051551
+    
+    Trend Micro Incorporated
+    SECURITY BULLETIN:  Directory Traversal Vulnerability in Trend Micro Apex One, OfficeScan and Worry-Free Business Security
+    https://success.trendmicro.com/solution/1122250
+
+    JVNVU#94051551
+    Multiple Trend Micro products vulnerable to directory traversal
+    https://jvn.jp/en/vu/JVNVU94051551/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: ew-info@jpcert.or.jp
+TEL: +81-3-6271-8901 FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

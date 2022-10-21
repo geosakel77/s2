@@ -1,0 +1,79 @@
+JPCERT-AT-2020-0011
+                                                             JPCERT/CC
+                                                            2020-03-13
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-03-13 &gt;&gt;&gt;
+
+    Alert Regarding Vulnerability (CVE-2020-0796) in Microsoft SMBv3
+
+        https://www.jpcert.or.jp/english/at/2020/at200011.html
+
+
+I. Overview
+On March 10, 2020 (Local Time), Microsoft has released information
+regarding vulnerability in Microsoft Server Message Block 3.1.1 (SMBv3).
+Unauthenticated remote attackers leveraging this vulnerability may be
+able to execute arbitrary code by sending a specially crafted packet to
+the server. According to the Microsoft, it has not confirmed the
+vulnerability being exploited in the wild yet. For more information
+on the vulnerability, please refer to the information provided by
+Microsoft.
+
+    Microsoft
+    ADV200005 | Microsoft Guidance for Disabling SMBv3 Compression
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/adv200005
+
+
+II. Affected Products
+Affected products and versions are as follows:
+
+  - Windows 10 Version 1903
+  - Windows 10 Version 1909
+  - Windows Server, version 1903 (Server Core installation)
+  - Windows Server, version 1909 (Server Core installation)
+
+
+III. Solution
+Microsoft has released security update that address this vulnerability.
+Please update to this version by referring to the information provided
+by Microsoft.
+
+    Microsoft
+    CVE-2020-0796 | Windows SMBv3 Client/Server Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0796
+
+
+IV. Workaround
+According to Microsoft, the following workarounds are recommended for
+this vulnerability. For more detail, please refer to the information
+provided by Microsoft.
+
+  - Disable SMBv3 compression
+  - Block external SMB connections (port 445/tcp)
+
+
+V. References
+    Microsoft
+    ADV200005 | Microsoft Guidance for Disabling SMBv3 Compression
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/adv200005
+
+    Microsoft
+    CVE-2020-0796 | Windows SMBv3 Client/Server Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0796
+
+    US-CERT 
+    Microsoft Releases Out-of-Band Security Updates for SMB RCE Vulnerability
+    https://www.us-cert.gov/ncas/current-activity/2020/03/12/microsoft-releases-out-band-security-updates-smb-rce-vulnerability
+
+    CERT/CC Vulnerability Note VU#872016
+    Microsoft SMBv3 compression remote code execution vulnerability
+    https://kb.cert.org/vuls/id/872016/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+TEL: +81-3-6811-0610  MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

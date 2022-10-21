@@ -1,0 +1,221 @@
+JPCERT-AT-2016-0050
+                                                             JPCERT/CC
+                                                            2016-12-21
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-12-21 &gt;&gt;&gt;
+
+          Alert on managing devices connected to the Internet
+     - Various devices connected to the Internet are under threat -
+
+        https://www.jpcert.or.jp/english/at/2016/at160050.html
+
+
+I. Overview
+
+  JPCERT/CC has been observing surveillance cameras, storage devices,
+embedded communications devices for industry, DVR's (Digital Video
+Recorders) and other devices infected with malware such as "Mirai"
+which targets these types of devices, and packets that continue to
+search for these devices. In particular, security experts have pointed
+out that these malware-infected devices are combining to form "IoT
+Botnets," which are being exploited by attackers to perform large
+scale DDoS attacks. US-CERT in the United States has also published
+information on this issue as a warning.
+
+  Devices with vulnerabilities or lack of proper configuration have
+been exploited by malware, and attacks which leverages these devices
+are observed significantly in Japan. It is fairly simple to find devices
+connected to the Internet that do not have countermeasures in place,
+and JPCERT/CC has observed multiple vulnerabilities being exploited
+for use by various types of malware for these infections. For details
+on the attacks that JPCERT/CC has been observing, please refer to
+"II. Attack Observations".
+
+  Based on the current status of the attacks being observed, it can be
+assumed that not only will attacks increase but the vulnerabilities
+used for exploitation will change. For those that use Internet-reachable
+devices not just at the offices but also at home, it is necessary to
+double check its configuration to make sure that the device will not
+be exploited for use in conducting other attacks or secondary effects
+such as information being stolen. For Internet-reachable devices, it
+is recommended to review configuration, or update any firmware.
+Consider the following points when applying any countermeasures. For
+more details, please refer to "IV. Solution"
+
+  (1) Check whether the device is accessible from the Internet
+  (2) Configure a strong password, enable authentication functions
+  (3) Perform a firmware update
+
+  In preparation for attacks that may occur during the extended
+vacation period, consider shutting off any devices that will not be
+used for work during the vacation period.
+
+
+II. Attack Observations
+
+  When a device is infected with malware, it performs scans and
+attacks against other devices that are accessible from the Internet.
+For characteristics and the behavior of the malware, please refer to
+"III. Malware Behavior".
+  Based on TSUBAME, a network packet monitoring system run by
+JPCERT/CC, a large number of packets to Port23/TCP (telnet) which is
+considered to be scanning activities, have been observed. In addition,
+scan packets targeting services that run on other ports have been
+observed as well.
+
+  - Figure 1 below shows the change in packets observed in TSUBAME by
+    JPCERT/CC to Port23/TCP and Port2323/TCP, suspected to be scanning
+    for these devices
+
+https://www.jpcert.or.jp/at/2016/at160050-23tcp.png
+[Figure 1: Change in the number of scan packets to Port23/TCP,
+           Port2323/TCP from April through December, 2016]
+
+  - Main ports where scan packets have been observed
+    23/TCP, 2323/TCP, 6789/TCP, 7547/TCP, 37777/TCP, 27312/TCP,
+    5555/TCP, 53413/UDP
+    Changes in the number of packets to these ports are shown in
+    Figure 2
+    * In JPCERT/CC observations, ports other than telnet have been
+      targeted
+    * Port7547/TCP has seen a sudden increase in access, so it has
+      been removed from Figure 2
+
+https://www.jpcert.or.jp/at/2016/at160050-37777tcp.png
+[Figure 2: Change in the number of scan packets observed from
+           November through December, 2016]
+
+  Analysis of the communications to these ports revealed attack
+activities such as the creation of backdoors, forwarding another
+types of malware for execution, etc.
+
+
+III. Malware Behavior
+
+  JPCERT/CC has analyzed multiple samples and has confirmed that most
+of the malware contains the following functions:
+
+  - Communications with a C&amp;C (Command and Control) server
+  - Performs telnet scans for searching and spreading infections
+  - Performs HTTP based DoS attacks
+  - Performs UDP based DoS attacks
+  - Performs TCP based DoS attacks
+  etc.
+
+  Note that the malware has capability to run on embedded devices
+such as routers and cameras.
+
+
+IV. Solution
+
+  If a device is connected to the Internet and configured to use
+remotely, it is recommended to perform the following countermeasures.
+Also, for any new devices to be installed, perform the following
+steps prior to use.
+  The method to change the configuration varies depending on the
+device. It is recommended to refer to the device manual or consult
+with the company that placed the device when performing these
+countermeasures. In addition, check the device logs and make sure that
+there is no evidence that unauthorized third-parties are using the
+device.
+
+  (1) Check whether the device is accessible from the Internet
+      Check whether a device being used at the office or at home can
+      be accessed from the Internet unintentionally.
+      For connections to the Internet, a device may be unintentionally
+      configured with a global IP address.
+      Check that access to the device is restricted by a router or
+      firewall.  
+      Caution is necessary since functions such as UPnP (Universal
+      Plug and Play) may be used to access these devices under a NAT
+      environment.
+      If access from the Internet is necessary for business or other
+      purposes, restrict access so that it only allows from specific
+      IP addresses or through a VPN.
+
+  (2) Configure a strong password, enable authentication function
+      Devices that can be connected to Internet may have the
+      authentication function disabled by default when shipped out of
+      the factory or use a common ID and password combination by
+      default. The ID and password that is configured by default may
+      be found on the Internet for some products, and attackers may
+      use this for unauthorized access into a device. Thus, please
+      enable authentication and configure a strong password. Also,
+      check all of the ID's, and if there are any that are unfamiliar
+      to any of the users, stop using them or delete them.
+
+      - Example of default configured or simple ID / Password
+      * This is only one example, thus other combinations may exist.
+        Other ID's may include "administrator" or "guest". Other 
+        passwords may include short combination of numbers (ex. "1234"), 
+        or a string of the same number (ex. "00000000").
+        
+            |  ID  |       Password        |
+            | root | Pass                  |
+            | root | admin                 |
+            | root | * Product type number |
+
+  (3) Perform a firmware update
+      Based on the current observations, JPCERT/CC is assuming that
+      attackers may persistently attack known security issues. Please
+      update firmware that have addressed known security issues
+      including vulnerabilities. In order to prevent unexpected
+      damages, it is recommended to periodically check for updates.
+
+  (4) How to handle if there is suspicion of a malware infection
+      There are cases where the malware exists on the device's memory,
+      so disconnecting the device from the network, rebooting,
+      configuring a strong password, and then re-connecting to the
+      network will allow you to remove the infection and use the
+      device again. 
+      If re-connected to the network without changing the password or
+      updating, the firmware may cause the device to become infected
+      again.
+
+  In order to prevent unexpected damages, it is important to consider
+security when using devices. Administrators should know all of the
+devices that are placed in the organization and do their best to
+ensure that they are properly configured. Also, in order to increase
+security awareness within the organization, please consider alerting
+users or changing organization rules as necessary.
+
+
+V. References
+
+    US-CERT Alert (TA16-288A)
+    Heightened DDoS Threat Posed by Mirai and Other Botnets
+    https://www.us-cert.gov/ncas/alerts/TA16-288A
+
+    JVNTA#95530271
+    Threat of DDoS attacks by botnets created by malware such as Malware (Japanese)
+    https://jvn.jp/ta/JVNTA95530271/
+
+    JPCERT/CC
+    JPCERT/CC Internet Threat Monitoring Report [July 1, 2016 - September 30, 2016]
+    https://www.jpcert.or.jp/english/doc/TSUBAMEReport2016Q2_en.pdf
+
+    JPCERT/CC
+    Preparing for attacks leveraging SHODAN - For Control Systems - (Japanese)
+    https://www.jpcert.or.jp/ics/report0609.html
+
+    National Police Agency
+    October 20, 2016 - Internet Observation Results (September, 2016) (Japanese)
+    https://www.npa.go.jp/cyberpolice/detect/pdf/20161020.pdf
+
+    IPA (Internet-technology Promotion Agency)
+    (From Safety Consulting Center) Change password prior to using IoT devices, such as network cameras or home routers (Japanese)
+    https://www.ipa.go.jp/security/anshin/mgdayori20161125.html
+
+    IIJ
+    Internet Infrastructure Review (IIR) Vol.33 (Japanese)
+    http://www.iij.ad.jp/company/development/report/iir/033.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

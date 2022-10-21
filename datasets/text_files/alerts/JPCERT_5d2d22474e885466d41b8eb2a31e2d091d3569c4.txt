@@ -1,0 +1,89 @@
+JPCERT-AT-2022-0015
+                                                             JPCERT/CC
+                                                    2022-06-03(Initial)
+                                                    2022-06-06(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2022-06-03 &gt;&gt;&gt;
+
+Alert Regarding Vulnerability (CVE-2022-26134) in Confluence Server and Data Center
+
+       https://www.jpcert.or.jp/english/at/2022/at220015.html
+
+
+I. Overview
+On June 2, 2022 (Local Time), Atlassian released a security advisory
+regarding the vulnerability (CVE-2022-26134) in Confluence Server and
+Data Center. A unauthenticated remote attacker leveraging this
+vulnerability may be able to execute arbitrary code. For the latest
+information on the vulnerability, please refer to the information
+provided by Atlassian.
+
+    Atlassian
+    Confluence Server and Data Center - CVE-2022-26134 - Critical severity unauthenticated remote code execution vulnerability
+    https://confluence.atlassian.com/doc/confluence-security-advisory-2022-06-02-1130377146.html
+
+Atlassian is aware of current active exploitation of the vulnerability.
+The users of the affected products are recommended to keep an eye on
+the latest information provided by Atlassian and take measures such
+as upgrading or apply workarounds as soon as possible.
+
+
+II. Affected Software
+The following products are affected by this vulnerability. For the
+latest information on the affected products and versions, please refer
+to the information provided by Atlassian.
+
+  Confluence
+  - Confluence Server
+  - Confluence Data Center
+
+
+III. Solution
+As of June 3, 2022, there are currently no fixed versions of Confluence
+Server and Data Center available. It is recommended to check the
+information provided by Atlassian and apply updates once they are
+available.
+
+** Update: June 6, 2022 Update **************************************
+On June 3, 2022 (local time), Atlassian released versions that
+addressed the vulnerability. It is recommended to apply the
+versiosn by referring to the information of Atlassian.
+*********************************************************************
+
+
+IV. Workarounds
+Atlassian recommends users to consider the best course of action such
+as the followings in the meantime.
+
+  - Restricting Confluence Server and Data Center instances from the internet.
+  - Disabling Confluence Server and Data Center instances.
+
+** Update: June 6, 2022 Update **************************************
+On June 3, 2022 (local time), Atlassian updated the advisory and added
+a mitigation for this vulnerability that is to replace jar and class
+files.
+*********************************************************************
+
+
+V. References
+    Volexity
+    Zero-Day Exploitation of Atlassian Confluence
+    https://www.volexity.com/blog/2022/06/02/zero-day-exploitation-of-atlassian-confluence/
+
+    Atlassian
+    Atlassian Support End of Life Policy
+    https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2022-06-03 First edition
+2022-06-06 Updated "III. Solution" and "IV. Workarounds"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,97 @@
+JPCERT-AT-2016-0047
+                                                             JPCERT/CC
+                                                            2016-11-14
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-11-14 &gt;&gt;&gt;
+
+                  Alert regarding website compromise
+
+        https://www.jpcert.or.jp/english/at/2016/at160047.html
+
+
+I. Overview
+
+  JPCERT/CC has been receiving various reports on website compromise. 
+According to these reports, attackers have compromised a number of
+domestic websites by placing malicious files on the web server,
+designed to inspect the websites including its access counts and
+visitors.
+
+  - Attackers place a malicious file on the web server named
+    'index_old.php' and add a process (shown below) on the homepage
+    which makes the browser load this malicious file
+<script src="./index_old.php" type="text/javascript">
+</script>
+- When a user visits a compromised website, the above malicious file
+    is executed, and the visitors IP address and time of visit is
+    recorded as a log.
+
+  In addition to above mentioned inspection, attackers also seem to be
+conducting searching activities to see if the websites can be exploited
+for use in cyber attacks, such as water hole attacks.
+  Website administrators should refer to information provided in
+"II. Solution" to check whether the contents of their website have been
+compromised or not and consider applying any necessary countermeasures.
+
+
+II. Solution
+
+  Please consider the following check points and countermeasures:
+
+  (Check points)
+  - Check for any process to load malicious files, such as the
+    following in the homepage of the website
+<script src="./index_old.php" type="text/javascript">
+</script>
+- Check the public facing contents of the website for any malicious
+    files or compromised contents
+  - Check the FTP/SSH logs and web application access logs for any
+    suspicious source IP addresses, access times, request URIs, etc.
+
+  * If any suspicious activity is discovered, isolate the web server,
+    change the account passwords for website maintenance, and report
+    to JPCERT/CC
+
+  (Countermeasures)
+  - Apply security updates to the OS and software used on the web
+    server
+  - Disable 20, 21/TCP (FTP), 23/TCP (TELNET) and perform website
+    maintenance through a secure protocol, such as SSH
+  - Restrict the PC (IP address) that can be used for website
+    maintenance
+  - Change the password for website maintenance account (SSH/CMS etc.) 
+    to a strong one
+  - Obtain a backup of the website contents, and periodically check
+    for any differences
+
+
+III. References
+
+    @Police
+    Alert regarding website compromises (PDF) (Japanese)
+    https://www.npa.go.jp/cyberpolice/detect/pdf/20161114.pdf
+
+    JPCERT/CC
+    Alert "Periodic checks for websites in preparation for cyber attacks" (Japanese)
+    https://www.jpcert.or.jp/pr/2016/pr160004.html
+
+
+IV. Contact Information
+
+JPCERT/CC Incident Response Group
+Tel: 03-3518-4600  Fax: 03-3518-2177
+E-mail: info@jpcert.or.jp
+
+JPCERT/CC Watch and Warning Group
+Tel: 03-3518-4600  Fax: 03-3518-4602
+E-mail: ww-info@jpcert.or.jp
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,124 @@
+JPCERT-AT-2017-0010
+                                                             JPCERT/CC
+                                                            2017-03-15
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-03-15 &gt;&gt;&gt;
+
+           Vulnerabilities in Adobe Flash Player (APSB17-07)
+
+       https://www.jpcert.or.jp/english/at/2017/at170010.html
+
+
+I. Overview
+
+  Adobe Flash Player contains multiple vulnerabilities. A remote
+attacker may cause Adobe Flash Player to crash or execute arbitrary
+code by convincing a user to open specially crafted contents leveraging
+these vulnerabilities. For more information on the vulnerabilities,
+please refer to the information provided by Adobe Systems.
+
+    Security Updates Available for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsb17-07.html
+
+
+II. Affected Products
+
+  The following versions are affected by these vulnerabilities:
+
+  - Adobe Flash Player Desktop Runtime (24.0.0.221) and earlier
+    (Internet Explorer, Mozilla Firefox, Safari etc.)
+  - Adobe Flash Player for Google Chrome (24.0.0.221) and earlier
+  - Adobe Flash Player for Microsoft Edge and Internet Explorer 11 (24.0.0.221) and earlier
+    (Windows 10 and Windows 8.1)
+
+  Users can check the version of Adobe Flash Player that they are
+using at the following link:
+
+    Adobe Flash Player: Version Information
+    https://www.adobe.com/software/flash/about/
+
+
+III. Solution
+
+  Please update Adobe Flash Player to the latest version listed below:
+
+  - Adobe Flash Player Desktop Runtime (25.0.0.127)
+    (Internet Explorer, Mozilla Firefox, Safari etc.)
+  - Adobe Flash Player for Google Chrome (25.0.0.127)
+  - Adobe Flash Player for Microsoft Edge and Internet Explorer 11 (25.0.0.127)
+    (Windows 10 and Windows 8.1)
+
+    Adobe Flash Player Download Center
+    https://get.adobe.com/flashplayer/
+
+  Please be aware of information provided by any distributors that
+include Adobe Flash Player in their products such as web browsers.
+Note that the following browsers contain Adobe Flash Player by default.
+
+  - Internet Explorer 11 (Windows 8.1 and Windows 10)
+  - Microsoft Edge (Windows 10)
+  - Google Chrome
+
+  For Internet Explorer 11 and Microsoft Edge, the latest version of
+Adobe Flash Player will be applied through Windows Update, etc.
+Also, the latest version of Adobe Flash Player will be updated when
+Google Chrome is updated. For more information, please refer to the
+following:
+
+    Security Update for Adobe Flash Player (4014329)
+    https://technet.microsoft.com/en-us/library/security/ms17-023
+
+  * Even if you use a web browser other than Internet Explorer, there
+    is software that uses Adobe Flash Player installed for Internet
+    Explorer, such as Microsoft Office, so please update Adobe Flash
+    Player for Internet Explorer.
+
+
+IV. Workaround
+
+  As a temporary countermeasure until security updates can be applied,
+please consider the following workaround such as disabling Flash on
+the browser or restricting Flash display to mitigate impacts of the
+vulnerability. In addition, applying these countermeasures may affect
+other applications. Please carefully consider and test any side effects
+prior to applying any of the workaround.
+
+  - Limit the Flash content
+    Please disable Flash on your browser or enable Click-to-Play
+    features.
+    For Microsoft Edge, it is recommended to disable Flash on the
+    browser as a workaround. For more information, please refer
+    to "V. References". 
+
+  - Open the security tab on "Internet Options" in Internet Explorer
+    and change the security level to "High" for the Internet zone and
+    local intranet zone.
+
+
+V. References
+
+    Adobe Systems
+    Security updates available for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsb17-07.html
+
+    Adobe Systems
+    Security Bulletins Posted
+    https://blogs.adobe.com/psirt/?p=1449
+
+    Microsoft
+    Security Update for Adobe Flash Player (4014329)
+    https://technet.microsoft.com/en-us/library/security/ms17-023
+
+    Microsoft
+    Enable/Disable Flash Player for Microsoft Edge (Japanese)
+    https://answers.microsoft.com/ja-jp/windows/wiki/apps_windows_10-msedge/microsoft-edge/248bf728-44f4-4b4a-ae50-8b66ee7a96ca
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

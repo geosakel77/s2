@@ -1,0 +1,120 @@
+JPCERT-AT-2018-0009
+                                                             JPCERT/CC
+                                                    2018-02-27(Initial)
+                                                    2018-02-28(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-02-27 &gt;&gt;&gt;
+
+            Alert Regarding Access Controls in memcached
+
+        https://www.jpcert.or.jp/english/at/2018/at180009.html
+
+
+I. Overview
+JPCERT/CC has been observing an increase in access to port 11211/udp
+since February 21, 2018 through information provided by external
+organizations as well as data from JPCERT/CC's packet Internet
+monitoring system (TSUBAME). Observation through TSUBAME on the scan
+packets targeting this port suggests that these scan packets may be
+targeting memcached. Depending on the settings, memcached may be
+unintentionally exposed to the Internet and may be responding to
+scans. In these cases, it may be exploited to attack others or to
+access information that memcached holds. JPCERT/CC has received
+reports on DDoS attacks that exploited memcached.
+
+https://www.jpcert.or.jp/english/at/2018/at180009fig1.png
+Scan observations from TSUBAME for port 11211/udp (February 1, 2018 - February 27, 2018)
+
+Users of memcached are recommended to apply appropriate access
+controls so that the servers are not exploited for attacks.
+
+** Update: February 28, 2018 Update **********************************
+On February 27, 2018 (local time), Danga Interactive released an
+updated version 1.5.6 of memcached. According to the release note,
+port 11211/udp is disabled by default in this update. Please check
+the latest information provided by Danga Interactive.
+
+    memcached/memcached - GitHub
+    Memcached 1.5.6 Release Notes
+    https://github.com/memcached/memcached/wiki/ReleaseNotes156
+**********************************************************************
+
+
+II. Affected Products
+Based on the characteristics of the scan packets observed in TSUBAME,
+the following products are possibly affected:
+
+  - memcached
+
+When memcached version 1.2.7 or later is used with default settings,
+ports 11211/tcp and 11211/udp may be unintentionally exposed.
+
+
+III. Solution
+To prevent unwanted access to information held by memcahed or being
+exploited for use in other attacks, it is strongly recommended to
+apply appropriate access controls.
+
+  - Restrict IP addresses and ports used for access
+    Open access to memcached only to necessary IP addresses or restrict
+    the ports that are used
+
+** Update: February 28, 2018 Update **********************************
+On updated version 1.5.6 of memcached, port 11211/udp is disabled by
+default. Please consider updating memcached as well as restricting
+ports used for access.
+**********************************************************************
+
+Please note that software other than memcached can be exploited for
+DDoS attacks. We recommend checking the settings for ntpd, DNS and
+other software used in the server and apply appropriate access
+restrictions.
+
+
+IV. References
+** Update: February 28, 2018 Update **********************************
+    memcached/memcached - GitHub
+    Memcached 1.5.6 Release Notes
+    https://github.com/memcached/memcached/wiki/ReleaseNotes156
+**********************************************************************
+
+    JPCERT/CC
+    Alert regarding DDoS attacks leveraging the monlist function in ntpd
+    https://www.jpcert.or.jp/english/at/2014/at140001.html
+
+    JPCERT/CC
+    DDoS attacks using recursive DNS requests
+    https://www.jpcert.or.jp/english/at/2013/at130022.html
+
+    JPCERT/CC
+    Preparing for attacks leveraging SHODAN - For Control Systems - (Japanese)
+    https://www.jpcert.or.jp/ics/report0609.html
+
+** Update: February 28, 2018 Update **********************************
+    SAKURA Internet Inc.
+    [Important] Alert regarding access controls in memcached (Japanese)
+    https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1885
+
+    ARBOR NETWORKS
+    memcached Reflection/Amplification Description and DDoS Attack Mitigation Recommendations
+    https://www.arbornetworks.com/blog/asert/memcached-reflection-amplification-description-ddos-attack-mitigation-recommendations/
+
+    CLOUDFLARE
+    Memcrashed - Major amplification attacks from UDP port 11211
+    https://blog.cloudflare.com/memcrashed-major-amplification-attacks-from-port-11211/
+**********************************************************************
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2018-02-27 First edition
+2018-02-28 Updated "I. Overview", "III. Solution" and "IV. References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

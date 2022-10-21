@@ -1,0 +1,73 @@
+JPCERT-AT-2015-0009
+                                                            JPCERT/CC
+                                                           2015-04-15
+                 &lt;&lt;&lt; JPCERT/CC Alert 2015-04-15 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for April 2015
+                 (including 4 critical patches)
+
+          https://www.jpcert.or.jp/english/at/2015/at150009.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for April, 2015.
+This bulletin contains four (4) updates that are rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for April 2015
+    https://technet.microsoft.com/en-us/library/security/ms15-apr
+
+  [Security update rated as "critical"]
+
+    MS15-032
+    Cumulative Security Update for Internet Explorer (3038314)
+    https://technet.microsoft.com/en-us/library/security/ms15-032
+
+    MS15-033
+    Vulnerabilities in Microsoft Office Could Allow Remote Code Execution (3048019)
+    https://technet.microsoft.com/en-us/library/security/ms15-033
+
+    MS15-034
+    Vulnerability in HTTP.sys Could Allow Remote Code Execution (3042553)
+    https://technet.microsoft.com/en-us/library/security/ms15-034
+
+    MS15-035
+    Vulnerability in Microsoft Graphics Component Could Allow Remote Code Execution (3046306)
+    https://technet.microsoft.com/en-us/library/security/ms15-035
+    
+   
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for April 2015
+    https://technet.microsoft.com/en-us/library/security/ms15-apr
+
+    Microsoft
+    Microsoft Security Information for April 2015 (Monthly) - MS15-032 - MS15-042 (Japanese)
+    http://blogs.technet.com/b/jpsecurity/archive/2015/04/15/201504-security-bulletin.aspx
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

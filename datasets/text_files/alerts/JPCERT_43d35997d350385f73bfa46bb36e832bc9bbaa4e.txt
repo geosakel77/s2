@@ -1,0 +1,160 @@
+JPCERT-AT-2020-0033
+                                                             JPCERT/CC
+                                                            2020-08-12
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-08-12 &gt;&gt;&gt;
+
+            Microsoft Releases August 2020 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2020/at200033.html
+
+
+I. Overview
+Microsoft has released August 2020 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    August 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Aug
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    CVE-2020-1046
+    .NET Framework Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1046
+    - KB4569745, KB4569751, KB4570500, KB4570501, KB4570502, KB4570503
+      KB4570505, KB4570506, KB4570507, KB4570508, KB4570509, KB4571692
+      KB4571694, KB4571709, KB4571741
+
+    CVE-2020-1339
+    Windows Media Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1339
+    - KB4565349, KB4565351, KB4566782, KB4571692, KB4571694, KB4571702
+      KB4571703, KB4571709, KB4571719, KB4571723, KB4571729, KB4571730
+      KB4571736, KB4571741, KB4571746
+
+    CVE-2020-1379
+    Media Foundation Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1379
+    - KB4565349, KB4565351, KB4566782, KB4571692, KB4571694, KB4571702
+      KB4571703, KB4571709, KB4571719, KB4571723, KB4571729, KB4571730
+      KB4571736, KB4571741, KB4571746
+
+    CVE-2020-1380
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1380
+    - KB4565349, KB4565351, KB4566782, KB4571687, KB4571692, KB4571694
+      KB4571703, KB4571709, KB4571729, KB4571741
+
+    CVE-2020-1472
+    Netlogon Elevation of Privilege Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1472
+    - KB4565349, KB4565351, KB4566782, KB4571694, KB4571702, KB4571703
+      KB4571719, KB4571723, KB4571729, KB4571736
+
+    CVE-2020-1477
+    Media Foundation Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1477
+    - KB4565349, KB4565351, KB4566782, KB4571692, KB4571694, KB4571702
+      KB4571703, KB4571709, KB4571719, KB4571723, KB4571729, KB4571730
+      KB4571736, KB4571741, KB4571746
+
+    CVE-2020-1483
+    Microsoft Outlook Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1483
+    - KB4484475, KB4484486, KB4484497
+
+    CVE-2020-1492
+    Media Foundation Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1492
+    - KB4565349, KB4565351, KB4566782, KB4571692, KB4571694, KB4571703
+      KB4571709, KB4571723, KB4571741
+
+    CVE-2020-1525
+    Media Foundation Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1525
+    - KB4565349, KB4565351, KB4566782, KB4571692, KB4571694, KB4571709,
+      KB4571741
+
+    CVE-2020-1554
+    Media Foundation Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1554
+    - KB4565349, KB4565351, KB4566782, KB4571692, KB4571694, KB4571702
+      KB4571703, KB4571709, KB4571719, KB4571723, KB4571729, KB4571730
+      KB4571736, KB4571741, KB4571746
+
+    CVE-2020-1555
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1555
+    - KB4565349, KB4565351, KB4566782, KB4571709, KB4571741
+
+    CVE-2020-1560
+    Microsoft Windows Codecs Library Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1560
+    - KB number is not assigned
+
+    CVE-2020-1567
+    MSHTML Engine Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1567
+    - KB4565349, KB4565351, KB4566782, KB4571687, KB4571692, KB4571694
+      KB4571703, KB4571709, KB4571729, KB4571741
+
+    CVE-2020-1568
+    Microsoft Edge PDF Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1568
+    - KB4565349, KB4565351, KB4566782, KB4571692, KB4571694, KB4571709
+      KB4571741
+
+    CVE-2020-1570
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1570
+    - KB4565349, KB4565351, KB4566782, KB4571687, KB4571692, KB4571694
+      KB4571703, KB4571709, KB4571729, KB4571741
+
+    CVE-2020-1574
+    Microsoft Windows Codecs Library Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1574
+    - KB number is not assigned
+
+    CVE-2020-1585
+    Microsoft Windows Codecs Library Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1585
+    - KB number is not assigned
+
+According to Microsoft, attacks leveraging the vulnerabilities
+CVE-2020-1380 (Critical), CVE-2020-1464 (Important) have been observed
+in the wild. Please apply the security update programs as soon as
+possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation 
+    August 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Aug
+
+    Microsoft Corporation
+    Microsoft Security Updates for August 2020 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2020/08/11/202008-security-updates/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

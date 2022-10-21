@@ -1,0 +1,102 @@
+JPCERT-AT-2014-0044
+                                                             JPCERT/CC
+                                                            2014-11-05
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2014-11-05 &gt;&gt;&gt;
+
+  Alert on domain name hijacking by altering registration information
+
+         https://www.jpcert.or.jp/english/at/2014/at140043.html
+
+
+I. Overview
+
+  JPCERT/CC has received multiple incident reports related to domain
+name hijacking of .com domain names used by domestic organizations
+through the altering of registration information.
+
+  Effects of domain name hijacking through the altering of registration
+information for the domain name (herein, registration information) have
+been confirmed. For example, the name resolution when a user attempts to
+visit the website results in accessing an unintended IP address where an
+attacker has prepared a server.
+
+  Systems that provide services using domain names, such as websites may
+be affected by this domain hijacking attack through the altering of
+registration information. In order to minimize the effects of an attack,
+please consider the following solutions and workarounds.
+
+
+II. Affected Systems
+
+  This alert is targeted towards domain name registrants and domain name
+administrators.
+
+
+III. Attack Method
+
+  We have not determined the root cause for all of the incidents received,
+but it is believed that one of the four methods below were used for the
+attack.
+
+  (1) Alter the registration information at the registrar by impersonating
+      the domain name registrant or domain name administrator
+  (2) Alter the registration information at the registrar by leveraging a
+      vulnerability in the registrar system
+  (3) Alter the registration information at the registry by impersonating
+      the registrar
+  (4) Alter the registration information at the registry by leveraging a
+      vulnerability in the registry system
+
+
+IV. Solution
+
+  A solution for attack method (1) is to ensure that domain name registrants
+and domain name administrators the ID / password and other authentication
+information for maintaining registration information is stored safely so
+that it cannot be used by a third party.
+
+  Attack methods (2), (3) and (4) are portions that are maintained by the
+registrar or registry which is out of scope for this alert. Please consider
+the following workaround in conjunction with any solutions.
+
+
+V. Workarounds
+
+  Please consider the following workarounds so that you are able to detect
+and handle any incidents related to registration information being altered
+for any domains that are being maintained:
+
+  - Use the 'whois' command periodically to check if the registration
+    information, such as name server information is correctly configured
+  - Make sure that you have the registrar's contact information on hand
+    in the case of a registration information alteration incident
+
+  (*) JPCERT/CC has confirmed that altered registration information was
+      corrected within 1 - 2 days.
+
+
+VI. References
+
+    Japan Registry Services Co., Ltd (JPRS)
+    (Critical) Domain name hijacking through registration information alteration and its solution
+    http://jprs.jp/tech/security/2014-11-05-unauthorized-update-of-registration-information.html
+
+    Japan Registry Services Co., Ltd (JPRS)
+    Supplement: Domain name hijacking through registration information alteration and its solution
+    http://jprs.jp/tech/security/2014-11-05-unauthorized-update-of-registration-information.pdf
+
+
+  If you are able to provide any information related to this alert,
+please contact us.
+  Also, if you are able to provide any attack related information, please
+report this to us through our Web form or via e-mail.
+
+  Web Form: https://form.jpcert.or.jp/
+  E-mail: info@jpcert.or.jp
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

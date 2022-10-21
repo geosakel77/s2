@@ -1,0 +1,104 @@
+JPCERT-AT-2015-0037
+                                                             JPCERT/CC
+                                                   2015-10-19(Initial)
+                                                   2015-10-20 (Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2015-10-19 &gt;&gt;&gt;
+
+           Vulnerabilities in Adobe Flash Player (APSB15-27)
+
+         https://www.jpcert.or.jp/english/at/2015/at150037.html
+
+
+I. Overview
+
+  Adobe Systems has released security updates to address multiple
+vulnerabilities in Adobe Flash Player (APSB15-27). A remote attacker
+may cause Adobe Flash Player to crash or execute arbitrary code by
+convincing a user to open specially crafted contents leveraging these
+vulnerabilities. For more information on the vulnerabilities, please
+refer to the information provided by Adobe Systems.
+
+    Security updates available for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsb15-27.html
+
+  According to Adobe Systems, limited, targeted attacks leveraging one
+of these vulnerabilities (CVE-2015-7645) have been observed in the wild.
+
+
+II. Affected Products
+
+  The following versions are affected by these vulnerabilities:
+
+  - Adobe Flash Player 19.0.0.207 and earlier
+
+
+III. Solution
+
+  Please update Adobe Flash Player to the latest version listed below:
+
+  - Adobe Flash Player 19.0.0.226
+
+    Adobe Flash Player Download Center
+    https://get.adobe.com/flashplayer/
+
+  Users can check the version of Adobe Flash Player that they are using
+at the following link:
+
+    Adobe Flash Player: Version Information
+    https://www.adobe.com/software/flash/about/
+
+  Also, the following browser contains Adobe Flash Player by default.
+
+  - Google Chrome
+
+** Update: 10/20/2015 Update *****************************************
+  - Internet Explorer 10 (Windows 8)
+  - Internet Explorer 11 (Windows 8.1 and Windows 10)
+  - Microsoft Edge (Windows 10)
+**********************************************************************
+
+  Adobe Flash Player for Google Chrome will be updated when Google Chrome
+is updated. 
+
+** Update: 10/20/2015 Update *****************************************
+Today, Adobe Flash Player Update was published for Internet 
+Explorer 10 for Windows 8, Internet Explorer 11 for Windows 8.1 and
+Microsoft Edge for Windows 10. Please apply the update as soon as 
+possible by using Microsoft Update, Windows update, and so on.
+
+    Microsoft Security Advisory 2755801
+    Update for Vulnerabilities in Adobe Flash Player in Internet Explorer and Microsoft Edge
+    https://technet.microsoft.com/en-us/library/security/2755801.aspx
+
+  * Even if you use a web browser other than Internet Explorer, there is
+    software that uses Adobe Flash Player installed for Internet
+    Explorer, such as Microsoft Office. Please update Adobe Flash
+    Player for Internet Explorer as well.
+**********************************************************************
+
+IV. References
+
+    Adobe Security Bulletin
+    Security Advisory for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsa15-05.html
+
+** Update: 10/20/2015 Update *****************************************
+    Microsoft Security Advisory 2755801
+    Update for Vulnerabilities in Adobe Flash Player in Internet Explorer and Microsoft Edge
+    https://technet.microsoft.com/en-us/library/security/2755801.aspx
+**********************************************************************
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2015-10-19 First edition
+2015-10-20 Updated "Solution" and "References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

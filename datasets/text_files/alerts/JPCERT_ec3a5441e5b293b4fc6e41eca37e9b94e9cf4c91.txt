@@ -1,0 +1,82 @@
+JPCERT-AT-2015-0028
+                                                            JPCERT/CC
+                                                           2015-08-12
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2015-08-12 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for August 2015
+                 (including 4 critical patches)
+
+      https://www.jpcert.or.jp/english/at/2015/at150028.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for August, 2015.
+This bulletin contains four (4) updates that are rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for August 2015
+    https://technet.microsoft.com/en-us/library/security/ms15-aug
+
+  [Security updates rated as "critical"]
+
+    MS15-079
+    Cumulative Security Update for Internet Explorer (3082442)
+    https://technet.microsoft.com/en-us/library/security/ms15-079
+
+    MS15-080
+    Vulnerabilities in Microsoft Graphics Component Could Allow Remote Code Execution (3078662)
+    https://technet.microsoft.com/en-us/library/security/ms15-080
+
+    MS15-081
+   Vulnerabilities in Microsoft Office Could Allow Remote Code Execution (3080790)
+    https://technet.microsoft.com/en-us/library/security/ms15-081
+
+    MS15-091
+    Cumulative Security Update for Microsoft Edge (3084525)
+    https://technet.microsoft.com/en-us/library/security/ms15-091
+
+  According to Microsoft, attacks leveraging MS15-081 (critical) and
+MS15-085 (important) have been observed in the wild.  Please applythe
+security update programs as soon as possible.
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for August 2015
+    https://technet.microsoft.com/en-us/library/security/ms15-aug
+
+    Microsoft
+    Microsoft Security Information for August 2015 (Monthly) MS15-079 - MS15-092 (Japanese)
+    http://blogs.technet.com/b/jpsecurity/archive/2015/08/12/201508-security-bulletin.aspx
+
+    Microsoft
+    Defending against CVE-2015-1769: a logical issue exploited via a malicious USB stick
+    http://blogs.technet.com/b/srd/archive/2015/08/11/defending-against-cve-2015-1769-a-logical-issue-exploited-via-a-malicious-usb-stick.aspx
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

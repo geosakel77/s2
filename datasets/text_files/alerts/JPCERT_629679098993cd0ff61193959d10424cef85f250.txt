@@ -1,0 +1,104 @@
+JPCERT-AT-2014-0001
+                                                             JPCERT/CC
+                                                            2014-01-15
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2014-01-15 &gt;&gt;&gt;
+
+   Alert regarding DDoS attacks leveraging the monlist function in ntpd
+          https://www.jpcert.or.jp/english/at/2014/at140001.html
+
+
+I. Overview
+
+  Older versions of ntpd provided by the NTP project contain a function 
+(monlist) to check on the status of the NTP server. This function may be 
+leveraged by remote attackers for conducting DDoS attacks.
+
+  NTP typically communicates using UDP, so it is relatively easy to 
+spoof the source IP address. In addition, the monlist function replies 
+with a fairly large sized response to the source IP address for requests 
+to the server. This behavior may allow an attacker to send a request 
+packet to a NTP server spoofing the target (source) IP address so that 
+the large sized data (response) is sent to the target (Web Site, etc.).
+
+  JPCERT/CC has received reports regarding DDoS attacks leveraging the 
+monlist function in ntpd. Also, based on data collected by the internet 
+traffic monitoring system (TSUBAME *1) run by JPCERT/CC, an increase in 
+packets searching for NTP servers has been observed and believe that 
+these attacks may continue.
+
+  * 1 The name of the Asia / Pacific internet traffic monitoring system 
+      https://www.jpcert.or.jp/tsubame/
+
+  Servers or network devices you manage that implement functionality
+for a NTP server may be leveraged for a DDoS attack without your knowledge. We
+recommend to check servers and network devices that you manage to see if ntpd
+is running, and if so, configure them properly.
+
+II. Affected versions
+
+  According to the information provided by the NTP Project, the following 
+versions are affected.
+
+  ntpd versions prior to 4.2.7p26
+  *) Production versions of 4.2.6.x are all affected
+  
+  The following command will allow you to verify the ntpd version that is running:
+  
+  ntpq -c rv
+
+III. Solution
+
+  The NTP Project has released a Development version of ntpd that fixes a 
+part of the monlist function to reduce the probability of a DDoS attack. If you
+are running a publicly accessible NTP server using ntpd, please consider updating
+to a development version that addresses this issue.
+
+  The version that addresses this issue is as follows:
+
+  ntpd 4.2.7p26 (Development)
+
+  If you are not able to upgrade to a Development version, please 
+consider the following workarounds.
+
+  - Configure ntpd so that the monlist function is disabled
+    Add the following line to ntp.conf
+    disable monitor
+
+For information on other workarounds, please refer to the information provided
+by CERT/CC
+
+    CERT/CC Vulnerability Note VU#348126
+    NTP can be abused to amplify denial-of-service attack traffic
+    https://www.kb.cert.org/vuls/id/348126
+
+  If you are using a version of ntpd provided by a distributor, please 
+refer to the information provided by the distributor.
+
+  Also, if it is unnecessary to provide external access to the NTP service, 
+please consider restricting access to the NTP server.
+
+
+IV. References
+
+    NTP Project
+    DRDoS / Amplification Attack using ntpdc monlist command 
+    http://support.ntp.org/bin/view/Main/SecurityNotice#DRDoS_Amplification_Attack_using
+
+    CERT/CC Vulnerability Note VU#348126
+    NTP can be abused to amplify denial-of-service attack traffic
+    https://www.kb.cert.org/vuls/id/348126
+
+    NetBSD
+    NetBSD Security Advisory 2014-002
+    http://ftp.netbsd.org/pub/NetBSD/security/advisories/NetBSD-SA2014-002.txt.asc
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

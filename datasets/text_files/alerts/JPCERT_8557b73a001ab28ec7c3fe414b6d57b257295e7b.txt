@@ -1,0 +1,86 @@
+JPCERT-AT-2007-0011
+                                                             JPCERT/CC
+                                   May 8, 2007 (Original release date)
+                                            May 9, 2007 (Last revised)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2007-05-08 &gt;&gt;&gt;
+
+                    Vulnerability in Java Web Start
+
+             http://www.jpcert.or.jp/at/2007/at070011.txt
+
+I. Overview
+
+   Java Web Start from Sun Microsystems contains a vulnerability that 
+allows escalation of privileges. Exploitation of this vulnerability
+could allow a remote attacker to execute unauthorized system classes
+using a specially crafted Java Web Start application.
+
+  Java Web Start is a tool used for deploying Java applications 
+through a web browser, and is included in a Java execution environment
+such as the Java Runtime Environment (JRE).
+
+
+II. Systems Affected
+
+  The following products and versions are affected:
+
+    - SDK 1.4.2 Update 13 and earlier
+    - JDK 5 Update 10 and earlier
+    - JRE 1.4.2 Update 13 and earlier
+    - JRE 5 Update 10 and earlier
+
+  To check the version of your product, run the following command. If
+you use Windows, run the command from the command prompt.
+
+    % java -fullversion
+
+  For more information, refer to the vendor's website.
+
+
+III. Solution
+
+  To fix this problem, update to a fixed version of the software
+provided by Sun Microsystems. For more information, see the following
+website:
+
+    Sun Alert #102881
+    Security Vulnerability With Java Web Start Related to Incorrect
+    Use of System Classes
+    http://sunsolve.sun.com/search/document.do?assetkey=1-26-102881-1
+
+  When the JRE is installed on Windows, you can easily update the
+software by using Java Update.
+
+    Java.com
+    What is Java Update?
+    http://www.java.com/ja/download/help/5000020700.xml
+
+
+IV. Reference Information
+
+    Japan Vulnerability Notes JVN#44724673
+    Security Vulnerability with Java Web Start Related to Incorrect
+    Use of System Classes
+    http://jvn.jp/jp/JVN%2344724673/index.html
+
+    IT Security Center, Information-technology Promotion Agency, Japan
+    (IPA)
+    JVN#44724673 Vulnerability in Java Web Start may allow execution
+    of unauthorized system classes
+    http://www.ipa.go.jp/security/vuln/documents/2007/JVN_44724673.html
+
+
+  If you have any information regarding this matter, please contact us.
+
+__________
+
+Revision History
+May 8, 2007  Initial release
+May 9, 2007  Corrected the titles of Reference Information URLs
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

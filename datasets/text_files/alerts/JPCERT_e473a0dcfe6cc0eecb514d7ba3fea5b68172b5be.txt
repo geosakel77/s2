@@ -1,0 +1,184 @@
+JPCERT-AT-2018-0021
+                                                             JPCERT/CC
+                                                            2018-05-09
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-05-09 &gt;&gt;&gt;
+
+             Microsoft Releases May 2018 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2018/at180021.html
+
+
+I. Overview
+Microsoft has released May 2018 Security Updates. This contains
+updates that are rated as "critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    May 2018 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/a82328f9-1f26-e811-a968-000d3a33a34d
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    ADV180008
+    May 2018 Adobe Flash Security Update
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV180008
+    - KB4103729
+
+    CVE-2018-0943
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0943
+    - KB4103716, KB4103721, KB4103723, KB4103727, KB4103731
+
+    CVE-2018-0945
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0945
+    - KB4103721
+
+    CVE-2018-0946
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0946
+    - KB4103721, KB4103727, KB4103731
+
+    CVE-2018-0951
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0951
+    - KB4103723, KB4103727, KB4103731
+
+    CVE-2018-0953
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0953
+    - KB4103716, KB4103721, KB4103723, KB4103727, KB4103731
+
+    CVE-2018-0954
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0954
+    - KB4103716, KB4103718, KB4103721, KB4103723, KB4103725, KB4103727
+      KB4103731, KB4103768
+
+    CVE-2018-0955
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0955
+    - KB4103716, KB4103718, KB4103721, KB4103723, KB4103725, KB4103727
+      KB4103731, KB4103768
+
+    CVE-2018-0959
+    Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0959
+    - KB4094079, KB4103712, KB4103715, KB4103716, KB4103718, KB4103721
+      KB4103723, KB4103725, KB4103726, KB4103727, KB4103730, KB4103731
+
+    CVE-2018-0961
+    Hyper-V vSMB Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0961
+    - KB4103721, KB4103723, KB4103727, KB4103731
+
+    CVE-2018-1022
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-1022
+    - KB4103716, KB4103718, KB4103721, KB4103723, KB4103725, KB4103727
+      KB4103731, KB4103768
+
+    CVE-2018-8114
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8114
+    - KB4103716, KB4103718, KB4103721, KB4103723, KB4103725, KB4103727
+      KB4103731, KB4103768
+
+    CVE-2018-8122
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8122
+    - KB4103716, KB4103718, KB4103721, KB4103723, KB4103725, KB4103727
+      KB4103731, KB4103768
+
+    CVE-2018-8128
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8128
+    - KB4103721, KB4103727, KB4103731
+
+    CVE-2018-8130
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8130
+    - KB4103721, KB4103727
+
+    CVE-2018-8133
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8133
+    - KB4103716, KB4103721, KB4103723, KB4103727, KB4103731
+
+    CVE-2018-8137
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8137
+    - KB4103716, KB4103721, KB4103723, KB4103727, KB4103731
+
+    CVE-2018-8139
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8139
+    - KB4103721
+
+    CVE-2018-8154
+    Microsoft Exchange Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8154
+    - KB4091243, KB4092041
+
+    CVE-2018-8174
+    Windows VBScript Engine Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8174
+    - KB4103712, KB4103715, KB4103716, KB4103718, KB4103721, KB4103723
+      KB4103725, KB4103726, KB4103727, KB4103730, KB4103731, KB4134651
+
+    CVE-2018-8178
+    Microsoft Browser Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8178
+    - KB4103716, KB4103718, KB4103721, KB4103723, KB4103725, KB4103727
+      KB4103731, KB4103768
+
+According to Microsoft, attacks leveraging the vulnerability
+CVE-2018-8120 (Important) and CVE-2018-8174 (Critical) have been
+observed in the wild. Please apply the security update programs as
+soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update / Windows Update
+    http://www.update.microsoft.com/
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+
+III. References
+    Microsoft Corporation
+    May 2018 Security Updates 
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/a82328f9-1f26-e811-a968-000d3a33a34d
+
+    Microsoft Corporation
+    Microsoft Security Updates for May 2018 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2018/05/09/201805-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Adobe Systems Incorporated
+    Security updates available for Flash Player | APSB18-16
+    https://helpx.adobe.com/security/products/flash-player/apsb18-16.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerability in Adobe Flash Player (APSB18-16)
+    https://www.jpcert.or.jp/english/at/2018/at180020.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

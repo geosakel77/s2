@@ -1,0 +1,106 @@
+JPCERT-AT-2020-0025
+                                                             JPCERT/CC
+                                                            2020-06-10
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-06-10 &gt;&gt;&gt;
+
+   Alert Regarding Vulnerability in Adobe Flash Player (APSB20-30)
+
+       https://www.jpcert.or.jp/english/at/2020/at200025.html
+
+
+I. Overview
+Adobe Systems has released a security update to address a vulnerability
+in Adobe Flash Player (APSB20-30). As a result, an attacker may
+execute arbitrary code by convincing a user to open contents leveraging
+the vulnerability.
+For more information on the vulnerability, please refer to the
+information provided by Adobe.
+
+    Adobe Systems Incorporated
+    Security Bulletin for Adobe Flash Player | APSB20-30
+    https://helpx.adobe.com/security/products/flash-player/apsb20-30.html
+
+
+II. Affected Products
+The following versions are affected by this vulnerability:
+
+  - Adobe Flash Player Desktop Runtime (32.0.0.371) and earlier (Windows, macOS and Linux)
+  - Adobe Flash Player for Google Chrome (32.0.0.371) and earlier (Windows, macOS, Linux and Chrome OS)
+  - Adobe Flash Player for Microsoft Edge and Internet Explorer 11 (32.0.0.371) and earlier (Windows 10 and Windows 8.1)
+
+Users can check the version of Adobe Flash Player that they are using
+at the following link:
+
+    Flash Player Help
+    https://helpx.adobe.com/flash-player.html
+
+
+III. Solution
+Please update Adobe Flash Player to the latest version listed below:
+
+  - Adobe Flash Player Desktop Runtime (32.0.0.387) (Windows, macOS and Linux)
+  - Adobe Flash Player for Google Chrome (32.0.0.387) (Windows, macOS, Linux and Chrome OS)
+  - Adobe Flash Player for Microsoft Edge and Internet Explorer 11 (32.0.0.387) (Windows 10 and Windows 8.1)
+
+    Adobe Flash Player Download Center
+    https://get.adobe.com/flashplayer/
+
+Please be aware of information provided by any distributors that
+include Adobe Flash Player in their products such as web browsers.
+As for the following products, update program for Adobe Flash
+Player is provided by distributor.
+
+  - Microsoft Windows 10
+  - Microsoft Windows 8.1
+  - Google Chrome
+
+The latest version of Adobe Flash Player will be applied through Windows
+Update, etc. 
+
+    ADV200010 | June 2020 Adobe Flash Security Update
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200010
+
+In addition to web browsers, some software such as Microsoft Office
+use Adobe Flash Player. Please apply the security update even if Adobe
+Flash Player is not enabled on web browser.
+
+
+IV. Workaround
+As a temporary countermeasure until security updates can be applied,
+please consider the following workaround such as disabling Flash on
+the browser or restricting display of contents using Flash to mitigate
+impacts of the vulnerability. In addition, applying these countermeasures
+may affect other applications. Please carefully consider and test any
+side effects prior to applying any of the workaround.
+
+  - Limit the Flash content
+    Please disable Flash on your browser or enable Click-to-Play features.
+    In Microsoft Office, enable protected view to avoid the impacts.
+
+
+V. References
+    Adobe Systems Incorporated
+    Security Bulletin for Adobe Flash Player | APSB20-30
+    https://helpx.adobe.com/security/products/flash-player/apsb20-30.html
+
+    Adobe Systems Incorporated
+    Security Bulletins Posted
+    https://blogs.adobe.com/psirt/?p=1882
+
+    Microsoft Corporation
+    Enable/Disable Flash Player for Microsoft Edge (Japanese)
+    https://answers.microsoft.com/ja-jp/windows/wiki/apps_windows_10-msedge/microsoft-edge/248bf728-44f4-4b4a-ae50-8b66ee7a96ca
+
+    Microsoft Corporation
+    ADV200010 | June 2020 Adobe Flash Security Update
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200010
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

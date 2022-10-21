@@ -1,0 +1,110 @@
+JPCERT-AT-2016-0025
+                                                              JPCERT/CC
+                                                    2016-06-15(Initial)
+                                                     2016-06-20(Update)
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2016-06-15 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for June 2016
+                 (including 5 critical patches)
+
+      https://www.jpcert.or.jp/english/at/2016/at160025.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for June, 2016.
+This bulletin contains five (5) updates that are rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+** Update: June 20, 2016 Update ***************************************
+ On June 17, 2016, Microsoft updated its Security Bulletin for June 2016.
+ One new update that is rated as "critical" was added to the bulletin
+ which now makes it six (6) updates in total.
+***********************************************************************
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for June 2016
+    https://technet.microsoft.com/library/security/ms16-jun
+
+  [Security updates rated as "critical"]
+
+    MS16-063
+    Cumulative Security Update for Internet Explorer (3163649)
+    https://technet.microsoft.com/library/security/MS16-063
+
+    MS16-068
+    Cumulative Security Update for Microsoft Edge (3163656)
+    https://technet.microsoft.com/library/security/MS16-068
+
+    MS16-069
+    Cumulative Security Update for JScript and VBScript (3163640)
+    https://technet.microsoft.com/library/security/MS16-069
+
+    MS16-070
+    Security Update for Microsoft Office (3163610)
+    https://technet.microsoft.com/library/security/MS16-070
+
+    MS16-071
+    Security Update for Microsoft Windows DNS Server (3164065)
+    https://technet.microsoft.com/library/security/MS16-071
+
+** Update: June 20, 2016 Update ***************************************
+    MS16-083
+    Security Update for Adobe Flash Player (3167685)
+    https://technet.microsoft.com/library/security/ms16-083
+***********************************************************************
+
+  Please apply the security update programs as soon as possible.
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for June 2016
+    https://technet.microsoft.com/library/security/ms16-jun
+
+    Microsoft
+    Microsoft Security Information for June 2016 (Monthly) MS16-063, MS16-068 - MS16-082 (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2016/06/15/201606-security-bulletin/
+
+** Update: June 20, 2016 Update ***************************************
+    JPCERT/CC
+    Vulnerabilities in Adobe Flash Player (APSB16-18)
+    https://www.jpcert.or.jp/english/at/2016/at160026.html
+
+    Japan Network Information Center (JPNIC)
+    Windows DNS Server Vulnerability (CVE-2016-3227) (Japanese)
+    https://blog.nic.ad.jp/blog/windows-dns-server-vuln-cve-2016-3227/
+
+    Japan Registry Services (JPRS)
+    Vulnerability in Microsoft Windows DNS (Remote Code Execution) (CVE-2016-3227) (Released 6/17/2016) (Japanese)
+    https://jprs.jp/tech/security/2016-06-17-msdns-vuln-remotecodeexec.html
+***********************************************************************
+
+  If you have any information regarding this alert, please contact JPCERT/CC.
+
+________
+Revision History
+2016-06-15 First edition
+2016-06-20 Updated "I. Overview" and "III. References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

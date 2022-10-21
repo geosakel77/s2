@@ -1,0 +1,106 @@
+JPCERT-AT-2008-0009
+                                                             JPCERT/CC
+                                            2008-05-28 (First edition)
+                                                  2008-05-29 (Updated)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2008-05-28 &gt;&gt;&gt;
+
+                 Vulnerability in Adobe Flash Player
+
+             http://www.jpcert.or.jp/at/2008/at080009.txt
+
+I. Overview
+
+*** Update: Revised on May 29, 2008 **********************************
+
+  JPCERT-AT-2008-0009 "Zero-day vulnerability in Adobe Flash Player"
+issued on May 28, 2008 reported that a zero-day vulnerability existed
+in Adobe Flash Player and attacks exploiting this vulnerability had
+already occurred. However, a subsequent investigation by Adobe found
+that this vulnerability was resolved in Flash Player 9.0.124.0
+released on April 8, 2008.
+
+  Adobe Product Security Incident Response Team (PSIRT)
+  Potential Flash Player issue
+  http://blogs.adobe.com/psirt/2008/05/potential_flash_player_issue.html
+
+  Currently, exploits targeting this vulnerability are available on 
+the Internet, and attacks exploiting these are expected to expand in
+the future. When a user opens specially crafted Flash content, a
+remote attacker can execute arbitrary code on the user's computer.
+
+**********************************************************************
+
+II. Products Affected
+
+*** Update: Revised on May 29, 2008 **********************************
+
+  According to Adobe, the following products are affected by this
+vulnerability.
+
+  Products affected:
+  Flash Player 9.0.115.0 and earlier
+  Flash Player 8.0.39.0 and earlier
+
+**********************************************************************
+
+III. Solution
+
+*** Update: Revised on May 29, 2008 **********************************
+
+  To solve this vulnerability, update Flash Player to the latest
+version. For more information, refer to the following website:
+
+  Adobe Flash Player download center
+  http://www.adobe.com/go/getflash
+
+**********************************************************************
+
+
+IV. References
+
+*** Update: Added on May 29, 2008 ************************************
+
+    Adobe - Security Advisories
+    APSB08-11: Flash Player update available to address security
+      vulnerabilities
+    http://www.adobe.com/support/security/bulletins/apsb08-11.html
+
+    US-CERT Technical Cyber Security Alert TA08-149A
+    Exploitation of Adobe Flash Vulnerability
+    http://www.us-cert.gov/cas/techalerts/TA08-149A.html
+
+**********************************************************************
+
+    JVNVU#395473
+    Adobe Flash player code execution vulnerability
+    http://jvn.jp/cert/JVNVU395473/index.html
+
+    US-CERT Vulnerability Notes VU#395473
+    Adobe Flash player code execution vulnerability
+    http://www.kb.cert.org/vuls/id/395473
+
+    Adobe Product Security Incident Response Team (PSIRT)
+    Potential Flash Player issue
+    http://blogs.adobe.com/psirt/2008/05/potential_flash_player_issue.html
+
+    Adobe Flash Player 9
+    http://www.adobe.com/jp/products/flashplayer/
+
+
+
+  If you have any information you could provide regarding this alert,
+please contact us.
+
+__________
+
+Revision history
+2008-05-28 First edition
+2008-05-29 Revised the vulnerability overview and the solution based
+           on the information provided by Adobe. Added references.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

@@ -1,0 +1,220 @@
+JPCERT-AT-2017-0039
+                                                             JPCERT/CC
+                                                            2017-10-11
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-10-11 &gt;&gt;&gt;
+
+            Microsoft Releases October 2017 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2017/at170039.html
+
+
+I. Overview
+Microsoft has released October 2017 Security Updates. This contains
+updates that are rated as "critical". Remote attackers leveraging these
+vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    October 2017 Security Updates 
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/313ae481-3088-e711-80e2-000d3a32fc99
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    ADV170012
+    Vulnerability in TPM could allow Security Feature Bypass
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV170012
+    - KB4038786, KB4038793, KB4041676, KB4041679, KB4041687, KB4041689,
+      KB4041690, KB4041691, KB4041693, KB4042895
+
+    CVE-2017-8727
+    Windows Shell Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8727
+    - KB4041676, KB4041678, KB4041679, KB4041681, KB4041687, KB4041689, 
+      KB4041690, KB4041691, KB4041693, KB4042123, KB4042895
+
+    CVE-2017-11762
+    Microsoft Graphics Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11762
+    - KB4041676, KB4041678, KB4041679, KB4041681, KB4041687, KB4041689, 
+      KB4041690, KB4041691, KB4041693, KB4042122, KB4042895
+
+    CVE-2017-11763
+    Microsoft Graphics Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11763
+    - KB4041676, KB4041678, KB4041679, KB4041681, KB4041687, KB4041689, 
+      KB4041690, KB4041691, KB4041693, KB4042122, KB4042895
+
+    CVE-2017-11771
+    Windows Search Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11771
+    - KB4041676, KB4041678, KB4041679, KB4041681, KB4041687, KB4041689, 
+      KB4041690, KB4041691, KB4041693, KB4042067, KB4042895
+
+    CVE-2017-11779
+    Windows DNSAPI Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11779
+    - KB4041676, KB4041679, KB4041687, KB4041689, KB4041690, KB4041691,
+      KB4041693, KB4042895
+
+    CVE-2017-11792
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11792
+    - KB4041676
+
+    CVE-2017-11793
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11793
+    - KB4040685, KB4041676, KB4041681, KB4041689, KB4041691, KB4041693, 
+      KB4042895
+
+    CVE-2017-11796
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11796
+    - KB4041676
+
+    CVE-2017-11798
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11798
+    - KB4041676, KB4041689, KB4041691, KB4042895
+
+    CVE-2017-11799
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11799
+    - KB4041676, KB4041689, KB4041691, KB4042895
+
+    CVE-2017-11800
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11800
+    - KB4041689, KB4041691, KB4042895
+
+    CVE-2017-11802
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11802
+    - KB4041676, KB4041689, KB4041691, KB4042895
+
+    CVE-2017-11804
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11804
+    - KB4041676, KB4041689, KB4041691, KB4042895
+
+    CVE-2017-11805
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11805
+    - KB4041676
+
+    CVE-2017-11806
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11806
+    - KB4041676
+
+    CVE-2017-11807
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11807
+    - KB4041676
+
+    CVE-2017-11808
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11808
+    - KB4041676, KB4041689, KB4041691, KB4042895
+
+    CVE-2017-11809
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11809
+    - KB4041676, KB4041689, KB4041691, KB4042895
+
+    CVE-2017-11810
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11810
+    - KB4040685, KB4041676, KB4041681, KB4041689, KB4041691, KB4041693,
+      KB4042895
+
+    CVE-2017-11811
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11811
+    - KB4041676, KB4041689, KB4041691, KB4042895
+
+    CVE-2017-11812
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11812
+    - KB4041676, KB4041689, KB4041691
+
+    CVE-2017-11813
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11813
+    - KB4040685, KB4041681, KB4041693
+
+    CVE-2017-11819
+    Windows Shell Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11819
+    - KB4041678, KB4041681
+
+    CVE-2017-11821
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11821
+    - KB4041676
+
+    CVE-2017-11822
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11822
+    - KB4040685, KB4041676, KB4041681, KB4041689, KB4041691, KB4041693,
+      KB4042895
+
+According to Microsoft, attacks leveraging the vulnerability
+CVE-2017-11826 (Important) has been observed in the wild.
+Please apply the security update programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update / Windows Update
+    http://www.update.microsoft.com/
+
+    Microsoft Update Catalog
+    https://catalog.update.microsoft.com/
+
+According to Microsoft, following products will no longer receive
+security and quality updates after October 10, 2017 (US time).
+For more information, please refer to the following URL.
+
+  - Windows 10 Version 1511 (CB:Current Branch / CBB:Current Branch for Businessï¼‰
+    Windows 10 version 1511 will no longer receive security updates
+    https://support.microsoft.com/en-us/help/4035050/windows-10-version-1511-will-no-longer-receive-security-updates
+
+  - Microsoft Office 2007 and other products
+    Products Reaching End of Support for 2017
+    https://support.microsoft.com/en-us/help/4001737/products-reaching-end-of-support-for-2017
+
+    Important notice on end of support (Japanese)
+    https://www.microsoft.com/ja-jp/office/2007/end-of-support/default.aspx
+
+
+III. References
+    Microsoft Corporation
+    October 2017 Security Updates 
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/313ae481-3088-e711-80e2-000d3a32fc99
+
+    Microsoft Corporation
+    Microsoft Security Updates for October 2017 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2017/10/11/201710-security-bulletin/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Qihoo 360
+    New Office 0day (CVE-2017-11826) Exploited in the Wild
+    https://360coresec.blogspot.jp/2017/10/new-office-0day-cve-2017-11826.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,85 @@
+JPCERT-AT-2018-0036
+                                                             JPCERT/CC
+                                                            2018-08-23
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-08-23 &gt;&gt;&gt;
+
+       Alert Regarding Vulnerability in Apache Struts 2 (S2-057)
+
+        https://www.jpcert.or.jp/english/at/2018/at180036.html
+
+
+I. Overview
+On August 22, 2018, the Apache Software Foundation released
+information (S2-057) on a vulnerability (CVE-2018-11776) in Apache
+Struts 2. A remote attacker sending a specially crafted HTTP request
+leveraging the vulnerability may execute arbitrary code on the server
+that runs an application using Apache Struts 2.
+
+For more information on the vulnerability, please refer to the
+information provided by the Apache Software Foundation.
+
+    Apache Struts 2 Documentation
+    Security Bulletins S2-057
+    https://cwiki.apache.org/confluence/display/WW/S2-057
+
+This vulnerability originates in the processing of Apache Struts 2.
+The vulnerability can be leveraged when the Struts configuration file
+does not specify a namespace value or set a wildcard namespace, or
+when url tag in the Struts configuration file does not have value
+and action set.
+The Apache Software Foundation has assigned a "Critical" rating to this
+vulnerability.
+
+The Apache Software Foundation has provided a workaround for this
+vulnerability which is to verify the value of namespace, also verify
+that value or action is set for all url tags. However, it is
+recommended to upgrade the version as soon as possible by referring
+to the information provided in "III. Solution" if a version of Apache
+Struts 2 which is affected by this vulnerability is used.
+
+
+II. Affected Systems
+The following versions of Apache Struts 2 are affected by this
+vulnerability:
+
+  - Apache Struts 2
+    - Versions prior to 2.3.35 for 2.3.x
+    - Versions prior to 2.5.17 for 2.5.x
+
+
+III. Solution
+The Apache Software Foundation has released versions of Apache Struts 2
+that address this vulnerability. It is recommended to update to the
+latest version after thorough testing.
+
+  - Apache Struts 2
+    - Versions 2.3.35 for 2.3.x
+    - Versions 2.5.17 for 2.5.x
+
+For more information, please refer to the updated information provided
+by the Apache Software Foundation.
+
+    Apache Struts 2 Documentation
+    Version Notes 2.5.17
+    https://cwiki.apache.org/confluence/display/WW/Version+Notes+2.5.17
+
+    Apache Struts 2 Documentation
+    Version Notes 2.3.35
+    https://cwiki.apache.org/confluence/display/WW/Version+Notes+2.3.35
+
+
+IV. References
+    Apache Struts 2 Documentation
+    Security Bulletins S2-057
+    https://cwiki.apache.org/confluence/display/WW/S2-057
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

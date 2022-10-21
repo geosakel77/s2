@@ -1,0 +1,109 @@
+JPCERT-AT-2020-0004
+                                                             JPCERT/CC
+                                                    2020-01-19(Initial)
+                                                    2020-02-12(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-01-19 &gt;&gt;&gt;
+
+Alert Regarding Vulnerability (CVE-2020-0674) in Microsoft Internet Explorer
+
+        https://www.jpcert.or.jp/english/at/2020/at200004.html
+
+
+I. Overview
+On January 17, 2020 (US Time), Microsoft has released information
+regarding vulnerability (CVE-2020-0674) in Microsoft Internet Explorer.
+Remote attackers leveraging this vulnerability may be able to execute
+arbitrary code. According to Microsoft, the vulnerability has already
+been exploited in the wild.
+
+    Microsoft
+    ADV200001 | Microsoft Guidance on Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200001
+
+Attackers exploiting this vulnerability may perform attacks by
+convincing a user to access to malicious websites or open maliciously
+crafted Microsoft Office documents. We would recommend paying extra
+attention not to access to suspicious URLs or execute suspicious files
+until implementing solution or applying workarounds.
+
+** Update: January 24, 2020 Update ***********************************
+JPCERT/CC confirmed the attacks that exploit this vulnerability have
+already been conducted in Japan. We recommend the users of affected
+products to consider applying solution or workaround by referring
+to "III. Solution" and "IV. Workaround."
+**********************************************************************
+
+
+II. Affected Products
+Affected products and versions are as follows:
+
+  - Microsoft Internet Explorer 9
+  - Microsoft Internet Explorer 10
+  - Microsoft Internet Explorer 11
+
+
+III. Solution
+On January 19, 2020 (Japan Time), an update to address this
+vulnerability has not been provided. Apply "IV. Workaround" or
+consider using another web browser.
+
+Microsoft is already working on fixing this vulnerability, and plans
+to provide an update that includes this vulnerability in the future.
+We recommend that you review the information provided by Microsoft
+and apply the security update programs as soon as it becomes available.
+
+** Update: February 12, 2020 Update ***********************************
+On February 11, 2020 (US Time), Microsoft has released security updates
+that contain the update addressing this vulnerability.
+
+    Microsoft
+    CVE-2020-0674 | Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0674
+
+Users who have already applied the workaround for this vulnerability
+need to undo it before applying the updates. Please refer to the
+information provided by Microsoft for details.
+**********************************************************************
+
+
+IV. Workaround
+Microsoft released workarounds for this vulnerability.
+According to Microsoft, since this vulnerability is affected when
+jscript is used as a script engine, the vulnerability can be mitigated
+by restricting access to the JScript.dll file.
+IE11, IE10, and IE9 use jscript9.dll by default which is not affected
+by this vulnerability, but jscript.dll is provided to support older
+versions of JScript.
+Please test the effects that the workarounds may cause prior to
+applying the workarounds, as this may affect when accessing to certain
+websites or document files that utilize jscript as the scripting engine.
+
+
+V. References
+    Microsoft 
+    ADV200001 | Microsoft Guidance on Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200001
+
+    US-CERT 
+    Microsoft Releases Security Advisory on Internet Explorer Vulnerability
+    https://www.us-cert.gov/ncas/current-activity/2020/01/17/microsoft-releases-security-advisory-internet-explorer  
+
+    CERT/CC Vulnerability Note VU#338824 
+    Microsoft Internet Explorer Scripting Engine memory corruption vulnerability
+    https://kb.cert.org/vuls/id/338824/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2020-01-19 First edition
+2020-01-24 Updated "I. Overview"
+2020-02-12 Updated "III. Solution"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+TEL: +81-3-6811-0610  MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

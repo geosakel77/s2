@@ -1,0 +1,194 @@
+JPCERT-AT-2017-0022
+                                                             JPCERT/CC
+                                                            2017-06-14
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-06-14 &gt;&gt;&gt;
+
+             Microsoft Releases June 2017 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2017/at170022.html
+
+
+I. Overview
+Microsoft has released June 2017 Security Updates. This contains updates
+that are rated as "critical". Remote attackers leveraging these
+vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    June 2017 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/40969d56-1b2a-e711-80db-000d3a32fc99
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    ADV170007
+    June Flash Security Update
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV170007
+    - KB4022730
+
+    CVE-2017-0283
+    Windows Uniscribe Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0283
+    - KB3191837, KB3191844, KB3191939, KB3203382, KB3203427, KB4020732, 
+      KB4020733, KB4020734, KB4020735, KB4020736, KB4022714, KB4022715,
+      KB4022717, KB4022718, KB4022719, KB4022722, KB4022724, KB4022725,
+      KB4022726, KB4022727, KB4022884, KB4023307
+
+    CVE-2017-0291
+    Windows PDF Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0291
+    - KB4022714, KB4022715, KB4022717, KB4022718, KB4022724, KB4022725, 
+      KB4022726, KB4022727
+
+    CVE-2017-0292
+    Windows PDF Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0292
+    - KB4022714, KB4022715, KB4022717, KB4022718, KB4022724, KB4022725,
+      KB4022726, KB4022727
+
+    CVE-2017-0294
+    Windows Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0294
+    - KB4022008, KB4022714, KB4022715, KB4022717, KB4022718, KB4022719,
+      KB4022722, KB4022724, KB4022725, KB4022726, KB4022727
+
+    CVE-2017-8464
+    LNK Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8464
+    - KB4021903, KB4022714, KB4022715, KB4022717, KB4022718, KB4022719,
+      KB4022722, KB4022724, KB4022725, KB4022726, KB4022727
+
+    CVE-2017-8496
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8496
+    - KB4022715
+
+    CVE-2017-8497
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8497
+    - KB4022715
+
+    CVE-2017-8499
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8499
+    - KB4022725
+
+    CVE-2017-8517
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8517
+    - KB4021558, KB4022714, KB4022715, KB4022725, KB4022726, KB4022727
+
+    CVE-2017-8520
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8520
+    - KB4022725
+
+    CVE-2017-8522
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8522
+    - KB4021558, KB4022714, KB4022715, KB4022725, KB4022726, KB4022727
+
+    CVE-2017-8524
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8524
+    - KB4021558, KB4022714, KB4022715, KB4022725, KB4022726, KB4022727
+
+    CVE-2017-8527
+    Windows Graphics Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8527
+    - KB3191837, KB3191844, KB3191939, KB3203382, KB4022714, KB4022715,
+      KB4022717, KB4022718, KB4022719, KB4022722, KB4022724, KB4022725,
+      KB4022726, KB4022727, KB4022884, KB4023307
+
+    CVE-2017-8528
+    Windows Uniscribe Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8528
+    - KB3191828, KB3191848, KB4022717, KB4022718, KB4022719, KB4022722,
+      KB4022724, KB4022726, KB4022884
+
+    CVE-2017-8543
+    Windows Search Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8543
+    - KB4022714, KB4022715, KB4022717, KB4022718, KB4022719, KB4022722,
+      KB4022724, KB4022725, KB4022726, KB4022727, KB4024402
+
+    CVE-2017-8548
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8548
+    - KB4022714, KB4022715, KB4022725, KB4022727
+    
+    CVE-2017-8549
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8549
+    - KB4022714, KB4022715, KB4022725, KB4022727
+
+According to Microsoft, attacks leveraging the vulnerabilities
+CVE-2017-8464 (Critical) and CVE-2017-8543 (Critical) have been observed
+in the wild.
+Please apply the security update programs as soon as possible.
+
+In addition, related to this security update release, Microsoft has
+also released the security update programs for Microsoft Windows XP
+and Windows Server 2003 which is no longer supported.
+For details, please refer to the follwing.
+
+    Guidance related to June 2017 security update release
+    https://technet.microsoft.com/en-us/library/security/4025685
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+    Microsoft Update Catalog
+    https://catalog.update.microsoft.com/
+
+The security update programs for Microsoft Windows XP and Windows Server
+2003 which is no longer supported are available from Microsoft Update
+Catalog or the link to the download center at the following URL.
+
+    Microsoft security advisory 4025685: Guidance for older platforms: June 13, 2017
+    https://support.microsoft.com/en-us/help/4025687/microsoft-security-advisory-4025685-guidance-for-older-platforms
+
+
+III. References
+    Microsoft Corporation
+    June 2017 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/bc365363-f51e-e711-80da-000d3a32fc99
+
+    Microsoft Corporation
+    Microsoft Security Updates for June 2017 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2017/05/10/201705-security-update/
+
+    Microsoft Corporation
+    Microsoft security advisory 4025685: Guidance for older platforms: June 13, 2017
+    https://support.microsoft.com/en-us/help/4025687/microsoft-security-advisory-4025685-guidance-for-older-platforms
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Adobe Systems Incorporated
+    Security updates available for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsb17-17.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerabilities in Adobe Flash Player (APSB17-17) 
+    https://www.jpcert.or.jp/english/at/2017/at170021.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

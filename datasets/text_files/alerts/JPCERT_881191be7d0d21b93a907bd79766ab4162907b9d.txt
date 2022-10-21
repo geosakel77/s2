@@ -1,0 +1,196 @@
+JPCERT-AT-2020-0010
+                                                             JPCERT/CC
+                                                            2020-03-11
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-03-11 &gt;&gt;&gt;
+
+            Microsoft Releases March 2020 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2020/at200010.html
+
+
+I. Overview
+Microsoft has released March 2020 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    March 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Mar
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    CVE-2020-0684
+    LNK Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0684
+    - KB4538461, KB4540670, KB4540673, KB4540681, KB4540688, KB4540689
+      KB4540693, KB4540694, KB4541500, KB4541504, KB4541505, KB4541506
+      KB4541509, KB4541510
+
+    CVE-2020-0768
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0768
+    - KB4538461, KB4540670, KB4540671, KB4540673, KB4540681, KB4540688
+      KB4540689, KB4540693, KB4541509
+
+    CVE-2020-0801
+    Media Foundation Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0801
+    - KB4538461, KB4540670, KB4540673, KB4540681, KB4540689, KB4540693
+
+    CVE-2020-0807
+    Media Foundation Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0807
+    - KB4538461, KB4540673, KB4540689
+
+    CVE-2020-0809
+    Media Foundation Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0809
+    - KB4538461, KB4540670, KB4540673, KB4540681, KB4540689, KB4540693
+
+    CVE-2020-0811
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0811
+    - KB4538461, KB4540673, KB4540681, KB4540689
+
+    CVE-2020-0812
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0812
+    - KB4538461, KB4540673
+
+    CVE-2020-0816
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0816
+    - KB4538461, KB4540670, KB4540673, KB4540681, KB4540689
+
+    CVE-2020-0823
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0823
+    - KB4538461, KB4540670, KB4540673, KB4540681, KB4540689, KB4540693
+
+    CVE-2020-0824
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0824
+    - KB4538461, KB4540670, KB4540671, KB4540673, KB4540681, KB4540688
+      KB4540689, KB4540693, KB4541509
+
+    CVE-2020-0825
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0825
+    - KB4538461, KB4540673
+
+    CVE-2020-0826
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0826
+    - KB4538461, KB4540670, KB4540673, KB4540681, KB4540689, KB4540693
+
+    CVE-2020-0827
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0827
+    - KB4538461, KB4540670, KB4540673, KB4540681, KB4540689, KB4540693
+
+    CVE-2020-0828
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0828
+    - KB4538461, KB4540670, KB4540673, KB4540681, KB4540689, KB4540693
+
+    CVE-2020-0829
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0829
+    - KB4538461, KB4540670, KB4540673, KB4540681, KB4540689, KB4540693
+
+    CVE-2020-0830
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0830
+    - KB4538461, KB4540670, KB4540671, KB4540673, KB4540681, KB4540688
+      KB4540689, KB4540693, KB4541509
+
+    CVE-2020-0831
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0831
+    - KB4538461, KB4540670, KB4540673, KB4540681, KB4540689, KB4540693
+
+    CVE-2020-0832
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0832
+    - KB4538461, KB4540670, KB4540671, KB4540673, KB4540681, KB4540688
+      KB4540689, KB4540693, KB4541509
+
+    CVE-2020-0833
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0833
+    - KB4538461, KB4540670, KB4540671, KB4540673, KB4540681, KB4540688,
+      KB4540689, KB4540693, KB4541509
+
+    CVE-2020-0847
+    VBScript Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0847
+    - KB4538461, KB4540670, KB4540671, KB4540673, KB4540681, KB4540688
+      KB4540689, KB4540693, KB4541509
+
+    CVE-2020-0848
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0848
+    - KB4538461, KB4540670, KB4540673, KB4540681, KB4540689
+
+    CVE-2020-0852
+    Microsoft Word Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0852
+    - KB4484270, KB4484271, KB4484277
+
+    CVE-2020-0869
+    Media Foundation Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0869
+    - KB4538461, KB4540670, KB4540673, KB4540681, KB4540689, KB4540693
+
+    CVE-2020-0881
+    GDI+ Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0881
+    - KB4538461, KB4540670, KB4540673, KB4540681, KB4540688, KB4540689
+      KB4540693, KB4540694, KB4541500, KB4541504, KB4541505, KB4541506
+      KB4541509, KB4541510
+
+    CVE-2020-0883
+    GDI+ Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0883
+    - KB4538461, KB4540670, KB4540673, KB4540681, KB4540688, KB4540689
+      KB4540693, KB4540694, KB4541500, KB4541504, KB4541505, KB4541506
+      KB4541509, KB4541510
+
+    CVE-2020-0905
+    Dynamics Business Central Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0905
+    - KB4538708, KB4538884, KB4538885, KB4538886, KB4538887, KB4538888
+      KB4551258, KB4551259
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    March 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Mar
+
+    Microsoft Corporation
+    Microsoft Security Updates for March 2020 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2020/03/10/202003-security-updates/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+TEL: +81-3-6811-0610  MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,184 @@
+JPCERT-AT-2019-0036
+                                                             JPCERT/CC
+                                                    2019-09-11(Initial)
+                                                    2019-09-13(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-09-11 &gt;&gt;&gt;
+
+         Microsoft Releases September 2019 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2019/at190036.html
+
+
+I. Overview
+Microsoft has released September 2019 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    September 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/24f46f0a-489c-e911-a994-000d3a33c573
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    ADV190022
+    September 2019 Adobe Flash Security Update
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV190022
+    - KB4516115
+
+    CVE-2019-0787
+    Remote Desktop Client Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0787
+    - KB4512578, KB4515384, KB4516033, KB4516044, KB4516058, KB4516064
+      KB4516065, KB4516066, KB4516067, KB4516068, KB4516070
+
+    CVE-2019-0788
+    Remote Desktop Client Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0788
+    - KB4512578, KB4515384, KB4516044, KB4516058, KB4516064, KB4516066
+      KB4516067, KB4516068, KB4516070
+
+    CVE-2019-1138
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1138
+    - KB4512578, KB4515384, KB4516044, KB4516058, KB4516066, KB4516068
+
+    CVE-2019-1208
+    VBScript Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1208
+    - KB4512578, KB4515384, KB4516044, KB4516046, KB4516058, KB4516065
+      KB4516066, KB4516067, KB4516068, KB4516070
+
+    CVE-2019-1217
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1217
+    - KB4512578, KB4515384, KB4516058
+
+    CVE-2019-1221
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1221
+    - KB4512578, KB4515384, KB4516044, KB4516046, KB4516058, KB4516065
+      KB4516066, KB4516067, KB4516068, KB4516070
+
+    CVE-2019-1236
+    VBScript Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1236
+    - KB4512578, KB4515384, KB4516044, KB4516046, KB4516058, KB4516065
+      KB4516066, KB4516067, KB4516068, KB4516070
+
+    CVE-2019-1237
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1237
+    - KB4512578, KB4515384, KB4516044, KB4516058, KB4516066, KB4516068
+
+    CVE-2019-1257
+    Microsoft SharePoint Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1257
+    - KB4475590, KB4475596, KB4475605, KB4484098
+
+    CVE-2019-1280
+    LNK Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1280
+    - KB4512578, KB4515384, KB4516026, KB4516033, KB4516044, KB4516051
+      KB4516055, KB4516058, KB4516062, KB4516064, KB4516065, KB4516066
+      KB4516067, KB4516068, KB4516070
+
+    CVE-2019-1290
+    Remote Desktop Client Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1290
+    - KB4512578, KB4515384, KB4516033, KB4516044, KB4516055, KB4516058
+      KB4516062, KB4516064, KB4516065, KB4516066, KB4516067, KB4516068
+      KB4516070
+
+    CVE-2019-1291
+    Remote Desktop Client Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1291
+    - KB4512578, KB4515384, KB4516026, KB4516033, KB4516044, KB4516051
+      KB4516055, KB4516058, KB4516062, KB4516064, KB4516065, KB4516066
+      KB4516067, KB4516068, KB4516070
+
+    CVE-2019-1295
+    Microsoft SharePoint Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1295
+    - KB4475590, KB4475596, KB4475605, KB4484098
+
+    CVE-2019-1296
+    Microsoft SharePoint Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1296
+    - KB4475590, KB4475596, KB4484098
+
+    CVE-2019-1298
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1298
+    - KB4512578, KB4515384, KB4516044, KB4516058, KB4516066, KB4516068
+
+    CVE-2019-1300
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1300
+    - KB4512578, KB4515384, KB4516044, KB4516058, KB4516066, KB4516068
+      KB4516070
+
+    CVE-2019-1306
+    Azure DevOps and Team Foundation Server Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1306
+    - The KB number is not assigned
+
+According to Microsoft, attacks leveraging the vulnerability CVE-2019-1214
+(Important) and CVE-2019-1215 (Important) have been observed in the wild.
+Please apply the security update programs as soon as possible.
+
+** Update: September 13, 2019 Update *********************************
+As of September 13, 2019, according to the information provided by Microsoft,
+the advisories for the vulnerability CVE-2019-1214 (Important) and CVE-2019-1215
+(Important) and stated that the vulnerabilities have not been exploited.
+
+    CVE-2019-1214
+    Windows Common Log File System Driver Elevation of Privilege Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1214
+
+    CVE-2019-1215
+    Windows Elevation of Privilege Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1215
+**********************************************************************
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation 
+    September 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/24f46f0a-489c-e911-a994-000d3a33c573
+
+    Microsoft Corporation
+    Microsoft Security Updates for September 2019 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2019/09/10/201909-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2019-09-11 First edition
+2019-09-13 Updated "I. Overview"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: ew-info@jpcert.or.jp
+TEL: +81-3-6271-8901 FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

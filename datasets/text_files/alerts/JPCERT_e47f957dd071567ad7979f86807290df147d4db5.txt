@@ -1,0 +1,104 @@
+JPCERT-AT-2011-0026
+                                                             JPCERT/CC
+                                                            2011-09-22
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 22.09.11 &gt;&gt;&gt;
+
+                Vulnerabilities in Adobe Flash Player
+
+            https://www.jpcert.or.jp/at/2011/at110026.txt
+
+
+I. Overview
+
+  Adobe Flash Player contains multiple vulnerabilities. As a result, a 
+remote attacker could execute arbitrary code or perform cross-site 
+scripting attacks by convincing a user to open specially crafted 
+contents.
+
+  Adobe Systems has already observed targeted attacks exploiting the 
+cross-site scripting vulnerabilities (CVE-2011-2444), and has 
+indicated that e-mail containing links leading to attack vector sites 
+are being sent. When users click on links contained in these e-mails, 
+attackers can spoof users, taking action on websites or in webmail, 
+hijacking sessions, harvesting cookies, etc.
+
+  Users are recommended to update to the corrected software provided 
+by Adobe Systems.
+
+    Adobe Security Bulletins APSB11-26
+    Security update available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb11-26.html
+
+  This vulnerability also affects the Adobe Flash Player included in 
+Adobe Reader/Acrobat, but has been corrected in the newest version of 
+Adobe Reader/Acrobat, released on September 13, 2011. Users who have 
+not yet updated Adobe Reader/Acrobat are recommended to do so.
+
+    Adobe Security Bulletins APSB11-24 
+    Security updates available for Adobe Reader and Acrobat
+    http://www.adobe.com/support/security/bulletins/apsb11-24.html
+
+    JPCERT/CC Alert 2011-09-14 
+    Vulnerabilities in Adobe Reader and Acrobat 
+    https://www.jpcert.or.jp/english/at/2011/at110025.html 
+
+
+II. Products Affected 
+
+  Affected products and versions are as follows:
+
+  - Adobe Flash Player 10.3.183.7 and earlier
+
+For more information, refer to the Adobe Systems website.
+
+
+III. Solution
+
+- Adobe Flash Player
+
+  Update Adobe Flash Player to the following latest version. For more 
+information, refer to the Adobe Systems website.
+
+  - Adobe Flash Player 10.3.183.10
+
+    Adobe Flash Player Download Center
+    http://get.adobe.com/jp/flashplayer/
+    http://get.adobe.com/flashplayer/
+
+  The Adobe Flash Player version number installed on your PC can be 
+verified through the following page:
+
+    Adobe Flash Player:Version Information
+    http://www.adobe.com/jp/software/flash/about/
+    http://www.adobe.com/software/flash/about/
+
+* Even if using browsers other than Internet Explorer, Adobe Flash 
+Player may be installed on Internet Explorer. Therefore, the Adobe 
+Flash Player for Internet Explorer should also be updated.
+
+
+IV. References
+
+    Adobe Security Bulletins APSB11-26
+    Security update available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb11-26.html
+
+    Adobe Security Bulletins APSB11-24
+    Security updates available for Adobe Reader and Acrobat
+    http://www.adobe.com/support/security/bulletins/apsb11-24.html
+
+    JPCERT/CC Alert 2011-09-14
+    Vulnerabilities in Adobe Reader and Acrobat
+    https://www.jpcert.or.jp/at/2011/at110025.html
+    https://www.jpcert.or.jp/english/at/2011/at110025.html
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

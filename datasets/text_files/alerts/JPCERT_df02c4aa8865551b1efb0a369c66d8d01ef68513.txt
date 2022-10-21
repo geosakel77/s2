@@ -1,0 +1,95 @@
+JPCERT-AT-2011-0009
+                                                             JPCERT/CC
+                                                            2011-04-18
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 18.04.11 &gt;&gt;&gt;
+
+                 Vulnerability in Adobe Flash Player
+
+            https://www.jpcert.or.jp/at/2011/at110009.txt
+
+
+I. Overview
+
+  Adobe Flash Player contains a memory corruption vulnerability. As a 
+result, a remote attacker could execute arbitrary code by convincing a
+user to open specially crafted contents. 
+  Adobe Systems has already observed attacks exploiting this 
+vulnerability. Users are recommended to update to the corrected 
+software provided by Adobe Systems. 
+
+    Adobe Security Bulletins APSB11-07
+    Security update available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb11-07.html
+
+  According to Adobe Systems, this vulnerability also affects Adobe 
+Acrobat and Reader, and corrected software will be released by the end
+of April. Users are recommended to apply the updates as soon as they 
+are released.
+
+
+II. Products Affected
+
+  Affected products and versions are as follows:
+
+  - Adobe Flash Player 10.2.153.1 and earlier
+  - Adobe AIR 2.6.19120 and earlier
+
+  For more information, refer to Adobe Systems' website.
+
+
+III. Solution
+
+- Adobe Flash Player
+
+  Update Adobe Flash Player to the following latest version. For more 
+information, refer to Adobe Systems' website.
+
+  - Adobe Flash Player 10.2.159.1
+
+    Adobe Flash Player Download Center
+    http://get.adobe.com/jp/flashplayer/
+    http://get.adobe.com/flashplayer/
+
+  The Adobe Flash Player version number installed on your PC can be 
+verified through the following page:
+
+    Adobe Flash Player: Version Information
+    http://www.adobe.com/jp/software/flash/about/
+    http://www.adobe.com/products/flash/about/
+
+* Even if using browsers other than Internet Explorer, Flash Player 
+  may be installed on Internet Explorer. Therefore, the Flash Player 
+  for Internet Explorer should also be updated.
+
+- Adobe AIR
+
+  Update Adobe AIR to the following latest version. For more 
+information, refer to Adobe Systems' website.
+
+  - Adobe AIR 2.6.19140
+
+    Adobe AIR Download Center
+    http://get.adobe.com/jp/air/
+    http://get.adobe.com/air/
+
+
+IV. References
+
+    Adobe APSA11-02:  
+    Security Advisory for Adobe Flash Player, Adobe Reader and Acrobat
+    http://www.adobe.com/support/security/advisories/apsa11-02.html
+
+    JVNVU#230057
+    Vulnerability in Adobe Flash Player
+    http://jvn.jp/cert/JVNVU230057/index.html
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

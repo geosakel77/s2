@@ -1,0 +1,226 @@
+JPCERT-AT-2010-0032
+                                                             JPCERT/CC
+                                            2010-12-09 (First edition)
+                                                   2010-12-15(Updated)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 09.12.10 &gt;&gt;&gt;
+
+  Improperly setup Asterisk may be exploited for malicious purposes
+
+              https://www.jpcert.or.jp/at/2010/at100032.txt
+
+
+I. Overview
+
+  JPCERT/CC has confirmed cases where Asterisk used with insufficient
+security measures applied has resulted in unauthorized use such as 
+unintended international phone calls being made by a third party.
+
+  * Asterisk is an IP-PBX (Intenet Protocol Private Branch eXchange)
+    open source software that functions as an SIP server.
+
+  It is assumed that the attacker broadcasts SIP communication 
+5060/udp packets over the Internet, and performs brute-force attacks
+on responding SIP servers in order to identify IDs and passwords 
+required to make calls on an IP phone.  Subsequently, the attacker 
+uses the identified IDs and passwords to make unauthorized 
+international calls.
+
+  As a result,  if security measures applied to the IP-PBX are 
+insufficient, an attacker could make unauthorized use of an operating
+IP-PBX, which may result in being invoiced for international calls at
+a later date.
+
+  It is assumed that the attacks are performed on any IP-PBX. However,
+multiple cases have been confirmed where Asterisk users especially 
+have been billed large amounts for international calls.
+
+The major cause is assumed to be that the applied security measures 
+were insufficient such as using sample passwords that are known to 
+the public or using easily guessable user names and passwords when 
+configuring Asterisk.
+
+
+*** Update: Added on December 15, 2010 *******************************
+
+II. Cases reported to JPCERT/CC
+
+  JPCERT/CC has received a report concerning a host that was 
+performing attacks on SIP servers.
+The attack on the SIP server confirmed in the report involved the use 
+of exploit tools released on the Internet to perform dictionary 
+attacks in order to identify user (peer) names and passwords. The 
+dictionary used in the attack consisted mostly of numbers, words, and
+people's names.
+
+  [Examples of character strings in the dictionary]
+    - Combinations of numbers from one digit up to twelve digits
+      * This includes the sample password "1234"
+    - Words and people's names
+      coffee, japan, key, account, admin, password, pass, sip, test,
+      voip, alice, bobby, michael , etc.
+    - Combinations of simple character strings and numbers
+      abcd123, pass1234, password1, pw1, passw0rd, etc.
+
+  If you have any information of similar attack cases or compromises,
+please report using the following web form or via e-mail.
+
+    Web form: https://form.jpcert.or.jp/
+    e-mail: info@jpcert.or.jp
+
+**********************************************************************
+
+
+III. Solution
+
+Consider the following measures in order to prevent unauthorized 
+external use of Asterisk. (This solution is written based on information
+from VoIP Info.jp and material provide by NTT-CERT)
+
+
+******* Solutions recommended by VoIP Info.jp and NTT-CERT from here *******
+
+  1) If not necessary, do not make Asterisk available over the Internet.
+     - Put Asterisk behind a gateway (routers, etc.) (do not connect
+       it directly to the Internet)
+
+     - Using firewall functions of the gateway, etc., block external 
+       packets sent to Asterisk.
+
+     - If connections over the Internet to Asterisk is necessary, use 
+       VPN connections.
+
+  2) Reject calls by guest users (number unconfigured).
+     - Unless there are special reasons to allow guest connections, 
+       set allowguest=no in sip.conf (when allowguest is not specified, 
+       calls by guest users will be allowed by default.)
+
+  3) Apply measures against brute-force attacks
+     - Set appropriate SIP user (peer) names and passwords for REGISTER
+        - Use long passwords.  Combine upper and lower cases, numbers 
+          and symbols to create passwords at least 8 characters long, 
+          or if possible 14 or more characters long.
+        - Use long user names (extension numbers and SIP user names do
+          not need to be the same).
+     - Apply a filter based on port numbers and source IP addresses
+        - On the server where Asterisk is installed, use iptables etc.
+          to allow only those ports used for communication
+          - If permitted IP addresses are known, specify those IP addresses
+        - Provide access control using the configuration file of Asterisk
+          (exampe: sip.conf)
+          deny=0.0.0.0/0.0.0.0
+          permit=(call permitted address)/255.255.255.0
+        - Perform filtering using firewall functions of the gateway, etc.
+          - Configure externally connected routers and firewalls etc. 
+            to allow only SIP/RTP traffic to Asterisk
+          - If permitted IP addresses are known, specify those IP addresses
+     - Use domain authentication
+        - Reject REGISTER requests from all domains except for the one specified.
+          (exampe: sip.conf)
+          domain=jpcert.or.jp
+     - Remove unnecessary (unused) users 
+     - Change replies to non-existing users from 404 to 403
+         (exampe: sip.conf)
+         alwaysauthreject=yes
+     - Monitor the logs to detect brute-force attacks trying to 
+       identify user names and passwords
+         (examples of log files when installed on a Linux system)
+         /var/log/asterisk/messages
+         /var/log/asterisk/cd-r-csv/Master.csv
+
+  4) Apply measures to prevent unauthorized out-going calls
+     - Change the external call prefix to special numbers
+       - Prohibit out-going calls unless a special prefix (number) is
+         added when making out-going calls
+     - Prohibit calls based on source extension number
+       - Divide extension numbers into those permitted to call outside
+         and those not (refer to Appendix 2)
+     - Restrict calls by destination
+       - If 010 (international call prefix), 00 (calls specifying a 
+         relay telephone carrier) Restrict calls to specified external numbers
+         (refer to Appendix 3)
+
+  * Note that if international calls will not be made at all, 
+     disabling international calls may be possible depending on your 
+     telephone carrier. Consult your telephone carrier.
+
+ (For you information) Other recommended solutions
+  1) Do not launch Asterisk services with root permission
+     - Since the default installation launches with root permission, 
+       configure Asterisk to launch services with general user 
+       permission (example user name: asterisk)
+
+  2) Limit access to the administration interface if the administration
+     interface is used
+     - When using CLI functions after logging in from remote, use, for
+       example, SSH (public key authentication) and restrict access
+       using TCP Wrapper
+     - When using the administration interface (AMI), use manager.conf
+       to configure access restrictions
+
+* Multiple versions of Asterisk exist. The configuration examples
+  introduced here have been confirmed using Asterisk 1.6.2.12-rc1. 
+  Configurations may differ depending on the version used, so refer to
+  the product documentation or vendor information for details.
+
+* Configuration examples of Appendix 1 - 3 are posted on the following
+  URL so please refer to them as well.
+
+     https://www.jpcert.or.jp/at/2010/at100032_sample.txt
+
+****** End of solutions recommended by VoIP Info.jp and NTT-CERT *****
+
+  Note that, depending on your telecommunication carrier, applying the
+solutions may disrupt connectivity. Therefore, consult your carrier as
+necessary.
+
+  In addition to applying the solutions, JPCERT/CC recommends checking
+the detailed phone bills for unauthorized use.
+
+  Furthermore, check whether your operating systems and software are up
+to date, and update them if necessary. For those using other IP-PBX 
+systems, refer to the solutions and consider applicable security 
+measures.
+
+
+IV. References
+
+  Japan Internet Providers Association
+  Regarding the alert concerning international calls made through 
+  unauthorized use of IP phones
+  http://www.jaipa.or.jp/topics/?p=371
+
+  Telecommunications Carriers Association 
+  [Attention] Look out for unknown international calls 
+  http://www.tca.or.jp/topics/2010/1124_431.html
+
+  Asterisk SIP Security
+  http://voip-info.jp/index.php/Asterisk_SIP_%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3
+
+  Asterisk Security Advisories
+  http://www.asterisk.org/security
+
+
+V. Acknowledgement
+
+  JPCERT/CC would like to thank the following for their cooperation 
+with regard to the solution information provided.
+ 
+
+  VoIP Info.jp  (http://voip-info.jp/)
+  NTT-CERT  (https://www.ntt-cert.org/)
+
+
+  If you have any further questions or information regarding this alert,
+please contact JPCERT/CC.
+
+________
+Revision history
+2010-12-09 First edition
+2010-12-15 Added cases reported to JPCERT/CC
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

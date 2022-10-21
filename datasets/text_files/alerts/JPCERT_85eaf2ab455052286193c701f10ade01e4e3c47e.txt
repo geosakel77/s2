@@ -1,0 +1,73 @@
+JPCERT-AT-2022-0019
+                                                             JPCERT/CC
+                                                            2022-07-20
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2022-07-20 &gt;&gt;&gt;
+
+          Oracle Releases Critical Patch Update, July 2022
+
+        https://www.jpcert.or.jp/english/at/2022/at220019.html
+
+
+I. Overview
+On July 19, 2022 (US Time), Oracle released critical patch updates
+for multiple Oracle products.
+
+    Oracle Corporation
+    Oracle Critical Patch Update Advisory - July 2022
+    https://www.oracle.com/security-alerts/cpujul2022.html
+
+A remote attacker exploiting these vulnerabilities may perform
+unauthorized operations or unauthorized deletion or falsification
+of sensitive information. Users of the affected products are
+recommended to update to the latest version appropriately by referring
+to the information provided by Oracle.
+
+    Oracle Corporation
+    Text Form of Oracle Critical Patch Update - July 2022 Risk Matrices
+    https://www.oracle.com/security-alerts/cpujul2022verbose.html
+
+
+II. Solutions
+Oracle has provided patches that address vulnerabilities in each
+product. Some products or applications may not run properly after
+updating the software to the latest version. Please update to
+the latest version after considering any possible impacts to the
+products or applications.
+
+In addition, there are cases where Java JRE is pre-installed on the PC
+or WebLogic is used in software products for servers. Please check if
+any of the affected products is included in the PCs or servers that
+you use.
+
+The latest version of Java can be downloaded from the following link.
+
+    Java Downloads for All Operating Systems
+    https://www.java.com/en/download/manual.jsp
+
+
+III. References
+    Oracle Corporation
+    Oracle Java SE Support Roadmap
+    https://www.oracle.com/technetwork/java/eol-135779.html
+
+    Oracle Corporation
+    Critical Patch Updates, Security Alerts and Bulletins
+    https://www.oracle.com/security-alerts/
+
+    Oracle Corporation
+    July 2022 Critical Patch Update Released
+    https://blogs.oracle.com/security/post/july-2022-cpu-released
+
+    Oracle Corporation
+    Oracle Security Alert Advisory - CVE-2022-21500
+    https://www.oracle.com/security-alerts/alert-cve-2022-21500.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

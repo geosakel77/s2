@@ -1,0 +1,118 @@
+JPCERT-AT-2018-0012
+                                                             JPCERT/CC
+                                                   2018-03-29(Initial)
+                                                   2018-04-16(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-03-29 &gt;&gt;&gt;
+
+       Alert Regarding Vulnerability (CVE-2018-7600) in Drupal
+
+        https://www.jpcert.or.jp/english/at/2018/at180012.html
+
+
+I. Overview
+On March 28, 2018 (local time), Drupal released a security advisory
+information (SA-CORE-2018-002). According to the information, Drupal
+contains a vulnerability (CVE-2018-7600) that leads to a remote code
+execution. A remote attacker leveraging this vulnerability may steal
+confidential data or alter system data.
+
+For details on the vulnerability, refer to the information provided
+by Drupal.
+
+    Drupal
+    Drupal core - Highly critical - Remote Code Execution - SA-CORE-2018-002
+    https://www.drupal.org/sa-core-2018-002
+
+    Drupal
+    FAQ about SA-CORE-2018-002
+    https://groups.drupal.org/security/faq-2018-002
+
+** Update: April 16, 2018 Update *************************************
+Proof-of-Concept (PoC) code for this vulnerability has been made
+public, and JPCERT/CC verified it on the following system. 
+
+  - Drupal 8.5.0 (affected)
+  - Drupal 8.5.1 (not affected)
+  - PHP 7.0.27
+
+JPCERT/CC has not confirmed attacks leveraging this vulnerability, but
+has confirmed the communication which seems to be searching for this
+vulnerability. In addition, the observation of similar activity by
+honeypots is reported outside of Japan.
+
+    Internet Storm Center
+    Drupal CVE-2018-7600 PoC is Public
+    https://isc.sans.edu/forums/diary/Drupal+CVE20187600+PoC+is+Public/23549/
+**********************************************************************
+
+
+II. Affected Versions
+The following versions are affected by this vulnerability.
+
+  - Drupal versions prior to 8.5.1
+  - Drupal versions prior to 7.58
+
+  * Drupal versions 6.x, versions 8.4.x and earlier, which are no longer supported, are also affected by the vulnerability.
+
+III. Solution
+Drupal has released updated versions of Drupal that address this
+vulnerability. It is recommended to update to the latest version after
+thorough testing.
+
+Versions that address the vulnerability are as follows:
+
+  - Drupal 8.5.1
+  - Drupal 7.58
+  - Drupal 8.4.6
+  - Drupal 8.3.9
+
+For Drupal versions 8.3.x and 8.4.x, which are no longer supported,
+updated versions were released as a temporary workaround. If it is
+difficult to update to the supported version early, please consider
+updating to the latest version that addresses the vulnerability.
+
+
+IV. References
+    Drupal
+    drupal 8.5.1
+    https://www.drupal.org/project/drupal/releases/8.5.1
+
+    Drupal
+    drupal 7.58
+    https://www.drupal.org/project/drupal/releases/7.58
+
+    Drupal
+    drupal 8.4.6
+    https://www.drupal.org/project/drupal/releases/8.4.6
+
+    Drupal
+    drupal 8.3.9
+    https://www.drupal.org/project/drupal/releases/8.3.9
+
+    Drupal
+    Drupal core - Highly critical - Remote Code Execution - SA-CORE-2018-002
+    https://www.drupal.org/sa-core-2018-002
+
+    Drupal
+    FAQ about SA-CORE-2018-002
+    https://groups.drupal.org/security/faq-2018-002
+
+    US-CERT
+    Drupal Releases Critical Security Updates
+    https://www.us-cert.gov/ncas/current-activity/2018/03/28/Drupal-Releases-Critical-Security-Updates
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2018-03-29 First edition
+2018-04-16 Updated "I. Overview"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,108 @@
+JPCERT-AT-2016-0031
+                                                             JPCERT/CC
+                                                            2016-07-19
+
+                   JPCERTCC Alert 2016-07-19 
+
+   Vulnerabilities (CVE-2016-5385, etc.) in Web Servers Using CGI
+
+      https://www.jpcert.or.jp/english/at/2016/at160031.html
+
+
+I. Overview
+
+  Vulnerabilities (CVE-2016-5385, etc.) in web servers that use CGI have
+been reported. When a request from a remote device with a Proxy header
+is received, an unintended value may be assigned to the server environment
+variable, HTTP_PROXY. When these vulnerabilities are exploited, man-in-the-middle
+attacks may be performed or a connection to an unauthorized host may
+be established.
+
+Software with the following conditions is affected by these vulnerabilities.
+
+  - Web servers or web applications that establish outbound communications
+    referencing the HTTP_PROXY environment variable.
+
+  For more information on the vulnerabilities and its impact, please 
+refer to the following information.
+
+    Vulnerability Note VU#797896
+    CGI web servers assign Proxy header values from client requests to internal HTTP_PROXY environment variables
+    https://www.kb.cert.org/vuls/id/797896
+
+
+II. Affected Software
+
+  The following software is affected by these vulnerabilities;
+ 
+  - PHP (CVE-2016-5385)
+  - GO (CVE-2016-5386)
+  - Apache HTTP Server (CVE-2016-5387)
+  - Apache Tomcat (CVE-2016-5388)
+  - HHVM (CVE-2016-1000109)
+  - Python (CVE-2016-1000110)
+
+  Other types of software that use CGI may also be affected. Software
+distributors and developers have disclosed affected products and its
+versions. Please refer to the information provided by the developers.
+
+
+III. Solution and Workarounds
+
+  Please consider applying the following workarounds to mitigate the
+impacts of the vulnerabilities. 
+ 
+    - Disable the Proxy header in the request
+
+    - In CGI, avoid using HTTP_PROXY environment variable
+
+    - Restrict outbound HTTP traffic from the web server to the minimum
+      using security devices such as firewall
+
+  For more information on the vulnerabilities and its impact, please 
+refer to the information provided by the reporter of the vulnerabilities
+and developers.
+
+    A CGI application vulnerability for PHP, Go, Python and others
+    https://httpoxy.org/
+
+  Software distributors and developers may release updated versions of
+software that address the vulnerabilities. It is recommended to periodically
+check information provided by the distributors and developers.
+
+
+IV. References
+
+    Vulnerability Note VU#797896
+    CGI web servers assign Proxy header values from client requests to internal HTTP_PROXY environment variables
+    https://www.kb.cert.org/vuls/id/797896
+
+    httpoxy.org
+    A CGI application vulnerability for PHP, Go, Python and others
+    https://httpoxy.org/
+
+    SIOS Technology
+    Vulnerabilities where CGI language may be used to rewrite HTTP_PROXY (Japanese)
+    https://oss.sios.com/security/general-security-20160719
+
+    Red Hat, Inc.
+    HTTPoxy - CGI "HTTP_PROXY" variable name clash
+    https://access.redhat.com/security/vulnerabilities/httpoxy
+
+    The Apache Software Foundation
+    Advisory: Apache Software Foundation Projects and "httpoxy" CERT VU#797896
+    https://www.apache.org/security/asf-httpoxy-response.txt
+
+    NGINX
+    Mitigating the HTTPoxy Vulnerability with NGINX
+    https://www.nginx.com/blog/mitigating-the-httpoxy-vulnerability-with-nginx/
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL info@jpcert.or.jp
+TEL +81-3-3518-4600  FAX +81-3-3518-4602
+https://www.jpcert.or.jp/english/

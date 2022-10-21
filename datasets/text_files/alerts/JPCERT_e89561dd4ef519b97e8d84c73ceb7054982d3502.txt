@@ -1,0 +1,142 @@
+JPCERT-AT-2017-0008
+                                                             JPCERT/CC
+                                                   2017-02-15(Initial)
+                                                   2017-02-22 (Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-02-15 &gt;&gt;&gt;
+
+           Vulnerabilities in Adobe Flash Player (APSB17-04)
+
+       https://www.jpcert.or.jp/english/at/2017/at170008.html
+
+
+I. Overview
+
+  Adobe Flash Player contains multiple vulnerabilities. A remote
+attacker may cause Adobe Flash Player to crash or execute arbitrary
+code by convincing a user to open specially crafted contents leveraging
+these vulnerabilities. For more information on the vulnerabilities,
+please refer to the information provided by Adobe Systems.
+
+    Security Updates Available for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsb17-04.html
+
+** Update: Feb 22, 2017 Update ***************************************
+  On Feb 21, 2017 (local time), Microsoft released Adobe Flash Player
+Update. Thes security update addresses the vulnerabilities which are
+described in Adobe Security Bulletin APSB17-04.
+**********************************************************************
+
+
+II. Affected Products
+
+  The following versions are affected by these vulnerabilities:
+
+  - Adobe Flash Player Desktop Runtime (24.0.0.194) and earlier
+    (Internet Explorer, Mozilla Firefox, Safari, etc.)
+  - Adobe Flash Player for Google Chrome (24.0.0.194) and earlier
+  - Adobe Flash Player for Microsoft Edge and Internet Explorer 11 (24.0.0.194) and earlier
+    (Windows 10 and Windows 8.1)
+
+  Users can check the version of Adobe Flash Player that they are
+using at the following link:
+
+    Adobe Flash Player: Version Information
+    https://www.adobe.com/software/flash/about/
+
+
+III. Solution
+
+  Please update Adobe Flash Player to the latest version listed below:
+
+  - Adobe Flash Player Desktop Runtime (24.0.0.221)
+    (Internet Explorer, Mozilla Firefox, Safari, etc.)
+  - Adobe Flash Player for Google Chrome (24.0.0.221)
+
+    Adobe Flash Player Download Center
+    https://get.adobe.com/flashplayer/
+
+  Please be aware of information provided by any distributors that
+include Adobe Flash Player in their products such as web browsers.
+Also, Microsoft announced that the February 2017 security update
+release will be delayed on February 14, 2017 (local time).
+
+    Microsoft
+    February 2017 security update release
+    https://blogs.technet.microsoft.com/msrc/2017/02/14/february-2017-security-update-release/
+
+** Update: Feb 22, 2017 Update ***************************************
+  - Adobe Flash Player for Microsoft Edge and Internet Explorer 11 (24.0.0.221) and earlier
+    (Windows 10 and Windows 8.1)
+
+  For Internet Explorer 11 and Microsoft Edge, the latest version of
+Adobe Flash Player will be applied through Windows Update etc.
+Also, the latest version of Adobe Flash Player will be updated when
+Google Chrome is updated. For more information, please refer to the
+following:
+
+    Microsoft
+    Security Update for Adobe Flash Player (4010250)
+    https://technet.microsoft.com/en-us/library/security/ms17-005
+
+    Microsoft
+    Adobe Flash Player security vulnerability release
+    https://blogs.technet.microsoft.com/msrc/2017/02/21/adobe-flash-player-security-vulnerability-release/
+
+ * Even if you use a web browser other than Internet Explorer, there
+    is software that uses Adobe Flash Player installed for Internet
+    Explorer, such as Microsoft Office, so please update Adobe Flash
+    Player for Internet Explorer.
+**********************************************************************
+
+
+IV. Workaround
+
+  As a temporary countermeasure until security updates can be applied,
+please consider the following workaround to mitigate impacts of the
+vulnerability. Applying these countermeasures may affect other
+applications. Please carefully consider and test any side effects
+prior to applying any of the workarounds.
+
+  - Limit Flash content
+    Please disable Flash on your browser or enable Click-to-Play
+    features.
+
+  - Open the security tab on "Internet Options" in Internet Explorer
+    and change the security level to "High" for the Internet zone and
+    local intranet zone.
+
+
+V. References
+
+    Adobe Systems
+    Security updates available for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsb17-04.html
+
+    Adobe Systems
+    Security Bulletins Posted
+    https://blogs.adobe.com/psirt/?p=1444
+
+** Update: Feb 22, 2017 Update ***************************************
+    Microsoft
+    Security Update for Adobe Flash Player (4010250)
+    https://technet.microsoft.com/en-us/library/security/ms17-005
+
+    Microsoft
+    Adobe Flash Player security vulnerability release
+    https://blogs.technet.microsoft.com/msrc/2017/02/21/adobe-flash-player-security-vulnerability-release/
+**********************************************************************
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2017-02-15 First edition
+2017-02-22 Updated "I. Overview", "III. Solution" and "V. References"
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,123 @@
+JPCERT-AT-2018-0041
+                                                             JPCERT/CC
+                                                            2018-10-10
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-10-10 &gt;&gt;&gt;
+
+          Microsoft Releases October 2018 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2018/at180041.html
+
+
+I. Overview
+Microsoft has released October 2018 Security Updates. This contains
+updates that are rated as "critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    October 2018 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/aa99ba28-e99f-e811-a978-000d3a33c573
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    CVE-2018-8460
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8460
+    - KB4462917, KB4462918, KB4462919, KB4462922, KB4462923, KB4462926
+      KB4462937, KB4462949, KB4464330
+
+    CVE-2018-8473
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8473
+    - KB4464330
+
+    CVE-2018-8489
+    Windows Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8489
+    - KB4462915, KB4462917, KB4462918, KB4462919, KB4462922, KB4462923
+      KB4462926, KB4462929, KB4462931, KB4462937, KB4462941, KB4463097
+      KB4463104, KB4464330
+
+    CVE-2018-8490
+    Windows Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8490
+    - KB4462917, KB4462918, KB4462922, KB4462937, KB4464330
+
+    CVE-2018-8491
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8491
+    - KB4462917, KB4462918, KB4462919, KB4462922, KB4462923, KB4462926
+      KB4462937, KB4462949, KB4464330
+
+    CVE-2018-8494
+    MS XML Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8494
+    - KB4462915, KB4462917, KB4462918, KB4462919, KB4462922, KB4462923
+      KB4462926, KB4462929, KB4462931, KB4462937, KB4462941, KB4463097
+      KB4463104, KB4464330
+
+    CVE-2018-8505
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8505
+    - KB4462917, KB4462918, KB4462919, KB4462937, KB4464330
+
+    CVE-2018-8509
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8509
+    - KB4462918, KB4462919
+
+    CVE-2018-8510
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8510
+    - KB4464330
+
+    CVE-2018-8511
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8511
+    - KB4464330
+
+    CVE-2018-8513
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8513
+    - KB4464330
+
+According to Microsoft, attacks leveraging the vulnerability
+CVE-2018-8453 (Important) have been observed in the wild. Please apply
+the security update programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    October 2018 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/aa99ba28-e99f-e811-a978-000d3a33c573
+
+    Microsoft Corporation
+    Microsoft Security Updates for October 2018 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2018/10/10/201810-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,90 @@
+JPCERT-AT-2013-0033
+                                                             JPCERT/CC
+                                                            2013-07-19
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2013-07-19 &gt;&gt;&gt;
+
+                 Vulnerability in Apache Struts (S2-016)
+
+          https://www.jpcert.or.jp/english/at/2013/at130033.html
+
+
+I. Overview
+
+ Apache Struts provided by the Apache Software Foundation contains a
+vulnerability. Attack code leveraging this vulnerability is publicly
+available and JPCERT/CC conducted a test using this code. As a result,
+it has been verified that arbitrary OS commands may be executed on the
+application server with the privileges of the user running Apache
+Struts application. For more details on the vulnerability, please
+refer to the information provided by the Apache Software Foundation.
+
+ According to information provided by LAC Co., Ltd. the number of
+attacks leveraging this vulnerability have increased significantly
+against sites in Japan.
+
+
+II. A Possible Attack Scenario
+
+  A possible attack scenario is as follows:
+
+  1. An attacker sends a specially crafted HTTP request to the 
+     site targeted for the attack
+  2. The vulnerability is leveraged and an arbitrary OS command 
+     is executed
+
+III. Affected Systems
+
+  The following versions are affected by this vulnerability:
+
+  Apache Struts versions 2.0.0 through 2.3.15
+
+
+IV. Test Results from JPCERT/CC
+
+  JPCERT/CC tested the PoC code that leverages this vulnerability
+
+  [Test Environment]
+  - Application Server
+    Apache Tomcat 7.0.42
+  - Java
+    JDK 1.7.0_25
+  - Target Application for Attack
+    Sample application that is used in Apache Struts 2.3.15
+    (struts2-blank.war)
+
+  [Test Results] 
+    Setup the sample application used in Apache Struts 2.3.15 within
+    Apache Tomcat and send a specially crafted request to the sample
+    application.  As a result, it was observed that an arbitrary OS
+    command was executed.  In addition, when testing the sample
+    application in Apache Struts 2.3.15.1, which addresses this
+    vulnerability, arbitrary OS commands were not executed.
+
+
+V. Solution
+
+ Apache Software Foundation has released a version addressing this
+vulnerability.  It is recommended to update to this latest version,
+after thorough testing.
+  
+  - Apache 2.3.15.1
+
+If the update cannot be applied for an extended period of time, please
+check the settings of any security products being used, such as IPS,
+and make sure that protection against this issue is available.
+
+
+VI. References
+
+    Apache Struts 2 Documentation
+    Version Notes 2.3.15.1
+    http://struts.apache.org/release/2.3.x/docs/version-notes-23151.html
+
+    Apache Struts 2 Documentation
+    S2-016
+    http://struts.apache.org/release/2.3.x/docs/s2-016.html
+
+    LAC Co., Ltd
+    Increase in attacks leveraging a vulnerability in Apache Struts2 (S2-016) (Japanese)
+    http://www.lac.co.jp/security/alert/2013/07/18_alert_01.html

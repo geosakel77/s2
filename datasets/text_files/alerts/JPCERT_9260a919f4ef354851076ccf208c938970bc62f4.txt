@@ -1,0 +1,67 @@
+JPCERT-AT-2016-0038
+                                                             JPCERT/CC
+                                                            2016-09-28
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-09-28 &gt;&gt;&gt;
+
+        Alert regarding vulnerability (CVE-2016-6309) in OpenSSL
+
+        https://www.jpcert.or.jp/english/at/2016/at160038.html
+
+
+I. Overview
+
+  OpenSSL provided by the OpenSSL project contains a vulnerability
+(CVE-2016-6309). A remote attacker who sends a specially crafted
+message exploiting this vulnerability may execute arbitrary code or
+cause a denial-of-service on the server where OpenSSL is running.
+  For more information on the impacts of this vulnerability, please
+refer to the information provided by the OpenSSL Project.
+
+    OpenSSL Project
+    OpenSSL Security Advisory [26 Sep 2016]
+    https://www.openssl.org/news/secadv/20160926.txt
+
+  This vulnerability originates in the patch (1.1.0a) released by the
+OpenSSL Project on September 22, 2016 for a vulnerability (CVE-2016-6307).
+Thus, only those that applied this patch are affected.
+  If you are using an affected version, it is recommended to address
+the issue as soon as possible by referring to the information in
+"III. Solution".
+
+
+II. Affected Software
+
+  The following version is affected by this vulnerability:
+
+  - OpenSSL 1.1.0a
+
+
+III. Solution
+
+  The OpenSSL Project has released a version of OpenSSL to address
+this vulnerability. Please consider applying the update after thorough
+testing.
+
+  - OpenSSL 1.1.0b
+
+
+IV. References
+
+    JVNVU#99474230
+    Multiple vulnerabilities in OpenSSL (Japanese)
+    https://jvn.jp/vu/JVNVU99474230/
+
+    US-CERT
+    OpenSSL Releases Security Updates
+    https://www.us-cert.gov/ncas/current-activity/2016/09/23/OpenSSL-Releases-Security-Updates
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

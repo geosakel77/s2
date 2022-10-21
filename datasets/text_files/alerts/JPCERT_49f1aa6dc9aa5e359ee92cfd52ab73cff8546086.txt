@@ -1,0 +1,103 @@
+JPCERT-AT-2013-0030
+                                                             JPCERT/CC
+                                                            2013-06-19
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2013-06-19 &gt;&gt;&gt;
+
+         Critical Patch Update for Oracle Java SE, June 2013
+
+        https://www.jpcert.or.jp/english/at/2013/at130030.html
+
+
+I. Overview
+
+  Multiple vulnerabilities exist in Oracle's Java SE JDK and JRE. A
+remote attacker may cause Java to shut down unexpectedly or execute
+arbitrary code by inducing a user to open maliciously crafted contents
+that exploit these vulnerabilities. For more information on the
+vulnerabilities, refer to the information provided by Oracle.
+
+  According to information provided by Oracle, attacks exploiting
+these vulnerabilities have been confirmed. It is recommended to update
+to the latest version of the software provided by Oracle.
+
+    Oracle Java SE Critical Patch Update Advisory - June 2013
+    http://www.oracle.com/technetwork/topics/security/javacpujun2013-1899847.html
+
+
+II. Products Affected
+
+  Affected products and versions are as follows:
+
+  - Java SE JDK and JRE 7 Update 21 and earlier
+  - Java SE JDK and JRE 6 Update 45 and earlier
+
+  * Oracle has already ended the support for Java SE 6 in 
+    February 2013. Users should update to Java SE 7.
+
+  * Some PC's may come with JRE pre-installed. Please check to see
+    whether JRE is installed on your PC.
+
+
+III. Solution
+
+  Oracle has released an update. Please update to the latest version.
+
+  - Java SE JDK and JRE 7 Update 25
+
+    Java SE Downloads
+    http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+    Free Java Download (JRE 7, English)
+    https://java.com/en/download/index.jsp
+
+  Users of 64-bit Windows may have either or both the 32-bit and 64-bit
+versions of JDK/JRE installed. Please check the version of JDK/JRE
+that is installed and apply the appropriate update.
+
+  The version of Java being used can be checked at the following
+page. If both the 32-bit and 64-bit versions of Java are installed,
+please check the versions of Java by respectively using a 32-bit or
+64-bit browser. (For environments that do not have Java installed, a
+request to install Java may appear. If you do not require Java, do not
+install it.)
+
+    Verifying Java Version
+    https://www.java.com/en/download/installed.jsp
+
+  * Some application may not run after updating to the latest version
+    of Java.  Please update after taking into consideration of affects
+    to applications in use.
+
+
+IV. References
+
+    Oracle
+    Oracle Java SE Critical Patch Update Advisory - June 2013
+    http://www.oracle.com/technetwork/topics/security/javacpujun2013-1899847.html
+
+    Oracle
+    Text Form of Oracle Java SE Critical Patch Update - June 2013 Risk Matrices
+    http://www.oracle.com/technetwork/topics/security/javacpujun2013verbose-1899853.html
+
+    Oracle
+    June 2013 Critical Patch Update for Java SE Released
+    https://blogs.oracle.com/security/entry/june_2013_critical_patch_update
+
+    CERT/CC
+    Vulnerability Note VU#225657 Oracle Javadoc HTML frame injection vulnerability
+    https://www.kb.cert.org/vuls/id/225657
+
+    Apple
+    About Java for OS X 2013-004
+    http://support.apple.com/kb/HT5717
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

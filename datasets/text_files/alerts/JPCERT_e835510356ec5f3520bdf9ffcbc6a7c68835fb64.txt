@@ -1,0 +1,80 @@
+JPCERT-AT-2011-0015
+                                                             JPCERT/CC
+                                                            2011-06-08
+
+                  &lt;&lt;&lt; JPCERT/CC Alert  08.06.11&gt;&gt;&gt;
+
+         Critical Patch Update for Oracle Java SE JDK and JRE
+
+            https://www.jpcert.or.jp/at/2011/at110015.txt
+
+
+I. Overview
+
+  Oracle Java SE JDK and JRE contain multiple vulnerabilities. A 
+remote attacker could use these vulnerabilities and execute arbitrary 
+code. For more information about the vulnerabilities, refer to 
+information from Oracle.
+
+  Oracle Java SE Critical Patch Update Advisory
+  http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html
+
+
+II. Products Affected
+
+  Affected products and versions are as follows:
+
+   - Java SE JDK and JRE 6 Update 25 and earlier
+
+  * The JRE is preinstalled in some PCs provided by certain 
+    manufacturers. Just in case, check whether JRE is installed on the
+    PC.
+
+
+III. Solution
+
+  Oracle has released corrected sofware. Update the software to the 
+corrected software.
+
+    - Java SE 6 Update 26
+
+    Java SE Downloads
+    http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+  When 64-bit Windows is used, either 32-bit JDK/JRE or 64-bit JDK/JRE,
+or both may be installed. Users should check their JDK/JRE, and apply 
+the corresponding corrected software.
+
+  The Java version number installed on your PC can be verified through
+the following page: Note that if both 32-bit and 63-bit Java are 
+installed, check the version number using a 32-bit and 64-bit browser 
+respectively. (If Java is not installed on your system, this web site 
+may prompt you to install it. If you do not wish to install Java, you 
+may safely ignore this.)
+
+    Java version number check
+    http://www.java.com/ja/download/installed.jsp
+
+  * When upgrading to the latest version of Java, other software 
+    relying on Java may be affected. Please keep this in mind when 
+    upgrading.
+
+
+IV. References
+
+    Oracle
+    Oracle Java SE Critical Patch Update Advisory - June 2011
+    http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html
+
+    June 2011 Java SE Critical Patch Update Released
+    http://blogs.oracle.com/security/entry/june_2011_java_se_critical
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

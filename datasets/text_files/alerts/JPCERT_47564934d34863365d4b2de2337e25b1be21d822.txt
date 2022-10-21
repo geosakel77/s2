@@ -1,0 +1,64 @@
+JPCERT-AT-2022-0021
+                                                             JPCERT/CC
+                                                            2022-08-10
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2022-08-10 &gt;&gt;&gt;
+
+          Microsoft Releases August 2022 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2022/at220021.html
+
+
+I. Overview
+Microsoft has released August 2022 Security Updates to address the
+vulnerabilities in their products. Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code. It is
+recommended to check the information provided by Microsoft and
+apply the updates.
+
+    Microsoft Corporation
+    August 2022 Security Updates
+    https://msrc.microsoft.com/update-guide/en-us/releaseNote/2022-Aug
+
+    Microsoft Corporation
+    Microsoft Security Updates for August 2022 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2022/08/09/202208-security-updates/
+
+According to Microsoft, among these vulnerabilities, the following
+vulnerability has been confirmed to be exploited in the wild. Please
+consider applying the security update programs by referring to the
+information provided by Microsoft.
+
+    CVE-2022-34713
+    Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/ja-JP/vulnerability/CVE-2022-34713
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    Release Notes
+    https://msrc.microsoft.com/update-guide/releaseNote
+
+    Microsoft Corporation
+    Released: August 2022 Exchange Server Security Updates
+    https://techcommunity.microsoft.com/t5/exchange-team-blog/released-august-2022-exchange-server-security-updates/ba-p/3593862
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

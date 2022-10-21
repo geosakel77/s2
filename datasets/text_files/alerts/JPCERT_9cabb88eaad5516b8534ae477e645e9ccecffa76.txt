@@ -1,0 +1,125 @@
+JPCERT-AT-2019-0009
+                                                             JPCERT/CC
+                                                    2019-02-22(Initial)
+                                                    2019-02-26(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-02-22 &gt;&gt;&gt;
+
+Alert Regarding Vulnerabilities (CVE-2018-5744, CVE-2018-5745, CVE-2019-6465) in ISC BIND 9
+
+        https://www.jpcert.or.jp/english/at/2019/at190009.html
+
+
+I. Overview
+ISC BIND 9 contains vulnerabilities. When these vulnerabilities are
+exploited, a remote attacker may terminate named, etc by
+causing named's memory use to grow without bounds until all memory
+available to the process is exhausted.
+ISC has rated the severity of the vulnerability CVE-2018-5744 as
+"High", CVE-2018-5745 and CVE-2019-6465 as "Medium". For more
+information on the vulnerabilities, please refer to the information
+provided by ISC.
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2018-5744: A specially crafted packet can cause named to leak memory
+    https://kb.isc.org/docs/cve-2018-5744
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2018-5745: An assertion failure can occur if a trust anchor rolls over to an unsupported key algorithm when using managed-keys
+    https://kb.isc.org/docs/cve-2018-5745
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2019-6465: Zone transfer controls for writable DLZ zones were not effective
+    https://kb.isc.org/docs/cve-2019-6465
+
+If you are operating an affected version of ISC BIND 9, please consider
+updating to a version that addresses these vulnerabilities by referring to
+the information in "III. Solution".
+
+
+II. Affected Systems
+According to ISC, the following versions are affected by this
+vulnerabilities.
+
+  - CVE-2018-5744
+    - BIND 9.12.x versions from 9.12.0 to 9.12.3-P1
+    - BIND 9.11.x versions from 9.11.3 to 9.11.5-P1
+
+  - CVE-2018-5745
+    - BIND 9.12.x versions from 9.12.0 to 9.12.3-P1
+    - BIND 9.11.x versions from 9.11.0 to 9.11.5-P1
+
+  - CVE-2019-6465
+    - BIND 9.12.x versions from 9.12.0 to 9.12.3-P2
+    - BIND 9.11.x versions from 9.11.0 to 9.11.5-P2
+
+ISC BIND 9 versions 9.9.x and 9.10.x which are no longer supported are
+also affected by these vulnerabilities. For more details, please refer
+to the following:
+
+** Update: February 26, 2019 Update **********************************
+BIND 9 versions 9.9.x is not affected by the vulnerability
+CVE-2018-5744.
+**********************************************************************
+
+    BIND 9 Security Vulnerability Matrix
+    https://kb.isc.org/article/AA-00913/
+
+If you are using BIND provided by a distributor, please refer to the
+information provided by that distributor.
+
+
+III. Solution
+ISC has released versions of ISC BIND 9 that address these
+vulnerabilities. Distributors are likely to provide their own versions
+that address the vulnerabilities. Consider updating to an updated
+version after thorough testing.
+
+    - BIND 9 version 9.12.3-P4
+    - BIND 9 version 9.11.5-P4
+
+
+IV. References
+    Japan Registry Services (JPRS)
+    (Urgent) Vulnerability in BIND 9.x (Causing Memory Leak) (CVE-2018-5744) - Both full resolver (cache dns server) / authoritative name server affected. 
+Strongly recommended to update the version - (Japanese)
+    https://jprs.jp/tech/security/2019-02-22-bind9-vuln-edns-options.html
+
+    Japan Registry Services (JPRS)
+    Vulnerability in BIND 9.x (DNS Service stoppage) (CVE-2018-5745) - Recommended to update the version - (Japanese)
+    https://jprs.jp/tech/security/2019-02-22-bind9-vuln-managed-keys.html
+
+    Japan Registry Services (JPRS)
+    Vulnerability in BIND 9.x (Zone data leakage due to improper access control) (CVE-2019-6465) - Recommended to update the version - (Japanese)
+    https://jprs.jp/tech/security/2019-02-22-bind9-vuln-dlz.html
+
+    Japan Vulnerability Notes JVNVU#92881878
+    Multiple vulnerabilities in ISC BIND 9 (Japanese)
+    https://jvn.jp/vu/JVNVU92881878/
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2018-5744: A specially crafted packet can cause named to leak memory
+    https://kb.isc.org/docs/cve-2018-5744
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2018-5745: An assertion failure can occur if a trust anchor rolls  over to an unsupported key algorithm when using managed-keys
+    https://kb.isc.org/docs/cve-2018-5745
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2019-6465: Zone transfer controls for writable DLZ zones were not effective
+    https://kb.isc.org/docs/cve-2019-6465
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2019-02-22 First edition
+2019-02-26 Updated "II. Affected Systems"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-6271-8901  FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

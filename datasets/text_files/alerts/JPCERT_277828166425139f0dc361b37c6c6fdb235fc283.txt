@@ -1,0 +1,87 @@
+JPCERT-AT-2019-0011
+                                                             JPCERT/CC
+                                                   2019-03-04(Initial)
+                                                    2019-03-08(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-03-04 &gt;&gt;&gt;
+
+     Alert Regarding Vulnerability in Adobe ColdFusion (APSB19-14)
+
+       https://www.jpcert.or.jp/english/at/2019/at190011.html
+
+
+I. Overview
+On March 1, 2019 (local time), Adobe has released security updates for
+Adobe ColdFusion (CVE-2019-7816/APSB19-14), an application framework
+for software development. An attacker leveraging the vulnerability may
+upload a file to a web-accessible directory avoiding restrictions on
+file upload. As a result, an attacker could execute arbitrary code in
+the context of the running ColdFusion service. 
+
+** Update: March 8, 2019 Update *************************************
+There are several conditions for the vulnerability to be exploited. 
+This update is to add some details to about the conditions.
+
+(Initial) An attacker leveraging the vulnerability may upload a file
+to a web-accessible directory avoiding restrictions on file upload.
+As a result, an attacker could execute arbitrary code in the context
+of the running ColdFusion service. 
+
+(Update) An attacker may upload files to a server that runs ColdFusion
+with specific configurations by bypassing the file upload restrictions.
+If a file is uploaded to a web-accessible directory, an attacker may
+execute arbitrary code by opening the file remotely in the context of
+the current user of the ColdFusion.
+
+The Alert was updated based on some feedback from the website visitors. 
+*********************************************************************
+
+According to Adobe, they have received reports on attacks exploiting
+this vulnerability. For more information, please refer to the Adobe
+website.
+
+    Adobe Systems Incorporated
+    Security updates available for ColdFusion | APSB19-14
+    https://helpx.adobe.com/security/products/coldfusion/apsb19-14.html
+
+
+II. Affected Products
+Affected products and versions are as follows:
+
+  -  Adobe ColdFusion 2018 Update 2 and earlier
+  -  Adobe ColdFusion 2016 Update 9 and earlier
+  -  Adobe ColdFusion 11 Update 17 and earlier
+
+
+III. Solution
+Please update Adobe ColdFusion to the latest version listed
+below. 
+
+  -  Adobe ColdFusion 2018 Update 3
+  -  Adobe ColdFusion 2016 Update 10
+  -  Adobe ColdFusion 11 Update 18
+
+
+IV. References
+    Adobe Systems Incorporated
+    Security updates available for ColdFusion | APSB19-14
+    https://helpx.adobe.com/security/products/coldfusion/apsb19-14.html
+
+    Adobe Systems Incorporated
+    Security Updates Available for ColdFusion (APSB19-14)
+    https://blogs.adobe.com/psirt/?p=1715
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2019-03-04 First edition
+2019-03-08 Updated "I. Overview"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-6271-8901  FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

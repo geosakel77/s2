@@ -1,0 +1,53 @@
+JPCERT-AT-2019-0027
+                                                             JPCERT/CC
+                                                            2019-06-19
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-06-19 &gt;&gt;&gt;
+
+      Alert Regarding Vulnerability (CVE-2019-11707) in Firefox
+
+        https://www.jpcert.or.jp/english/at/2019/at190027.html
+
+
+I. Overview
+Firefox contains a vulnerability (CVE-2019-11707). This vulnerability
+is due to issues in Array.pop, which may cause a crash when
+manipulating JavaScript objects. In addition, according to Mozilla,
+the vulnerability is already being exploited in the wild. For more
+information on the vulnerability, please refer to the information
+provided by Mozilla.
+
+    Mozilla
+    Security vulnerabilities fixed in Firefox 67.0.3 and Firefox ESR 60.7.1
+    https://www.mozilla.org/en-US/security/advisories/mfsa2019-18/
+
+
+II. Affected Products
+The following versions are affected by this vulnerability:
+
+  - Firefox versions prior to 67.0.3
+  - Firefox ESR versions prior to 60.7.1
+
+
+III. Solution
+Mozilla has released versions of Firefox that address this vulnerability.
+It is recommended to update to the latest version after thorough testing.
+
+  - Firefox 67.0.3
+  - Firefox ESR 60.7.1
+
+
+IV. References
+    Mozilla
+    Security vulnerabilities fixed in Firefox 67.0.3 and Firefox ESR 60.7.1
+    https://www.mozilla.org/en-US/security/advisories/mfsa2019-18/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-6271-8901  FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,131 @@
+JPCERT-AT-2018-0025
+                                                             JPCERT/CC
+                                                            2018-06-13
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-06-13 &gt;&gt;&gt;
+
+             Microsoft Releases June 2018 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2018/at180025.html
+
+
+I. Overview
+Microsoft has released June 2018 Security Updates. This contains
+updates that are rated as "critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    June 2018 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/7d4489d6-573f-e811-a96f-000d3a33c573
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    CVE-2018-8110
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8110
+    - KB4284835
+
+    CVE-2018-8111
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8111
+    - KB4284819
+
+    CVE-2018-8213
+    Windows Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8213
+    - KB4284819, KB4284835, KB4284860, KB4284874, KB4284880
+
+    CVE-2018-8225
+    Windows DNSAPI Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8225 
+    - KB4230467, KB4284815, KB4284819, KB4284826, KB4284835, KB4284846
+      KB4284855, KB4284860, KB4284867, KB4284874, KB4284878, KB4284880
+
+    CVE-2018-8229
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8229
+    - KB4284819, KB4284835, KB4284860, KB4284874, KB4284880
+
+    CVE-2018-8231
+    HTTP Protocol Stack Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8231
+    - KB4284819, KB4284835, KB4284860, KB4284874, KB4284880
+
+    CVE-2018-8236
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8236
+    - KB4284819, KB4284835, KB4284860, KB4284874, KB4284880
+
+    CVE-2018-8249
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8249
+    - KB4230450, KB4284815, KB4284826
+
+    CVE-2018-8251
+    Media Foundation Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8251
+    - KB4284815, KB4284819, KB4284826, KB4284835, KB4284846, KB4284855
+      KB4284860, KB4284867, KB4284874, KB4284878, KB4284880
+
+    CVE-2018-8267
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8267
+    - KB4230450, KB4284815, KB4284819, KB4284826, KB4284835, KB4284860
+      KB4284874, KB4284880
+
+According to Microsoft, attacks leveraging the vulnerabilities have
+not been observed in the wild. However, please apply the security
+update programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update / Windows Update
+    http://www.update.microsoft.com/
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+In addition, Microsoft has released the security advisory ADV180014
+on June 7, 2018 (US time), and provided security update on Adobe Flash
+Player vulnerabilities (CVE-2018-4945, CVE-2018-5000, CVE-2018-5001,
+CVE-2018-5002). For more details, please refer to the following URL.
+
+    ADV180014 | June 2018 Adobe Flash Security Update
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV180014
+
+
+III. References
+    Microsoft Corporation
+    June 2018 Security Updates 
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/7d4489d6-573f-e811-a96f-000d3a33c573
+
+    Microsoft Corporation
+    Microsoft Security Updates for June 2018 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2018/06/13/201806-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Adobe Systems Incorporated
+    Security updates available for Flash Player | APSB18-19
+    https://helpx.adobe.com/security/products/flash-player/apsb18-19.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerability in Adobe Flash Player (APSB18-19)
+    https://www.jpcert.or.jp/english/at/2018/at180024.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

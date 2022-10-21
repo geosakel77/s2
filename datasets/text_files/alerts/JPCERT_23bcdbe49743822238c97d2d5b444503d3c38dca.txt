@@ -1,0 +1,73 @@
+JPCERT-AT-2015-0030
+                                                            JPCERT/CC
+                                                           2015-08-19
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2015-08-19 &gt;&gt;&gt;
+
+             Alert on Microsoft Security Bulletin (MS15-093)
+
+         https://www.jpcert.or.jp/english/at/2015/at150030.html
+
+
+I. Overview
+
+  Microsoft released its security bulletin (MS15-093) about a
+vulnerability in the Internet Explorer. Leveraging this vulnerability
+may result in a third party executing arbitrary code when a user visits
+a malicious website.
+
+  For more information on the vulnerability, please refer to the
+following URL:
+
+    Security Update for Internet Explorer (3088903)
+    https://technet.microsoft.com/en-us/library/security/ms15-093.aspx
+
+  According to Microsoft, exploits against this vulnerability have been
+already detected.
+
+
+II. Affected Systems
+
+  The affected versions are as follows:
+
+  - Microsoft Internet Explorer 7
+  - Microsoft Internet Explorer 8
+  - Microsoft Internet Explorer 9
+  - Microsoft Internet Explorer 10
+  - Microsoft Internet Explorer 11
+
+For more information, please refer to the Microsoft Security Bulletin 
+(3088903).
+
+
+III. Solution
+
+  Apply the security update through Microsoft Update or Windows Update
+as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+
+IV. References
+
+    Microsoft
+    Security Update for Internet Explorer (3088903)
+    https://technet.microsoft.com/en-us/library/security/ms15-093.aspx
+
+    Microsoft
+    Microsoft Security Bulletin Summary for August 2015
+    https://technet.microsoft.com/en-us/library/security/ms15-Aug
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

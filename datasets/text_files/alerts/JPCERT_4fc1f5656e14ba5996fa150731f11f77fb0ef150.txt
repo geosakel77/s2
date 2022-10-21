@@ -1,0 +1,97 @@
+JPCERT-AT-2013-0006
+                                                             JPCERT/CC
+                                                            2013-01-31
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2013-01-31 &gt;&gt;&gt;
+
+                Vulnerability in Portable SDK for UPnP
+
+        https://www.jpcert.or.jp/english/at/2013/at130006.html
+
+
+I. Overview
+
+  On January 30, 2013 (UTC+9), US-CERT published an advisory regarding
+a vulnerability in the Portable SDK for UPnP (libupnp). libupnp is
+widely deployed in broadband routers and other devices to implement
+UPnP.
+
+  According to US-CERT, libupnp contains a buffer overflow
+vulnerability.  Arbitrary code may be executed when a device with
+libupnp receives a malicious SSDP packet.
+
+  US-CERT Vulnerability Note VU#922681 
+  Portable SDK for UPnP Devices (libupnp) contains multiple buffer overflows in SSDP
+  http://www.kb.cert.org/vuls/id/922681
+
+
+II. Affected Products
+
+  Affected products and versions are as follows:
+
+  - UPnP SDK 1.2 (Intel SDK)
+  - UPnP SDK 1.6.17 and earlier versions (Portable SDK)
+
+  Products that may use libupnp:
+  - Network devices such as routers 
+    (mainly broadband routers for home use)
+  - IP telephone devices
+  - TV, DVD/BD recorders that can connect to the internet
+  - Other products that have a UPnP function
+
+  *) libupnp is used in many network devices. Products that can be 
+     accessed directly through the internet, such as broadband routers,
+     may be more susceptible to an attack than other products.
+
+
+III. Solution
+
+  For products affected by this vulnerability, it is expected that
+each developer will release updated software. Apply the update
+according to the information provided by each developer. For devices
+that have an automatic firmware update function, turning the function
+"ON" may be effective.
+
+  For users of devices (broadband routers, etc.) that can be accessed
+directly through the internet, please consider turning off the UPnP
+function until an update is available. However this may cause products
+(IP telephone devices, messengers) that use the UPnP function to
+become unusable. In this case, creating a filter to only accept
+1900/udp packets from these devices may reduce the probability of an
+attack.
+
+  Please refer to the product manual for instructions regarding
+turning off the UPnP function and creating a filter.
+
+
+IV. References
+
+    JVNVU#90348117
+    Portable SDK for UPnP vulnerable to buffer overflow
+    https://jvn.jp/cert/JVNVU90348117/index.html
+
+    US-CERT Vulnerability Note VU#922681
+    Portable SDK for UPnP Devices (libupnp) contains multiple buffer overflows in SSDP
+    http://www.kb.cert.org/vuls/id/922681
+
+    Cisco
+    Cisco Security Advisory: Portable SDK for UPnP Devices Contains Buffer Overflow  Vulnerabilities
+    http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20130129-upnp
+
+    NEC
+    SDK for UPnP vulnerable to buffer overflow
+    http://jpn.nec.com/security-info/secinfo/nv13-003.html
+
+    FURUKAWA ELECTRIC CO., LTD
+    Portable SDK for UPnP vulnerable to buffer overflow
+    http://www.furukawa.co.jp/fitelnet/topic/vulnera_20130130.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

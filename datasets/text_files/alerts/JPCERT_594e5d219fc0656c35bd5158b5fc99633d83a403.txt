@@ -1,0 +1,111 @@
+JPCERT-AT-2019-0019
+                                                             JPCERT/CC
+                                                            2019-04-25
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-04-25 &gt;&gt;&gt;
+
+            Alert Regarding Vulnerabilities in ISC BIND 9
+
+        https://www.jpcert.or.jp/english/at/2019/at190019.html
+
+
+I. Overview
+ISC BIND 9 contains vulnerabilities. When these vulnerabilities are
+exploited, a remote attacker may abnormally terminate named or
+potentially affect network connections and the management of files
+such as zone journal files by deliberately exhausting the pool of
+file descriptors available to named.
+ISC has rated the severity of the vulnerability CVE-2018-5743 as
+"High", CVE-2019-6467 as "Medium". For more information on the
+vulnerabilities, please refer to the information provided by ISC.
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2018-5743: Limiting simultaneous TCP clients is ineffective
+    https://kb.isc.org/docs/cve-2018-5743
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2019-6467: An error in the nxdomain redirect feature can cause BIND to exit with an INSIST assertion failure in query.c
+    https://kb.isc.org/docs/cve-2019-6467
+
+Also, ISC BIND 9 contains the vulnerability (CVE-2019-6468) which affects
+the Supported Preview Edition versions of BIND.
+
+If you are operating an affected version of ISC BIND 9, please consider
+updating to a version that addresses these vulnerabilities by referring
+to the information in "III. Solution".
+
+
+II. Affected Systems
+According to ISC, the following versions are affected by this
+vulnerabilities.
+
+  - CVE-2018-5743
+    - BIND 9.14.0
+    - BIND 9.12.x versions from 9.12.0 to 9.12.4
+    - BIND 9.11.x versions from 9.11.0 to 9.11.6
+    - BIND 9 Supported Preview Edition versions from 9.9.3-S1 to 9.11.5-S3
+    - BIND 9 Supported Preview Edition 9.11.5-S5
+
+  - CVE-2019-6467
+    - BIND 9.14.0
+    - BIND 9.12.x versions from 9.12.0 to 9.12.4
+
+  - CVE-2019-6468
+    - BIND Supported Preview Edition versions from 9.10.5-S1 to 9.11.5-S5
+      * This vulnerability only affects Supported Preview Edition
+
+ISC BIND 9 versions 9.9.x and 9.10.x which are no longer supported are
+also affected by the vulnerability CVE-2018-5743.
+
+If you are using BIND provided by a distributor, please refer to the
+information provided by that distributor.
+
+
+III. Solution
+ISC has released versions of ISC BIND 9 that address these
+vulnerabilities. Distributors are likely to provide their own versions
+that address the vulnerabilities. Consider updating to an updated
+version after thorough testing.
+
+    - BIND 9 version 9.11.6-P1
+    - BIND 9 version 9.12.4-P1
+    - BIND 9 version 9.14.1
+    - BIND Supported Preview Edition version 9.11.5-S6
+    - BIND Supported Preview Edition version 9.11.6-S1
+
+IV. References
+    Japan Registry Services (JPRS)
+    (Urgent) Vulnerability in BIND 9.x (Exhaustion of the file descriptors pool) (CVE-2018-5743) 
+    - Both full resolver (cache DNS server) / authoritative name server affected. Strongly recommended to update the version - (Japanese)
+    https://jprs.jp/tech/security/2019-04-25-bind9-vuln-tcp-clients.html
+
+    Japan Registry Services (JPRS)
+    Vulnerability in BIND 9.x (DNS Service stoppage) (CVE-2019-6467)
+    - Affected only if nxdomain-redirect feature is enabled, Recommended to update the version - (Japanese)
+    https://jprs.jp/tech/security/2019-04-25-bind9-vuln-nxdomain-redirect.html
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2018-5743: Limiting simultaneous TCP clients is ineffective
+    https://kb.isc.org/docs/cve-2018-5743
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2019-6467: An error in the nxdomain redirect feature can cause BIND to exit with an INSIST assertion failure in query.c
+    https://kb.isc.org/docs/cve-2019-6467
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2019-6468: BIND Supported Preview Edition can exit with an assertion failure if nxdomain-redirect is used
+    https://kb.isc.org/docs/cve-2019-6468
+
+    Internet Systems Consortium, Inc. (ISC)
+    BIND 9 Security Vulnerability Matrix
+    https://kb.isc.org/docs/aa-00913
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-6271-8901  FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

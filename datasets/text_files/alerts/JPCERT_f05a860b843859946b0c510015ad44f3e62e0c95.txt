@@ -1,0 +1,84 @@
+JPCERT-AT-2016-0003
+                                                             JPCERT/CC
+                                                            2016-01-13
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-01-13 &gt;&gt;&gt;
+
+       Vulnerabilities in Adobe Reader and Acrobat (APSB16-02)
+
+        https://www.jpcert.or.jp/english/at/2016/at160003.html
+
+
+I. Overview
+
+  Multiple vulnerabilities exist in Adobe Acrobat Reader, a PDF file
+viewing software, and Adobe Acrobat, a PDF file creation and 
+conversion software. As a result, a remote attacker may terminate
+Adobe Reader and Acrobat or execute arbitrary code by convincing a
+user to open a specially crafted PDF file.
+
+    Security Updates Available for Adobe Acrobat and Reader
+    https://helpx.adobe.com/security/products/reader/apsb16-02.html
+
+
+II. Affected Products
+
+  Affected products and versions are as follows:
+
+  - Adobe Acrobat Reader DC Continuous (15.009.20077) and earlier
+  - Adobe Acrobat Reader DC Classic (15.006.30097) and earlier
+  - Adobe Acrobat DC Continuous (15.009.20077) and earlier
+  - Adobe Acrobat DC Classic (15.006.30097) and earlier
+  - Adobe Acrobat XI (11.0.13) and earlier
+  - Adobe Reader XI (11.0.13) and earlier
+  
+  For more information, please refer to the Adobe Systems website.
+
+
+III. Solution
+
+  Please update Adobe Reader and Acrobat to the latest version listed
+below. Acrobat will be updated by starting the products, selecting the
+menu "Help (H)", and then clicking "Check for Updates (U)".
+
+  - Adobe Acrobat Reader DC Continuous (15.010.20056)
+  - Adobe Acrobat Reader DC Classic (15.006.30119)
+  - Adobe Acrobat DC Continuous (15.010.20056)
+  - Adobe Acrobat DC Classic (15.006.30119)
+  - Adobe Acrobat XI (11.0.14)
+  - Adobe Reader XI (11.0.14)
+  
+  If an update from the menu is not available, please download the 
+latest Adobe Reader and Acrobat from the following URL:
+
+    Adobe.com - New downloads
+    http://www.adobe.com/support/downloads/new.jsp
+
+  For more information, please refer to the Adobe Systems website.
+
+  * Adobe Systems has released infomation of support about Adobe Reader X
+    and Acrobat X. Please consider updating to Adobe Acrobat Reader DC or
+    Acrobat DC.
+
+    Adobe Acrobat X and Adobe Reader X End of Support
+    https://blogs.adobe.com/documentcloud/adobe-acrobat-x-and-adobe-reader-x-end-of-support/
+
+
+IV. References
+
+    Adobe Systems
+    Security Updates Available for Adobe Acrobat and Reader
+    https://helpx.adobe.com/security/products/reader/apsb16-02.html
+
+    Adobe Systems
+    Adobe Acrobat X and Adobe Reader X End of Support
+    https://blogs.adobe.com/documentcloud/adobe-acrobat-x-and-adobe-reader-x-end-of-support/
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

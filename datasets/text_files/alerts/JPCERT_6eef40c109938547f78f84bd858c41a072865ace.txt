@@ -1,0 +1,166 @@
+JPCERT-AT-2011-0002
+                                                             JPCERT/CC
+                                                            2011-02-08
+
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 08.02.11 &gt;&gt;&gt;
+
+ Security settings of Internet servers (mainly UNIX / Linux servers)
+
+             https://www.jpcert.or.jp/at/2011/at110002.txt
+
+
+I. Overview
+
+  JPCERT/CC has received reports of cases where servers with
+insufficient security measures have been intruded and have been used
+to attack third parties. 
+
+  The attacker installs a program onto a server into which the attacker
+has intruded through some method, and then conducts a scan or 
+dictionary attack on the 5060/Udp port (mostly used by the SIP protocol)
+of SIP devices such as SIP servers operated by a third party. 
+
+  The attacker may send out SIP account information it has obtained
+using this program via mail, and may possibly use the information to
+make illicit calls such as international calls. 
+
+  JPCERT/CC has observed increase of scans on the 5060/Udp port since
+July 2010 through its Internet Scan Data Acquisition System
+(ISDAS/TSUBAME). 
+
+  This time, JPCERT/CC has decided to issue this Alert for the purpose
+of implementing security measures on servers that have been compromised
+as well as preventing similar damages, since the sequence of events of
+the attack has been revealed as a result of investigation performed
+based on relevant information as well as a sample of the program
+installed by the attacker provided from an informant, and since many
+of the source IP addresses observed by the Internet Scan Data
+Acquisition System (ISDAS/TSUBAME) exist inside Japan. 
+
+
+II. Details of Attack
+
+  1. The attacker seems to have modified a publicly available
+     vulnerability verification tool to prepare a program that
+     eventually collects information for the attacker. 
+
+  2. The attacker uses some sort of method to intrude into a server
+     connected to the internet and installs the program. 
+     (onto a server where vulnerable software is operating, the login
+     account information is vulnerable, etc.)
+
+  3. The server executes the program on the compromised server and
+     attempts a scan on a third party's SIP device such as a SIP server
+     which is publicly accessible over the Internet. Furthermore, the
+     attacker identifies the SIP device from the results of the scan,
+     and mounts a dictionary attack of approximately 130 thousand lines
+     upon the SIP device in order to obtain SIP account information. 
+     If vulnerable SIP account information is identified, the
+     information is sent externally to the attacker. 
+
+* The target SIP device includes Asterisk devices mentioned in the
+  Alert below: 
+
+   JPCERT/CC Alert 2010-12-09
+   Improperly setup Asterisk may be exploited for malicious purposes
+   https://www.jpcert.or.jp/english/at/2010/at100032.txt
+
+The sequence of events from 1 through 3 is shown in Figure 1.
+
+   Figure 1:  Sequence of events of the attack
+   https://www.jpcert.or.jp/english/at/2011/at110002_figure1_en.png
+
+
+  If SIP account information of SIP servers, etc. are stolen by an
+attacker, the attacker may make illicit calls to third parties over
+the Internet, and may result in being billed large amounts for 
+international calls, etc.
+
+
+III. Observations from the Internet Scan Data Acquisition System
+
+  Scans considered as performed by the reported program have been
+observed since around July 2010 (see Figure 2).  In areas other than
+Japan (see Figure 3), similar trends have also been observed by the
+APAC Internet Threat Monitoring Data Sharing Project (TSUBAME) for
+which JPCERT/CC serves as the secretariat. 
+
+   Figure 2:  Trend observed of scans on 5060/Udp in Japan
+   https://www.jpcert.or.jp/at/2011/at110002_figure2.png
+
+   Figure 3:  Trend observed of scans on 5060/Udp in the APAC region
+   https://www.jpcert.or.jp/at/2011/at110002_figure3.png
+
+   Scan trends from July 8, 2010 to July 11, 2010 (WMV movie)
+   https://www.jpcert.or.jp/at/2011/at110002_tsubame.wmv
+   * Time is displayed on the upper right of the movie. Increase is
+     observed from around 3 AM, July 9, 2010.
+
+  Comparison of the packets captured when running the program provided
+by the informant in a verification environment and those that were
+collected with the Internet Scan Data Acquisition System of JPCERT/CC
+is shown in Figure 4. 
+
+   Figure 4:  Comparison of captured packets
+   https://www.jpcert.or.jp/at/2011/at110002_figure4.png
+
+  The number of scans indicated in Figures 2 and 3 may include scans
+that do not originate from the program, but from the characteristics
+of the scan, around 80% is suspected to have originated from computers
+running this program. The program may be running in Unix / Linux 
+environments. 
+
+  The case reported by the informant was that a Linux server was
+intruded and the program was installed. 
+
+
+IV. Solution
+
+  From the reported case, the program installed by the attacker may be
+located in the path shown below. 
+
+  Check whether or not these programs are running as well as whether
+there are any traces of scans performed on the 5060/Udp port in the logs of firewalls and IDSs. 
+
+  File path:  /.old/aloha
+  File names:  svmap, svwar, svcrack, svreport, svcrash, etc.
+  (programs for scanning SIP, identifying PBX, cracking SIP passwords, etc.)
+
+  It is also recommended to check the following with regard to the
+servers that are in operation:
+
+  - The operating system and applications are not vulnerable versions
+  - The web applications (PHP applications, etc.) running on the
+    server are not vulnerable versions
+  - For those of the latest versions which have unfixed vulnerabilities,
+    apply workarounds or mitigations provided by the vendors
+  - Configure appropriate access restrictions on servers and firewalls
+  - Do not leave fields empty or use simple character strings in login
+    account information or SIP account information
+    (numbers up to 10 digits, words with letters substituted with
+    numbers are also already included in the dictionary used for the attack)
+
+
+V. References
+
+   JPCERT/CC Alert 2010-12-09
+   Improperly setup Asterisk may be exploited for malicious purposes 
+   https://www.jpcert.or.jp/english/at/2010/at100032.txt
+
+
+  If you have any further questions or information regarding this
+alert, please contact JPCERT/CC.
+
+  Furthermore, if you have any information of similar attack cases or
+compromises, please report using the following web form or via e-mail.
+
+
+    Web form: https://form.jpcert.or.jp/
+    e-mail: info@jpcert.or.jp
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

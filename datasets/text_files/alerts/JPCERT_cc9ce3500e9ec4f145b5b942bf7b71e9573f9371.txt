@@ -1,0 +1,151 @@
+JPCERT-AT-2019-0003
+                                                             JPCERT/CC
+                                                            2019-01-16
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-01-16 &gt;&gt;&gt;
+
+          Oracle Releases Critical Patch Update, January 2019
+
+        https://www.jpcert.or.jp/english/at/2019/at190003.html
+
+
+I. Overview
+On January 15, 2019 (local time), Oracle released critical patch updates
+for multiple Oracle products.
+
+    Oracle Critical Patch Update Advisory - January 2019
+    https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html
+
+A remote attacker may cause the application to crash or execute
+arbitrary code by leveraging these vulnerabilities. Users of the
+affected products are recommended to update to the latest version
+appropriately.
+
+
+II. Affected Products
+Products affected by these vulnerabilities include:
+
+  - Java SE JDK/JRE 8 Update 192 and earlier
+  - Java SE JDK/JRE 11.0.1 and earlier
+  - Oracle Database Server 11.2.0.4
+  - Oracle Database Server 12.1.0.2
+  - Oracle Database Server 12.2.0.1
+  - Oracle Database Server 18c
+  - Oracle WebLogic Server 10.3.6.0
+  - Oracle WebLogic Server 12.1.3.0
+  - Oracle WebLogic Server 12.2.1.3
+
+However, since there are many other versions and products affected by
+these vulnerabilities, please refer to the information provided by
+Oracle for more details.
+
+In addition, there are cases where Java JRE is pre-installed on the PC
+or Weblogic is used in software products for servers. Please check if
+any of the affected products is included in the PCs or servers that
+you use.
+
+According to Oracle, Java SE, Java SE JDK/JRE 7, which had already ended
+Public Updates, are also affected by these vulnerabilities.
+
+Extended Support for Java SE JDK/JRE 6 has ended in December 2018.
+Therefore there is no description for Java SE JDK/JRE 6 in this
+critical patch update.
+
+
+III. Solution
+Oracle has released updates for each product.
+For Java SE, Oracle Database and Weblogic, the following versions
+have been released:
+
+  - Java SE JDK/JRE 8 Update 201
+  - Java SE JDK/JRE 11.0.2
+  - Oracle Database Server 11.2.0.4 *
+  - Oracle Database Server 12.1.0.2 *
+  - Oracle Database Server 12.2.0.1 *
+  - Oracle Database Server 18c      *
+  - Oracle WebLogic Server 10.3.6.0 *
+  - Oracle WebLogic Server 12.1.3.0 *
+  - Oracle WebLogic Server 12.2.1.3 *
+
+* Details of the updated versions are not available as of January 16th.
+Please check with Oracle, etc. for the latest information.
+
+In addition, for this Java SE JDK/JRE 8 Update, a critical patch
+update(8u202), including all of 8u201 plus additional features, is
+available for developers and users. Please consider updating to 8u202
+as necessary, since it also includes fixes for issues other than
+these vulnerabilities.
+
+Some applications that use affected products may not run properly
+after updating the software to the latest version. Please update to
+the latest version after considering any possible impacts to
+applications that you may use.
+
+    Java SE Downloads
+    https://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+    Free Java Download
+    https://java.com/en/download/
+
+Users of 64-bit Windows may have 32-bit and/or 64-bit versions of
+JDK/JRE installed. Please check the versions installed on your system
+and apply the appropriate updates.
+
+Users can check the version of Java that they are using at the page
+below. If both 32-bit and 64-bit versions of Java are installed,
+please check the versions installed, using a 32-bit and 64-bit browser
+respectively. (In environments where Java is not installed, there may
+be a request to install Java. If you do not require Java, please do
+not install.)
+
+    Verify Java Version
+    https://www.java.com/en/download/installed.jsp
+
+According to Oracle, as of January 2019, Java SE 8 public update for
+commercial users will end. Commercial users who will continue to use
+Java SE in the future, please consider to migrate to later versions
+referring the information provided by Oracle.
+
+    Oracle Corporation
+    Oracle Java SE Support Roadmap
+    https://www.oracle.com/technetwork/java/eol-135779.html
+
+    IPA
+    Alert regarding change of providing method of official updates for commercial users of Java SE (Japanese)
+    https://www.ipa.go.jp/security/announce/java8_eol.html
+
+
+IV. References
+    Oracle Corporation
+    Oracle Critical Patch Update Advisory - January 2019
+    https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html
+
+    Oracle Corporation
+    Release Notes for JDK 8 and JDK 8 Update Releases
+    https://www.oracle.com/technetwork/java/javase/8all-relnotes-2226344.html
+
+    Oracle Corporation
+    Java Development Kit 11 Release Notes
+    https://www.oracle.com/technetwork/java/javase/11u-relnotes-5093844.html
+
+    Oracle Corporation
+    January 2019 Critical Patch Update Released
+    https://blogs.oracle.com/oraclesecurity/jan2019cpu-released
+
+    Oracle Corporation
+    Oracle Java SE Support Roadmap
+    https://www.oracle.com/technetwork/java/eol-135779.html
+
+    US-CERT
+    Oracle Releases January 2019 Security Bulletin
+    https://www.us-cert.gov/ncas/current-activity/2019/01/15/Oracle-Releases-January-2019-Security-Bulletin
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-6271-8901  FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

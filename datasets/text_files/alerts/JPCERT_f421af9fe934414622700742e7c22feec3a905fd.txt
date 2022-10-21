@@ -1,0 +1,140 @@
+JPCERT-AT-2010-0001
+                                                             JPCERT/CC
+                                            2010-01-07 (Initial draft)
+                                            2010-01-08       (Updated)
+
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2010-01-07 &gt;&gt;&gt;
+
+    Web site compromises and Gumblar attacks continue to increase
+
+             https://www.jpcert.or.jp/at/2010/at100001.txt
+
+
+I. Overview
+
+ From late last year, widespread attacks have used stolen FTP accounts
+to deface web sites.  Affected web sites include embedded obfuscated
+Javascript, which attempts to infect visitors to that site with malware
+such as Gumblar.  The number of systems infected in this way continues
+to climb.  JPCERT/CC published a bulletin regarding this at the end of
+last year; however, over the New Year's holiday, the number of sites
+affected has begun to increase anew.  For the purposes of advising
+affected users and system administrators about how to address this
+problem once again, JPCERT/CC is releasing this new bulletin.
+
+  Graph: number of web site defacement reports received by JPCERT/CC
+  https://www.jpcert.or.jp/at/2010/report_malicious_websites.png
+  The sharp increase in the number of reports received in the 4th
+  quarter of 2009 can be observed.
+
+ If a user visits a defaced web site, unauthorized software may be
+downloaded to the user's PC, infecting it with malware.
+
+  - Users should re-confirm that their operating system and any other
+    software running on it have been updated to the latest version.
+  - System administrators should confirm that any sites they control
+    do not contain unauthorized embedded content.
+
+
+II. Countermeasures
+
+ [For users]
+
+ JPCERT/CC has confirmed attacks are using vulnerabilities in Adobe
+Flash Player, Adobe Acrobat, Adobe Reader, Java (JRE) and Microsoft
+products.  Listed below are instructions for updating these products.
+
+ [Adobe Acrobat, Adobe Reader]
+ From the Acrobat or Reader menu, selecting "Help" -&gt; "Check for
+Updates" will allow you to upgrade to the latest version.  If
+upgrading fails for some reason, please install the latest version
+from the following URL:
+
+    Adobe.com - Downloads
+    http://www.adobe.com/downloads/
+
+*** Added : 8 January 2010  ******************************
+
+ The malicious use of unpatched Adobe Reader / Acrobat vulnerabilities
+has been confirmed.  Adobe plans to release patches for affected
+products on 13 January 2010.  Please consider the following
+mitigations while suitable patches are prepared:
+
+ * Disable Javascript:
+      1. Launch Acrobat / Adobe Reader
+      2. From the menu bar select "Edit" -&gt; "Preferences"
+      3. From the categories listed, select "Javascript"
+      4. Clear the checkbox for "Acrobat JavaScript"
+      5. Click "OK" to confirm these new settings.
+  ** Both Adobe Acrobat and Adobe Reader need this settings change to
+     be applied.
+
+ * If you are using Windows, enable DEP (Data Execution Protection).
+  ** If you are using an older system, you may not be able to enable
+     DEP.
+
+******************************************************************
+
+ [Adobe Flash Player]
+ Please check the version of your Flash Player at the following URL
+
+    Adobe Flash Player:Version Information
+    http://www.adobe.com/software/flash/about/
+
+ If you do not have the latest version of Flash Player, please
+download it from the following URL:
+
+    Adobe Flash Player installation
+    http://get.adobe.com/flashplayer/
+
+ [Java(JRE)]
+
+ Please check your version of Java at the following URL.  (If Java is
+not installed on your system, this web site may prompt to you to
+install it.  If you do not wish to install Java, you may safely ignore
+this.)
+
+    Java version checker:
+    http://www.java.com/en/download/installed.jsp?detect=jre&amp;try=1
+
+ If you do not have the latest version of Java, please download it
+from the following URL:
+
+    Java downloads for all operating systems:
+    http://www.java.com/en/download/manual.jsp
+
+  ** When upgrading Java, other software relying on Java may be
+     affected.  Please consider this while applying the patch.
+
+  [Microsoft]
+  Please check for any software updates at the following URL:
+
+    Microsoft Update
+    https://www.update.microsoft.com/
+
+
+ Furthermore, as it is believed that the attack code on defaced web
+sites is being changed on a continual basis, this may indicate that
+vectors of attack are also changing.  For this reason, always make
+sure that your operating system and any software is always up to date.
+Also, anti-virus software pattern files should be kept up to date, as
+well as ensuring that your anti-virus software's virus detection
+feature is enabled.
+
+
+ [For web site administrators]
+ If your web site has been defaced with malicious code, users visiting
+your web site may be exposed to the installation of malicious
+software.  To prevent this, please consider the following actions.
+
+
+  - Ensure that systems with access to update the web site are
+    restricted (by IP address or similar).
+  - Ensure that your web site's public content does not contain
+    malicious code or that it has otherwise not been defaced.
+  - Many defaced web sites have malicious scripts inserted into them.
+    HTML files and external .js (Javascript) files may have "/*GNU
+    GPL*/ try" or "
+<script>
+</script>

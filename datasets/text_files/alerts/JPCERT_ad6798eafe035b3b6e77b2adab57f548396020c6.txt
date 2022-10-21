@@ -1,0 +1,83 @@
+JPCERT-AT-2014-0048
+                                                             JPCERT/CC
+                                                            2014-11-19
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2014-11-19 &gt;&gt;&gt;
+
+             Vulnerability in Kerberos KDC, November 2014
+
+        https://www.jpcert.or.jp/english/at/2014/at140048.html
+
+
+I. Overview
+
+  Microsoft has released an emergency security bulletin regarding
+Kerberos KDC. An attacker leveraging this vulnerability may escalate
+privileges from a domain user account without administrative
+privileges to a domain administrator account.
+
+  It is recommended to apply the security update program provided by
+Microsoft as soon as possible.
+
+  For more details on this vulnerability, refer to the following URL:
+
+    MS14-068
+    Vulnerability in Kerberos Could Allow Elevation of Privilege (3011780)
+    https://technet.microsoft.com/en-us/library/security/ms14-068
+
+  According to Microsoft, this vulnerability is being leveraged for
+use in targeted attacks.
+
+
+II. Affected Systems
+
+The following versions are affected by this vulnerability:
+
+  - Windows Server 2003
+  - Windows Server 2008
+  - Windows Server 2008 R2
+  - Windows Server 2012
+  - Windows Server 2012 R2
+
+
+III. Solution
+
+  Apply the security update program as soon as possible through
+Microsoft Update or Windows Update.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+  For more information on how to detect attacks leveraging this
+vulnerability, refer to the following URL:
+
+    Additional information about CVE-2014-6324
+    http://blogs.technet.com/b/srd/archive/2014/11/18/additional-information-about-cve-2014-6324.aspx
+
+
+IV. References
+
+    Microsoft
+    Vulnerability in Kerberos Could Allow Elevation of Privilege (3011780)
+    https://technet.microsoft.com/en-us/library/security/ms14-068
+
+    Microsoft
+    Release of Security Bulletin MS14-068 "Vulnerability in Kerberos Could Allow Elevation of Privilege" (Japanese)
+    http://blogs.technet.com/b/jpsecurity/archive/2014/11/19/ms14-068-released.aspx
+
+    Microsoft
+    Additional information about CVE-2014-6324
+    http://blogs.technet.com/b/srd/archive/2014/11/18/additional-information-about-cve-2014-6324.aspx
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

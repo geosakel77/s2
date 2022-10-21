@@ -1,0 +1,86 @@
+JPCERT-AT-2014-0015
+                                                             JPCERT/CC
+                                                            2014-04-09
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2014-04-09 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for April 2014
+                 (including 2 critical patches)
+
+          https://www.jpcert.or.jp/english/at/2014/at140015.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for April, 2014. This
+bulletin contains two (2) updates that are rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for April 2014
+    https://technet.microsoft.com/en-us/security/bulletin/ms14-apr
+
+  [Security updates rated as "critical"]
+
+    MS14-017
+    Vulnerabilities in Microsoft Word and Office Web Apps Could Allow Remote Code Execution (2949660)
+    https://technet.microsoft.com/en-us/security/bulletin/ms14-017
+    
+    MS14-018
+    Cumulative Security Update for Internet Explorer (2950467)
+    https://technet.microsoft.com/en-us/security/bulletin/ms14-018
+
+  According to Microsoft, targeted attacks leveraging MS14-017 have
+been observed in the wild.
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+  * With this update, Microsoft will end support for Windows XP and
+    Office 2003. Security updates will not be provided after the end
+    of support and concerns on security risk will rise, therefore
+    please consider updating to a newer OS and software.
+
+  * If migration to a newer OS or software cannot be completed due to
+    unavoidable circumstances, it is recommended to apply security
+    updates provided by Microsoft, implement a vulnerability
+    mitigation tool, such as EMET. Additionally, in order to reduce
+    risk as much as possible do not access the internet, do not
+    connect untrusted USB memory sticks or other external storage
+    devices
+
+
+III. References
+
+    Microsoft Corporation
+    Microsoft Security Bulletin Summary for April 2014
+    https://technet.microsoft.com/en-us/security/bulletin/ms14-apr
+
+    Microsoft Corporation
+    Security Information for April 2014 (Monthly) - MS14-017 - MS14-020 (Japanese)
+    http://blogs.technet.com/b/jpsecurity/archive/2014/04/09/microsoft-security-bulletin-201404.aspx
+
+    Microsoft Corporation
+    Update for Vulnerabilities in Adobe Flash Player in Internet Explorer
+    https://technet.microsoft.com/en-us/security/advisory/2755801
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

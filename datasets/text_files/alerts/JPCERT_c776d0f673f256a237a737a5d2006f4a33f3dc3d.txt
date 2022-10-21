@@ -1,0 +1,82 @@
+JPCERT-AT-2010-0024
+                                                             JPCERT/CC
+                                                            2010-09-21
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2010-09-21 &gt;&gt;&gt;
+
+                    Vulnerability in Adobe Flash Player
+
+             https://www.jpcert.or.jp/at/2010/at100024.txt
+
+
+I. Overview
+
+  Adobe Flash Player contains a vulnerability. As a result, a remote 
+attacker could execute arbitrary code by convincing a user to open 
+specially crafted contents. Adobe Systems has already observed attacks 
+exploiting this vulnerability. Users are recommended to update to the 
+corrected software provided by Adobe Systems.
+
+    Adobe Security bulletin APSB10-22
+    Security update available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb10-22.html
+
+  Furthermore, according to Adobe Systems, this vulnerability also 
+affects Adobe Acrobat and Reader, and security updates will be released 
+in the week of October 5, 2010. Users are recommended to apply the 
+updates as soon as they are released.
+
+
+III. Affected products
+
+  Affected products are as follows:
+
+  - Adobe Flash Player 10.1.82.76 and earlier
+  - Adobe Reader 9.3.4 and earlier
+  - Adobe Acrobat 9.3.4 and earlier
+
+For more information, refer to Adobe System's website.
+
+
+III. Solution
+
+  Update Adobe Flash Player to the following latest version. For more 
+information, refer to Adobe System's website.
+
+  - Adobe Flash Player 10.1.85.3
+
+    Adobe Flash Player Download Center
+    http://get.adobe.com/jp/flashplayer/
+    http://get.adobe.com/flashplayer/
+
+  The Adobe Flash Player version number installed on your PC can be 
+verified through the following page:
+
+    Adobe Flash Player: Version Information
+    http://www.adobe.com/jp/software/flash/about/
+    http://www.adobe.com/products/flash/about/
+
+
+IV. References
+
+    Adobe - Security Advisories:
+    Security update available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb10-22.html
+
+    JVNVU#275289
+    Adobe Flash Player Vulnerability
+    https://jvn.jp/cert/JVNVU275289/index.html
+
+    US-CERT Technical Cyber Security Alert TA10-263A
+    Technical Cyber Security Alert TA10-263A
+    http://www.us-cert.gov/cas/techalerts/TA10-263A.html
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

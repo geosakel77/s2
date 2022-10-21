@@ -1,0 +1,85 @@
+JPCERT-AT-2018-0005
+                                                             JPCERT/CC
+                                                            2018-01-17
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-01-17 &gt;&gt;&gt;
+
+             Alert Regarding Vulnerability in ISC BIND 9
+
+        https://www.jpcert.or.jp/english/at/2018/at180005.html
+
+
+I. Overview
+ISC BIND 9 contains a vulnerability that leads to a denial-of-service
+(DoS). When this vulnerability is exploited, a remote attacker may
+cause named to terminate. According to ISC, cache DNS servers that have
+DNSSEC verification enabled are affected. For more details on this
+vulnerability, please refer to the information provided by ISC.
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2017-3145: Improper fetch cleanup sequencing in the resolver can cause named to crash
+    https://kb.isc.org/article/AA-01542/
+
+In addition, ISC has rated the severity of the vulnerability CVE-2017-3145
+as "High". 
+
+If you are operating an affected version of ISC BIND 9, please consider
+updating to a version that addresses this vulnerability by referring to
+the information in "III. Solution".
+
+
+II. Affected Systems
+According to ISC, the following versions are affected by this
+vulnerability.
+
+  - CVE-2017-3145 : High
+    - Versions from 9.9.0 to 9.9.11
+    - Versions from 9.10.0 to 9.10.6
+    - Versions from 9.11.0 to 9.11.2
+    - Versions 9.0.x to 9.8.x which are no longer supported are also affected
+
+For more details, please refer to the following:
+
+    BIND 9 Security Vulnerability Matrix
+    https://kb.isc.org/article/AA-00913/
+
+If you are using BIND provided by a distributor, please refer to the
+information provided by that distributor.
+
+
+III. Solution
+ISC has released versions of ISC BIND 9 that address these vulnerabilities.
+Distributors are likely to provide their own versions that address
+these vulnerabilities. Consider updating to an updated version after
+thorough testing.
+
+Versions that address these vulnerabilities are as follows:
+
+  ISC BIND
+  - BIND 9 version 9.9.11-P1
+  - BIND 9 version 9.10.6-P1
+  - BIND 9 version 9.11.2-P1
+
+ISC has recommended disabling DNSSEC verification as a workaround until
+an updated version can be applied.
+
+
+IV. References
+    US-CERT
+    ISC Releases Security Updates for BIND
+    https://www.us-cert.gov/ncas/current-activity/2018/01/16/ISC-Releases-Security-Advisories-DHCP-BIND
+
+    Japan Registry Services (JPRS)
+    (Urgent) Vulnerability in BIND 9.x (DNS Service stoppage) (CVE-2017-3145) (Japanese)
+    - Affected only when DNSSEC verification is enabled, updating strongly recommended -
+    https://jprs.jp/tech/security/2018-01-17-bind9-vuln-improperly-sequencing-cleanup.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,94 @@
+JPCERT-AT-2018-0043
+                                                             JPCERT/CC
+                                                            2018-10-26
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-10-26 &gt;&gt;&gt;
+
+Alert Regarding Vulnerability (CVE-2018-15442) in Cisco Webex Meetings Desktop App and Cisco Webex Productivity Tools
+
+       https://www.jpcert.or.jp/english/at/2018/at180043.html
+
+
+I. Overview
+On October 24, 2018 (US time), Cisco released a security advisory
+about a vulnerability (CVE-2018-15442) of Cisco Webex Meetings Desktop
+App and Cisco Webex Productivity Tools. When the vulnerability is
+exploited, a local user may run arbitrary commands with SYSTEM user
+privileges.
+
+For more information on the vulnerability, please refer to the
+information provided by Cisco.
+
+    Cisco
+    Cisco Webex Meetings Desktop App Update Service Command Injection Vulnerability
+    https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20181024-webex-injection
+
+Cisco has rated this vulnerability as "High". Also, JPCERT/CC
+confirmed that proof-of-concept for the vulnerability
+(CVE-2018-15442) has been already made public.
+
+If you are using the affected version of Cisco Webex Meetings Desktop
+App and Cisco Webex Productivity Tools, please apply the security
+update programs by referring to the information in "III. Solution".
+
+
+II. Affected Products
+The following versions are affected by this vulnerability:
+
+  - Cisco Webex Meetings Desktop App releases prior to 33.5.6
+  - Cisco Webex Productivity Tools Releases 32.6.0 and later prior to 33.0.5
+
+This vulnerability is affected only when Cisco Webex Meetings Desktop
+App and Cisco Webex Productivity Tools are running on a Microsoft
+Windows end-user system.
+
+To check the current version, please refer to the following information
+provided by Cisco.
+
+    Cisco
+    Check the Cisco Webex Meetings Desktop App Version
+    https://collaborationhelp.cisco.com/article/en-us/0usc4ab
+
+    Cisco
+    Check the Cisco Webex Productivity Tools Version for Windows
+    https://collaborationhelp.cisco.com/article/en-us/nf387ab
+
+
+III. Solution
+Cisco has released the version that addresses the vulnerability.
+Please apply the update.
+
+  - Cisco Webex Meetings Desktop App Release 33.5.6 and later
+  - Cisco Webex Productivity Tools Release 33.0.5 and later
+
+In addition, Cisco Webex Productivity Tools has been replaced with
+Cisco Webex Meetings Desktop App since Cisco Webex Meetings Release
+33.2.0.
+
+
+IV. References
+    Cisco
+    Cisco Webex Meetings Desktop App Update Service Command Injection Vulnerability
+    https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20181024-webex-injection
+
+    Cisco
+    Check the Cisco Webex Meetings Desktop App Version
+    https://collaborationhelp.cisco.com/article/en-us/0usc4ab
+
+    Cisco
+    Check the Cisco Webex Productivity Tools Version for Windows
+    https://collaborationhelp.cisco.com/article/en-us/nf387ab
+
+    US-CERT
+    Cisco Releases Security Updates
+    https://www.us-cert.gov/ncas/current-activity/2018/10/24/Cisco-Releases-Security-Updates
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

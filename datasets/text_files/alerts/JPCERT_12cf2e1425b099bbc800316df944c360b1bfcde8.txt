@@ -1,0 +1,87 @@
+JPCERT-AT-2020-0020
+                                                             JPCERT/CC
+                                                            2019-05-07
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-05-07 &gt;&gt;&gt;
+
+Alert Regarding Vulnerabilities (CVE-2020-11651, CVE-2020-11652) in SaltStack Salt
+
+        https://www.jpcert.or.jp/english/at/2020/at200020.html
+
+
+I. Overview
+Salt, a configuration management tool provided by SaltStack, has
+vulnerabilities (CVE-2020-11651, CVE-2020-11652). A remote attacker
+leveraging these vulnerabilities may retrieve user tokens from the
+salt master without authentication and/or run arbitrary commands
+on salt minions.
+JPCERT/CC is aware of Proof-of-Concept codes that appear to exploit
+these vulnerabilities (CVE-2020-11651, CVE-2020-11652), and
+information that the vulnerabilities have already been exploited.
+
+Also, JPCERT/CC's Internet threat monitoring system "TSUBAME" shows
+scans on ports used by Salt master server (4505/TCP and 4506/TCP).
+
+https://www.jpcert.or.jp/english/at/2020/at200020_fig1.png
+[Figure 1: Scan packets observed to port 4505/TCP and 4506/TCP]
+
+Users of affected versions are recommended to take measures such as
+updating to the versions that address the vulnerabilities.
+
+
+II. Affected Versions
+The following versions are affected by these vulnerabilities:
+
+  - Salt versions 2019.2.3 and earlier
+  - Salt versions 3000.1 and earlier
+
+Also, SaltStack Salt versions 2015.8.x, 2016.3.x, 2016.11.x, 2017.7.x,
+2018.3.x, that are no longer supported, are affected by these
+vulnerabilities.
+
+
+III. Solution
+SaltStack released versions of SaltStack Salt addressing these
+vulnerabilities. Please consider updating to the versions after
+thorough testing. Users of versions that are no longer supported are
+recommended to update to the supported versions that address the
+vulnerabilities.
+
+  - Salt versions 2019.2.4
+  - Salt versions 3000.2
+
+Also, SaltStack master servers are configured to listen on all interfaces
+by default setting. It is recommended to apply necessary access control
+in order to avoid unintended access to the servers. Please refer to the
+information provided by SaltStack.
+
+    SaltStack
+    Hardening Salt
+    https://docs.saltstack.com/en/latest/topics/hardening.html#general-hardening-tip
+
+
+IV. References
+    SaltStack
+    Critical Vulnerabilities Update:  CVE-2020-11651 and CVE-2020-11652
+    https://community.saltstack.com/blog/critical-vulnerabilities-update-cve-2020-11651-and-cve-2020-11652/
+
+    SaltStack
+    Hardening Salt
+    https://docs.saltstack.com/en/latest/topics/hardening.html#general-hardening-tip
+
+    US-CERT
+    SaltStack Patches Critical Vulnerabilities in Salt
+    https://www.us-cert.gov/ncas/current-activity/2020/05/01/saltstack-patches-critical-vulnerabilities-salt
+
+    F-secure
+    SaltStack authorization bypass
+    https://labs.f-secure.com/advisories/saltstack-authorization-bypass
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

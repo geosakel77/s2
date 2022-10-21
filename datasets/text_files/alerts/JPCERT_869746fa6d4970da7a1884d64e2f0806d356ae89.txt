@@ -1,0 +1,150 @@
+JPCERT-AT-2011-0034
+                                                             JPCERT/CC
+                                            2011-12-19 (First edition)
+                                                  2011-12-19 (Updated)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 19.12.11 &gt;&gt;&gt;
+
+             Vulnerabilities in Adobe Reader and Acrobat
+
+            https://www.jpcert.or.jp/at/2011/at110034.txt
+
+
+I. Overview
+
+  Multiple vulnerabilities exist in Adobe Acrobat Reader, a PDF file 
+viewing software, and Adobe Acrobat, a PDF file creation and 
+conversion software. As a result, a remote attacker could terminate 
+Adobe Reader and Acrobat or execute arbitrary code by convincing a 
+user to open a specially crafted PDF file. Adobe Systems has already 
+observed targeted attacks exploiting these vulnerabilities. 
+  Users are recommended to update to the corrected software provided 
+by Adobe Systems.
+  For Adobe Reader/Acrobat X, which mitigates the problem through its 
+protection function, a fix will be provided with the next regular 
+security update (on January 10, 2012, local time).
+
+    Adobe Security Bulletins APSB11-30
+    Security updates available for Adobe Reader and Acrobat 9.x for Windows
+    http://www.adobe.com/support/security/bulletins/apsb11-30.html
+
+  The security updates also contain a fix to the vulnerability of 
+Adobe Flash Player that was fixed with APSB11-28. For more information, 
+refer to the following website:
+
+    Adobe Security bulletin APSB11-28
+    Security update available for Adobe Flash Player 
+    http://www.adobe.com/support/security/bulletins/apsb11-28.html
+
+
+II. Products Affected
+
+  Affected products and versions are as follows:
+
+  - Adobe Reader X (10.1.1) and earlier
+  - Adobe Reader 9.4.6 and earlier
+  - Adobe Acrobat X (10.1.1) and earlier
+  - Adobe Acrobat 9.4.6 and earlier
+
+For more information, refer to Adobe Systems' website.
+
+
+III. Solution
+
+  For Adobe Reader/Acrobat 9.4.6 or earlier versions, apply the fixed 
+software provided by Adobe Systems. Adobe Reader and Acrobat will be 
+updated by starting the products, selecting the menu Help (H), and 
+then clicking Check for Updates (U).
+
+  If update is not possible, download the latest Adobe Reader and 
+Acrobat from the following URL:
+
+    Adobe.com - New downloads
+    http://www.adobe.com/support/downloads/new.jsp
+
+  Users using Adobe Reader/Acrobat X (10.1.1) or earlier should refer 
+to the workaround described in APSA11-04 and confirm that the 
+protection function is enabled.
+
+    APSA11-04: Security Advisory for Adobe Reader and Acrobat
+    http://kb2.adobe.com/jp/cps/926/cpsid_92600.html
+    http://www.adobe.com/support/security/advisories/apsa11-04.html
+
+  For more information, refer to Adobe Systems' website.
+
+  Many of the targeted attacks that have occurred recently have 
+exploited known vulnerabilities, and most damage could have been 
+prevented by applying security updates. Since these vulnerabilities 
+are also being exploited in some targeted attacks, security updates 
+should be applied as soon as possible.
+
+
+IV. Result of JPCERT/CC Verification
+
+  JPCERT/CC has obtained the malware exploiting these vulnerabilities,
+verified its behavior in the following environment, and confirmed that
+the malware does not function with the latest version of Adobe Reader 
+and Acrobat.
+
+  [Verification environment]
+    Windows XP SP3
+    Adobe Reader 9.4.7
+    Adobe Acrobat 9.4.7
+
+  [Malware used in verification]
+    Hash value of malware: 721fda5df552f4130218ad9bd2a4ab78 (MD5)
+
+  [Verification result]
+    The malware has been confirmed not to function in the above 
+    environment.
+
+  [Anti-virus software detection results]
+    Scanning results of anti-virus software as of 9:00 AM, December 19, 2011.
+    * The detection results are not results from opening files.
+
+    Malware detection results:
+      - Kaspersky   : Exploit.JS.CVE-2011-2462.a,Exploit.Win32.Pidief.def
+      - Symantec    : Bloodhound.Exploit.439
+      - Trend Micro : TROJ_PIDIEF.EGG
+      - Microsoft   : Undetected
+      - McAfee      : Exploit-CVE2011-2462
+
+
+V. References
+
+    Adobe Security bulletin APSB11-30
+    Security updates available for Adobe Reader and Acrobat 9.x for Windows 
+    http://kb2.adobe.com/jp/cps/927/cpsid_92703.html
+    http://www.adobe.com/support/security/bulletins/apsb11-30.html
+
+    Adobe Security bulletin APSB11-28
+    Security update available for Adobe Flash Player 
+    http://www.adobe.com/support/security/bulletins/apsb11-28.html
+
+    JPCERT/CC Alert 2011-11-11
+    Vulnerabilities in Adobe Flash Player
+    https://www.jpcert.or.jp/at/2011/at110030.html
+    http://www.jpcert.or.jp/english/at/2011/at110030.html
+
+    JPCERT-AT-2011-0028
+    Targeted Email Attacks
+    https://www.jpcert.or.jp/at/2011/at110028.html
+    http://www.jpcert.or.jp/english/at/2011/at110028.html
+
+    JVNTA11-350A
+    Multiple Vulnerabilities in Adobe Products (Japanese) 
+    https://jvn.jp/cert/JVNTA11-350A/index.html
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+________
+Revision history
+2011-12-19 First edition
+2011-12-19 Link to Adobe Systems Changed to the Japanese version
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

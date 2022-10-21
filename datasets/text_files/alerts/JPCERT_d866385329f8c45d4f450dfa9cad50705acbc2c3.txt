@@ -1,0 +1,137 @@
+JPCERT-AT-2008-0008
+                                                             JPCERT/CC
+                                            2008-05-16 (First edition)
+                                                  2008-05-19 (Updated)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2008-05-16 &gt;&gt;&gt;
+
+    OpenSSL packages contain a predictable random number generator
+
+             http://www.jpcert.or.jp/at/2008/at080008.txt
+
+I. Overview
+
+  OpenSSL packages included in distributions such as Debian GNU/Linux
+and Ubuntu contain a vulnerability that generates predictable random
+numbers. As a result, a remote attacker may decode encrypted
+communication or bypass public key authentication that uses a
+certificate.
+
+  When a key pair for OpenSSH public key authentication is created
+using the vulnerable OpenSSL library, unauthorized access through a
+brute force attack may be possible.
+
+  As of May 16, 2008, multiple exploit code samples have been made
+public. JPCERT/CC's scan data acquisition system has not observed
+any scans that are likely to exploit this vulnerability. However,
+attention is still required.
+
+  Other packages such as OpenVPN and OpenSWAN that use the OpenSSL
+libraries are also indirectly affected.
+
+
+II. Products Affected
+
+  Affected products and versions are as follows:
+
+    - Debian GNU/Linux 4.0 (etch) and its derived versions
+      - Ubuntu 7.04 (Feisty)
+      - Ubuntu 7.10 (Gutsy)
+      - Ubuntu 8.04 LTS (Hardy)
+
+  Debian GNU/Linux up to 3.1 (Sarge) is not affected by this
+vulnerability. Debian-based distributions other than the above may
+also be affected.
+
+*** Update: Revised on May 19, 2008 **********************************
+
+  Execute the following command to check the version of OpenSSL.
+
+  # dpkg -s openssl
+
+  In Debian GNU/Linux 4.0 (etch), this vulnerability has been solved
+since version 0.9.8c-4etch3.
+
+**********************************************************************
+
+  For more information, refer to the distributors' websites.
+
+
+III. Solution
+
+  Server administrators should update the OpenSSL package to the
+latest version if an applicable distribution is used. Then,
+regenerate SSH keys and SSL certificates.
+
+  Already created vulnerable keys and certificates may be registered
+in a server. Server administrators are strongly recommended to make
+sure that the keys registered by users are not vulnerable even when
+the OS is not based on Debian. Debian Project has released tools
+including dowkd.pl and ssh-vulnkey to find vulnerable keys.
+
+For details, refer to the following information:
+
+    DSA-1571-1 openssl -- Predictable random number generation
+    http://www.debian.org/security/2008/dsa-1571
+
+    DSA-1576-1 openssh -- Predictable random number generator
+    http://www.debian.org/security/2008/dsa-1576
+
+
+IV. References
+
+*** Update: Added on May 16, 2008 ************************************
+
+    JVNVU#925211
+    Debian and Ubuntu OpenSSL packages contain a predictable random
+      number generator
+    http://jvn.jp/cert/JVNVU925211/index.html
+
+**********************************************************************
+
+*** Update: Added on May 19, 2008 ************************************
+
+    OpenSSL package vulnerability and its effects (SSH keys and SSL
+      certificates)
+    http://www.debian.or.jp/blog/openssl_package_and_its_vulnerability.html
+
+    Ubuntu Security Notice USN-612-1
+    openssl vulnerability
+    http://www.ubuntu.com/usn/usn-612-1
+
+**********************************************************************
+
+    US-CERT Vulnerability Notes VU#925211
+    http://www.kb.cert.org/vuls/id/925211
+
+    Debian and Ubuntu OpenSSL and OpenSSH Vulnerabilities
+    http://www.us-cert.gov/current/index.html#debian_openssl_vulnerability
+
+    Check tool for SSH keys (debian.org)
+    http://security.debian.org/project/extra/dowkd/dowkd.pl.gz
+    http://security.debian.org/project/extra/dowkd/dowkd.pl.gz.asc
+
+    Key Rollover
+    http://www.debian.org/security/key-rollover/
+
+
+If you have any information you could provide regarding this alert,
+please contact us.
+
+__________
+
+Revision history
+2008-05-16 First edition
+2008-05-16 Added URLs as references
+2008-05-19 Revised the description of the version check method, added
+           a link to the signature file of the check tool, and changed
+           the distributer of the tool from debian.org to Debian 
+           Project
+
+
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602 
+http://www.jpcert.or.jp/

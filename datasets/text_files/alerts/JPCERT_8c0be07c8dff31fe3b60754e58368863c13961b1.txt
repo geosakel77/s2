@@ -1,0 +1,82 @@
+JPCERT-AT-2021-0022
+                                                             JPCERT/CC
+                                                            2021-05-10
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2021-05-10 &gt;&gt;&gt;
+
+Alert Regarding Cross Site Scripting Vulnerability (CVE-2021-20717) in EC-CUBE
+
+        https://www.jpcert.or.jp/english/at/2021/at210022.html
+
+
+I. Overview
+On May 7, 2021, EC-CUBE CO.,LTD. has released an alert regarding a
+cross site scripting vulnerability (CVE-2021-20717) in EC-CUBE. By
+leveraging the vulnerability, a remote attacker may execute arbitrary
+script on the site administrator's web browser, resulting in
+unauthorized access to the vulnerable site or personal information
+leakage. EC-CUBE CO.,LTD. has confirmed attacks that exploit this
+vulnerability.
+
+    EC-CUBE 4.0.x: Alert Regarding Cross Site Scripting Vulnerability (Japanese)
+    https://www.ec-cube.net/info/weakness/20210507/
+
+Since attacks that exploit the vulnerability have already been confirmed,
+users of the affected products are recommended to take measures such
+as applying patches as soon as possible. For more information, please
+refer to the information provided by EC-CUBE CO.,LTD..
+For countermeasures, please consider contacting the contractor in
+charge of construction of the site as responding to the vulnerability.
+
+
+II. Affected Products and Versions
+Affected products and versions are as follows. 
+
+  - EC-CUBE version from 4.0.0 to 4.0.5
+
+
+III. Solution
+EC-CUBE CO.,LTD. released a patch and version that address the
+vulnerability. Please consider applying the patch or version by
+referring to the information published by EC-CUBE CO.,LTD..
+
+  - EC-CUBE version 4.0.5-p1
+
+In addition, for users who customize the original source code of
+EC-CUBE, the code difference and information on precautions when
+applying the update have been provided.
+
+    Countermeasure method 2: Manually updating by checking the difference (Japanese)
+    https://www.ec-cube.net/info/weakness/20210507/#diff
+
+
+IV. Compromise Investigation
+EC Cube Co., Ltd. has provided information on how to check if attack
+exploiting this vulnerability has been performed, which is by checking
+data within order and member information. 
+
+    How to check the attack (Japanese)
+    https://www.ec-cube.net/info/weakness/20210507/#check
+
+
+V. References
+    EC-CUBE CO.,LTD.
+    [Important] Request to respond to the vulnerability of "high" urgency in EC-CUBE 4.0 series (updated 2021/5/10 9:00) (2021/05/07) (Japanese)
+    https://www.ec-cube.net/news/detail.php?news_id=383
+
+    EC-CUBE CO.,LTD.
+    Released "EC-CUBE 4.0.5-p1" that addressed the vulnerability (2021/05/10) (Japanese)
+    https://www.ec-cube.net/news/detail.php?news_id=384
+
+    Japan Vulnerability Notes JVN#97554111
+    Cross Site Scripting Vulnerability in EC-CUBE (Japanese)
+    https://jvn.jp/jp/JVN97554111/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

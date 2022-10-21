@@ -1,0 +1,99 @@
+JPCERT-AT-2015-0020
+                                                             JPCERT/CC
+                                                   2015-07-13(Initial)
+                                                    2015-07-15(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2015-07-13 &gt;&gt;&gt;
+
+Alert on vulnerabilities not addressed in Adobe Flash Player, July 2015
+
+        https://www.jpcert.or.jp/english/at/2015/at150020.html
+
+I. Overview
+
+  Vulnerabilities not addressed in Adobe Flash Player provided by Adobe
+have been made public. When opening specially crafted Flash files in a 
+web browser or opening a specially craft document containing Flash contents
+may lead to arbitrary code execution. JPCERT/CC has observed on-going domestic
+attacks leveraging CVE-2015-5122. We recommend reading the information below and
+apply the workarounds.
+
+
+(Vulnerability Identifiers)
+  CVE-2015-5122
+  CVE-2015-5123
+
+    Security Advisory for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsa15-04.html
+
+
+II. Affected Products
+
+   The following versions are affected by the vulnerabilities:
+
+  - Adobe Flash Player 18.0.0.203 and earlier
+    (Internet ExplorerAGoogle ChromeAMozilla Firefox, etc.)
+
+
+III. Solution
+
+  As of July 13, 2015, Adobe has not released a security update to address
+these vulnerabilities. According to Adobe, a security update to address
+these vulnerabilities will be released on the week of July 12, 2015.
+
+** Update: 07/15/2015 Update *****************************************
+An Adobe Flash Player update that addresses the vulnerabilities has
+been released. Using the information below, please update to the 
+latest version. This update contains fixes for vulnerabilities other 
+than CVE-2015-5122 and CVE-2015-5123 stated in the advisory (APSA15-04).
+
+    Adobe Systems
+    Security updates available for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsb15-18.html
+
+    JPCERT/CC
+    Vulnerabilities in Adobe Flash Player (APSB15-18)
+    https://www.jpcert.or.jp/english/at/2015/at150024.html
+**********************************************************************
+
+
+VI. Workarounds
+
+  As a temporary countermeasure until a security update can be applied, 
+please consider the following workarounds to mitigate affects of the
+vulnerability. Applying these countermeasures may cause other applications
+to not run properly. Please carefully consider and test any side effects
+prior to applying any of the workarounds.
+
+  (1) Open the security tab from "Internet Options" in Internet Explorer
+      and change the security level to "High" for the internet zone and
+      local intranet zone.
+  
+  (2) Add Internet Explorer in EMET. If using a 64-bit Windows environment,
+      add both the 32-bit and 64-bit versions of Internet Explorer
+
+    Microsoft Suport Online
+    The Enhanced Mitigation Experience Toolkit
+    https://support.microsoft.com/en-us/kb/2458544
+
+
+V. References
+
+    Adobe Security Bulletin
+    Security Advisory for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsa15-04.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2015-07-13 First edition
+2015-07-15 Updated "III. Solution"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

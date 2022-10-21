@@ -1,0 +1,111 @@
+JPCERT-AT-2021-0037
+                                                             JPCERT/CC
+                                                    2021-09-02(Initial)
+                                                    2021-09-07(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2021-09-02 &gt;&gt;&gt;
+
+Alert Regarding Vulnerability (CVE-2021-26084) in Confluence Server and Data Center
+
+       https://www.jpcert.or.jp/english/at/2020/at210037.html
+
+
+I. Overview
+On August 25, 2021 (Local Time), Atlassian released a security advisory
+regarding the vulnerability (CVE-2021-26084) in Confluence Server and
+Data Center. According to the advisory, Confluence Server and Data
+Center contains OGNL injection vulnerability. A unauthenticated remote
+attacker leveraging this vulnerability may be able to execute
+arbitrary code. For more information on the vulnerability, please
+refer to the information provided by the Atlassian.
+
+    Atlassian
+    Confluence Security Advisory - 2021-08-25
+    https://confluence.atlassian.com/doc/confluence-security-advisory-2021-08-25-1077906215.html
+
+On September 2, 2021 (Japan time), JPCERT/CC confirmed that an article
+explaining the details of this vulnerability and Proof-of-Concept code
+that seems to exploit the vulnerability are made public. The users of
+the affected products are recommended to take measures such as
+upgrading to the latest version or apply workaround as soon as possible.
+
+** Update: September 7, 2021 Update *********************************
+JPCERT/CC has confirmed communications to search for this
+vulnerability in Japan. In addition, information on attack activities
+such as installing cryptocurrency miners by exploiting this
+vulnerability has been released. The users of the affected products
+are recommended to take measures as soon as possible.
+
+In addition, Atlassian has released a Japanese advisory below. 
+
+    Atlassian
+    Confluence Security Advisory - 2021-08-25 (Japanese)
+    https://ja.confluence.atlassian.com/doc/confluence-security-advisory-2021-08-25-1077906215.html
+*********************************************************************
+
+
+II. Affected Software
+The following versions are affected by this vulnerability:
+
+  - Confluence Server and Data Center versions 7.12.x before 7.12.5
+  - Confluence Server and Data Center versions 7.11.x before 7.11.6
+  - Confluence Server and Data Center versions 7.10.x
+  - Confluence Server and Data Center versions 7.9.x
+  - Confluence Server and Data Center versions 7.8.x
+  - Confluence Server and Data Center versions 7.7.x
+  - Confluence Server and Data Center versions 7.6.x
+  - Confluence Server and Data Center versions 7.5.x
+  - Confluence Server and Data Center versions 7.4.x before 7.4.11
+  - Confluence Server and Data Center versions 7.3.x
+  - Confluence Server and Data Center versions 7.2.x
+  - Confluence Server and Data Center versions 7.1.x
+  - Confluence Server and Data Center versions 7.0.x
+  - Confluence Server and Data Center versions 6.15.x
+  - Confluence Server and Data Center versions 6.14.x
+  - Confluence Server and Data Center versions 6.13.x before 6.13.23
+
+Confluence Server and Data Center versions 6.13.x and earlier, that
+are no longer supported, are also affected by the vulnerability. Also,
+Confluence Cloud customers are not affected according to Atlassian.
+
+
+III. Solution
+Atlassian has released versions that address the vulnerability. Consider
+updating to a fixed version after testing.
+
+  - Confluence Server and Data Center 7.13.0
+  - Confluence Server and Data Center 7.12.5
+  - Confluence Server and Data Center 7.11.6
+  - Confluence Server and Data Center 7.4.11
+  - Confluence Server and Data Center 6.13.23
+
+
+IV. Workarounds
+In case it's difficult to upgrade Confluence Server and Data Center,
+Atlassian has provided the script to mitigate the impact of the
+vulnerability as a temporary workaround. Please refer to the
+information provided by Atlassian for details.
+
+
+V. References
+    Atlassian
+    Confluence Security Advisory - 2021-08-25
+    https://confluence.atlassian.com/doc/confluence-security-advisory-2021-08-25-1077906215.html
+
+    Atlassian
+    Atlassian Support End of Life Policy
+    https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2021-09-02 First edition
+2021-09-07 Updated "I. Overview"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

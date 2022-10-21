@@ -1,0 +1,73 @@
+JPCERT-AT-2012-0019
+                                                             JPCERT/CC
+                                                            2012-06-11
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 11.06.12 &gt;&gt;&gt;
+
+          Vulnerabilities in Adobe Flash Player (APSB12-14)
+
+        https://www.jpcert.or.jp/english/at/2012/at120019.html
+
+
+I. Overview
+
+  Adobe Flash Player contains multiple vulnerabilities. As a result, 
+a remote attacker could terminate Adobe Flash Player or execute
+arbitrary code by convincing a user to open specially crafted
+contents. We recommend that users update to the corrected software
+provided by Adobe Systems.
+
+    Adobe Security Bulletins APSB12-14 (English)
+    Security updates available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb12-14.html
+
+
+II. Products Affected
+
+  Affected products and versions are as follows:
+
+  - Adobe Flash Player 11.2.202.235 and earlier
+
+For more information, refer to the Adobe Systems website.
+
+
+III. Solution
+
+  Update Adobe Flash Player to the following latest version. For more
+information, refer to the Adobe Systems website.
+
+  - Adobe Flash Player 11.3.300.257
+
+    Adobe Flash Player Download Center
+    http://get.adobe.com/jp/flashplayer/
+
+  The Adobe Flash Player version number installed on your PC can be
+verified through the following page:
+
+    Adobe Flash Player: Version Information
+    http://www.adobe.com/jp/software/flash/about/
+
+* Even if using browsers other than Internet Explorer, some software
+  use Adobe Flash Player installed for Internet Explorer as Microsoft
+  Office does. Therefore, the Flash Player for Internet Explorer
+  should also be updated.
+
+
+IV. References
+
+    Adobe Security Bulletins APSB12-14
+    Security updates available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb12-14.html
+
+    Flash Player 11.3 delivers additional security capabilities for Mac and Firefox users
+    http://blogs.adobe.com/asset/2012/06/flash-player-11-3-delivers-additional-security-capabilities-for-mac-and-firefox-users.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

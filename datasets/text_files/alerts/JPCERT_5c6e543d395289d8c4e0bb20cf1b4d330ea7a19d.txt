@@ -1,0 +1,137 @@
+JPCERT-AT-2018-0035
+                                                             JPCERT/CC
+                                                    2018-08-22(Initial)
+                                                    2018-09-14(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-08-22 &gt;&gt;&gt;
+
+   Alert Regarding Vulnerability in -dSAFER Option in Ghostscript
+
+        https://www.jpcert.or.jp/english/at/2018/at180035.html
+
+
+I. Overview
+-dSAFER option in Ghostscript provided by Artifex Software contains
+vulnerability. When a specially crafted content exploiting the
+vulnerability is processed, arbitrary command may be executed on the
+server where Ghostscript is running. For details on the vulnerability,
+please refer to the information provided by CERT/CC.
+
+    CERT/CC Vulnerability Note VU#332928
+    Ghostscript contains multiple -dSAFER sandbox bypass vulnerabilities
+    https://www.kb.cert.org/vuls/id/332928
+
+Proof-of-Concept code for this vulnerability has been made public,
+and JPCERT/CC confirmed that arbitrary command can be executed with
+the privileges of the user running Ghostscript.
+
+As of 11:00am August 22, 2018 (JST), versions that address the
+vulnerability have not been released yet. Users using the affected
+versions are advised to apply the setting stated in "IV. Workarounds".
+Furthermore, if Ghostscript is used within an application, it is
+advised to apply the workarounds to the application as it may also be
+affected by the vulnerability.
+
+** Update: September 6, 2018 Update **********************************
+On September 3, 2018 (local time), a version that addresses this
+vulnerability was released. It is recommended to apply the updated
+version as soon as possible by referring to the information in
+"III. Solution".
+**********************************************************************
+
+
+II. Affected Software
+The following products and versions are affected by the vulnerability;
+
+  - Ghostscript 9.23 and earlier
+  - ImageMagick 7.0.8-10 and earlier *
+  * ImageMagick uses Ghostscript by default
+
+If you are using ImageMagick provided by a distributor, please refer
+to the information provided by that distributor.
+
+
+III. Solution
+As of 11:00am August 22, 2018 (JST), versions that address the
+vulnerability have not been released yet.
+
+** Update: September 6, 2018 Update **********************************
+On September 3, 2018 (local time), a version that addresses this
+vulnerability was released. Please apply the updated version as soon
+as possible by referring to the information provided by Artifex
+Software.
+
+    Artifex Software
+    Version 9.24 (2018-09-03)
+    https://ghostscript.com/doc/9.24/History9.htm#Version9.24
+
+    Artifex Software
+    projects / ghostpdl.git / summary
+    https://git.ghostscript.com/?p=ghostpdl.git;a=summary
+**********************************************************************
+
+** Update: September 14, 2018 Update *********************************
+On September 13, 2018 (local time), Ghostscript version 9.25 was
+released. This version contains fixes which address some additional
+security issues over the recent 9.24 release. It is recommended to
+apply the updated version as soon as possible.
+
+    Artifex Software
+    Version 9.25 (2018-09-13)
+    https://ghostscript.com/doc/9.25/History9.htm#Version9.25
+**********************************************************************
+
+
+IV. Workarounds
+The vulnerability can be mitigated by changing the settings to restrict
+processing of PostScript. It is advised to apply a workaround after
+considering any possible impacts to applications or systems.
+
+As for ImageMagick, please consider the following workaround.
+
+  - Change the setting of the policy.xml of ImageMagick to disable the processing in question
+
+For details on the workaround, please refer to the information provided
+by CERT/CC.
+
+    CERT/CC Vulnerability Note VU#332928
+    Ghostscript contains multiple -dSAFER sandbox bypass vulnerabilities
+    https://www.kb.cert.org/vuls/id/332928
+
+
+V. References
+    CERT/CC Vulnerability Note VU#332928
+    Ghostscript contains multiple -dSAFER sandbox bypass vulnerabilities
+    https://www.kb.cert.org/vuls/id/332928
+
+** Update: September 6, 2018 Update **********************************
+    Artifex Software
+    Version 9.24 (2018-09-03)
+    https://ghostscript.com/doc/9.24/History9.htm#Version9.24
+
+    Artifex Software
+    projects / ghostpdl.git / summary
+    https://git.ghostscript.com/?p=ghostpdl.git;a=summary
+**********************************************************************
+
+** Update: September 14, 2018 Update *********************************
+    Artifex Software
+    Version 9.25 (2018-09-13)
+    https://ghostscript.com/doc/9.25/History9.htm#Version9.25
+**********************************************************************
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2018-08-22 First edition
+2018-09-06 Updated "I. Overview", "III. Solution" and "V. References"
+2018-09-14 Updated "III. Solution" and "V. References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

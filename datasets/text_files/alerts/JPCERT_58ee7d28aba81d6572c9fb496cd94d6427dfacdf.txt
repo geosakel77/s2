@@ -1,0 +1,218 @@
+JPCERT-AT-2017-0038
+                                                             JPCERT/CC
+                                                    2017-09-20(Initial)
+                                                    2017-10-05(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-09-20 &gt;&gt;&gt;
+
+           Alert Regarding Vulnerabilities in Apache Tomcat
+
+        https://www.jpcert.or.jp/english/at/2017/at170038.html
+
+
+I. Overview
+On September 19, 2017 (US time), the Apache Software Foundation released
+information on vulnerabilities (CVE-2017-12615 and CVE-2017-12616) in
+Apache Tomcat. In the vulnerability CVE-2017-12615, when running on
+Windows with HTTP PUTs enabled (e.g. via setting the readonly
+initialisation parameter of the Default to false), arbitrary code may
+be executed remotely on the server that runs Apache Tomcat by using a
+specially crafted request. In the vulnerability CVE-2017-12616, when
+using VirtualDirContext, it was possible to bypass security constraints
+and/or view the source code of JSPs for resources served by the
+VirtualDirContext using a specially crafted request. For details on
+these vulnerabilities, please refer to the information provided by the
+Apache Software Foundation.
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 7.0.81
+    http://tomcat.apache.org/security-7.html#Fixed_in_Apache_Tomcat_7.0.81
+
+The Apache Software Foundation has assigned a "Important" rating to
+each vulnerability. Please update the software as soon as possible by
+referring to the information provided in "III. Solution".
+
+** Update: September 25, 2017 Update **********************************
+There is additional information on the vulnerability (CVE-2017-12617)
+in Apache Tomcat. In this vulnerability, when running on Windows with
+HTTP PUTs enabled (e.g. via setting the readonly initialisation parameter
+of the Default to false), arbitrary code may be executed remotely on
+the server that runs Apache Tomcat.
+
+As of September 25, 2017, there is no information about affected
+versions and details from Apache Software Foundation, but JPCERT/CC
+confirmed that versions that are not affected in CVE-2017-12615 are
+affected by this vulnerability (CVE-2017-12617). To prevent attacks that
+exploit vulnerabilities, please consider taking measures with reference
+to "IV. Workaround".
+
+    Red Hat Bugzilla
+    Bug 1494283 - CVE-2017-12617 tomcat: Remote Code Execution bypass for CVE-2017-12615
+    https://bugzilla.redhat.com/show_bug.cgi?id=1494283
+***********************************************************************
+
+
+II. Affected Products
+Following versions of Apache Tomcat are affected by these vulnerabilities.
+
+  - CVE-2017-12615
+    - Apache Tomcat 7.0.0 to 7.0.79
+  - CVE-2017-12616
+    - Apache Tomcat 7.0.0 to 7.0.80
+
+According to the Apache Software Foundation, the vulnerability
+CVE-2017-12615 has been addressed in Apache Tomcat 7.0.80, but due to
+some issues at the time of release, the version including the fix is
+7.0.81.
+
+** Update: October 4, 2017 Update *************************************
+For the vulnerability of CVE-2017-12617, the following versions of
+Apache Tomcat are affected by this vulnerability.
+
+  - CVE-2017-12617
+    - Versions from 9.0.0.M1 to 9.0.0
+    - Versions from 8.5.0 to 8.5.22
+    - Versions from 8.0.0.RC1 to 8.0.46
+    - Versions from 7.0.0 to 7.0.81
+***********************************************************************
+
+
+III. Solution
+The Apache Software Foundation has released a version of Apache Tomcat
+that addresses these vulnerabilities. Please consider applying the
+latest version as soon as possible.
+
+  - Apache Tomcat 7.0.81
+
+** Update: October 4, 2017 Update *************************************
+Apache Software Foundation released versions of Apache Tomcat 9.x and
+8.5.x that addresses the vulnerability in CVE-2017-12617.
+
+  - Apache Tomcat 9.0.1
+  - Apache Tomcat 8.5.23
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 9.0.1
+    http://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.1
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 8.5.23    
+    http://tomcat.apache.org/security-8.html#Fixed_in_Apache_Tomcat_8.5.23
+
+As of October 4, 2017, Apache Software Foundation has not released
+versions of Apache Tomcat 8.0.x and 7.x that addresses the vulnerability. 
+Please consider taking measures with reference to "IV. Workaround".
+***********************************************************************
+
+** Update: October 5, 2017 Update *************************************
+Apache Software Foundation released versions of Apache Tomcat 8.0.x and
+7.x that addresses the vulnerability in addition with the current
+version. Please consider applying the latest versions as soon as possible.
+
+  - Apache Tomcat 9.0.1
+  - Apache Tomcat 8.5.23
+  - Apache Tomcat 8.0.47
+  - Apache Tomcat 7.0.82
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 9.0.1
+    http://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.1
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 8.5.23
+    http://tomcat.apache.org/security-8.html#Fixed_in_Apache_Tomcat_8.5.23
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 8.0.47
+    http://tomcat.apache.org/security-8.html#Fixed_in_Apache_Tomcat_8.0.47
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 7.0.82
+    http://tomcat.apache.org/security-7.html#Fixed_in_Apache_Tomcat_7.0.82
+***********************************************************************
+
+
+** Update: September 25, 2017 Update **********************************
+IV. Workaround
+As of September 25, 2017, Apache Software Foundation has not released
+a version of Apache Tomcat that addresses the vulnerability CVE-2017-12617.
+
+JPCERT/CC has confirmed through testing that, if running Apache Tomcat
+with versions other than 7.0.0 through 7.0.79 (which are affected by
+CVE-2017-12615) on Linux and Windows with readonly parameter set to
+false, are also affected and may be exploited.
+
+Please consider applying the following workaround to mitigate impacts
+of the vulnerability.
+
+  - In Apache Tomcat, set readonly parameter to true or do not accept HTTP PUT request.
+
+    ex) Add the following to web.xml file and set the readonly parameter to true
+<init-param>
+ <param-name>
+  readonly
+ </param-name>
+ <param-value>
+  true
+ </param-value>
+</init-param>
+The readonly parameter is set to true by default.
+
+If you can not change the setting, we also recommend that you
+appropriately restrict access from the Internet.
+***********************************************************************
+
+
+V. References
+    Apache Software Foundation
+    Fixed in Apache Tomcat 7.0.81
+    http://tomcat.apache.org/security-7.html#Fixed_in_Apache_Tomcat_7.0.81
+
+    Apache Software Foundation
+    [SECURITY] CVE-2017-12615 Apache Tomcat Remote Code Execution via JSP upload
+    http://mail-archives.us.apache.org/mod_mbox/www-announce/201709.mbox/%3cde541c4a-55b1-a4d3-4fbe-f8e3800b920f@apache.org%3e
+
+    Apache Software Foundation
+    [SECURITY] CVE-2017-12616 Apache Tomcat Information Disclosure
+    http://mail-archives.us.apache.org/mod_mbox/www-announce/201709.mbox/%3c16df1f59-ea31-0789-f0c8-5432c60de8fc@apache.org%3e
+
+    US-CERT
+    Apache Releases Security Updates for Apache Tomcat
+    https://www.us-cert.gov/ncas/current-activity/2017/09/19/Apache-Releases-Security-Updates-Apache-Tomcat
+
+** Update: October 4, 2017 Update *************************************
+    Apache Software Foundation
+    Fixed in Apache Tomcat 9.0.1
+    http://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.1
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 8.5.23
+    http://tomcat.apache.org/security-8.html#Fixed_in_Apache_Tomcat_8.5.23
+***********************************************************************
+
+** Update: October 5, 2017 Update *************************************
+    Apache Software Foundation
+    Fixed in Apache Tomcat 8.0.47
+    http://tomcat.apache.org/security-8.html#Fixed_in_Apache_Tomcat_8.0.47
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 7.0.82
+    http://tomcat.apache.org/security-7.html#Fixed_in_Apache_Tomcat_7.0.82
+***********************************************************************
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2017-09-20 First edition
+2017-09-25 Updated "I. Overview" and "IV. Workaround"
+2017-10-04 Updated "II. Affected Products", "III. Solution" and "V. References"
+2017-10-05 Updated "III. Solution" and "V. References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

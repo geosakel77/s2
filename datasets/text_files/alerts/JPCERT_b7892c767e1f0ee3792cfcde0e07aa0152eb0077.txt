@@ -1,0 +1,125 @@
+JPCERT-AT-2007-0009
+                                                             JPCERT/CC
+                                                         April 3, 2007
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2007-04-03 &gt;&gt;&gt;
+
+        Phishing frauds targeting Japanese financial institutions
+
+              http://www.jpcert.or.jp/at/2007/at070009.txt
+
+I. Overview
+
+  JPCERT/CC has received multiple reports last month that phishing 
+sites targeting Japanese financial institutions (banks and consumer
+finance companies) have been observed. It may take a long time before
+such sites are closed down due to the reason that these phishing sites
+are often hosted by overseas servers, etc. Therefore care should be 
+taken when accessing URLs in emails that look like they have been sent
+by a financial institution.
+
+
+II. Solution
+
+  In situations where phishing sites cannot always be easily closed 
+down, individual users of online services should make efforts to 
+prevent damage by phishing. As precautionary measures against phishing
+attacks, users should not open suspicious emails, access suspicious
+websites, or enter personal information on suspicious websites.
+
+  Server administrators are recommended to recheck security measures 
+to prevent their hosts from being broken into and used as phishing sites.
+
+  It is recommended to examine measures by referring to the points to
+be noted by users of online services and server administrators listed
+below:
+
+**********************************************************************
+[Users of online services]
+
+  Users of online services, such as online banking, should be more 
+careful by taking into account the following points:
+
+(1) Be careful when you receive a suspicious email
+
+    Never carelessly click on URLs in a suspicious email you have 
+    received. Users can get infected by viruses or spyware simply by 
+    visiting a malicious website.
+
+(2) Check the domain name of the website you are going to access
+
+    Check whether the domain name of the website is actually owned by
+    the target organization. It is important to check the validity of
+    the domain name using non-web based means, such as by telephone or
+    by matching the domain name with the one printed on the user card.
+    You should be careful when checking the domain name by using 
+    search engines because phishing sites can be ranked high in search
+    results.
+
+(3) Check the security of the website before entering any information
+
+    Before you enter personal information by using a form on a
+    website, make sure that the website is a reliable one. For more 
+    information, refer to the following website:
+    
+    Security for Beginners
+    Do not access a website whose security has not been confirmed
+    http://www.jpcert.or.jp/magazine/security/illust/part1.html#07
+
+**********************************************************************
+[Server administrators]
+
+  Many cases have been reported where systems hacked by hackers using
+a password brute-force attack are used as phishing sites. Please
+reconfirm the following points:
+
+    - Whether user accounts with no password exist
+    - Whether weak passwords exits
+    - Whether there are unnecessary user accounts
+
+  In addition, users are recommended to change their passwords on a
+regular basis. Deployment of authentication methods other than
+passwords is also effective.
+
+    Security for Beginners
+    Set "good" passwords and change them regularly
+    http://www.jpcert.or.jp/magazine/security/illust/part1.html#03
+
+  For other measures, refer to the following document:
+
+    Alert on Servers Used as Phishing Sites
+    http://www.jpcert.or.jp/at/2005/at050002.txt
+
+
+III. If you find a phishing site
+
+  JPCERT/CC is working to ascertain the current state of phishing
+regarding these incidents and formulate future counter-measures.
+JPCERT/CC also accepts incident reports regarding phishing sites. For
+incident reporting, please use the following format:
+
+    Incident report notifications
+    http://www.jpcert.or.jp/form/
+
+    FAQ regarding responses to phishing
+    http://www.jpcert.or.jp/ir/faq.html
+
+
+IV. Reference Information
+
+    Security for Beginners
+    Methods of phishing and other frauds
+    http://www.jpcert.or.jp/magazine/security/illust/part2.html#07
+
+    AntiPhishing Japan
+    Five tips to avoid becoming the victim - STOP! Phishing Frauds
+    http://www.antiphishing.jp/gokajou.html
+
+
+  If you have any information regarding this matter, please contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

@@ -1,0 +1,147 @@
+JPCERT-AT-2018-0028
+                                                             JPCERT/CC
+                                                            2018-07-11
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-07-11 &gt;&gt;&gt;
+
+             Microsoft Releases July 2018 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2018/at180028.html
+
+
+I. Overview
+Microsoft has released July 2018 Security Updates. This contains
+updates that are rated as "critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    July 2018 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/1c26eff2-573f-e811-a96f-000d3a33c573
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    CVE-2018-8242
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8242
+    - KB4338814, KB4338815, KB4338818, KB4338819, KB4338825, KB4338826, 
+      KB4338829, KB4339093
+
+    CVE-2018-8262
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8262
+    - KB4338819
+
+    CVE-2018-8274
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8274
+    - KB4338819, KB4338825, KB4338826
+
+    CVE-2018-8275
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8275
+    - KB4338814, KB4338819, KB4338825, KB4338826
+
+    CVE-2018-8279
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8279
+    - KB4338819, KB4338825, KB4338826
+
+    CVE-2018-8280
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8280
+    - KB4338814, KB4338819, KB4338825, KB4338826, KB4338829
+
+    CVE-2018-8286
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8286
+    - KB4338819, KB4338825, KB4338826
+
+    CVE-2018-8288
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8288
+    - KB4338814, KB4338815, KB4338818, KB4338819, KB4338825, KB4338826
+      KB4338829, KB4339093
+
+    CVE-2018-8290
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8290
+    - KB4338814, KB4338819, KB4338825, KB4338826, KB4338829
+
+    CVE-2018-8291
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8291
+    - KB4338814, KB4338815, KB4338818, KB4338819, KB4338825, KB4338826
+      KB4338829, KB4339093
+
+    CVE-2018-8294
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8294
+    - KB4338819
+
+    CVE-2018-8296
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8296
+    - KB4338814, KB4338815, KB4338818, KB4338819, KB4338825, KB4338826
+      KB4338829, KB4339093
+
+    CVE-2018-8301
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8301
+    - KB4338819, KB4338825
+
+    CVE-2018-8324
+    Microsoft Edge Information Disclosure Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8324
+    - KB4338819, KB4338825, KB4338826
+
+This month's security release contains an update for Adobe Flash
+Player that is rated as "important".
+
+According to Microsoft, attacks leveraging the vulnerabilities have
+not been observed in the wild. However, please apply the security
+update programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update / Windows Update
+    http://www.update.microsoft.com/
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+
+III. References
+    Microsoft Corporation
+    July 2018 Security Updates 
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/1c26eff2-573f-e811-a96f-000d3a33c573
+
+    Microsoft Corporation
+    Microsoft Security Updates for July 2018 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2018/07/11/201807-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Adobe Systems Incorporated
+    Security updates available for Flash Player | APSB18-24
+    https://helpx.adobe.com/security/products/flash-player/apsb18-24.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerability in Adobe Flash Player (APSB18-24)
+    https://www.jpcert.or.jp/english/at/2018/at180027.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

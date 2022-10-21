@@ -1,0 +1,129 @@
+JPCERT-AT-2012-0008
+                                                             JPCERT/CC
+                                              06.03.12 (First edition)
+                                                    07.03.12 (Updated)
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 06.03.12 &gt;&gt;&gt;
+
+    Infections by Malware which Rewrites DNS Settings (DNS Changer)
+
+            https://www.jpcert.or.jp/at/2012/at120008.html
+
+
+I. Overview
+
+  JPCERT/CC has obtained information regarding malware which rewrites 
+DNS settings (DNS Changer). The DNS Changer malware was first detected 
+in 2007. Currently, several tens of thousands of PCs worldwide are 
+infected with DNS Changer. The number of infected computers located 
+within Japan is also high.
+
+  In November 2011, the United States Federal Bureau of Investigation 
+(FBI) seized rogue DNS servers, replacing them with non-malicious DNS 
+servers. However, it plans to shut these DNS servers down on March 9, 
+2012 (Japanese time), so PCs infected with DNS Changer may not be able 
+to view web sites, send e-mails, etc. on or after March 9, 2012.
+
+*** Update: Added on 07.03.2012 **************************************
+  DNS server operation has been extended by approximately 120 days as 
+a result of a judgment by a US district court.
+**********************************************************************
+
+
+II. Confirmation Method
+
+  Refer to the procedure below to confirm the DNS server information 
+configured in PCs.
+
+  1) Checking DNS configuration information in Microsoft Windows
+    1. Start the command prompt.
+      (for Windows 7):
+      Click "Start Menu" - "Search Programs and Files". Enter "cmd.exe", 
+      and click the displayed program.
+      (for Windows XP):
+      Click "Start Menu" - "Run...". Enter "cmd.exe", and click OK.
+    2. At the command prompt, enter "ipconfig /all", and press Enter.
+    3. Check for the lines in the displayed results that contain "DNS 
+       Servers" (several IP addresses may be specified).
+    * Check for each interface when multiple interfaces are used 
+      (wireless LANs, wired LANs, etc.).
+
+  * Please refer to the following site, which also contains the DNS 
+    configuration information confirmation procedure.
+
+    Checking for DNS Changer Malware
+    http://dcwg.org/checkup.html
+
+  2) Check if the DNS server IP addresses confirmed in 1) fall within 
+     the following IP address ranges.
+
+     (Rogue DNS server IP address ranges)
+    85.255.112.0 - 85.255.127.255
+    67.210.0.0 - 67.210.15.255
+    93.188.160.0 - 93.188.167.255
+    77.67.83.0 - 77.67.83.255
+    213.109.64.0 - 213.109.79.255
+    64.28.176.0 - 64.28.191.255
+
+     If any of the DNS servers have an IP address that falls in one of 
+the above IP address ranges, the PC may be infected with DNS Changer. 
+Refer to III and implement the solution described therein.
+
+
+III. Solution
+
+  If there is a possibility that the PC has been infected with DNS 
+Changer, perform the solution below.
+
+  - Disconnect the PC from the network. Follow the instructions of the 
+    system administrator in confirming if the PC is infected with the 
+    malware.
+
+    * PCs infected with malware may have downloaded other malware, so 
+      PCs infected with one type of malware may be infected by other 
+      types of malware as well.
+
+  - Change the PC's DHCP and IP address settings so that a valid DNS 
+    server's IP address is used.
+
+  The FBI has also confirmed a variety of DNS Changer that changes 
+router DNS settings. If a PC DNS Changer infection is detected, also 
+check if the router(s) used by the computer are also infected. For 
+more information, refer to the following:
+
+    DNS Changer Update (NANOG Security BoF)
+    http://dcwg.org/docs/DNS_Changer_NANOG54.pdf
+
+
+III. References
+
+    Federal Bureau of Investigation (FBI)
+    DNSChanger Malware
+    http://www.fbi.gov/news/stories/2011/november/malware_110911/DNS-changer-malware.pdf
+
+    US-CERT
+    DNSChanger Malware
+    http://www.us-cert.gov/current/index.html#operation_ghost_click_malware
+
+    IIJ-SECT
+    Infections by DNS Changer Malware
+    https://sect.iij.ad.jp/d/2012/02/245395.html
+
+    NANOG
+    DNS Changer Update (NANOG Security BoF)
+    http://dcwg.org/docs/DNS_Changer_NANOG54.pdf
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+________
+Revision history
+06.03.12 First edition
+07.03.12 Extension added to "I. Overview" section
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

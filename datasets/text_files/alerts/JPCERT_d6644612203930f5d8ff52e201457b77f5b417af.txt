@@ -1,0 +1,167 @@
+JPCERT-AT-2021-0047
+                                                             JPCERT/CC
+                                                    2021-10-20(Initial)
+                                                    2021-12-17(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2021-10-20 &gt;&gt;&gt;
+
+Alert Regarding Vulnerability (CVE-2021-20837) in Movable Type XMLRPC API
+
+        https://www.jpcert.or.jp/english/at/2021/at210047.html
+
+
+I. Overview
+On October 20, 2021, Six Apart Ltd. released information on OS command
+injection vulnerability (CVE-2021-20837) in Movable Type XMLRPC API.
+A remote attacker may be able to execute arbitrary OS commands by
+exploiting the vulnerability.
+
+    Six Apart Ltd.
+    MOVABLE TYPE 7 r.5003 (v7.8.2), v6.8.3: SECURITY UPDATE
+    https://movabletype.org/news/2021/10/mt-782-683-released.html
+
+Users of the affected Movable Type are recommended to apply update
+as soon as possible by referring to the information provided by Six
+Apart Ltd..
+
+** Update: November 5, 2021 Update **********************************
+JPCERT/CC confirmed that a Proof-of-Concept (PoC) code that appears
+to exploit this vulnerability has already been made public on October
+26, 2021.
+
+In addition, according to LAC Co., Ltd., scans to check for the
+vulnerability have been observed since October 27. Also, attacks to
+attempt to place suspicious files in a vulnerable environment were
+observed on November 1, and some attacks have been confirmed to be
+successful.
+
+Users of the affected versions are advised to consider updating as
+soon as possible, and also to check if the attack that exploits the
+vulnerability has been made to the system by referring to the
+information provided by LAC Co., Ltd.
+
+    LAC Co., Ltd.
+    [Alert] Observed malicious attacks targeting Movable Type vulnerability. Take immediate measures! (Japanese)
+    https://www.lac.co.jp/lacwatch/alert/20211102_002780.html
+*********************************************************************
+
+** Update: November 9, 2021 Update **********************************
+On October 22, 2021, Alfasado Inc. released the patch for PowerCMS
+that addresses the vulnerability in XMLRPC API.
+
+PowerCMS is a product based on Movable Type, which is possibly
+affected by the similar vulnerability. Therefore, it is recommended to
+check the information published by Alfasado Inc. and apply
+countermeasures promptly. 
+
+    Alfasado Inc.
+    Patch for PowerCMS 5.19/4.49/3.295 (Countermeasures for OS command injection vulnerability in XMLRPC API) (Japanese)
+    https://www.powercms.jp/news/release-patch-xmlrpc-api-202110.html
+*********************************************************************
+
+** Update: November 25, 2021 Update *********************************
+The vulnerability in PowerCMS XMLRPC API, that was addressed by
+Alfasado Inc. on October 22, 2021, has been assigned CVE-2021-20850.
+
+    Japan Vulnerability Notes JVN#17645965
+    PowerCMS XMLRPC API vulnerable to OS command injection
+    https://jvn.jp/en/jp/JVN17645965/
+*********************************************************************
+
+** Update: December 16, 2021 Update *********************************
+On December 16, 2021, Six Apart Ltd. announced that it was
+confirmed that the versions released on October 20, 2021 were
+insufficiently fixed, and released versions that addresses the
+vulnerability.
+
+    Six Apart Ltd.
+    Movable Type 7 r.5005 (v7.9.1), v6.8.5: SECURITY UPDATE
+    https://movabletype.org/news/2021/12/mt-791-685-released.html
+*********************************************************************
+
+** Update: December 17, 2021 Update *********************************
+On December 16, 2021, Alfasado Inc. released a patch file that provides
+additional protection for the vulnerability as the file released on
+October 22 was insufficient.
+
+    Alfasado Inc.
+    A patch file for OS command injection vulnerability in XMLRPC API (JVN#17645965) (Japanese)
+    https://www.powercms.jp/news/release-fix-xmlrpc-api-202112.html
+*********************************************************************
+
+
+II. Affected Versions
+Affected versions of Movable Type are as follows:
+
+  - Movable Type 7 r.5004 and earlier (Movable Type 7 Series)
+  - Movable Type 6.8.4 and earlier (Movable Type 6 Series)
+  - Movable Type Advanced 7 r.5004 and earlier (Movable Type Advanced 7 Series)
+  - Movable Type Advanced 6.8.4 and earlier (Movable Type Advanced 6 Series)
+  - Movable Type Premium 1.48 and earlier
+  - Movable Type Premium Advanced 1.48 and earlier
+
+** Update: December 16, 2021 Update *********************************
+Updated the version information affected by the vulnerability
+(CVE-2021-20837). 
+*********************************************************************
+
+According to the developer, all versions of Movable Type 4.0 or later,
+including unsupported (End-of-Life, EOL) versions are affected by this
+vulnerability.
+
+
+III. Solution
+Six Apart Ltd. has released versions that address the vulnerability.
+Please consider updating as soon as possible.
+
+  - Movable Type 7 r.5005 (Movable Type 7 Series)
+  - Movable Type 6.8.5 (Movable Type 6 Series)
+  - Movable Type Advanced 7 r.5005 (Movable Type Advanced 7 Series)
+  - Movable Type Advanced 6.8.5 (Movable Type Advanced 6 Series)
+  - Movable Type Premium 1.49
+  - Movable Type Premium Advanced 1.49
+
+** Update: December 16, 2021 Update *********************************
+Updated the version information that address the vulnerability
+(CVE-2021-20837). 
+*********************************************************************
+
+
+IV. Workarounds
+In case it is difficult to take measures against this vulnerability
+soon, Six Apart Ltd. has provided information on workarounds to reduce
+the impact of attacks that exploit the vulnerability. For more details,
+please check the information provided by Six Apart Ltd..
+
+
+V. References
+    Six Apart Ltd.
+    MOVABLE TYPE 7 r.5003 (v7.8.2), v6.8.3: SECURITY UPDATE
+    https://movabletype.org/news/2021/10/mt-782-683-released.html
+
+    Japan Vulnerability Notes JVN#41119755
+    Movable Type XMLRPC API vulnerable to OS command injection
+    https://jvn.jp/en/jp/JVN41119755/
+
+** Update: December 16, 2021 Update *********************************
+    Six Apart Ltd.
+    Movable Type 7 r.5005 (v7.9.1), v6.8.5: SECURITY UPDATE
+    https://movabletype.org/news/2021/12/mt-791-685-released.html
+*********************************************************************
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2021-10-20 First edition
+2021-11-05 Updated "I. Overview"
+2021-11-09 Updated "I. Overview"
+2021-11-25 Updated "I. Overview", revised information updated on 2021-11-09
+2021-12-16 Updated "I. Overview", "II. Affected Versions", "III. Solution" and "V. References"
+2021-12-17 Updated "I. Overview"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

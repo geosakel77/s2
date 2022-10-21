@@ -1,0 +1,109 @@
+JPCERT-AT-2009-0023
+                                                             JPCERT/CC
+                                                            2009-10-27
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2009-10-27 &gt;&gt;&gt;
+
+     Web sites attempting to infect users with malware increasing
+
+        https://www.jpcert.or.jp/english/at/2009/at090023.txt
+
+I. Overview
+
+  JPCERT/CC has received a sudden increase this week in reports
+regarding web sites serving injected, malicious Javascript code.  So
+far, this specific incident appears to mainly affect Japanese Internet
+users. This bulletin aims to inform users about countermeasures
+against such malicious sites.
+
+  If a web site injected with malicious code is visited, a separate
+web site will attempt to infect the user with malware.  According to
+multiple Japanese PC vendors, a large number of users infected with
+malware have reported not being able to successfully start their
+computers.  This phenomenon is currently thought to have been caused
+by visiting such websites.
+
+  The impact of an infected computer not being able to boot is
+significant.  Accordingly, after checking whether or not the below
+countermeasures have been applied, it is highly recommended that you
+follow these guidelines as a priority if you have not taken these
+precautions.
+
+II. Countermeasures
+
+  JPCERT/CC is currently confirming that this attack is utilizing
+vulnerabilities in Adobe Flash Player, Adobe Acrobat and Adobe Reader
+as reported.  Please update to the latest version of each of these
+software products if installed.
+
+  [Adobe Acrobat, Adobe Reader]
+
+  From the Acrobat or Reader menu, selecting "Help" -&gt; "Check for
+Updates" will allow you to upgrade to the latest version.  If
+upgrading fails for some reason, please install the latest version
+from the following URL:
+
+    Adobe.com - New downloads
+    http://www.adobe.com/support/downloads/new.jsp
+
+  [Adobe Flash Player]
+  Please check whether you're running the latest version of Flash
+Player at the following URL:
+
+    Adobe Flash Player:Version Information
+    http://www.adobe.com/software/flash/about/
+
+  If your installed version of Flash Player is not the latest version,
+please install the latest version from the following URL:
+
+    Adobe Flash Player installation
+    http://get.adobe.com/flashplayer/
+
+  Additionally, the malicious content present on injected sites is
+being changed on a continual basis.  Consequently, attack methods and
+the software targeted also appears to be changing regularly.  For this
+reason, it is recommended that you update your computer's operating
+system and install the latest patches for installed software on a
+regular basis.
+
+    Microsoft Update
+    https://update.microsoft.com/
+
+
+III. Reference
+
+    Kaspersky Labs Japan
+    Gumblar-like, updated threat emerges (Japanese)
+    http://www.kaspersky.co.jp/news?id=207578788
+
+    SecureBrain
+    New, Gumblar-like attack technique confirmed, 1/3 of previously infected websites re-defaced (Japanese)
+    http://www.securebrain.co.jp/about/news/2009/10/gred-gumbler.html
+
+    Microsoft
+    A mouse cursor on a black screen (Win32/Daonol) (Japanese)
+    http://blogs.technet.com/jpsecurity/archive/2009/10/23/3288625.aspx
+
+   Warning regarding computer virus Win32/Daonol (Dell)
+    http://supportapj.dell.com/support/topics/topic.aspx/jp/shared/support/news/2009/20091022
+
+    Apology for call center disruptions due to large number of Win32/Daonol infected customers (Fujitsu) (Japanese)
+    http://azby.fmworld.net/support/info/apology/20091022.html
+
+    Apology for call center disruptions due to large number of Torojan.Win32/Daonol.H infected customers (NEC) (Japanese)
+    http://121ware.com/navigate/support/121cc/info/20091026/
+
+    Trojan.Win32/Daonol.H (Toshiba)
+    http://dynabook.com/assistpc/info/20091022.htm
+
+    Apology for VAIO customer call center congestion (Sony)
+    http://vcl.vaio.sony.co.jp/iforu/hotnews/2009/10/003/
+
+If you have any further questions or information regarding this alert,
+please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

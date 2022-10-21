@@ -1,0 +1,68 @@
+JPCERT-AT-2022-0027
+                                                             JPCERT/CC
+                                                            2022-10-12
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2022-10-12 &gt;&gt;&gt;
+
+Alert Regarding Vulnerabilities in Adobe Acrobat and Reader (APSB22-46)
+
+       https://www.jpcert.or.jp/english/at/2022/at220027.html
+
+
+I. Overview
+Vulnerabilities exist in Adobe Acrobat, a PDF file creation and
+conversion software, and Adobe Acrobat Reader, a PDF file viewing
+software. As a result, an attacker may execute arbitrary code by
+convincing a user to open contents leveraging the vulnerabilities.
+For more information, please refer to the Adobe's website.
+
+    Adobe Incorporated
+    Security update available for Adobe Acrobat and Reader  | APSB22-46
+    https://helpx.adobe.com/security/products/acrobat/apsb22-46.html
+
+
+II. Affected Products
+Affected products and versions are as follows:
+
+  - Adobe Acrobat DC Continuous (22.002.20212) and earlier (Windows, macOS)
+  - Adobe Acrobat Reader DC Continuous (22.002.20212) and earlier (Windows, macOS)
+  - Adobe Acrobat 2020 Classic 2020 (20.005.30381) and earlier (Windows, macOS)
+  - Adobe Acrobat Reader 2020 Classic 2020 (20.005.30381) and earlier (Windows, macOS)
+
+
+III. Solution
+Please update Adobe products to the latest versions listed below. 
+
+  - Adobe Acrobat DC Continuous (22.003.20258) (Windows, macOS)
+  - Adobe Acrobat Reader DC Continuous (22.003.20258) (Windows, macOS)
+  - Adobe Acrobat 2020 Classic 2020 (20.005.30407) (Windows, macOS)
+  - Adobe Acrobat Reader 2020 Classic 2020 (20.005.30407) (Windows, macOS)
+
+Acrobat will be updated by starting the product, selecting the menu
+"Help", and then clicking "Check for Updates". If an update
+from the menu is not available, please download the latest Adobe
+Acrobat and Reader from the following URLs. For more information,
+please refer to the Adobe's website.
+
+    Adobe Incorporated
+    Download Adobe Acrobat Reader DC (Japanese)
+    https://get2.adobe.com/jp/reader/
+
+    Adobe Incorporated
+    Download Acrobat 2020
+    https://helpx.adobe.com/download-install/kb/acrobat-2020-downloads.html
+
+
+IV. References
+    Adobe Incorporated
+    Latest Product Security Updates
+    https://helpx.adobe.com/security.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

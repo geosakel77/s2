@@ -1,0 +1,117 @@
+JPCERT-AT-2021-0019
+                                                             JPCERT/CC
+                                                    2021-04-21(Initial)
+                                                    2021-05-06(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2021-04-21 &gt;&gt;&gt;
+
+Alert Regarding Vulnerability (CVE-2021-22893) in Pulse Connect Secure
+
+        https://www.jpcert.or.jp/english/at/2021/at210019.html
+
+
+I. Overview
+On April 20, 2021 (US Time), Pulse Secure has released advisory
+regarding vulnerability (CVE-2021-22893) in Pulse Connect Secure.
+A remote attacker may bypass authentication and execute arbitrary code
+by leveraging the vulnerability. On the same day, FireEye published a
+blog revealing that it has confirmed attacks that exploit this
+vulnerability and known Pulse Connect Secure vulnerabilities.
+
+As of April 21, 2021, no version or patch that addresses the
+vulnerability has been released. However, since attacks that exploit
+the vulnerability have already been confirmed, users of the affected
+products are recommended to apply workarounds and conduct investigations
+using the Integrity Tool. For more information, please refer to the
+information provided by Pulse Secure.
+
+    Pulse Secure
+    SA44784 - 2021-04: Out-of-Cycle Advisory: Pulse Connect Secure RCE Vulnerability (CVE-2021-22893)
+    https://kb.pulsesecure.net/articles/Pulse_Security_Advisories/SA44784/
+
+    FireEye
+    Check Your Pulse: Suspected APT Actors Leverage Authentication Bypass Techniques and Pulse Secure Zero-Day
+    https://www.fireeye.com/blog/threat-research/2021/04/suspected-apt-actors-leverage-bypass-techniques-pulse-secure-zero-day.html
+
+
+II. Affected Products and Versions
+Affected products and versions are as follows. 
+
+  - Pulse Connect Secure 9.0R3 and Higher
+
+
+III. Solution
+As of April 21, 2021, no version has been released to fix the
+vulnerability. There is information on FireEye's blog and others that
+a patch to fix the vulnerability is expected to be released in early
+May. 
+
+** Update: May 6, 2021 Update ****************************************
+On May 3, 2021 (US time), Pulse Secure released a version that addresses
+the vulnerability. The version includes a fix for three other
+vulnerabilities (CVE-2021-22894, CVE-2021-22899, CVE-2021-22900) in
+addition to CVE-2021-22893. Please consider applying the version by
+referring to the information published by Pulse Secure.
+
+    Pulse Secure
+    Pulse Connect Secure Patch Availability - SA44784
+    https://blog.pulsesecure.net/pulse-connect-secure-patch-availability-sa44784/
+
+If the workaround has already been applied, it is recommended to remove
+the workaround before applying the fixed version. Please refer to the
+Pulse Secure advisory for the detailed procedure and steps.
+**********************************************************************
+
+
+IV. Workarounds
+Until a version that fixes the vulnerability is released, Pulse Secure
+recommends the following workarounds to mitigate the impact of attacks
+that exploit the vulnerability. 
+
+  - Import the Workaround-2104.xml file provided by Pulse Secure
+
+Importing an xml file mitigates the impact of URL-based attacks and
+disables the Windows File Share Browser and Pulse Secure Collaboration.
+After importing, it is recommended to check the settings to see if
+Windows File Browser is disabled. For more information and procedures,
+please refer to the information on the Pulse Secure advisory. 
+
+
+V. Integrity Tool
+Pulse Secure has released the "Pulse Connect Secure Integrity Tool",
+a tool that checks the integrity of the complete file system and finds
+any additional/modified file(s). Please refer to the information provided
+by Pulse Secure for FAQs that summarize how to respond when a threat is
+detected by the tool, and how to install and execute the tool. 
+
+    Pulse Secure
+    KB44755 - Pulse Connect Secure (PCS) Integrity Assurance
+    https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44755
+
+    Pulse Secure
+    KB44764 - Customer FAQ: PCS Security Integrity Tool Enhancements
+    https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44764
+
+
+VI. References
+    CISA
+    CISA Releases Alert on Exploitation of Pulse Connect Secure Vulnerabilities
+    https://us-cert.cisa.gov/ncas/current-activity/2021/04/20/cisa-releases-alert-exploitation-pulse-connect-secure
+
+    CISA
+    CISA Issues Emergency Directive on Pulse Connect Secure
+    https://us-cert.cisa.gov/ncas/current-activity/2021/04/20/cisa-issues-emergency-directive-pulse-connect-secure
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2021-04-21 First edition
+2021-05-06 Updated "III. Solution"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

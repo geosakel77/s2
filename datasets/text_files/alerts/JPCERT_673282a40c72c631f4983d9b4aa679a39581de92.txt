@@ -1,0 +1,68 @@
+JPCERT-AT-2012-0023
+                                                             JPCERT/CC
+                                                            2012-08-15
+
+                   &lt;&lt;&lt; JPCERT/CC Alert 15-08-12 &gt;&gt;&gt;
+
+       Vulnerabilities in Adobe Reader and Acrobat (APSB12-16)
+
+        https://www.jpcert.or.jp/english/at/2012/at120023.html
+
+
+I. Overview
+
+  Multiple vulnerabilities exist in Adobe Acrobat Reader, a PDF file
+viewing software, and Adobe Acrobat, a PDF file creation and
+conversion software. As a result, a remote attacker could terminate
+Adobe Reader and Acrobat or execute arbitrary code by convincing a
+user to open a specially crafted PDF file.
+
+    Adobe Security Bulletins APSB12-16 (English)
+    Security updates available for Adobe Reader and Acrobat
+    http://www.adobe.com/support/security/bulletins/apsb12-16.html
+
+
+II. Products Affected
+
+  Affected products and versions are as follows:
+
+  - Adobe Reader 9.5.1 and earlier
+  - Adobe Reader X (10.1.3) and earlier
+  - Adobe Acrobat 9.5.1 and earlier
+  - Adobe Acrobat X (10.1.3) and earlier
+
+For more information, refer to the Adobe Systems website.
+
+
+III. Solution
+
+  Apply the fixed software provided by Adobe Systems. Adobe Reader and
+
+Acrobat will be updated by starting the products, selecting the menu
+Help (H), and then clicking Check for Updates (U).
+
+  If an update is not possible, download the latest Adobe Reader and
+Acrobat from the following URL:
+
+    Acrobat for Windows
+    http://www.adobe.com/support/downloads/product.jsp?product=1&amp;platform=Windows
+
+    Adobe Reader for Windows
+    http://www.adobe.com/support/downloads/product.jsp?product=10&amp;platform=Windows
+
+
+IV. References
+
+    Adobe Security Bulletins APSB12-16 (English)
+    Security update available for Adobe Reader and Acrobat
+    http://www.adobe.com/support/security/bulletins/apsb12-16.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

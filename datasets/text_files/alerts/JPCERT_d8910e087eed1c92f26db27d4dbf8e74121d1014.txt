@@ -1,0 +1,79 @@
+JPCERT-AT-2021-0010
+                                                             JPCERT/CC
+                                                            2021-02-18
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-02-18 &gt;&gt;&gt;
+
+     Alert Regarding Vulnerability (CVE-2020-8625) in ISC BIND 9
+
+       https://www.jpcert.or.jp/english/at/2021/at210010.html
+
+
+I. Overview
+ISC BIND 9 contains a buffer overflow vulnerability (CVE-2020-8625)
+in SPNEGO implementation. SPNEGO is a negotiation mechanism used by
+GSSAPI, the application protocol interface for GSS-TSIG. A remote
+attacker leveraging this vulnerability may cause Denial of Service
+(DoS) etc.
+
+ISC has rated the vulnerability as "High". For more information on the
+vulnerability, please refer to the information provided by ISC.
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2020-8625: A vulnerability in BIND's GSSAPI security policy negotiation can be targeted by a buffer overflow attack
+    https://kb.isc.org/v1/docs/cve-2020-8625
+
+If you are operating an affected version of ISC BIND 9, please consider
+updating to a version that addresses the vulnerability by referring
+to the information in "III. Solution".
+
+
+II. Affected Products and Versions
+According to ISC, the following versions are affected by the
+vulnerability.
+
+  - BIND 9.16.x versions from 9.16.0 to 9.16.11
+  - BIND 9.11.x versions from 9.11.0 to 9.11.27
+  - BIND 9 Supported Preview Edition from 9.16.8-S1 to 9.16.11-S1
+  - BIND 9 Supported Preview Edition from 9.11.3-S1 to 9.11.27-S1
+
+These versions are vulnerable if the option related to GSS-API
+(tkey-gssapi-keytab or tkey-gssapi-credential) is explicitly specified
+in the configuration.
+Also, ISC BIND 9 versions prior to 9.10.x, versions from 9.12.x to
+9.15.x which are no longer supported, and development branch versions
+9.17.x are also affected by this vulnerability.
+
+If you are using BIND provided by a distributor, please refer to the
+information provided by that distributor.
+
+
+III. Solution
+ISC has released versions of ISC BIND 9 that address the
+vulnerability. Distributors are likely to provide their own versions
+that address the vulnerability. Consider updating to an updated
+version after thorough testing.
+
+  - BIND 9.16.12
+  - BIND 9.11.28
+  - BIND 9 Supported Preview Edition 9.16.12-S1
+  - BIND 9 Supported Preview Edition 9.11.28-S1
+
+
+V. References
+    Japan Registry Services (JPRS)
+    Vulnerability in BIND 9.x (Termination of DNS service/Remote code execution) (CVE-2020-8625) - Only applicable when GSS-TSIG is enabled, recommended to update the version - (Japanese)
+    https://jprs.jp/tech/security/2021-02-18-bind9-vuln-gsstsig.html
+
+    Internet Systems Consortium, Inc. (ISC)
+    BIND 9 Security Vulnerability Matrix
+    https://kb.isc.org/docs/aa-00913
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

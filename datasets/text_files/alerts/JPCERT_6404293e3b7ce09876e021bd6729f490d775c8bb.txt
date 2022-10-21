@@ -1,0 +1,68 @@
+JPCERT-AT-2021-0042
+                                                             JPCERT/CC
+                                                            2021-10-01
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2021-10-01 &gt;&gt;&gt;
+
+Alert Regarding Vulnerability (CVE-2021-20034) in SonicWall SMA 100 Series
+
+       https://www.jpcert.or.jp/english/at/2021/at210042.html
+
+
+I. Overview
+On September 24, 2021 (Local Time), SonicWall released a security
+advisory regarding a vulnerability (CVE-2021-20034) in SMA 100 Series
+Appliances. A remote attacker may delete an arbitrary file leveraging
+the vulnerability, and as a result, it is possible to potentially
+obtain administrator access to the device. For more information,
+please refer to the information provided by SonicWall.
+
+    SonicWall
+    Security Notice: Critical Arbitrary File Delete Vulnerability in SonicWall SMA 100 Series Appliances
+    https://www.sonicwall.com/support/product-notification/security-notice-critical-arbitrary-file-delete-vulnerability-in-sonicwall-sma-100-series-appliances/210819124854603/
+
+The users of the affected products are recommended to promptly check
+the usage status and take measures as soon as possible.
+
+
+II. Affected Products
+Affected products and versions are as follows:
+
+Products
+  - SMA 200
+  - SMA 210
+  - SMA 400
+  - SMA 410
+  - SMA 500v
+
+Versions
+  - 10.2.1.0-17sv and earlier
+  - 10.2.0.7-34sv and earlier
+  - 9.0.0.10-28sv and earlier
+
+
+III. Solution
+Please consider updating the products to the versions listed below. 
+
+  - 10.2.1.1-19sv
+  - 10.2.0.8-37sv
+  - 9.0.0.11-31sv
+
+
+IV. References
+    SonicWall
+    Unauthenticated SMA100 arbitrary file delete vulnerability
+    https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0021
+
+    SonicWall
+    How To Upgrade Firmware On SMA 100 Series Appliances
+    https://www.sonicwall.com/support/knowledge-base/how-to-upgrade-firmware-on-sma-100-series-appliances/170502339501169/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

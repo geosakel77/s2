@@ -1,0 +1,109 @@
+JPCERT-AT-2016-0017
+                                                            JPCERT/CC
+                                                           2016-04-13
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2016-04-13 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for April 2016
+                 (including 6 critical patches)
+
+      https://www.jpcert.or.jp/english/at/2016/at160017.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for April, 2016.
+This bulletin contains six (6) updates that are rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for April 2016
+    https://technet.microsoft.com/en-us/library/security/ms16-apr
+
+  [Security updates rated as "critical"]
+
+    MS16-037
+    Cumulative Security Update for Internet Explorer (3148531)
+    https://technet.microsoft.com/en-us/library/security/MS16-037
+
+    MS16-038
+    Cumulative Security Update for Microsoft Edge (3148532)
+    https://technet.microsoft.com/en-us/library/security/MS16-038
+
+    MS16-039
+    Security Update for Microsoft Graphics Component (3148522)
+    https://technet.microsoft.com/en-us/library/security/MS16-039
+
+    MS16-040
+    Security Update for Microsoft XML Core Services (3148541)
+    https://technet.microsoft.com/en-us/library/security/MS16-040
+
+    MS16-042
+    Security Update for Microsoft Office (3148775)
+    https://technet.microsoft.com/en-us/library/security/MS16-042
+
+    MS16-050
+    Security Update for Adobe Flash Player (3154132)
+    https://technet.microsoft.com/en-us/library/security/MS16-050
+
+
+  These updates include fixes for a vulnerability named "Badlock" in 
+MS16-047. In addition, fixes for a vulnerability described in 
+APSB16-10 published by Adobe Systems Inc. on April 7th, 2016 (local
+time) are also included.
+
+  According to Microsoft, attacks leveraging MS16-039 have been 
+observed in the wild.
+
+  Please apply the security update programs as soon as possible.
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for April 2016
+    https://technet.microsoft.com/en-us/library/security/ms16-apr
+
+    Microsoft
+    Microsoft Security Information for April 2016 (Monthly) - MS16-037 - MS16-042, MS16-044 - MS16-050(Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2016/04/13/201604-security-bulletin/
+
+    SerNet
+    Badlock Bug
+    http://badlock.org/
+
+    Vulnerability Note VU#813296
+    Microsoft Windows and Samba may allow spoofing of authenticated users ("Badlock")
+    https://www.kb.cert.org/vuls/id/813296
+
+    Adobe Systems
+    Security updates available for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsb16-10.html
+
+    JPCERT/CC
+    Vulnerabilities in Adobe Flash Player (APSB16-10)
+    https://www.jpcert.or.jp/english/at/2016/at160016.html
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

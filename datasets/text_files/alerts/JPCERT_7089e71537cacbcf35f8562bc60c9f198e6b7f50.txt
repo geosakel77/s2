@@ -1,0 +1,70 @@
+JPCERT-AT-2007-0019
+                                                             JPCERT/CC
+                                                       August 23, 2007
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2007-08-23 &gt;&gt;&gt;
+
+              Increased activity targeting TCP port 5168
+
+             http://www.jpcert.or.jp/at/2007/at070019.txt
+
+I. Overview
+
+  Using using the Internet Scan Data Acquisition System (ISDAS), 
+JPCERT/CC observed that there has been an increase in scans of TCP
+port 5168 since August 22, 2007. Although the cause of this increase
+in scans is not known, there is a possibility that they are attacks
+targeting the vulnerabilities in ServerProtect from Trend Micro, for
+which a Security Patch has recently been released.
+
+
+II. Situation Observed
+
+  For the situation of TCP port 5168 scans observed by the ISDAS,
+see the following website:
+
+    ISDAS TCP port 5168 graph (August 22 - 23, 2007)
+    http://www.jpcert.or.jp/isdas/2007/20070822-0823_5168_port.png
+
+
+III. Solution
+
+  Users of services provided through TCP port 5168 are advised to
+implement the following measures:
+
+   1) Users of Trend Micro ServerProtect for Windows/NetWare 5.x
+      should apply the Security Patch by referring to "IV. Reference
+      Information."
+
+   2) To prevent secondary damage, limit the outbound packet traffic
+      to TCP port 5168 in case you are infected with a virus.
+
+
+IV. Reference Information
+
+    Japan Vulnerability Notes JVNVU#329735
+    Buffer Overflow Vulnerabilities in Trend Micro ServerProtect
+    http://jvn.jp/cert/JVNVU%23329735/index.html
+
+    Announcement of the release of Security Patch 2(Build_1185) for 
+      ServerProtect for Windows/NetWare
+    http://www.trendmicro.co.jp/support/news.asp?id=1002
+
+    Application of Security Patch 2(Build_1185) for ServerProtect for
+      Windows/NetWare
+    http://www.trendmicro.co.jp/support/news.asp?id=1003
+
+    Multiple Vulnerabilities in Trend Micro Products
+    http://www.us-cert.gov/current/archive/2007/08/22/archive.html#multiple_vulnerabilities_in_trend_micro
+
+    Internet Scan Data Acquisition System (ISDAS)
+    http://www.jpcert.or.jp/isdas/
+
+
+  If you have any information regarding this matter, please contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

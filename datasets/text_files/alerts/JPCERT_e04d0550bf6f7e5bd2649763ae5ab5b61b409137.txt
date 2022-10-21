@@ -1,0 +1,95 @@
+JPCERT-AT-2021-0028
+                                                             JPCERT/CC
+                                                            2021-06-15
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2021-06-15 &gt;&gt;&gt;
+
+Alert Regarding Cross Site Scripting Vulnerabilities in Multiple EC-CUBE 3.0 Series Plugins
+
+        https://www.jpcert.or.jp/english/at/2021/at210028.html
+
+
+I. Overview
+JPCERT/CC has confirmed information regarding vulnerabilities in
+multiple EC-CUBE 3.0 series plugins. These products contain cross site
+scripting vulnerabilities, and by leveraging these vulnerabilities,
+a remote attacker may execute arbitrary script on the site administrator's
+web browser or users' web browser. For more information, please refer
+to the information provided by developer.
+In addition, JPCERT/CC has confirmed the attacks that exploit the
+vulnerability (CVE-2021-20735). Users of the affected products are
+recommended to update to the latest version as soon as possible. 
+
+    ETUNA (CVE-2021-20735)
+    Request for response to vulnerability in Delivery slip number plugin (3.0 series) (2021/06/11) (Japanese)
+    https://www.ec-cube.net/release/detail.php?release_id=5088
+
+    Request for response to vulnerability in Delivery slip number csv bulk registration plugin (3.0 series) (2021/06/11) (Japanese)
+    https://www.ec-cube.net/release/detail.php?release_id=5087
+
+    Request for response to vulnerability in Delivery slip number mail plugin (3.0 series) (2021/06/11) (Japanese)
+    https://www.ec-cube.net/release/detail.php?release_id=5089
+
+    EC-CUBE CO.,LTD. (CVE-2021-20742, CVE-2021-20743, CVE-2021-20744)
+    Business form output plugin version 1.0.1 has been released (2021/06/14) (Japanese)
+    https://www.ec-cube.net/release/detail.php?release_id=5091
+
+    Email newsletters management plugin version 1.0.4 has been released (2021/06/14) (Japanese)
+    https://www.ec-cube.net/release/detail.php?release_id=5090
+
+    Category contents plugin version 1.0.1 has been released (2021/06/14) (Japanese)
+    https://www.ec-cube.net/release/detail.php?release_id=5092
+
+
+II. Affected Products and Versions
+Affected products and versions are the following EC-CUBE 3.0 series
+plugins. 
+
+ETUNA (CVE-2021-20735)
+  - Delivery slip number plugin (3.0 series) 1.0.10 and earlier
+  - Delivery slip number csv bulk registration plugin (3.0 series) 1.0.8 and earlier
+  - Delivery slip number mail plugin (3.0 series) 1.0.8 and earlier
+
+EC-CUBE CO.,LTD.
+  - Business form output plugin versions prior to version 1.0.1 - CVE-2021-20742
+  - Email newsletters management plugin versions prior to version 1.0.4 - CVE-2021-20743
+  - Category contents plugin versions prior to version 1.0.1 - CVE-2021-20744
+
+According to the EC-CUBE CO.,LTD., the vulnerabilities (CVE-2021-20742,
+CVE-2021-20743, CVE-2021-20744) exist only in EC-CUBE 3.0.0 to 3.0.8
+environments, EC-CUBE versions 3.0.9 and later are not affected.
+
+
+III. Solution
+Developers released versions that address these vulnerabilities.
+Please consider applying the latest version by referring to the
+information published by each developer.
+
+ETUNA
+  - Delivery slip number plugin (3.0 series) version 1.0.11 or later
+  - Delivery slip number csv bulk registration plugin (3.0 series) version 1.0.9 or later
+  - Delivery slip number mail plugin (3.0 series) version 1.0.9 or later
+
+EC-CUBE CO.,LTD.
+  - Business form output plugin version 1.0.1
+  - Email newsletters management plugin version 1.0.4
+  - Category contents plugin version 1.0.1
+
+
+IV. References
+    Japan Vulnerability Notes JVN#79254445
+    Multiple ETUNA EC-CUBE plugins vulnerable to cross-site scripting
+    https://jvn.jp/en/jp/JVN79254445/
+
+    Japan Vulnerability Notes JVN#57524494
+    Multiple cross-site scripting vulnerabilities in multiple EC-CUBE plugins provided by EC-CUBE
+    https://jvn.jp/en/jp/JVN57524494/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

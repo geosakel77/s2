@@ -1,0 +1,86 @@
+JPCERT-AT-2012-0003
+                                                             JPCERT/CC
+                                                            2012-01-11
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 11.01.12 &gt;&gt;&gt;
+
+             Vulnerabilities in Adobe Reader and Acrobat
+
+            https://www.jpcert.or.jp/at/2012/at120003.html
+
+
+I. Overview
+
+  Multiple vulnerabilities exist in Adobe Acrobat Reader, a PDF file 
+viewing software, and Adobe Acrobat, a PDF file creation and 
+conversion software. As a result, a remote attacker could terminate 
+Adobe Reader and Acrobat or execute arbitrary code by convincing a 
+user to open a specially crafted PDF file. 
+
+    Adobe Security Bulletins APSB12-01
+    Security updates available for Adobe Reader and Acrobat
+    http://www.adobe.com/support/security/bulletins/apsb12-01.html
+
+  The security update provided includes fixes for Adobe Reader X and 
+Acrobat X which were not included in APSB11-28 and APSB11-30. For more
+information, refer to the following websites:
+
+    Adobe Security Bulletins APSB11-28 (Release date: November 10, 2011)
+    Security update available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb11-28.html
+
+    Adobe Security Bulletins APSB11-30 (Release date: December 16, 2011)
+    Security updates available for Adobe Reader and Acrobat 9.x for Windows 
+    http://kb2.adobe.com/jp/cps/927/cpsid_92703.html
+    http://www.adobe.com/support/security/bulletins/apsb11-30.html
+
+
+II. Products Affected
+
+  Affected products and versions are as follows:
+
+  - Adobe Reader 9.4.7 and earlier
+  - Adobe Reader X (10.1.1) and earlier
+  - Adobe Acrobat 9.4.7 and earlier
+  - Adobe Acrobat X (10.1.1) and earlier
+
+For more information, refer to Adobe Systems' website.
+
+
+III. Solution
+
+  Apply the corrected software provided by Adobe Systems. Adobe Reader
+and Acrobat will be updated by starting the products, selecting the 
+menu Help (H), and then clicking Check for Updates (U).
+
+  If update is not possible, download the latest Adobe Reader and 
+Acrobat from the following URL:
+
+    Adobe.com - New downloads
+    http://www.adobe.com/support/downloads/new.jsp
+
+  For more information, refer to Adobe Systems' website.
+
+
+IV. References
+
+    Adobe Security Bulletins APSB12-01
+    Security updates available for Adobe Reader and Acrobat
+    http://www.adobe.com/support/security/bulletins/apsb12-01.html
+
+    JPCERT-AT-2011-0030
+    Vulnerabilities in Adobe Flash Player
+    https://www.jpcert.or.jp/at/2011/at110030.html
+
+    JPCERT-AT-2011-0034
+    Vulnerabilities in Adobe Reader and Acrobat   
+    https://www.jpcert.or.jp/at/2011/at110034.html
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

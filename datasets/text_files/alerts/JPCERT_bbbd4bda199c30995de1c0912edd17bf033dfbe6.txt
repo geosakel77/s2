@@ -1,0 +1,126 @@
+JPCERT-AT-2016-0043
+                                                             JPCERT/CC
+                                                    2016-10-27(Initial)
+                                                    2016-10-28(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-10-27 &gt;&gt;&gt;
+
+           Vulnerability in Adobe Flash Player (APSB16-36)
+
+       https://www.jpcert.or.jp/english/at/2016/at160043.html
+
+
+I. Overview
+  
+ Adobe Systems has released a security update to address a vulnerability
+in Adobe Flash Player (APSB16-36).
+ A remote attacker may cause Adobe Flash Player to crash or execute
+arbitrary code by convincing a user to open specially crafted contents
+leveraging this vulnerability. For more information on the vulnerability,
+please refer to the information provided by Adobe Systems.
+
+    Security Updates Available for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsb16-36.html
+
+  According to Adobe Systems, Adobe is aware of a report that an
+exploit for this vulnerability (CVE-2016-7855) exists in the wild, and is
+being used in limited, targeted attacks against users running Windows
+versions 7, 8.1 and 10.
+
+** Update: Oct 28, 2016 Update ***************************************
+  On Oct 28, 2016 (local time), Microsoft released Adobe Flash Player
+Update. Please update to the latest version as soon as possible.
+**********************************************************************
+
+
+II. Affected Products
+
+  The following versions are affected by these vulnerabilities:
+
+  - Adobe Flash Player Desktop Runtime (23.0.0.185) and earlier
+    (Internet Explorer, Mozilla Firefox, Safari etc.)
+  - Adobe Flash Player for Google Chrome (23.0.0.185) and earlier
+  - Adobe Flash Player for Microsoft Edge and Internet Explorer 11 (23.0.0.185) and earlier
+    (Windows 10 and Windows 8.1)
+
+
+III. Solution
+
+  Please update Adobe Flash Player to the latest version listed below:
+Please be aware of information provided by any distributors that
+include Adobe Flash Player in their products such as web browsers.
+
+  - Adobe Flash Player Desktop Runtime (23.0.0.205)
+    (Internet Explorer, Mozilla Firefox, Safari etc.)
+  - Adobe Flash Player for Google Chrome (23.0.0.205)
+
+** Update: Oct 28, 2016 Update ***************************************
+  On Oct 28, 2016 (local time), Microsoft released Adobe Flash Player
+Update for Internet Explorer and Microsoft Edge. Please update to the
+latest version by using Windows update, and so on.
+
+  - Adobe Flash Player for Microsoft Edge and Internet Explorer 11 (23.0.0.205) 
+    (Windows 10 and Windows 8.1)
+**********************************************************************
+
+    Adobe Flash Player Download Center
+    https://get.adobe.com/flashplayer/
+
+  Users can check the version of Adobe Flash Player that they are
+using at the following link:
+
+    Adobe Flash Player:Version Information
+    https://www.adobe.com/software/flash/about/
+
+  * Even if you use a web browser other than Internet Explorer, there
+    is software that uses Adobe Flash Player installed for Internet
+    Explorer, such as Microsoft Office, so please update Adobe Flash
+    Player for Internet Explorer.
+
+
+IV. Workaround
+
+  As a temporary countermeasure until security updates can be applied,
+please consider the following workaround to mitigate impacts of the
+vulnerability. Applying these countermeasures may affect other
+applications. Please carefully consider and test any side effects
+prior to applying any of the workaround.
+
+    - Limit the Flash content
+      Please disable Flash on your browser or enable Click-to-Play
+      features.
+
+    - Open the security tab on "Internet Options" in Internet Explorer
+      and change the security level to "High" for the Internet zone
+      and local intranet zone.
+
+
+V. References
+
+    Adobe Systems
+    Security updates available for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsb16-36.html
+
+    Adobe Systems
+    Security updates available for Adobe Flash Player (APSB16-36)
+    http://blogs.adobe.com/psirt/?p=1416
+
+** Update: Oct 28, 2016 Update ***************************************
+    Microsoft Security Bulletin MS16-128 - Critical
+    Security Update for Adobe Flash Player (3201860)
+    https://technet.microsoft.com/en-us/library/security/ms16-128.aspx
+**********************************************************************
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2016-10-27 First edition
+2016-10-28 Updated "I. Overview", "II. Affected Products", "III. Solution" and "V. References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

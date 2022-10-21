@@ -1,0 +1,69 @@
+JPCERT-AT-2011-0005
+                                                             JPCERT/CC
+                                                            2011-02-09
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 09.02.11 &gt;&gt;&gt;
+
+                Vulnerabilities in Adobe Flash Player
+
+            https://www.jpcert.or.jp/at/2011/at110005.txt
+
+
+I. Overview
+
+  Adobe Flash Player contains multiple vulnerabilities. As a result,
+a remote attacker could execute arbitrary code by convincing a user to
+open specially crafted contents. Users are recommended to update to 
+the corrected software provided by Adobe Systems. JPCERT/CC has not
+confirmed attacks exploiting these vulnerabilities. 
+
+    Adobe Security bulletin APSB11-02
+    Security update available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb11-02.html
+
+
+II. Products Affected
+
+  Affected products and versions are as follows:
+
+  - Adobe Flash Player 10.1.102.64 and earlier
+
+For more information, refer to Adobe website.
+
+
+III. Solution
+
+  Update Adobe Flash Player to the following latest version. For more
+information, refer to Adobe website.
+
+    Adobe Flash Player Download Center
+    http://get.adobe.com/jp/flashplayer/
+    http://get.adobe.com/flashplayer/
+
+  The Adobe Flash Player version number installed on your PC can be
+verified through the following page:
+
+    Adobe Flash Player: Version Information
+    http://www.adobe.com/jp/software/flash/about/
+    http://www.adobe.com/products/flash/about/
+
+
+IV. References
+
+    Adobe Security Bulletins APSB11-02
+    Security update available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb11-02.html
+
+    Adobe Security Bulletins APSB11-03
+    Security updates available for Adobe Reader and Acrobat
+    http://www.adobe.com/support/security/bulletins/apsb11-03.html
+
+
+  If you have any further questions or information regarding this
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

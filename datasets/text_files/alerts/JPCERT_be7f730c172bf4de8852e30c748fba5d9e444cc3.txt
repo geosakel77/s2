@@ -1,0 +1,117 @@
+JPCERT-AT-2017-0025
+                                                             JPCERT/CC
+                                                    2017-07-10(Initial)
+                                                    2017-07-11(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-07-10 &gt;&gt;&gt;
+
+       Alert Regarding Vulnerability in Apache Struts 2 (S2-048)
+
+        https://www.jpcert.or.jp/english/at/2017/at170025.html
+
+
+I. Overview
+On July 7, 2017 (US time), Apache Software Foundation released the
+information (S2-048) about a vulnerability of Apache Struts 2
+(CVE-2017-9791). If input values are not properly processed in the
+Struts application using Struts 1 Plugin in 2.3 series of Apache
+Struts 2, the system is affected by this vulnerability. When this
+vulnerability is exploited, remote attackers may be able to execute
+arbitrary code on the server running Apache Struts 2.
+
+For more details on the vulnerability, please refer to the information
+provided by Apache Software Foundation.
+
+    Apache Struts 2 Documentation
+    S2-048 : Possible RCE in the Struts Showcase app in the Struts 1 plugin example in Struts 2.3.x series
+    https://struts.apache.org/docs/s2-048.html
+
+In addition, it is pointed out that the Struts application included in
+showcase, which is a sample application of 2.3 series of Apache Struts 2,
+is affected by this vulnerability. The proof of concept of this
+vulnerability is already in the wild, and through testing, JPCERT/CC
+confirmed that arbitrary code can be remotely executed on a server
+using Apache Struts 2 (2.3.32).
+
+If you are using the affected version of Apache Struts 2 and also
+running the Struts application using the Struts 1 Plugin, we recommend
+correcting the process of input values appropriately by referring to
+"III. Workaround".
+
+
+II. Affected Systems
+The following versions are affected by this vulnerability:
+
+  - Apache Struts 2
+    - versions 2.3.x
+
+This vulnerability may be affected if Struts application is using
+Struts 1 Plugin. For more details on this vulnerability on Struts
+application, please refer to the information from Struts application
+developer.
+
+
+III. Workaround
+Apache Software Foundation has released the following workaround to
+handle input values appropriately.
+
+** Update: July 11, 2017 Update *************************************
+As a method to modify the Struts application in showcase, the usage
+of resource key in the process of using ActionMessage class is shown
+as a workaround.
+
+* Example of workaround for sample Struts application in showcase
+   (before applying)
+    messages.add("msg", new ActionMessage("Gangster " + gform.getName() + " added successfully"))
+   (after applying)
+    messages.add("msg", new ActionMessage("struts1.gangsterAdded", gform.getName()));
+*********************************************************************
+
+JPCERT/CC has confirmed that by applying this workaround, proof of
+concept will not be exploited against this vulnerability. 
+If it is difficult to apply the workaround, please consider restricting
+access from the Internet, and consider taking measures such as using
+WAF (Web Application Firewall).
+
+
+IV. References
+    Apache Struts 2 Documentation
+    S2-048 : Possible RCE in the Struts Showcase app in the Struts 1 plugin example in Struts 2.3.x series
+    https://struts.apache.org/docs/s2-048.html
+
+    Apache Struts 2 Documentation
+    Struts 1 Plugin
+    https://struts.apache.org/docs/struts-1-plugin.html
+
+    JPCERT/CC
+    Java application vulnerability case example document (Japanese)
+    https://www.jpcert.or.jp/securecoding/materials-java-casestudies.html
+
+    JPCERT/CC
+    Java Secure Coding Seminar Documents (Japanese)
+    https://www.jpcert.or.jp/securecoding/materials-java.html
+
+    JPCERT/CC
+    CERT Oracle Secure Coding Standard for Java (Japanese)
+    https://www.jpcert.or.jp/java-rules/
+
+** Update: July 11, 2017 Update *************************************
+    JVNVU#99376481
+    Apache Struts 2 application using Struts 1 Plugin contain a vulnerability that can execute arbitrary code
+    https://jvn.jp/vu/JVNVU99376481/index.html
+*********************************************************************
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2017-07-10 First edition
+2017-07-11 Updated "III. Workaround" and "IV. References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

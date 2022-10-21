@@ -1,0 +1,111 @@
+JPCERT-AT-2016-0015
+                                                            JPCERT/CC
+                                                           2016-03-24
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-03-24 &gt;&gt;&gt;
+
+       Alert on Vulnerability in Oracle Java SE (CVE-2016-0636)
+
+        https://www.jpcert.or.jp/english/at/2016/at160015.html
+
+
+I. Overview
+
+  Java SE JDK and JRE provided by Oracle contain a vulnerability.
+A remote attacker may cause Java to execute arbitrary code by convincing
+a user to open contents leveraging the vulnerability. For more information
+on the vulnerability, please refer to the information provided by Oracle:
+
+    Oracle Security Alert for CVE-2016-0636
+    http://www.oracle.com/technetwork/topics/security/alert-cve-2016-0636-2949497.html
+
+  It is recommended to update the software to the latest version provided 
+  by Oracle.
+
+
+II. Affected Products
+
+  The following products and versions are affected by this vulnerability:
+
+  - Java SE JDK/JRE 8 Update 74 and earlier
+
+  According to Oracle, Java SE JDK / JRE 7, which are no
+longer supported, are also affected by this vulnerability.
+
+
+III. Solution
+
+  Oracle has released an update. Please update the software to the 
+latest version. According to Oracle, arbitrary code may be executed
+by convincing a user to open untrusted contents leveraging the
+vulnerability.
+
+  - Java SE JDK/JRE 8 Update 77
+
+    Java SE Downloads
+    http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+    Free Java Download
+    https://java.com/en/download/
+
+  Users of 64-bit Windows may have 32-bit and/or 64-bit
+versions of JDK/JRE installed. Please check the versions installed on
+your system and apply the appropriate updates.
+
+  Users can check the version of Java that they are using at the page
+below. If both 32-bit and 64-bit versions of Java are installed,
+please check the versions installed, using a 32-bit and 64-bit browser
+respectively. (In environments where Java is not installed, there may
+be a request to install Java. If you do not require Java, please do
+not install.)
+
+    Verify Java and Find Out-of-Date Versions
+    https://www.java.com/en/download/installed.jsp
+
+  * Some applications that use Java may not run properly after updating
+    Java to the latest version. Please update the software to the latest version
+    after considering any possible impacts to applications that you may
+    use.
+
+  * PCs provided by some certain manufacturers may have JRE pre-installed.
+    Please check the PC that you are using for any installed versions
+    of JRE.
+
+  * With the critical patch updates in April 2015, the official
+    update of Java SE JDK / JRE 7 was terminated. It is recommended
+    that you consider the transition to Java SE JDK / JRE 8.
+
+    Java SE 7 End of Public Updates Notice
+    https://www.java.com/en/download/faq/java_7.xml
+
+
+IV. References
+
+    Oracle
+    Oracle Security Alert for CVE-2016-0636
+    http://www.oracle.com/technetwork/topics/security/alert-cve-2016-0636-2949497.html
+
+    Oracle
+    8u77 Update Release Notes
+    http://www.oracle.com/technetwork/java/javase/8u77-relnotes-2944725.html
+
+    Oracle
+    Release Notes for JDK 8 and JDK 8 Update Releases
+    http://www.oracle.com/technetwork/java/javase/8all-relnotes-2226344.html
+
+    Oracle
+    Oracle Java SE Support Roadmap
+    http://www.oracle.com/technetwork/jp/java/eol-135779.html
+
+    Oracle
+    How do I control when an untrusted applet or application runs in my web browser?
+    https://www.java.com/en/download/help/jcp_security.xml
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

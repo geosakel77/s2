@@ -1,0 +1,168 @@
+JPCERT-AT-2021-0006
+                                                             JPCERT/CC
+                                                    2021-02-04(Initial)
+                                                    2021-02-22(Update)
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-02-04 &gt;&gt;&gt;
+
+Alert Regarding Vulnerability in SonicWall SMA 100 Series (CVE-2021-20016)
+
+       https://www.jpcert.or.jp/english/at/2021/at200006.html
+
+
+I. Overview
+On February 3, 2021 (Local Time), SonicWall has released information
+regarding a vulnerability (CVE-2021-20016) in its SMA 100 series.
+A remote attacker leveraging this vulnerability may gain admin
+credential access. For more information on the vulnerability, please
+refer to the information provided by SonicWall.
+
+    SonicWall
+    Confirmed Zero-day vulnerability in the SonicWall SMA100 build version 10.x
+    https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0001
+
+On January 22, 2021, the company announced that it had identified a
+coordinated attack exploiting probable zero-day vulnerabilities, and
+other information of vulnerability being exploited has been reported.
+Attackers may exploit the vulnerability and then perform further
+attacks once getting into victim network, which may lead to further
+damage.
+
+Users of the products that are affected by this vulnerability are
+recommended to check the information and take measures such as applying
+countermeasures or workarounds as soon as possible.
+
+
+II. Affected Products
+Affected products and versions are as follows:
+
+  The following SMA 100 series products running on firmware version 10.x
+  - SMA 200
+  - SMA 210
+  - SMA 400
+  - SMA 410
+  - SMA 500v
+
+According to SonicWall, firmware versions prior to 10.x are not
+affected by this vulnerability.
+
+
+III. Solution
+SonicWall has released the version that addresses this vulnerability.
+Please update to the version by referring to the information provided
+by SonicWall.
+
+  - 10.2.0.5-d-29sv
+
+According to SonicWall, SMA 500v base image for Hyper-V, ESXi, Azure,
+AWS will be available shortly. Also, vulnerable virtual SMA 100 series
+10.x images have been pulled from AWS and Azure marketplaces and
+updated images will be re-submitted as soon as possible.
+
+Also, due to the potential credential exposure, users are also
+recommended to apply the following measures as well as updating the
+version:
+
+  - Reset the passwords for any users who may have logged in to the device via the web interface.
+  - Enable multifactor authentication (MFA) as a safety measure.
+
+** Update: February 22, 2021 Update **********************************
+On February 19, 2021 (local time), SonicWall announced the release of
+the following new firmware versions for firmware 9 and 10 for SMA 100
+series products.
+
+  - 10.2.0.6-32sv for the firmware version 10.x
+  - 9.0.0.10-28sv for the firmware version 9.x
+
+SonicWall recommends users to upgrade immediately even if the fixed
+version (10.2.0.5-d-29sv) that addressed this vulnerability has been
+applied. Detailed relationship between the update and the vulnerability
+has not been revealed. Please refer to the information provided by
+SonicWall for details.
+
+    SonicWall
+    Additional SMA 100 Series 10.x and 9.x Firmware Updates Required [Updated Feb. 19, 2 P.M. CST]
+    https://www.sonicwall.com/support/product-notification/additional-sma-100-series-10-x-and-9-x-firmware-updates-required-updated-feb-19-2-p-m-cst/210122173415410/
+**********************************************************************
+
+
+IV. Workarounds
+Enabling MFA (multi-factor authentication) and resetting passwords as
+described above are listed as workarounds.
+
+In addition, SonicWall says enabling the built-in Web Application
+Firewall (WAF) function can also mitigate the vulnerability. According
+to SonicWall, 60 complimentary days of WAF enablement are added to all
+registered SMA 100 series devices with 10.x code to enable this
+mitigation technique. 
+
+    SonicWall
+    How to Configure Web Application Firewall (WAF) on the SMA 100 Series?
+    https://www.sonicwall.com/support/knowledge-base/210202202221923/
+
+
+V. Investigation for compromise
+
+** Update: February 8, 2021 Update ***********************************
+On January 31, 2021 (local time), Rich Warren, who belongs to the NCC
+Group which had discovered this vulnerability, released IOC information
+to help with compromise investigation.
+
+1. Authentication bypass for access to the management interface
+
+Look for the access log for a request to '/cgi-bin/management' that do
+not have a preliminary successful request to '/__api__/v1/logon' or
+'/__api__/v1/logon/
+<id>
+ /authenticate'. If these requests do exist, then
+it could indicate an authentication bypass to the management interface.
+
+2. Authentication bypass for access to the user interface
+
+Look for the access log for requests to '/cgi-bin/sslvpnclient' or
+'/cgi-bin/portal' that do not have a preliminary successful request to
+'/cgi-bin/userLogin', '/__api__/v1/login', or
+'/__api__/v1/logon/
+ <id>
+  /authenticate'. If such requests do exist,
+then it could indicate a user-level authentication bypass.
+
+    Rich Warren@buffaloverflow
+    https://twitter.com/buffaloverflow/status/1355874671347044354
+    https://twitter.com/buffaloverflow/status/1355876985726242819
+
+    Bleeping Computer
+    SonicWall fixes actively exploited SMA 100 zero-day vulnerability
+    https://www.bleepingcomputer.com/news/security/sonicwall-fixes-actively-exploited-sma-100-zero-day-vulnerability/
+**********************************************************************
+
+
+VI. References
+    SonicWall
+    SonicWall Publishes Critical Patch for SMA 100 Series 10.X Zero-Day Vulnerability
+    https://www.sonicwall.com/blog/2021/01/sonicwall-identifies-coordinated-attack-on-netextender-vpn-client-version-10-and-sma-100-series/
+
+    SonicWall
+    Urgent Patch Available for SMA 100 Series 10.x Firmware Zero-Day Vulnerability [Updated Feb. 3, 2 P.M. CST]
+    https://www.sonicwall.com/support/product-notification/urgent-security-notice-probable-sma-100-series-vulnerability-updated-jan-25-2021/210122173415410/
+
+    SonicWall
+    SonicWall SMA 100 Series Security Best Practice Guide
+    https://www.sonicwall.com/techdocs/pdf/SMA-100-Series-Security-Best-Practices-Guide.pdf
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2021-02-04 First edition
+2021-02-08 Added "V. Investigation for compromise"
+2021-02-22 Updated "III. Solution"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/
+ </id>
+</id>

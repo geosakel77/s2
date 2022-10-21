@@ -1,0 +1,85 @@
+JPCERT-AT-2019-0020
+                                                             JPCERT/CC
+                                                            2019-04-28
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-04-28 &gt;&gt;&gt;
+
+Alert Regarding Vulnerability (CVE-2019-2725) in Oracle WebLogic Server
+
+        https://www.jpcert.or.jp/english/at/2019/at190020.html
+
+
+I. Overview
+On April 26, 2019 (local time), Oracle released a security advisory
+regarding vulnerability (CVE-2019-2725) in Oracle WebLogic Server.
+According to the advisory, Oracle WebLogic Server contains
+a deserialization vulnerability. A remote attacker leveraging this
+vulnerability may execute arbitrary code. 
+
+    Oracle
+    Oracle Security Alert Advisory - CVE-2019-2725
+    https://www.oracle.com/technetwork/security-advisory/alert-cve-2019-2725-5466295.html
+
+In addition, According to KnownSec 404 Team, one of the reporters,
+the vulnerability "CVE-2019-2725" is identical to "CNVD-C-2019-48814".
+
+    JPCERT/CC
+    Regarding Vulnerability (CNVD-C-2019-48814) in Oracle WebLogic Server
+    https://www.jpcert.or.jp/newsflash/2019042601.html
+
+Proof-of-Concept code for this vulnerability (CNVD-C-2019-48814) has
+been made public, and JPCERT/CC has verified that this code can be used
+for exploitation. Users of affected versions are recommended to update
+as soon as possible by referring to the information in "III. Solution".
+
+
+II. Affected Products
+The following versions are affected by this vulnerability.
+
+  - Oracle WebLogic Server 12.1.3.0
+  - Oracle WebLogic Server 10.3.6.0
+
+
+III. Solution
+Oracle has released patch for Oracle WebLogic Server that addresses
+this vulnerability. It is recommended to apply the patch as soon as
+possible.
+
+  - Oracle WebLogic Server 12.1.3.0 *
+  - Oracle WebLogic Server 10.3.6.0 *
+
+* As of April 27, the details of patch information cannot be confirmed
+in public. For more detail of the vulnerability, please contact with
+Oracle.
+
+Some applications that use affected products may not run properly after
+applying patch. Please apply the patch after considering any possible
+impacts to applications that you may use.
+
+
+IV. References
+    Oracle
+    Oracle Security Alert Advisory - CVE-2019-2725
+    https://www.oracle.com/technetwork/security-advisory/alert-cve-2019-2725-5466295.html
+
+    Oracle
+    Security Alert CVE-2019-2725 Released
+    https://blogs.oracle.com/security/security-alert-cve-2019-2725-released
+    
+    Oracle
+    Lifetime Support Stages for Your Oracle Products
+    https://www.oracle.com/support/lifetime-support/
+    
+    JPCERT/CC
+    Regarding Vulnerability (CNVD-C-2019-48814) in Oracle WebLogic Server
+    https://www.jpcert.or.jp/newsflash/2019042601.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-6271-8901  FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

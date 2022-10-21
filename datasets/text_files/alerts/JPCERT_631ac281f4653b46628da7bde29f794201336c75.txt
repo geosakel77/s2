@@ -1,0 +1,130 @@
+JPCERT-AT-2011-0031
+                                                             JPCERT/CC
+                                            2011-11-17 (First edition)
+                                                  2011-11-25 (Updated)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 17.11.11 &gt;&gt;&gt;
+
+                     ISC BIND 9 DoS Vulnerability
+
+            https://www.jpcert.or.jp/at/2011/at110031.txt
+
+I. Overview
+
+  ISC BIND 9 cache DNS servers contain a vulnerability that can be 
+used in denial of service (DoS) attacks. As a result, it is possible 
+for remote attackers to have specially crafted records cached in DNS 
+servers using BIND 9, and carry out a denial of service (DoS) attack 
+by having those records requested.
+  According to ISC, there have been reports from several organizations
+of DNS servers crashing. As of November 17, 2011, JPCERT/CC has not 
+confirmed publicly released attack code.
+  ISC has released patches to prevent systems from crashing. Please 
+refer to "III. Solution" and consider applying these patches. 
+
+    Japanese version of notice for CVE-2011-4313
+    IND 9 Resolver Crashes after Logging an Error in query.c
+    https://www.isc.org/advisorycve20114313JP
+
+
+II. Products Affected
+
+*** Update: Modified on 25.11.2011 ***********************************
+
+  According to ISC, the following versions are affected by this 
+vulnerability. 
+
+  ISC BIND 9  
+  * Affects all versions of BIND 9. For more information, refer to 
+    information from ISC.
+
+    ISC
+    BIND 9 Resolver crashes after logging an error in query.c
+    https://www.isc.org/software/bind/advisories/cve-2011-4313
+
+  If using a BIND supplied by a distributor, please refer to 
+information provided by said distributor.
+
+**********************************************************************
+
+III. Solution
+
+  ISC has released patches that prevent system crashes as a result of 
+the vulnerability. When a DNS server crashes as a result of this 
+vulnerability, the following message will appear in its logs. Please 
+test patches thoroughly before applying them.
+
+  If you decide not to apply these patches, check the logs on your DNS
+servers as appropriate, and if the following error message appears in 
+the server log files, please consider applying the patches.
+
+  "INSIST(! dns_rdataset_isassociated(sigrdataset))"
+
+  Patches have been applied to the following versions.
+
+  ISC BIND
+  - 9.4-ESV-R5-P1
+  - 9.6-ESV-R5-P1
+  - 9.7.4-P1
+  - 9.8.1-P1
+
+Additionally, corrected versions are also being provided by several 
+distributors.
+
+
+IV. References
+
+    ISC
+    BIND 9 Resolver crashes after logging an error in query.c
+    https://www.isc.org/software/bind/advisories/cve-2011-4313
+
+    Japanese version of notice for CVE-2011-4313
+    IND 9 Resolver Crashes after Logging an Error in query.c
+    https://www.isc.org/advisorycve20114313JP?https://www.isc.org/software/bind/advisories/cve-2011-4313
+
+    BIND software version status
+    http://www.isc.org/software/bind/versions
+
+    Japan Registry Services Co., Ltd. (JPRS)
+    (Urgent) Shutdown of named Service Due to Problems in BIND 9.x Cache DNS Server Function Implementation
+    http://jprs.jp/tech/security/2011-11-17-bind9-vuln-crash-after-logging-an-error.html
+
+*** Update: Added on 25.11.2011 **************************************
+    JVNVU#606539
+    ISC BIND Denial of Service (DoS) vulnerability 
+    https://jvn.jp/cert/JVNVU606539/
+**********************************************************************
+
+*** Update: Added on 18.11.2011 **************************************
+    Japan Network Information Center (JPNIC)
+    Vulnerability in ISC BIND 9
+    http://www.nic.ad.jp/ja/topics/2011/20111117-01.html
+
+    Red Hat, Inc
+    CVE-2011-4313
+    https://www.redhat.com/security/data/cve/CVE-2011-4313.html
+**********************************************************************
+
+    Debian GNU Linux
+    [SECURITY] [DSA 2347-1] bind9 security update
+    http://lists.debian.org/debian-security-announce/2011/msg00225.html
+
+    Ubuntu
+    Ubuntu Security Notice USN-1264-1
+    http://www.ubuntu.com/usn/usn-1264-1/
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+________
+Revision history
+2011-11-17 First edition
+2011-11-18 Added references
+2011-11-25 Modified "II. Products Affected" added references
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

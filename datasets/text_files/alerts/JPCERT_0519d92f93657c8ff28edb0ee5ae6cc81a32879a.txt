@@ -1,0 +1,82 @@
+JPCERT-AT-2020-0034
+                                                             JPCERT/CC
+                                                            2020-08-14
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-08-14 &gt;&gt;&gt;
+
+  Alert Regarding Vulnerabilities in Apache Struts 2 (S2-059, S2-060)
+
+       https://www.jpcert.or.jp/english/at/2020/at200034.html
+
+
+I. Overview
+On August 13, 2020, the Apache Software Foundation released information
+(S2-059, S2-060) on vulnerabilities (CVE-2019-0230, CVE-2019-0233) in
+Apache Struts 2.
+A remote attacker leveraging these vulnerabilities may execute
+arbitrary code or cause denial of service (DoS) on the server that
+runs an application using Apache Struts 2.
+
+    Apache Struts 2 Documentation
+    Security Bulletins S2-059
+    https://cwiki.apache.org/confluence/display/WW/S2-059
+
+    Apache Struts 2 Documentation
+    Security Bulletins S2-060
+    https://cwiki.apache.org/confluence/display/WW/S2-060
+
+The vulnerability CVE-2019-0230 may allow arbitrary code to be
+executed by sending a specially crafted request by third party.
+The vulnerability CVE-2019-0233 may cause a denial of service due
+to unauthorized manipulation of the request by a third party when
+uploading a file.
+
+The Apache Software Foundation has rated CVE-2019-0230 as "Important"
+and CVE-2019-0233 as "Medium".
+It is recommended to upgrade the version as soon as possible by
+referring to the information provided in "III. Solution" if a
+version of Apache Struts 2 which is affected by these vulnerabilities
+is used.
+
+
+II. Affected Versions
+The following versions of Apache Struts 2 are affected by these
+vulnerabilities:
+
+  Apache Struts 2
+  - Versions 2.5.x, 2.5.20 and earlier
+
+The developer notes the following:
+  - The version 2.5.22 released in November 2019 is not affected by the vulnerabilities
+  - The versions 2.3.x that are no longer supported, and the prior 2.x versions are also affected
+
+
+III. Solution
+The Apache Software Foundation has released versions of Apache Struts 2
+that address these vulnerabilities. It is recommended to update to the
+latest version after thorough testing.
+
+  Apache Struts 2
+  - Versions 2.5.x, 2.5.22 or greater
+
+For more information, please refer to the updated information provided
+by the Apache Software Foundation.
+
+    Apache Struts 2 Documentation
+    Version Notes 2.5.22
+    https://cwiki.apache.org/confluence/display/WW/Version+Notes+2.5.22
+
+
+IV. References
+    The Apache Software Foundation
+    Security Advice: Announcing CVE-2019-0230 (Possible RCE) and CVE-2019-0233 (DoS) security issues
+    https://struts.apache.org/announce#a20200813
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

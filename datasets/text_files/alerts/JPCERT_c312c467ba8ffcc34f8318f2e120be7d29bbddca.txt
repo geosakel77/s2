@@ -1,0 +1,87 @@
+JPCERT-AT-2015-0005
+                                                             JPCERT/CC
+                                                            2015-02-06
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2015-02-06 &gt;&gt;&gt;
+
+           Vulnerabilities in Adobe Flash Player (APSB15-04)
+
+         https://www.jpcert.or.jp/english/at/2015/at150005.html
+
+
+I. Overview
+
+  Adobe Flash Player contains multiple vulnerabilities. A remote
+attacker may cause Adobe Flash Player to crash or execute arbitrary
+code by convincing a user to open specially crafted contents
+leveraging these vulnerabilities. For more information on the
+vulnerabilities, please refer to the information provided by
+Adobe Systems.
+
+    Security updates available for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsb15-04.html
+
+  According to Adobe Systems, targeted attacks leveraging APSB15-04
+vulnerabilities have been observed in the wild.
+
+
+II. Affected Products
+
+  The following versions are affected by these vulnerabilities:
+
+  - Adobe Flash Player 16.0.0.296 and earlier
+    (Internet Explorer, Google Chrome, Mozilla Firefox, etc)
+
+
+III. Solution
+
+  Please update Adobe Flash Player to the latest version listed below:
+
+  - Adobe Flash Player 16.0.0.305 (Internet Explorer, Google Chrome,
+    Mozilla Firefox, etc)
+
+  Note that Internet Explorer 10 for Windows 8, Internet Explorer 11
+for Windows 8.1 and Google Chrome contain Adobe Flash Player by
+default. The latest version of Adobe Flash Player will be applied
+through Windows Update for Internet Explorer 10 for Windows 8 and
+Internet Explorer 11 for Windows 8.1. Also, the latest version of
+Adobe Flash Player will be updated when Google Chrome is updated. For
+more information, please refer to the following:
+
+    Adobe Flash Player Download Center
+    https://get.adobe.com/flashplayer/
+
+    Microsoft Security Advisory (2755801)
+    Update for Vulnerabilities in Adobe Flash Player in Internet Explorer
+    https://technet.microsoft.com/en-us/security/advisory/2755801
+
+  Users can check the version of Adobe Flash Player that they are
+using at the following link:
+
+    Adobe Flash Player: Version Information
+    https://www.adobe.com/software/flash/about/
+
+  * Even if you use a web browser other than Internet Explorer, there is
+    software that uses Adobe Flash Player installed for Internet
+    Explorer, such as Microsoft Office, so please update Adobe Flash
+    Player for Internet Explorer as well.
+
+
+IV. References
+
+    Adobe Security Bulletin
+    Security Advisory for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsa15-02.html
+
+    Microsoft Security Advisory (2755801)
+    Update for Vulnerabilities in Adobe Flash Player in Internet Explorer
+    https://technet.microsoft.com/en-us/library/security/2755801
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

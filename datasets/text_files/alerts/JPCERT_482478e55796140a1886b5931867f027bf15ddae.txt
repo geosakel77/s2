@@ -1,0 +1,104 @@
+JPCERT-AT-2010-0019
+                                                             JPCERT/CC
+                                                            2010-08-03
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2010-08-03 &gt;&gt;&gt;
+
+     Unscheduled patch released for vulnerability in Windows Shell
+
+            https://www.jpcert.or.jp/at/2010/at100019.txt
+
+
+I. Overview
+
+  Microsoft has released an unscheduled security update for a 
+vulnerability in Windows Shell. The severity rating of this security 
+update is "Critical". A remote attacker could use this vulnerability 
+to execute arbitrary code.
+
+  According to Microsoft, it is confirmed that this vulnerability is 
+exploited in malware attacks. It is recommended to take necessary 
+measures immediately.
+
+  For further information about the vulnerability, refer to the 
+following URL:
+
+  Microsoft Security Bulletin MS10-046 - Critical
+  http://www.microsoft.com/japan/technet/security/bulletin/ms10-046.mspx
+  http://www.microsoft.com/technet/security/bulletin/MS10-046.mspx
+
+
+II. Products Affected
+
+  Affected products and versions are as follows:
+
+  - Windows XP Service Pack 3
+  - Windows XP Professional x64 Edition Service Pack 2
+  - Windows Server 2003 Service Pack 2
+  - Windows Server 2003 x64 Edition Service Pack 2
+  - Windows Server 2003 with SP2 for Itanium-based Systems
+  - Windows Vista Service Pack 1 and Windows Vista Service Pack 2
+  - Windows Vista x64 Edition Service Pack 1 and Windows Vista x64 Edition Service Pack 2
+  - Windows Server 2008 for 32-bit Systems and Windows Server 2008 for 32-bit Systems Service Pack 2
+  - Windows Server 2008 for x64-based Systems and Windows Server 2008 for x64-based Systems Service Pack 2
+  - Windows Server 2008 for Itanium-based Systems and Windows Server 2008 for Itanium-based Systems Service Pack 2
+  - Windows 7 for 32-bit Systems
+  - Windows 7 for x64-based Systems
+  - Windows Server 2008 R2 for x64-based Systems
+  - Windows Server 2008 R2 for Itanium-based Systems
+
+  For more information, refer to the "Microsoft Security Bulletin 
+(MS10-046)".
+
+
+III. Solution
+
+  Use means such as Microsoft Update or Windows Update to apply the 
+security update immediately.
+
+    Microsoft Update
+    https://www.update.microsoft.com/
+
+    Windows Update
+    https://windowsupdate.microsoft.com/
+
+
+IV. Result of JPCERT/CC Verification
+
+  JPCERT/CC has confirmed that the exploit code executes before 
+applying the security update, and it does not execute after applying 
+the update.
+
+
+V. References
+
+    Microsoft Security Bulletin MS10-046 - Critical
+    http://www.microsoft.com/japan/technet/security/bulletin/ms10-046.mspx
+    http://www.microsoft.com/technet/security/bulletin/MS10-046.mspx
+
+    Microsoft Security Bulletin Advance Notification for August 2010
+    http://www.microsoft.com/japan/technet/security/bulletin/ms10-aug.mspx
+    http://www.microsoft.com/technet/security/bulletin/ms10-aug.mspx
+
+    Microsoft Security Advisory (2286198)
+    Vulnerability in Windows Shell Could Allow Remote Code Execution
+    http://www.microsoft.com/japan/technet/security/advisory/2286198.mspx
+    http://www.microsoft.com/technet/security/advisory/2286198.mspx
+
+    Japan Security Team
+    Windows Shell vulnerability addressed on August 3, 2010 (unscheduled)
+    http://blogs.technet.com/b/jpsecurity/archive/2010/08/02/3347921.aspx
+
+    US-CERT Vulnerability Note VU#940193
+    Microsoft Windows automatically executes code specified in shortcut files
+    http://www.kb.cert.org/vuls/id/940193
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

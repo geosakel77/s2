@@ -1,0 +1,174 @@
+JPCERT-AT-2007-0001
+                                                             JPCERT/CC
+                              January 10, 2007 (Original release date)
+                                       January 19, 2007 (Last revised)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2007-01-10 &gt;&gt;&gt;
+
+                 Jan 2007 Microsoft Security Bulletin
+                  (including three critical patches)
+
+             http://www.jpcert.or.jp/at/2007/at070001.txt
+
+I. Overview
+
+  Microsoft has released security bulletins for January 2007 which
+include three "Critical" and one "Important" security updates.
+
+  Exploitation of these vulnerabilities could allow a remote attacker
+to execute arbitrary code.
+
+    Security Bulletin for January 2007
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-jan.mspx
+
+*** Update: Added on January 19, 2007 **************************************
+
+  On January 19, 2007, Microsoft updated MS07-002 and security update
+KB925524 to address an issue that users cannot open some files after
+installing the prior security update KB925524 for Microsoft Excel
+2000.
+
+    MS07-002
+    Vulnerabilities in Microsoft Excel Could Allow Remote Code
+      Execution (927198)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-002.mspx
+
+  Users who have not applied the MS07-002 security update for
+Microsoft Excel 2000 are recommended to apply the security update
+immediately.
+
+  Further information on this issue is available from the following
+URL:
+
+    Excel 2000 does not open some files after you install security
+      update 925524 that is documented in security bulletin MS07-002.
+    http://support.microsoft.com/kb/931183
+
+**********************************************************************
+
+  Detailed information on each vulnerability is available from the
+following URLs:
+
+    MS07-002
+    Vulnerabilities in Microsoft Excel Could Allow Remote Code
+      Execution (927198)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-002.mspx
+
+    MS07-003
+    Vulnerabilities in Microsoft Outlook Could Allow Remote Code
+      Execution (925938)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-003.mspx
+
+    MS07-004
+    Vulnerability in Vector Markup Language Could Allow Remote Code
+      Execution (929969)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-004.mspx
+
+    MS07-001
+    Vulnerability in Microsoft Office 2003 Brazilian Portuguese
+      Grammar Checker Could Allow Remote Code Execution (921585)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-001.mspx
+
+  The vulnerability reported in "Microsoft Security Advisory (929433):
+Vulnerability in Microsoft Word Could Allow Remote Code Execution"
+released in December 2006 is not fixed by the patches released this
+time. Users should continue to be cautious when handling Word files.
+
+    Microsoft Security Advisory (929433): Vulnerability in Microsoft
+      Word Could Allow Remote Code Execution
+    http://www.microsoft.com/japan/technet/security/advisory/929433.mspx
+
+
+II. Solution
+
+  Apply the security updates immediately by using Microsoft Update or
+Windows Update.
+
+    Microsoft Update
+    https://update.microsoft.com/microsoftupdate
+
+    Windows Update
+    https://windowsupdate.microsoft.com/
+
+    Office Update
+    http://office.microsoft.com/ja-jp/officeupdate/default.aspx
+
+  Depending on the version of the product, updates may not be 
+available from Microsoft Update. Use Windows Update or Office Update
+as needed.
+
+  For example, to apply security updates for Office 2000, they need
+to be downloaded from Office Update. For details of operating systems
+supported by Microsoft Update, see "Security Requirements" in the
+following URL:
+
+    About Microsoft Update
+    http://www.microsoft.com/japan/technet/prodtechnol/microsoftupdate/default.mspx
+
+
+III. Reference Information
+
+    Security Bulletin for January 2007
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-jan.mspx
+
+    Microsoft Update and other services: Frequently asked questions
+    http://www.microsoft.com/japan/athome/security/protect/update.mspx
+
+    US-CERT Technical Cyber Security Alert TA07-009A
+    Microsoft Updates for Multiple Vulnerabilities
+    http://www.us-cert.gov/cas/techalerts/TA07-009A.html
+
+    US-CERT Vulnerability Note VU#493185
+    Microsoft Excel vulnerable to arbitrary code execution via
+      malformed record
+    http://www.kb.cert.org/vuls/id/493185
+
+    US-CERT Vulnerability Note VU#302836
+    Microsoft Excel fails to properly process a malformed Column
+      record
+    http://www.kb.cert.org/vuls/id/302836
+
+    US-CERT Vulnerability Note VU#271860
+    Microsoft Outlook fails to properly parse Office Saved Searches 
+      (.oss) files
+    http://www.kb.cert.org/vuls/id/271860
+
+    US-CERT Vulnerability Note VU#749964
+    Microsoft Excel malformed IMDATA vulnerability
+    http://www.kb.cert.org/vuls/id/749964
+
+    US-CERT Vulnerability Note VU#476900
+    Microsoft Outlook fails to properly process a VEVENT record
+    http://www.kb.cert.org/vuls/id/476900
+
+    US-CERT Vulnerability Note VU#625532
+    Microsoft Excel fails to properly parse malformed Palette records
+    http://www.kb.cert.org/vuls/id/625532
+
+    US-CERT Vulnerability Note VU#122084
+    Microsoft Internet Explorer VML buffer overflow
+    http://www.kb.cert.org/vuls/id/122084
+
+    @Police
+    About Microsoft security updates (MS07-001, 002, 003, and 004) 
+      (January 10)
+    http://www.cyberpolice.go.jp/important/2007/20070110_071806.html
+
+
+  If you have any information regarding this matter, please contact 
+us.
+
+__________
+
+Revision History
+January 10, 2007  Initial release
+January 11, 2007  Added the report that users cannot open some Excel
+                  files after installing the MS07-002 security update
+January 15, 2007  Added security information provided by Microsoft
+                  and the URLs
+January 19, 2007  Added information on the re-release of MS07-002
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

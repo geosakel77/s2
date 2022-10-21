@@ -1,0 +1,77 @@
+JPCERT-AT-2016-0030
+                                                             JPCERT/CC
+                                                            2016-07-13
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-07-13 &gt;&gt;&gt;
+
+       Vulnerabilities in Adobe Reader and Acrobat (APSB16-26)
+
+       https://www.jpcert.or.jp/english/at/2016/at160030.html
+
+
+I. Overview
+
+  Multiple vulnerabilities exist in Adobe Acrobat Reader, a PDF file
+viewing software, and Adobe Acrobat, a PDF file creation and 
+conversion software. As a result, a remote attacker may terminate
+Adobe Reader and Acrobat, or execute arbitrary code by convincing a 
+user to open contents leveraging the vulnerabilities. For more 
+information, please refer to the Adobe Systems website.
+
+    Security Updates Available for Adobe Acrobat and Reader
+    https://helpx.adobe.com/security/products/acrobat/apsb16-26.html
+
+
+II. Affected Products
+
+  Affected products and versions are as follows:
+
+  - Adobe Acrobat Reader DC Continuous (15.016.20045) and earlier
+  - Adobe Acrobat Reader DC Classic (15.006.30174) and earlier
+  - Adobe Acrobat DC Continuous (15.016.20045) and earlier
+  - Adobe Acrobat DC Classic (15.006.30174) and earlier
+  - Adobe Acrobat XI (11.0.16) and earlier
+  - Adobe Reader XI (11.0.16) and earlier
+
+
+III. Solution
+
+  Please update Adobe Reader and Acrobat to the latest version listed
+below. 
+
+  - Adobe Acrobat Reader DC Continuous (15.017.20050)
+  - Adobe Acrobat Reader DC Classic (15.006.30198)
+  - Adobe Acrobat DC Continuous (15.017.20050)
+  - Adobe Acrobat DC Classic (15.006.30198)
+  - Adobe Acrobat XI (11.0.17)
+  - Adobe Reader XI (11.0.17)
+
+  Acrobat will be updated by starting the product, selecting the
+menu "Help (H)", and then clicking "Check for Updates (U)". If an 
+update from the menu is not available, please download the latest 
+Adobe Reader and Acrobat from the following URL. For more 
+information, please refer to the Adobe Systems website.
+
+    Adobe.com - New downloads
+    http://www.adobe.com/support/downloads/new.jsp
+
+
+IV. References
+
+    Adobe Systems
+    Security Updates Available for Adobe Acrobat and Reader
+    https://helpx.adobe.com/security/products/reader/apsb16-26.html
+
+    Adobe Systems
+    Security Bulletins Posted
+    http://blogs.adobe.com/psirt/?p=1377
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

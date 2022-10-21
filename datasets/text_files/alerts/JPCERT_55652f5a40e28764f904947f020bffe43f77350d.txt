@@ -1,0 +1,88 @@
+JPCERT-AT-2021-0016
+                                                             JPCERT/CC
+                                                            2021-04-01
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-04-01 &gt;&gt;&gt;
+
+    Alert Regarding Vulnerabilities in VMware vRealize Operations
+
+       https://www.jpcert.or.jp/english/at/2021/at210016.html
+
+
+I. Overview
+On March 30, 2021 (US Time), VMware has released advisory
+(VMSA-2021-0004) regarding vulnerabilities in VMware vRealize
+Operations. The vRealize Operations Manager API contains a Server
+Side Request Forgery vulnerability (CVE-2021-21975) and an arbitrary
+file write vulnerability (CVE-2021-21983). A remote attacker may
+steal administrative credentials and write files to arbitrary
+locations by leveraging these vulnerabilities. For more information,
+please refer to the information provided by VMware.
+
+    VMware
+    VMSA-2021-0004
+    https://www.vmware.com/security/advisories/VMSA-2021-0004.html
+
+In addition, JPCERT/CC has confirmed the information that appear to
+be the Proof-of-concept code and scanner to search for affected
+system for the SSRF vulnerability (CVE-2021-21975). Also, the
+reporting organization of these vulnerabilities pointed out that
+the vulnerabilities can lead to an unauthenticated remote code
+execution in vRealize Operations when chained together.
+
+If you are using a product which is affected by these vulnerabilities,
+please apply the measures by referring to "III. Solution" and
+"IV. Workarounds". 
+
+
+II. Affected Products and Versions
+Affected products and versions are as follows:
+
+  - VMware vRealize Operations Manager version 8.3.0
+  - VMware vRealize Operations Manager version 8.2.0
+  - VMware vRealize Operations Manager version 8.1.1, 8.1.0
+  - VMware vRealize Operations Manager version 8.0.1, 8.0.0
+  - VMware vRealize Operations Manager version 7.5.0
+  - VMware vRealize Operations Manager version 7.0.0
+  - VMware Cloud Foundation (vROps) versions 4.x
+  - VMware Cloud Foundation (vROps) versions 3.x
+  - VMware vRealize Suite Lifecycle Manager (vROps) versions 8.x
+
+
+III. Solution
+VMware has released patches that address these vulnerabilities.
+Please consider applying the patch corresponding to each version.
+According to the advisory, there are no plans to provide patches for
+VMware vRealize Operations Manager 7.0.0 at the time of this writing.
+
+
+IV. Workarounds
+The following measures are mentioned as workarounds. The workarounds
+need to be applied to every node in the vRealize Operations cluster
+and require CaSA service restart. For more information, please refer
+to the information from VMware advisory.
+
+  - Open casa-security-context.xml and remove the specific line
+
+    VMware
+    vRealize Operations 8.3 Security Patch for VMSA-2021-0004 (83210)
+    https://kb.vmware.com/s/article/83210
+
+
+V. References
+    VMware
+    VMSA-2021-0004
+    https://www.vmware.com/security/advisories/VMSA-2021-0004.html
+
+    Twitter
+    PT SWARM@ptswarm
+    https://twitter.com/ptswarm/status/1376961747232382976
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

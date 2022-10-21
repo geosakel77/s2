@@ -1,0 +1,70 @@
+JPCERT-AT-2020-0045
+                                                             JPCERT/CC
+                                                            2020-12-04
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-12-04 &gt;&gt;&gt;
+
+   Alert Regarding Vulnerability (CVE-2020-17527) in Apache Tomcat
+
+       https://www.jpcert.or.jp/english/at/2020/at200045.html
+
+
+I. Overview
+On December 3, 2020 (Local Time), Apache Software Foundation has
+released information regarding a vulnerability (CVE-2020-17527) in
+Apache Tomcat. According to the information, Apache Tomcat could
+re-use an HTTP request header value from the previous stream received
+on an HTTP/2 connection for the request associated with the subsequent
+stream. It is possible that this could lead to the leakage between
+requests, while this would most likely lead to an error and the
+closure of the HTTP/2 connection.
+
+    Apache Software Foundation
+    CVE-2020-17527 Apache Tomcat HTTP/2 Request header mix-up
+    https://lists.apache.org/thread.html/rce5ac9a40173651d540babce59f6f3825f12c6d4e886ba00823b11e5%40%3Cannounce.tomcat.apache.org%3E
+
+
+II. Affected Products
+The following versions are affected by this vulnerability:
+
+  - Apache Tomcat 10.0.0-M1 to 10.0.0-M9
+  - Apache Tomcat 9.0.0.M1 to 9.0.39
+  - Apache Tomcat 8.5.0 to 8.5.59
+
+
+III. Solution
+Apache Software Foundation has released versions of Apache Tomcat
+that address this vulnerability. Please update to these versions
+by referring to the information provided by Apache Software
+Foundation.
+
+  - Apache Tomcat 10.0.0-M10
+  - Apache Tomcat 9.0.40
+  - Apache Tomcat 8.5.60
+
+
+IV. References
+    Apache Software Foundation
+    CVE-2020-17527 Apache Tomcat HTTP/2 Request header mix-up
+    https://lists.apache.org/thread.html/rce5ac9a40173651d540babce59f6f3825f12c6d4e886ba00823b11e5%40%3Cannounce.tomcat.apache.org%3E
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 10.0.0-M10
+    https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.0.0-M10
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 9.0.40
+    https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.40
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 8.5.60
+    https://tomcat.apache.org/security-8.html#Fixed_in_Apache_Tomcat_8.5.60
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

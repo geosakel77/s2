@@ -1,0 +1,104 @@
+JPCERT-AT-2013-0014
+                                                             JPCERT/CC
+                                                            2013-03-05
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2013-03-05 &gt;&gt;&gt;
+
+         Critical Patch Update for Oracle Java SE, March 2013
+
+        https://www.jpcert.or.jp/english/at/2013/at130014.html
+
+
+I. Overview
+
+  Multiple vulnerabilities exist in Oracle's Java SE JDK and JRE. A
+remote attacker may cause Java to shut down unexpectedly or execute
+arbitrary code by inducing a user to open maliciously crafted contents
+that exploit these vulnerabilities. For more information on the
+vulnerabilities, refer to the information provided by Oracle.
+
+  According to information provided by Oracle, attacks exploiting
+these vulnerabilities have been confirmed. It is recommended to update
+to the latest version of the software provided by Oracle.
+
+    Oracle Security Alert for CVE-2013-1493
+    http://www.oracle.com/technetwork/topics/security/alert-cve-2013-1493-1915081.html
+
+
+II. Products Affected
+
+  Affected products and versions are as follows:
+
+  - Java SE JDK and JRE 7 Update 15 and earlier
+  - Java SE JDK and JRE 6 Update 41 and earlier
+
+  * Oracle has announced that this is the last update release for Java
+    SE 6.  Users should update to Java SE 7.
+
+  * Some PC's may come with JRE pre-installed. Please check to see
+    whether JRE is installed on your PC.
+
+
+III. Solution
+
+  Oracle has released an update. Please update to the latest version.
+
+  - Java SE JDK and JRE 7 Update 17
+  - Java SE JDK and JRE 6 Update 43
+
+    Java SE Downloads
+    http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+    Free Java Download (JRE 7, English)
+    https://java.com/en/download/index.jsp
+
+  Users of 64-bit Windows may have either or both the 32-bit and 64-bit
+versions of JDK/JRE installed. Please check the version of JDK/JRE
+that is installed and apply the appropriate update.
+
+  The version of Java being used can be checked at the following
+page. If both the 32-bit and 64-bit versions of Java are installed,
+please check the versions of Java by respectively using a 32-bit or
+64-bit browser. (For environments that do not have Java installed, a
+request to install Java may appear. If you do not require Java, do not
+install it.)
+
+    Verifying Java Version
+    https://www.java.com/en/download/installed.jsp
+
+  * Some application may not run after updating to the latest version
+    of Java.  Please update after taking into consideration of affects
+    to applications in use.
+
+
+IV. References
+
+    Oracle
+    Oracle Security Alert for CVE-2013-1493
+    http://www.oracle.com/technetwork/topics/security/alert-cve-2013-1493-1915081.html
+
+    Oracle
+    Text Form of Oracle Security Alert - CVE-2013-1493 Risk Matrices
+    http://www.oracle.com/technetwork/topics/security/alert-cve-2013-1493verbose-1915091.html
+
+    Oracle
+    Security Alert CVE-2013-1493 Released             
+    https://blogs.oracle.com/security/entry/security_alert_cve_2013_1493
+
+    Apple
+    About Java for Mac OS X v10.6 Update 14
+    https://support.apple.com/kb/HT5676
+
+    FireEye
+    YAJ0: Yet Another Java Zero-Day
+    http://blog.fireeye.com/research/2013/02/yaj0-yet-another-java-zero-day-2.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

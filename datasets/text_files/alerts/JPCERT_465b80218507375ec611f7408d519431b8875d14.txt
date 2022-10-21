@@ -1,0 +1,94 @@
+JPCERT-AT-2012-0017
+                                                             JPCERT/CC
+                                            2012-05-16 (First edition)
+                                                  2012-05-25 (Updated)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 16.05.12 &gt;&gt;&gt;
+
+              Vulnerability in Logitec broadband routers
+
+        https://www.jpcert.or.jp/english/at/2012/at120017.html
+
+
+I. Overview
+
+  Logitec released information on 16 May 2012 regarding a
+vulnerability in their broadband routers
+
+  An attacker could use this vulnerability to externally gain ISP
+connection information, such as PPPoE account ID and its password set
+in the affected products.
+
+*** Updated: Information added on 25 May, 2012************************
+
+  JPCERT/CC has confirmed attacks exploiting this vulnerability. There
+could be a possible risk where some ISP connection information has
+already been gained externally.
+
+**********************************************************************
+
+  We recommend that anyone using the affected products refer to the
+“III. Solution” to take an immediate action.
+
+
+II. Products Affected
+
+  The following Logitec broadband routers with the serial number
+ending in “B” and firmware version 2.17 are affected by this
+vulnerability.
+
+  - LAN-W300N/R
+  - LAN-W300N/RS
+  - LAN-W300N/RU2
+
+  * Remove the side cover of the router to find the serial number. For
+    more information, refer to the following.
+
+    Q．【LAN-W300N/R】Logitec WI-Fi router: Confirmation method
+    http://qa.elecom.co.jp/faq_detail.html?id=4111&amp;category=&amp;page=1
+
+
+III. Solution
+
+  Update the firmware of the affected products based on the
+information provided by Logitec. For more information, refer to the
+Logitec website.
+
+  We strongly recommend that anyone using the affected products take
+an immediate action.
+
+*** Update: Information added on 25 May, 2012*************************
+  Firmware (Ver. 2.27) with enhanced security is released on 24
+May. We recommend that anyone using the affected products in
+“II. Affected products” update the firmware.
+**********************************************************************
+
+
+IV. References
+
+    Logitec
+    Logitec 300Mpbs wireless LAN broadband router
+    Important announcement on LAN-W300N/R, LAN-W300N/RS, LAN-W300N/RU2 
+    http://www.logitec.co.jp/info/2012/0516.html
+
+*** Update: Information added on 25 May, 2012*************************
+    JVN#85934986
+    Vulnerability in LAN-W300N/R series due to a flaw in access control
+    https://jvn.jp/jp/JVN85934986/index.html
+**********************************************************************
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision history
+
+2012-05-16 First edition
+2012-05-25 Information added in “I. Overview”, “II. Solution” and
+           “IV. References”
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

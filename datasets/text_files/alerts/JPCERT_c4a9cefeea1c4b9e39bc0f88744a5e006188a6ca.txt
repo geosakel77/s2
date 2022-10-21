@@ -1,0 +1,79 @@
+JPCERT-AT-2021-0002
+                                                             JPCERT/CC
+                                                            2021-01-15
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2021-01-15 &gt;&gt;&gt;
+
+   Alert Regarding Vulnerability (CVE-2021-24122) in Apache Tomcat
+
+       https://www.jpcert.or.jp/english/at/2021/at210002.html
+
+
+I. Overview
+On January 14, 2020 (Local Time), Apache Software Foundation has
+released information regarding a vulnerability (CVE-2021-24122) in
+Apache Tomcat. According to the information, when serving resources
+from a network location using the NTFS file system it was possible
+to bypass security constraints and/or view the source code for JSPs
+in some configurations, due to the unexpected behaviour of the JRE
+API File.getCanonicalPath().
+
+    Apache Software Foundation
+    CVE-2021-24122 Apache Tomcat Information Disclosure
+    https://lists.apache.org/thread.html/r1595889b083e05986f42b944dc43060d6b083022260b6ea64d2cec52%40%3Cannounce.tomcat.apache.org%3E
+
+
+II. Affected Products
+The following versions are affected by this vulnerability:
+
+  - Apache Tomcat 10.0.0-M1 to 10.0.0-M9
+  - Apache Tomcat 9.0.0.M1 to 9.0.39
+  - Apache Tomcat 8.5.0 to 8.5.59
+  - Apache Tomcat 7.0.0 to 7.0.106
+
+
+III. Solution
+Apache Software Foundation has released versions of Apache Tomcat
+that address this vulnerability. Please update to these versions
+by referring to the information provided by Apache Software
+Foundation. The fixed versions below were released in November 2020.
+
+  - Apache Tomcat 10.0.0-M10
+  - Apache Tomcat 9.0.40
+  - Apache Tomcat 8.5.60
+  - Apache Tomcat 7.0.107
+
+
+IV. References
+    Apache Software Foundation
+    CVE-2021-24122 Apache Tomcat Information Disclosure
+    https://lists.apache.org/thread.html/r1595889b083e05986f42b944dc43060d6b083022260b6ea64d2cec52%40%3Cannounce.tomcat.apache.org%3E
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 10.0.0-M10
+    https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.0.0-M10
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 9.0.40
+    https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.40
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 8.5.60
+    https://tomcat.apache.org/security-8.html#Fixed_in_Apache_Tomcat_8.5.60
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 7.0.107
+    https://tomcat.apache.org/security-7.html#Fixed_in_Apache_Tomcat_7.0.107
+
+    Japan Vulnerability Notes JVNVU#96136392
+    Information Disclosure vulnerability in Apache Tomcat due to improper implementation of Java API (Japanese)
+    https://jvn.jp/vu/JVNVU96136392/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

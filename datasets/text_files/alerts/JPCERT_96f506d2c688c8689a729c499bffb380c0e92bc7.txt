@@ -1,0 +1,70 @@
+JPCERT-AT-2022-0016
+                                                             JPCERT/CC
+                                                            2022-06-15
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2022-06-15 &gt;&gt;&gt;
+
+            Microsoft Releases June 2022 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2022/at220016.html
+
+
+I. Overview
+Microsoft has released June 2022 Security Updates to address the
+vulnerabilities in their products. Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code. It is
+recommended to check the information provided by Microsoft and
+apply the updates.
+
+    Microsoft Corporation
+    June 2022 Security Updates
+    https://msrc.microsoft.com/update-guide/en-us/releaseNote/2022-Jun
+
+    Microsoft Corporation
+    Microsoft Security Updates for June 2022 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2022/06/14/202206-security-updates/
+
+In addition, on May 30, 2022, Microsoft published a blog and advisory
+regarding a vulnerability (CVE-2022-30190) in the Microsoft Windows
+Support Diagnostic Tool (MSDT). An attacker leveraging the vulnerability
+may execute arbitrary code by convincing a victim to execute or load a
+specially crafted file.
+
+The details of the vulnerability have already been made public, and
+Microsoft is aware of the exploit of this vulnerability. As this month's
+update includes a fix for this vulnerability, it is recommended to
+apply the update as soon as possible.
+
+    Microsoft Corporation
+    Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2022-30190
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    Guidance for CVE-2022-30190 Microsoft Support Diagnostic Tool Vulnerability
+    https://msrc-blog.microsoft.com/2022/05/30/guidance-for-cve-2022-30190-microsoft-support-diagnostic-tool-vulnerability/
+
+    Microsoft Corporation
+    Release Notes
+    https://msrc.microsoft.com/update-guide/releaseNote
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

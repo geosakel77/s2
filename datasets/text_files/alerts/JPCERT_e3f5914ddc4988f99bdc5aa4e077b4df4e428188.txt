@@ -1,0 +1,113 @@
+JPCERT-AT-2017-0045
+                                                             JPCERT/CC
+                                                    2017-11-29(Initial)
+                                                    2017-11-30(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-11-29 &gt;&gt;&gt;
+
+          Alert Regarding the Settings of MacOS High Sierra
+
+        https://www.jpcert.or.jp/english/at/2017/at170045.html
+
+
+I. Overview
+Overseas researcher publicized an issue regarding the settings of MacOS
+High Sierra. According to the report, "root" user (which works as an
+administrator account) in macOS High Sierra may be leveraged when
+"Disable Root User" is selected.
+
+JPCERT/CC has also verified this issue through testing.
+
+If you are using macOS High Sierra with an unspecified number of users,
+it is recommended to set an appropriate password for the root user.
+Apple has released information regarding password setting for the root
+user.
+
+** Update: November 30, 2017 Update ***********************************
+Apple released the security updates and information regarding this
+issue as vulnerability (CVE-2017-13872). Please consider applying the
+latest version as soon as possible. In addition, JPCERT/CC has verified
+that this issue does not occur with the updated version.
+
+    Apple
+    About the security content of Security Update 2017-001
+    https://support.apple.com/en-us/HT208315
+***********************************************************************
+
+
+II. Affected Products
+Accurate information on the affected products is not disclosed, however, 
+the following versions of macOS High Sierra are considered to contain
+the issue of the settings.
+
+  - macOS High Sierra version 10.13 and later
+
+** Update: November 30, 2017 Update ***********************************
+According to Apple, following product and version are affected by this
+vulnerability.
+
+  - macOS High Sierra 10.13.1
+
+macOS Sierra 10.12.6 and earlier versions are not affected by this
+vulnerability.
+***********************************************************************
+
+JPCERT/CC has confirmed that the issue was exploited on macOS High Sierra
+10.13.1, but not exploited on macOS Sierra 10.12.6.
+
+
+III. Solution
+As of November 29, 2017, Apple has not yet released the version which
+addresses this issue.
+Please refer to "IV. Workaround" and set the password to the root user.
+
+** Update: November 30, 2017 Update ***********************************
+Apple released a version which addresses this issue. Please consider
+applying the latest version as soon as possible. 
+***********************************************************************
+
+
+IV. Workaround
+The following workaround is considered effective for this issue.
+
+  - Set the root user's password
+
+Please note that if you set to "Disable Root User" after setting the
+root user password, there is a possibility that this issue may resume.
+
+For more details on password settings, please refer to the information
+provided by Apple.
+
+    Apple
+    How to enable the root user on your Mac or change your root password
+    https://support.apple.com/en-us/HT204012
+
+
+V. References
+** Update: November 30, 2017 Update ***********************************
+    Apple
+    About the security content of Security Update 2017-001
+    https://support.apple.com/en-us/HT208315
+***********************************************************************
+
+    Apple
+    How to enable the root user on your Mac or change your root password
+    https://support.apple.com/en-us/HT204012
+
+    How to enable root user on Mac and fix the bug regarding macOS 10.13 High Sierra that gives access with root account without password (Japanese)
+    https://applech2.com/archives/20171129-how-to-fix-macos-high-sierra-full-admin-access.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2017-11-29 First edition
+2017-11-30 Updated "I. Overview", "II. Affected Products", "III. Solution" and "V. References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

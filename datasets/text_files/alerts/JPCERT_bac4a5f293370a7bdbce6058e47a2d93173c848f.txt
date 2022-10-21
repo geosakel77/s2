@@ -1,0 +1,167 @@
+JPCERT-AT-2018-0002
+                                                             JPCERT/CC
+                                                            2018-01-10
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-01-10 &gt;&gt;&gt;
+
+          Microsoft Releases January 2018 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2018/at180002.html
+
+
+I. Overview
+Microsoft has released January 2018 Security Updates. This contains
+updates that are rated as "critical". Remote attackers leveraging these
+vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    January 2018 Security Updates 
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/858123b8-25ca-e711-a957-000d3a33cf99
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    ADV180001
+    January 2018 Adobe Flash Security Update
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV180001
+    - KB4056887
+
+    CVE-2018-0758
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0758
+    - KB4056888, KB4056890, KB4056891, KB4056892, KB4056893
+
+    CVE-2018-0762
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0762
+    - KB4056568, KB4056888, KB4056890, KB4056891, KB4056892, KB4056893, 
+      KB4056894, KB4056895
+
+    CVE-2018-0767
+    Scripting Engine Information Disclosure Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0767
+    - KB4056888, KB4056890, KB4056891, KB4056892
+
+    CVE-2018-0769
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0769
+    - KB4056888, KB4056890, KB4056891, KB4056892, KB4056893
+
+    CVE-2018-0770
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0770
+    - KB4056888, KB4056890, KB4056891, KB4056892, KB4056893
+
+    CVE-2018-0772
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0772
+    - KB4056568, KB4056888, KB4056890, KB4056891, KB4056892, KB4056893, 
+      KB4056894, KB4056895
+
+    CVE-2018-0773
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0773
+    - KB4056892
+
+    CVE-2018-0774
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0774
+    - KB4056892
+
+    CVE-2018-0775
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0775
+    - KB4056892
+
+    CVE-2018-0776
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0776
+    - KB4056888, KB4056890, KB4056891, KB4056892, KB4056893
+
+    CVE-2018-0777
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0777
+    - KB4056888, KB4056890, KB4056891, KB4056892, KB4056893
+
+    CVE-2018-0778
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0778
+    - KB4056892
+
+    CVE-2018-0780
+    Scripting Engine Information Disclosure Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0780
+    - KB4056888, KB4056890, KB4056891, KB4056892, KB4056893
+
+    CVE-2018-0781
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0781
+    - KB4056888, KB4056890, KB4056891, KB4056892
+
+    CVE-2018-0797
+    Microsoft Word Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0797
+    - KB4011021, KB4011579, KB4011607, KB4011609, KB4011615, KB4011641,
+      KB4011642, KB4011643, KB4011648, KB4011651, KB4011657, KB4011658, 
+      KB4011659
+
+    CVE-2018-0800
+    Scripting Engine Information Disclosure Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0800
+    - KB4056892
+
+According to Microsoft, attacks leveraging the vulnerability CVE-2018-0802
+(Important) have been observed in the wild. Please apply the security
+update programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update / Windows Update
+    http://www.update.microsoft.com/
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+In addition, Microsoft has released the security advisory ADV180002
+and provided several security updates to help mitigate speculative
+execution side-channel vulnerabilities. For more details, please refer
+to the following.
+
+    ADV180002 | Guidance to mitigate speculative execution side-channel vulnerabilities
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV180002
+
+
+III. References
+    Microsoft Corporation
+    January 2018 Security Updates 
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/c383fa60-b852-e711-80dd-000d3a32f9b6
+
+    Microsoft Corporation
+    Microsoft Security Updates for January 2018 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2018/1/10/201801-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Adobe Systems Incorporated
+    Security updates available for Flash Player | APSB18-01
+    https://helpx.adobe.com/security/products/flash-player/apsb18-01.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerability in Adobe Flash Player (APSB18-01)
+    https://www.jpcert.or.jp/english/at/2018/at180001.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

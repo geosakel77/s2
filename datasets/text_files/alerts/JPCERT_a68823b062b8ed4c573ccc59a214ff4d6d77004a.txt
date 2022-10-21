@@ -1,0 +1,124 @@
+JPCERT-AT-2016-0051
+                                                             JPCERT/CC
+                                                    2016-12-22(Initial)
+                                                    2017-03-08(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-12-22 &gt;&gt;&gt;
+
+    Alert regarding vulnerability (CVE-2016-7836) in SKYSEA Client View
+
+         https://www.jpcert.or.jp/english/at/2016/at160051.html
+
+
+I. Overview
+
+  A vulnerability (CVE-2016-7836) in SKYSEA Client View provided by
+Sky Co., LTD. has been disclosed. On a device that has SKEYSEA Client
+View installed, a remote attacker may execute arbitrary code when the
+device is placed in a specific environment. For more information on
+the vulnerability, please refer to the information provided by
+Sky Co., LTD.
+
+   [Important] Alert for users who operate SKYSEA Client View in global IP address environment (CVE-2016-7836) (Japanese)
+   http://www.skyseaclientview.net/news/161221/
+
+  The agent program in SKYSEA Client View installed in a device
+contains a function that receives commands from the management console
+to receive files and execute programs. This function contains a
+vulnerability in processing authentication within the TCP connection
+between the management console and client device. This vulnerability
+may be exploited to execute unauthorized code received from a device
+impersonating the management console. According to Sky Co., LTD.,
+attacks in the wild exploiting this vulnerability have been observed.
+
+** Update: Mar 8, 2017 Update ***************************************
+  On March 8, 2017, Sky Co., LTD. has updated the information regarding
+the solution for this vulnerability and also recommended applying the
+solution.
+  Attacks which leverage this vulnerability have been observed
+continuously, and JPCERT/CC has also received reports of the attacks.
+Users of this product are recommended to update the software to the
+latest version as soon as possible.
+
+    Sky Co., LTD.
+    Information on SKYSEA Client View update and the latest version released (Japanese)
+    http://www.skygroup.jp/security-info/170308.html
+*********************************************************************
+
+
+II. Affected Products
+
+  The following versions are affected by this vulnerability:
+
+  - SKYSEA Client View Ver.11.221.03 and earlier
+
+  When these versions meet all of the following conditions, it is
+affected by this vulnerability:
+
+  - When a global IP address is assigned to the client device
+  - When the port used by "SKYSEA Client View" for communications is
+    not blocked on the client device
+
+
+III. Solution
+
+  Please update SKYSEA Client View to the latest version listed below:
+
+  - SKYSEA Client View Ver.11.300.08h
+
+  In addition, Sky Co., LTD. has provided a patch that addresses the
+vulnerability. Apply this patch to devices (master server, management
+console, client device) that have SKYSEA Client View installed.
+
+    Website for users with maintenance contract (Japanese)
+    https://www.skyseaclientview.net/scv_sp/d/?l=news1557
+
+** Update: Mar 8, 2017 Update ***************************************
+  On March 6, 2017, Sky Co., LTD. has released a security-enhanced
+version which improved connection authentication of TCP communication
+and so forth.  For more details, please refer to the information
+provided by Sky Co., LTD.
+
+  - SKYSEA Client View Ver.11.400.07o
+
+  According to Sky Co., LTD.,  either of the following measure is
+recommended.
+
+  - update to Ver.11.300.08h or Ver.11.400.07o
+  - apply the seculity patch
+*********************************************************************
+
+
+IV. References
+
+    Sky Co., LTD.
+    [Important] Alert for users who operate SKYSEA Client View in global IP address environment (CVE-2016-7836) (Japanese)
+    http://www.skyseaclientview.net/news/161221/
+
+    JVNVU#84995847
+    SKYSEA Client View vulnerable to arbitrary code execution
+    https://jvn.jp/en/jp/JVN84995847/index.html
+
+    National Police Agency
+    Alert regarding vulnerability of the software (Japanese)
+    https://www.npa.go.jp/cyberpolice/detect/pdf/20161222.pdf
+
+** Update: Mar 8, 2017 Update ***************************************
+    Sky Co., LTD.
+    Information on SKYSEA Client View update and the latest version released (Japanese)
+    http://www.skygroup.jp/security-info/170308.html
+*********************************************************************
+
+
+   If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2016-12-22 First edition
+2017-03-08 Updated "I. Overview", "III. Solution" and "IV. References"
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

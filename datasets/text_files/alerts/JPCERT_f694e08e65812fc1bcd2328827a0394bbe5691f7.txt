@@ -1,0 +1,137 @@
+JPCERT-AT-2010-0028
+                                                             JPCERT/CC
+                                            2010-10-27 (First edition)
+                                                  2010-10-27 (Updated)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2010-10-27 &gt;&gt;&gt;
+
+        Web analytics service exploited for malicious purposes
+
+             https://www.jpcert.or.jp/at/2010/at100028.txt
+
+
+I. Overview
+
+  From the end of September to mid-October, 2010, JPCERT/CC received 
+reports on malware infections that were considered to be transmitted 
+through a certain web analytics service. If a user, during the above 
+period, viewed a website that uses this analytics service, the user's 
+PC may be infected with malware. Since many commercial websites are 
+using this web analytics service, a wide range of users may have been 
+affected.
+
+*** Update: Added on October 27, 2010 ********************************
+* JPCERT/CC has requested the web analytics service provider to 
+  investigate this vulnerability to solve the problem. The provider 
+  is currently conducting a thorough investigation.
+**********************************************************************
+
+JPCERT/CC has confirmed that the malware spread through the web 
+analytics service has stopped. However, if a user viewed a 
+corresponding website, during the above mentioned period, on a 
+PC where vulnerable old software is installed, the PC may have been 
+infected with malware. Just in case, make sure that the PC is not 
+infected.
+
+Similar attacks may be carried out again. The OS and application 
+software should be kept updated by applying patches as necessary.
+
+* Because details of the attacks are not clarified yet, JPCERT/CC is 
+  continuing to investigate this problem.
+
+
+II. Attack Scenario
+
+  A possible attack scenario is as follows:
+
+  1) An attacker injects attacking code in some way in the web 
+     analytics service provider's server, so that a user's PC will be 
+     infected with malware when a website using this service is 
+     displayed.
+     - Since many commercial websites are using this web analytics 
+       service, a wide range of users may have been affected.
+
+  2) When a user views a corresponding website, the attacking code in 
+     1) is executed and the user's PC is infected with malware.
+     - It has been confirmed that an existing Java vulnerability is 
+       exploited.
+
+  3) The infected PC downloads other malware from external networks 
+     and is infected with more than one malware. 
+
+* JPCERT/CC is making arrangements to suspend the sites exploited for 
+  malware infections described in 2) and 3).
+
+
+III. Detection
+
+JPCERT/CC has confirmed that infected PCs contain the files shown 
+below. A system containing these files may be infected with malware.
+
+  Files contained in infected PCs:
+    - mstmp
+    - lib.dll
+    - lib.sig
+    - AdvBHO.dll
+
+  Example of file search procedure (for Windows XP):
+    1) Click Search from the Start menu.
+    2) Click "All files and folders" in Search Companion.
+    3) Enter a file name in the "All or part of the file name" box, 
+       and then click the Search button. 
+    4) Check that the above file names are not displayed in the search 
+       result.
+
+  * File names which partly match the search terms may be displayed in 
+    the search result, for example xxxxlib.dll. These may not be 
+    infectious files, so they should be scanned using anti-virus 
+    software.
+
+It is possible that files with other names than the above are used for 
+attacks. Users are recommended to also scan the entire system with 
+anti-virus software.
+
+
+IV. Solution
+
+  Check whether the PC is infected with malware according to the "III. 
+Detection".
+
+  [When infected with malware]
+    - Disconnect the PC from the network, and remove the malware 
+      following a system administrator's instructions. If it is 
+      difficult to remove it, consider performing a clean installation.
+     * An infected PC attempts to download other malware from external 
+       networks, so it may be infected with more than one malware. 
+    - After removing the malware, update the OS and software of the PC 
+      to the latest versions.
+    - Update anti-virus software pattern files, and ensure that the 
+      anti-virus software's virus detection feature is enabled.
+
+  [When not infected with malware]
+    - Check that the OS and software installed on the PC is up-to-date. 
+      Update them to the latest versions if necessary.
+    - Update anti-virus software pattern files, and ensure that the 
+      anti-virus software's virus detection feature is enabled.
+
+
+V. References
+
+   Trend Micro security blog
+   Malware infections found at more than 100 companies in Japan. Spreading malicious programs with names such as "mstmp" and "lib.dll"
+   http://blog.trendmicro.co.jp/archives/3723
+
+*** Update: Added on October 27, 2010 ********************************
+   "mstmp" virus infection via drive-by download attack
+   https://www-950.ibm.com/blogs/tokyo-soc/entry/dbyd_mstmp_20101027?lang=ja
+**********************************************************************
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

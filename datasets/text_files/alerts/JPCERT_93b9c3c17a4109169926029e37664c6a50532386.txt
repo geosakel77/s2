@@ -1,0 +1,91 @@
+JPCERT-AT-2012-0027
+                                                             JPCERT/CC
+                                                            2012-08-23
+
+
+                   &lt;&lt;&lt; JPCERT/CC Alert 23-08-12 &gt;&gt;&gt;
+
+               Disclosure of credentials with MS-CHAP v2
+
+        https://www.jpcert.or.jp/english/at/2012/at120027.html
+
+
+I. Overview
+
+  Microsoft Challenge Handshake Authentication Protocol (MS-CHAP)
+version 2, is widely used as an authentication method in
+Point-to-Point Tunneling Protocol (PPTP)-based VPNs. With MS-CHAP v2,
+a third party may steal credentials. MS-CHAP v2 may be used as an
+authentication protocol for wired and wireless LAN in some cases.
+
+  An attacker could steal user authentication traffic via a
+man-in-the-middle attack or intercepting wireless communications and
+then acquiring credentials by leveraging the vulnerabilities
+associated with MS-CHAP v2. As a result, the attacker may decrypt
+protected communication or illegally access a system using the
+acquired credentials.
+
+    Microsoft Security Advisory (2743314)
+    Unencapsulated MS-CHAP v2 Authentication Could Allow Information Disclosure
+    http://technet.microsoft.com/en-us/security/advisory/2743314
+
+  Microsoft Japan states that detailed exploit code has been publicly
+available for this vulnerability. Taking into account the possibility
+of future attacks leveraging this vulnerability, it is recommended to
+consider the solution shown in III , if accessing an internal system
+through a PPTP-based VPN.
+
+
+II. Affected Systems
+
+  Any system with PPTP-based VPN connections using only MS-CHAP v2
+
+  * Users are not affected if they encrypt the MS-CHAP v2 authentication
+    traffic with other methods.
+
+  According to Microsoft Japan, users are not affected if they use
+MS-CHAP v2 as a protocol to authenticate wired or wireless LAN on a
+Windows client. This is because Microsoft offers only one option:
+using PEAP in combination with MS-CHAP v2. Those who use other
+appliances are unlikely to be affected since PEAP, TLS, and others are
+generally used together with MS-CHAP v2 in many
+implementations. However, it is recommended to refer to the
+information provided by the relevant vendor.
+
+
+III. Solution
+
+  When you build a new system or update an existing system, do not use
+only MS-CHAP v2; use PEAP or another expanded protocol in combination
+or consider a configuration that does not involve PPTP (such as
+IKEv2/IPSec and L2TP/IPSec).
+
+  Please use PEAP or other expanded protocol together with MS-CHAP v2
+or VPNs other than PPTP-based ones, in current and future system
+configuration.
+
+  If you continue to use only MS-CHAP v2 until the migration is
+completed, make sure that there is no unauthorized access by
+periodically checking the authentication log of currently operated
+network appliances or servers.
+
+
+IV. References
+
+    Microsoft Security Advisory (2743314)
+    Unencapsulated MS-CHAP v2 Authentication Could Allow Information Disclosure
+    http://technet.microsoft.com/en-us/security/advisory/2743314
+
+    Japan Security Team
+    Released the Security Advisory #2743314: Unencapsulated MS-CHAP v2 Authentication Could Allow Information Disclosure
+    http://blogs.technet.com/b/jpsecurity/archive/2012/08/21/3515331.aspx
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

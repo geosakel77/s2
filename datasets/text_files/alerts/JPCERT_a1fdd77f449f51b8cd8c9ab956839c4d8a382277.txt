@@ -1,0 +1,135 @@
+JPCERT-AT-2020-0047
+                                                             JPCERT/CC
+                                                    2020-12-09(Initial)
+                                                    2020-12-17(Update)
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2020-12-09 &gt;&gt;&gt;
+
+          Microsoft Releases December 2020 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2020/at200047.html
+
+
+I. Overview
+Microsoft has released December 2020 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    December 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Dec
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* If the same vulnerability spans multiple KBs, listing up each
+
+    CVE-2020-17095
+    Hyper-V Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2020-17095
+    - KB4592438, KB4592440, KB4592446, KB4592449, KB4593226
+
+    CVE-2020-17117
+    Microsoft Exchange Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2020-17117
+    - KB4593465, KB4593466
+
+    CVE-2020-17118
+    Microsoft SharePoint Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2020-17118
+    - KB4486751, KB4486753, KB4493138, KB4493149
+
+    CVE-2020-17121
+    Microsoft SharePoint Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2020-17121
+    - KB4486751, KB4486753, KB4493138, KB4593149
+
+    CVE-2020-17131
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2020-17131
+    - KB4592438, KB4592440, KB4592449
+
+    CVE-2020-17132
+    Microsoft Exchange Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2020-17132
+    - KB4593465, KB4593466
+
+    CVE-2020-17142
+    Microsoft Exchange Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2020-17142
+    - KB4593465, KB4593466
+
+    CVE-2020-17152
+    Microsoft Dynamics 365 for Finance and Operations (on-premises) Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-17152
+    - KB number is not assigned
+
+    CVE-2020-17158
+    Microsoft Dynamics 365 for Finance and Operations (on-premises) Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-17158
+    - KB number is not assigned
+
+** Update: December 17, 2020 Update **********************************
+On November 10, 2020 (US time), Microsoft released information
+regarding security feature bypass vulnerability (CVE-2020-17049) in
+Kerberos Key Distribution Center (KDC). When this vulnerability is
+exploited, a compromised service that is configured to use Kerberos
+Constrained Delegation (KCD) could tamper with a service ticket that
+is not valid for delegation to force the KDC to accept it.
+
+    CVE-2020-17049
+    Kerberos KDC Security Feature Bypass Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-17049
+
+On December 8, 2020, JPCERT/CC confirmed that the Proof-of-Concept
+code for this vulnerability has been made public.
+
+Microsoft plans to provide security updates for this vulnerability in
+two phases. The first phase is the initial deployment phase for
+Windows updates released after December 9, 2020, and the second phase
+is the enforcement phase for Windows updates scheduled to be released
+on or after February 10, 2021.
+At this time, in addition to applying the update on December 9, it is
+necessary to change the registry setting to enforcement mode. Please
+be sure to check the impact before applying update and making the
+change. For more information, please refer to the information provided
+by Microsoft.
+
+    Microsoft Corporation
+    Managing deployment of Kerberos S4U changes for CVE-2020-17049
+    https://support.microsoft.com/en-us/help/4598347/managing-deployment-of-kerberos-s4u-changes-for-cve-2020-17049
+**********************************************************************
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    December 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Dec
+
+    Microsoft Corporation
+    Microsoft Security Updates for December 2020 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2020/12/08/202012-security-updates/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2020-12-09 First edition
+2020-12-17 Updated "I. Overview"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

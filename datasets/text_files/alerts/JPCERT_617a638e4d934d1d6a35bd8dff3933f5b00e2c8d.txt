@@ -1,0 +1,76 @@
+JPCERT-AT-2022-0013
+                                                             JPCERT/CC
+                                                            2022-05-09
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2022-05-09 &gt;&gt;&gt;
+
+Alert Regarding Vulnerabilities in Operation management interface of FUJITSU Network IPCOM
+
+       https://www.jpcert.or.jp/english/at/2022/at220013.html
+
+
+I. Overview
+On May 9, 2022, FUJITSU LIMITED released information on multiple
+vulnerabilities in FUJITSU Network IPCOM. A remote attacker exploiting
+the vulnerabilities may execute an arbitrary OS command or obtain
+and/or alter sensitive information, etc.
+
+    FUJITSU LIMITED
+    Regarding vulnerabilities in communication between IPCOM series command operation terminal / Web browser terminal and IPCOM (Text in Japanese)
+    https://www.fujitsu.com/jp/products/network/support/2022/ipcom-01/
+
+The users of the affected products are recommended to take measures
+such as updating to the latest version or apply workarounds by
+referring to the information provided by FUJITSU LIMITED.
+
+
+II. Affected Products
+The following products are affected by the vulnerabilities:
+
+ - IPCOM EX2 series
+ - IPCOM EX series
+ - IPCOM VE2 series
+ - IPCOM VA2/VE1 series
+
+
+III. Solution
+FUJITSU LIMITED has released firmware versions that address these
+vulnerabilities. Please update to the versions by referring to the
+information provided by FUJITSU LIMITED.
+
+ - IPCOM EX2 V01L05 NF0501
+ - IPCOM EX E20L33 NF1101
+
+As for the latest information on the firmware affected by these
+vulnerabilities, please check the information provided by FUJITSU
+LIMITED or JVN.
+
+
+IV. Workarounds
+These vulnerabilities are only exploited if an attacker can access the
+IPCOM management interface. The exploitation of the vulnerabilities can
+be avoided by applying one of the following workarounds to prevent
+access from terminal other than authorized Operation management
+terminal.
+
+ - Prepare a dedicated network to deploy Operation management interface and allow access to the Operation management interface only from the network
+ - Set individual permissions for Operation management terminal
+
+
+V. References
+    FUJITSU LIMITED
+    Regarding vulnerabilities in communication between IPCOM series command operation terminal / Web browser terminal and IPCOM (Text in Japanese)
+    https://www.fujitsu.com/jp/products/network/support/2022/ipcom-01/
+
+    Japan Vulnerability Notes JVN#96561229
+    Multiple vulnerabilities in Operation management interface of FUJITSU Network IPCOM
+    https://jvn.jp/en/jp/JVN96561229/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

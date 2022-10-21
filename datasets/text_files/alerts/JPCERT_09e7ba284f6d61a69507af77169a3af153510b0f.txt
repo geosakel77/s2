@@ -1,0 +1,155 @@
+JPCERT-AT-2017-0049
+                                                             JPCERT/CC
+                                                    2017-12-19(Initial)
+                                                    2018-03-12(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-12-19 &gt;&gt;&gt;
+
+               Alert Regarding Mirai Variant Infections
+
+        https://www.jpcert.or.jp/english/at/2017/at170049.html
+
+
+I. Overview
+Since November 2017, Mirai variant infections have been observed
+domestically. Devices infected with Mirai and its variants become part
+of a botnet, receive commands from a remote attacker and are used to
+conduct DDoS attacks.
+
+https://www.jpcert.or.jp/english/at/2017/at170049_fig1_english.png
+
+Figure 1: Scans that appear to be related to Mirai variant infections observed by Internet threat monitoring system TSUBAME (October 2017 through December 2017)
+* Click to enlarge
+
+** Update: March 12, 2018 Update *************************************
+The graph legend data was corrected as 52869/tcp and 37215/tcp had
+been incorrectly described in reverse in the graph legend.
+**********************************************************************
+
+Investigations by JPCERT/CC, National Institute of Information and
+Communications Technology (NICT), National Policy Agency revealed that
+infections were being spread through exploitation of a known vulnerability
+(CVE-2014-8351). Further investigation revealed that a large number of
+the infected devices included broadband routers from Logitec Corp.
+Publicly available information also states that routers from Huawei (HG532)
+have also been targeted.
+
+Logitec Corp. had confirmed the issue and provided updated versions of
+firmware since June 2013. However, with infections spreading, they
+have issued a notice to users to apply the update.
+
+    Logitec Corp.
+    Important notice regarding 300 Mbps Wireless LAN broadband routers and set models (11 models) by Logitec Corp. (Japanese)
+    http://www.logitec.co.jp/info/2017/1219.html
+
+In JPCERT/CC observations, the infected devices were seen to be placed
+in multiple domestic ISP's network. It was determined that users of the
+affected products needed to be notified and have released this alert
+in conjunction with multiple organizations.
+
+Users of affected products are strongly recommended to apply the solution
+as soon as possible.
+
+
+II. Affected Products
+According to Logitec Corp., products and versions affected by the
+vulnerability which are exploited for Mirai variant infections are the
+following:
+
+  - LAN-WH300N/DR   prior to Ver2.14
+  - LAN-W300N/DR    prior to Ver2.14
+  - LAN-WH300N/DRCV prior to Ver2.14
+  - LAN-WH300N/DRCY prior to Ver2.14
+  - LAN-W300N/R     prior to Ver2.33
+  - LAN-W300N/RU2   prior to Ver2.33
+  - LAN-W300N/RS    prior to Ver2.33
+  - LAN-W300N/P     prior to Ver3.09
+  - LAN-W300N3L     prior to Ver1.13N3L
+  - LAN-WH300N/DGR  prior to Ver1.26
+  - LAN-WH300N/DGRU prior to Ver1.26
+
+* The above information is as of December 19, 2017. Affected products
+  and vendors may change.
+
+
+III. Solution
+For products listed in "II. Affected Products", Logitec Corp. has
+provided updated firmware. Users of affected products should check to
+make sure that the updated version of firmware is being used. If a
+device has already been infected, updating the firmware will delete
+the Mirai variant.
+
+  - LAN-WH300N/DR   Ver2.14 (released on June 11, 2014)
+  - LAN-W300N/DR    Ver2.14 (released on June 11, 2014)
+  - LAN-WH300N/DRCV Ver2.14 (released on June 11, 2014)
+  - LAN-WH300N/DRCY Ver2.14 (released on June 11, 2014)
+  - LAN-W300N/R     Ver2.33 (released on November 6, 2013)
+  - LAN-W300N/RU2   Ver2.33 (released on November 6, 2013)
+  - LAN-W300N/RS    Ver2.33 (released on November 6, 2013)
+  - LAN-W300N/P     Ver3.09 (released on August 22, 2014)
+  - LAN-W300N3L     Ver1.13N3L (released on June 25, 2013)
+  - LAN-WH300N/DGR  Ver1.26 (released on October 15, 2014)
+  - LAN-WH300N/DGRU Ver1.26 (released on October 15, 2014)
+
+Malware such as Mirai and its variants spread infections not just
+through the exploitation of vulnerabilities, but also use device ID's
+and passwords. In order to prevent a device from becoming infected and
+used as part of a botnet, please refer to the following information and
+apply any appropriate countermeasures.
+
+    JPCERT/CC
+    Alert on managing devices connected to the Internet
+    https://www.jpcert.or.jp/english/at/2016/at160050.html
+
+    JVNTA#95530271
+    Threats of DDoS attacks by botnets created through malware such as Mirai (Japanese)
+    https://jvn.jp/ta/JVNTA95530271/
+
+
+IV. References
+    Logitec Corp.
+    Important notice regarding 300 Mbps Wireless LAN broadband routers and set models (11 models) by Logitec Corp. (Japanese)
+    http://www.logitec.co.jp/info/2017/1219.html
+
+    National Institute of Information and Communications Technology (NICT)
+    Mirai variant activities that exploit IoT product vulnerabilities to spread infections (2017-12-19) (Japanese)
+    http://www.nicter.jp/report/2017-01_mirai_52869_37215.pdf
+
+    National Police Agency (@police)
+    Observations of scans from within Japan using Telnet and access to port 52869/TCP targeting routers with vulnerabilities (Japanese)
+    https://www.npa.go.jp/cyberpolice/detect/pdf/201712191.pdf
+    
+    Japan Cybercrime Control Center (JC3)
+    Increase in domestic infections of Mirai variants (Japanese)
+    https://www.jc3.or.jp/topics/mirai_s.html
+
+    ICT-ISAC
+    Alert regarding IoT bots (Japanese)
+    https://www.ict-isac.jp/news/news20171219.html
+
+    Internet Initiative Japan (IIJ)
+    Sharp increase in domestic infections of Mirai variants (Observations as of November 2017) (Japanese)
+    https://sect.iij.ad.jp/d/2017/12/074702.html
+
+    HUAWEI
+    Security Notice - Statement on Remote Code Execution Vulnerability in Huawei HG532 Product 
+    http://www.huawei.com/en/psirt/security-notices/huawei-sn-20171130-01-hg532-en
+
+    Fortinet
+    Rise of One More Mirai Worm Variant
+    https://blog.fortinet.com/2017/12/12/rise-of-one-more-mirai-worm-variant
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2017-12-19 First edition
+2018-03-12 Corrected the graph legend data (37215/tcp, 52869/tcp) in Figure 1
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

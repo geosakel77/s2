@@ -1,0 +1,89 @@
+JPCERT-AT-2016-0011
+                                                            JPCERT/CC
+                                                  2016-03-09(Initial)
+                                                  2016-03-11(Update)
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2016-03-09 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for March 2016
+                 (including 5 critical patches)
+
+      https://www.jpcert.or.jp/english/at/2016/at160011.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for March, 2016.
+This bulletin contains five (5) updates that are rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for March 2016
+    https://technet.microsoft.com/en-us/library/security/ms16-mar
+
+  [Security updates rated as "critical"]
+
+    MS16-023
+    Cumulative Security Update for Internet Explorer (3142015)
+    https://technet.microsoft.com/en-us/library/security/MS16-023
+
+    MS16-024
+    Cumulative Security Update for Microsoft Edge (3142019)
+    https://technet.microsoft.com/en-us/library/security/MS16-024
+
+    MS16-026
+    Security Update for Graphic Fonts to Address Remote Code Execution (3143148)
+    https://technet.microsoft.com/en-us/library/security/MS16-026
+
+    MS16-027
+    Security Update for Windows Media to Address Remote Code Execution (3143146)
+    https://technet.microsoft.com/en-us/library/security/MS16-027
+
+    MS16-028
+    Security Update for Microsoft Windows PDF Library to Address Remote Code Execution (3143081)
+    https://technet.microsoft.com/en-us/library/security/MS16-028
+
+** Update: March 11, 2016 Update ****************************************
+    MS16-036
+    Security Update for Adobe Flash Player (3144756)
+    https://technet.microsoft.com/en-us/library/security/MS16-036
+************************************************************************
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for March 2016
+    https://technet.microsoft.com/en-us/library/security/ms16-mar
+
+    Microsoft
+    Microsoft Security Information for March 2016 (Monthly) MS16-023 - MS16-035 (Japanese)
+    http://blogs.technet.com/b/jpsecurity/archive/2016/03/09/201603-security-bulletin.aspx
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2016-03-09 First edition
+2016-03-11 Updated "Overview" 
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

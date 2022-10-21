@@ -1,0 +1,161 @@
+JPCERT-AT-2021-0029
+                                                             JPCERT/CC
+                                                    2021-07-05(Initial)
+                                                    2021-07-09(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2021-07-05 &gt;&gt;&gt;
+
+ Alert Regarding Windows Print Spooler Vulnerability (CVE-2021-34527)
+
+        https://www.jpcert.or.jp/english/at/2021/at210029.html
+
+
+I. Overview
+On July 1, 2021 (US Time), Microsoft has released an advisory regarding
+Windows Print Spooler vulnerability (CVE-2021-34527).
+When the vulnerability is exploited, an authenticated user may be able
+to execute arbitrary code with SYSTEM privileges on Windows system.
+For example, an attacker may be able to execute arbitrary code on the
+domain controller after gaining access to a domain user privilege in
+the target internal network, then perform further attacks with domain
+admin privilege. 
+
+    Microsoft
+    Windows Print Spooler Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34527
+
+JPCERT/CC confirmed the information of detailed explanation of the
+vulnerability and the Proof-of-Concept (PoC) code. Since this
+vulnerability may be exploited in an actual attack, we recommend checking
+Microsoft's information and consider applying workarounds and mitigations
+immediately. We also recommend applying the security update against the
+vulnerability as soon as it is released.
+
+
+II. Affected Products and Versions
+For the latest information on the affected products and versions for the
+vulnerability, please refer to the Microsoft's information.
+
+According to Microsoft, all versions of Windows contain the vulnerable
+code and are vulnerable, and the conditions for the domain controller and
+client system to be affected by the vulnerability are explained
+respectively. 
+
+** Update: July 7, 2021 Update **************************************
+The products and versions affected by this vulnerability is as follows:
+
+  - Windows Server
+  - Windows Server 2019
+  - Windows Server 2016
+  - Windows Server 2012 R2
+  - Windows Server 2012
+  - Windows Server 2008 R2
+  - Windows Server 2008
+  - Windows 10
+  - Windows RT 8.1
+  - Windows 8.1
+  - Windows 7
+*********************************************************************
+
+
+III. Solution
+As of July 5, 2021, Microsoft has not released an update that addresses
+this vulnerability, but it will be released as soon as it is ready.
+We recommend paying attention to the information provided by Microsoft
+and apply the update as soon as it is released.
+
+** Update: July 7, 2021 Update **************************************
+On July 6, 2021 (local time), Microsoft released updates that address
+this vulnerability. According to Microsoft, this update contain
+protections for CVE-2021-1675 and the additional remote code execution
+exploit in the Windows Print Spooler service known as "PrintNightmare",
+documented in CVE-2021-34527.
+
+Updates are not yet available for Windows 10 version 1607, Windows
+Server 2016, or Windows Server 2012. Security updates for these versions
+of Windows are expected to be released soon.
+*********************************************************************
+
+** Update: July 8, 2021 Update **************************************
+On July 7, 2021 (local time), Microsoft released updates for Windows 10
+version 1607, Windows Server 2016, or Windows Server 2012.
+
+Microsoft states that depending on the setting on PointAndPrint,
+Windows can become vulnerable by design. It is recommended to check
+the settings of your environment by referring to the Microsoft advisory
+that shows the recommended related registry settings.
+*********************************************************************
+
+As a countermeasure against known vulnerabilities, Microsoft also
+recommends applying the update released in June 2021. 
+
+
+IV. Workarounds
+Microsoft has provided a workaround for the vulnerability. Please
+refer to the Microsoft information and consider applying the workaround.
+Microsoft recommends disabling the Print Spooler service on domain
+controllers due to security risks. 
+
+    Microsoft
+    Security assessment: Domain controllers with Print spooler service available
+    https://docs.microsoft.com/en-us/defender-for-identity/cas-isp-print-spooler
+
+
+V. Mitigations
+Microsoft has provided information on mitigations to reduce the attack
+surface and as an alternative if the workaround is difficult to apply.
+It is recommended to check membership and nested group membership in
+the specific groups in order to prevent attacks against domain
+controllers.
+
+
+VI. References
+    Microsoft
+    Windows Print Spooler Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34527
+
+    CERT/CC Vulnerability Note VU#383432
+    Microsoft Windows Print Spooler allows for RCE via AddPrinterDriverEx()
+    https://www.kb.cert.org/vuls/id/383432
+
+** Update: July 7, 2021 Update **************************************
+    Microsoft
+    KB5005010: Restricting installation of new printer drivers after applying the July 6, 2021 updates
+    https://support.microsoft.com/en-us/topic/kb5005010-restricting-installation-of-new-printer-drivers-after-applying-the-july-6-2021-updates-31b91c02-05bc-4ada-a7ea-183b129578a7
+
+    Microsoft
+    Out-of-Band (OOB) Security Update available for CVE-2021-34527
+    https://msrc-blog.microsoft.com/2021/07/06/out-of-band-oob-security-update-available-for-cve-2021-34527/
+*********************************************************************
+
+** Update: July 8, 2021 Update **************************************
+    Microsoft
+    Out-of-Band (OOB) Security Update available for Windows Print Spooler vulnerability (CVE-2021-34527) (Japanese) 
+    https://msrc-blog.microsoft.com/2021/07/06/20210707_windowsprintspooleroob/
+*********************************************************************
+
+** Update: July 9, 2021 Update **************************************
+    Microsoft
+    Clarified Guidance for CVE-2021-34527 Windows Print Spooler Vulnerability
+    https://msrc-blog.microsoft.com/2021/07/08/clarified-guidance-for-cve-2021-34527-windows-print-spooler-vulnerability/
+
+    Microsoft
+    Guidance for customers regarding Windows Print Spooler vulnerability (CVE-2021-34527) (Japanese)
+    https://msrc-blog.microsoft.com/2021/07/08/20210709_guidancecve202134527/
+*********************************************************************
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2021-07-05 First edition
+2021-07-07 Updated "II. Affected Products and Versions", "III. Solution" and "VI. References"
+2021-07-08 Updated "III. Solution" and "VI. References"
+2021-07-09 Updated "VI. References"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

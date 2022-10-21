@@ -1,0 +1,99 @@
+JPCERT-AT-2009-0008
+                                                             JPCERT/CC
+                                                            2009-05-13
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2009-05-13 &gt;&gt;&gt;
+
+                May 2009 Microsoft Security Bulletin
+                        (one critical patch)
+
+            https://www.jpcert.or.jp/at/2009/at090008.txt
+
+I. Overview
+
+  Microsoft has released its security bulletin summary for May 2009,
+which contains one security update with severity rating "Critical".
+
+  A remote attacker could use this vulnerability to execute arbitrary
+code.
+
+  For further information about this vulnerability, refer to the
+following URLs.
+
+    Microsoft Security Bulletin Summary for May 2009
+    http://www.microsoft.com/technet/security/bulletin/ms09-may.mspx
+
+
+    [Critical Security Update]
+
+    MS09-017
+    Vulnerabilities in Microsoft Office PowerPoint Could Allow Remote
+      Code Execution (967340)
+    http://www.microsoft.com/technet/security/bulletin/ms09-017.mspx
+
+  In addition, extended support for Microsoft Office 2000 expires on
+July 14 2009.  Individuals or organizations using these products
+should investigate updating to a newer, supported version of Microsoft
+Office.
+  
+    Microsoft Support Lifecycle
+    http://support.microsoft.com/lifecycle/?LN=en-us&amp;p1=2484&amp;x=17&amp;y=20
+
+
+III. Affected products
+
+    Products affected by this vulnerability are listed below:
+
+    - Microsoft Office 2000 Service Pack 3
+    - Microsoft Office XP Service Pack 3
+    - Microsoft Office 2003 Service Pack 3
+    - 2007 Microsoft Office System Service Pack 1
+    - 2007 Microsoft Office System Service Pack 2
+    - Microsoft Office 2004 for Mac
+    - Microsoft Office 2008 for Mac
+    - Open XML File Format Converter for Mac
+    - PowerPoint Viewer 2003
+    - PowerPoint Viewer 2007 Service Pack 1 and PowerPoint Viewer 
+      2007 Service Pack 2
+    - Microsoft Office Compatibility Pack for Word, Excel, and 
+      PowerPoint 2007 File Formats Service Pack 1
+    - Microsoft Office Compatibility Pack for Word, Excel, and 
+      PowerPoint 2007 File Formats Service Pack 2
+    - Microsoft Works 8.5
+    - Microsoft Works 9
+    
+    * Note: as of 13 May 2009, updates for Microsoft Office 2004 for
+      Mac, Microsoft Office 2008 for Mac, Open XML File Format
+      Converter for Mac, Microsoft Works 8.0 and Microsoft Works 9.0
+      had not been released.
+
+
+III. Solution
+
+  Use means such as Microsoft Update or Windows Update to apply the
+security update immediately.
+
+    Microsoft Update
+    https://update.microsoft.com/
+
+    Windows Update
+    https://windowsupdate.microsoft.com/
+
+
+IV. References
+
+    Microsoft Security Bulletin Summary for May 2009
+    http://www.microsoft.com/technet/security/bulletin/ms09-may.mspx    
+
+    US-CERT Technical Cyber Security Alert TA09-132A
+    Microsoft PowerPoint Multiple Vulnerabilities
+    http://www.us-cert.gov/cas/techalerts/TA09-132A.html
+
+  If you have any information you could provide regarding this alert,
+please contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+https://www.jpcert.or.jp/

@@ -1,0 +1,109 @@
+JPCERT-AT-2016-0036
+                                                             JPCERT/CC
+                                                            2016-09-27
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-09-27 &gt;&gt;&gt;
+
+Alert regarding attacks exploiting vulnerabilities in software used for websites
+
+         https://www.jpcert.or.jp/english/at/2016/at160036.html
+
+
+I. Overview
+  JPCERT/CC has observed attacks exploiting vulnerabilities in software
+used for web applications. Through exploitation of vulnerabilities in
+web applications or software used for web applications, various kinds of
+damages may occur, including website compromise.
+
+  Joomla!, an open source CMS, contains a vulnerability*2 executing
+arbitrary code, which originates in a PHP vulnerability*1. JPCERT/CC
+has received reports on website compromise resulting from attacks
+exploiting these vulnerabilities.
+  *1: CVE-2015-6835: PHP
+  *2: CVE-2015-8562: Joomla!
+
+  In order to protect your websites from such attacks, it is recommended
+to refer to the information provided in "II. Solution" and
+"III. References" to address any issues as soon as possible.
+
+
+II. Solution
+  Please consider the following check points and countermeasures:
+
+  (Check points)
+  - Check whether the version of the software being used (programming
+    language, development framework, library, etc.) for the web
+    application (CMS, etc.) is the latest available version
+  - Periodically check web server access logs and for any suspicious
+    requests
+  - Check whether there are any unauthorized programs within the
+    website contents or any content alterations
+  - Perform a third-party security assessment on the website to check
+    for any vulnerabilities in the website
+
+  (Countermeasures)
+  - Update the web application and the software being used to the
+    latest available version
+  - Use a Web Application Firewall (WAF) to block any packets that
+    attempt to exploit the vulnerabilities
+
+  The versions of PHP and Joomla! that address the vulnerabilities
+stated in "I. Overview" are as follows:
+
+    - PHP
+    Versions 5.4.45 and later
+    Versions 5.5.29 and later
+    Versions 5.6.13 and later
+    
+    * php has provided an announcement on supported versions. For those
+      using unsupported versions PHP 5.4.x and PHP 5.5.x are recommended
+      to update to a version that is currently being supported.
+      
+        - Support for version 5.4.x ended in September 2015
+        - Support for version 5.5.x ended in July 2016
+
+        For more information on supported versions, please refer to the
+        information provided by php.
+
+        php
+        Supported Versions
+        https://php.net/supported-versions.php
+        
+    - Joomla!
+    Versions 3.4.6 and later
+
+
+III. References
+php
+Sec Bug #70219 Use after free vulnerability in session deserializer
+https://bugs.php.net/bug.php?id=70219
+
+Joomla!
+[20151201] - Core - Remote Code Execution Vulnerability 
+https://developer.joomla.org/security-centre/630-20151214-core-remote-code-execution-vulnerability.html
+
+HASH Consulting Corporation
+"Code execution zero-day vulnerability" in Joomla! due to known PHP vulnerability (Japanese)
+http://blog.tokumaru.org/2015/12/joomla-zero-day-attack-caused-by-php.html
+
+JPCERT/CC
+Alert "Periodically check website in preparation of cyber attacks" (Japanese)
+https://www.jpcert.or.jp/pr/2016/pr160004.html
+
+Information-technology Promotion Agency (IPA)
+iLogScanner - Tool for detecting suspicious attacks against web servers (Japanese)
+https://www.ipa.go.jp/security/vuln/iLogScanner/
+
+Information-technology Promotion Agency (IPA)
+Web Application Firewall (WAF) Primer (PDF) (Japanese)
+https://www.ipa.go.jp/files/000017312.pdf
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

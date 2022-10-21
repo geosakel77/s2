@@ -1,0 +1,256 @@
+JPCERT-AT-2017-0044
+                                                             JPCERT/CC
+                                                    2017-11-15(Initial)
+                                                    2017-11-30(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-11-15 &gt;&gt;&gt;
+
+            Microsoft Releases November 2017 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2017/at170044.html
+
+
+I. Overview
+Microsoft has released November 2017 Security Updates. This contains
+updates that are rated as "critical". Remote attackers leveraging these
+vulnerabilities may be able to execute arbitrary code.
+
+** Update: November 30, 2017 Update ***********************************
+On November 29, 2017 (US time), Microsoft updated information about the 
+vulnerability (CVE-2017-11882). An attacker who successfully exploited
+the vulnerability could run arbitrary code in the context of the current
+user. In addition, the technical support information (Microsoft Knowledge
+Base, KB) for this vulnerability is rated as "important."
+
+On November 30, JPCERT/CC confirmed that security update programs for
+Japanese version of each product can be downloaded, and that the
+vulnerability will not be exploited after applying the latest version.
+
+  - Security Update for Microsoft Office 2007 suites (KB4011604) 
+  - Security Update for Microsoft Office 2010 (KB4011618) 32-Bit Edition
+  - Security Update for Microsoft Office 2010 (KB4011618) 64-Bit Edition
+  - Security Update for Microsoft Office 2013 (KB3162047) 32-Bit Edition
+  - Security Update for Microsoft Office 2013 (KB3162047) 64-Bit Edition
+  - Security Update for Microsoft Office 2016 (KB4011262) 32-Bit Edition
+  - Security Update for Microsoft Office 2016 (KB4011262) 64-Bit Edition
+
+In addition, Proof-of-Concept (PoC) code for this vulnerability has been
+made public, and JPCERT/CC verified that arbitrary code can be
+executed remotely. Please consider applying the latest version as soon
+as possible.
+***********************************************************************
+
+Details on the vulnerabilities can be found at the following URL:
+
+    November 2017 Security Updates 
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/bae9d0d8-e497-e711-80e5-000d3a32fc99
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    ADV170019
+    November 2017 Flash Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV170019
+    - KB4048951
+
+    CVE-2017-11836
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11836
+    - KB4048952, KB4048953, KB4048954, KB4048955, KB4048956
+
+    CVE-2017-11837
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11837
+    - KB4047206, KB4048952, KB4048953, KB4048954, KB4048955, KB4048956
+      KB4048957, KB4048958
+
+    CVE-2017-11838
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11838
+    - KB4047206, KB4048952, KB4048953, KB4048954, KB4048955, KB4048956
+      KB4048957, KB4048958
+
+    CVE-2017-11839
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11839
+    - KB4048952, KB4048953, KB4048954, KB4048955, KB4048956
+
+    CVE-2017-11840
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11840
+    - KB4048952, KB4048953, KB4048954, KB4048955, KB4048956
+
+    CVE-2017-11841
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11841
+    - KB4048952, KB4048953, KB4048954, KB4048955, KB4048956
+
+    CVE-2017-11843
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11843
+    - KB4047206, KB4048952, KB4048953, KB4048954, KB4048955, KB4048956
+      KB4048957, KB4048958
+
+    CVE-2017-11845
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11845
+    - KB4048954
+
+    CVE-2017-11846
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11846
+    - KB4047206, KB4048952, KB4048953, KB4048954, KB4048955, KB4048956
+      KB4048957, KB4048958
+
+    CVE-2017-11855
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11855
+    - KB4047206, KB4048952, KB4048953, KB4048954, KB4048955, KB4048956
+      KB4048957, KB4048958
+
+    CVE-2017-11856
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11856
+    - KB4047206, KB4048952, KB4048953, KB4048954, KB4048955, KB4048956
+      KB4048957, KB4048958
+
+    CVE-2017-11858
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11858
+    - KB4047206, KB4048952, KB4048953, KB4048954, KB4048955, KB4048956
+      KB4048957, KB4048958
+
+    CVE-2017-11861
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11861
+    - KB4048953, KB4048954, KB4048955
+
+    CVE-2017-11862
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11862
+    - KB4048955
+
+    CVE-2017-11866
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11866
+    - KB4048952, KB4048953, KB4048954, KB4048955, KB40489556
+
+    CVE-2017-11869
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11869
+    - KB4047206, KB4048952, KB4048953, KB4048954, KB4048955, KB4048956
+      KB4048957, KB4048958
+
+    CVE-2017-11870
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11870
+    - KB4048954, KB4048955
+
+    CVE-2017-11871
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11871
+    - KB4048954, KB4048955
+
+    CVE-2017-11873
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11873
+    - KB4048952, KB4048953, KB4048954, KB4048955
+
+According to Microsoft, attacks leveraging the vulnerabilities has not
+been observed in the wild. However, please apply the security update
+programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update / Windows Update
+    http://www.update.microsoft.com/
+
+    Microsoft Update Catalog
+    https://catalog.update.microsoft.com/
+
+** Update: November 30, 2017 Update ***********************************
+Regarding the vulnerability (CVE-2017-11882), JPCERT/CC has confirmed
+that the security update program of each product can be downloaded at
+the following site.
+
+  - Security Update for Microsoft Office 2007 suites (KB4011604)
+    https://www.microsoft.com/en-us/download/details.aspx?id=56270
+  - Security Update for Microsoft Office 2010 (KB4011618) 32-Bit Edition
+    https://www.microsoft.com/en-us/download/details.aspx?id=56268
+  - Security Update for Microsoft Office 2010 (KB4011618) 64-Bit Edition
+    https://www.microsoft.com/en-us/download/details.aspx?id=56267
+  - Security Update for Microsoft Office 2013 (KB3162047) 32-Bit Edition
+    https://www.microsoft.com/en-us/download/details.aspx?id=56206
+  - Security Update for Microsoft Office 2013 (KB3162047) 64-Bit Edition
+    https://www.microsoft.com/en-us/download/details.aspx?id=56207
+  - Security Update for Microsoft Office 2016 (KB4011262) 32-Bit Edition
+    https://www.microsoft.com/en-us/download/details.aspx?id=56251
+  - Security Update for Microsoft Office 2016 (KB4011262) 64-Bit Edition
+    https://www.microsoft.com/en-us/download/details.aspx?id=56250
+***********************************************************************
+
+
+III. References
+    Microsoft Corporation
+    November 2017 Security Updates 
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/bae9d0d8-e497-e711-80e5-000d3a32fc99
+
+    Microsoft Corporation
+    Microsoft Security Updates for November 2017 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2017/11/15/201711-security-bulletin/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Adobe Systems Incorporated
+    Security updates available for Flash Player | APSB17-33
+    https://helpx.adobe.com/security/products/flash-player/apsb17-33.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerability in Adobe Flash Player (APSB17-33)
+    https://www.jpcert.or.jp/english/at/2017/at170042.html
+
+** Update: November 30, 2017 Update ***********************************
+    Microsoft
+    CVE-2017-11882 | Microsoft Office Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11882
+
+    Information-technology Promotion Agency (IPA)
+    Vulnerability (CVE-2017-11882) in Microsoft Office (Japanese)
+    https://www.ipa.go.jp/security/ciadr/vul/20171129_ms.html
+
+    Vulnerability Note VU#421280
+    Microsoft Office Equation Editor stack buffer overflow
+    https://www.kb.cert.org/vuls/id/421280
+
+    Vulnerability Note VU#817544
+    Windows 8 and later fail to properly randomize every application if system-wide mandatory ASLR is enabled via EMET or Windows Defender Exploit Guard
+    https://www.kb.cert.org/vuls/id/817544
+
+    JVNVU#90967793
+    Microsoft Office Equation Editor stack buffer overflow (Japanese)
+    https://jvn.jp/vu/JVNVU90967793
+
+    JVNVU#91363799
+    Vulnerability in which Windows 8 and later version is not appropriately performed to randomize ASLR (Japanese)
+    https://jvn.jp/vu/JVNVU91363799
+***********************************************************************
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2017-11-15 First edition
+2017-11-30 Updated "I. Overview", "II. Solution" and "III. References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

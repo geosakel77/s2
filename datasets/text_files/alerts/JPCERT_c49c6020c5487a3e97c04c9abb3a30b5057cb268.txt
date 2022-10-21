@@ -1,0 +1,139 @@
+JPCERT-AT-2007-0002
+                                                             JPCERT/CC
+                              January 25, 2007 (Original release date)
+                                       January 25, 2007 (Last revised)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2007-01-25 &gt;&gt;&gt;
+
+                   Multiple vulnerabilities in Cisco IOS
+
+                 http://www.jpcert.or.jp/at/2007/at070002.txt
+
+I. Overview
+
+  Cisco IOS and Cisco IOS XR contain multiple vulnerabilities.
+Exploitation of these vulnerabilities could allow a remote attacker
+to cause a Denial of Service (DoS) condition or execute arbitrary
+code. These problems can be solved by updating to the fixed versions
+of IOS provided by Cisco Systems or by implementing workarounds
+available from the following URLs:
+
+**********************************************************************
+(1) Crafted IP Option Vulnerability
+
+  Cisco IOS and Cisco IOS XR contain a vulnerability in processing
+certain IPv4 packets containing a crafted IP option. Successful
+exploitation of this vulnerability could allow a remote attacker to
+cause a Denial of Service (DoS) condition or execute arbitrary code.
+
+    Cisco Security Advisory: Crafted IP Option Vulnerability
+    Advisory ID: cisco-sa-20070124-crafted-ip-option
+    http://www.cisco.com/warp/public/707/cisco-sa-20070124-crafted-ip-option.shtml
+
+**********************************************************************
+(2) Crafted TCP Packet Can Cause Denial of Service
+
+  The Cisco IOS Transmission Control Protocol (TCP) listener is
+vulnerable to a memory leak, which can potentially allow a remote
+attacker to cause a Denial of Service (DoS) condition.
+
+    Cisco Security Advisory: Crafted TCP Packet Can Cause Denial of 
+      Service
+    Advisory ID: cisco-sa-20070124-crafted-tcp
+    http://www.cisco.com/en/US/products/products_security_advisory09186a00807cb0e4.shtml
+
+**********************************************************************
+(3) IPv6 Routing Header Vulnerability
+
+  Cisco IOS contains a vulnerability in the processing of IPv6 Type 0
+Routing headers, which can potentially allow a remote attacker to
+cause a Denial of Service (DoS) condition or execute arbitrary code.
+
+    Cisco Security Advisory: IPv6 Routing Header Vulnerability
+    Advisory ID: cisco-sa-20070124-IOS-IPv6
+    http://www.cisco.com/warp/public/707/cisco-sa-20070124-IOS-IPv6.shtml
+
+**********************************************************************
+
+
+II. Systems Affected
+
+  These vulnerabilities affect many versions of Cisco IOS and Cisco
+IOS XR software. For more information, refer to the advisories
+released by Cisco Systems.
+
+
+III. Solution
+
+  To fix these problems, apply the patches provided by Cisco Systems,
+control access, or stop services as needed. For more information,
+refer to the advisories and other information released by Cisco
+Systems.
+
+
+IV. Reference Information
+
+    US-CERT Technical Cyber Security Alert TA07-024A
+    Cisco IOS is Affected by Multiple Vulnerabilities
+    http://www.us-cert.gov/cas/techalerts/TA07-024A.html
+
+    Cisco Security Advisory: Crafted IP Option Vulnerability
+    Advisory ID: cisco-sa-20070124-crafted-ip-option
+    http://www.cisco.com/warp/public/707/cisco-sa-20070124-crafted-ip-option.shtml
+
+    US-CERT Vulnerability Note VU#341288
+    Cisco IOS fails to properly process certain packets containing a
+      crafted IP option
+    http://www.kb.cert.org/vuls/id/341288
+
+    Cisco Security Advisory: Crafted TCP Packet Can Cause Denial of
+      Service
+    Advisory ID: cisco-sa-20070124-crafted-tcp
+    http://www.cisco.com/en/US/products/products_security_advisory09186a00807cb0e4.shtml
+
+    US-CERT Vulnerability Note VU#217912
+    Cisco IOS fails to properly process TCP packets
+    http://www.kb.cert.org/vuls/id/217912
+
+    Cisco Security Advisory: IPv6 Routing Header Vulnerability
+    Advisory ID: cisco-sa-20070124-IOS-IPv6
+    http://www.cisco.com/warp/public/707/cisco-sa-20070124-IOS-IPv6.shtml
+
+    US-CERT Vulnerability Note VU#274760
+    Cisco IOS fails to properly process specially crafted IPv6 packets
+    http://www.kb.cert.org/vuls/id/274760
+
+*** Update: Added on January 25, 2007 **********************************
+
+    JP Vendor Status Notes JVNTA07-024A
+    Cisco IOS is Affected by Multiple Vulnerabilities
+    http://jvn.jp/cert/JVNTA07-024A/index.html
+
+    JP Vendor Status Notes JVNVU#341288
+    Cisco IOS fails to properly process certain packets containing a
+      crafted IP option
+    http://jvn.jp/cert/JVNVU%23341288/index.html
+
+    JP Vendor Status Notes JVNVU#217912
+    Cisco IOS fails to properly process TCP packets
+    http://jvn.jp/cert/JVNVU%23217912/index.html
+
+    JP Vendor Status Notes JVNVU#274760
+    Cisco IOS fails to properly process specially crafted IPv6 packets
+    http://jvn.jp/cert/JVNVU%23274760/index.html
+
+**********************************************************************
+
+  If you have any information regarding this matter, please contact
+us.
+
+__________
+
+Revision History
+January 25, 2007  Initial release
+January 25, 2007  Added links to JVN sites
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

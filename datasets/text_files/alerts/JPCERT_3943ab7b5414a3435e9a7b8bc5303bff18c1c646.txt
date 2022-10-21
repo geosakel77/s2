@@ -1,0 +1,62 @@
+JPCERT-AT-2021-0024
+                                                             JPCERT/CC
+                                                            2021-05-12
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-05-12 &gt;&gt;&gt;
+
+            Microsoft Releases May 2021 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2021/at210024.html
+
+
+I. Overview
+Microsoft has released May 2021 Security Updates to address the
+vulnerabilities in their products. Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code. It is
+recommended to check the information provided by Microsoft and
+apply the updates.
+
+    Microsoft Corporation
+    May 2021 Security Updates
+    https://msrc.microsoft.com/update-guide/en-us/releaseNote/2021-May
+
+    Microsoft Corporation
+    Release Notes
+    https://msrc.microsoft.com/update-guide/releaseNote
+
+At the time of the update's release, these vulnerabilities were not
+confirmed to have been exploited. As for the HTTP Protocol Stack
+Remote Code Execution Vulnerability (CVE-2021-31166), which may allow
+an unauthenticated attacker to execute code by sending a specially
+crafted packet, Microsoft recommends prioritizing the patching of
+affected servers.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    Microsoft Security Updates for May 2021 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2021/05/11/202105-security-updates/
+
+    Microsoft Corporation
+    HTTP Protocol Stack Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2021-31166
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

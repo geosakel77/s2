@@ -1,0 +1,77 @@
+JPCERT-AT-2015-0012
+                                                            JPCERT/CC
+                                                           2015-05-13
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2015-05-13 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for May 2015
+                 (including 3 critical patches)
+
+      https://www.jpcert.or.jp/english/at/2015/at150012.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for May, 2015.
+This bulletin contains three (3) updates that are rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for May 2015
+    https://technet.microsoft.com/en-us/library/security/ms15-may
+
+  [Security updates rated as "critical"]
+
+    MS15-043
+    Cumulative Security Update for Internet Explorer (3049563)
+    https://technet.microsoft.com/en-us/library/security/ms15-043
+
+    MS15-044
+    Vulnerabilities in Microsoft Font Drivers Could Allow Remote Code Execution (3057110) 
+    https://technet.microsoft.com/en-us/library/security/ms15-044
+
+    MS15-045
+    Vulnerability in Windows Journal Could Allow Remote Code Execution (3046002) 
+    https://technet.microsoft.com/en-us/library/security/ms15-045
+
+  According to Microsoft, targeted attacks leveraging MS15-051
+(important) have been observed in the wild.
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for May 2015
+    https://technet.microsoft.com/en-us/library/security/ms15-may
+
+    Microsoft
+    Microsoft Security Information for May 2015 (Monthly) - MS15-043 - MS15-055 (Japanese)
+    http://blogs.technet.com/b/jpsecurity/archive/2015/05/13/201505-security-bulletin.aspx
+
+    Microsoft
+    Update for Vulnerabilities in Adobe Flash Player in Internet Explorer
+    https://technet.microsoft.com/en-us/library/security/2755801
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

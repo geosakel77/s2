@@ -1,0 +1,168 @@
+JPCERT-AT-2017-0019
+                                                             JPCERT/CC
+                                                            2017-05-10
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-05-10 &gt;&gt;&gt;
+
+             Microsoft Releases May 2017 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2017/at170019.html
+
+
+I. Overview
+Microsoft has released May 2017 Security Updates. This contains updates
+that are rated as "critical". Remote attackers leveraging these
+vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    May 2017 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/bc365363-f51e-e711-80da-000d3a32fc99
+
+In addition, apart from the "May 2017 Security Updates", Microsoft has
+also released Security Updates for "Microsoft Malware Protection Engine"
+on May 8, 2017 (US time). 
+
+For details on the vulnerability (CVE-2017-0299), please refer to the
+following:
+
+    CVE-2017-0290
+    Microsoft Malware Protection Engine Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0290
+
+    Microsoft Security Advisory 4022344
+    Security Update for Microsoft Malware Protection Engine
+    https://technet.microsoft.com/library/security/4022344.aspx
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    ADV170006
+    May Flash Security Update
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV170006
+    - KB4020821
+
+    CVE-2017-0221
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0221
+    - KB4019472
+
+    CVE-2017-0222
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0222
+    - KB4019215, KB4019264, KB4019473, KB4019474
+
+    CVE-2017-0224
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0224
+    - KB4016871
+
+    CVE-2017-0227
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0227
+    - KB4016871, KB4019472, KB4019473, KB4019474
+
+    CVE-2017-0228
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0228
+    - KB4016871, KB4019215, KB4019472, KB4019473, KB4019474
+
+    CVE-2017-0229
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0229
+    - KB4016871, KB4019472, KB4019473, KB4019474
+
+    CVE-2017-0235
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0235
+    - KB4016871
+
+    CVE-2017-0236
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0236
+    - KB4016871, KB4019472, KB4019473, KB4019474
+
+    CVE-2017-0240
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0240
+    - KB4016871, KB4019472, KB4019473, KB4019474
+
+    CVE-2017-0266
+    Microsoft Edge Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0266
+    - KB4016871, KB4019472, KB4019473
+
+    CVE-2017-0272
+    Windows SMB Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0272
+    - KB4016871, KB4018466, KB4019214, KB4019215, KB4019264, KB4019472, 
+      KB4019473, KB4019474
+
+    CVE-2017-0277
+    Windows SMB Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0277
+    - KB4016871, KB4018466, KB4019214, KB4019215, KB4019264, KB4019472, 
+      KB4019473, KB4019474
+
+    CVE-2017-0278
+    Windows SMB Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0278
+    - KB4016871, KB4018466, KB4019214, KB4019215, KB4019264, KB4019472,
+      KB4019473, KB4019474
+
+    CVE-2017-0279
+    Windows SMB Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0279
+    - KB4016871, KB4018466, KB4019214, KB4019215, KB4019264, KB4019472, 
+      KB4019473, KB4019474
+
+According to Microsoft, attacks leveraging the vulnerabilities
+CVE-2017-0222 (Critical and Moderate), CVE-2017-0261 (Important) and
+CVE-2017-0263 (Important) have been observed in the wild.
+Please apply the security update programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+    Microsoft Update Catalog
+    https://catalog.update.microsoft.com/
+
+
+III. References
+    Microsoft Corporation
+    May 2017 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/bc365363-f51e-e711-80da-000d3a32fc99
+
+    Microsoft Corporation
+    Microsoft Security Updates for May 2017 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2017/05/10/201705-security-update/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Adobe Systems Incorporated
+    Security updates available for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsb17-15.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerabilities in Adobe Flash Player (APSB17-15) 
+    https://www.jpcert.or.jp/english/at/2017/at170018.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

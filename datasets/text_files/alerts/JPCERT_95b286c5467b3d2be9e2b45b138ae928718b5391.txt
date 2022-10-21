@@ -1,0 +1,73 @@
+JPCERT-AT-2011-0018
+                                                             JPCERT/CC
+                                                            2011-06-15
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 15.06.11 &gt;&gt;&gt;
+
+                 Vulnerability in Adobe Flash Player
+
+            https://www.jpcert.or.jp/at/2011/at110018.txt
+
+
+I. Overview
+
+  Adobe Flash Player contains a memory corruption vulnerability. As a 
+result, a remote attacker could execute arbitrary code by convincing a
+user to open specially crafted contents.
+  Adobe Systems has already observed attacks exploiting this 
+vulnerability. Users are recommended to update to the corrected 
+software provided by Adobe Systems.
+
+    Adobe Security Bulletins APSB11-18
+    Security update available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb11-18.html
+
+
+II. Products Affected
+
+  Affected products and versions are as follows:
+
+  - Adobe Flash Player 10.3.181.23 and earlier
+  * This vulnerability will not affect Adobe Reader/Acrobat.
+
+For more information, refer to Adobe Systems' website.
+
+
+III. Solution
+
+  Update Adobe Flash Player to the following latest version. For more 
+information, refer to Adobe Systems' website.
+
+  - Adobe Flash Player 10.3.181.26
+
+    Adobe Flash Player Download Center
+    http://get.adobe.com/jp/flashplayer/
+    http://get.adobe.com/flashplayer/
+
+  The Adobe Flash Player version number installed on your PC can be 
+verified through the following page:
+
+    Adobe Flash Player:Version Information
+    http://www.adobe.com/jp/software/flash/about/
+    http://www.adobe.com/products/flash/about/
+
+* Even if using browsers other than Internet Explorer, Flash Player 
+  may be installed on Internet Explorer. Therefore, the Flash Player 
+  for Internet Explorer should also be updated.
+
+
+IV. References
+
+    Adobe Security Bulletins APSB11-18
+    Security update available for Adobe Flash Player
+    http://www.adobe.com/support/security/bulletins/apsb11-18.html
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,132 @@
+JPCERT-AT-2020-0008
+                                                             JPCERT/CC
+                                                            2020-02-12
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-02-12 &gt;&gt;&gt;
+
+         Microsoft Releases February 2020 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2020/at200008.html
+
+
+I. Overview
+Microsoft has released February 2020 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    February 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Feb
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    CVE-2020-0662
+    Windows Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0662
+    - KB4532691, KB4532693, KB4537762, KB4537764, KB4537776, KB4537789
+      KB4537794, KB4537803, KB4537810, KB4537813, KB4537814, KB4537820
+      KB4537821, KB4537822
+
+    CVE-2020-0673
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0673
+    - KB4532691, KB4532693, KB4537762, KB4537764, KB4537767, KB4537776
+      KB4537789, KB4537820, KB4537821
+
+    CVE-2020-0674
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0674
+    - KB4532691, KB4532693, KB4537762, KB4537764, KB4537767, KB4537776
+      KB4537789, KB4537820, KB4537821
+
+    CVE-2020-0681
+    Remote Desktop Client Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0681
+    - KB4532691, KB4532693, KB4537762, KB4537764, KB4537776, KB4537789
+      KB4537794, KB4537803, KB4537810, KB4537813, KB4537814, KB4537820
+      KB4537821, KB4537822
+
+    CVE-2020-0710
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0710
+    - KB4532691, KB4532693, KB4537762, KB4537764, KB4537789
+
+    CVE-2020-0711
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0711
+    - KB4532691, KB4532693, KB4537762
+
+    CVE-2020-0712
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0712
+    - KB4532691, KB4532693, KB4537762, KB4537764, KB4537789
+
+    CVE-2020-0713
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0713
+    - KB4532691, KB4532693, KB4537762, KB4537764, KB4537789
+
+    CVE-2020-0729
+    LNK Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0729
+    - KB4532691, KB4532693, KB4537762, KB4537764, KB4537776, KB4537789
+      KB4537794, KB4537803, KB4537810, KB4537813, KB4537814, KB4537820
+      KB4537821, KB4537822
+
+    CVE-2020-0734
+    Remote Desktop Client Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0734
+    - KB4532691, KB4532693, KB4537762, KB4537764, KB4537776, KB4537789
+      KB4537794, KB4537803, KB4537813, KB4537814, KB4537820, KB4537821
+
+    CVE-2020-0738
+    Media Foundation Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0738
+    - KB4532691, KB4532693, KB4537762, KB4537764, KB4537776, KB4537789
+      KB4537794, KB4537803, KB4537813, KB4537814, KB4537820, KB4537821
+
+    CVE-2020-0767
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0767
+    - KB4532691, KB4532693, KB4537762, KB4537764, KB4537776, KB4537789
+
+This Security Updates contain updates for the vulnerability
+(CVE-2020-0674) that was released on January 17, 2020 (US Time).
+Since this vulnerability is already being exploited, it is recommended
+to apply the security update programs as soon as possible.
+
+    JPCERT/CC
+    Alert Regarding Vulnerability (CVE-2020-0674) in Microsoft Internet Explorer
+    https://www.jpcert.or.jp/english/at/2020/at200004.html
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation 
+    February 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Feb
+
+    Microsoft Corporation
+    Microsoft Security Updates for February 2020 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2020/02/11/202002-security-updates/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+TEL: +81-3-6811-0610  MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

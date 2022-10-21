@@ -1,0 +1,96 @@
+JPCERT-AT-2012-0004
+                                                             JPCERT/CC
+                                                            2012-02-06
+
+                &lt;&lt;&lt; JPCERT/CC Alert 06.02.12 &gt;&gt;&gt;
+
+                  Vulnerability in PHP 5.3.9
+
+            https://www.jpcert.or.jp/at/2012/at120004.html
+
+
+I. Overview
+
+  Information regarding a vulnerability in PHP 5.3.9 was released on 
+February 2, 2012. A remote attacker could use this vulnerability to 
+execute arbitrary code.
+
+  JPCERT/CC has confirmed that PoC (Proof of Concept) code which 
+exploits this vulnerability has been released publicly, so it 
+recommends updating PHP on servers managed to the corrected version 
+supplied by the PHP Group (PHP 5.3.10).
+
+    PHP 5.3.10 Released!
+    http://news.php.net/php.announce/87
+
+  Those using PHP versions PHP 5.3.8 or earlier are not affected by 
+this vulnerability. However, known vulnerabilities may allow execution 
+of arbitrary code or denial of service (DoS) attacks, so updating to 
+the latest version is recommended.
+
+
+II. Products Affected
+
+  The following version is affected by this vulnerability.
+
+  - PHP 5.3.9
+
+
+III. Solution
+
+  The PHP Group has released a version that corrects this 
+vulnerability. We recommend deploying the corrected version after 
+thorough testing. Additionally, corrected versions are also being 
+provided by several distributors. 
+For more information, refer to information supplied by individual 
+distributors.
+
+  Corrected version
+  - PHP 5.3.10
+
+    PHP Group
+    PHP: Downloads
+    http://www.php.net/downloads.php
+
+    PHP For Windows: Binaries and sources Releases
+    http://windows.php.net/download/
+
+  * Support for PHP 5.2 ended in January 2011, so we recommend that 
+    all using versions 5.2 and older update to the latest version.
+
+  February is Information Security Month. We recommend checking all 
+managed sites to ensure they do not have software with known 
+vulnerabilities or software which is no longer supported.
+
+
+III. References
+
+    Red Hat, Inc
+    CVE-2012-0830
+    https://www.redhat.com/security/data/cve/CVE-2012-0830.html
+
+    RHSA-2012:0092-1
+    https://rhn.redhat.com/errata/RHSA-2012-0092.html
+
+    RHSA-2012:0093-1
+    https://rhn.redhat.com/errata/RHSA-2012-0093.html
+
+    Debian
+    Debian Security Advisory
+    DSA-2403-1 php5 -- code injection
+    http://www.debian.org/security/2012/dsa-2403
+    http://www.debian.org/security/2012/dsa-2403.en.html
+
+    National Information Security Center
+    Information Security Month [ Information Security Site Protecting Japanese Citizens ]
+    http://www.nisc.go.jp/security-site/month/index.html
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

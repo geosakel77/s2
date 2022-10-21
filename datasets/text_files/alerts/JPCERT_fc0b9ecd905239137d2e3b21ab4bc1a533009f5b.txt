@@ -1,0 +1,102 @@
+JPCERT-AT-2012-0021
+                                                             JPCERT/CC
+                                                            2012-06-29
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 29.06.12 &gt;&gt;&gt;
+
+           Attacks on Java SE vulnerabilities in June 2012
+
+        https://www.jpcert.or.jp/english/at/2012/at120021.html
+
+
+I. Overview
+
+  JPCERT/CC has confirmed attacks targeting a known vulnerability in
+Oracle Java SE JDK and JRE. A remote attacker may execute arbitrary
+code on systems using Java SE JDK and JRE versions older than the June
+13, 2012, release. For more information, refer to Oracle website.
+
+    Oracle Java SE Critical Patch Update Advisory - June 2012
+    http://www.oracle.com/technetwork/topics/security/javacpujun2012-1515912.html
+
+  JPCERT/CC received reports that standard websites are altered,
+redirecting users who access the site to an attack site, where malware
+infection is possible.
+
+  JPCERT/CC has also confirmed an attack function exploiting this
+vulnerability has been found in some of the exploit kits. Attack
+activity targeting this vulnerability may increase in the future, so
+we recommend updating to the corrected software provided by Oracle.
+
+
+II. Products affected
+
+  JDK and JRE 7 Update 4 and earlier
+  JDK and JRE 6 Update 32 and earlier
+
+
+III. Test results from JPCERT/CC
+
+  JPCERT/CC has verified the attack code exploiting this vulnerability
+found in the attack site.
+
+    [Test environment]
+    OS: Windows XP SP3 
+    Browser: IE 8.0.6001.18702
+
+  - Test results with JRE 6 Update 32 / JRE 7 Update 4
+    JPCERT/CC has confirmed that under the above test environment with
+    JRE 6 update 32 / JRE 7 Update 4 installed, when executing the
+    attack code, users are directed to the external site.
+
+  - Test results with JRE 6 Update 33 / JRE 7 Update 5
+    JPCERT/CC has confirmed that under the above test environment with
+    JRE 6 update 33 / JRE 7 Update 5 installed, when executing the
+    attack code, users are not directed to the external site.
+
+
+IV. Solution
+
+  Oracle has released a corrected version of the software. Update to
+the corrected version of the software.
+
+    - Java SE JDK and JRE 7 Update 5 
+    - Java SE JDK and JRE 6 Update 33
+
+    Java Downloads for All Operating Systems:
+    http://java.com/ja/download/manual.jsp?locale=ja
+
+  * Oracle has announced that support for Java SE 6 will end in
+    November 2012. Consider switching to Java SE 7, taking into
+    account the solution to your application.
+
+    Oracle Technology Network
+    Java SE EOL Policy: Java SE 6 End of Life (EOL) Notice
+    http://www.oracle.com/technetwork/java/eol-135779.html#Interfaces
+
+    Oracle
+    Moving to Java 7 as default
+    https://blogs.oracle.com/henrik/entry/moving_to_java_7_as
+
+
+V. References
+
+    Oracle
+    Oracle Java SE Critical Patch Update Advisory - June 2012
+    http://www.oracle.com/technetwork/topics/security/javacpujun2012-1515912.html
+
+    June 2012 Critical Patch Update for Java SE Released
+    https://blogs.oracle.com/security/entry/june_2012_critical_patch_update
+
+    Text Form of Oracle Java SE Critical Patch Update - June 2012 Risk Matrices
+    http://www.oracle.com/technetwork/topics/security/javacpujun2012verbose-1515971.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

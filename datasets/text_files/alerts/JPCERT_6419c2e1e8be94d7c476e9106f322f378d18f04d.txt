@@ -1,0 +1,84 @@
+JPCERT-AT-2009-0002
+                                                             JPCERT/CC
+                                                            2009-02-05
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2009-02-05 &gt;&gt;&gt;
+
+               Increased activity targeting TCP port 445
+
+             http://www.jpcert.or.jp/at/2009/at090002.txt
+
+I. Overview
+
+  JPCERT/CC Internet Scan Data Acquisition System (ISDAS) has observed
+that scans against TCP port 445 have been increasing since late
+December of 2008. Although the cause of these scans has not been
+identified yet, they may be infection attempts by worms exploiting a
+Server service vulnerability in Microsoft Windows products (MS08-067),
+for which a security update was released last year.
+
+  These worms may spread via scans and removable storage devices such
+as USB memory. Since scans mainly from inside Japan have been
+increasing for the last several days, infection may be spreading in
+Japan.
+
+
+II. Observation status
+
+  For the TCP port 445 scan trends observed by ISDAS, refer to the
+following website:
+
+    ISDAS graph for TCP port 445 (2008/12/05-2009/02/04)
+    http://www.jpcert.or.jp/isdas/2009/20081205-0204_445_port.png
+
+
+III. Solution
+
+  Users of the services running on TCP port 445 are recommended to
+consider taking the following countermeasures:
+
+   1) When using a Microsoft Windows product, apply the security
+      update according to "IV. References".
+
+   2) In order to prevent secondary damage from virus infection,
+      restrict packets from internal to external TCP port 445.
+
+  For worms spreading recently, the following should also be
+considered:
+
+   3) Not to use a vulnerable password for system and network
+      authentication.
+
+   4) Be careful about handling of removable storage devices such as
+      USB memory
+
+
+IV. References
+
+    Vulnerability in Microsoft Server Service
+    http://www.jpcert.or.jp/at/2008/at080018.txt
+
+    Microsoft
+    Microsoft Security Advisory (958963)
+    http://www.microsoft.com/technet/security/advisory/958963.mspx
+
+    Japan Vulnerability Notes JVNTA08-297A
+    Microsoft Windows Server service buffer overflow vulnerability
+    http://jvn.jp/cert/JVNTA08-297A/index.html
+
+    Microsoft Japan Security Team
+    Summary of Conficker (Downadup) worms
+    http://blogs.technet.com/jpsecurity/archive/2009/01/24/3191000.aspx
+
+    Internet Scan Data Acquisition System (ISDAS)
+    http://www.jpcert.or.jp/isdas/
+
+
+  If you have any information you could provide regarding this alert, 
+please contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

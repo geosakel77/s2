@@ -1,0 +1,102 @@
+JPCERT-AT-2017-0037
+                                                             JPCERT/CC
+                                                            2017-09-13
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-09-13 &gt;&gt;&gt;
+
+Alert Regarding Multiple Vulnerabilities in Bluetooth Implementations - "BlueBorne"
+
+         https://www.jpcert.or.jp/english/at/2017/at170037.html
+
+
+I. Overview
+Information on vulnerabilities that affect Bluetooth implementations in
+various devices and operating systems, named "BlueBorne" has been made 
+public by the reporter. When exploited, an attacker may remotely obtain
+information or perform operations on the device.
+
+    Armis
+    The IoT Attack Vector “BlueBorne” Exposes Almost Every Connected Device
+    https://www.armis.com/blueborne/
+
+These vulnerabilities are said to affect multiple operating systems and
+devices. Please consider applying software updates or other countermeasures
+based on information provided by the developer.
+
+
+II. Affected Products
+The vulnerabilities reported in "BlueBorne" affect multiple operating
+systems and devices. The reporter states that the following operating
+systems are affected:
+
+  - Android
+    - Android that have not applied September 9, 2017 Security Patch level
+      (CVE-2017-0781, CVE-2017-0782, CVE-2017-0783, CVE-2017-0785)
+  - Windows
+    - Versions of Windows Vista and later that have not applied the September 2017
+      Security Updates (CVE-2017-8628)
+  - Linux
+    - Kernel versions 3.3-rc1 and later (CVE-2017-1000251)
+    - All versions of BlueZ (CVE-2017-1000250)
+    - iOS, tvOS
+    - iOS versions 9.3.5 and earlier, AppleTV tvOS versions 7.2.2 and earlier
+      (CVE-2017-14315)
+
+According to the reporter, the vulnerabilities that affect iOS have been 
+addressed in iOS 10.
+
+The number of products identified to be affected by these vulnerabilities 
+is expected to increase. Please beware of information being provided
+by product developers.
+
+
+III. Solution
+Operating system developers have issued updates to address these vulnerabilities.
+Please check for information being provided by the developers and apply
+updates accordingly.
+
+  - Android
+    Android Security Bulletin―September 2017
+    https://source.android.com/security/bulletin/2017-09-01
+
+  - Windows
+    CVE-2017-8628 | Microsoft Bluetooth Driver Spoofing Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8628
+
+  - Linux
+    - RedHat
+      Blueborne - Linux Kernel Remote Denial of Service in Bluetooth subsystem - CVE-2017-1000251
+      https://access.redhat.com/security/vulnerabilities/blueborne
+      CVE-2017-1000250
+      https://access.redhat.com/security/cve/CVE-2017-1000250
+    - ubuntu
+      Bluetooth/BlueZ  information disclosure in BlueZ and remote code execution in the  bluetooth L2CAP stack in the Linux kernel (CVE-2017-1000250,  CVE-2017-1000251 aka BlueBorne)
+      https://wiki.ubuntu.com/SecurityTeam/KnowledgeBase/BlueBorne
+
+
+IV. References
+    Armis
+    The IoT Attack Vector “BlueBorne” Exposes Almost Every Connected Device
+    https://www.armis.com/blueborne/
+
+    CERT/CC Vulnerability Note VU#240311
+    Multiple Bluetooth implementation vulnerabilities affect many devices
+    https://www.kb.cert.org/vuls/id/240311
+
+    US-CERT
+    BlueBorne Bluetooth Vulnerabilities
+    https://www.us-cert.gov/ncas/current-activity/2017/09/12/BlueBorne-Bluetooth-Vulnerabilities
+
+    JVNVU#95513538
+    Multiple vulnerabilities in Bluetooth implementations (Japanese)
+    https://jvn.jp/vu/JVNVU95513538/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

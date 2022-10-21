@@ -1,0 +1,94 @@
+JPCERT-AT-2015-0015
+                                                             JPCERT/CC
+                                                            2015-05-26
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2015-05-26 &gt;&gt;&gt;
+
+                  Alert regarding ransomware infections
+
+        https://www.jpcert.or.jp/english/at/2015/at150015.html
+        
+
+I. Overview
+
+  JPCERT/CC has observed a large number of cases where a type of malware 
+called ransomware is used for an attack to encrypt files on a device.
+The victim is then sent a message asking for a payment in exchange for
+decrypting the files.
+
+  In these attacks, the attacker alters the contents of a website and
+visitors of the compromised website are redirected to a website that
+contains an attack tool kit (herein, attack site). When redirected to
+an attack site, it will attempt to leverage vulnerabilities in the OS
+or various software (Adobe Flash Player, Java, etc.) for an attack.
+A user PC containing vulnerable software may result in being infected
+with ransomware.
+
+  At JPCERT/CC, we have observed the following vulnerabilities being
+leveraged in attacks that result in ransomware infection.
+
+      - CVE-2015-0313 (Adobe Flash Player)
+      - CVE-2014-6332 (MS14-064)
+
+  The vulnerability that is leveraged may vary depending on the user
+environment. It is recommended to update the OS and other software 
+such as, Microsoft Windows, Adobe Flash Player as well as Java,
+Internet Explorer to the latest version.
+
+
+II. Solution
+
+[For web site administrators]
+  In order to prevent your website from being compromised and user
+PC's from being infected by ransomware, please check the following and
+consider implementing any countermeasures as necessary.
+
+
+  (Points to Check)
+  - Check if the OS and software used for the website are the latest
+    versions
+  - Check if the web contents have been altered to embed malicious 
+    contents
+  - Check if the PC used to update the website is infected with
+    ransomware. If administration of the website is outsourced, verify
+    with the outsourcing company that the PC's used are not infected
+    with ransomware
+    
+  (Countermeasures)
+  - Update the OS and software being used for the website to the
+    latest versions as necessary
+  - Only allow website content updates from designated locations and
+    PC's (IP address, etc)
+
+[For users]
+  The redirected attacks site attempt to leverage known vulnerabilities 
+in order to install ransomware. Refer to the following URL's and update
+any software being used to the latest versions. Also, it is recommended
+to backup your data periodically in the event that files are encrypted.
+
+  [Microsoft]
+    Microsoft Update
+    http://www.update.microsoft.com/
+    
+    Windows Update
+    http://windowsupdate.microsoft.com/
+    
+  [Adobe]
+    Adobe Flash Player Download Center
+    https://get.adobe.com/flashplayer/
+
+    Adobe - Product Updates (Adobe Acrobat, Adobe Reader)
+    http://www.adobe.com/downloads/updates/
+
+  [Oracle Java]
+    Free Java Download (JRE 8, English)
+    https://java.com/en/download/
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

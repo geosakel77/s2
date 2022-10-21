@@ -1,0 +1,179 @@
+JPCERT-AT-2017-0048
+                                                             JPCERT/CC
+                                                            2017-12-13
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-12-13 &gt;&gt;&gt;
+
+          Microsoft Releases December 2017 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2017/at170048.html
+
+
+I. Overview
+Microsoft has released December 2017 Security Updates. This contains
+updates that are rated as "critical". Remote attackers leveraging these
+vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    December 2017 Security Updates 
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/c383fa60-b852-e711-80dd-000d3a32f9b6
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    ADV170022
+    December 2017 Flash Security Update
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV170022
+    - KB4053577
+
+    CVE-2017-11886
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11886
+    - KB4052978, KB4053578, KB4053579, KB4053580, KB4053581, KB4054517
+      KB4054518, KB4054519
+
+    CVE-2017-11888
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11888
+    - KB4053578, KB4053579, KB4053580, KB4053581, KB4054517
+
+    CVE-2017-11889
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11889
+    - KB4053578, KB4053579, KB4053580, KB4053581, KB4054517
+
+    CVE-2017-11890
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11890
+    - KB4052978, KB4053578, KB4053579, KB4053580, KB4053581, KB4054517,
+      KB4054518, KB4054519
+
+    CVE-2017-11893
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11893
+    - KB4053578, KB4053579, KB4053580, KB4054517
+
+    CVE-2017-11894
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11894
+    - KB4052978, KB4053578, KB4053579, KB4053580, KB4053581, KB4054517, 
+      KB4054518, KB4054519
+
+    CVE-2017-11895
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11895
+    - KB4052978, KB4053578, KB4053579, KB4053580, KB4053581, KB4054517, 
+      KB4054518, KB4054519
+
+    CVE-2017-11901
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11901
+    - KB4052978, KB4053578, KB4053579, KB4053580, KB4053581, KB4054517, 
+      KB4054518, KB4054519
+
+    CVE-2017-11903
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11903
+    - KB4052978, KB4053578, KB4053579, KB4053580, KB4053581, KB4054517, 
+      KB4054518, KB4054519
+
+    CVE-2017-11905
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11905
+    - KB4053578, KB4053579, KB4053580, KB4054517
+
+    CVE-2017-11907
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11907
+    - KB4052978, KB4053578, KB4053579, KB4053580, KB4053581, KB4054517, 
+      KB4054518, KB4054519
+
+    CVE-2017-11908
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11908
+    - KB4054517
+
+    CVE-2017-11909
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11909
+    - KB4053578, KB4053579, KB4053580, KB4054517
+
+    CVE-2017-11910
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11910
+    - KB4053578, KB4053579, KB4053580, KB4053581, KB4054517
+
+    CVE-2017-11911
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11911
+    - KB4053578, KB4053579, KB4053580, KB4054517
+
+    CVE-2017-11912
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11912
+    - KB4052978, KB4053578, KB4053579, KB4053580, KB4053581, KB4054517, 
+      KB4054518, KB4054519
+
+    CVE-2017-11914
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11914
+    - KB4053578, KB4053579, KB4053580, KB4054517
+
+    CVE-2017-11918
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11918
+    - KB4053578, KB4053579, KB4053580, KB4053581, KB4054517
+
+    CVE-2017-11930
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11930
+    - KB4052978, KB4053578, KB4053579, KB4053580, KB4053581, KB4054517, 
+      KB4054518, KB4054519
+
+According to Microsoft, attacks leveraging the vulnerabilities have not
+been observed in the wild. However, please apply the security update
+programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update / Windows Update
+    http://www.update.microsoft.com/
+
+    Microsoft Update Catalog
+    https://catalog.update.microsoft.com/
+
+
+III. References
+    Microsoft Corporation
+    December 2017 Security Updates 
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/c383fa60-b852-e711-80dd-000d3a32f9b6
+
+    Microsoft Corporation
+    Microsoft Security Updates for December 2017 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2017/12/13/201712-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Adobe Systems Incorporated
+    Security updates available for Flash Player | APSB17-42
+    https://helpx.adobe.com/security/products/flash-player/apsb17-42.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerability in Adobe Flash Player (APSB17-42)
+    https://www.jpcert.or.jp/english/at/2017/at170047.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

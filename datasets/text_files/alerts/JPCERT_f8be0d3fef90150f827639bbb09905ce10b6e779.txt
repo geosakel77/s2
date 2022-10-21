@@ -1,0 +1,83 @@
+JPCERT-AT-2021-0031
+                                                             JPCERT/CC
+                                                            2021-07-14
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-07-14 &gt;&gt;&gt;
+
+            Microsoft Releases July 2021 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2021/at210031.html
+
+
+I. Overview
+Microsoft has released July 2021 Security Updates to address the
+vulnerabilities in their products. Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code. It is
+recommended to check the information provided by Microsoft and
+apply the updates.
+
+    Microsoft Corporation
+    July 2021 Security Updates
+    https://msrc.microsoft.com/update-guide/en-us/releaseNote/2021-Jul
+
+    Microsoft Corporation
+    Release Notes
+    https://msrc.microsoft.com/update-guide/releaseNote
+
+According to Microsoft, the following four vulnerabilities have been
+confirmed to be exploited in the wild. Please consider applying the
+security update programs as soon as possible.
+
+    CVE-2021-31979
+    Windows Kernel Elevation of Privilege Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-31979
+
+    CVE-2021-33771
+    Windows Kernel Elevation of Privilege Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-33771
+
+    CVE-2021-34448
+    Scripting Engine Memory Corruption Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34448
+
+    CVE-2021-34527
+    Windows Print Spooler Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34527
+
+As for the Windows Print Spooler vulnerability (CVE-2021-34527),
+Microsoft has already published Out-of-Band (OOB) Security Update in
+early July 2021. This update is also included in this month's monthly
+update. It is recommended to take countermeasures as soon as possible
+since the information of detailed explanation of the vulnerability and
+the Proof-of-Concept (PoC) code have been confirmed, and the exploit of
+this vulnerability can cause significant impacts.
+
+    JPCERT/CC
+    Alert Regarding Windows Print Spooler Vulnerability (CVE-2021-34527)
+    https://www.jpcert.or.jp/english/at/2021/at210029.html
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    Microsoft Security Updates for July 2021 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2021/07/13/202107-security-updates/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

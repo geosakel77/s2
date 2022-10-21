@@ -1,0 +1,86 @@
+JPCERT-AT-2017-0034
+                                                             JPCERT/CC
+                                                            2017-09-12
+
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-09-12 &gt;&gt;&gt;
+
+   Alert Regarding Vulnerabilities in NTT DOCOMO Wi-Fi STATION L-02F
+
+       https://www.jpcert.or.jp/english/at/2017/at170034.html
+
+
+I. Overview
+Wi-Fi STATION L-02F provided by NTT DOCOMO, INC., contains vulnerabilities.
+When these vulnerabilities are exploited, a remote attacker may execute
+arbitrary code (CVE-2017-10845), and may access the device to obtain the
+configuration (CVE-2017-10846). For more details on these vulnerabilities,
+please refer to the information provided by JVN.
+    
+    JVN#68922465
+    Backdoor access issue in Wi-Fi STATION L-02F
+    https://jvn.jp/en/jp/JVN68922465/
+
+    JVN#03044183
+    Wi-Fi STATION L-02F fails to restrict access permissions
+    https://jvn.jp/en/jp/JVN03044183/
+
+JPCERT/CC Internet threat monitoring system "TSUBAME" observed
+communications from devices which are suspected to be infected with a
+malware by exploiting the vulnerability (CVE-2017-10845) and is assumed
+to be attacking a third party as a stepping stone.
+Moreover, this communications are observed from other carrier network
+than NTT DOCOMO. (Virtual mobile communication carrier) 
+
+    JPCERT/CC
+    Increase access to domestic 22/TCP port (Japanese)
+    https://www.jpcert.or.jp/newsflash/2017070701.html
+
+If you are using the affected version of Wi-Fi STATION L-02F produced
+by LG Electronics, please apply the fixed version with reference to
+"III. Solution".
+
+
+II. Affected Products
+Following versions of Wi-Fi STATION L-02F software are affected by
+these vulnerabilities.
+
+    CVE-2017-10845
+    - Wi-Fi STATION L-02F Software version V10g and earlier
+    CVE-2017-10846
+    - Wi-Fi STATION L-02F Software version V10b and earlier
+
+
+III. Solution
+NTT DOCOMO, INC. released the version that addresses these vulnerabilities.
+Please consider applying the latest version as soon as possible.
+
+  - Wi-Fi STATION L-02F Software version V10h
+
+
+IV. References
+    NTT DOCOMO, INC.
+    Request for software update to customers using "Wi-Fi STATION L-02F" (Japanese)
+    https://www.nttdocomo.co.jp/info/notice/page/170710_01_m.html
+
+    JVN#68922465
+    Backdoor access issue in Wi-Fi STATION L-02F
+    https://jvn.jp/en/jp/JVN68922465/
+
+    JVN#03044183
+    Wi-Fi STATION L-02F fails to restrict access permissions
+    https://jvn.jp/en/jp/JVN03044183/
+
+    JPCERT/CC
+    Increase access to domestic 22/TCP port (Japanese)
+    https://www.jpcert.or.jp/newsflash/2017070701.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

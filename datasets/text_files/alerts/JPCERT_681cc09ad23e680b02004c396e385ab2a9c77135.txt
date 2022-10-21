@@ -1,0 +1,66 @@
+JPCERT-AT-2009-0003
+                                                             JPCERT/CC
+                                                            2009-02-11
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2009-02-11 &gt;&gt;&gt;
+
+               February 2009 Microsoft Security Bulletin
+                   (including two critical patches)
+
+             http://www.jpcert.or.jp/at/2009/at090003.txt
+
+I. Overview
+
+  Microsoft has released its security bulletin summary for February
+2009, which contains two security updates with severity rating
+"Critical".
+
+  A remote attacker could use these vulnerabilities, and cause a
+denial of service or execute arbitrary code.
+
+  For further information about these vulnerabilities, refer to the
+following URLs.
+
+    Microsoft Security Bulletin Summary for February 2009
+    http://www.microsoft.com/technet/security/bulletin/ms09-feb.mspx
+
+
+  [Critical Security Update]
+
+    MS09-002 Cumulative Security Update for Internet Explorer (961260)
+    http://www.microsoft.com/technet/security/bulletin/MS09-002.mspx
+
+    MS09-003
+    Vulnerabilities in Microsoft Exchange Could Allow Remote Code
+      Execution (959239)
+    http://www.microsoft.com/technet/security/bulletin/MS09-003.mspx
+
+
+II. Solution
+
+  Use means such as Microsoft Update or Windows Update to apply the
+security update immediately.
+
+    Microsoft Update
+    https://update.microsoft.com/
+
+    Windows Update
+    https://windowsupdate.microsoft.com/
+
+
+III. References
+
+    Microsoft Security Bulletin Summary for February 2009
+    http://www.microsoft.com/technet/security/bulletin/ms09-feb.mspx
+
+    US-CERT Technical Cyber Security Alert TA09-041A
+    Microsoft Updates for Multiple Vulnerabilities
+    http://www.us-cert.gov/cas/techalerts/TA09-041A.html
+
+  If you have any information you could provide regarding this alert,
+please contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602

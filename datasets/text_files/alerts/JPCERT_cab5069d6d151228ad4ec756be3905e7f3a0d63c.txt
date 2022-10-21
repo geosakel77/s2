@@ -1,0 +1,85 @@
+JPCERT-AT-2022-0023
+                                                             JPCERT/CC
+                                                    2022-09-13(Initial)
+                                                    2022-09-14(Update)
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2022-09-13 &gt;&gt;&gt;
+
+Alert Regarding Vulnerability in Trend Micro Apex One and Trend Micro Apex One as a Service
+
+       https://www.jpcert.or.jp/english/at/2022/at220023.html
+
+
+I. Overview
+On September 13, 2022, Trend Micro Incorporated published an alert
+regarding a vulnerability (CVE-2022-40139) in Trend Micro Apex One and
+Trend Micro Apex One as a Service. A remote attacker who can log in to the
+product's administration console may be able to execute an arbitrary
+code by leveraging the vulnerability. Trend Micro Incorporated is
+aware of attack exploiting this vulnerability.
+
+    Trend Micro Incorporated
+    CRITICAL SECURITY BULLETIN: September 2022 Security Bulletin for Trend Micro Apex One
+    https://success.trendmicro.com/solution/000291528
+
+    Trend Micro Incorporated
+    [Alert] Apply Service Pack; An attack exploiting the vulnerability (CVE-2022-40139) in Trend Micro Apex One has been observed (Text in Japanese)
+    https://appweb.trendmicro.com/SupportNews/NewsDetail.aspx?id=4553
+
+Since the vulnerability is already being exploited in the wild, the
+users of the affected products are recommended to take actions such as
+applying the patch as soon as possible. As for details, please refer to
+the information provided by Trend Micro Incorporated.
+
+
+II. Affected Products
+Affected products are as follows:
+
+  - Trend Micro Apex One On Premise (2019)
+  - Trend Micro Apex One as a Service
+
+
+III. Solution
+Trend Micro Incorporated has released the patch that address the
+vulnerability. It is recommended to apply the patch as soon as possible.
+
+  - Trend Micro Apex One On Premise (2019) Service Pack 1 b11092/11088
+
+According to Trend Micro Incorporated, the issues in Trend Micro Apex
+One as a Service are already fixed in August 2022 updates. 
+
+
+IV. Workarounds
+Trend Micro Incorporated has provided information on workarounds to
+reduce the impact of attacks that exploit the vulnerability. For details,
+please check the information provided by Trend Micro Incorporated.
+
+  - Permit access to the product only from the trusted network
+
+
+V. References
+    Trend Micro Incorporated
+    [Alert] Apply Service Pack; An attack exploiting the vulnerability (CVE-2022-40139) in Trend Micro Apex One has been observed (Text in Japanese)
+    https://appweb.trendmicro.com/SupportNews/NewsDetail.aspx?id=4553
+
+    Trend Micro Incorporated
+    CRITICAL SECURITY BULLETIN: September 2022 Security Bulletin for Trend Micro Apex One
+    https://success.trendmicro.com/solution/000291528
+
+    Japan Vulnerability Notes JVN#36454862
+    Multiple vulnerabilities in Trend Micro Apex One and Trend Micro Apex One as a Service
+    https://jvn.jp/en/jp/JVN36454862/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2022-09-13 First edition
+2022-09-14 Updated "I. Overview", "III. Solution" and "V. References"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

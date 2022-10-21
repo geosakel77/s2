@@ -1,0 +1,166 @@
+JPCERT-AT-2010-0016
+                                                             JPCERT/CC
+                                            2010-06-28 (First edition)
+                                                  2010-07-14 (Updated)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2010-06-28 &gt;&gt;&gt;
+
+  Zero-day Vulnerability in Windows Help and Support Center Protocol
+
+            https://www.jpcert.or.jp/at/2010/at100016.txt
+
+
+I. Overview
+
+  On June 11, 2010, Microsoft published an advisory for a zero-day 
+vulnerability in the Windows Help and Support Center function included 
+in Windows XP/2003. Windows Help and Support Center contains an hcp:// 
+URI processing vulnerability. As a result, when a user views a 
+specially crafted web page, arbitrary code may be executed.
+
+  On June 28, 2010, JPCERT/CC confirmed that this vulnerability had 
+been used in website alteration attacks by the "so-called Gumblar 
+viruses".
+
+  This alert has been issued in anticipation of future outbreak of 
+attacks exploiting this vulnerability.
+
+    Microsoft Security Advisory (2219475)
+    Vulnerability in Windows Help and Support Center Could Allow Remote Code Execution
+    http://www.microsoft.com/japan/technet/security/advisory/2219475.mspx
+    http://www.microsoft.com/technet/security/advisory/2219475.mspx
+
+
+II. Products Affected
+
+   Affected products and versions are as follows:
+  - Windows XP Service Pack 2 and Windows XP Service Pack 3
+  - Windows XP Professional x64 Edition Service Pack 2
+  - Windows Server 2003 Service Pack 2
+  - Windows Server 2003 x64 Edition Service Pack 2
+  - Windows Server 2003 with SP2 for Itanium-based Systems
+
+  For more information, refer to the Microsoft Security Advisory 
+(2219475).
+
+
+III. Result of JPCERT/CC Verification
+
+  JPCERT/CC has examined some publicly-released exploit code, and 
+confirmed that arbitrary code is executed. 
+
+[Verification environment]
+  - Windows XP SP3 (all the released patches applied) and the latest 
+    version of IE7/IE8
+    IE7 (7.0.5730.13, the latest patch applied)
+    IE8 (8.0.6001.18702, the latest patch applied)
+
+[Verification result]
+  By executing an exploit code in the above environment, JPCERT/CC has 
+  confirmed that the arbitrary code is executed. Also, after applying 
+  the mitigation measure (Microsoft Fix it) provided by Microsoft, 
+  JPCERT/CC has confirmed that the arbitrary code does not execute 
+  when executing the exploit code.
+
+  Moreover, after examining the attacking code used in the website 
+alteration attacks by the "so-called Gumblar viruses", JPCERT/CC has 
+confirmed that arbitrary code is executed in some environments.
+
+[Verification environment]
+  - Windows XP SP3 (all the released patches applied) and the latest 
+    version of IE7/IE8
+      IE7 (7.0.5730.13, the latest patch applied)
+      IE8 (8.0.6001.18702, the latest patch applied)
+
+[Verification result]
+  Execution of arbitrary code has been confirmed in the IE7 
+  environment. On the other hand, arbitrary code was not executed in 
+  the IE8 environment. This is because the attacking code is designed 
+  to check the User Agent header from the web browser and executes the 
+  code only targeting IE7. If the code is modified by any attacker, 
+  arbitrary code will also be executed on IE8.
+
+*** Update: Added on July 14, 2010 *******************************
+  On July 14, 2010, Microsoft released a security update. JPCERT/CC 
+  has confirmed that the exploit code does not execute after applying 
+  this update.
+******************************************************************
+
+
+IV. Solution
+
+  As of June 28, 2010, no security update has been released from 
+Microsoft.
+
+*** Update: Added on July 14, 2010 *******************************
+  Microsoft has released a security update.
+
+  Apply the update immediately by using means such as Microsoft Update 
+  or Windows Update.
+
+    Microsoft Update
+    https://update.microsoft.com/
+
+    Windows Update
+    https://windowsupdate.microsoft.com/
+
+******************************************************************
+
+
+V. Mitigation measures
+
+  Microsoft has announced the following mitigation measure against 
+this vulnerability. Please consider applying this measure after taking 
+into account the possible impacts on the systems.
+
+  - Unregister the HCP protocol
+    Unregistering the HCP protocol will break all local, legitimate 
+    help links that use hcp://. According to Microsoft, links in 
+    Control Panel may no longer work.
+
+  Also, Microsoft provides "Microsoft Fix it" in order to 
+automatically apply this mitigation measure. For more information, 
+refer to the following support technical information:
+
+    Microsoft Support (2219475)
+    Vulnerability in Help Center could allow remote code execution 
+    http://support.microsoft.com/kb/2219475  
+    http://support.microsoft.com/kb/2219475/en-us
+
+*** Update: Added on July 14, 2010 *******************************
+  When the security update is installed, the above mitigation measure 
+  is no longer necessary.
+******************************************************************
+
+
+VI. References
+
+*** Update: Added on July 14, 2010 *******************************
+  MS10-042
+  Vulnerability in Help and Support Center Could Allow Remote Code Execution (2229593)
+  http://www.microsoft.com/japan/technet/security/bulletin/ms10-042.mspx
+  http://www.microsoft.com/technet/security/bulletin/MS10-042.mspx
+******************************************************************
+
+    JVNVU#578319
+    Microsoft Windows Help and Support Center Vulnerability
+    https://jvn.jp/cert/JVNVU578319/index.html
+
+    IBM Tokyo SOC Report
+    Attacks exploiting a Windows Help and Support Center vulnerability
+    https://www-950.ibm.com/blogs/tokyo-soc/entry/mshelp0day_20100625?lang=ja
+
+
+  If you have any further questions or information regarding this 
+alert, please contact JPCERT/CC.
+
+________
+Revision history
+2010-06-28 First edition
+2010-07-14 Added information about the release of the security update and the verification result of the update
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

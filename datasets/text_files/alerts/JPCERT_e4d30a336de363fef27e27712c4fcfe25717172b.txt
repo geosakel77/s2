@@ -1,0 +1,94 @@
+JPCERT-AT-2018-0017
+                                                             JPCERT/CC
+                                                            2018-04-17
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-04-17 &gt;&gt;&gt;
+
+        Alert Regarding Vulnerabilities in Spring Data Commons
+
+        https://www.jpcert.or.jp/english/at/2018/at180017.html
+
+
+I. Overview
+On April 10, 2018 (local time), Pivotal Software released
+information regarding multiple vulnerabilities in Spring Data Commons.
+According to the information, the Spring Data Commons contains
+multiple vulnerabilities, and a remote attacker leveraging these
+vulnerabilities may execute arbitrary OS commands using the execution
+privilege of the running application server. For details on these
+vulnerabilities, please refer to the information provided by Pivotal
+Software.
+
+    Pivotal Software
+    CVE-2018-1273: RCE with Spring Data Commons
+    https://pivotal.io/security/cve-2018-1273
+    
+    Pivotal Software
+    CVE-2018-1274: Denial of Service with Spring Data
+    https://pivotal.io/security/cve-2018-1274
+
+JPCERT/CC confirmed the Proof-of-Concept (PoC) of the vulnerability
+(CVE-2018-1273) is already in the wild, and also confirmed through
+testing that arbitrary OS command can be remotely executed by using
+the PoC.
+
+
+II. Affected Versions
+According to Pivotal Software, the following versions are affected by
+these vulnerabilities.
+
+  - Spring Data Commons 1.13 to 1.13.10 (Ingalls SR10)
+  - Spring Data Commons 2.0 to 2.0.5 (Kay SR5)
+  - Spring Data REST 2.6 to 2.6.10 (Ingalls SR10)
+  - Spring Data REST 3.0 to 3.0.5 (Kay SR5)
+
+In addition, versions which are no longer supported are also affected
+by these vulnerabilities.
+
+
+III. Solution
+Pivotal Software has released updated versions that address these
+vulnerabilities. It is recommended to update to the latest version
+after through testing.
+
+  - Spring Data Commons 1.13.11
+  - Spring Data Commons 2.0.6
+  - Spring Data REST 2.6.11 (Ingalls SR11)
+  - Spring Data REST 3.0.6 (Kay SR6)
+  - Spring Boot 1.5.11
+  - Spring Boot 2.0.1
+
+As for Spring Boot, Pivotal Software has released version 1.5.12
+that fixes another issue.
+
+
+IV. References
+    Pivotal Software
+    Spring Data
+    https://projects.spring.io/spring-data/
+
+    GitHub
+    spring-projects/spring-data-commons
+    https://github.com/spring-projects/spring-data-commons
+
+    GitHub
+    spring-projects/spring-data-rest
+    https://github.com/spring-projects/spring-data-rest
+
+    Pivotal Software
+    Spring Boot 1.5.11 available now
+    https://spring.io/blog/2018/04/05/spring-boot-1-5-11-available-now
+
+    Pivotal Software
+    Spring Boot 2.0.1 available now
+    https://spring.io/blog/2018/04/05/spring-boot-2-0-1-available-now
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

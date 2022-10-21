@@ -1,0 +1,123 @@
+JPCERT-AT-2020-0026
+                                                             JPCERT/CC
+                                                            2020-06-10
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-06-10 &gt;&gt;&gt;
+
+            Microsoft Releases June 2020 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2020/at200026.html
+
+
+I. Overview
+Microsoft has released June 2020 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    June 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Jun
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    ADV200010
+    June 2020 Adobe Flash Security Update
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV200010
+    - KB4561600
+
+    CVE-2020-1073
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1073
+    - KB4560960, KB4561602, KB4561608, KB4561616, KB4561621, KB4561649
+
+    CVE-2020-1181
+    Microsoft SharePoint Server Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1181
+    - KB4484391, KB4484400, KB4484402, KB4484409
+
+    CVE-2020-1213
+    VBScript Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1213
+    - KB4557957, KB4560960, KB4561602, KB4561603, KB4561608, KB4561616
+      KB4561621, KB4561643, KB4561649, KB4561666
+
+    CVE-2020-1216
+    VBScript Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1216
+    - KB4557957, KB4560960, KB4561602, KB4561603, KB4561608, KB4561616
+      KB4561621, KB4561643, KB4561649, KB4561666
+
+    CVE-2020-1219
+    Microsoft Browser Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1219
+    - KB4557957, KB4560960, KB4561602, KB4561603, KB4561608, KB4561616
+      KB4561621, KB4561643, KB4561649, KB4561666
+
+    CVE-2020-1248
+    GDI+ Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1248
+    - KB4560960
+
+    CVE-2020-1260
+    VBScript Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1260
+    - KB4560960, KB4561602, KB4561603, KB4561608, KB4561616, KB4561621
+      KB4561643, KB4561649, KB4561666
+
+    CVE-2020-1281
+    Windows OLE Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1281
+    - KB4557957, KB4560960, KB4561602, KB4561608, KB4561612, KB4561616
+      KB4561621, KB4561643, KB4561645, KB4561649, KB4561666, KB4561669
+      KB4561670, KB4561673, KB4561674
+
+    CVE-2020-1286
+    Windows Shell Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1286
+    - KB4557957, KB4560960, KB4561602, KB4561608, KB4561621
+
+    CVE-2020-1299
+    LNK Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1299
+    - KB4557957, KB4560960, KB4561602, KB4561608, KB4561612, KB4561616
+      KB4561621, KB4561643, KB4561649, KB4561666, KB4561669, KB4561673
+      KB4561674
+
+    CVE-2020-1300
+    Windows Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1300
+    - KB4557957, KB4560960, KB4561602, KB4561608, KB4561612, KB4561616
+      KB4561621, KB4561643, KB4561645, KB4561649, KB4561666, KB4561669
+      KB4561670, KB4561673, KB4561674
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation 
+    June 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Jun
+
+    Microsoft Corporation
+    Microsoft Security Updates for June 2020 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2020/06/09/202006-security-updates/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

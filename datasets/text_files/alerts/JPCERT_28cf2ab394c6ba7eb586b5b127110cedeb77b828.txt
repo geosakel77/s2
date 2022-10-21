@@ -1,0 +1,176 @@
+JPCERT-AT-2018-0034
+                                                             JPCERT/CC
+                                                            2018-08-15
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-08-15 &gt;&gt;&gt;
+
+           Microsoft Releases August 2018 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2018/at180034.html
+
+
+I. Overview
+Microsoft has released August 2018 Security Updates. This contains
+updates that are rated as "critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    August 2018 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/ecb26425-583f-e811-a96f-000d3a33c573
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    ADV180020
+    August 2018 Adobe Flash Security Update
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180020
+    - KB4343902
+
+    CVE-2018-8266
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8266
+    - KB4343885, KB4343887, KB4343892, KB4343897, KB4343909
+
+    CVE-2018-8273
+    Microsoft SQL Server Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8273
+    - KB4293801, KB4293802, KB4293803, KB4293805, KB4293807, KB4293808
+
+    CVE-2018-8302
+    Microsoft Exchange Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8302
+    - KB4340731, KB4340733
+
+    CVE-2018-8344
+    Microsoft Graphics Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8344
+    - KB4343885, KB4343887, KB4343888, KB4343892, KB4343896, KB4343897
+      KB4343898, KB4343899, KB4343900, KB4343901, KB4343909, KB4344104
+
+    CVE-2018-8345
+    LNK Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8345
+    - KB4340939, KB4343885, KB4343887, KB4343888, KB4343892, KB4343896
+      KB4343897, KB4343898, KB4343899, KB4343900, KB4343901, KB4343909
+
+    CVE-2018-8350
+    Windows PDF Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8350
+    - KB4343885, KB4343897, KB4343909
+
+    CVE-2018-8355
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8355
+    - KB4343205, KB4343885, KB4343887, KB4343892, KB4343897, KB4343898
+      KB4343900, KB4343909
+
+    CVE-2018-8371
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8371
+    - KB4343205, KB4343885, KB4343887, KB4343892, KB4343897, KB4343898
+      KB4343900, KB4343909
+
+    CVE-2018-8372
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8372
+    - KB4343205, KB4343885, KB4343887, KB4343892, KB4343897, KB4343898
+      KB4343900, KB4343909
+
+    CVE-2018-8373
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8373
+    - KB4343205, KB4343885, KB4343887, KB4343892, KB4343897, KB4343898
+      KB4343900, KB4343909
+
+    CVE-2018-8377
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8377
+    - KB4343897, KB4343909
+
+    CVE-2018-8380
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8380
+    - KB4343909
+
+    CVE-2018-8381
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8381
+    - KB4343885, KB4343887, KB4343892, KB4343897, KB4343909
+
+    CVE-2018-8385
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8385
+    - KB4343205, KB4343885, KB4343887, KB4343892, KB4343897, KB4343898
+      KB4343900, KB4343909
+
+    CVE-2018-8387
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8387
+    - KB4343909
+
+    CVE-2018-8390
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8390
+    - KB4343885, KB4343897, KB4343909
+
+    CVE-2018-8397
+    GDI+ Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8397
+    - KB4343674, KB4343899, KB4343900
+
+    CVE-2018-8403
+    Microsoft Browser Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8403
+    - KB4343205, KB4343885, KB4343887, KB4343892, KB4343897, KB4343898
+      KB4343900, KB4343909
+
+According to Microsoft, attacks leveraging the vulnerability
+CVE-2018-8373 (Critical) and CVE-2018-8414 (Important) have been
+observed in the wild. JPCERT/CC confirmed that proof-of-Concept (PoC)
+code for the vulnerability CVE-2018-8414 has been made public, and
+verified that the PoC code can be used to execute arbitrary code.
+Please apply the security update programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update / Windows Update
+    http://www.update.microsoft.com/
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+
+III. References
+    Microsoft Corporation
+    August 2018 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/ecb26425-583f-e811-a96f-000d3a33c573
+
+    Microsoft Corporation
+    Microsoft Security Updates for August 2018 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2018/08/15/201808-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Adobe Systems Incorporated
+    Security updates available for Flash Player | APSB18-25
+    https://helpx.adobe.com/security/products/flash-player/apsb18-25.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerability in Adobe Flash Player (APSB18-25)
+    https://www.jpcert.or.jp/english/at/2018/at180033.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

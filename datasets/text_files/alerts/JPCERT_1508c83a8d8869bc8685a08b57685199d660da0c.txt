@@ -1,0 +1,55 @@
+JPCERT-AT-2022-0007
+                                                             JPCERT/CC
+                                                            2022-03-09
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2022-03-09 &gt;&gt;&gt;
+
+           Microsoft Releases March 2022 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2022/at220007.html
+
+
+I. Overview
+Microsoft has released March 2022 Security Updates to address the
+vulnerabilities in their products. Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code. It is
+recommended to check the information provided by Microsoft and
+apply the updates.
+
+    Microsoft Corporation
+    March 2022 Security Updates
+    https://msrc.microsoft.com/update-guide/en-us/releaseNote/2022-Mar
+
+    Microsoft Corporation
+    Microsoft Security Updates for March 2022 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2022/03/08/202203-security-updates/
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    Release Notes
+    https://msrc.microsoft.com/update-guide/releaseNote
+
+    Microsoft Corporation
+    Guidance for CVE-2022-23278 spoofing in Microsoft Defender for Endpoint
+    https://msrc-blog.microsoft.com/2022/03/08/guidance-for-cve-2022-23278-spoofing-in-microsoft-defender-for-endpoint/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

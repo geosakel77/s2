@@ -1,0 +1,95 @@
+JPCERT-AT-2016-0044
+                                                             JPCERT/CC
+                                                            2016-11-02
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-11-02 &gt;&gt;&gt;
+
+Alert on denial-of-service vulnerability (CVE-2016-8864) in ISC BIND 9
+
+      https://www.jpcert.or.jp/english/at/2016/at160044.html
+
+
+I. Overview
+
+  ISC BIND 9 contains a vulnerability that leads to a denial-of-service
+(DoS). When this vulnerability is exploited, a remote attacker may
+cause named to terminate. For more details on this vulnerability,
+please refer to the information provided by ISC.
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2016-8864: A problem handling responses containing a DNAME answer can lead to an assertion failure
+    https://kb.isc.org/article/AA-01434
+
+  If you are operating an affected version of ISC BIND 9 (authoritative
+server, recursive server*), please consider updating to a version that
+addresses this vulnerability by referring to the information in
+"III. Solution".
+
+* According to ISC, this vulnerability originates in the name resolution
+  process of a recursive response which primarily affects recursive
+  resolvers.
+  Enabling full reserver function is assumed to be the condition
+  affecting authoritative servers.
+
+
+II. Affected Systems
+
+  According to ISC, the following versions are affected by this
+vulnerability. ISC has rated the severity of this vulnerability as
+"High".
+
+  ISC BIND
+    - Versions from 9.9.0 to 9.9.9-P3
+    - Versions from 9.10.0 to 9.10.4-P3
+    - Version 9.11.0
+
+  In addition, unsupported versions of ISC BIND 9.0.x through 9.8.x
+are also affected.
+
+  For more details, please refer to the following:
+
+    BIND 9 Security Vulnerability Matrix
+    https://kb.isc.org/article/AA-00913/
+
+  If you are using BIND provided by a distributor, please refer to the
+information provided by that distributor.
+
+
+III. Solution
+
+  ISC has released versions of ISC BIND that address this vulnerability.
+Distributors are likely to provide their own versions that address
+this vulnerability. Consider updating to an updated version after
+thorough testing.
+
+  Versions that address this vulnerability are as follows:
+
+  ISC BIND
+  - BIND 9 version 9.9.9-P4
+  - BIND 9 version 9.10.4-P4
+  - BIND 9 version 9.11.0-P1
+
+
+IV. References
+
+    US-CERT
+    Internet Systems Consortium (ISC) Releases Security Updates for BIND
+    https://www.us-cert.gov/ncas/current-activity/2016/11/01/ISC-Releases-Security-Updates-BIND
+
+    Japan Registry Services (JPRS)
+    (Urgent) Vulnerability in BIND 9.X (DNS Service Suspension) (CVE-2016-1286) (Japanese)
+    https://jprs.jp/tech/security/2016-11-02-bind9-vuln-dname.html
+
+    Japan Network Information Center (JPNIC)
+    BIND 9's vulnerability on processing responses including DNAME (November, 2016) (Japanese)
+    https://www.nic.ad.jp/ja/topics/2016/20161102-01.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,112 @@
+JPCERT-AT-2017-0016
+                                                             JPCERT/CC
+                                                            2017-04-13
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-04-13 &gt;&gt;&gt;
+
+        Alert Regarding Multiple Vulnerabilities in ISC BIND 9
+
+        https://www.jpcert.or.jp/english/at/2017/at170016.html
+
+
+I. Overview
+ISC BIND 9 contains multiple vulnerabilities. When these vulnerabilities
+are exploited, a remote attacker may cause named to terminate.
+ISC has rated the severity of vulnerability CVE-2017-3137 as "High", 
+CVE-2017-3136 and CVE-2017-3138 as "Medium". For more details on these
+vulnerabilities, please refer to the information provided by ISC.
+
+    CVE-2017-3136: An error handling synthesized records could cause an assertion failure when using DNS64 with "break-dnssec yes;"
+    https://kb.isc.org/article/AA-01465/0
+
+    CVE-2017-3137: A response packet can cause a resolver to terminate when processing an answer containing a CNAME or DNAME
+    https://kb.isc.org/article/AA-01466/0
+
+    CVE-2017-3138: named exits with a REQUIRE assertion failure if it receives a null command string on its control channel
+    https://kb.isc.org/article/AA-01471/0
+
+If you are operating an affected version of ISC BIND 9 (authoritative
+server, recursive server), please consider updating to a version that
+addresses these vulnerabilities by referring to the information in
+"III. Solution".
+
+
+II. Affected Systems
+According to ISC, the following versions are affected by these
+vulnerabilities.
+
+  - CVE-2017-3136 : Medium
+    - Versions from 9.9.0 to 9.9.9-P6
+    - Versions from 9.10.0 to 9.10.4-P6
+    - Versions from 9.11.0 to 9.11.0-P3
+    - Servers which have specific configuration ("break-dnssec yes;") 
+      and are using DNS64 are also affected
+    - Versions 9.8.x which are no longer supported are also affected
+
+  - CVE-2017-3137 : High
+    - BIND 9 Version 9.9.9-P6
+    - BIND 9 Version 9.10.4-P6
+    - BIND 9 Version 9.11.0-P3
+    - Recursive resolvers are at highest risk but authoritative servers
+      are theoretically vulnerable if they perform recursion
+
+  - CVE-2017-3138 : Medium
+    - Versions from 9.9.9 to 9.9.9-P7
+    - Versions from 9.10.4 to 9.10.4-P7
+    - Versions from 9.11.0 to 9.11.0-P4
+    - Servers which accept remote input from control channel are also
+      affected
+
+The affected versions differ for each vulnerability. 
+For more details, please refer to the following:
+
+    BIND 9 Security Vulnerability Matrix
+    https://kb.isc.org/article/AA-00913/
+
+If you are using BIND provided by a distributor, please refer to the
+information provided by that distributor.
+
+
+III. Solution
+ISC has released versions of ISC BIND that address these vulnerabilities.
+Distributors are likely to provide their own versions that address
+these vulnerabilities. Consider updating to an updated version after
+thorough testing.
+
+Versions that address these vulnerabilities are as follows:
+
+  ISC BIND
+  - BIND 9 version 9.9.9-P8
+  - BIND 9 version 9.10.4-P8
+  - BIND 9 version 9.11.0-P5
+
+
+IV. References
+    US-CERT
+    ISC Releases Security Updates for BIND
+    https://www.us-cert.gov/ncas/current-activity/2017/04/12/ISC-Releases-Security-Updates-BIND
+    
+    Japan Registry Services (JPRS)
+    (Urgent) Vulnerability in BIND 9.X (DNS Service Suspension) (CVE-2017-3137) (Japanese)
+    - Strongly recommended to update the version - 
+    https://jprs.jp/tech/security/2017-04-13-bind9-vuln-cname-dname.html
+
+    Japan Registry Services (JPRS)
+    Vulnerability in BIND 9.X (DNS Service Suspension) (CVE-2017-3136) (Japanese)
+    - Servers which have specific configuration ("break-dnssec yes;") and are using DNS64 are also affected; Recommended to update the version -
+    https://jprs.jp/tech/security/2017-04-13-bind9-vuln-dns64.html
+
+    Japan Registry Services (JPRS)
+    Vulnerability in BIND 9.x (DNS Service Suspension) (CVE-2017-3138) (Japanese)
+    - Recommended to update the version -
+    https://jprs.jp/tech/security/2017-04-13-bind9-vuln-control-channel.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

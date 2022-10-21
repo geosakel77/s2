@@ -1,0 +1,67 @@
+JPCERT-AT-2008-0023
+                                                             JPCERT/CC
+                                                            2008-12-18
+
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2008-12-18 &gt;&gt;&gt;
+
+           Vulnerability in Internet Explorer Data Binding
+
+             http://www.jpcert.or.jp/at/2008/at080023.txt
+
+I. Overview
+
+  Microsoft has released emergency information of an Internet Explorer
+vulnerability, which contains one security update with severity rating
+"Critical". A remote attacker could use this vulnerability to execute
+arbitrary code.
+
+  Microsoft has already observed attacks exploiting this
+vulnerability. Users are recommended to immediately apply the security
+update since attacks exploiting this vulnerability are expected to
+increase in the future.
+
+  For further information about the vulnerability, refer to the 
+following URL.
+
+  Microsoft Security Bulletin MS08-078 - Critical
+  http://www.microsoft.com/technet/security/bulletin/MS08-078.mspx
+
+
+II. Solution
+
+  Use means such as Microsoft Update or Windows Update to apply the
+security update immediately.
+
+    Microsoft Update
+    https://www.update.microsoft.com/
+
+    Windows Update
+    https://windowsupdate.microsoft.com/
+
+  Note that a reboot is required after applying the security update.
+
+
+III. References
+
+    Microsoft Security Bulletin MS08-078 - Critical
+    http://www.microsoft.com/technet/security/bulletin/MS08-078.mspx
+
+    US-CERT Technical Cyber Security Alert TA08-352A
+    Microsoft Internet Explorer Data Binding Vulnerability
+    http://www.us-cert.gov/cas/techalerts/TA08-352A.html
+
+    US-CERT Vulnerability Note VU#493881
+    Microsoft Internet Explorer data binding memory corruption
+      vulnerability
+    http://www.kb.cert.org/vuls/id/493881
+
+
+  If you have any information you could provide regarding this alert, 
+please contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

@@ -1,0 +1,153 @@
+JPCERT-AT-2017-0033
+                                                             JPCERT/CC
+                                                    2017-09-06(Initial)
+                                                    2017-09-07(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-09-06 &gt;&gt;&gt;
+
+       Alert Regarding Vulnerability in Apache Struts 2 (S2-052)
+
+        https://www.jpcert.or.jp/english/at/2017/at170033.html
+
+
+I. Overview
+On September 5th, 2017, the Apache Software Foundation released
+information (S2-052) on a vulnerability (CVE-2017-9805) in Apache
+Struts 2. When the Struts REST Plugin is being used and a specially
+crafted XML request aimed at exploiting this vulnerability is processed,
+arbitrary code may be executed on the server where Apache Struts 2 is
+running. 
+For more information on the vulnerability, please refer to the
+information provided by the Apache Software Foundation. Details on the
+vulnerability have also been made public by the reporter of this
+vulnerability.
+
+    Apache Struts 2 Documentation
+    S2-052 : Possible Remote Code Execution attack when using the Struts REST plugin with XStream handler to handle XML payloads
+    https://struts.apache.org/docs/s2-052.html
+
+The Apache Software Foundation has assigned a "Critical" rating to
+this vulnerability. The Apache Software Foundation has not provided
+a workaround beyond either deleting the Struts REST Plugin or applying
+a restriction to not accept requests via XML. If using a version of
+Apache Struts 2 that is affected by this vulnerability, it is recommended
+to update as soon as possible by referring to the information provided
+in "III. Solution".
+
+
+II. Affected Systems
+The following versions of Apache Struts 2 are affected by this
+vulnerability:
+
+  - Apache Struts 2
+    - Versions 2.5 through 2.5.12
+
+** Update: September 6, 2017 Update **********************************
+On September 6th, 2017, the Apache Software Foundation updated the list
+of affected products for this vulnerability. The following versions of
+Apache Struts 2 are affected by this vulnerability.
+
+  - Apache Struts 2 versions 2.1.2 through 2.3.33, versions 2.5 through 2.5.12
+
+For more information, please refer to the information provided by the
+Apache Software Foundation.
+
+    Apache Software Foundation
+    S2-052 : Possible Remote Code Execution attack when using the Struts REST plugin with XStream handler to handle XML payloads
+    https://cwiki.apache.org/confluence/display/WW/S2-052
+**********************************************************************
+
+
+III. Solution
+The Apache Software Foundation has released versions of Apache Struts 2
+that address this vulnerability. Please consider updating to this
+version that has addressed the vulnerability.
+
+  - Apache Struts 2
+    - Versions 2.5.13 for 2.5.x
+
+According to the Apache Software Foundation, the above version also
+address the following vulnerabilities.
+
+  - S2-050 (Severity: Low)
+    - Versions 2.3.7 through 2.3.33 for 2.3.x
+    - Versions prior to 2.5.13 for 2.5.x
+  
+  - S2-051 (Severity: Medium)
+    - Versions 2.3.7 through 2.3.33 for 2.3.x
+    - Versions prior to 2.5.13 for 2.5.x
+
+For more information, please refer to the updated information provided
+by the Apache Software Foundation.
+
+** Update: September 6, 2017 Update **********************************
+On September 6, 2017, the Apache Software Foundation fixed information
+on the versions affected by this vulnerability and reiterated the
+version that addresses the vulnerability.
+
+  - Apache Struts 2
+    - 2.3.34 for 2.3.x
+
+However, as of September 6, 2017, JPCERT/CC has not been able to
+locate a public link to the updated package for 2.3.x. If using this
+version of Apache Struts 2, please continue to monitor information
+being provided by the Apache Software Foundation.
+
+    Apache Software Foundation
+    Version Notes 2.3.34
+    https://cwiki.apache.org/confluence/display/WW/Version+Notes+2.3.34
+**********************************************************************
+
+** Update: September 7, 2017 Update **********************************
+On September 7, 2017, the Apache Software Foundation released Apache
+Struts 2.3.34 which fixes this vulnerability.
+If using a version of 2.3.x, please consider updating to the version
+that has addressed the vulnerability.
+
+For more information, please refer to the updated information provided
+by the Apache Software Foundation.
+
+    Apache Struts 2 Documentation
+    Version Notes 2.3.34
+    https://struts.apache.org/docs/version-notes-2334.html
+**********************************************************************
+
+
+IV. References
+    Apache Struts 2 Documentation
+    S2-052 : Possible Remote Code Execution attack when using the Struts REST plugin with XStream handler to handle XML payloads
+    https://struts.apache.org/docs/s2-052.html
+
+    Apache Struts 2 Documentation
+    REST Plugin
+    https://struts.apache.org/docs/rest-plugin.html
+
+    Apache Struts 2 Documentation
+    S2-050 : A regular expression Denial of Service when using URLValidator (similar to S2-044 &amp; S2-047)
+    https://struts.apache.org/docs/s2-050.html
+
+    Apache Struts 2 Documentation
+    S2-051 : A remote attacker may create a DoS attack by sending crafted xml request when using the Struts REST plugin
+    https://struts.apache.org/docs/s2-051.html
+
+** Update: September 6, 2017 Update **********************************
+    JVNVU#92761484
+    Apache Struts 2 contains a vulnerability that allows arbitrary code execution (S2-052) (Japanese)
+    https://jvn.jp/vu/JVNVU92761484/
+**********************************************************************
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+________
+Revision History
+2017-09-06  Initial Release
+2017-09-06  Updated CVE Number in "I. Overview", Added contents to
+            "II. Affected Products", "III. Solution" and "IV. References"
+2017-09-07  Updated "III. Solution"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

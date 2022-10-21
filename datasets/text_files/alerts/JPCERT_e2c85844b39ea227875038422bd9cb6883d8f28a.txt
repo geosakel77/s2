@@ -1,0 +1,137 @@
+JPCERT-AT-2017-0011
+                                                             JPCERT/CC
+                                                            2017-03-15
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-03-15 &gt;&gt;&gt;
+
+              Microsoft Security Bulletin for March 2017
+                    (including 9 critical patches)
+
+       https://www.jpcert.or.jp/english/at/2017/at170011.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for March 2017.
+This bulletin contains nine (9) updates that is rated as "critical". 
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for March 2017
+    https://technet.microsoft.com/en-us/library/security/ms17-Mar
+
+  [Security updates rated as "critical"]
+
+    MS17-006
+    Cumulative Security Update for Internet Explorer (4013073)
+    https://technet.microsoft.com/en-us/library/security/MS17-006
+
+    MS17-007
+    Cumulative Security Update for Microsoft Edge (4013071)
+    https://technet.microsoft.com/en-us/library/security/MS17-007
+
+    MS17-008
+    Security Update for Windows Hyper-V (4013082)
+    https://technet.microsoft.com/en-us/library/security/MS17-008
+
+    MS17-009
+    Security Update for Microsoft Windows PDF Library (4010319)
+    https://technet.microsoft.com/en-us/library/security/MS17-009
+
+    MS17-010
+    Security Update for Microsoft Windows SMB Server (4013389)
+    https://technet.microsoft.com/en-us/library/security/MS17-010
+
+    MS17-011
+    Security Update for Microsoft Uniscribe (4013076)
+    https://technet.microsoft.com/en-us/library/security/MS17-011
+
+    MS17-012
+    Security Update for Microsoft Windows (4013078)
+    https://technet.microsoft.com/en-us/library/security/MS17-012
+
+    MS17-013
+    Security Update for Microsoft Graphics Component (4013075)
+    https://technet.microsoft.com/en-us/library/security/MS17-013
+
+    MS17-023
+    Security Update for Adobe Flash Player (4014329)
+    https://technet.microsoft.com/en-us/library/security/MS17-023
+
+  According to Microsoft, attacks leveraging the vulnerabilities which
+are addressed in MS17-006 (Critical) and MS17-013 (Critical) have been
+observed in the wild.
+  Please apply the security update programs as soon as possible.
+
+  In Addition, from the February 2017 Update Release, Microsoft had
+planned to only publish update information to the "Security Update
+Guide". However, according to Microsoft, Security Bulletins were also
+published for this month to give customers extra time to ensure they
+are ready to transition their processes.
+
+    March 2017 security update release
+    https://blogs.technet.microsoft.com/msrc/2017/03/14/march-2017-security-update-release/
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+    Microsoft Update Catalog
+    https://catalog.update.microsoft.com/
+
+  According to Microsoft, extended support for the following software
+will end as follows.
+
+  - Windows Vista        : April 11, 2017 (US time)
+  - Exchange Server 2007 : April 11, 2017 (Japan time)
+  - Office 2007          : October 10, 2017 (Japan time)
+
+  After the extended support, Microsoft will not address any security
+issues for the software. Please check if there are any clients or
+server products that have the software installed, and please switch to
+the supported versions as soon as possible.
+
+  Are you aware of the End of Support Period for OS ? (Windows Vista) (Japanese)
+  https://www.microsoft.com/ja-jp/atlife/article/windows10-portal/eos.aspx
+
+  Important notice of End of Support for Exchange Server 2007 and Office 2007 (Japanese)
+  https://www.microsoft.com/ja-jp/office/2007/end-of-support/default.aspx
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for March 2017
+    https://technet.microsoft.com/en-us/library/security/ms17-Mar
+
+    Microsoft
+    Microsoft Security Information for March 2017 (Monthly) MS17-006 - MS17-023 (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2017/03/15/201703-security-bulletin/
+
+    Adobe Systems
+    Security updates available for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsb17-07.html
+
+    JPCERT/CC
+    Vulnerabilities in Adobe Flash Player (APSB17-07)
+    https://www.jpcert.or.jp/english/at/2017/at170010.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

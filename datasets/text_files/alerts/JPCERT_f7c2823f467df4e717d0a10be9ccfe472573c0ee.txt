@@ -1,0 +1,240 @@
+JPCERT-AT-2021-0050
+                                                             JPCERT/CC
+                                                    2021-12-11(Initial)
+                                                    2022-01-04(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2021-12-11 &gt;&gt;&gt;
+
+Alert Regarding Arbitrary Code Execution Vulnerability (CVE-2021-44228) in Apache Log4j
+
+        https://www.jpcert.or.jp/english/at/2021/at210050.html
+
+
+I. Overview
+** Update: January 4, 2022 *****************************************
+This alert continues to be updated depending on future situation.
+Please pay close attention to the related information and check the
+future update of this alert.
+
+The following updates have been made. For details, please refer to
+"III. Solution".
+
+ - Apache Log4j versions 2.17.1 (for Java 8 and later), 2.12.4 (for Java 7) and 2.3.2 (for Java 6) have been released.
+*********************************************************************
+
+Apache Log4j, a Java-based open-source logging library, contains an
+arbitrary code execution vulnerability (CVE-2021-44228). A remote
+attacker may execute arbitrary code on a server running Apache Log4j
+by sending specially crafted data that exploits this vulnerability.
+
+    Apache Log4j Security Vulnerabilities
+    Fixed in Log4j 2.15.0
+    https://logging.apache.org/log4j/2.x/security.html
+
+Apache Log4j has a function called Lookup, which replaces some strings
+as variables from the strings recorded as logs. Among them, when the
+JNDI Lookup function is exploited, a remote attacker may send a
+specially crafted character string and Log4j records it as a log,
+then Log4j may read and execute the java class from the external
+server or internal path specified by Lookup, which may result in
+arbitrary code execution.
+
+On December 11, 2021, JPCERT/CC confirmed that Proof-of-Concept code
+that exploit the vulnerability has been made public, and that
+communications attempting to exploit this vulnerability have been made
+in Japan. If you are using Apache Log4j, it is recommended to consider
+implementing version upgrades and applying workarounds.
+
+In addition, security updates are released for applications and software
+that use Apache Log4j. Please pay close attention to the relevant
+information and consider implementing necessary measures. 
+
+
+II. Affected Versions
+The following versions are affected by the vulnerability.
+
+  - Apache Log4j-core version 2.x prior to 2.15.0
+
+In addition, JPCERT/CC has confirmed the information that the version
+of Apache Log4j 1.x that has already reached the End of Life does not
+include the Lookup function, and even if JMS Appender is enabled, the
+class information is not deserialized, therefore not affected by the
+vulnerability.
+
+Information about affected versions and conditions may change or be
+updated, and information may be released by the developers of
+applications and software that use Apache Log4j. For the latest
+information, please check the related information provided by each
+developers or organization. 
+
+** Update: December 13, 2021 Update *********************************
+Regarding the version of Apache Log4j 1.x, it is pointed out that
+it may be possible to exploit the vulnerability if an attacker can
+alter the Log4j configuration file, which requires unauthorized
+access to the system in advance in order to carry out the attack.
+
+    Restrict LDAP access via JNDI #608 Comment
+    https://github.com/apache/logging-log4j2/pull/608#issuecomment-991730650
+*********************************************************************
+
+
+III. Solution
+The Apache Software Foundation has released the updates containing
+fixes for the vulnerability. Please consider applying the measures
+promptly. In the following versions and later, the Lookup feature is
+disabled by default.
+
+  - Apache Log4j 2.15.0
+
+It is recommended to pay close attention to the related information
+about the application and software in place, and if they are found
+to be affected by this vulnerability, take immediate action such as
+updating.
+
+In addition to implementing countermeasures, since communication that
+attempts to exploit this vulnerability has already been confirmed, it
+is recommended to check the existence of suspicious files and processes,
+communication logs, etc., to confirm the evidence of attacks.
+
+** Update: December 15, 2021 Update *********************************
+The Apache Software Foundation has released versions 2.16.0 (for Java
+8 and later version) and 2.12.2 (for Java 7) of Apache Log4j.
+
+Since It was discovered that in certain non-default configurations
+Apache Log4j2 is vulnerable to denial of service (DoS) when malicious
+input data using a JNDI Lookup pattern is sent, access to JNDI has been
+disabled by default. This issue was assigned CVE-2021-45046.
+
+    Apache Log4j Security Vulnerabilities
+    Fixed in Log4j 2.12.2 (Java 7) and Log4j 2.16.0 (Java 8)
+    https://logging.apache.org/log4j/2.x/security.html#log4j-2.16.0
+
+In addition of countermeasures for the arbitrary code execution
+vulnerability (CVE-2021-44228), it is recommended updating to the
+version 2.16.0 or 2.12.2 to address risks such as the denial of
+service attack vulnerability (CVE-2021-45046).
+*********************************************************************
+
+** Update: December 20, 2021 Update *********************************
+Regarding the impacts of CVE-2021-45046, information has been
+released that it is possible to execute arbitrary code in some
+environments.
+*********************************************************************
+
+** Update: December 20, 2021 Update *********************************
+On December 18, 2021 (Local Time), The Apache Software Foundation
+released version 2.17.0 of Apache Log4j (for Java 8 and later).
+
+A denial of service attack vulnerability (CVE-2021-45105) exists in
+some environments with non-default configuration due to uncontrolled
+recursion from self-referential lookups.
+
+    Apache Log4j Security Vulnerabilities
+    Fixed in Log4j 2.17.0 (Java 8)
+    https://logging.apache.org/log4j/2.x/security.html#log4j-2.17.0
+*********************************************************************
+
+** Update: December 28, 2021 Update *********************************
+On December 21, 2021 (Local Time), The Apache Software Foundation
+released versions 2.3.1 (for Java 6) and 2.12.3 (for Java 7) of
+Apache Log4j.
+
+    Apache Log4j Security Vulnerabilities
+    Fixed in Log4j 2.17.0 (Java 8), 2.12.3 (Java 7) and 2.3.1 (Java 6)
+    https://logging.apache.org/log4j/2.x/security.html#log4j-2.17.0
+*********************************************************************
+
+** Update: January 4, 2022 ******************************************
+On December 28, 2021 (Local Time), The Apache Software Foundation
+released versions 2.17.1 (for Java 8 and later), 2.12.4 (for Java 7)
+and 2.3.2 (for Java 6) of Apache Log4j.
+
+    Apache Log4j Security Vulnerabilities
+    Fixed in Log4j 2.17.1 (Java 8), 2.12.4 (Java 7) and 2.3.2 (Java 6)
+    https://logging.apache.org/log4j/2.x/security.html#log4j-2.17.1
+*********************************************************************
+
+
+IV. Workarounds
+The Apache Software Foundation has released information about
+workarounds depending on the versions of Log4j.
+
+** Update: December 15, 2021 Update *********************************
+The Apache Software Foundation has revealed that some workarounds
+have been incomplete to avoid attacks using specific techniques.
+It is recommended to remove JndiLookup.class from the classpath as
+an effective workaround.
+
+    Apache Log4j Security Vulnerabilities
+    Fixed in Log4j 2.12.2 and Log4j 2.16.0
+    https://logging.apache.org/log4j/2.x/security.html
+*********************************************************************
+
+  Log4j version 2.10 and later
+  - Apply one of the following: 
+  (1) Setting system property log4j2.formatMsgNoLookups to "true"
+  (2) Set the environment variable "LOG4J_FORMAT_MSG_NO_LOOKUPS" to "true"
+
+  Log4j version prior to 2.10
+  - Remove the JndiLookup class from the classpath
+
+Also, in order to mitigate the effects of attacks that exploit this
+vulnerability, please consider reviewing and strengthening access
+control as much as possible to limit the connection from the system to
+the outside.
+
+
+V. References
+    apache / logging-log4j2
+    Restrict LDAP access via JNDI #608
+    https://github.com/apache/logging-log4j2/pull/608
+
+    The Apache Software Foundation
+    Lookups
+    https://logging.apache.org/log4j/2.x/manual/lookups.html
+
+    LunaSec
+    RCE 0-day exploit found in log4j, a popular Java logging package
+    https://www.lunasec.io/docs/blog/log4j-zero-day/
+
+    SANS ISC InfoSec Forums
+    RCE in log4j, Log4Shell, or how things can get bad quickly
+    https://isc.sans.edu/forums/diary/RCE+in+log4j+Log4Shell+or+how+things+can+get+bad+quickly/28120/
+
+    BlueTeam CheatSheet * Log4Shell*
+    https://gist.github.com/SwitHak/b66db3a06c2955a9cb71a8718970c592
+
+** Update: December 13, 2021 Update *********************************
+    Japan Vulnerability Notes JVNVU#96768815
+    Arbitrary Code Execution Vulnerability (CVE-2021-44228) in Apache log4j (Japanese)
+    https://jvn.jp/vu/JVNVU96768815/
+*********************************************************************
+
+** Update: December 20, 2021 Update *********************************
+    JPCERT/CC Eyes
+    Observation of Attacks Targeting Apache Log4j2 RCE Vulnerability (CVE-2021-44228)
+    https://blogs.jpcert.or.jp/en/2021/12/log4j-cve-2021-44228.html
+*********************************************************************
+
+** Update: December 28, 2021 Update *********************************
+    JPCERT/CC CyberNewsFlash
+    Regarding the Log4j vulnerability announced in December 2021 (Japanese)
+    https://www.jpcert.or.jp/newsflash/2021122401.html
+*********************************************************************
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2021-12-11 First edition
+2021-12-13 Updated "I. Overview", "IV. Workarounds" and "V. References"
+2021-12-15 Updated "III. Solution" and "IV. Workarounds"
+2021-12-20 Updated "I. Overview", "III. Solution" and "V. References"
+2021-12-28 Updated "I. Overview", "III. Solution" and "V. References"
+2022-01-04 Updated "I. Overview", "III. Solution", revised the updated reference on Dec 20 and 28
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,76 @@
+JPCERT-AT-2022-0003
+                                                             JPCERT/CC
+                                                            2022-01-19
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2022-01-19 &gt;&gt;&gt;
+
+         Oracle Releases Critical Patch Update, January 2022
+
+        https://www.jpcert.or.jp/english/at/2022/at220003.html
+
+
+I. Overview
+On January 18, 2022 (US Time), Oracle released critical patch updates
+for multiple Oracle products.
+
+    Oracle Corporation
+    Oracle Critical Patch Update Advisory - January 2022
+    https://www.oracle.com/security-alerts/cpujan2022.html
+
+A remote attacker exploiting these vulnerabilities may perform
+unauthorized operations or unauthorized deletion or falsification
+of sensitive information. Users of the affected products are
+recommended to update to the latest version appropriately by referring
+to the information provided by Oracle.
+Also, the layout of our alert regarding Oracle Critical Patch Update
+has been changed starting this edition.
+
+
+II. Solutions
+Oracle has provided patches that address vulnerabilities in each
+product. Some products or applications may not run properly after
+updating the software to the latest version. Please update to
+the latest version after considering any possible impacts to the
+products or applications.
+
+In addition, there are cases where Java JRE is pre-installed on the PC
+or WebLogic is used in software products for servers. Please check if
+any of the affected products is included in the PCs or servers that
+you use.
+
+    Oracle Corporation
+    Oracle Java SE Support Roadmap
+    https://www.oracle.com/technetwork/java/eol-135779.html
+
+Users of 64-bit Windows may have 32-bit and/or 64-bit versions of
+JDK/JRE installed. Please check the versions installed on your system
+and apply the appropriate updates.
+
+Users can check the version of Java that they are using at the page
+below. If both 32-bit and 64-bit versions of Java are installed,
+please check the versions installed, using a 32-bit and 64-bit browser
+respectively. (In environments where Java is not installed, there may
+be a request to install Java. If you do not require Java, please do
+not install.)
+
+    Verify Java and Find Out-of-Date Versions
+    https://www.java.com/en/download/installed.jsp
+
+
+III. References
+    Oracle Corporation
+    Critical Patch Updates, Security Alerts and Bulletins
+    https://www.oracle.com/security-alerts/
+
+    Oracle Corporation
+    January 2022 Critical Patch Update Released
+    https://blogs.oracle.com/security/post/january-2022-cpu
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

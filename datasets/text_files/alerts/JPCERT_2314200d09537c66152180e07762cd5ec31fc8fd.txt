@@ -1,0 +1,134 @@
+JPCERT-AT-2014-0055
+                                                             JPCERT/CC
+                                                            2014-12-19
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2014-12-19 &gt;&gt;&gt;
+
+          Alert regarding increase in scans to TCP port 8080
+
+        https://www.jpcert.or.jp/english/at/2014/at140055.html
+
+
+I. Overview
+
+  At JPCERT/CC, an increase in scans to port TCP 8080 have been
+observed since December 5, 2014 on its Internet traffic monitoring
+system (TSUBAME *1). Also, it has been confirmed that requests which
+are suspected to be attack attempts leveraging the GNU bash
+vulnerabilities are sent when responding to some of these scan packets
+to TCP port 8080.
+
+  TCP port 8080 is used in various software including the login screen
+for NAS products provided by QNAP Systems, Inc. QNAP Systems, Inc. has
+provided information on attacks against their NAS products, and the
+requests that we observed were targeted against these devices.
+
+   QNAP
+   An Urgent Fix on the Reported Infection of a Variant of GNU Bash Environment Variable Command Injection Vulnerability
+   http://www.qnap.com/i/jp/support/con_show.php?cid=74
+
+  In some of the source IP addresses that performed scans to TCP port
+8080, we have reasons to believe that the responses were from the
+login screen for these products.
+
+  We assume that the increase in scans to TCP port 8080 is a result of
+servers running these products that were attacked and leveraged for
+further attacks on third-parties. As of December 19, scans to TCP port
+8080 are on-going, therefore users of these products should apply the
+solutions in "IV. Solution".
+
+  At JPCERT/CC, we have contacted network administrators of the
+observed IP addresses that have been suspected to be leveraged in
+attacks.
+
+  *1 The name of the Asia / Pacific internet traffic monitoring system (Japanese)
+     https://www.jpcert.or.jp/tsubame/
+
+
+II. Attack Flow (Example)
+
+  1) Attacker sends scan packet to TCP port 8080
+  2) A request leveraging the GNU bash vulnerability is sent to IP 
+     addresses that responded to the scan packet
+  3) If using a vulnerable version of firmware, a command is executed
+     on the device and a script is downloaded from the Internet and
+     then executed.
+  4) As a result, the following occur on the device:
+     - Addition of users
+     - Installation of backdoor
+     - Fixes the GNU bash vulnerability
+     - Sends scan packets to TCP port 8080 to a random network
+       - If a response is received from an IP address, then it sends a
+         request that leverages the GNU bash vulnerability to the IP
+         address
+
+  * A successful attack may result in information stored on the device
+    to be stolen or the device being leveraged for an attack on a
+    terminal or device connected to another network.
+
+
+III. Observation Results
+
+  A graph showing TSUBAME observed scans to TCP port 8080 can be seen
+below.
+
+    TSUBAME graph for TCP port 8080 (2014/12/01-2014/12/19)
+    https://www.jpcert.or.jp/at/2014/at140055-8080tcp.png
+
+
+IV. Solution
+
+  Check the firmware version being used according to the information
+provided by QNAP Systems, Inc. and upgrade to a firmware version that
+addresses this issue. Also, if using a version prior to Turbo NAS
+series 4.1.1 build 1003 without Qfix 1.0.2 build 1008 applied it is
+recommended to check whether you are affected by an attack using the
+information provided at the link below.
+
+    An Urgent Fix on the Reported Infection of a Variant of GNU Bash Environment Variable Command Injection Vulnerability
+    http://www.qnap.com/i/jp/support/con_show.php?cid=74
+
+  If it is discovered that you are affected by this attack, the
+following are recommended to be checked
+
+  - Check for illegitimate traffic originating from the device after
+    fixing the vulnerability
+  - Check for any potential effects to devices connected within the
+    same network as the NAS device
+
+
+V. References
+
+    QNAP
+    Protect Your Turbo NAS from Remote Attackers - Bash (Shellshock) Vulnerabilities
+    http://www.qnap.com/i/en/support/con_show.php?cid=61
+
+    QNAP
+    An Urgent Fix on the Reported Infection of a Variant of GNU Bash Environment Variable Command Injection Vulnerability
+    http://www.qnap.com/i/jp/support/con_show.php?cid=74
+
+    @police
+    Observations of access attempts targeting Bash vulnerabilities (3rd update) (Japanese)
+    http://www.npa.go.jp/cyberpolice/detect/pdf/20141209-2.pdf
+
+    JVN#55667175
+    QNAP QTS vulnerable to OS command injection
+    https://jvn.jp/en/jp/JVN55667175/
+
+    JPCERT/CC
+    [Updated] Vulnerability in GNU Bash
+    https://www.jpcert.or.jp/english/at/2014/at140037.html
+
+    JPCERT/CC
+    Internet Traffic Monitoring System (TSUBAME)
+    https://www.jpcert.or.jp/english/tsubame/readme.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

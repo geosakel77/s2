@@ -1,0 +1,110 @@
+JPCERT-AT-2020-0023
+                                                             JPCERT/CC
+                                                            2020-05-21
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-05-21 &gt;&gt;&gt;
+
+Alert Regarding Vulnerabilities (CVE-2020-8616, CVE-2020-8617) in ISC BIND 9
+
+       https://www.jpcert.or.jp/english/at/2020/at200023.html
+
+
+I. Overview
+ISC BIND 9 contains vulnerabilities (CVE-2020-8616 and CVE-2020-8617).
+The vulnerability (CVE-2020-8616) is due to the processing of a
+referral response. A remote attacker leveraging this vulnerability may
+use the recursing server as a reflector in a reflection attack with a
+high amplification factor, or degrade the performance of the recursing
+server.
+The vulnerability (CVE-2020-8617) is due to an error in BIND code
+which checks the validity of messages containing TSIG resource records.
+A remote attacker leveraging this vulnerability may cause named to
+terminate or operate in an inconsistent state by sending a
+specially-crafted message. According to ISC, since BIND by default
+configures a local session key even on servers whose configuration
+does not otherwise make use of it, almost all current BIND servers are
+vulnerable.
+
+ISC has rated the severity of these vulnerabilities (CVE-2020-8616 and
+CVE-2020-8617) as "High." For more information on the vulnerabilities,
+please refer to the information provided by ISC.
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2020-8616: BIND does not sufficiently limit the number of fetches performed when processing referrals
+    https://kb.isc.org/docs/cve-2020-8616
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2020-8617: A logic error in code which checks TSIG validity can be used to trigger an assertion failure in tsig.c
+    https://kb.isc.org/docs/cve-2020-8617
+
+Also, the vulnerability CVE-2020-8616 is reported upon the finding of
+attack method called NXNSAttack. Several other DNS software including
+BIND is affected.
+
+If you are operating an affected version of ISC BIND 9, please consider
+updating to a version that addresses these vulnerabilities by referring
+to the information in "III. Solution".
+
+
+II. Affected Systems
+According to ISC, the following versions are affected by these
+vulnerabilities.
+
+  - BIND 9.16.x versions from 9.16.0 to 9.16.2
+  - BIND 9.14.x versions from 9.14.0 to 9.14.11
+  - BIND 9.11.x versions from 9.11.0 to 9.11.18
+  - BIND Supported Preview Edition from 9.9.3-S1 to 9.11.18-S1
+
+ISC BIND 9 versions prior to 9.10.x, 9.12.x, 9.13.x and 9.15.x which are
+no longer supported, and development branch versions 9.17.x are also
+affected by these vulnerabilities.
+
+If you are using BIND provided by a distributor, please refer to the
+information provided by that distributor.
+
+
+III. Solution
+ISC has released versions of ISC BIND 9 that address these
+vulnerabilities. Distributors are likely to provide their own versions
+that address the vulnerabilities. Consider updating to an updated
+version after thorough testing.
+
+  - BIND 9.16.3
+  - BIND 9.14.12
+  - BIND 9.11.19
+  - BIND Supported Preview Edition version 9.11.19-S1
+
+
+IV. References
+    Japan Registry Services (JPRS)
+    (Urgent) Vulnerability in BIND 9.x (Performance degradation and exploitation in a reflection attack) (CVE-2020-8616) - Strongly recommended to update the version - (Japanese)
+    https://jprs.jp/tech/security/2020-05-20-bind9-vuln-processing-referrals.html
+
+    Japan Registry Services (JPRS)
+    (Urgent) Vulnerability in BIND 9.x (Termination of DNS service and abnormal behavior) (CVE-2020-8617) - Both full resolver (cache dns server) / authoritative name server affected - Strongly recommended to update the version - (Japanese)
+    https://jprs.jp/tech/security/2020-05-20-bind9-vuln-tsig.html
+
+    Tel Aviv University
+    NXNSAttack
+    http://www.nxnsattack.com/
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2020-8617: FAQ and Supplemental Information
+    https://kb.isc.org/docs/cve-2020-8617-faq-and-supplemental-information
+
+    Internet Systems Consortium, Inc. (ISC)
+    ISC is releasing updated versions of BIND 9 to address two newly-discovered security vulnerabilities
+    https://www.isc.org/blogs/bind9-vulnerabilities-2020-05/
+
+    Internet Systems Consortium, Inc. (ISC)
+    BIND 9 Security Vulnerability Matrix
+    https://kb.isc.org/article/AA-00913/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

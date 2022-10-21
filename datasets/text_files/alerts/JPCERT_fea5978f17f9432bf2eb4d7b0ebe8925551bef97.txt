@@ -1,0 +1,104 @@
+JPCERT-AT-2016-0019
+                                                             JPCERT/CC
+                                                   2016-04-26(Initial)
+                                                   2016-05-06(Update)
+
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-04-26 &gt;&gt;&gt;
+                  
+           Alert on vulnerability in Keitai Kit for Movable Type
+
+          https://www.jpcert.or.jp/english/at/2016/at160019.html
+
+
+I. Overview
+
+  Keitai Kit for Movable Type provided by ideaman's Inc. contains an
+OS command injection vulnerability (CVE-2016-1204). Leveraging this
+vulnerability may result in arbitrary OS command being executed on the
+server where thesoftware runs.
+
+  For more details on the vulnerability and its impact, please refer
+to the following information.
+
+    Japan Vulnerability Notes JVNVU#92116866
+    OS command injection vulnerability in Keitai Kit for Movable Type (Japanese)
+    https://jvn.jp/vu/JVNVU92116866/
+
+  There is information that attacks leveraging this vulnerability are
+already observed.
+
+
+II. Affected Software
+
+  The following product and the versions are affected by this vulnerability.
+ideaman's Inc. has provided information for users of Keitai Kit for
+Movable Type, including a plugin to confirm whether their product is
+affected by this vulnerability.
+
+  - Keitai Kit for Movable Type
+    - versions 1.35 through 1.641
+
+  Also, other products that contain or use Keitai Kit for Movable Type
+may be affected by this vulnerability.
+
+
+III. Solution
+
+  ideaman's Inc. has provided an updated version and a patch that
+address this vulnerability. Please consider applying the update or
+patch after thorough testing. 
+
+  - Keitai Kit for Movable Type 1.65
+
+  Also, vendors providing products that contain or use Keitai Kit for
+Movable Type may provide information on fixed versions. We recommend
+periodically checking information provided by such vendors.
+
+** Update: May 6, 2016 Update ****************************************
+ According to ideaman's Inc., it is recommended to update to the latest 
+ version 1.65 rather than applying the patch.
+    ideaman's Inc.
+    [2016-04-22] We now provide emergency patch (Update: 4/28)(Japanese)
+    https://www.ideamans.com/release/20160422/
+************************************************************************
+
+
+IV. References
+
+    ideaman's Inc.
+    [Important]  We now provide Keitai Kit for Movable Type 1.65 (Japanese)
+    https://www.ideamans.com/release/20160423/
+
+** Update: May 6, 2016 Update ****************************************
+    ideaman's Inc.
+    [Important]  We now provide a tool for verifying malicious file 
+    leveraging the vulnerability of Keitai Kit for Movable Type (Japanese)
+    https://www.ideamans.com/release/20160428/
+    
+    Inquiry counter regarding license of Keitai Kit for Movable Type (Japanese)
+    https://www.ideamans.com/release/20160502/
+*********************************************************************
+
+    SKYARC Co., Ltd,
+    [Critical] Information on emergency patch file for Keitai Kit (Japanese)
+    https://www.skyarc.co.jp/news/products/20160422.html
+
+    Six Apart, Ltd.
+    Keitai Kit for Movable Type 1.65 is now being provided (Japanese)
+    http://www.sixapart.jp/movabletype/news/2016/04/23-2039.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2016-04-26 First edition
+2016-05-06 Updated "Solution" and "References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/
