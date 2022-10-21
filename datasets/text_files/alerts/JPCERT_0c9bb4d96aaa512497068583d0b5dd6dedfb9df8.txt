@@ -1,0 +1,111 @@
+JPCERT-AT-2007-0014
+                                                            JPCERT/CC
+                                June 13, 2007 (Original release date)
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2007-06-13 &gt;&gt;&gt;
+
+                June 2007 Microsoft Security Bulletin
+                  (including four critical patches)
+
+            http://www.jpcert.or.jp/at/2007/at070014.txt
+
+I. Overview
+
+  Microsoft has released security bulletins for June 2007 which
+include four "Critical" security updates.
+
+  Exploitation of these vulnerabilities could allow a remote attacker
+to execute arbitrary code.
+
+    Security Bulletin for June 2007
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-jun.mspx
+
+  Detailed information on each vulnerability is available from the
+following URLs:
+
+  [Critical Security Updates]
+    MS07-031
+    Vulnerability in the Windows Schannel Security Package Could
+      Allow Remote Code Execution (935840)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-031.mspx
+
+    MS07-033
+    Cumulative Security Update for Internet Explorer (933566)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-033.mspx
+
+    MS07-034
+    Cumulative Security Update for Outlook Express and Windows Mail
+      (929123)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-034.mspx
+
+    MS07-035
+    Vulnerability in Win 32 API Could Allow Remote Code Execution
+      (935839)
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-035.mspx
+
+
+II. Solution
+
+  Apply the security updates immediately by using Microsoft Update or
+Windows Update.
+
+    Microsoft Update
+    https://update.microsoft.com/microsoftupdate
+
+    Windows Update
+    https://windowsupdate.microsoft.com/
+
+    Office Update
+    http://office.microsoft.com/ja-jp/officeupdate/default.aspx
+
+  Depending on the version of the product, updates may not be
+available from Microsoft Update. Use Windows Update or Office Update
+as needed.
+
+  For example, to apply security updates for Office 2000, they need
+to be downloaded from Office Update. For details of operating systems
+supported by Microsoft Update, see "Security Requirements" in the
+following URL:
+
+    About Microsoft Update
+    http://www.microsoft.com/japan/technet/prodtechnol/microsoftupdate/default.mspx
+
+
+III. Reference Information
+
+    JP Vendor Status Notes JVNTA07-163A
+    Multiple Vulnerabilities in Microsoft Products
+    http://jvn.jp/cert/JVNTA07-163A/index.html
+
+    Security Bulletin for June 2007
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-jun.mspx
+
+    Microsoft Update and other services: Frequently asked questions
+    http://www.microsoft.com/japan/athome/security/protect/update.mspx
+
+    US-CERT Technical Cyber Security Alert TA07-163A
+    Microsoft Updates for Multiple Vulnerabilities
+    http://www.us-cert.gov/cas/techalerts/TA07-163A.html
+
+    US-CERT Vulnerability Note VU#457281
+    Microsoft Windows Win32 API fails to properly validate function
+      parameters
+    http://www.kb.cert.org/vuls/id/457281
+
+    US-CERT Vulnerability Note VU#507433
+    Microsoft Speech API ActiveX controls contain buffer overflows
+    http://www.kb.cert.org/vuls/id/507433
+
+    @police
+    About Microsoft security updates
+    (MS07-030, 031, 032, 033, 034, 035) (June 13)
+    http://www.cyberpolice.go.jp/important/2007/20070613_064528.html
+
+
+  If you have any information regarding this matter, please contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

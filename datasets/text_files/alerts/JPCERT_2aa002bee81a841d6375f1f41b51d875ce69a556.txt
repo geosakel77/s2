@@ -1,0 +1,94 @@
+JPCERT-AT-2009-0012
+                                                             JPCERT/CC
+                                                            2009-07-10
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2009-07-10 &gt;&gt;&gt;
+
+   DDoS attacks observed relating to South Korea and United States
+
+            https://www.jpcert.or.jp/at/2009/at090012.txt
+
+I. Overview
+
+  JPCERT/CC has obtained information regarding DDoS attacks launched 
+against government and financial institutions in South Korea and the
+United States.  Due to these attacks, connecting to affected web sites
+has become impossible or very slow.
+  
+  These attacks are being carried out by hosts infected with a 
+particular virus which contains a pre-determined list of targets to
+overwhelm with traffic and make unavailable.  The virus used not only
+attacks the listed targets, but also deletes data from the infected
+host under specific conditions.
+  
+  Japanese domestic situation:
+  As of 17:00 July 10 2009, no Japanese hosts appear to be targeted by
+  the attack.  However, JPCERT/CC has received reports from KrCERT/CC 
+  (Korea) that a number of Japanese hosts are involved in sending 
+  attack traffic to targeted sites.
+  
+  Owing to the existence of these infected hosts in Japan and to 
+attempt to prevent an increase in the number of infected machines,
+JPCERT/CC is issuing this alert for network owners to be aware of the
+potential for such hosts on their networks.
+  
+
+II. Response
+
+  Details regarding the spread of this malware are presently unclear;
+however, to prevent hosts becoming part of the attack, it is important
+to consider the following general countermeasures:
+
+  - Be careful about opening suspicious emails or web sites;
+  - Run the most recent version of your operating system and 
+    applications;
+  - Use anti-virus software, making sure that pattern files are kept 
+    up to date;
+  - Run anti-virus system scans on a regular basis to check for
+    infections;
+  - Uninstall unnecessary applications.
+  
+  It is likely that future attacks with utilize different 
+vulnerabilities, so it is recommended that these countermeasures are 
+performed on a continual basis.
+
+
+III. References
+
+    OS update:
+    Microsoft Update
+    https://update.microsoft.com/
+
+    Windows Update
+    https://windowsupdate.microsoft.com/
+
+    Application updates:
+    Office Update
+    http://office.microsoft.com/officeupdate/default.aspx
+
+    Adobe Flash Player Version Test
+    http://kb2.adobe.com/cps/155/tn_15507.html
+
+    Adobe.com
+    New downloads
+    http://www.adobe.com/support/downloads/new.jsp
+
+    MIC and METI Bot Countermeasure Project
+    Cyber Clean Center ( CCC )
+    https://www.ccc.go.jp/index.html
+
+    WORM_MYDOOM.EA
+    http://www.trendmicro.co.jp/vinfo/virusencyclo/default5.asp?VName=WORM_MYDOOM.EA&amp;VSect=S
+
+    W32/Mydoom.cf
+    http://www.mcafee.com/japan/security/virM.asp?v=W32/Mydoom.cf
+
+
+  If you have any information you could provide regarding this alert,
+please contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+https://www.jpcert.or.jp/

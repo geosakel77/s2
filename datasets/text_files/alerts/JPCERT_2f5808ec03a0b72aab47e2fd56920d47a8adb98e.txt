@@ -1,0 +1,84 @@
+JPCERT-AT-2020-0019
+                                                             JPCERT/CC
+                                                            2019-05-02
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-05-02 &gt;&gt;&gt;
+
+      Alert Regarding Vulnerabilities in Oracle WebLogic Server
+
+        https://www.jpcert.or.jp/english/at/2020/at200019.html
+
+
+I. Overview
+On April 30, 2020 (local time), Oracle released a Security Notification
+(Doc ID 2664856.1) regarding vulnerabilities in Oracle WebLogic Server.
+
+    Customers should apply the April 2020 Critical Patch Update without delay!
+    https://blogs.oracle.com/security/apply-april-2020-cpu
+
+    Security Notification for WLS CVE-2020-2883 in Java Cloud Service (Oracle account required)
+    http://support.oracle.com/CSP/main/article?cmd=show&amp;type=NOT&amp;id=2664856.1
+
+According to Oracle, multiple Proof-of-Concept codes have been made
+public that exploit the vulnerabilities which had been fixed in the
+April 2020 Critical Patch Update released on April 14, 2020
+(local time). Oracle strongly recommended to update the affected
+system to the latest version, especially called attention about the
+vulnerability CVE-2020-2883.
+
+A remote attacker may perform malicious operations by leveraging
+these vulnerabilities. Users of the affected products are recommended
+to apply update by referring to "III. Solution" and "IV. Workaround".
+
+
+II. Affected Products
+  - Oracle WebLogic Server 12.2.1.4.0
+  - Oracle WebLogic Server 12.2.1.3.0
+  - Oracle WebLogic Server 12.1.3.0.0
+  - Oracle WebLogic Server 10.3.6.0.0
+
+
+III. Solution
+Oracle has released a Critical Patch Update, April 2020.
+
+Some applications that use affected products may not run properly
+after applying patch. Please apply the patch after considering any
+possible impacts to applications that you may use.
+
+
+IV. Workaround
+Please consider setting appropriate access restrictions (filters) for
+each T3/T3s protocol that could lead to exploitation of the vulnerability
+(CVE-2020-2883). In addition, besides T3/T3s, some vulnerabilities in
+Oracle WebLogic Server that have been fixed by the critical update in
+April 2020 are related to GIOP (IIOP/IIOPs). In order to prevent the
+exploitation of vulnerabilities in Oracle WebLogic Server, please check
+and set appropriate access restrictions (filters) for each of these
+protocols, and consider restricting access to only those that are
+necessary.
+
+For more details on setting filters, please refer to the information
+from Oracle.
+
+
+V. References
+    Oracle Corporation
+    Oracle Critical Patch Update Advisory - April 2020
+    https://www.oracle.com/security-alerts/cpuapr2020.html
+
+    JPCERT/CC
+    Oracle Releases Critical Patch Update, April 2020
+    https://www.jpcert.or.jp/english/at/2020/at200017.html
+
+    Oracle Corporation
+    Using Network Connection Filters
+    https://docs.oracle.com/middleware/12213/wls/SCPRG/con_filtr.htm
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

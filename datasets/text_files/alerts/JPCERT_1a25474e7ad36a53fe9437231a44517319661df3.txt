@@ -1,0 +1,128 @@
+JPCERT-AT-2014-0054
+                                                             JPCERT/CC
+                                                            2014-12-19
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2014-12-19 &gt;&gt;&gt;
+
+Alert on unauthorized use of domain administrative account for Active Directory
+
+        https://www.jpcert.or.jp/english/at/2014/at140054.html
+
+
+I. Overview
+
+  At JPCERT/CC, we have observed multiple targeted attacks against
+domestic organizations where attackers intruded and stay within a
+corporate network for long periods of time and steal information. One
+characteristic of these attacks is that the attackers in the network
+steal credentials for the domain administrator account (herein,
+administrator account) in Active Directory, and leverage this
+administrator account to launch various attacks across the network.
+
+  Administrator accounts used within an organization can access many
+systems within the organization. This results in intrusions into
+computers or servers, spreading malware infections and information
+theft.
+
+  In most of the currently observed cases, unauthorized access to such
+administrator accounts via network intrusion were identified by
+checking the logs periodically.
+
+  In order to verify that an administrator account is not being
+leveraged for an attack, we recommend checking logs as described in
+the following section "II. Attack Detection". Also to reduce the
+effects of an attack, consider the solutions as below.
+
+
+II. Attack Detection
+
+  Organizations that use Active Directory may have many inactive
+accounts due to transferred/resigned employees or system suspension.
+Some accounts may not obey the least privilege rule, which may grant
+them wider or unnecessary administrative privileges.  JPCERT/CC has
+observed many instances where operationally unnecessary administrator
+accounts are being leveraged in attacks within an organization.
+
+  In order to detect unauthorized use of administrator accounts,
+refer to the "Checking Administrator Accounts" list below and check
+the authentication logs of Active Directory, event logs of user
+computers, network logs such as firewall.
+
+[Checking Administrator Accounts]
+- Login Status
+  - Is there any accounts in operation that are not supposed to be?
+- Destination ip address/host
+  - Any logons or logon attempts to user computers, servers or domain
+    controllers by an administrator?
+- Source ip address/host
+  - Any account usage from any unusual computers?
+- Time period
+  - Are there access attempts during days off or late night / early
+    morning outside of normal business hours?
+- Operations performed
+  - Are there unexpected operations, such as addition of an
+    administrator account, changing of policies or deletion of event
+    logs?
+
+[Sample Check Flow]
+
+  https://www.jpcert.or.jp/english/at/2014/image1.png
+
+  https://www.jpcert.or.jp/english/at/2014/image2.png
+
+
+III. Solution
+
+ In order to reduce the effects from unauthorized use of
+administrator accounts, consider the following solutions.
+
+- Keep the OS and software on administrator computers and critical
+  servers up to date with the latest versions
+- Apply the least privilege rule to all accounts
+- Set a strong password for the administrator account
+- Periodically monitor the administrator account, review privileges
+  and delete any unnecessary administrator accounts
+- When performing operations as an administrator, logon using a non-
+  administrator account first, and then perform the operations using
+  an administrator account temporarily
+- Restrict access to critical servers from non-administrative
+  computers
+- Use the administrator account only on trusted computers from a
+  separate network segment
+- Manage and restrict administrator logons by using multi-factor
+  authentication with smartcards for instance
+- Manage a whitelist for computers that logon as administrator or
+  computers that are logged onto
+- Accounts with the user name "Administrator" are easily determined to
+  be administrator accounts and result in being frequently targeted,
+  so change the name, delete or disable the account as necessary
+- Periodically monitor the usage of the administrator accounts
+
+
+IV. References
+
+    Microsoft
+    Best Practices for Securing Active Directory
+    http://technet.microsoft.com/en-us/library/dn487446.aspx
+
+    Microsoft
+    Security Monitoring and Attack Detection 
+    http://technet.microsoft.com/en-us/library/cc875806.aspx
+
+    Microsoft
+    Chapter 2 - The Approach to Making Administrator Accounts More Secure
+    http://technet.microsoft.com/en-us/library/cc162790
+
+    Microsoft
+    Chapter 3 - Guidelines for Making Administrator Accounts More Secure
+    http://technet.microsoft.com/en-us/library/cc162792
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

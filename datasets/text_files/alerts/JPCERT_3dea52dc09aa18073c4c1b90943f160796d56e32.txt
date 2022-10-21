@@ -1,0 +1,225 @@
+JPCERT-AT-2017-0009
+                                                             JPCERT/CC
+                                                   2017-03-09(Initial)
+                                                   2017-03-21(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-03-09 &gt;&gt;&gt;
+
+                 Vulnerability in Apache Struts 2 (S2-045)
+
+          https://www.jpcert.or.jp/english/at/2017/at170009.html
+
+
+I. Overview
+
+  Apache Struts 2 provided by the Apache Software Foundation contains a
+vulnerability (S2-045/CVE-2017-5638). A remote attacker sending a
+specially crafted HTTP request leveraging the vulnerability may execute
+arbitrary code on the server that runs an application using Apache Struts 2
+(Struts application). For more details on the vulnerability, please
+refer to the information provided by the Apache Software Foundation.
+
+  Proof-of-Concept (PoC) code for this vulnerability has been already
+made public, and JPCERT/CC's test of this code confirmed that arbitrary 
+code was executed with the execution privilege of the application server
+which runs the Struts application. 
+
+  This vulnerability originates in the processing of Jakarta Multipart
+parser *1) used as default in Struts 2, and JPCERT/CC observed that
+Apache Struts 2 is affected by this vulnerability if the parser is not
+changed from the default setting in Struts configuration file
+(e.g. struts.xml).
+
+*1) Jakarta Multipart parser
+    Jakarta Multipart parser is a parser programmed to process
+    multipart/form-data format requests. This parser is used under the
+    default settings.
+    https://cwiki.apache.org/confluence/display/WW/File+Upload#FileUpload-AlternateLibraries
+
+  Apache Software Foundation has provided versions of the software that
+address the vulnerability. For those using an affected version of the
+software, it is strongly recommended to quickly resolve the issue based
+on information provided in "V. Solution".
+
+** Update: Mar 17, 2017 Update ***************************************
+  JPCERT/CC has been receiving reports on the attacks which seem to
+exploit the vulnerability. If you are using any of the affected
+versions of the software on the servers running Struts Application,
+please implement the countermeasures described in "V. Solution".
+**********************************************************************
+
+** Update: Mar 21, 2017 Update ***************************************
+  Apache Software Foundation has released a Security Bulletin (S2-046)
+related to the vulnerability. The CVE Identifier (CVE-2017-5638) is
+the same as the Security Bulletin (S2-045) which was already released
+before, and there is no further update to the software version which
+was introduced in the previous advisory.
+  The new advisory introduces two plugins for fixing Jakarta Multipart
+parser/JakartaStreamMultiPartRequest as additional workarounds.
+
+    Possible RCE when performing file upload based on Jakarta Multipart parser (similar to S2-045)
+    https://struts.apache.org/docs/s2-046.html
+**********************************************************************
+
+
+II. A Possible Attack Scenario
+
+  Sending a specially crafted HTTP request leveraging the vulnerability
+to a Struts application may result in arbitrary code
+execution on the server which runs the Struts application.
+
+
+III. Affected Systems
+
+  The following versions are affected by this vulnerability:
+
+  - Apache Struts versions 2.3.5 through 2.3.31
+  - Apache Struts versions 2.5 through 2.5.10
+
+
+IV. Test Results from JPCERT/CC
+
+  JPCERT/CC tested the PoC code that leverages this vulnerability.
+
+  [Test content]
+  - Deploy a sample application that uses Apache Struts 2 on
+    Apache Tomcat. We examined if arbitrary code is executed by
+    sending a specially crafted HTTP request using the proof-of-concept
+    code.
+
+  [Test Environment]
+  - CentOS 7.1
+  - Apache Tomcat 8.5.11
+  - Java 1.8.0_121
+
+  [Test Results] 
+  - We observed that arbitrary code execution is possible on a server
+    that uses the affected versions of Apache Struts 2.
+  - We observed that arbitrary code is not executed on a server that
+    uses the versions of Apache Struts 2 where the vulnerability has
+    been addressed.
+  - We observed that arbitrary code is not executed on a server when
+    the default parser has been switched from Jakarta Multipart parser
+    to Jakarta StreamMultiPartRequest.
+
+    - Apache Struts 2.3.31                   |   affected   |
+    - Apache Struts 2.3.31(changed parser)   | not affected |
+    - Apache Struts 2.3.32                   | not affected |
+    - Apache Struts 2.5.10                   |   affected   |
+    - Apache Struts 2.5.10.1                 | not affected |
+
+  In addition, JPCERT/CC observed that arbitrary code is not executed
+on a server if malicious requests are restricted using servlet filter *2).
+
+*2) Function for preprocessing of requests to Web application (servlet). (Japanese)
+    http://otndnld.oracle.co.jp/document/products/as10g/1013/doc_cd/web.1013/B28596-01/filters.htm
+
+
+V. Solution
+
+  Apache Software Foundation has released a version addressing this
+vulnerability. It is recommended to update to this latest version
+after thorough testing.
+  
+  - Apache Struts 2.3.32
+  - Apache Struts 2.5.10.1
+
+  According to Apache Software Foundation, switching the default
+parser from Jakarta Multipart parser to JakartaMurtiPartRequest is
+also recommended as a countermeasure. If it is difficult to update
+the software immediately, please consider applying the solution.
+  Other available parsers include JakartaStreamMultiPartRequest, which
+is programmed by default in Struts 2.3.18 and greater, and Pell
+Multipart Plugin as an additional plugin, which can be configured by
+setting the parameter "struts.multipart.parser" in Struts configuration
+files (e.g. struts.xml).
+
+  For details about configuration procedures, please refer to the
+information below.
+    https://cwiki.apache.org/confluence/display/WW/File+Upload#FileUpload-AlternateLibraries
+
+** Update: Mar 17, 2017 Update ***************************************
+  JPCERT/CC was informed that JakartaStreamMultiPartRequest, recommended
+as an alternative for Jakarta Multipart parser, is also affected by
+this vulnerability and may be leveraged for attacks. 
+  JPCERT/CC confirmed that attacks can be still launched under the
+environment with the affected version of software, even after switching
+the parser to JakartaStreamMultiPartRequest. JPCERT/CC strongly
+recommends updating the software to the latest version as soon as
+possible.
+
+  In addition, Apache Software Foundation has announced that disabling
+File Upload Interceptor is another workaround. This will only work for
+Struts 2.5.8 - 2.5.10. Please conduct sufficient verification before
+applying the workaround.
+
+    S2-045 : Possible Remote Code Execution when performing file upload based on Jakarta Multipart parser.
+    Workaround 
+    https://struts.apache.org/docs/s2-045.html
+**********************************************************************
+
+** Update: Mar 21, 2017 Update ***************************************
+  The CVE Identifier (CVE-2017-5638) of the vulnerability specified in
+the Security Bulletin (S2-046) is the same as Security Bulletin (S2-045)
+which was already released before, and there is no further update to
+the software version which was introduced in the previous advisory.
+However, two plugins for fixing Jakarta Multipart parser/
+JakartaStreamMultiPartRequest as additional workarounds. For more
+details, please refer to the information from Apache Software Foundation.
+
+    Struts Extras
+    https://struts.apache.org/download.cgi#struts-extras
+**********************************************************************
+
+
+VI. References
+
+    Apache Struts 2 Documentation
+    Version Notes 2.3.32
+    https://struts.apache.org/docs/version-notes-2332.html
+
+    Apache Struts 2 Documentation
+    Version Notes 2.5.10.1
+    https://struts.apache.org/docs/version-notes-25101.html
+
+    Apache Struts 2 Documentation
+    S2-045 : Possible Remote Code Execution when performing file upload based on Jakarta Multipart parser.
+    https://struts.apache.org/docs/s2-045.html
+
+    Apache Struts 2 Documentation
+    Alternate Libraries
+    https://cwiki.apache.org/confluence/display/WW/File+Upload#FileUpload-AlternateLibraries
+
+    Information-technology Promotion Agency
+    Vulnerability in Apache Struts 2 (CVE-2017-5638) (S2-045) (Japanese)
+    https://www.ipa.go.jp/security/ciadr/vul/20170308-struts.html
+
+    JVNVU#93610402
+    Apache Struts 2 contains vulnerability which may execute arbitrary code (Japanese)
+    https://jvn.jp/vu/JVNVU93610402/
+
+** Update: Mar 21, 2017 Update ***************************************
+    Apache Struts 2 Documentation
+    Possible RCE when performing file upload based on Jakarta Multipart parser (similar to S2-045)
+    https://struts.apache.org/docs/s2-046.html
+
+    Apache Software Foundation
+    Struts Extras
+    https://struts.apache.org/download.cgi#struts-extras
+**********************************************************************
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2017-03-09 First edition
+2017-03-17 Updated "I. Overview" and "V. Solution"
+2017-03-21 Updated "I. Overview", "V. Solution" and "VI. References" 
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

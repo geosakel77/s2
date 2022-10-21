@@ -1,0 +1,89 @@
+JPCERT-AT-2008-0011
+                                                             JPCERT/CC
+                                                            2008-06-11
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2008-06-11 &gt;&gt;&gt;
+
+              SNMPv3 Authentication Bypass Vulnerability
+
+             http://www.jpcert.or.jp/at/2008/at080011.txt
+
+
+I. Overview
+
+  An authentication bypass vulnerability has been found in multiple
+products that implement SNMP (Simple Network Management Protocol)
+version 3, a protocol commonly used to manage network devices. As a
+result, device configuration information protected by the
+authentication function may be disclosed, or a remote attacker may
+change network device configurations.
+
+
+II. Products Affected
+
+  Products such as Cisco products, Juniper products, NET-SNMP, and
+UCD-SNMP have been found to be affected by this vulnerability when
+they use the SNMPv3 authentication function.
+
+  For more information, refer to the following websites. For products
+and systems not mentioned here, refer to each vendor's or
+distributor's website.
+
+  Cisco Security Advisory:SNMP Version 3 Authentication 
+    Vulnerabilities
+  http://www.cisco.com/warp/public/707/cisco-sa-20080610-snmpv3.shtml
+
+  NET-SNMP, UCD-SNMP
+  oCERT.org - oCERT Advisories
+  http://www.ocert.org/advisories/ocert-2008-006.html
+
+
+III. Solution
+
+  Apply a patch provided by the vendors or distributors. For the
+latest information about the patches, refer to CERT/CCs' or vendors'
+websites below.
+
+  When application of a patch is difficult or an applicable patch has
+not been released, workarounds are available. For example, it is
+possible to restrict access to SNMP services using a packet filtering
+function of a device such as a router.
+(Although the port for SNMP service is usually 161/udp, it can vary
+depending on the product.)
+
+
+IV. References
+
+    JVNTA08-162A
+    SNMPv3 Authentication Bypass Vulnerability
+    http://jvn.jp/cert/JVNTA08-162A/index.html
+
+    JVNVU#878044
+    snmpv3 improper hmac validation allows authentication bypass
+    http://jvn.jp/cert/JVNVU878044/index.html
+
+    US-CERT Technical Cyber Security Alert TA08-162A
+    SNMPv3 Authentication Bypass Vulnerability
+    http://www.us-cert.gov/cas/techalerts/TA08-162A.html
+
+    vulnerability note vu#878044
+    snmpv3 improper hmac validation allows authentication bypass
+    http://www.kb.cert.org/vuls/id/878044
+
+    AusCERT - ESB-2008.0593 -
+    SNMP Version 3 Authentication Vulnerabilities
+    http://www.auscert.org.au/render.html?it=9422
+
+    Red Hat Support
+    net-snmp security update
+    https://rhn.redhat.com/errata/RHSA-2008-0529.html
+
+
+  If you have any information you could provide regarding this alert,
+please contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

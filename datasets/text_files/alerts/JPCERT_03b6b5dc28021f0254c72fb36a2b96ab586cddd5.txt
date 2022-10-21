@@ -1,0 +1,146 @@
+JPCERT-AT-2012-0030
+                                                            JPCERT/CC
+                                            2012-09-20(First edition)
+                                                  2012-09-24(Updated)
+
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2012-09-20 &gt;&gt;&gt;
+                                   
+    Vulnerability in Microsoft Internet Explorer in September 2012
+
+        https://www.jpcert.or.jp/english/at/2012/at120030.html
+
+
+I. Overview
+
+  Microsoft Internet Explorer contains multiple vulnerabilities. As a
+result, a remote attacker could terminate Microsoft Internet Explorer
+or execute arbitrary code by convincing a user to open specially
+crafted contents.
+
+    Microsoft Security Advisory (2757760)
+    Vulnerability in Internet Explorer could allow remote code execution
+    http://technet.microsoft.com/en-us/security/advisory/2757760
+
+  Microsoft states that a target attack exploiting this vulnerability
+has been confirmed. JPCERT/CC has also confirmed that an attack tool
+leveraging this vulnerability has been publicly available.
+
+*** Update: Updated on September 24, 2012 ****************************
+
+  On September 22, 2012, a security update concerning this
+vulnerability has been released. We recommend users to update to the
+latest version. Note that this security update also addresses
+vulnerabilities other than those specified in the Microsoft Security
+Advisory (2757760).
+
+    Microsoft Corporation
+    Microsoft Security Information MS12-063 - Critical
+    Cumulative security update program for Internet Explorer (2744842)
+    http://technet.microsoft.com/en-us/security/bulletin/ms12-063
+
+**********************************************************************
+
+
+II. Affected Systems
+
+  The affected products and versions are as follows:
+
+  - Internet Explorer 6
+  - Internet Explorer 7
+  - Internet Explorer 8
+  - Internet Explorer 9
+
+  For more information, refer to Microsoft Security Advisory (2757760).
+
+
+III. Solution
+
+*** Update: Updated on September 24, 2012 ****************************
+
+  On September 22, 2012, Microsoft released the security update
+(MS12-063).
+
+  Apply the security update through Windows Update or other software
+as soon as possible.
+
+    Microsoft Update
+    https://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+**********************************************************************
+
+
+IV. Mitigation
+
+*** Update: Updated on September 24, 2012 ****************************
+  By installing the security update, the following mitigation will
+become unnecessary.
+**********************************************************************
+
+  Microsoft has released the mitigation shown below. As a provisional
+measure until the security update is released, please deploy this
+mitigation. Before deploying the mitigation, please test the effects
+on the products in advance. (For more information, refer to Microsoft
+Security Advisory (2757760).)
+
+   - Deploy Microsoft Fix it 50939
+
+     Microsoft Security Advisory: Vulnerability in Internet Explorer could allow remote code execution
+     http://support.microsoft.com/kb/2757760
+
+   - Deploy the Enhanced Mitigation Experience Toolkit (EMET)
+
+   - Set Internet and Local intranet security zone settings to "High"
+     to block ActiveX Controls and Active Scripting in these zones
+
+
+   - Configure Internet Explorer to prompt before running Active
+     Scripting or to disable Active Scripting in the Internet and
+     Local intranet security zone
+
+
+V. References
+
+    Microsoft Corporation
+    Microsoft Security Advisory (2757760)
+    Vulnerability in Internet Explorer could allow remote code execution
+    http://technet.microsoft.com/en-us/security/advisory/2757760
+
+    Microsoft Corporation
+    Security Information in September 2012
+    http://technet.microsoft.com/en-us/security/bulletin/ms12-sep
+
+    JVNVU#480095
+    Vulnerability of arbitrary code which may execute in Internet Explorer
+    https://jvn.jp/cert/JVNVU480095/index.html
+
+    JVNTA12-262A
+    Release of Microsoft Security Advisory (2757760) concerning attacks on Internet Explorer
+    https://jvn.jp/cert/JVNTA12-262A/index.html
+
+    Update for vulnerability of Internet Explorer
+    JVNTA12-265A
+    https://jvn.jp/cert/JVNTA12-265A/index.html
+
+    Information-technology Promotion Agency, Japan
+    Workaround for vulnerability of Internet Explorer (KB2757760) (CVE-2012-4969)
+    https://www.ipa.go.jp/security/ciadr/vul/20120920-windows.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision history
+2012-09-20 First edition 
+2012-09-24 Information added in "I. Overview", "III. Solution",
+           "IV. Mitigation", "V. References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

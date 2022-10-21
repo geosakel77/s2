@@ -1,0 +1,104 @@
+JPCERT-AT-2009-0013
+                                                             JPCERT/CC
+                                                            2009-07-15
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2009-07-15 &gt;&gt;&gt;
+
+                July 2009 Microsoft Security Bulletin
+                  (including three critical patches)
+
+             https://www.jpcert.or.jp/at/2009/at090013.txt
+
+I. Overview
+
+    Microsoft has released its security bulletin summary for July
+2009, which contains three security update with severity rating
+"Critical".
+
+    As a result of this vulnerability, a remote attacker could use
+this vulnerability to execute arbitrary code.
+
+    For further information about this vulnerability, please refer
+to the following URLs.
+
+    Microsoft Security Bulletin Summary for July 2009
+    http://www.microsoft.com/technet/security/bulletin/ms09-jul.mspx
+
+
+    [Critical Security Update]
+
+    MS09-028
+    Vulnerabilities in Microsoft DirectShow Could Allow Remote Code
+    Execution (971633)
+    http://www.microsoft.com/technet/security/bulletin/ms09-028.mspx
+    
+    MS09-029
+    Vulnerabilities in the Embedded OpenType Font Engine Could Allow
+    Remote Code Execution (961371)
+    http://www.microsoft.com/technet/security/bulletin/ms09-029.mspx
+    
+    MS09-032
+    Cumulative Security Update of ActiveX Kill Bits (973346)
+    http://www.microsoft.com/technet/security/bulletin/ms09-032.mspx
+
+    Included in this update are fixes for both the Microsoft
+DirectShow vulnerability reported in May 2009 as well as the
+Microsoft Video ActiveX Control vulnerability reported in July
+2009.
+    
+    Additionally, an as-yet unpatched vulnerability has been reported
+in Microsoft Office Web Components, allowing for the remote execution
+of code. Users are recommended to take extra care while a fix is
+prepared.  Please see the following Microsoft advisory for further
+information:
+    
+    Microsoft Security Advisory (973472)
+    Vulnerability in Microsoft Office Web Components Control Could
+      Allow Remote Code Execution
+    http://www.microsoft.com/technet/security/advisory/973472.mspx
+    
+    Finally, support for Microsoft Office 2000 finished on 14 July
+    2009.  After this date, fixes for any new security issues that
+    may emerge will not be released.
+    
+
+II. Solution
+
+  Use means such as Microsoft Update or Windows Update to apply the
+security update immediately.
+
+    Microsoft Update
+    https://update.microsoft.com/
+
+    Windows Update
+    https://windowsupdate.microsoft.com/
+
+
+III. References
+
+    Microsoft Security Bulletin Summary for July 2009
+    http://www.microsoft.com/technet/security/bulletin/ms09-jul.mspx    
+
+    US-CERT Technical Cyber Security Alert TA09-195A
+    Microsoft PowerPoint Multiple Vulnerabilities
+    http://www.us-cert.gov/cas/techalerts/TA09-195A.html
+    
+    Patches for vulnerabilities previously being exploited in the wild:
+
+    Microsoft Security Advisory (973472)
+    Vulnerability in Microsoft Office Web Components Control Could
+      Allow Remote Code Execution
+    http://www.microsoft.com/technet/security/advisory/973472.mspx
+
+    Microsoft Security Advisory (972890)
+    Vulnerability in Microsoft Video ActiveX Control Could Allow
+      Remote Code Execution
+    http://www.microsoft.com/technet/security/advisory/972890.mspx
+    
+  If you have any additional information regarding this alert, please
+contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602

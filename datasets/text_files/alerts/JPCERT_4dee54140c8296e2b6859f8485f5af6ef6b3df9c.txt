@@ -1,0 +1,61 @@
+JPCERT-AT-2007-0003
+                                                             JPCERT/CC
+                              January 31, 2007 (Original release date)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2007-01-31 &gt;&gt;&gt;
+
+                SIP packets vulnerability in Cisco IOS
+
+              http://www.jpcert.or.jp/at/2007/at070003.txt
+
+I. Overview
+
+  Cisco IOS, supporting voice services, contains a vulnerability in
+the processing of SIP packets. SIP features for relevant versions of
+Cisco IOS are enabled by default, and if the default settings are not
+changed properly, a remote attacker could perform a Denial of Service
+(DoS) attack.
+
+  This problem can be solved by updating to the fixed versions of IOS
+provided by Cisco Systems or by implementing workarounds available
+from the following URL:
+
+    Cisco Security Advisory:
+    SIP Packet Reloads IOS Devices Not Configured for SIP
+    http://www.cisco.com/warp/public/707/cisco-sa-20070131-sip.shtml
+
+
+II. Systems Affected
+
+  For more information on the versions of Cisco IOS software that are
+affected by this vulnerability, refer to the advisories released by
+Cisco Systems.
+
+
+III. Solution
+
+  To fix these problems, apply the patches provided by Cisco Systems,
+control access, or stop services as needed. For more information,
+refer to the advisories and other information released by Cisco
+Systems.
+
+
+IV. Reference Information
+
+    Cisco Security Advisory:
+�@�@SIP Packet Reloads IOS Devices Not Configured for SIP
+    http://www.cisco.com/warp/public/707/cisco-sa-20070131-sip.shtml
+
+    Cisco Applied Intelligence Response:
+    Identifying and Mitigating Exploitation of the SIP Packet Reloads
+    IOS Devices Not Configured for SIP Vulnerability
+    http://www.cisco.com/warp/public/707/cisco-air-20070131-sip.shtml
+
+
+  If you have any information regarding this matter, please contact
+us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

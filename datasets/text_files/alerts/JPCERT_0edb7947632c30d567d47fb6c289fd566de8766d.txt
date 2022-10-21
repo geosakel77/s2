@@ -1,0 +1,141 @@
+JPCERT-AT-2020-0030
+                                                             JPCERT/CC
+                                                            2020-07-15
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-07-15 &gt;&gt;&gt;
+
+          Oracle Releases Critical Patch Update, July 2020
+
+        https://www.jpcert.or.jp/english/at/2020/at200030.html
+
+
+I. Overview
+On July 14, 2020 (local time), Oracle released critical patch
+updates for multiple Oracle products.
+
+    Oracle Critical Patch Update Advisory - July 2020
+    https://www.oracle.com/security-alerts/cpujul2020.html
+
+A remote attacker may cause the application to crash or execute
+arbitrary operation by leveraging these vulnerabilities. Users of the
+affected products are recommended to update to the latest version
+appropriately.
+
+
+II. Affected Products
+Products affected by these vulnerabilities include:
+
+  - Java SE JDK/JRE 14.0.1
+  - Java SE JDK/JRE 11.0.7
+  - Java SE JDK/JRE 8u251
+  - Java SE JDK/JRE 7u261
+  - Java SE Embedded 8u251
+  - Oracle Database Server 19c
+  - Oracle Database Server 19c
+  - Oracle Database Server 18c
+  - Oracle Database Server 12.2.0.1
+  - Oracle Database Server 12.1.0.2
+  - Oracle Database Server 11.2.0.4
+  - Oracle WebLogic Server 14.1.1.0.0
+  - Oracle WebLogic Server 12.2.1.4.0
+  - Oracle WebLogic Server 12.2.1.3.0
+  - Oracle WebLogic Server 12.1.3.0.0
+  - Oracle WebLogic Server 10.3.6.0.0
+
+However, since there are many other versions and products affected by
+these vulnerabilities, please refer to the information provided by
+Oracle for more details.
+
+In addition, there are cases where Java JRE is pre-installed on the PC
+or WebLogic is used in software products for servers. Please check if
+any of the affected products is included in the PCs or servers that
+you use.
+
+    Oracle Corporation
+    Oracle Java SE Support Roadmap
+    https://www.oracle.com/technetwork/java/eol-135779.html
+
+
+III. Solution
+Oracle has released updates for each product.
+For Java SE, Oracle Database and WebLogic, the following versions
+have been released:
+
+  - Java SE JDK/JRE 14.0.2
+  - Java SE JDK/JRE 11.0.8
+  - Java SE JDK/JRE 8u261
+  - Java SE JDK/JRE 7u271
+  - Java SE Embedded 8u261
+  - Oracle Database Server *
+  - Oracle WebLogic Server *
+
+* Details of the updated versions are not available as of July 15.
+Please check with Oracle, etc. for the latest information.
+
+Some applications that use affected products may not run properly
+after updating the software to the latest version. Please update to
+the latest version after considering any possible impacts to
+applications that you may use.
+
+    Java SE Downloads
+    https://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+    Free Java Download
+    https://java.com/en/download/
+
+Users of 64-bit Windows may have 32-bit and/or 64-bit versions of
+JDK/JRE installed. Please check the versions installed on your system
+and apply the appropriate updates.
+
+Users can check the version of Java that they are using at the page
+below. If both 32-bit and 64-bit versions of Java are installed,
+please check the versions installed, using a 32-bit and 64-bit browser
+respectively. (In environments where Java is not installed, there may
+be a request to install Java. If you do not require Java, please do
+not install.)
+
+    Verify Java and Find Out-of-Date Versions
+    https://www.java.com/en/download/installed.jsp
+
+
+IV. References
+    Oracle Corporation
+    Oracle Critical Patch Update Advisory - July 2020
+    https://www.oracle.com/security-alerts/cpujul2020.html
+
+    Oracle Corporation
+    Listing of Java Development Kit 14 Release Notes
+    https://www.oracle.com/technetwork/java/javase/14u-relnotes-6361871.html
+
+    Oracle Corporation
+    Java Development Kit 11 Release Notes
+    https://www.oracle.com/technetwork/java/javase/11u-relnotes-5093844.html
+
+    Oracle Corporation
+    Java Development Kit 8 Update Release Notes
+    https://www.oracle.com/technetwork/java/javase/8u-relnotes-2225394.html
+
+    Oracle Corporation
+    Java SE 7 Advanced and Java SE 7 Support (formerly known as Java for Business 7)
+    https://www.oracle.com/technetwork/java/javase/documentation/javase7supportreleasenotes-1601161.html
+
+    Oracle Corporation
+    Oracle Java SE Embedded 8 Release Notes
+    https://www.oracle.com/technetwork/java/javase/embedded8-releasenotes-2406080.html
+
+    Oracle Corporation
+    July 2020 Critical Patch Update Released
+    https://blogs.oracle.com/security/july2020cpu
+
+    Oracle Corporation
+    Oracle Java SE Support Roadmap
+    https://www.oracle.com/technetwork/java/eol-135779.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

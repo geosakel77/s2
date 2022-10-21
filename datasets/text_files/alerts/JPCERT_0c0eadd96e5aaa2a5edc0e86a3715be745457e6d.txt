@@ -1,0 +1,87 @@
+JPCERT-AT-2012-0029
+                                                             JPCERT/CC
+                                                            2012-09-13
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2012-09-13 &gt;&gt;&gt;
+
+ Denial of service (DoS) vulnerability in ISC BIND 9 (CVE-2012-4244)
+
+        https://www.jpcert.or.jp/english/at/2012/at120029.html
+
+
+I. Overview
+
+  ISC BIND 9 has a vulnerability that may cause a denial of service
+(DoS).  If a record with RDATA in excess of 65,535 bytes is loaded
+into BIND, a subsequent query for that record will cause named to exit
+with an assertion failure.
+  According to the advisory of Internet Systems Consortium (ISC),
+attacks exploiting this vulnerability have not been confirmed;
+however, users are advised to update to the latest version by
+referring to the solution shown in III, since all DNS servers using
+ISC BIND 9 (i.e. authoritative DNS server, cache DNS server) are
+affected, and the method of attack is relatively simple.
+
+    Internet Systems Consortium, Inc.
+    CVE-2012-4244: A specially crafted Resource Record could cause named to terminate
+    https://kb.isc.org/article/AA-00778
+
+
+II. Affected Systems
+
+  According to the advisory of ISC, the following version will be
+affected by this vulnerability.
+
+  All versions of ISC BIND 9
+
+  * The versions which are no longer supported will be affected,
+    including the 9.4 series and the 9.5 series.  By referring to the
+    following information, check whether your version is
+    supported. Users using versions which are no longer supported are
+    advised to update to currently supported versions.
+
+    Internet Systems Consortium, Inc.
+    BIND software version status
+    https://www.isc.org/software/bind/versions
+
+Those who use BIND provided by a distributor, refer to the information
+provided by the relevant distributor.
+
+
+III. Solution
+
+  The ISC has released a version that addressed this vulnerability. We
+recommend applying the updated version after testing.
+
+  Released updated versions:
+
+  ISC BIND
+  - 9.7.7, 9.7.6-P3
+  - 9.6-ESV-R8, 9.6-ESV-R7-P3
+  - 9.8.4, 9.8.3-P3
+  - 9.9.2, 9.9.1-P3
+
+
+IV. References
+
+    Internet Systems Consortium, Inc. 
+    CVE-2012-4244: A specially crafted Resource Record could cause named to terminate
+    https://kb.isc.org/article/AA-00778
+
+    Japan Registry Services Co., Ltd. (JPRS)
+    (Critical) Vulnerability in BIND 9.x (Service suspension)
+    http://jprs.jp/tech/security/2012-09-13-bind9-vuln-rdata-too-long.html
+
+    Debian
+    [DSA 2547-1] bind9 security update
+    http://lists.debian.org/debian-security-announce/2012/msg00188.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

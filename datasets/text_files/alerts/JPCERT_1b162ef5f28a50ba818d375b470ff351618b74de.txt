@@ -1,0 +1,80 @@
+JPCERT-AT-2007-0015
+                                                             JPCERT/CC
+                                                  June 14, 2007 (Original release date)
+                                                      June 19, 2007 (Last revised)
+
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2007-06-14 &gt;&gt;&gt;
+
+          Fraudulent Phone Calls Attempt to Steal ID and Password
+
+             http://www.jpcert.or.jp/at/2007/at070015.txt
+
+I. Overview
+
+  JPCERT/CC has received reports about fraudulent phone calls
+attempting to steal IDs and passwords using a false identity as an
+ISP's outsourcer.
+
+  According to the reports, persons identifying themselves as an
+ISP's outsourcer attempt to steal IDs and passwords from service
+users while pretending to provide information on changes to PC
+settings (OP25B* settings). The callers attempt to identify the name
+of the user's ISP during the conversation.
+
+  Care should be taken not to give your ID and password to persons
+making such phone calls.
+
+  * OP25B (Outbound Port 25 Blocking):
+    OP25B is one of the measures against virus and unsolicited emails
+      implemented by ISPs.
+
+
+II. Solution
+
+[Service users]
+
+  This activity uses a social engineering technique called
+"spoofing." In the event that you receive a phone call from someone
+identifying themselves as a provider of ISP-related services asking
+for your ID and password, never answer their questions.
+
+  If you have given your ID and password over the phone to someone
+who called you, change your password and contact your ISP immediately.
+
+
+[ISP]
+
+  ISPs should be prepared to respond to inquiries from customers and
+raise the awareness of their customers.
+
+
+III. Reference Information
+
+    JPCERT/CC REPORT Short Tips
+    Password Handling
+    http://www.jpcert.or.jp/wr/keyword_c.html#108
+
+    Ministry of Internal Affairs and Communications
+    Information Security Measures for all Employees and Staff
+    Measures against Social Engineering
+    http://www.soumu.go.jp/joho_tsusin/security/business/work05.htm
+
+    Information-technology Promotion Agency, Japan (IPA)
+    Survey on the Actual Situation of Social Engineering in Japan (PDF)
+    http://www.ipa.go.jp/security/fy11/report/contents/intrusion/socialeng/socialeng.pdf
+
+
+  If you have any information regarding this matter, please contact us.
+
+__________
+
+Revision History
+June 14, 2007  Initial release
+June 19, 2007  Corrected typographical errors
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

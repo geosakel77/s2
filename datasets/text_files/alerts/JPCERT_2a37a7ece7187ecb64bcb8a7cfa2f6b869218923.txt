@@ -1,0 +1,101 @@
+JPCERT-AT-2013-0018
+                                                             JPCERT/CC
+                                                            2013-04-08
+
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2013-04-08 &gt;&gt;&gt;
+
+  Alert regarding the usage of old versions of Parallels Plesk Panel
+
+        https://www.jpcert.or.jp/english/at/2013/at130018.html
+
+
+I. Overview
+
+  JPCERT/CC has received numerous reports regarding Web attacks.
+These attacks are due to an unauthorized Apache module residing on the
+server, which causes unintended JavaScript to be inserted when viewing
+the website. As a result, a user PC may be infected with malware.
+
+  According to the information that we have obtained, most of these
+sites use older versions of Parallels Plesk Panel, some of which are
+no longer supported. When installing Parallels Plesk Panel, other
+software (MySQL, BIND, phpMyAdmin, etc.) may be installed. Users may
+not be aware that these software may be older versions that contain
+vulnerabilities.
+
+  It has not been verified that all the web attack cases related to
+the unauthorized Apache module are a result of leveraging
+vulnerabilities. However, when running versions that contain
+vulnerabilities, an attacker may leverage these vulnerabilities and
+perform web defacement as well as other attacks. Therefore, it is
+recommended to not only update Parallels Plesk Panel, but the OS and
+other related software to the latest released versions.
+
+  Some attacks have used an SQL Injection vulnerability in an older
+version of Parallels Plesk Panel to obtain account information, while
+other attacks performed an unauthorized login by obtaining an easily
+guessable password by conducting a dictionary attack.  Also observed
+was that after the unauthorized login, the cron manager in Parallels
+Plesk Panel was used to execute an unauthorized script to place an
+unauthorized Apache module.
+
+
+II. Solution
+
+  If using Parallels Plesk Panel for managing websites, please
+consider the following recommendations:
+
+  - Update Parallels Plesk Panel to the latest version
+  - Update the OS, software on the server to the latest versions
+  - Restrict access to Parallels Plesk Panel
+    (Only allow from certain IP addresses)
+  - Set a strong password
+  - Do not allow to run tasks on behalf of root from the
+    Parallels Plesk Panel configuration screen
+
+(*1)By default, Parallels Plesk Panel allows utilities or scripts 
+to be run on behalf of root in two cases:
+  - Scheduling tasks with the cron manager (versions 8 through 11)
+  - Handling events with the Event Manager tool (version 11)
+To eliminate these vulnerabilities, create the following files and 
+leave them empty:
+    $PRODUCT_ROOT_D/var/root.crontab.lock
+    $PRODUCT_ROOT_D/var/root.event.handler.lock
+    The $PRODUCT_ROOT_D is /usr/local/psa for RPM-based systems 
+    or /opt/psa on DEB-based systems
+    
+For more details, please refer to "Protecting from Running Tasks on
+Behalf of root" from the document below:
+  
+    Enhancing Security
+    http://download1.parallels.com/Plesk/PP11/11.0/Doc/en-US/online/plesk-linux-advanced-administration-guide/68755.htm
+
+
+III. References
+
+    Parallels
+    Release Notes for Parallels Plesk Panel 11.0 for Linux Systems
+    http://download1.parallels.com/Plesk/PP11/11.0/release-notes/parallels-plesk-panel-11.0-for-linux-based-os.html
+
+    Parallels
+    Parallels Plesk Panel security best practices
+    http://kb.parallels.com/114620
+
+    Parallels
+    Enhancing Security
+    http://download1.parallels.com/Plesk/PP11/11.0/Doc/en-US/online/plesk-linux-advanced-administration-guide/68755.htm
+
+    Trend Micro
+    Web alterations using unauthorized module in Domestic and overseas Web servers (Apache)
+    http://blog.trendmicro.co.jp/archives/6888
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

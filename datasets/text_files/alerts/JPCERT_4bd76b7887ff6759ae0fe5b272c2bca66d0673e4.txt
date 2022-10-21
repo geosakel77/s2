@@ -1,0 +1,81 @@
+JPCERT-AT-2014-0050
+                                                             JPCERT/CC
+                                                            2014-12-09
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2014-12-09 &gt;&gt;&gt;
+
+     Denial-of-Service vulnerability (CVE-2014-8500) in ISC BIND 9
+
+        https://www.jpcert.or.jp/english/at/2014/at140050.html
+
+
+I. Overview
+
+  ISC BIND 9 contains a vulnerability that leads to a 
+denial-of-service (DoS). A remote attacker leveraging this
+vulnerability may result in the abnormal termination of 'named'.
+
+  If operating an affected version of ISC BIND 9 (authoritative DNS
+server, cache DNS server), update to a version that addresses this
+vulnerability after referring to the information in "III. Solution"
+
+  According to ISC, this vulnerability has not been confirmed to be
+leveraged for use in attacks.
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2014-8500: A Defect in Delegation Handling Can Be Exploited to Crash BIND
+    https://kb.isc.org/article/AA-01216
+
+
+II. Affected Systems
+
+  According to ISC, the following versions are affected by this
+vulnerability:
+
+  ISC BIND 9
+  ISC Severity Rating: Critical
+
+  For a listing of vulnerabilities that affect each version of ISC 
+BIND 9, refer to the following:
+
+    BIND 9 Security Vulnerability Matrix
+    https://kb.isc.org/article/AA-00913/
+
+  Depending on configuration of ISC BIND, authoritative DNS servers
+may be affected by this vulnerability. Also, this vulnerability is
+caused by both an issue in the DNS specifications and implementation.
+As a result, DNS servers other than BIND may be affected.
+
+  If you are using BIND provided by a distributor, refer to the
+information provided by that distributor.
+
+
+III. Solution
+
+  ISC has released versions of ISC BIND 9 that address this
+vulnerability. Distributors are likely to provide their own
+versions that address this vulnerability. Consider updating to an
+updated version after thorough testing.
+
+  Versions that address this vulnerability are as follows:
+
+  ISC BIND 9
+  - version 9.9.6-P1
+  - version 9.10.1-P1
+
+
+IV. References
+
+    Japan Registry Services (JPRS)
+    (Critical) Vulnerability (excessive use of system resources) in multiple DNS software (Released 12/9/2014)
+    http://jprs.jp/tech/security/2014-12-09-multiple-impl-vuln-delegation-limit.html
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

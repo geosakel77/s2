@@ -1,0 +1,200 @@
+JPCERT-AT-2019-0023
+                                                             JPCERT/CC
+                                                            2019-05-15
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-05-15 &gt;&gt;&gt;
+
+             Microsoft Releases May 2019 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2019/at190023.html
+
+
+I. Overview
+Microsoft has released May 2019 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    May 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/e5989c8b-7046-e911-a98e-000d3a33a34d
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    ADV190012
+    May 2019 Adobe Flash Security Update
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV190012
+    - KB4497932
+
+    CVE-2019-0708
+    Remote Desktop Services Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0708
+    - KB4499149, KB4499164, KB4499175, KB4499180
+
+    CVE-2019-0725
+    Windows DHCP Server Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0725
+    - KB4494440, KB4494441, KB4497936, KB4499151, KB4499158, KB4499164
+      KB4499165, KB4499167, KB4499171, KB4499175
+
+    CVE-2019-0884
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0884
+    - KB4494440, KB4494441, KB4497936, KB4498206, KB4499149, KB4499151
+      KB4499154, KB4499164, KB4499167, KB4499171, KB4499179, KB4499181
+
+    CVE-2019-0903
+    GDI+ Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0903
+    - KB4494440, KB4494441, KB4497936, KB4499149, KB4499151, KB4499154
+      KB4499158, KB4499164, KB4499165, KB4499167, KB4499175, KB4499179
+      KB4499180, KB4499181
+
+    CVE-2019-0911
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0911
+    - KB4494440, KB4494441, KB4497936, KB4498206, KB4499151, KB4499154
+      KB4499164, KB4499167, KB4499171, KB4499179, KB4499181
+
+    CVE-2019-0912
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0912
+    - KB4494440, KB4494441, KB4497936, KB4499154, KB4499167, KB4499179
+      KB4499181
+
+    CVE-2019-0913
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0913
+    - KB4494440, KB4494441, KB4497936, KB4499154, KB4499167, KB4499179
+      KB4499181
+
+    CVE-2019-0914
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0914
+    - KB4494440, KB4494441, KB4497936, KB4499154, KB4499167, KB4499179
+      KB4499181
+
+    CVE-2019-0915
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0915
+    - KB4494440, KB4494441, KB4497936, KB4499154, KB4499167, KB4499179
+      KB4499181
+
+    CVE-2019-0916
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0916
+    - KB4494440, KB4494441, KB4497936, KB4499154, KB4499167, KB4499179
+      KB4499181
+
+    CVE-2019-0917
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0917
+    - KB4494440, KB4494441, KB4497936, KB4499154, KB4499167, KB4499179
+      KB4499181
+
+    CVE-2019-0918
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0918
+    - KB4494440, KB4494441, KB4497936, KB4498206, KB4499151, KB4499154
+      KB4499164, KB4499167, KB4499179, KB4499181
+
+    CVE-2019-0922
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0922
+    - KB4494440, KB4494441, KB4497936, KB4499154, KB4499167, KB4499179
+      KB4499181
+
+    CVE-2019-0924
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0924
+    - KB4494440, KB4494441, KB4497936, KB4499154, KB4499167, KB4499179
+      KB4499181
+
+    CVE-2019-0925
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0925
+    - KB4494440, KB4494441, KB4497936, KB4499167, KB4499179, KB4499181
+
+    CVE-2019-0926
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0926
+    - KB4494441, KB4497936
+
+    CVE-2019-0927
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0927
+    - KB4494440, KB4494441, KB4497936, KB4499167, KB4499179, KB4499181
+
+    CVE-2019-0929
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0929
+    - KB4494441, KB4497936, KB4499167
+
+    CVE-2019-0933
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0933
+    - KB4494440, KB4494441, KB4497936, KB4499167, KB4499179, KB4499181
+
+    CVE-2019-0937
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0937
+    - KB4494441, KB4497936, KB4499167, KB4499179
+
+    CVE-2019-0940
+    Microsoft Browser Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0940
+    - KB4494440, KB4494441, KB4497936, KB4498206, KB4499151, KB44499154
+      KB4499164, KB4499167, KB4499179, KB4499181
+
+    CVE-2019-0953
+    Microsoft Word Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-0953
+    - KB4462169, KB4464536
+
+According to Microsoft, attacks leveraging the vulnerability
+CVE-2019-0863 (Important) has been observed in the wild. Please
+apply the security update programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    May 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/e5989c8b-7046-e911-a98e-000d3a33a34d
+
+    Microsoft Corporation
+    Microsoft Security Updates for May 2019 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2019/5/15/201905-security-updates/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Adobe
+    Security Bulletin for Adobe Flash Player | APSB19-26
+    https://helpx.adobe.com/security/products/flash-player/apsb19-26.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerability in Adobe Flash Player (APSB19-26)
+    https://www.jpcert.or.jp/english/at/2019/at190021.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-6271-8901  FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

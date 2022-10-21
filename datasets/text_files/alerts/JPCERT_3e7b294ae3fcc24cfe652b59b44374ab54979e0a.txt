@@ -1,0 +1,102 @@
+JPCERT-AT-2020-0013
+                                                             JPCERT/CC
+                                                    2020-03-16(Initial)
+                                                    2020-03-18(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-03-16 &gt;&gt;&gt;
+
+Alert Regarding Vulnerability (CVE-2020-8468) in Virus Buster Business Security
+
+       https://www.jpcert.or.jp/english/at/2020/at200013.html
+
+
+I. Overview
+On March 16, 2020, Trend Micro has released the information regarding
+the vulnerability (CVE-2020-8468) in Trend Micro Virus Buster Business
+Security. According to Trend Micro, this vulnerability is already
+exploited in the wild.
+
+    Trend Micro Incorporated
+    Request to Apply the Latest Patch Regarding Attack Exploiting Vulnerability (CVE-2020-8468) in Virus Buster Business Security (Japanese)
+    https://appweb.trendmicro.com/SupportNews/NewsDetail.aspx?id=3729
+
+If the vulnerability (CVE-2020-8468) is exploited, an attacker may
+alter components on the Virus Buster Business Security client.
+
+    Trend Micro Incorporated
+    Regarding Multiple High Severity Vulnerabilities confirmed in Virus Buster Business Security (Japanese)
+    https://success.trendmicro.com/jp/solution/000244836
+
+Since the vulnerability is already being exploited in the wild, if you
+are using the affected product, it is recommended to update the affected
+system to the latest version as soon as possible. Please refer to the
+information provided by Trend Micro.
+
+
+II. Affected Products
+Affected products and versions are as follows:
+
+  - Virus Buster Business Security prior to 10.0 SP1 Patch (Build 2190)
+  - Virus Buster Business Security prior to 9.5 Critical Patch (Build 1525)
+  - Virus Buster Business Security prior to 9.0 SP3 Critical Patch (Build 4417)
+
+** Update: March 18, 2020 Update *************************************
+Please also refer to the additional information about products and
+versions affected by this vulnerability as product name may differ in
+Japan and other countries.
+
+    Trend Micro Incorporated
+    SECURITY BULLETIN:  Multiple Critical Vulnerabilities in Trend Micro Worry-Free Business Security
+    https://success.trendmicro.com/solution/000245572
+
+    JVNVU#98100897
+    Multiple vulnerabilities in Trend Micro Worry-Free Business Security
+    https://jvn.jp/en/vu/JVNVU98100897
+**********************************************************************
+
+
+III. Solution
+Trend Micro has released a patch that addresses this vulnerability.
+It is recommended to apply the patch as soon as possible.
+
+  - Virus Buster Business Security 10.0 SP1 Patch (Build 2190)
+  - Virus Buster Business Security 9.5 Critical Patch (Build 1525)
+  - Virus Buster Business Security 9.0 SP3 Critical Patch (Build 4417)
+
+
+IV. References
+    Trend Micro Incorporated
+    Request to Apply the Latest Patch Regarding Attack Exploiting Vulnerability (CVE-2020-8468) in Virus Buster Business Security (Japanese)
+    https://appweb.trendmicro.com/SupportNews/NewsDetail.aspx?id=3729
+
+    Trend Micro Incorporated
+    Regarding Multiple High Severity Vulnerabilities confirmed in Virus Buster Business Security (Japanese)
+    https://success.trendmicro.com/jp/solution/000244836
+
+** Update: March 18, 2020 Update *************************************
+    JVNVU#98100897
+    Regarding Multiple Vulnerabilities in Trend Micro Virus Buster Business Security (Japanese)
+    https://jvn.jp/vu/JVNVU98100897
+
+    Trend Micro Incorporated
+    SECURITY BULLETIN:  Multiple Critical Vulnerabilities in Trend Micro Worry-Free Business Security
+    https://success.trendmicro.com/solution/000245572
+
+    JVNVU#98100897
+    Multiple vulnerabilities in Trend Micro Worry-Free Business Security
+    https://jvn.jp/en/vu/JVNVU98100897
+**********************************************************************
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2020-03-16 First edition
+2020-03-18 Updated "II. Affected Products" and "IV. References"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+TEL: +81-3-6811-0610  MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

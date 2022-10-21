@@ -1,0 +1,166 @@
+JPCERT-AT-2021-0049
+                                                             JPCERT/CC
+                                                            2021-11-16
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-11-16 &gt;&gt;&gt;
+
+  Alert Regarding Phishing Scams Targeting Webmail Service Accounts
+
+       https://www.jpcert.or.jp/english/at/2021/at210049.html
+
+
+I. Overview
+JPCERT/CC has confirmed an increasing number of reports regarding
+phishing scams aiming at stealing account information of Webmail
+services. These attacks have been confirmed since early 2020,
+but reports have increased since June 2021.
+
+https://www.jpcert.or.jp/english/at/2021/at210049_fig1.png
+[Figure 1: Number of reports to JPCERT/CC regarding phishing targeting webmail accounts]
+
+These phishing emails spoof to be a maintenance or service notification
+of a webmail service. Once recipients connect to a link in the body of
+the email, they are directed to a site that impersonates the login
+screen of the service. If information such as email address and password
+is entered and sent on the site, the attacker may steal these account
+information. In addition, the stolen account information can be used by
+attackers as a steppingstone to send more phishing emails for their
+further attacks.
+
+https://www.jpcert.or.jp/english/at/2021/at210049_fig2.png
+[Figure 2: Phishing attack procedure and method]
+
+Given these circumstances, JPCERT/CC issued this alert to explain the
+attack method and the impact of damage, as well as measures to prevent
+and respond to such phishing attacks.
+
+
+II. Attack techniques
+An attacker sends an email impersonating a service provider to direct
+recipients of the email to a phishing site in order to steal the
+account information of the webmail service. This chapter introduces the
+subject and body of emails that have been confirmed so far, and how
+these phishing sites look like.
+<email and="" body="" subject="">
+ The subject and body of the email is about a spoofed notification
+regarding Webmail service. Recipients are prompted to click a link on
+the email body in Japanese.
+
+https://www.jpcert.or.jp/english/at/2021/at210049_fig3.png
+[Figure 3: An example of a phishing email]
+
+The following is an example of the email subjects confirmed in November
+2021. (originally all in Japanese)
+
+  - Notice of the second release of email plan and security enhancement
+  - Update mailbox assignments - [Recipient email address]
+  - Accounts flagged for deletion
+  - [Notification] Delivery of received email has been suspended - (Recipient email address)
+  - [Important] Notice of service suspension - [Recipient email address]
+  - [Important] Notice of service restoration on November 8, 2021 (Monday). 
+  - [Server upgrade] Notice of maintenance work (November 02, 2021)
+ <sender and="" destination="" email="" of="">
+  Phishing emails are sent to a wide range of companies, schools,
+individuals, etc, and it seems that they are attacking indiscriminately.
+Victims' email accounts stolen by these phishing scams are being abused
+as the source of emails.
+  <characteristics of="" phishing="" site="">
+   Upon connecting to a link in the body of these emails, recipients will
+be taken to the login screen of a site that spoofs to be a
+general Webmail service or some provider email service. If email address
+and password is entered, and once Login button is pressed on the site,
+the information is sent to the attacker. 
+
+https://www.jpcert.or.jp/english/at/2021/at210049_fig4.png
+[Figure 4: An example of a phishing site login screen (Japanese)]
+
+It is characteristic that the email address of the recipient of the
+email is already entered in the username part of the login screen.
+It can be considered as a method to trick victims into thinking that
+they have visited the page before in the past.
+
+In addition, phishing sites are often set up on compromised legitimate
+websites, and access to these compromised websites may not be blocked
+by filtering feature of an implemented cybersecurity product.
+
+
+III. Impact
+Email accounts stolen on phishing sites can be used by attackers as
+sources of further phishing emails.
+
+The period until it is abused as a source of another phishing email
+is very short which is about 1-2 days, and there are reports that
+a victim became aware of the damage after their email addresses were
+abused as a phishing email sender. This method is called "lateral
+phishing" and has the characteristic that the more accounts stolen by
+attacks, more capabilities the attackers obtain to deliver phishing
+emails.
+
+Other possibilities include email snooping on the stolen email account,
+buying and selling of account information, and possibly triggering
+other attacks such as business email compromise scams. 
+
+
+IV. Solution
+As with general phishing attack countermeasures, It is recommended to
+take the following measures. Also, consider calling attention within
+your organization to be aware of such emails.
+
+  (1) Do not click links in the body of the email easily
+    - Consider any link in email that leads to a login screen to be suspicious and do not enter password or information
+
+  (2) Check the correct domain name and connect from bookmark
+    - Register an online service in the browser bookmark upon starting using the service, then connect from the bookmark
+
+    Council of Anti-Phishing Japan
+    Guidelines for Countermeasures against Phishing Fraud for Users, 2021 Edition (Japanese)
+    https://www.antiphishing.jp/report/consumer_antiphishing_guideline_2021.pdf
+
+
+V. Post-compromise response
+Victims may become aware of the impact of phishing attacks in situations
+such as below:
+
+  - (1) Logging in with ID/Email address and password on the site didn't direct users to the expected page or procedure
+  - (2) Logging in with ID/Email address and password caused an error such as incorrect password
+  - (3) Unexpected emails are observed to be sent from the email account
+
+If these situations are observed, it is possible that the account
+information has been stolen or the account has been compromised.
+Therefore, in order to minimize the damage, it is advised to take
+the steps as follows:
+
+  - (1) Change the account password and consider using multi-factor authentication if available
+  - (2) Change the password of another service account registered with the same password
+  - (3) Contact and consult with service providers, etc.
+
+JPCERT/CC is investigating and looking for information such the
+compromised email accounts used to send phishing emails, as well as
+phishing sites. Please consider providing any related information from
+the following form (in Japanese).
+
+    JPCERT/CC
+    Incident Report (Web Form) (Japanese)
+    https://form.jpcert.or.jp/
+
+
+VI. Reference
+    Council of Anti-Phishing Japan
+    What is phishing? (Japanese)
+    https://www.antiphishing.jp/consumer/abt_phishing.html
+
+    JPCERT/CC
+    STOP! Password reuse! (Japanese)
+    https://www.jpcert.or.jp/pr/stop-password.html 
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/
+  </characteristics>
+ </sender>
+</email>

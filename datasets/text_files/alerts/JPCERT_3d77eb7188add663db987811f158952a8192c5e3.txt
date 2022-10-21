@@ -1,0 +1,177 @@
+JPCERT-AT-2014-0018
+                                                            JPCERT/CC
+                                            2014-04-28 (First Edition)
+                                                  2014-05-02 (Updated)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2014-04-28 &gt;&gt;&gt;
+
+     Vulnerability in Microsoft Internet Explorer in April 2014
+
+       https://www.jpcert.or.jp/english/at/2014/at140018.html
+
+
+I. Overview
+
+  Microsoft Internet Explorer contains multiple vulnerabilities. As a
+result, a remote attacker could execute arbitrary code by convincing a
+user to open specially crafted contents.
+
+    Microsoft Security Advisory 2963983
+    Vulnerability in Internet Explorer Could Allow Remote Code Execution
+    https://technet.microsoft.com/en-US/library/security/2963983
+
+  According to Microsoft, targeted attacks leveraging this
+vulnerability have been observed in the wild.
+
+*** Update: Added on May 2, 2014 *************************************
+  As of May 2, 2014, security update is released from Microsoft, and
+therefore we recommend applying this update.
+
+    Microsoft
+    Security Update for Internet Explorer (2965111)
+    https://technet.microsoft.com/en-us/library/security/ms14-021
+
+  JPCERT/CC has released an alert regarding this security update.
+
+    JPCERT/CC
+    Alert regarding the Microsoft Security Bulletin (MS14-021)
+    https://www.jpcert.or.jp/english/at/2014/at140020.html
+
+**********************************************************************
+
+
+II. Affected Systems
+
+  The affected versions are as follows:
+
+  - Microsoft Internet Explorer 6
+  - Microsoft Internet Explorer 7
+  - Microsoft Internet Explorer 8
+  - Microsoft Internet Explorer 9
+  - Microsoft Internet Explorer 10
+  - Microsoft Internet Explorer 11
+
+*** Update: Revised on May 2, 2014 ***********************************
+  For more information, refer to Microsoft Security Bulletin (MS14-021).
+
+**********************************************************************
+
+
+III. Solution
+
+*** Update: Revised on May 2, 2014 ***********************************
+  As of May 2, 2014, security update is released from Microsoft.
+
+  Please apply the security update through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    https://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+**********************************************************************
+
+
+IV. Workarounds
+
+*** Update: Added on May 2, 2014 *************************************
+Workarounds will be unnecessary by installing the security update.
+
+If you applied the workaround, then you may need to undo the workaround
+before or after applying the security update.
+
+ - If you applied the workaround to modify the Access Control List(ACL)
+on VGX.DLL, then you must undo this workaround before applying the
+security update. 
+
+ - If you applied the workaround to unregister VGX.DLL, you do not have
+to undo this workaround before applying the security update. However,
+the security update will not re-register vgx.dll, therefore please
+re-register vgx.dll.
+
+ - If you applied any of the other workarounds, you do not have to undo
+the workaround before applying the security update. 
+
+**********************************************************************
+
+  Several workarounds have been released from Microsoft. Until the
+security update programs is available, please consider applying the
+following workarounds. Please test the effects on the system before
+applying the workarounds.
+
+   - Deploy the Enhanced Mitigation Experience Toolkit 4.1 
+     Enhanced Mitigation Experience Toolkit
+     https://support.microsoft.com/kb/2458544 
+     * Note that EMET 3.0 does not mitigate this issue.
+   
+   - Set Internet and Local intranet security zone settings to "High"
+     to block ActiveX Controls and Active Scripting in these zones
+   
+   - Configure Internet Explorer to prompt before running Active
+     Scripting or to disable Active Scripting in the Internet and
+     Local intranet security zone
+
+  Workarounds on unregistering a .DLL file and enabling enhanced
+protected mode for Internet Explorer 11 is introduced on security
+advisory provided by Microsoft. For more information on workarounds,
+refer to Microsoft Security Advisory (2963983).
+
+
+V. References
+
+*** Update: Added and Revised on May 2, 2014 *************************
+    Microsoft
+    Security Update for Internet Explorer (2965111)
+    https://technet.microsoft.com/en-us/library/security/ms14-021
+
+    Microsoft
+    Microsoft releases out-of-band update MS14-021 (Internet Explorer) to address vulnerability stated in security advisory  (2963983) (Japanese)
+    http://blogs.technet.com/b/jpsecurity/archive/2014/05/02/security-update-ms14-021-released-to-address-recent-internet-explorer-vulnerability-2963983.aspx
+
+    Information-technology Promotion Agency (IPA)
+    Measures to address vulnerability in Internet Explorer (CVE-2014-1776) (Japanese)
+    https://www.ipa.go.jp/security/ciadr/vul/20140428-ms.html
+
+    Alert regarding the Microsoft Security Bulletin (MS14-021)
+    https://www.jpcert.or.jp/english/at/2014/at140020.html
+
+    Vulnerability Note VU#222929
+    Microsoft Internet Explorer CMarkup use-after-free vulnerability
+    https://www.kb.cert.org/vuls/id/222929
+
+    JVNVU#92280347
+    Microsoft Internet Explorer use-after-free vulnerability (Japanese)
+    https://www.kb.cert.org/vuls/id/222929
+
+**********************************************************************
+
+    Microsoft Security Advisory 2963983
+    Vulnerability in Internet Explorer Could Allow Remote Code Execution
+    https://technet.microsoft.com/en-US/library/security/2963983
+    
+    Microsoft
+    Microsoft releases Security Advisory 2963983
+    http://blogs.technet.com/b/msrc/archive/2014/04/26/microsoft-releases-security-advisory.aspx
+    
+    Microsoft
+    More Details about Security Advisory 2963983 IE 0day
+    http://blogs.technet.com/b/srd/archive/2014/04/26/more-details-about-security-advisory-2963983-ie-0day.aspx
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2014-04-28 First edition
+2014-05-02 Updated "I. Overview", "II. Affected Products",
+           "III. Solution", "IV. Workarounds" and "V. References"
+
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

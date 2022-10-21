@@ -1,0 +1,72 @@
+JPCERT-AT-2022-0004
+                                                             JPCERT/CC
+                                                            2022-01-25
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2022-01-25 &gt;&gt;&gt;
+
+     Alert Regarding Vulnerabilities in SonicWall SMA 100 Series
+
+       https://www.jpcert.or.jp/english/at/2022/at220004.html
+
+
+I. Overview
+On December 1, 2021 (Local Time), SonicWall released a security
+advisory regarding vulnerabilities in SMA 100 Series Appliances.
+A remote attacker leveraging these vulnerabilities may execute
+arbitrary code, etc.
+
+    SonicWall
+    Product Security Notice: SMA 100 Series Vulnerability Patches (Q4 2021)
+    https://www.sonicwall.com/support/product-notification/product-security-notice-sma-100-series-vulnerability-patches-q4-2021/211201154715443/
+
+As for these vulnerabilities, the detailed information about some of
+the vulnerabilities including Proof-of-Concept (PoC) code has been made
+public. In addition, on January 24, 2022, it was made public that the
+exploit attempt for the unauthenticated Stack-based Buffer Overflow
+vulnerability (CVE-2021-20038) has been observed.
+
+The users of the affected products are recommended to promptly check
+the usage status and take measures as soon as possible.
+
+
+II. Affected Products
+Affected products are as follows. Please refer to the information
+provided by SonicWall for the affected versions of each vulnerability.
+
+SMA 100 Series
+  - SMA 200
+  - SMA 210
+  - SMA 400
+  - SMA 410
+  - SMA 500v
+
+
+III. Solution
+Please consider updating the products to the versions listed below
+or later. 
+
+  - 10.2.1.3-27sv
+  - 10.2.0.9-41sv
+
+According to SonicWall, the support for 9.0.0 firmware ended on
+10/31/2021. Customers still using that firmware are requested to
+upgrade to the latest 10.2.x versions.
+
+
+IV. References
+    SonicWall
+    SonicWall patches multiple SMA100 affected vulnerabilities
+    https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0026
+
+    SonicWall
+    How to upgrade firmware on SMA 100 Series appliances
+    https://www.sonicwall.com/support/knowledge-base/how-to-upgrade-firmware-on-sma-100-series-appliances/170502339501169/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

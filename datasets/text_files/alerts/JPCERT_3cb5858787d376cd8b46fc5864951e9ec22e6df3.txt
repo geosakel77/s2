@@ -1,0 +1,147 @@
+JPCERT-AT-2020-0022
+                                                             JPCERT/CC
+                                                            2020-05-13
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-05-13 &gt;&gt;&gt;
+
+             Microsoft Releases May 2020 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2020/at200022.html
+
+
+I. Overview
+Microsoft has released May 2020 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    May 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-May
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    CVE-2020-1023
+    Microsoft SharePoint Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1023
+    - KB4484332, KB4484336, KB4484364
+
+    CVE-2020-1024
+    Microsoft SharePoint Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1024
+    - KB4484332, KB4484336, KB4484364
+
+    CVE-2020-1028
+    Media Foundation Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1028
+    - KB4551853, KB4556799, KB4556807, KB4556812, KB4556813
+
+    CVE-2020-1037
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1037
+    - KB4551853, KB4556799, KB4556807, KB4556812, KB4556813, KB4556826
+
+    CVE-2020-1056
+    Microsoft Edge Elevation of Privilege Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1056
+    - KB4551853, KB4556799, KB4556807, KB4556812, KB4556813
+
+    CVE-2020-1062
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1062
+    - KB4551853, KB4556798, KB4556799, KB4556807, KB4556812, KB4556813
+      KB4556826, KB4556836, KB4556846
+
+    CVE-2020-1064
+    MSHTML Engine Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1064
+    - KB4551853, KB4556798, KB4556799, KB4556807, KB4556812, KB4556813
+      KB4556826, KB4556836, KB4556846
+
+    CVE-2020-1065
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1065
+    - KB4551853, KB4556799, KB4556807
+
+    CVE-2020-1069
+    Microsoft SharePoint Server Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1069
+    - KB4484332, KB4484336, KB4484364
+
+    CVE-2020-1093
+    VBScript Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1093
+    - KB4551853, KB4556798, KB4556799, KB4556807, KB4556812, KB4556813
+      KB4556826, KB4556836, KB4556846
+
+    CVE-2020-1102
+    Microsoft SharePoint Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1102
+    - KB4484332, KB4484336
+
+    CVE-2020-1117
+    Microsoft Color Management Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1117
+    - KB4551853, KB4556799, KB4556807, KB4556812, KB4556813
+
+    CVE-2020-1126
+    Media Foundation Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1126
+    - KB4551853, KB4556799, KB4556807, KB4556812, KB4556813
+
+    CVE-2020-1136
+    Media Foundation Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1136
+    - KB4551853, KB4556799, KB4556807, KB4556812, KB4556813, KB4556826
+      KB4556846, KB4556853
+
+    CVE-2020-1153
+    Microsoft Graphics Components Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1153
+    - KB4551853, KB4556799, KB4556807, KB4556812, KB4556813, KB4556826
+      KB4556836, KB4556840, KB4556843, KB4556846, KB4556852, KB4556853
+      KB4556854, KB4556860
+    
+    CVE-2020-1192
+    Visual Studio Code Python Extension Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1192
+    - KB number is not assigned
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+Microsoft published a blog and summarized considerations when applying
+security updates in remote environment, and answers to frequently asked
+questions.
+
+    Microsoft Security Response Center
+    Considerations for applying security updates in remote environment (Japanese)
+    https://msrc-blog.microsoft.com/2020/04/08/patchingforremotelocation/
+
+
+III. References
+    Microsoft Corporation 
+    May 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-May
+
+    Microsoft Corporation
+    Microsoft Security Updates for May 2020 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2020/05/12/202005-security-updates/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

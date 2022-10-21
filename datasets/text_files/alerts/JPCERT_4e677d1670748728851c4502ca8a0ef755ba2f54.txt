@@ -1,0 +1,85 @@
+JPCERT-AT-2008-0017
+                                                             JPCERT/CC
+                                                            2008-10-15
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2008-10-15 &gt;&gt;&gt;
+
+                October 2008 Microsoft Security Bulletin
+                   (including four critical patches)
+
+             http://www.jpcert.or.jp/at/2008/at080017.txt
+
+I. Overview
+
+  Microsoft has released its security bulletin summary for October 
+2008, which contains four security updates with severity rating 
+"Critical".
+
+  A remote attacker could use these vulnerabilities to cause a denial
+of service or execute arbitrary code.
+
+  For further information about these vulnerabilities, refer to the 
+following URLs.
+
+    Microsoft Security Bulletin Summary for October 2008
+    http://www.microsoft.com/technet/security/bulletin/ms08-oct.mspx
+
+
+  [Critical Security Update]
+
+    MS08-057
+    Vulnerabilities in Microsoft Excel Could Allow Remote Code 
+      Execution (956416)
+    http://www.microsoft.com/technet/security/bulletin/MS08-057.mspx
+
+    MS08-058
+    Cumulative Security Update for Internet Explorer (956390)
+    http://www.microsoft.com/technet/security/bulletin/MS08-058.mspx
+
+    MS08-059
+    Vulnerability in Host Integration Server RPC Service Could Allow
+      Remote Code Execution (956695)
+    http://www.microsoft.com/technet/security/bulletin/MS08-059.mspx
+
+    MS08-060
+    Vulnerability in Active Directory Could Allow Remote Code
+      Execution (957280)
+    http://www.microsoft.com/technet/security/bulletin/MS08-060.mspx
+
+
+II. Solution
+
+  Use means such as Microsoft Update or Windows Update to apply the
+security updates immediately.
+
+    Microsoft Update
+    https://www.update.microsoft.com/
+
+    Windows Update
+    https://windowsupdate.microsoft.com/
+
+    Office Update
+    http://office.microsoft.com/en-us/officeupdate/default.aspx
+
+
+III. References
+
+    Microsoft Security Bulletin Summary for October 2008
+    http://www.microsoft.com/technet/security/bulletin/ms08-oct.mspx
+
+    Technical Cyber Security Alert TA08-288A
+    Microsoft Updates for Multiple Vulnerabilities
+    http://www.us-cert.gov/cas/techalerts/TA08-288A.html
+
+    US-CERT Vulnerability Note (search for ms08-oct)
+    http://www.kb.cert.org/vuls/byid?searchview&amp;query=ms08-oct
+
+
+  If you have any information you could provide regarding this alert, 
+please contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

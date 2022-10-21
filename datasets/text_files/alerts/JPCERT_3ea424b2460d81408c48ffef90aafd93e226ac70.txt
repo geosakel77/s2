@@ -1,0 +1,103 @@
+JPCERT-AT-2019-0037
+                                                             JPCERT/CC
+                                                            2019-09-24
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-09-24 &gt;&gt;&gt;
+
+Alert Regarding Vulnerability (CVE-2019-1367) in Microsoft Internet Explorer
+
+        https://www.jpcert.or.jp/english/at/2019/at190037.html
+
+
+I. Overview
+Microsoft has released Security Updates regarding vulnerability
+(CVE-2019-1367) in Microsoft Internet Explorer. This contains updates
+that are rated as "Critical". Remote attackers leveraging this
+vulnerability may be able to execute arbitrary code. According to
+Microsoft, an exploit for the vulnerability already exists in the wild.
+
+Details on the vulnerability can be found at the following URL:
+
+    CVE-2019-1367 | Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1367
+    - KB4522007, KB4522009, KB4522010, KB4522011, KB4522012, KB4522014
+      KB4522015, KB4522016
+
+
+II. Affected Products
+Affected products and versions are as follows:
+
+    Internet Explorer 11
+    - Windows 10 Version 1703 for 32-bit Systems (KB4522011)
+    - Windows 10 Version 1703 for x64-based Systems (KB4522011)
+    - Windows 10 Version 1803 for 32-bit Systems (KB4522014)
+    - Windows 10 Version 1803 for x64-based Systems (KB4522014)
+    - Windows 10 Version 1803 for ARM64-based Systems (KB4522014)
+    - Windows 10 Version 1809 for 32-bit Systems (KB4522015)
+    - Windows 10 Version 1809 for x64-based Systems (KB4522015)
+    - Windows 10 Version 1809 for ARM64-based Systems (KB4522015)
+    - Windows Server 2019 (KB4522015)
+    - Windows 10 Version 1709 for 32-bit Systems (KB4522012)
+    - Windows 10 Version 1709 for 64-based Systems (KB4522012)
+    - Windows 10 Version 1709 for ARM64-based Systems (KB4522012)
+    - Windows 10 Version 1903 for 32-bit Systems (KB4522016)
+    - Windows 10 Version 1903 for x64-based Systems (KB4522016)
+    - Windows 10 Version 1903 for ARM64-based Systems (KB4522016)
+    - Windows 10 for 32-bit Systems (KB4522009)
+    - Windows 10 for x64-based Systems (KB4522009)
+    - Windows 10 Version 1607 for 32-bit Systems (KB4522010)
+    - Windows 10 Version 1607 for x64-based Systems (KB4522010)
+    - Windows Server 2016 (KB4522010)
+    - Windows 7 for 32-bit Systems Service Pack 1 (KB4522007)
+    - Windows 7 for x64-based Systems Service Pack 1 (KB4522007)
+    - Windows 8.1 for 32-bit systems (KB4522007)
+    - Windows 8.1 for x64-based systems (KB4522007)
+    - Windows Server 2008 R2 for x64-based Systems Service Pack 1 (KB4522007)
+    - Windows Server 2012 (KB4522007)
+    - Windows Server 2012 R2 (KB4522007)
+
+    Internet Explorer 10
+    - Windows Server 2012 (KB4522007)
+
+    Internet Explorer 9
+    - Windows Server 2008 for 32-bit Systems Service Pack 2 (KB4522007)
+    - Windows Server 2008 for x64-based Systems Service Pack 2 (KB4522007)
+
+
+III. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+Microsoft has released workarounds for this vulnerability. According to
+Microsoft, since the vulnerability affects the products when jscript is
+used as a script engine, the vulnerability can be mitigated by
+restricting access to the JScript.dll file. Please test the effects
+that the workarounds may cause prior to applying the workaround, as
+this may affect certain websites that utilize jscript as the scripting
+engine.
+
+
+IV. References
+    Microsoft Corporation
+    CVE-2019-1367 | Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1367
+
+    Microsoft Corporation
+    Cumulative security update for Internet Explorer: September 23, 2019
+    https://support.microsoft.com/en-us/help/4522007/cumulative-security-update-for-internet-explorer
+    
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: ew-info@jpcert.or.jp
+TEL: +81-3-6271-8901  FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

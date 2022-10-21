@@ -1,0 +1,73 @@
+JPCERT-AT-2022-0008
+                                                             JPCERT/CC
+                                                    2022-03-29(Initial)
+                                                    2022-03-30(Update)
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2022-03-29 &gt;&gt;&gt;
+
+Alert Regarding Vulnerability (CVE-2022-26871) in Trend Micro Apex Central
+
+       https://www.jpcert.or.jp/english/at/2022/at220008.html
+
+
+I. Overview
+On March 29, 2022, Trend Micro Incorporated published an alert regarding
+a vulnerability in Trend Micro Apex Central and Trend Micro Apex Central
+as a Service due to improper check for file contents. A remote attacker
+leveraging this vulnerability may be able to upload an arbitrary file
+and execute arbitrary code as a result. Trend Micro Incorporated is
+aware of attack exploiting this vulnerability.
+
+    Trend Micro Incorporated
+    IMPORTANT SECURITY BULLETIN:  Trend Micro Apex Central Arbitrary File Upload Remote Code Execution (RCE) Vulnerability
+    https://success.trendmicro.com/solution/000290678
+
+Since the vulnerability is already being exploited in the wild, the
+users of the affected products are recommended to update the affected
+system to the latest version as soon as possible. Please refer to the
+information provided by Trend Micro Incorporated.
+
+
+II. Affected Products
+Affected products and versions are as follows:
+
+  - Trend Micro Apex Central 2019 prior to Build 6016
+  - Trend Micro Apex Central as a Service prior to Build 202203
+
+
+III. Solution
+Trend Micro Incorporated has released patches that address the
+vulnerability. It is recommended to apply the patch as soon as possible.
+
+  - Trend Micro Apex Central 2019 Patch3 (Build 6016)
+
+According to Trend Micro Incorporated, the issue in Trend Micro Apex
+Central as a Service is fixed in the March 2022 updates.
+
+
+IV. References
+    Trend Micro Incorporated
+    [Alert/Advisory] CVE-2022-26871 Arbitrary File Upload vulnerability in Apex Central and Apex Central (SaaS) (Text in Japanese)
+    https://success.trendmicro.com/jp/solution/000290660
+
+    Trend Micro Incorporated
+    [Alert] Request to apply update program for the exploited vulnerability (CVE-2022-26871) in Trend Micro Apex Central (Text in Japanese)
+    https://appweb.trendmicro.com/supportNews/NewsDetail.aspx?id=4435
+
+    Japan Vulnerability Notes JVNVU#99107357
+    Trend Micro Apex Central and Trend Micro Apex Central as a Service vulnerable to improper check for file contents
+    https://jvn.jp/en/vu/JVNVU99107357/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2022-03-29 First edition
+2022-03-30 Updated URL Links in "I. Overview" and "IV. References"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

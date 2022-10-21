@@ -1,0 +1,183 @@
+JPCERT-AT-2007-0016
+                                                            JPCERT/CC
+                                                        June 28, 2007
+                  &lt;&lt;&lt; JPCERT/CC Alert 2007-06-28 &gt;&gt;&gt;
+
+     MPack: Web Site Exploit Tool Targets Web Browsers and Applications
+
+             http://www.jpcert.or.jp/at/2007/at070016.txt
+
+I. Overview
+
+  Damages caused by attacks using an attack tool called MPack have
+been increasing, mostly overseas.
+
+  When compared to the existing attack tools, MPack has a number of
+management program functions, allowing injection of attack code to
+exploit the latest vulnerabilities. As MPack is sold by foreign 
+websites and easily available, there is concern that attacks using
+MPack will also rapidly increase in Japan.
+
+  Server administrators should confirm that their websites are not
+used as launching points by attackers and end users should take
+measures against known vulnerabilities.
+
+
+II. Details
+
+  1. MPack program configuration
+
+    The MPack program mainly consists of the following two programs:
+
+        A: MPack management program that runs on a web server
+        B: Attack code executed on a victim's computer
+
+    An attacker deploys the attack code (B) on a web server and leads
+    the victim to the web server in some way.
+
+
+  2. Scenario of attack
+
+    The following is a representative scenario of an attack using
+    MPack:
+
+    Step 1: An attacker breaks into a web server using various
+            techniques.
+
+    Step 2: The attacker includes an iframe to load the MPack attack
+            code into an HTML document.
+
+    Step 3: When a victim views the HTML document containing the
+            iframe written in Step 2, the MPack attack code will 
+            execute automatically.
+
+    Step 4: When the victim accesses the MPack attack code, it 
+            distinguishes the OS and browser type and exploits 
+            vulnerabilities in the victim's computer.
+
+    Step 5: If the victim's computer contains a vulnerability that
+            can be exploited by MPack, a malicious program created by
+            an attacker could be executed.
+
+    Other than the above scenario, attacks using spam leading to
+    hostile websites or exploiting a cross-site scripting 
+    vulnerability on a website can be expected.
+
+
+  3. Vulnerabilities exploited by MPack
+
+    As a result of the analysis by JPCERT/CC, MPack can exploit the
+    following vulnerabilities:
+
+    - MS06-014, CVE-2006-0003
+      Vulnerability in the Microsoft Data Access Components (MDAC)
+
+    - MS06-006, CVE-2006-0005
+      Vulnerability in Windows Media Player
+
+    - MS06-044, CVE-2006-3643
+      Vulnerability in Microsoft Management Console (MMC)
+
+    - MS06-071, CVE-2006-5745
+      Vulnerability in Microsoft XML Core Services
+
+    - MS06-057, CVE-2006-3730
+      Windows Shell Remote Code Execution Vulnerability
+
+    - CVE-2006-5198, VU#512804
+      WinZip FileView ActiveX Control Multiple Vulnerabilities
+
+    - CVE-2007-0015, JVNTA07-005A, VU#442497
+      Apple QuickTime Vulnerabilities
+
+    - MS07-017, CVE-2007-0038
+      Windows Animated Cursor Vulnerability
+
+
+    Addition of modules to MPack could cause other vulnerabilities to
+    be exploited in the future.
+
+
+III Solution
+
+   JPCERT/CC recommends the following measures to be taken agains
+MPack:
+
+  [Server administrators]
+
+    Please ensure that the integrity of content published on your
+website is not compromised. If you find such a compromise, please
+conduct an investigation as to the possibility that an attacker has
+broken into the server, etc.
+
+    An attack using MPack can insert an iframe with the following 
+characteristics into HTML documents on a managed web server. Such
+cases have already been reported in Japan.
+
+    Characteristic 1: An iframe referencing an unknown domain or IP
+                      address
+    Characteristic 2: An iframe that is not displayed in a browser, 
+                      using style='visibility: hidden;'
+
+
+  [End users]
+
+    MPack attempts to exploit vulnerabilities that have already been
+    patched. Therefore the possibility of being a victim can be
+    reduced by applying the following measures:
+
+    - Keep your OS and applications up-to-date.
+    - Use anti-virus software
+
+        
+IV Reference Information
+
+    About iframe:
+    Frames in HTML documents
+    http://www.w3.org/TR/html401/present/frames.html
+
+    MS06-014, CVE-2006-0003
+    Vulnerability in the Microsoft Data Access Components (MDAC)
+      Function Could Allow Code Execution
+    http://www.microsoft.com/japan/technet/security/Bulletin/MS06-014.mspx
+
+    MS06-006, CVE-2006-0005
+    Vulnerability in Windows Media Player Could Allow Remote Code
+      Execution
+    http://www.microsoft.com/japan/technet/security/Bulletin/MS06-006.mspx
+
+    MS06-044, CVE-2006-3643
+    Vulnerability in Microsoft Management Console (MMC) Could Allow
+      Remote Code Execution
+    http://www.microsoft.com/japan/technet/security/Bulletin/MS06-044.mspx
+
+    MS06-071, CVE-2006-5745
+    Vulnerability in Microsoft XML Core Services Could Allow Remote
+      Code Execution
+    http://www.microsoft.com/japan/technet/security/Bulletin/MS06-071.mspx
+
+    MS06-057, CVE-2006-3730
+    Window Shell Remote Code Execution Vulnerability
+    http://www.microsoft.com/japan/technet/security/Bulletin/MS06-057.mspx
+
+    CVE-2006-5198, VU#512804
+    WinZip FileView ActiveX Control Multiple Vulnerabilities
+    http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5198
+
+    CVE-2007-0015, JVNTA07-005A, VU#442497
+    Buffer Overflow Vulnerability in Apple QuickTime Real Time 
+      Streaming Protocol (RTSP) Processing
+    http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0015
+
+    MS07-017, CVE-2007-0038
+    Windows Animated Cursor Remote Code Execution Vulnerability
+    http://www.microsoft.com/japan/technet/security/bulletin/ms07-017.mspx
+
+
+  If you have any information regarding this matter, please contact us.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

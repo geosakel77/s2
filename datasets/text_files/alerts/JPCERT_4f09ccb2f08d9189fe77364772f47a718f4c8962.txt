@@ -1,0 +1,221 @@
+JPCERT-AT-2017-0036
+                                                             JPCERT/CC
+                                                            2017-09-13
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-09-13 &gt;&gt;&gt;
+
+            Microsoft Releases September 2017 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2017/at170036.html
+
+
+I. Overview
+Microsoft has released September 2017 Security Updates. This contains
+updates that are rated as "critical". Remote attackers leveraging these
+vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    September 2017 Security Updates 
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/5984735e-f651-e711-80dd-000d3a32fc99
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    ADV170013
+    September 2017 Flash Security Update
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/ADV170013
+    - KB4038806
+
+    CVE-2017-0161
+    NetBIOS Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0161
+    - KB4038777, KB4038779, KB4038781, KB4038782, KB4038783, KB4038786, 
+      KB4038788, KB4038792, KB4038793, KB4038799
+
+    CVE-2017-8649
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8649
+    - KB4038782, KB4038788
+
+    CVE-2017-8660
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8660
+    - KB4038782, KB4038783, KB4038788
+
+    CVE-2017-8676
+    Windows GDI+ Information Disclosure Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8676
+    - KB4011134
+
+    CVE-2017-8682
+    Win32k Graphics Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8682
+    - KB3213638, KB3213641, KB4011134, KB4038777, KB4038779, KB4038781
+      KB4038782, KB4038783, KB4038786, KB4038788, KB4038792, KB4038793
+      KB4038799, KB4039384
+
+    CVE-2017-8686
+    Windows DHCP Server Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8686
+    - KB4038782, KB4038786, KB4038792, KB4038793, KB4038799
+
+    CVE-2017-8696
+    Microsoft Graphics Component Remote Code Execution
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8696
+    - KB3213631, KB3213632, KB3213649, KB4011125, KB4038777, KB4038779
+      KB4039384
+
+    CVE-2017-8728
+    Microsoft PDF Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8728
+    - KB4038781, KB4038782, KB4038783, KB4038786, KB4038788, KB4038792
+      KB4038793, KB4038799
+
+    CVE-2017-8729
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8729
+    - KB4038788
+
+    CVE-2017-8731
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8731
+    - KB4038782
+
+    CVE-2017-8734
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8734
+    - KB4038781, KB4038782, KB4038783, KB4038788
+
+    CVE-2017-8737
+    Microsoft PDF Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8737
+    - KB4038781, KB4038782, KB4038783, KB4038788, KB4038792, KB4038793
+
+    CVE-2017-8738
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8738
+    - KB4038781, KB4038782, KB4038783
+
+    CVE-2017-8740
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8740
+    - KB4038788
+
+    CVE-2017-8741
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8741
+    - KB4036586, KB4038777, KB4038781, KB4038782, KB4038783, KB4038788
+      KB4038792
+
+    CVE-2017-8747
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8747
+    - KB4036586, KB4038777, KB4038781, KB4038782, KB4038783, KB4038788
+      KB4038792
+
+    CVE-2017-8748
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8748
+    - KB4036586, KB4038777, KB4038781, KB4038782, KB4038783, KB4038788
+      KB4038792
+
+    CVE-2017-8749
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8749
+    - KB4036586, KB4038777, KB4038781, KB4038782, KB4038783, KB4038788
+      KB4038792
+
+    CVE-2017-8750
+    Microsoft Browser Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8750
+    - KB4036586, KB4038777, KB4038781, KB4038782, KB4038783, KB4038788
+      KB4038792
+
+    CVE-2017-8751
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8751
+    - KB4038788
+
+    CVE-2017-8752
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8752
+    - KB4038782, KB4038783, KB4038788
+
+    CVE-2017-8753
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8753
+    - KB4038781, KB4038782, KB4038783, KB4038788
+
+    CVE-2017-8755
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8755
+    - KB4038782, KB4038783, KB4038788
+
+    CVE-2017-8756
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8756
+    - KB4038781, KB4038782, KB4038783, KB4038788
+
+    CVE-2017-8757
+    Microsoft Edge Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-8757
+    - KB4038781, KB4038782, KB4038783, KB4038788
+
+    CVE-2017-11764
+    Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11764
+    - KB4038782, KB4038788
+
+    CVE-2017-11766
+    Microsoft Edge Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-11766
+    - KB4038781, KB4038782, KB4038783, KB4038788
+
+According to Microsoft, attacks leveraging the vulnerability
+CVE-2017-8759 (Important) has been observed in the wild.
+please apply the
+Please apply the security update programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update / Windows Update
+    http://www.update.microsoft.com/
+
+    Microsoft Update Catalog
+    https://catalog.update.microsoft.com/
+
+
+III. References
+    Microsoft Corporation
+    September 2017 Security Updates 
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/5984735e-f651-e711-80dd-000d3a32fc99
+
+    Microsoft Corporation
+    Microsoft Security Updates for September 2017 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2017/09/13/201709-security-bulletin/
+
+    Microsoft Corporation
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+    Adobe Systems Incorporated
+    Security updates available for Flash Player | APSB17-28
+    https://helpx.adobe.com/security/products/flash-player/apsb17-28.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerabilities in Adobe Flash Player (APSB17-28) 
+    https://www.jpcert.or.jp/at/2017/at170035.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

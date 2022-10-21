@@ -1,0 +1,111 @@
+JPCERT-AT-2016-0037
+                                                             JPCERT/CC
+                                                    2016-09-28(Initial)
+                                                     2016-10-05(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-09-28 &gt;&gt;&gt;
+
+     Denial-of-service vulnerability (CVE-2016-2776) in ISC BIND 9
+
+        https://www.jpcert.or.jp/english/at/2016/at160037.html
+
+
+I. Overview
+
+  ISC BIND 9 contains a vulnerability that leads to a denial-of-service
+(DoS). When this vulnerability is exploited, a remote attacker may
+cause named to terminate. For more details on this vulnerability,
+please refer to the information provided by ISC.
+
+    Internet Systems Consortium, Inc. (ISC)
+    CVE-2016-2776: Assertion Failure in buffer.c While Building
+    Responses to a Specifically Constructed Request
+    https://kb.isc.org/article/AA-01419/
+
+  If you are operating an affected version of ISC BIND 9 (authoritative
+DNS server, cache DNS server), please consider updating to a version
+that addresses this vulnerability by referring to the information in
+"III. Solution".
+
+** Update: October 5, 2016 Update ***********************************
+   On October 5, 2016, National Police Agency announced the observation
+on the attacks leveraging this vulnerability. JPCERT/CC has also received
+reports on attacks targeting DNS. Proof-of-Concept for this vulnerability
+has been released, therefore, please apply the version that address this
+vulnerability as soon as possible.
+
+    National Police Agency
+    Observation on spam attacks leveraging vulnerability (CVE-2016-2776) in BIND (PDF) (Japanese)
+　　https://www.npa.go.jp/cyberpolice/detect/pdf/20161005.pdf
+**********************************************************************
+
+II. Affected Systems
+
+  According to ISC, the following versions are affected by this
+vulnerability. ISC has rated this vulnerability as "High".
+
+  ISC BIND
+    - Versions prior to 9.9.9-P2 for 9,9.x
+    - Versions prior to 9.10.4-P2 for 9.10.x
+
+  In addition, unsupported versions of ISC BIND 9.0.x through 9.8.x
+are also affected.
+
+  For more details, please refer to the following:
+
+    BIND 9 Security Vulnerability Matrix
+    https://kb.isc.org/article/AA-00913/
+
+  If you are using BIND provided by a distributor, please refer to the
+information provided by that distributor.
+
+
+III. Solution
+
+  ISC has released versions of ISC BIND that address this vulnerability.
+Distributors are likely to provide their own versions that address
+this vulnerability. Consider updating to an updated version after
+thorough testing.
+
+  ISC BIND
+  - BIND 9 version 9.9.9-P3
+  - BIND 9 version 9.10.4-P3
+
+
+IV. References
+
+    US-CERT
+    ISC Releases Security Updates for BIND
+    https://www.us-cert.gov/ncas/current-activity/2016/09/27/ISC-Releases-Security-Updates-BIND
+
+    Japan Registry Services (JPRS)
+    (Urgent) Vulnerability in BIND 9.x (DNS Service suspension) (CVE-2016-2776) (Japanese)
+    https://jprs.jp/tech/security/2016-09-28-bind9-vuln-rendering.html
+
+    Japan Network Information Center (JPNIC)
+    BIND 9 vulnerability resulting server stoppage due to unauthorized request (September, 2016) (Japanese)
+    https://www.nic.ad.jp/ja/topics/2016/20160928-01.html
+
+** Update: October 5, 2016 Update ***********************************
+    Information-technology Promotion Agency, Japan（IPA）
+    Update: Regarding the countermeasures for vulnerability in BIND (CVE-2016-2776) (Japanese)
+    https://www.ipa.go.jp/security/ciadr/vul/20160929-bind.html
+
+    National Police Agency
+    Observation on spam attacks leveraging vulnerability (CVE-2016-2776) in BIND (PDF) (Japanese)
+    https://www.npa.go.jp/cyberpolice/detect/pdf/20161005.pdf
+**********************************************************************
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2016-09-28 First edition
+2016-10-05 Updated "I. Overview" and "III. References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,174 @@
+JPCERT-AT-2017-0023
+                                                             JPCERT/CC
+                                                            2017-06-28
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2017-06-28 &gt;&gt;&gt;
+                  
+  Alert regarding PCs and servers that may be attacked via the Internet
+  
+       https://www.jpcert.or.jp/english/at/2017/at170023.html
+
+
+I. Overview
+Internet-reachable PCs and servers without adequate security measures
+are under a risk of being exploited by an attacker which may result in
+network intrusion or being used as a stepping-stone to further attack
+activities.
+
+JPCERT/CC has received multiple reports regarding mobile PCs (the connect
+to a corporate network from a remote location) as well as servers and
+PCs with a global IP address assigned for remote administration being
+infected with malware or taken over by an attacker.
+
+Over the past few months, JPCERT/CC has observed large scale damages
+caused by the same cause. Therefore, this alert is issued together with
+other security organizations in Japan to warn network administrators
+and users.
+
+    Alert regarding ransomware "WannaCrypt" (last update: 2017-05-17)
+    https://www.jpcert.or.jp/english/at/2017/at170020.html
+
+    Alert regarding vulnerability (CVE-2016-7836) in SKYSEA Client View (last update: 2017-03-08)
+    https://www.jpcert.or.jp/english/at/2016/at160051.html
+
+Network administrators and users should refer to the information in
+"II. Solution" and "III. References" to check whether your PC or servers
+are not accidentally exposed to the Internet and take proper security
+countermeasures.
+
+https://www.jpcert.or.jp/english/at/2017/at1700023-fig2.png
+[image 1: Security measures to protect PC from Internet-based attacks]
+
+
+II. Solution
+Check (1) and consider the countermeasures listed in (2) through to (5).
+Applying multiple countermeasures reduces the risk against threats on
+the Internet.
+
+(1) Confirm whether the devices are not accessible from the Internet
+Please confirm whether the device is not exposed to the Internet by
+checking the IP address of the PC or server to make sure that no global
+IP address is assigned to the device.
+
+In particular, attention needs to be paid when using a data communication
+card or a modem to connect to the Internet. If a global IP address is
+unintentionally assigned to the device, as a result, the device will
+be accessible from the Internet. Also, depending on the Internet service
+provider, a private IP address may be assigned when connecting to the
+Internet. In such cases, it is also necessary to beware of access
+attempts from external sources.
+
+[Reference: How to check IP address (example of Windows10)]
+  1. From "Network and Sharing Center", select "Change Adapter Settings"
+     to display all adapters
+  2. Right click the adapter currently used for the connection and
+     from the pull-down menu select "Status"
+  3. In the "Details" window (network connection details), the IP
+     address can be found
+For more details, please refer the manual for the OS or PC.
+
+The assignment of IP address differs in each Internet service provider.
+JPCERT/CC Open DNS Resolver Check Site can be useful to check the
+source IP address.
+
+    JPCERT/CC
+    Open DNS Resolver Check Site (Japanese)
+    http://www.openresolver.jp/
+
+(2) Apply necessary firewall settings
+In order to prevent intrusions via Internet-based attacks, please
+properly configure firewalls implemented by the OS or anti-virus
+software. Furthermore, please ensure that all PCs and servers are
+protected by a firewall.
+
+As for Windows, the Windows Firewall setting differs depending on the
+network profile. When connecting to a network outside of your
+organization, we recommend that you select an appropriate profile. 
+In addition, blocking specific ports can be selected from "Advanced
+setting" of "Windows Firewall" function.
+Please consider using Windows Firewall to block the port used by
+SMB v1, with reference to the following information.
+
+[Reference: How to block the port used by SMB v1 (example of Windows10)]
+   1. From "Network and Sharing Center", select "Windows Firewall"
+      and then open "Advanced Settings"
+   2. In "Windows Firewall with Advanced Security", right-click
+      "Inbound Rules" and then select "New Rule"
+   3. In the "New Inbound Rule Wizard", turn ON the checkbox for "Port"
+      and select "Next"
+   4. Select "TCP" and enter 139, 445. Then click "Next"
+   5. Check "Block the connection" and click "Next"
+   6. Select the profile to be enabled and click "Next"
+   7. For "Name" and "Description", enter appropriate text naming the
+      rule and click "Finish"
+
+Furthermore, different applications and services use different ports. 
+For SKYSEA's communication method and ports, please refer to the
+following information.
+
+[Reference: List of ports used by SKYSEA]
+SKYSEA use a different communication method for internal and external
+hosts. Please apply appropriate configurations for each network profile.
+
+    Sky Corporation
+    SKYSEA Client View Ver.12 Communication Ports
+    http://www.skyseaclientview.net/ver12/technicalsheet/pdf/170523skysea_techdata_communicate.pdf
+
+For details about setting firewall function in an OS and anti-virus
+software, please refer to the manual accordingly.
+
+(3) Disable any unnecessary services
+In order to prevent intrusions or unauthorized access through the
+network, please check whether any unnecessary or unknown services are
+available, and consider disabling them.
+
+    Microsoft Corporation
+    How to enable and disable SMBv1, SMBv2, and SMBv3 in Windows and Windows Server
+    https://support.microsoft.com/en-us/help/2696547/how-to-enable-and-disable-smbv1-smbv2-and-smbv3-in-windows-and-windows-server
+
+(4) Update OS and Software
+Please update the OS and software and use the version that addresses
+vulnerabilities. Also, please consider using anti-virus software and
+update the patch files regularly.
+
+(5) Re-check default settings
+In order to prevent Internet-based attacks, appropriately configure
+services and login passwords, etc. In particular, if you are using
+software that can remotely control your PC, a weak password may allow
+an attacker intrusion.
+
+    JPCERT/CC
+    Alert "Beware of settings for systems and devices connected to the network" (Japanese)
+    https://www.jpcert.or.jp/pr/2016/pr160001.html
+
+
+III. References
+    Japan Cybercrime Control Center (JC3)
+    Security countermeasures for PC's with global IP addresses directly assigned (Japanese)
+    https://www.jc3.or.jp/topics/gip_sec.html
+
+    Information-technology Promotion Agency (IPA)
+    Security environment that users should check - lessons learned from consultation on WannaCryptor (Japanese)
+    https://www.ipa.go.jp/security/anshin/mgdayori20170713.html
+
+    JPCERT/CC
+    Internet Threat Monitoring Quarterly Report
+    https://www.jpcert.or.jp/english/tsubame/report/index.html
+
+    National Police Agency
+    Access observations to 445/TCP from PCs that have been exploited by ransomware "WannaCry" (Japanese)
+    https://www.npa.go.jp/cyberpolice/detect/pdf/20170622.pdf
+
+    Sky Corporation
+    Security vulnerabilities in SKYSEA Client View (Japanese)
+    https://www.skygroup.jp/security-info/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

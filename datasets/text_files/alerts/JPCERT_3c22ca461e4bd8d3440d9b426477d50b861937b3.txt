@@ -1,0 +1,90 @@
+JPCERT-AT-2021-0005
+                                                             JPCERT/CC
+                                                    2021-01-27(Initial)
+                                                    2021-01-28(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2021-01-27 &gt;&gt;&gt;
+
+         Alert Regarding Vulnerability (CVE-2021-3156) in sudo
+
+        https://www.jpcert.or.jp/english/at/2021/at210005.html
+
+
+I. Overview
+On January 26, 2021 (Local Time), sudo has released information
+regarding a heap-based buffer overflow vulnerability (CVE-2021-3156)
+in sudo. If the sudoers file (usually under/etc/sudoers) exists, a
+local user may exploit the vulnerability to elevate privileges to root.
+
+    Sudo
+    Buffer overflow in command line unescaping
+    https://www.sudo.ws/alerts/unescape_overflow.html
+
+In addition, Qualys, which discovered this vulnerability, has released
+a technical information and a video demonstrating the vulnerability.
+This vulnerability may likely be exploited to escalate privileges in
+attacks once effective Proof-of-Concept (PoC) code is published. Users
+of the affected system are recommended to take measures as soon as
+possible. 
+
+
+II. Affected Products
+The following versions are affected by this vulnerability. Please refer
+to the distributor information for the details of affected version for
+each distribution.
+
+  - sudo version 1.8.2 to 1.8.31p2
+  - sudo version 1.9.0 to 1.9.5p1
+
+According to Qualys, which discovered this vulnerability, if execute
+the "sudoedit -s /" command and an error starting with "sudoedit" is
+displayed, it will be affected by the vulnerability, but an error
+starting with "usage" is displayed, it will not be affected. 
+
+** Update: January 28, 2021 Update ***********************************
+The above command result may differ depending on the distribution and the
+environment in which the command is executed. For details, refer to the
+information provided by each distribution.
+**********************************************************************
+
+
+III. Solution
+Each distributor has released versions of sudo that address this
+vulnerability. Please consider to take measures such as version
+upgrade by referring to the information of each distributor.
+
+
+IV. References
+    Qualys
+    CVE-2021-3156: Heap-Based Buffer Overflow in Sudo (Baron Samedit)
+    https://blog.qualys.com/vulnerabilities-research/2021/01/26/cve-2021-3156-heap-based-buffer-overflow-in-sudo-baron-samedit
+
+    Sudo
+    Major changes between version 1.9.5p2 and 1.9.5p1
+    https://www.sudo.ws/stable.html#1.9.5p2
+
+    Red Hat
+    Privilege escalation via command line argument parsing - sudo - (CVE-2021-3156)
+    https://access.redhat.com/security/vulnerabilities/RHSB-2021-002
+
+    Ubuntu
+    USN-4705-1: Sudo vulnerabilities
+    https://ubuntu.com/security/notices/USN-4705-1
+
+    Debian
+    CVE-2021-3156
+    https://security-tracker.debian.org/tracker/CVE-2021-3156
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2021-01-27 First edition
+2021-01-28 Updated "II. Affected Products"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

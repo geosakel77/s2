@@ -1,0 +1,130 @@
+JPCERT-AT-2018-0046
+                                                             JPCERT/CC
+                                                            2018-11-14
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-11-14 &gt;&gt;&gt;
+
+          Microsoft Releases November 2018 Security Updates
+
+        https://www.jpcert.or.jp/english/at/2018/at180046.html
+
+
+I. Overview
+Microsoft has released November 2018 Security Updates. This contains
+updates that are rated as "critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    November 2018 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/ff746aa5-06a0-e811-a978-000d3a33c573
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    CVE-2018-8476
+    Windows Deployment Services TFTP Server Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8476
+    - KB4467106, KB4467107, KB4467678, KB4467691, KB4467697, KB4467700
+      KB4467701, KB4467702, KB4467703, KB4467706, KB4467708
+
+    CVE-2018-8541
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8541
+    - KB4467702, KB4467708
+
+    CVE-2018-8542
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8542
+    - KB4467680, KB4467686, KB4467691, KB4467696, KB4467702, KB4467708
+
+    CVE-2018-8543
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8543
+    - KB4467680, KB4467686, KB4467691, KB4467696, KB4467702, KB4467708
+
+    CVE-2018-8544
+    Windows VBScript Engine Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8544
+    - KB4467106, KB4467107, KB4467678, KB4467680, KB4467686, KB4467691
+      KB4467696, KB4467697, KB4467700, KB4467701, KB4467702, KB4467703
+      KB4467706, KB4467708
+
+    CVE-2018-8551
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8551
+    - KB4467686, KB4467696, KB4467702, KB4467708
+
+    CVE-2018-8553
+    Microsoft Graphics Components Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8553
+    - KB4467106, KB4467107, KB4467678, KB4467680, KB4467691, KB4467697
+      KB4467700, KB4467701, KB4467703, KB4467706
+
+    CVE-2018-8555
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8555
+    - KB4467680, KB4467686, KB4467691, KB4467696, KB4467702, KB4467708
+
+    CVE-2018-8556
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8556
+    - KB4467680, KB4467686, KB4467691, KB4467696, KB4467702, KB4467708
+
+    CVE-2018-8557
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8557
+    - KB4467680, KB4467686, KB4467691, KB4467696, KB4467702, KB4467708
+
+    CVE-2018-8588
+    Chakra Scripting Engine Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8588
+    - KB4467680, KB4467686, KB4467691, KB4467696, KB4467702, KB4467708
+
+    CVE-2018-8609
+    Microsoft Dynamics 365 (on-premises) version 8 Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8609
+    - KB4467675
+
+According to Microsoft, attacks leveraging the vulnerability
+CVE-2018-8589 (Important) have been observed in the wild. Please apply
+the security update programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    November 2018 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/ff746aa5-06a0-e811-a978-000d3a33c573
+
+    Microsoft Corporation
+    Microsoft Security Updates for November 2018 (Monthly) (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2018/11/14/201811-security-updates/
+
+    Adobe Systems Incorporated
+    Security updates available for Flash Player | APSB18-39
+    https://helpx.adobe.com/security/products/flash-player/apsb18-39.html
+
+    JPCERT/CC
+    Alert Regarding Vulnerability in Adobe Flash Player (APSB18-39)
+    https://www.jpcert.or.jp/english/at/2018/at180044.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

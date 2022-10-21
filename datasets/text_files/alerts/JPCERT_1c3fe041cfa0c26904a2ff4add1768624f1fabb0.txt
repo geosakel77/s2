@@ -1,0 +1,70 @@
+JPCERT-AT-2009-0010
+                                                             JPCERT/CC
+                                                            2009-05-19
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2009-05-19 &gt;&gt;&gt;
+
+         Malicious JavaScript injection attacks are on the rise
+
+             http://www.jpcert.or.jp/at/2009/at090010.txt
+
+
+I. Overview
+
+  JPCERT/CC has received information that legitimate websites injected
+with malicious Javascript have recently been increasing in number.
+Users visiting such sites are redirected to a third party site where
+they may possibly be infected with malicious software.
+  
+  According to US-CERT, such attacks have targeted vulnerabilities in
+such software as Adobe Flash, Adobe Acrobat and Adobe Reader.
+Additionally, the malware installed by a successful attack attempts to
+steal FTP passwords.  If a stolen FTP account has access to files
+containing web site code, this code will also be injected with
+malicious Javascript with the aim of infecting users to that site
+also.
+
+    US-CERT Current Activity
+    Gumblar Malware Exploit Circulating
+    http://www.us-cert.gov/current/archive/2009/05/18/archive.html#gumblar_malware_attack_circulating
+
+
+II. Solution
+
+  The following actions will reduce the risk of compromise:
+  
+  - Ensure that you are running the latest version of Adobe Flash,
+    Adobe Acrobat and Adobe Reader
+  - Run an anti-virus product updated with the latest virus definition
+    files
+
+  To protect yourself against similar attacks in the future, always
+ensure that you are running the latest version of all software installed on your system.
+
+
+III. References
+
+    US-CERT Current Activity
+    Gumblar Malware Exploit Circulating
+    http://www.us-cert.gov/current/archive/2009/05/18/archive.html#gumblar_malware_attack_circulating
+
+    Sophos
+    Troj/JSRedir-R
+    http://www.sophos.com/security/analyses/viruses-and-spyware/trojjsredirr.html
+
+    Adobe Flash Player version tester
+    http://kb2.adobe.com/cps/155/tn_15507.html
+
+    Adobe.com
+    New downloads
+    http://www.adobe.com/support/downloads/new.jsp
+
+
+  If you have any information you could provide regarding this alert,
+please contact us.
+
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602

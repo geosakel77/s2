@@ -1,0 +1,102 @@
+JPCERT-AT-2021-0041
+                                                             JPCERT/CC
+                                                    2021-09-15(Initial)
+                                                    2021-09-17(Update)
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-09-15 &gt;&gt;&gt;
+
+         Microsoft Releases September 2021 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2021/at210041.html
+
+
+I. Overview
+Microsoft has released September 2021 Security Updates to address the
+vulnerabilities in their products. Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code. It is
+recommended to check the information provided by Microsoft and
+apply the updates.
+
+    Microsoft Corporation
+    September 2021 Security Updates
+    https://msrc.microsoft.com/update-guide/en-us/releaseNote/2021-Sep
+
+    Microsoft Corporation
+    Microsoft Security Updates for September 2021 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2021/09/14/202109-security-updates/
+
+According to Microsoft, among these vulnerabilities, a vulnerability
+in Microsoft MSHTML (CVE-2021-40444) has been confirmed to be exploited
+in the wild. Microsoft has already published information on the
+vulnerability on September 7, 2021. Please consider applying the
+security update programs as soon as possible.
+
+    CVE-2021-40444
+    Microsoft MSHTML Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40444
+
+In addition, the security update for a vulnerability in Windows
+Print Spooler (CVE-2021-36958), which has been made public in Microsoft's
+OOB release on August 11, 2021, has been provided.
+
+    CVE-2021-36958
+    Windows Print Spooler Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-36958
+
+** Update: September 17, 2021 Update ********************************
+On September 16, 2021, Microsoft released additional guidance blog
+about multiple Open Management Infrastructure (OMI) vulnerabilities.
+The blog explains the information on Microsoft Azure VM management
+extensions that are affected by these vulnerabilities, and how to
+implement countermeasures on these extensions.
+
+    Microsoft Security Response Center
+    Additional Guidance Regarding OMI Vulnerabilities within Azure VM Management Extensions
+    https://msrc-blog.microsoft.com/2021/09/16/additional-guidance-regarding-omi-vulnerabilities-within-azure-vm-management-extensions/
+
+Among these vulnerabilities, the remote code execution vulnerability
+(CVE-2021-38647) allows a remote attacker to execute arbitrary commands
+with root privileges without authentication by sending a specially
+crafted POST request.
+
+JPCERT/CC is aware of an article explaining the details of the
+vulnerability (CVE-2021-38647) and exploit code that seems to exploit
+the vulnerability. If the affected Azure Virtual Machine (VM) management
+extensions are used in your environment, it is recommended to follow
+the Microsoft's instructions and apply update as soon as possible.
+
+    Microsoft Corporation
+    Open Management Infrastructure Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-38647
+*********************************************************************
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    Release Notes
+    https://msrc.microsoft.com/update-guide/releaseNote
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2021-09-15 First edition
+2021-09-17 Updated "I. Overview"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

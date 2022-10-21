@@ -1,0 +1,97 @@
+JPCERT-AT-2014-0020
+                                                             JPCERT/CC
+                                                            2014-05-02
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2014-05-02 &gt;&gt;&gt;
+
+         Alert regarding Microsoft Security Bulletin MS14-021 
+
+        https://www.jpcert.or.jp/english/at/2014/at140020.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for Internet Explorer.
+This bulletin contains security updates that are rated as "critical".
+Remote attackers leveraging this vulnerability may be able to execute
+arbitrary code, so please apply the security updates as soon as
+possible.
+  Note that security updates for Windows XP, which ended the support on
+April 2014, is included.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft
+    Security Update for Internet Explorer (2965111)
+    https://technet.microsoft.com/en-us/library/security/ms14-021
+
+  According to Microsoft, targeted attacks leveraging this
+vulnerability have been observed in the wild.
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+  * With the April 2014 update, Microsoft ended the support for
+    Windows XP and Office 2003. Concerns on security risk will rise
+    henceforth, and therefore please consider updating to a newer OS
+    and software.
+
+If you applied the workaround, then you may need to undo the workaround
+before or after applying the security update.
+
+ - If you applied the workaround to modify the Access Control List(ACL)
+on VGX.DLL, then you must undo this workaround before applying the
+security update. 
+
+ - If you applied the workaround to unregister VGX.DLL, you do not have
+to undo this workaround before applying the security update. However,
+the security update will not re-register vgx.dll, therefore please
+re-register vgx.dll.
+
+ - If you applied any of the other workarounds, you do not have to undo
+the workaround before applying the security update.
+
+
+III. References
+
+    Microsoft
+    Security Update for Internet Explorer (2965111)
+    https://technet.microsoft.com/en-us/library/security/ms14-021
+
+    Microsoft
+    Microsoft releases out-of-band update MS14-021 (Internet Explorer) to address vulnerability stated in security advisory  (2963983) (Japanese)
+    http://blogs.technet.com/b/jpsecurity/archive/2014/05/02/security-update-ms14-021-released-to-address-recent-internet-explorer-vulnerability-2963983.aspx
+
+    Information-technology Promotion Agency (IPA)
+    Measures to address vulnerability in Internet Explorer (CVE-2014-1776) (Japanese)
+    https://www.ipa.go.jp/security/ciadr/vul/20140428-ms.html
+
+    Alert regarding the Microsoft Security Bulletin (MS14-021)
+    https://www.jpcert.or.jp/english/at/2014/at140020.html
+
+    Vulnerability Note VU#222929
+    Microsoft Internet Explorer CMarkup use-after-free vulnerability
+    https://www.kb.cert.org/vuls/id/222929
+
+    JVNVU#92280347
+    Microsoft Internet Explorer use-after-free vulnerability (Japanese)
+    https://www.kb.cert.org/vuls/id/222929
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

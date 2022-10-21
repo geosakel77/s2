@@ -1,0 +1,82 @@
+JPCERT-AT-2014-0021
+                                                             JPCERT/CC
+                                                            2014-05-14
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2014-05-14 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for May 2014
+                 (including 3 critical patches)
+
+          https://www.jpcert.or.jp/english/at/2014/at140021.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for May, 2014. This
+bulletin contains three (3) updates that are rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for May 2014
+    https://technet.microsoft.com/en-us/library/security/ms14-may
+
+  [Security updates rated as "critical"]
+
+    MS14-021
+    Security Update for Internet Explorer (2965111)
+    https://technet.microsoft.com/library/security/ms14-021
+    
+    MS14-029
+    Security Update for Internet Explorer (2962482)
+    https://technet.microsoft.com/library/security/ms14-029
+    
+    MS14-022
+    Vulnerabilities in Microsoft SharePoint Server Could Allow Remote Code Execution (2952166) 
+    https://technet.microsoft.com/library/security/ms14-022
+    
+  According to Microsoft, attacks leveraging MS14-021 and MS14-029
+have been observed in the wild.
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+  * With the April 2014 update, Microsoft have ended the support for
+    Windows XP and Office 2003. Concerns on security risk will rise
+    henceforth, and therefore please consider updating to a newer OS
+    and software.
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for May 2014
+    https://technet.microsoft.com/en-us/library/security/ms14-may
+
+    Microsoft
+    Microsoft Security Information for May 2014 (Monthly) - MS14-022 - MS14-029 (Japanese)
+    http://blogs.technet.com/b/jpsecurity/archive/2014/05/14/201405-security-bulletin.aspx
+
+    Microsoft
+    Update for Vulnerabilities in Adobe Flash Player in Internet Explorer
+    https://technet.microsoft.com/library/security/2755801
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

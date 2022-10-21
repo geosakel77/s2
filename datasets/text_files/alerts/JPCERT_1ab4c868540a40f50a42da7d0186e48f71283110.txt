@@ -1,0 +1,143 @@
+JPCERT-AT-2021-0034
+                                                             JPCERT/CC
+                                                            2021-08-11
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-08-11 &gt;&gt;&gt;
+
+          Microsoft Releases August 2021 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2021/at210034.html
+
+
+I. Overview
+Microsoft has released August 2021 Security Updates to address the
+vulnerabilities in their products. Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code. It is
+recommended to check the information provided by Microsoft and
+apply the updates.
+
+    Microsoft Corporation
+    August 2021 Security Updates
+    https://msrc.microsoft.com/update-guide/en-us/releaseNote/2021-Aug
+
+    Microsoft Corporation
+    Microsoft Security Updates for August 2021 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2021/08/10/202108-security-updates/
+
+
+II. Related Information
+We recommend checking the following information with caution among the
+security updates and advisories for this month.
+
+(1) Vulnerability confirmed to be exploited in the wild
+
+Of these vulnerabilities, Microsoft announced that Windows Update
+Medic Service Elevation of Privilege vulnerability (CVE-2021-36948)
+has been confirmed to be exploited in the wild. It is recommended to
+apply the update as soon as possible.
+
+    CVE-2021-36948
+    Windows Update Medic Service Elevation of Privilege Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-36948
+
+
+(2) Windows Print Spooler vulnerability (CVE-2021-34481)
+
+On July 15, 2021, Microsoft released an advisory on the remote code
+execution vulnerability (CVE-2021-34481) in Windows Print Spooler.
+This month's security update include fix for the vulnerability.
+
+    CVE-2021-34481
+    Windows Print Spooler Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34481
+
+Windows updates released August 10, 2021 and later will, by default,
+require administrative privilege to install drivers. For details,
+please refer to the information provided by Microsoft.
+
+    KB5005652â€”Manage new Point and Print default driver installation behavior (CVE-2021-34481)
+    https://support.microsoft.com/en-us/topic/kb5005652-manage-new-point-and-print-default-driver-installation-behavior-cve-2021-34481-873642bf-2634-49c5-a23b-6d8e9a302872
+
+    Point and Print Default Behavior Change
+    https://msrc-blog.microsoft.com/2021/08/10/point-and-print-default-behavior-change/
+
+
+(3) Windows 10 Print Spooler vulnerability (CVE-2021-34481)
+
+On July 20, 2021, Microsoft released an advisory on the Privilege
+Elevation Vulnerabilities (CVE-2021-36934) in multiple versions of
+Windows 10. A user may read system files including the Security
+Accounts Manager (SAM) database, and as a result, escalate to obtain
+SYSTEM privileges.
+
+    CVE-2021-36934
+    Windows Elevation of Privilege Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-36934
+
+Although this month's security update include fix for the vulnerability,
+in order to fully mitigate the impact of the vulnerability, it is
+necessary to manually delete all shadow copies of system files,
+including the SAM database, that have been obtained before the update
+or workarounds is applied. For details, please refer to the information
+provided by Microsoft. Since the Proof-of-Concept (PoC) code that
+exploits the vulnerability has already been made public, it is
+recommended to consider taking immediate actions.
+
+    KB5005357- Delete Volume Shadow Copies
+    https://support.microsoft.com/en-us/topic/kb5005357-delete-volume-shadow-copies-1ceaa637-aaa3-4b58-a48b-baf72a2fa9e7
+
+(4) Windows LSA Spoofing Vulnerability (CVE-2021-36942) and mitigating for NTLM Relay Attacks
+
+The Windows LSA spoofing vulnerability (CVE-2021-36942) is related to
+the NTLM Relay Attack Advisory (ADV210003), which was the advisory
+published on July 23, 2021. By exploiting the vulnerability, an
+unauthenticated attacker may coerce the domain controller to authenticate
+against another server using NTLM. This vulnerability affects all servers
+but Microsoft added that domain controllers should be prioritized in
+terms of applying security updates.
+
+    CVE-2021-36942
+    Windows LSA Spoofing Vulnerability
+    https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-36942
+
+    ADV210003
+    Mitigating NTLM Relay Attacks on Active Directory Certificate Services (AD CS)
+    https://msrc.microsoft.com/update-guide/vulnerability/ADV210003
+
+Also, to prevent NTLM Relay Attacks on networks with NTLM enabled,
+Microsoft has provided mitigations for NTLM Relay Attacks. Active
+Directory Certificate Services (AD CS), that is used with either
+"Certificate Authority Web Enrollment" or "Certificate Enrollment Web
+Service" is potentially vulnerable to this attack. Since the
+Proof-of-Concept (PoC) code that perform these attacks has already
+been made public, it is recommended to apply mitigations as soon as
+possible.
+
+    KB5005413: Mitigating NTLM Relay Attacks on Active Directory Certificate Services (AD CS)
+    https://support.microsoft.com/en-us/topic/kb5005413-mitigating-ntlm-relay-attacks-on-active-directory-certificate-services-ad-cs-3612b773-4043-4aa9-b23d-b87910cd3429
+
+
+III. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+IV. References
+    Microsoft Corporation
+    Release Notes
+    https://msrc.microsoft.com/update-guide/releaseNote
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

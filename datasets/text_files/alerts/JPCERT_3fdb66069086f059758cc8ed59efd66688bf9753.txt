@@ -1,0 +1,121 @@
+JPCERT-AT-2007-0023
+                                                             JPCERT/CC
+                             November 30, 2007 (Original release date)
+                                      December 14, 2007 (Last revised)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2007-11-30 &gt;&gt;&gt;
+
+              Zero-day vulnerability in Apple QuickTime
+
+             http://www.jpcert.or.jp/at/2007/at070023.txt
+
+I. Overview
+
+  Apple QuickTime contains a vulnerability in Real Time Streaming
+Protocol (RTSP) processing which remains unpatched. Exploitation of
+this vulnerability could allow a remote attacker to execute arbitrary
+code on the user's computer. Now, multiple exploit payloads have been
+released on the Internet, and attacks using them are expected to
+increase in the future.
+
+  Some exploit codes (programs to prove that the vulnerability is
+exploitable for attacks) released on the Internet affect QuickTime
+running on Windows and Mac OS.
+
+
+II. Systems Affected
+
+  As of November 30, 2007, this vulnerability has been confirmed to
+affect the following products:
+
+  Products Affected
+    - QuickTime version 4.0 to 7.3 running on Windows or Mac OS
+
+  As QuickTime is included as a component of iTunes music management 
+software, computers using iTunes may be affected by the vulnerability
+in QuickTime. In addition, iTunes is preinstalled on Mac OS.
+
+
+III. Solution
+
+  As of November 30, 2007, Apple has not made a formal announcement 
+on this vulnerability. It is recommended to apply the following
+workarounds until updates are released:
+
+    1. Block RTSP traffic using a firewall
+       RTSP traffic uses TCP/554 by default. Block the traffic using
+       a firewall, etc.
+
+    2. Do not open suspicious QuickTime media files
+       Do not open files with an extension of .qtl or .mov associated
+       with QuickTime.
+
+    3. Keep your anti-virus definition file up-to-date
+
+    4. Disable the QuickTime ActiveX controls in Internet Explorer
+       Disable the QuickTime ActiveX controls by referring to the
+       following website:
+      
+       US-CERT Vulnerability Note VU#659761
+       http://www.kb.cert.org/vuls/id/659761
+
+    5. Disable the QuickTime plugin for Mozilla based browser such
+       as Firefox
+       Disable the QuickTime plugin by referring to the following website:
+       
+       mozdev.org - plugindoc: ja-JP/faqs/uninstall
+       http://plugindoc.mozdev.org/ja-JP/faqs/uninstall.html
+
+  If you are not using QuickTime for your business, you should also
+consider uninstalling QuickTime temporarily from your computer used
+for business.
+
+Note: JPCERT/CC confirmed that uninstalling QuickTime disables
+iTunes.
+
+*** Update: Added on December 14, 2007*******************************
+
+    Apple has released updates to address this vulnerability.
+    Users are recommended to upgrade to the latest version of
+    QuickTime.
+
+    Download Link for Apple QuickTime for Windows:
+    http://www.apple.com/jp/quicktime/download/win.html
+
+    Download Link for Apple QuickTime for Macintosh:
+    http://www.apple.com/jp/quicktime/download/mac.html
+
+**********************************************************************
+
+
+IV. Reference Information
+
+    Japan Vulnerability Notes JVNVU#659761
+    Apple QuickTime RTSP Content-Type header stack buffer overflow
+      vulnerability
+    http://jvn.jp/cert/JVNVU%23659761/index.html
+    
+    Apple - QuickTime - Technologies - Streaming
+    http://www.apple.com/quicktime/technologies/streaming/
+
+*** Update: Added on December 14, 2007*******************************
+
+    About the security content of QuickTime 7.3.1
+    http://docs.info.apple.com/article.html?artnum=307176
+
+*********************************************************************
+
+  If you have any information regarding this matter, please contact us.
+
+__________
+
+Revision History
+November 30, 2007  Initial release
+December 14, 2007  Added information on the release of security
+                   updates for this vulnerability
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: 03-3518-4600  FAX: 03-3518-4602
+http://www.jpcert.or.jp/

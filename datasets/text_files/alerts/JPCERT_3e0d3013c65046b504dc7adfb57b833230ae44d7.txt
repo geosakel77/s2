@@ -1,0 +1,198 @@
+JPCERT-AT-2020-0003
+                                                             JPCERT/CC
+                                                    2020-01-17(Initial)
+                                                    2020-01-27(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-01-17 &gt;&gt;&gt;
+
+   Alert Regarding Vulnerability (CVE-2019-19781) in Citrix Products
+
+        https://www.jpcert.or.jp/english/at/2020/at200003.html
+
+
+I. Overview
+JPCERT/CC confirmed that information including Proof-of-Concept code
+about a vulnerability (CVE-2019-19781) in Citrix Application Delivery
+Controller and Citrix Gateway has been made public. A remote attacker
+leveraging this vulnerability may execute arbitrary code.
+
+On January 12, 2020 (local time), Bad Packets released information
+about scanning activities that appeared to be leveraging the vulnerability.
+
+    Bad Packets
+    Over 25,000 Citrix (NetScaler) endpoints vulnerable to CVE-2019-19781
+    https://badpackets.net/over-25000-citrix-netscaler-endpoints-vulnerable-to-cve-2019-19781/
+
+JPCERT/CC has observed traffic which appeared to exploit this
+vulnerability on sensors and has confirmed the attacks that seem to
+exploit this vulnerability have already been conducted in Japan.
+JPCERT/CC notifies organizations that are considered to be using the
+affected products based on the information received from overseas
+organizations. If you are using the affected products, it is
+recommended to take measures as soon as possible.
+
+
+II. Affected Products
+Products affected by these vulnerabilities include:
+
+  - Citrix ADC and Citrix Gateway version 13.0
+  - Citrix ADC and NetScaler Gateway version 12.1
+  - Citrix ADC and NetScaler Gateway version 12.0
+  - Citrix ADC and NetScaler Gateway version 11.1
+  - Citrix NetScaler ADC and NetScaler Gateway version 10.5
+  - Citrix SD-WAN WANOP software and appliance model 4000
+  - Citrix SD-WAN WANOP software and appliance model 4100
+  - Citrix SD-WAN WANOP software and appliance model 5000
+  - Citrix SD-WAN WANOP software and appliance model 5100
+
+
+III. Confirmation of Breach
+The method of confirming whether this vulnerability is exploited is as
+follows.
+
+(1) Check if there is any access to the device from a suspicious IP address
+  - The log of HTTP traffic to the device is recorded in httpaccess.log and httperror.log
+
+(2) Check whether traffic that exploits the vulnerability is recorded in the device log
+  - If the Proof-of-Concept code that exploits this vulnerability is executed, traffic including the following string is recorded in the device.
+
+    /vpns/
+    /vpn/../vpns/cfg/smb.conf
+    /vpn/../vpns/portal/scripts/newbm.pl
+    /vpn/../vpns/portal/backdoor.xml
+    /vpns/portal/scripts/newbm.pl
+
+(3) Check the files under the following directory on the device
+  - If there is a recently created unknown xml file, the file is a malicious file created by an attacker, it is possible that an attack has been already conducted to compromise the device.
+
+    /var/tmp/netscaler/portal/templates
+    /netscaler/portal/templates
+
+(4) Check device processes and cron jobs
+  - Execute commands on the device to check if there is any process or cron job running by the user "nobody".
+  - If this vulnerability is exploited, processes are executed by a user named "nobody". If such processes are running, it is possible that an attack has been already conducted to compromise the device.
+
+** Update: January 24, 2020 Update ***********************************
+Citrix and other several vendors and researchers released information
+and tool, which can be utilised in the investigation, or to search for
+indicators of compromise in the system.
+
+    Citrix
+    Citrix and FireEye Mandiant share forensic tool for CVE-2019-19781
+    https://www.citrix.com/blogs/2020/01/22/citrix-and-fireeye-mandiant-share-forensic-tool-for-cve-2019-19781/
+
+    Citrix
+    Indicator of Compromise Scanner for CVE-2019-19781
+    https://github.com/citrix/ioc-scanner-CVE-2019-19781/
+
+    x1sec
+    Citrix ADC (NetScaler) CVE-2019-19781 DFIR Notes
+    https://github.com/x1sec/CVE-2019-19781/blob/master/CVE-2019-19781-DFIR.md
+
+    InfoSec Handlers Diary Blog
+    Citrix ADC Exploits Update
+    https://isc.sans.edu/diary/rss/25724
+**********************************************************************
+
+
+IV. Solution
+As of January 17, 2020, Citrix has not provided solution for this
+vulnerability. Please consider applying "V. Mitigation" or discontinuing
+the use of the products.
+
+Also, Citrix is planning to provide versions addressing the vulnerability
+on the following dates.
+
+  January 19, 2020 (US Time)
+  - Citrix ADC and NetScaler Gateway version 12.0
+  - Citrix ADC and NetScaler Gateway version 11.1
+
+  January 24, 2020 (US Time)
+  - Citrix NetScaler ADC and NetScaler Gateway version 10.5
+
+** Update: January 20, 2020 Update ***********************************
+We updated the above dates as Citrix had updated the dates for
+the release of versions addressing this vulnerability on January 19,
+2020 (Local Time).
+**********************************************************************
+
+  January 22, 2020 (US Time)
+  - Citrix SD-WAN WANOP software and appliance model 4000
+  - Citrix SD-WAN WANOP software and appliance model 4100
+  - Citrix SD-WAN WANOP software and appliance model 5000
+  - Citrix SD-WAN WANOP software and appliance model 5100
+
+  January 23, 2020 (US Time)
+  - Citrix ADC and Citrix Gateway version 13.0
+  - Citrix ADC and NetScaler Gateway version 12.1
+
+** Update: January 24, 2020 Update ***********************************
+We updated the above dates as Citrix had updated the dates for
+the release of versions addressing this vulnerability for SD-WAN WANOP
+software and appliance, and Citrix ADC and Citrix Gateway / NetScaler
+Gateway on January 22 and 23, 2020 (Local Time).
+**********************************************************************
+
+** Update: January 27, 2020 Update ***********************************
+On January 24 (Local Time), Citrix released the version 10.5 of Citrix
+NetScaler ADC and NetScaler Gateway that addresses this vulnerability.
+Since attacks leveraging the vulnerability are still being observed,
+we would recommend to apply solution and check whether system has been
+compromised as soon as possible.
+**********************************************************************
+
+
+V. Mitigation
+Please consider to apply the following mitigation.
+
+  - Restrict unnecessary traffic by firewall, etc
+  - Apply workarounds provided by Citrix
+
+    Citrix Systems
+    Mitigation Steps for CVE-2019-19781
+    https://support.citrix.com/article/CTX267679
+
+* According to Citrix information, Citrix ADC version 12.1 builds 51.16,
+51.19 and builds prior to 50.31 have bugs and mitigation settings are
+not applied. It is recommended to update to a build that is not affected
+by this bug in order to properly apply the mitigation.
+
+** Update: January 19, 2020 Update ***********************************
+On January 17, 2020 (Local Time), Citrix updated the information
+as follows.
+
+In Citrix ADC and Citrix Gateway Release "12.1 build 50.28", an issue
+exists and the workarounds provided will not work. Citrix recommends
+that customers choose one from the following two options for the
+mitigation steps to function as intended:
+
+  - Update to the refreshed "12.1 build 50.28/50.31" or later
+  - Apply the mitigation steps towards protecting the management interface as published in CTX267679
+**********************************************************************
+
+
+VI. References
+    Citrix Systems
+    CVE-2019-19781 - Vulnerability in Citrix Application Delivery Controller, Citrix Gateway, and Citrix SD-WAN WANOP appliance
+    https://support.citrix.com/article/CTX267027
+
+    Japan Vulnerability Notes JVNVU#92281641
+    Arbitrary Code Execution Vulnerability in Citrix Application Delivery Controller and Citrix Gateway (CVE-2019-19781) (JAPANESE)
+    https://jvn.jp/vu/JVNVU92281641/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2020-01-17 First edition
+2020-01-19 Updated "V. Mitigation"
+2020-01-20 Updated "IV. Solution"
+2020-01-24 Updated "III. Confirmation of Breach" and "IV. Solution"
+2020-01-27 Updated "IV. Solution"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+TEL: +81-3-6811-0610  MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

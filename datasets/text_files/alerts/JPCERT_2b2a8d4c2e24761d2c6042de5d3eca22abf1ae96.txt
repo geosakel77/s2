@@ -1,0 +1,79 @@
+JPCERT-AT-2009-0019
+                                                             JPCERT/CC
+                                                            2009-09-09
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2009-09-09 &gt;&gt;&gt;
+
+            Multiple vulnerabilities exist in wide range of
+                      TCP stack implementations
+
+         https://www.jpcert.or.jp/english/at/2009/at090019.txt
+
+
+I. Overview
+
+  Multiple vendors' TCP protocol stack implementations are vulnerable
+to packets transmitted with manipulated contents such as TCP window
+sizes.  An attacker using such techniques may be able to cause a
+denial of service condition on a targeted system.
+
+  As of 9 September 2009, JPCERT/CC has not observed the exploitation
+of these vulnerabilities in the wild.  However, tools making use of
+this vulnerability have already been made public.  For this reason,
+special measures should be taken to apply updates to vulnerable
+systems or take alternative countermeasures, particularly for those
+systems which are externally facing.
+
+II. Products affected
+
+  Multiple networking devices and operating systems are affected by
+this vulnerability.  Several vendors such as Cisco, Microsoft and
+Redhat have already provided information to their customers concerning
+this issue.  It is expected that the number of products similarly
+affected will increase.
+
+  For more detailed information, please consult the following
+references.  For systems and products not listed below, please consult
+the manufacturer directly.
+
+  Check Point response to Sockstress TCP DoS attacks (CVE-2008-4609)
+  https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&amp;solutionid=sk42723
+
+  Cisco Security Advisory
+  TCP State Manipulation Denial of Service Vulnerabilities in Multiple Cisco Products
+  http://www.cisco.com/warp/public/707/cisco-sa-20090908-tcp24.shtml
+
+  Microsoft Security Bulletin MS09-048 - Critical
+  Vulnerabilities in Windows TCP/IP Could Allow Remote Code Execution (967723)
+  http://www.microsoft.com/japan/technet/security/bulletin/ms09-048.mspx
+
+  Red Hat Knowledgebase
+  Does CVE-2008-4609 affect Red Hat Enterprise Linux?
+  http://kbase.redhat.com/faq/docs/DOC-18730
+
+
+III. Solution
+
+  It is recommended that affected sites apply vendor supplied patches.
+Please consult CERT-FI's original advisory as well as vendor-provided
+information for more details.
+
+  If patches are not available or installing patches in the short term
+is difficult, please consider using packet filtering or firewalls to
+block suspicious connections potentially exploiting this vulnerability
+against your systems.  Please consult Red Hat's Knowledgebase article
+for an example of how this may be done.
+
+IV. References
+
+  CERT-FI - CERT-FI Advisory on the Outpost24 TCP Issues
+  https://www.cert.fi/haavoittuvuudet/2008/tcp-vulnerabilities.html
+
+If you have any further questions or information regarding this alert,
+please contact JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

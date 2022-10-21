@@ -1,0 +1,63 @@
+JPCERT-AT-2021-0048
+                                                             JPCERT/CC
+                                                            2021-11-10
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-11-10 &gt;&gt;&gt;
+
+          Microsoft Releases November 2021 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2021/at210048.html
+
+
+I. Overview
+Microsoft has released November 2021 Security Updates to address the
+vulnerabilities in their products. Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code. It is
+recommended to check the information provided by Microsoft and
+apply the updates.
+
+    Microsoft Corporation
+    November 2021 Security Updates
+    https://msrc.microsoft.com/update-guide/en-us/releaseNote/2021-Nov
+
+    Microsoft Corporation
+    Microsoft Security Updates for November 2021 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2021/11/09/202111-security-updates/
+
+According to Microsoft, among these vulnerabilities, the following two
+vulnerabilities have been confirmed to be exploited in the wild. Please
+consider applying the security update programs as soon as possible.
+
+    CVE-2021-42292
+    Microsoft Excel Security Feature Bypass Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2021-42292
+
+    CVE-2021-42321
+    Microsoft Exchange Server Remote Code Execution Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2021-42321
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    Release Notes
+    https://msrc.microsoft.com/update-guide/releaseNote
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

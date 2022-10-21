@@ -1,0 +1,107 @@
+JPCERT-AT-2016-0049
+                                                             JPCERT/CC
+                                                            2016-12-14
+                                                     
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-12-14 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for December 2016
+                 (including 6 critical patches)
+
+      https://www.jpcert.or.jp/english/at/2016/at160049.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for December 2016.
+This bulletin contains six (6) updates that are rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for December 2016
+    https://technet.microsoft.com/en-us/library/security/ms16-Dec
+
+  [Security updates rated as "critical"]
+
+    MS16-144
+    Cumulative Security Update for Internet Explorer (3204059)
+    https://technet.microsoft.com/en-us/library/security/MS16-144
+
+    MS16-145
+    Cumulative Security Update for Microsoft Edge (3204062)
+    https://technet.microsoft.com/en-us/library/security/MS16-145
+
+    MS16-146
+    Security Update for Microsoft Graphics Component (3204066)
+    https://technet.microsoft.com/en-us/library/security/MS16-146
+
+    MS16-147
+    Security Update for Microsoft Uniscribe(3204063)
+    https://technet.microsoft.com/en-us/library/security/MS16-147
+
+    MS16-148
+    Security Update for Microsoft Office(3204068)
+    https://technet.microsoft.com/en-us/library/security/MS16-148
+
+    MS16-154
+    Security Update for Adobe Flash Player(3209498)
+    https://technet.microsoft.com/en-us/library/security/MS16-154
+
+  According to Microsoft, Security Bulletin MS16-154 (Critical) 
+addresses the vulnerabilities which are described in Adobe Security
+Bulletin APSB16-39. According to Adobe Systems, Adobe is aware of a
+report that an exploit for CVE-2016-7892 exists in the wild, and is
+being used in limited, targeted attacks against users running Internet
+Explorer (32-bit) on Windows. JPCERT/CC has observed attacks leveraging
+this vulnerability (CVE-2016-7892).
+
+  Please apply the security update programs as soon as possible.
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+    Microsoft Update Catalog
+    https://catalog.update.microsoft.com/
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for December 2016
+    https://technet.microsoft.com/en-us/library/security/ms16-Dec
+
+    Microsoft
+    Microsoft Security Information for December 2016 (Monthly) MS16-144 - MS16-155 (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2016/12/14/201612-security-bulletin/
+
+    Adobe Systems
+    Security updates available for Adobe Flash Player
+    https://helpx.adobe.com/security/products/flash-player/apsb16-39.html
+
+    JPCERT/CC
+    Vulnerabilities in Adobe Flash Player (APSB16-39)
+    https://www.jpcert.or.jp/english/at/2016/at160048.html
+
+    JVNVU#90937983
+    Use-after-free vulnerability in Adobe Flash Player (Japanese)
+    https://jvn.jp/vu/JVNVU90937983/
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

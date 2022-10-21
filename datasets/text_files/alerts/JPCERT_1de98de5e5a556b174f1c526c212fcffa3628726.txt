@@ -1,0 +1,95 @@
+JPCERT-AT-2019-0046
+                                                             JPCERT/CC
+                                                            2019-12-11
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-12-11 &gt;&gt;&gt;
+
+         Microsoft Releases December 2019 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2019/at190046.html
+
+
+I. Overview
+Microsoft has released December 2019 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    December 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2019-Dec
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    CVE-2019-1349
+    Git for Visual Studio Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1349
+    - KB number is not assigned
+
+    CVE-2019-1350
+    Git for Visual Studio Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1350
+    - KB number is not assigned
+
+    CVE-2019-1352
+    Git for Visual Studio Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1352
+    - KB number is not assigned
+
+    CVE-2019-1354
+    Git for Visual Studio Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1354
+    - KB number is not assigned
+
+    CVE-2019-1387
+    Git for Visual Studio Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1387
+    - KB number is not assigned
+
+    CVE-2019-1468
+    Win32k Graphics Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1468
+    - KB4530681, KB4530684, KB4530689, KB4530691, KB4530692, KB4530695
+      KB4530698, KB4530702, KB4530714, KB4530715, KB4530717, KB4530719
+      KB4530730, KB4530734
+
+    CVE-2019-1471
+    Windows Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2019-1471
+    - KB4530684, KB4530715, KB4530717
+
+According to Microsoft, attacks leveraging the vulnerability
+CVE-2019-1458 (Important) have been observed in the wild. Please apply
+the security update programs as soon as possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation 
+    December 2019 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2019-Dec
+
+    Microsoft Corporation
+    Microsoft Security Updates for December 2019 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2019/12/10/201912-security-updates/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: ew-info@jpcert.or.jp
+TEL: +81-3-6811-0610 FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

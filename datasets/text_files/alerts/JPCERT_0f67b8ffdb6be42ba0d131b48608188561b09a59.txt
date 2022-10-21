@@ -1,0 +1,104 @@
+JPCERT-AT-2022-0025
+                                                             JPCERT/CC
+                                                    2022-10-11(Initial)
+                                                    2022-10-14(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2022-10-11 &gt;&gt;&gt;
+
+Alert Regarding Authentication Bypass Vulnerability (CVE-2022-40684) in FortiOS, FortiProxy and FortiSwitchManager
+
+       https://www.jpcert.or.jp/english/at/2022/at220025.html
+
+
+I. Overview
+On October 10, 2022 (local time), Fortinet released an advisory
+(FG-IR-22-377) regarding the authentication bypass vulnerability on
+administrative interface (CVE-2022-40684) in FortiOS, FortiProxy and
+FortiSwitchManager. An unauthenticated, remote attacker exploiting
+the vulnerability may perform operations on the administrative interface
+via specially crafted HTTP or HTTPS requests.
+
+    Fortinet
+    FortiOS / FortiProxy / FortiSwitchManager - Authentication bypass on administrative interface (FG-IR-22-377)
+    https://www.fortiguard.com/psirt/FG-IR-22-377
+
+Fortinet is aware of an instance where this vulnerability was exploited.
+The users of the affected products are recommended to take actions such
+as applying updates or workarounds, along with the device log check as
+soon as possible, by referring to the information provided by Fortinet.
+
+
+II. Affected Software
+The following products and versions are affected by this vulnerability.
+
+  - FortiOS version 7.2.0 through 7.2.1
+  - FortiOS version 7.0.0 through 7.0.6
+  - FortiProxy version 7.2.0
+  - FortiProxy version 7.0.0 through 7.0.6
+  - FortiSwitchManager version 7.2.0
+  - FortiSwitchManager version 7.0.0
+
+
+III. Solution
+Fortinet has provided versions that addressed the vulnerability.
+Please consider updating to the versions by referring to the information
+provided by Fortinet.
+
+  - FortiOS version 7.2.2 or above
+  - FortiOS version 7.0.7 or above
+  - FortiProxy version 7.2.1 or above
+  - FortiProxy version 7.0.7 or above
+  - FortiSwitchManager version 7.2.1 or above
+
+
+IV. Workarounds
+Fortinet has provided information on workarounds as follows to reduce the
+impact of the vulnerability. For details, please check the information
+provided by Fortinet.
+
+  - Disable HTTP/HTTPS administrative interface OR
+  - Limit IP addresses that can reach the administrative interface
+
+
+V. Related information
+Fortinet is aware of an instance where this vulnerability was exploited,
+and recommends the users of the affected products to validate the system
+by checking the device's log. 
+
+In addition, Horizon3.ai, which analyzed the patch that had fixed this
+vulnerability, tweeted that it is planning to release a blog and
+Proof-of-Concept (PoC) code regarding this vulnerability later this week.
+
+    Twitter
+    Horizon3 Attack Team@Horizon3Attack
+    https://twitter.com/Horizon3Attack/status/1579285863108087810
+
+** Update: October 14, 2022 Update **********************************
+On October 13, 2022 (local time), an article explaining the details
+of the vulnerability and a proof-of-concept code were published. It
+explains how to exploit the vulnerability and add SSH public key
+to authenticate as the admin user. Since attacks that exploit this
+vulnerability may increase in the future, it is recommended to check
+the information provided by Fortinet, and apply countermeasures or
+workarounds, and conduct an investigation as soon as possible.
+*********************************************************************
+
+
+VI. References
+    Fortinet
+    FortiOS / FortiProxy / FortiSwitchManager - Authentication bypass on administrative interface (FG-IR-22-377)
+    https://www.fortiguard.com/psirt/FG-IR-22-377
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2022-10-11 First edition
+2022-10-14 Updated "V. Related information"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

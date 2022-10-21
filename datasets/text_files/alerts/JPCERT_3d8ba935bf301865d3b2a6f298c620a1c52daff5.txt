@@ -1,0 +1,94 @@
+JPCERT-AT-2014-0042
+                                                             JPCERT/CC
+                                                   2014-10-21(Initial)
+                                                    2014-10-22(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2014-10-21 &gt;&gt;&gt;
+
+                       Vulnerability in Drupal
+
+          https://www.jpcert.or.jp/english/at/2014/at140042.html
+
+
+I. Overview
+
+  Drupal contains a SQL injection vulnerability. A remote attacker
+leveraging this vulnerability may executed arbitrary SQL commands.
+As a result, Web sites may be compromised where a vulnerable version
+of Drupal is running, as well as administrative accounts may be
+created.
+
+  JPCERT/CC tested the vulnerability and verified that arbitrary PHP code
+was executed with the privileges of the Web server after logging into
+a Drupal administrative account that was created by leveraging this
+vulnerability and changing module settings.
+
+  For details on the vulnerability, refer to the information provided by
+Drupal.
+
+    Drupal
+    SA-CORE-2014-005 - Drupal core - SQL injection
+    https://www.drupal.org/SA-CORE-2014-005
+
+
+II. Affected Versions
+
+  The following versions are affected by this vulnerability.
+
+  - Drupal versions 7.31 and earlier
+
+  * Drupal versions 6.x are not affected.
+
+
+III. Solution
+
+  Drupal has released a version of Drupal that addresses this vulnerability.
+It is recommended to update to this version after thorough testing.
+
+  The following version has addressed the vulnerability.
+
+  - Drupal 7.32
+
+** Update: 10/22/2014 Update *****************************************
+  Drupal has released a patch as a temporary workaround. If there is
+difficulty in updating to the fixed version, please consider applying
+this patch.
+
+  Drupal
+  https://www.drupal.org/files/issues/SA-CORE-2014-005-D7.patch
+
+**********************************************************************
+
+
+IV. References
+
+    Drupal Japan
+    Drupal 7.32 released, with a critical vulnerability addressed
+    http://drupal.jp/node/706
+
+    Drupal
+    Drupal 7.32 released
+    https://www.drupal.org/drupal-7.32
+
+** Update: 10/22/2014 Update ****************************************
+    Drupal
+    SA-CORE-2014-005 - Drupal core - SQL injection
+    https://www.drupal.org/SA-CORE-2014-005
+
+    Drupal
+    SA-CORE-2014-005-D7.patch
+    https://www.drupal.org/files/issues/SA-CORE-2014-005-D7.patch
+
+*********************************************************************
+
+--------------
+
+Revision History
+2014-10-21 First Edition
+2014-10-22 Updated "Solution" and "References"
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

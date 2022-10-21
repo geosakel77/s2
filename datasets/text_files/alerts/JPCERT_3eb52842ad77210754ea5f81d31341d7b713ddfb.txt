@@ -1,0 +1,76 @@
+JPCERT-AT-2021-0020
+                                                             JPCERT/CC
+                                                            2021-04-21
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-04-21 &gt;&gt;&gt;
+
+Alert Regarding Vulnerability in Trend Micro Apex One, Apex One as a Service and OfficeScan (CVE-2020-24557)
+
+       https://www.jpcert.or.jp/english/at/2021/at210020.html
+
+
+I. Overview
+On April 21, 2021, Trend Micro has released the information regarding
+vulnerability (CVE-2020-24557) in Trend Micro products such as Apex One,
+Apex One as a Service and OfficeScan. According to Trend Micro, the
+vulnerability is already exploited in the wild. 
+
+    Trend Micro Incorporated
+    [Alert] Apply the latest Critical Patches; An attack was observed exploiting the already-fixed vulnerability (CVE-2020-24557) in Trend Micro Apex One, Apex One as a Service and OfficeScan (page texts in Japanese)
+    https://appweb.trendmicro.com/SupportNews/NewsDetail.aspx?id=4126
+
+If the vulnerability is exploited, an attacker may disable security
+features, exploit certain Windows features or escalate privilege.
+
+    Trend Micro Incorporated
+    SECURITY BULLETIN:  August 2020 Security Bulletin for Trend Micro Apex One, Apex One as a Service and OfficeScan XG SP1
+    https://success.trendmicro.com/solution/000263632
+
+Since the vulnerability is already being exploited in the wild, the
+users of the affected products are recommended to update the affected
+system to the latest version as soon as possible. Please refer to the
+information provided by Trend Micro.
+
+
+II. Affected Products
+Affected products and versions are as follows:
+
+  - Trend Micro Apex One 2019 prior to Build 8422
+  - Trend Micro Apex One as a Service prior to Build 202008
+  - OfficeScan prior to XG SP1 Build 5702
+
+
+III. Solution
+Trend Micro has released patches that address the vulnerability.
+It is recommended to apply the patch as soon as possible.
+
+  - Trend Micro Apex One 2019 Critical Patch (Build later than 8422)
+    * The latest build as of April 21, 2021 is 9204
+  - OfficeScan XG SP1 Critical Patch (Build later than 5702)
+    * The latest build as of April 21, 2021 is 6046
+
+According to Trend Micro, the vulnerability in Trend Micro Apex One
+as a Service has been resolved by the maintenance in August 2020.
+
+
+IV. References
+    Trend Micro Incorporated
+    [Alert] Apply the latest Critical Patches; An attack was observed exploiting the already-fixed vulnerability (CVE-2020-24557) in Trend Micro Apex One, Apex One as a Service and OfficeScan (page texts in Japanese)
+    https://appweb.trendmicro.com/SupportNews/NewsDetail.aspx?id=4126
+
+    Trend Micro Incorporated
+    SECURITY BULLETIN:  August 2020 Security Bulletin for Trend Micro Apex One, Apex One as a Service and OfficeScan XG SP1
+    https://success.trendmicro.com/solution/000263632
+
+    Japan Vulnerability Notes JVNVU#93491927
+    Multiple vulnerabilities in Apex One, Apex One as a Service and OfficeScan
+    https://jvn.jp/en/vu/JVNVU93491927/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

@@ -1,0 +1,92 @@
+JPCERT-AT-2019-0041
+                                                             JPCERT/CC
+                                                            2019-10-28
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2019-10-28 &gt;&gt;&gt;
+
+Alert Regarding Vulnerability (CVE-2019-18187) in Trend Micro Product
+
+       https://www.jpcert.or.jp/english/at/2019/at190041.html
+
+
+I. Overview
+JPCERT/CC confirmed the information that the vulnerability (CVE-2019-18187)
+in Trend Micro product such as Virus Buster Corporate Edition
+is exploited in the wild. Trend Micro has released alerts regarding
+this vulnerability.
+
+    Trend Micro Incorporated
+    Request to Apply the Latest Fixed Patch Regarding Attack Exploiting Vulnerability (CVE-2019-18187) in Virus Buster Corporate Edition (Japanese)
+    https://appweb.trendmicro.com/SupportNews/NewsDetail.aspx?id=3592
+
+If the vulnerability (CVE-2019-18187) is exploited, an attacker may
+execute arbitrary code with the privilege of the web service account
+that is used for the administrative console of the product.
+
+    Trend Micro Incorporated
+    Regarding Directory Traversal Vulnerability which Allows Arbitrary File Upload in Virus Buster Corporate Edition (Japanese)
+    https://success.trendmicro.com/jp/solution/000151167
+
+Since the vulnerability is already being exploited in the wild, if you
+are using the affected products, it is recommended to update the
+affected system to the latest version as soon as possible. Please refer
+to the information provided by Trend Micro.
+
+
+II. Affected Products
+Affected product and version are as follows:
+
+  - Virus Buster Corporate Edition XG SP1, XG and 11.0 SP1
+
+Please also refer to the additional information for the affected products
+and versions for this vulnerability as product name may differ in Japan
+and other countries.
+
+    Trend Micro Incorporated
+    SECURITY BULLETIN: Trend Micro OfficeScan Arbitrary File Upload with Directory Traversal Vulnerability
+    https://success.trendmicro.com/solution/000151730
+
+    JVNVU#96213168
+    Trend Micro OfficeScan vulnerable to directory traversal
+    https://jvn.jp/en/vu/JVNVU96213168
+
+
+III. Solution
+Trend Micro has released a patch that addresses this vulnerability.
+It is recommended to apply the patch as soon as possible.
+
+  - Virus Buster Corporate Edition XG Service Pack 1, Critical Patch (Build 5427)
+  - Virus Buster Corporate Edition XG Patch 1, Critical Patch 1 (Build 1962)
+  - Virus Buster Corporate Edition 11.0 Service Pack 1, Critical Patch (Build 6638)
+
+
+IV. References
+    Trend Micro Incorporated
+    Request to Apply the Latest Fixed Patch Regarding Attack Exploiting Vulnerability (CVE-2019-18187) in Virus Buster Corporate Edition (Japanese)
+    https://appweb.trendmicro.com/SupportNews/NewsDetail.aspx?id=3592
+
+    Trend Micro Incorporated
+    Regarding Directory Traversal Vulnerability which Allows Arbitrary File Upload in Virus Buster Corporate Edition (Japanese)
+    https://success.trendmicro.com/jp/solution/000151167
+
+    JVNVU#96213168
+    Trend Micro Virus Buster Corporate Edition vulnerable to directory traversal (Japanese)
+    https://jvn.jp/vu/JVNVU96213168
+
+    Trend Micro Incorporated
+    SECURITY BULLETIN: Trend Micro OfficeScan Arbitrary File Upload with Directory Traversal Vulnerability
+    https://success.trendmicro.com/solution/000151730
+
+    JVNVU#96213168
+    Trend Micro OfficeScan vulnerable to directory traversal
+    https://jvn.jp/en/vu/JVNVU96213168
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: ew-info@jpcert.or.jp
+TEL: +81-3-6271-8901 FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

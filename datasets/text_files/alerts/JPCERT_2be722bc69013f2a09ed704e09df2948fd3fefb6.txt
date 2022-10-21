@@ -1,0 +1,87 @@
+JPCERT-AT-2020-0044
+                                                             JPCERT/CC
+                                                    2020-12-02(Initial)
+                                                    2020-12-11(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-12-02 &gt;&gt;&gt;
+
+        Alert Regarding File Data Transfer Appliance FileZen
+
+       https://www.jpcert.or.jp/english/at/2020/at200044.html
+
+
+I. Overview
+On December 2, 2020, Soliton Systems released information regarding
+update on the file data transfer appliance FileZen. Soliton Systems is
+recommending users of V4.2.2 and earlier versions of FileZen to update
+to the latest version as soon as possible. For more inforamation, please
+refer to the following URL.
+
+    Soliton Systems
+    [Important] Request of update to the latest version of FileZen (V4.2.2 and earlier)(Japanese)
+    https://www.soliton.co.jp/support/2020/004274.html
+
+** Update: December 11, 2020 Update **********************************
+On December 10, 2020, Soliton Systems released the detail information
+regarding this vulnerability.
+
+    Soliton Systems
+    [Important] FileZen directory traversal vulnerability (Japanese)
+    https://www.soliton.co.jp/support/2020/004278.html
+
+FileZen contains a directory traversal vulnerability (CVE-2020-5639).
+A remote attacker leveraging this vulnerability may upload
+a crafted file in the specific directory in the product, then it may
+lead to an arbitrary OS command execution.
+**********************************************************************
+
+
+II. Affected Products and Versions
+The following products and versions are affected.
+
+  - FileZen V4.2.2 and earlier
+
+** Update: December 11, 2020 Update **********************************
+We updated the affected versions as Soliton Systems had updated their
+advisory.
+
+  - FileZen V3.0.0 to V4.2.2
+**********************************************************************
+
+
+III. Solution
+Please update FileZen to the latest version provided by Soliton Systems.
+
+
+IV. References
+    Soliton Systems
+    [Important] Request of update to the latest version of FileZen (V4.2.2 and earlier) (Japanese)
+    https://www.soliton.co.jp/support/2020/004274.html
+
+    Soliton Systems
+    FileZen update pack/manual (Japanese)
+    https://www.soliton.co.jp/support/soliton/hardware/filezen/#updatepack
+
+** Update: December 11, 2020 Update **********************************
+    Soliton Systems
+    [Important] FileZen directory traversal vulnerability (Japanese)
+    https://www.soliton.co.jp/support/2020/004278.html
+
+    Japan Vulnerability Notes JVN#12884935
+    FileZen vulnerable to directory traversal
+    https://jvn.jp/en/jp/JVN12884935/
+**********************************************************************
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2020-12-02 First edition
+2020-12-11 Updated "I. Overview", "II. Affected Products and Versions" and "IV. References"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

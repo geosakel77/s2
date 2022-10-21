@@ -1,0 +1,85 @@
+JPCERT-AT-2021-0008
+                                                             JPCERT/CC
+                                                            2021-02-10
+
+                 &lt;&lt;&lt; JPCERT/CC Alert 2021-02-10 &gt;&gt;&gt;
+
+         Microsoft Releases February 2021 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2021/at210008.html
+
+
+I. Overview
+Microsoft has released February 2021 Security Updates to address the
+vulnerabilities in their products. Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code. It is
+recommended to check the information provided by Microsoft and
+apply the updates.
+
+The format of this Microsoft Security Updates alert has changed
+starting this month. As for the details of the vulnerabilities
+addressed in these updates, please check the Microsoft Release Note.
+
+    Microsoft Corporation
+    February 2021 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2021-Feb
+
+    Microsoft Corporation
+    Release Notes
+    https://msrc.microsoft.com/update-guide/releaseNote
+
+According to Microsoft, the vulnerability CVE-2021-1732 (Important)
+has been confirmed to be exploited in the wild. Please consider
+applying the security update programs as soon as possible.
+
+In addition, this month's Microsoft Security Update includes remote
+code execution vulnerabilities in Windows TCP/IP (CVE-2021-24074,
+CVE-2021-24094) and denial of service vulnerability in Windows TCP/IP
+(CVE-2021-24086). Microsoft recommends to apply the security update
+as soon as possible, as these vulnerabilities could be exploited
+DoS attacks shortly after release.
+
+As for the privilege escalation vulnerability in Netlogon
+(CVE-2020-1472) which was released in August 2020, forced mode will
+be enabled by applying this month's update to the Windows domain
+controller. Since this vulnerability has already been exploited in
+the wild, it is recommended to apply countermeasures as soon as
+possible.
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    February 2021 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2021-Feb
+
+    Microsoft Corporation
+    Windows Win32k Elevation of Privilege Vulnerability
+    https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2021-1732
+
+    Microsoft Corporation
+    Multiple Security Updates Affecting TCP/IP: CVE-2021-24074, CVE-2021-24094, and CVE-2021-24086
+    https://msrc-blog.microsoft.com/2021/02/09/multiple-security-updates-affecting-tcp-ip/
+
+    Microsoft Corporation
+    [For AD Administrators] CVE-2020-1472 Netlogon Response Guidance Summary (Japanese)
+    https://msrc-blog.microsoft.com/2020/09/14/20200915_netlogon/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

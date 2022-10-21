@@ -1,0 +1,109 @@
+JPCERT-AT-2018-0030
+                                                             JPCERT/CC
+                                                            2018-07-23
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-07-23 &gt;&gt;&gt;
+
+      Alert Regarding Multiple Vulnerabilities in Apache Tomcat
+
+        https://www.jpcert.or.jp/english/at/2018/at170030.html
+
+
+I. Overview
+On July 22, 2018 (US time), the Apache Software Foundation released
+information on vulnerabilities (CVE-2018-1336, CVE-2018-8034 and
+CVE-2018-8037) in Apache Tomcat. In the vulnerability CVE-2018-1336,
+an improper handing of overflow in the UTF-8 decoder with
+supplementary characters can lead to an infinite loop in the decoder
+causing a Denial of Service.
+
+For details on these vulnerabilities, please refer to the information
+provided by the Apache Software Foundation.
+
+    Apache Software Foundation
+    CVE-2018-1336 Apache Tomcat - Denial of Service
+    https://mail-archives.apache.org/mod_mbox/www-announce/201807.mbox/%3C20180722090435.GA60759@minotaur.apache.org%3E
+
+    Apache Software Foundation
+    CVE-2018-8034 Apache Tomcat - Security Constraint Bypass
+    https://mail-archives.apache.org/mod_mbox/www-announce/201807.mbox/%3C20180722091057.GA70283@minotaur.apache.org%3E
+
+    Apache Software Foundation
+    CVE-2018-8037 Apache Tomcat - Information Disclosure
+    https://mail-archives.apache.org/mod_mbox/www-announce/201807.mbox/%3C20180722090623.GA92700@minotaur.apache.org%3E
+
+The Apache Software Foundation has assigned a "Important" rating to
+the vulnerability CVE-2018-1336 and CVE-2018-8037, and a "Low" rating
+to the vulnerability CVE-2018-8034. Please update the software as soon
+as possible by referring to the information provided in "III. Solution".
+
+
+II. Affected Products
+Following versions of Apache Tomcat are affected by these vulnerabilities.
+
+    - CVE-2018-1336
+      - Apache Tomcat 9.0.0.M9 to 9.0.7
+      - Apache Tomcat 8.5.0 to 8.5.30
+      - Apache Tomcat 8.0.0.RC1 to 8.0.51
+      - Apache Tomcat 7.0.28 to 7.0.86
+
+    - CVE-2018-8034
+      - Apache Tomcat 9.0.0.M1 to 9.0.9
+      - Apache Tomcat 8.5.0 to 8.5.31
+      - Apache Tomcat 8.0.0.RC1 to 8.0.52
+      - Apache Tomcat 7.0.35 to 7.0.88
+
+    - CVE-2018-8037
+      - Apache Tomcat 9.0.0.M9 to 9.0.9
+      - Apache Tomcat 8.5.5 to 8.5.31
+
+
+III. Solution
+The Apache Software Foundation has released a version of Apache Tomcat
+that addresses these vulnerabilities. Please consider applying the
+latest version as soon as possible.
+
+    - Apache Tomcat 9.0.10
+    - Apache Tomcat 8.5.32
+    - Apache Tomcat 8.0.53
+    - Apache Tomcat 7.0.90
+
+
+IV. References
+    Apache Software Foundation
+    Fixed in Apache Tomcat 9.0.10
+    https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.10
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 8.5.32
+    https://tomcat.apache.org/security-8.html#Fixed_in_Apache_Tomcat_8.5.32
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 8.0.53
+    https://tomcat.apache.org/security-8.html#Fixed_in_Apache_Tomcat_8.0.53
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 7.0.90
+    https://tomcat.apache.org/security-7.html#Fixed_in_Apache_Tomcat_7.0.90
+
+    Apache Software Foundation
+    CVE-2018-1336 Apache Tomcat - Denial of Service
+    https://mail-archives.apache.org/mod_mbox/www-announce/201807.mbox/%3C20180722090435.GA60759@minotaur.apache.org%3E
+
+    Apache Software Foundation
+    CVE-2018-8034 Apache Tomcat - Security Constraint Bypass
+    https://mail-archives.apache.org/mod_mbox/www-announce/201807.mbox/%3C20180722091057.GA70283@minotaur.apache.org%3E
+
+    Apache Software Foundation
+    CVE-2018-8037 Apache Tomcat - Information Disclosure
+    https://mail-archives.apache.org/mod_mbox/www-announce/201807.mbox/%3C20180722090623.GA92700@minotaur.apache.org%3E
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

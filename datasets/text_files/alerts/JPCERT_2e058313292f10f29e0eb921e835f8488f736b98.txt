@@ -1,0 +1,138 @@
+JPCERT-AT-2020-0038
+                                                             JPCERT/CC
+                                                            2020-10-14
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-10-14 &gt;&gt;&gt;
+
+          Microsoft Releases October 2020 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2020/at200038.html
+
+
+I. Overview
+Microsoft has released October 2020 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    October 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Oct
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+* If the same vulnerability spans multiple KBs, listing up each
+
+    CVE-2020-16891
+    Windows Hyper-V Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-16891
+    - KB4577668, KB4577671, KB4579311, KB4580327, KB4580328, KB4580330
+      KB4580345, KB4580346, KB4580347, KB4580353, KB4580358, KB4580378
+      KB4580382, KB4580385, KB4580387
+
+    CVE-2020-16898
+    Windows TCP/IP Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-16898
+    - KB4577668, KB4577671, KB4579311, KB4580328, KB4580330
+
+    CVE-2020-16911
+    GDI+ Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-16911
+    - KB4577668, KB4577671, KB4579311, KB4580327, KB4580328, KB4580330
+      KB4580346, KB4580347, KB4580353, KB4580358, KB4580382
+
+    CVE-2020-16915
+    Media Foundation Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-16915
+    - KB4577668, KB4577671, KB4579311, KB4580328, KB4580330, KB4580346
+
+    CVE-2020-16923
+    Microsoft Graphics Components Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-16923
+    - KB4577668, KB4577671, KB4579311, KB4580327, KB4580328, KB4580330
+      KB4580345, KB4580346, KB4580347, KB4580353, KB4580358, KB4580378
+      KB4580382, KB4580385, KB4580387
+
+    CVE-2020-16947
+    Microsoft Outlook Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-16947
+    - KB4486671
+
+    CVE-2020-16951
+    Microsoft SharePoint Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-16951
+    - KB4486676, KB4486677, KB4486694
+
+    CVE-2020-16952
+    Microsoft SharePoint Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-16952
+    - KB4486676, KB4486677, KB4486694
+
+    CVE-2020-16967
+    Windows Camera Codec Pack Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-16967
+    - KB4577668, KB4577671, KB4579311, KB4580327, KB4580328, KB4580330
+      KB4580346
+
+    CVE-2020-16968
+    Windows Camera Codec Pack Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-16968
+    - KB4577668, KB4577671, KB4579311, KB4580327, KB4580328, KB4580330
+      KB4580346
+
+    CVE-2020-17003
+    Base3D Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-17003
+    - KB number is not assigned
+
+As of October 13, 2020 (US time), support for Office 2010 and Office
+2016 for Mac has ended. Microsoft will no longer provide technical
+support, bug fixes, or security fixes for products that are no longer
+supported. Users of these products are recommended to take actions
+such as upgrading.
+
+    Microsoft Corporation
+    Office 2010 Support has been ended on October 13 2020 (JAPANESE)
+    https://www.microsoft.com/ja-jp/atlife/article-office2010-eos.aspx
+
+    Microsoft Corporation
+    Office versions and connectivity to Office 365 services
+    https://docs.microsoft.com/en-us/deployoffice/endofsupport/office-365-services-connectivity
+
+    Microsoft Corporation
+    End of support for Office 2016 for Mac
+    https://support.microsoft.com/en-us/office/end-of-support-for-office-2016-for-mac-e944a907-bbc8-4be5-918d-a514068d0056
+    
+    Microsoft Corporation
+    Exchange 2010 end of support roadmap
+    https://docs.microsoft.com/en-us/microsoft-365/enterprise/exchange-2010-end-of-support
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation
+    October 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Oct
+
+    Microsoft Corporation
+    Microsoft Security Updates for October 2020 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2020/10/13/202010-security-updates/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/

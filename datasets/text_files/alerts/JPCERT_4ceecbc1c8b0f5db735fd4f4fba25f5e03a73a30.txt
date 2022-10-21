@@ -1,0 +1,84 @@
+JPCERT-AT-2016-0028
+                                                             JPCERT/CC
+                                                            2016-07-13
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2016-07-13 &gt;&gt;&gt;
+
+            Microsoft Security Bulletin for July 2016
+                 (including 6 critical patches)
+
+      https://www.jpcert.or.jp/english/at/2016/at160028.html
+
+
+I. Overview
+
+  Microsoft has released its security bulletin for July, 2016.
+This bulletin contains six (6) updates that are rated as "critical".
+Remote attackers leveraging these vulnerabilities may be able to
+execute arbitrary code.
+
+  Details on the vulnerabilities can be found at the following URL:
+
+    Microsoft Security Bulletin Summary for July 2016
+    https://technet.microsoft.com/en-us/library/security/ms16-jul
+
+  [Security updates rated as "critical"]
+
+    MS16-084
+    Cumulative Security Update for Internet Explorer (3169991)
+    https://technet.microsoft.com/library/security/MS16-084
+
+    MS16-085
+    Cumulative Security Update for Microsoft Edge (3169999)
+    https://technet.microsoft.com/library/security/MS16-085
+
+    MS16-086
+    Cumulative Security Update for JScript and VBScript (3169996)
+    https://technet.microsoft.com/library/security/MS16-086
+
+    MS16-087
+    Security Update for Windows Print Spooler Components (3170005)
+    https://technet.microsoft.com/library/security/MS16-087
+
+    MS16-088
+    Security Update for Microsoft Office (3170008)
+    https://technet.microsoft.com/library/security/MS16-088
+
+    MS16-093
+    Security Update for Adobe Flash Player (3174060)
+    https://technet.microsoft.com/library/security/MS16-093
+
+  Please apply the security update programs as soon as possible.
+
+
+II. Solution
+
+  Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update
+    http://www.update.microsoft.com/
+
+    Windows Update
+    http://windowsupdate.microsoft.com/
+
+
+III. References
+
+    Microsoft
+    Microsoft Security Bulletin Summary for July 2016
+    https://technet.microsoft.com/en-us/library/security/ms16-jul
+
+    Microsoft
+    Microsoft Security Information for July 2016 (Monthly) - MS16-084 - MS16-094 (Japanese)
+    https://blogs.technet.microsoft.com/jpsecurity/2016/07/13/201607-security-bulletin/
+
+
+  If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

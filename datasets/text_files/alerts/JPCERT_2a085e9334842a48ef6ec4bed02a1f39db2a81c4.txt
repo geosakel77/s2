@@ -1,0 +1,112 @@
+JPCERT-AT-2020-0001
+                                                             JPCERT/CC
+                                                            2020-01-15
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-01-15 &gt;&gt;&gt;
+
+         Microsoft Releases January 2020 Security Updates
+
+       https://www.jpcert.or.jp/english/at/2020/at190001.html
+
+
+I. Overview
+Microsoft has released January 2020 Security Updates. This contains
+updates that are rated as "Critical". Remote attackers leveraging
+these vulnerabilities may be able to execute arbitrary code.
+
+Details on the vulnerabilities can be found at the following URL:
+
+    January 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Jan
+
+[Vulnerabilities addressed (Including Security Update Programs rated as "critical")]
+* Listing up Microsoft Knowledge Base (KB) that are rated as "critical"
+
+    CVE-2020-0603
+    ASP.NET Core Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0603
+    - KB number is not assigned
+
+    CVE-2020-0605
+    .NET Framework Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0605
+    - KB4532933, KB4532935, KB4532936, KB4532938, KB4534271, KB4534276,
+      KB4534293, KB4534306, KB4534976, KB4534977, KB4534978, KB4534979, 
+      KB4535101, KB4535102, KB4535103, KB4535104, KB4535105
+
+    CVE-2020-0606
+    .NET Framework Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0606
+    - KB4532933, KB4532935, KB4532936, KB4532938, KB4534271, KB4534276
+      KB4534293, KB4534306, KB4534976, KB4534977, KB4534978, KB4534979
+      KB4535101, KB4535102, KB4535103, KB4535104, KB4535105
+
+    CVE-2020-0609
+    Windows Remote Desktop Gateway (RD Gateway) Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0609
+    - KB4534271, KB4534273, KB4534283, KB4534288, KB4534297, KB4534309
+
+    CVE-2020-0610
+    Windows Remote Desktop Gateway (RD Gateway) Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0610
+    - KB4534271, KB4534273, KB4534283, KB4534288, KB4534297, KB4534309
+
+    CVE-2020-0611
+    Remote Desktop Client Remote Code Execution Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0611
+    - KB4528760, KB4534271, KB4534273, KB4534276, KB4534283, KB4534288
+      KB4534293, KB4534297, KB4534306, KB4534309, KB4534310, KB4534314
+
+    CVE-2020-0640
+    Internet Explorer Memory Corruption Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0640
+    - KB4528760, KB4534251, KB4534271, KB4534273, KB4534276, KB4534293
+      KB4534297, KB4534306, KB4534310
+
+    CVE-2020-0646
+    .NET Framework Remote Code Execution Injection Vulnerability
+    https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0646
+    - KB4532933, KB4532935, KB4532936, KB4532938, KB4534271, KB4534276
+      KB4534293, KB4534306, KB4534976, KB4534977, KB4534978, KB4534979
+      KB4535101, KB4535102, KB4535103, KB4535104, KB4535105
+
+Also, as of January 14, 2020, Windows 7, Windows Server 2008/2008 R2 will be
+out of extended support and no longer receiving updates. It is recommended
+to update to the supported versions.
+
+    Windows 7 will no longer be supported as of today (JAPANESE)
+    https://blogs.windows.com/japan/2020/01/14/0114_windows7eos/
+
+    End of support for Windows Server 2008 and Windows Server 2008 R2
+    https://support.microsoft.com/en-us/help/4456235/end-of-support-for-windows-server-2008-and-windows-server-2008-r2
+
+
+II. Solution
+Please apply the security update programs through Microsoft Update,
+Windows Update, etc. as soon as possible.
+
+    Microsoft Update Catalog
+    https://www.catalog.update.microsoft.com/
+
+    Windows Update: FAQ
+    https://support.microsoft.com/en-us/help/12373/windows-update-faq
+
+
+III. References
+    Microsoft Corporation 
+    January 2020 Security Updates
+    https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Jan
+
+    Microsoft Corporation
+    Microsoft Security Updates for January 2020 (Monthly) (Japanese)
+    https://msrc-blog.microsoft.com/2020/01/14/202001-security-updates/
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: ew-info@jpcert.or.jp
+TEL: +81-3-6811-0610 FAX: +81-3-6271-8908
+https://www.jpcert.or.jp/english/

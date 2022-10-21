@@ -1,0 +1,79 @@
+JPCERT-AT-2018-0007
+                                                             JPCERT/CC
+                                                            2018-02-14
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2018-02-14 &gt;&gt;&gt;
+
+Alert Regarding Vulnerabilities in Adobe Reader and Acrobat (APSB18-02)
+
+       https://www.jpcert.or.jp/english/at/2018/at180007.html
+
+
+I. Overview
+Multiple vulnerabilities exist in Adobe Acrobat Reader, a PDF file
+viewing software, and Adobe Acrobat, a PDF file creation and conversion
+software. As a result, a remote attacker may terminate Adobe Reader
+and Acrobat, or execute arbitrary code by convincing a user to open
+contents leveraging the vulnerabilities. For more information, please
+refer to the Adobe website.
+
+    Security updates available for Adobe Acrobat and Reader | APSB18-02
+    https://helpx.adobe.com/security/products/acrobat/apsb18-02.html
+
+
+II. Affected Products
+Affected products and versions are as follows:
+
+  - Adobe Acrobat Reader DC Continuous (2018.009.20050) and earlier
+  - Adobe Acrobat Reader DC Classic (2015.006.30394) and earlier
+  - Adobe Acrobat DC Continuous (2018.009.20050) and earlier
+  - Adobe Acrobat DC Classic (2015.006.30394) and earlier
+  - Adobe Acrobat Reader 2017 (2017.011.30070) and earlier
+  - Adobe Acrobat 2017 (2017.011.30070) and earlier
+
+
+III. Solution
+Please update Adobe Reader and Acrobat to the latest version listed
+below. 
+
+  - Adobe Acrobat Reader DC Continuous (2018.011.20035)
+  - Adobe Acrobat Reader DC Classic (2015.006.30413) (Windows)
+  - Adobe Acrobat Reader DC Classic (2015.006.30416) (Macintosh)
+  - Adobe Acrobat DC Continuous (2018.011.20035)
+  - Adobe Acrobat DC Classic (2015.006.30413) (Windows)
+  - Adobe Acrobat DC Classic (2015.006.30416) (Macintosh)
+  - Adobe Acrobat Reader 2017 (2017.011.30078)
+  - Adobe Acrobat 2017 (2017.011.30078)
+
+Acrobat will be updated by starting the product, selecting the menu
+"Help (H)", and then clicking "Check for Updates (U)". If an update
+from the menu is not available, please download the latest Adobe
+Reader and Acrobat from the following URL. For more information,
+please refer to the Adobe website.
+
+    Adobe.com - New downloads
+    https://www.adobe.com/support/downloads/new.jsp
+
+
+IV. References
+    Adobe Systems Incorporated
+    Security updates available for Adobe Acrobat and Reader | APSB18-02
+    https://helpx.adobe.com/security/products/acrobat/apsb18-02.html
+
+    Adobe Systems Incorporated
+    Security Bulletins Posted
+    https://blogs.adobe.com/psirt/?p=1530
+
+    JPCERT/CC
+    Upcoming Security Updates for Adobe Acrobat and Reader (Japanese)
+    https://www.jpcert.or.jp/newsflash/2018020901.html
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+======================================================================
+JPCERT Coordination Center (JPCERT/CC)
+MAIL: info@jpcert.or.jp
+TEL: +81-3-3518-4600  FAX: +81-3-3518-4602
+https://www.jpcert.or.jp/english/

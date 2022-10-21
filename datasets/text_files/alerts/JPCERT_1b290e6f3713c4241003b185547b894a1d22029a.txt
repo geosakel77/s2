@@ -1,0 +1,159 @@
+JPCERT-AT-2020-0024
+                                                             JPCERT/CC
+                                                    2020-05-21(Initial)
+                                                    2021-03-02(Update)
+
+                  &lt;&lt;&lt; JPCERT/CC Alert 2020-05-21 &gt;&gt;&gt;
+
+    Alert Regarding Vulnerability (CVE-2020-9484) in Apache Tomcat
+
+       https://www.jpcert.or.jp/english/at/2020/at200024.html
+
+
+I. Overview
+On May 20, 2020 (Local Time), Apache Software Foundation has
+released information regarding a vulnerability (CVE-2020-9484) in
+Apache Tomcat. The vulnerability is due to improper validation of
+the deserialized data. A remote attacker leveraging this vulnerability,
+if being able to control the contents and name of a file on the server,
+may execute arbitrary code via deserialization of the file under their
+control by sending a specifically crafted request.
+
+For more information on the vulnerability, please refer to the
+information provided by Apache Software Foundation.
+
+    Apache Software Foundation
+    CVE-2020-9484 Apache Tomcat Remote Code Execution via session persistence
+    https://lists.apache.org/thread.html/r77eae567ed829da9012cadb29af17f2df8fa23bf66faf88229857bb1%40%3Cannounce.tomcat.apache.org%3E
+
+** Update: March 2, 2021 Update **************************************
+On March 1, 2020 (Local Time), Apache Software Foundation released
+information regarding a vulnerability (CVE-2021-25329) in Apache Tomcat.
+The vulnerability was published since the fix for CVE-2020-9484 was
+incomplete, as when using a highly unlikely configuration edge case,
+the Tomcat instance was still vulnerable to CVE-2020-9484. For details,
+please refer to the information provided by Apache Software Foundation.
+
+    Apache Software Foundation
+    CVE-2021-25329 Incomplete fix for CVE-2020-9484 (RCE via session persistence)
+    https://lists.apache.org/thread.html/rfe62fbf9d4c314f166fe8c668e50e5d9dd882a99447f26f0367474bf%40%3Cannounce.tomcat.apache.org%3E
+**********************************************************************
+
+
+II. Affected Products
+The following versions are affected by this vulnerability:
+
+  - Apache Tomcat 10.0.0-M1 to 10.0.0-M4
+  - Apache Tomcat 9.0.0.M1 to 9.0.34
+  - Apache Tomcat 8.5.0 to 8.5.54
+  - Apache Tomcat 7.0.0 to 7.0.103
+
+The above versions are vulnerable if the server is configured to use
+the PersistentManager with a FileStore, and the PersistentManager
+is configured with sessionAttributeValueClassNameFilter="null" or a
+sufficiently lax filter to allow the attacker provided object to be
+deserialized.
+
+** Update: March 2, 2021 Update **************************************
+The following versions are affected by the vulnerability
+(CVE-2021-25329):
+
+  - Apache Tomcat 10.0.0-M1 to 10.0.0
+  - Apache Tomcat 9.0.0.M1 to 9.0.41
+  - Apache Tomcat 8.5.0 to 8.5.61
+  - Apache Tomcat 7.0.0 to 7.0.107
+**********************************************************************
+
+
+III. Solution
+Apache Software Foundation has released versions of Apache Tomcat
+that address this vulnerability. Please update to these versions
+by referring to the information provided by Apache.
+
+  - Apache Tomcat 10.0.0-M5
+  - Apache Tomcat 9.0.35
+  - Apache Tomcat 8.5.55
+  - Apache Tomcat 7.0.104
+
+** Update: March 2, 2021 Update **************************************
+Apache Software Foundation has released versions of Apache Tomcat
+that address this vulnerability (CVE-2021-25329). Please update to
+these versions by referring to the information provided by Apache.
+
+  - Apache Tomcat 10.0.2
+  - Apache Tomcat 9.0.43
+  - Apache Tomcat 8.5.63
+  - Apache Tomcat 7.0.108
+**********************************************************************
+
+
+IV. Workarounds
+If it is difficult to apply update, please consider applying the
+following workarounds. Using a combination of updates and workarounds
+can make your system more robust.
+
+  - Configure the PersistentManager with an appropriate value for sessionAttributeValueClassNameFilter to ensure that only application provided attributes are serialized and deserialized.
+
+** Update: May 26, 2020 Update ***************************************
+Corrected the typo and changed from PersistenceManager to
+PersistentManager.
+**********************************************************************
+
+
+V. References
+    Apache Software Foundation
+    CVE-2020-9484 Apache Tomcat Remote Code Execution via session persistence
+    https://lists.apache.org/thread.html/r77eae567ed829da9012cadb29af17f2df8fa23bf66faf88229857bb1%40%3Cannounce.tomcat.apache.org%3E
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 10.0.0-M5
+    http://tomcat.apache.org/security-10.html
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 9.0.35
+    http://tomcat.apache.org/security-9.html
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 8.5.55
+    http://tomcat.apache.org/security-8.html
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 7.0.104
+    http://tomcat.apache.org/security-7.html
+
+** Update: March 2, 2021 Update **************************************
+    Apache Software Foundation
+    CVE-2021-25329 Incomplete fix for CVE-2020-9484 (RCE via session persistence)
+    https://lists.apache.org/thread.html/rfe62fbf9d4c314f166fe8c668e50e5d9dd882a99447f26f0367474bf%40%3Cannounce.tomcat.apache.org%3E
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 10.0.2
+    https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.0.2
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 9.0.43
+    https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.43
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 8.5.63
+    https://tomcat.apache.org/security-8.html#Fixed_in_Apache_Tomcat_8.5.63
+
+    Apache Software Foundation
+    Fixed in Apache Tomcat 7.0.108
+    https://tomcat.apache.org/security-7.html#Fixed_in_Apache_Tomcat_7.0.108
+**********************************************************************
+
+
+If you have any information regarding this alert, please contact
+JPCERT/CC.
+
+________
+Revision History
+2020-05-21 First edition
+2020-05-26 Updated "IV. Workarounds"
+2021-03-02 Updated "I. Overview", "II. Affected Products", "III. Solution" and "IV. Workarounds"
+
+======================================================================
+JPCERT Coordination Center (Early Warning Group)
+MAIL: ew-info@jpcert.or.jp
+https://www.jpcert.or.jp/english/
