@@ -86,10 +86,56 @@ def export_cpes(library):
             cpeslist.append(cpe_dictionary)
     return cpeslist
 
+def split_stored_cpes():
+    with open("../datasets/cpes.json", 'r') as inputfile:
+        cpes = json.load(inputfile)
+        inputfile.close()
+    length = len(cpes)
+    length_1= round(length/4)
+    length_2 = round(length/2)
+    length_3 = round(length*0.75)
+    print(length)
+    print(length_1)
+    print(length_2)
+    print(length_3)
+    cpe_1=[]
+    cpe_2=[]
+    cpe_3=[]
+    cpe_4=[]
+    for i in range(0,length_1):
+        cpe_1.append(cpes[i])
+    for i  in range(length_1,length_2):
+        cpe_2.append(cpes[i])
+    for i  in range(length_2,length_3):
+        cpe_3.append(cpes[i])
+    for i in range(length_3, length):
+        cpe_4.append(cpes[i])
+
+    with open("../datasets/cpes_1.json", 'w') as out:
+        json.dump(cpe_1, out)
+        out.close()
+
+    with open("../datasets/cpes_2.json", 'w') as out:
+        json.dump(cpe_2, out)
+        out.close()
+
+    with open("../datasets/cpes_3.json", 'w') as out:
+        json.dump(cpe_3, out)
+        out.close()
+
+    with open("../datasets/cpes_4.json", 'w') as out:
+        json.dump(cpe_4, out)
+        out.close()
+    print(len(cpe_1))
+    print(len(cpe_2))
+    print(len(cpe_3))
+    print(len(cpe_4))
+    print(str(len(cpe_1)+len(cpe_2)+len(cpe_3)+len(cpe_4)))
+
 
 if __name__=="__main__":
-    store_cpes(export_cpes("../raw_data/official-cpe-dictionary_v2.3.xml"))
-
+    #store_cpes(export_cpes("../raw_data/official-cpe-dictionary_v2.3.xml"))
+    split_stored_cpes()
 
 
 
