@@ -1,10 +1,10 @@
 # Project : csc
 # Developer : George Sakellariou
 # Date :4/11/21
-import psycopg2,json,logging
+import logging
+import psycopg2
+
 from config import config
-
-
 
 
 class DBManager:
@@ -27,141 +27,110 @@ class DBManager:
         except (Exception, psycopg2.DatabaseError) as e:
             self.logger.error("Error in database connection :{}".format(e))
 
-    def insert_source(self, source, description):
-        sql_query="""INSERT INTO public.feedsources(address, description) VALUES (%s, %s) RETURNING id;"""
+    def insert_ctiproduct_alert(self, code, collected, link, title, text_link, source):
+        sql_query = """INSERT INTO public.alerts(code, collected, link, title, text_link, source) VALUES (%s,%s,%s,%s,%s,%s) RETURNING alert_id;"""
         try:
             cur = self.connection.cursor()
             # execute the INSERT statement
-            cur.execute(sql_query, (source,description,))
+            cur.execute(sql_query, (code, collected, link, title, text_link, source,))
             # get the generated id back
             id = cur.fetchone()[0]
             # commit the changes to the database
             self.connection.commit()
             # close communication with the database
             cur.close()
-            self.logger.info("Source inserted successfully : {}".format(id))
+            self.logger.info("Alert inserted successfully : {}".format(id))
         except (Exception, psycopg2.DatabaseError) as e:
-            self.logger.error("Error in source insertion :{}".format(e))
+            self.logger.error("Error in alert insertion :{}:{}".format(code, e))
 
-    def get_source_id(self,source):
-        sql_query="""SELECT id FROM public.feedsources where address=%s"""
+    def insert_ctiproduct_report(self, code, collected, link, title, text_link, source):
+        sql_query = """INSERT INTO public.reports(code, collected, link, title, text_link, source) VALUES (%s,%s,%s,%s,%s,%s) RETURNING report_id;"""
 
-        try:
-            cur = self.connection.cursor()
-            cur.execute(sql_query, (source,))
-            row = cur.fetchone()
-            while row is not None:
-                row = cur.fetchone()
-            cur.close()
-            self.logger.info("Source id retrieved successfully : {}".format(row))
-            return row
-        except (Exception, psycopg2.DatabaseError) as e:
-            self.logger.error("Error in getting source id :{}:{}".format(source,e))
-
-    def get_source_address(self, source_id):
-        sql_query = """SELECT address FROM public.feedsources where id=%s"""
-        try:
-            cur = self.connection.cursor()
-            cur.execute(sql_query, (source_id,))
-            row = cur.fetchone()
-            cur.close()
-            self.logger.info("Source address retrieved successfully : {}".format(row))
-            return row
-        except (Exception, psycopg2.DatabaseError) as e:
-            self.logger.error("Error in getting address of id :{}:{}".format(source_id,e))
-
-    def get_sources(self):
-        sql_query = """SELECT id,address FROM public.feedsources"""
-        try:
-            cur = self.connection.cursor()
-            cur.execute(sql_query)
-            rows = cur.fetchall()
-            cur.close()
-            self.logger.info("Sources  retrieved successfully : {}".format(rows))
-            return rows
-        except (Exception, psycopg2.DatabaseError) as e:
-            self.logger.error("Error in getting sources:{}".format(e))
-
-
-    def insert_rss_feed(self,rss_feed_id, published, title, links,  summary, source_id):
-        sql_query = """INSERT INTO public.rssfeeds(rss_feed_id, published, title, links, summary, source_id)
-         VALUES (%s, %s, %s, %s, %s, %s) RETURNING rss_feed_dbid;"""
         try:
             cur = self.connection.cursor()
             # execute the INSERT statement
-
-            cur.execute(sql_query, (rss_feed_id, published, title, json.dumps({1:links}), summary, source_id,))
+            cur.execute(sql_query, (code, collected, link, title, text_link, source,))
             # get the generated id back
             id = cur.fetchone()[0]
             # commit the changes to the database
             self.connection.commit()
             # close communication with the database
             cur.close()
-            self.logger.info("Feed inserted successfully :{}".format(id))
+            self.logger.info("Report inserted successfully :{}".format(id))
         except (Exception, psycopg2.DatabaseError) as e:
-            self.logger.error("Error in insertion of feed:{}:{}".format(rss_feed_id,e))
+            self.logger.error("Error in insertion of report:{}:{}".format(code, e))
 
+    def insert_ctiproduct_stixv2(self, code, collected, link, title, text_link, stixv2_type, source):
+        sql_query = """INSERT INTO public.reports(code, collected, link, title, text_link, stixv2_type, source) VALUES (%s,%s,%s,%s,%s,%s,%s) RETURNING stixv2_id;"""
 
-    def get_feed(self,rss_feed_id):
-        sql_query = """SELECT rss_feed_dbid, rss_feed_id, title, summary, source_id, links, published 
-        FROM public.rssfeeds WHERE rss_feed_id=%s;"""
         try:
             cur = self.connection.cursor()
-            cur.execute(sql_query,(rss_feed_id,))
-            rows = cur.fetchall()
+            # execute the INSERT statement
+            cur.execute(sql_query, (code, collected, link, title, text_link, stixv2_type, source,))
+            # get the generated id back
+            id = cur.fetchone()[0]
+            # commit the changes to the database
+            self.connection.commit()
+            # close communication with the database
             cur.close()
-            self.logger.info("Feed retrieved successfully : {}".format(rows))
-            return rows
+            self.logger.info("STIX v2 artifact inserted successfully :{}".format(id))
         except (Exception, psycopg2.DatabaseError) as e:
-            self.logger.error("Error in getting feed:{}:{}".format(rss_feed_id,e))
+            self.logger.error("Error in insertion of STIX v2 artifact:{}:{}".format(code, e))
 
-    def get_feeds(self):
-        sql_query = """SELECT rss_feed_dbid,rss_feed_id, title, summary, source_id, links, published 
-           FROM public.rssfeeds;"""
+    def get_alerts(self):
+        sql_query = """SELECT code,collected,link,text_link,source FROM public.alerts"""
         try:
             cur = self.connection.cursor()
             cur.execute(sql_query)
             rows = cur.fetchall()
             cur.close()
-            self.logger.info("Feeds retrieved successfully :{}".format(rows))
+            self.logger.info("Alerts  retrieved successfully : {}".format(len(rows)))
             return rows
         except (Exception, psycopg2.DatabaseError) as e:
-            self.logger.error("Error in getting feeds:{}".format(e))
+            self.logger.error("Error in getting alerts:{}".format(e))
 
-    def update_posted_list(self, feed_db_id, posted):
-        sql_query = """INSERT INTO public.posted(feed_db_id,posted) VALUES (%s, %s) RETURNING post_id;"""
+    def get_reports(self):
+        sql_query = """SELECT code,collected, link, text_link, source FROM public.reports;"""
         try:
             cur = self.connection.cursor()
-            # execute the INSERT statement
+            cur.execute(sql_query)
+            rows = cur.fetchall()
+            cur.close()
+            self.logger.info("Reports retrieved successfully :{}".format(len(rows)))
+            return rows
+        except (Exception, psycopg2.DatabaseError) as e:
+            self.logger.error("Error in getting reports:{}".format(e))
 
-            cur.execute(sql_query, (feed_db_id, posted,))
-            # get the generated id back
-            post_id = cur.fetchone()[0]
+    def update_alert(self, code, collected):
+        sql_query = """UPDATE public.alerts SET collected=%s WHERE code=%s;"""
+        try:
+            cur = self.connection.cursor()
+            # execute the UPDATE statement
+            cur.execute(sql_query, (collected, code,))
             # commit the changes to the database
             self.connection.commit()
             # close communication with the database
             cur.close()
-            self.logger.info("Posted list updated successfully :{}".format(post_id))
+            self.logger.info("Alert updated successfully :{}".format(code))
         except (Exception, psycopg2.DatabaseError) as e:
-            self.logger.error("Error in updating posted list:{}".format(e))
+            self.logger.error("Error in updating alert:{}:{}".format(e, code))
 
-    def check_posted(self,feed_db_id):
-        sql_query = """SELECT post_id, posted FROM public.posted WHERE feed_db_id=%s;"""
+    def update_report(self, code, collected):
+        sql_query = """UPDATE public.reports SET collected=%s WHERE code=%s;"""
         try:
             cur = self.connection.cursor()
-            cur.execute(sql_query,(feed_db_id,))
-            rows = cur.fetchall()
+            # execute the UPDATE statement
+            cur.execute(sql_query, (collected, code,))
+            # commit the changes to the database
+            self.connection.commit()
+            # close communication with the database
             cur.close()
-            self.logger.info("Posted list checked for: {}".format(feed_db_id))
-            if len(rows)>0:
-                return True
-            else:
-                return False
+            self.logger.info("Report updated successfully :{}".format(code))
         except (Exception, psycopg2.DatabaseError) as e:
-            self.logger.error("Error in checking posted list:{}".format(e))
+            self.logger.error("Error in updating report:{}:{}".format(e, code))
 
 
 if __name__ == '__main__':
-    import datetime, json
     dbmanager = DBManager()
-    dbmanager.get_feeds()
+    data = dbmanager.get_reports()
+    print(data)
