@@ -1,0 +1,22 @@
+Microsoft Windows Metafile Handling Buffer Overflow | CISA Skip to main content An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. CISA.gov Services Report Toggle navigation CISA.gov Services Report CertMain Menu Alerts and Tips Resources Industrial Control Systems TLP:WHITE TLP:WHITE National Cyber Awareness System > Archives Alerts > Microsoft Windows Metafile Handling Buffer Overflow This document is part of the US-CERT website archive. These documents are no longer updated and may contain outdated information. Links may also no longer function. Please contact info@us-cert.gov if you have any questions about the US-CERT website archive. More Alerts Alert (TA05-362A) Microsoft Windows Metafile Handling Buffer Overflow Original release date: December 28, 2005  | Last revised : December 31, 2005 Systems Affected Systems running Microsoft Windows Overview Microsoft Windows is vulnerable to remote code execution via an
+error in handling files using the Windows Metafile image
+format. Exploit code has been publicly posted and used to successfully
+attack fully-patched Windows XP SP2 systems. However, other versions
+of the the Windows operating system may be at risk as well. Description Microsoft Windows
+Metafiles are image files that can contain both vector and
+bitmap-based picture information.  Microsoft Windows contains routines
+for displaying various Windows Metafile formats.  However, a lack of
+input validation in one of these routines may allow a buffer overflow
+to occur, and in turn may allow remote arbitrary code execution. This new vulnerability may be similar to one Microsoft released
+patches for in Microsoft
+Security Bulletin MS05-053 . However, publicly available exploit
+code is known to affect systems updated with the MS05-053 patches. Not all anti-virus software products are currently able to detect all
+known variants of exploits for this vulnerability. However, US-CERT
+recommends updating anti-virus signatures as frequently as practical
+to provide maximum protection as new variants appear. US-CERT is tracking this issue as VU#181038 .  This reference
+number corresponds to CVE entry CVE-2005-4560 . Impact A remote, unauthenticated attacker may be able to execute arbitrary
+code if the user is persuaded to view a specially crafted Windows
+Metafile. Solution Since there is no known patch for this issue at this time, US-CERT
+is recommending sites follow several potential workarounds. Workarounds Please refer to the Solution section of US-CERT Vulnerability Note for the latest workarounds we are aware of: http://www.kb.cert.org/vuls/id/181038#solution Microsoft has suggested a procedure for disabling SHIMGVW.DLL in the Suggested
+Actions+Workarounds+ section of Microsoft Security Advisory
+(912840): http://www.microsoft.com/technet/security/advisory/912840.mspx Feedback can be directed to US-CERT . Revision History December 28, 2005:  Initial release December 29, 2005:  Modified workarounds and added link to Microsoft Security Advisory (912840) December 31, 2005:  Added direct link to Solution section of US-CERT Vulnerability Note VU#181038 Last updated This product is provided subject to this Notification and this Privacy & Use policy. Please share your thoughts. We recently updated our anonymous product survey ; we'd welcome your feedback. Contact Us (888)282-0870 Send us email Download PGP/GPG keys Submit website feedback Subscribe to Alerts Receive security alerts, tips, and other updates. Enter your email address HSIN Report Home Site Map FAQ Contact Us Traffic Light Protocol PCII Accountability Disclaimer Privacy Policy FOIA No Fear Act Accessibility Plain Writing Plug-ins Inspector General The White House USA.gov CISA is part of the Department of Homeland Security

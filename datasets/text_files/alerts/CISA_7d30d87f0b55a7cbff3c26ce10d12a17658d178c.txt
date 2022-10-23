@@ -1,0 +1,61 @@
+Critical Vulnerabilities in Microsoft Windows | CISA Skip to main content An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. CISA.gov Services Report Toggle navigation CISA.gov Services Report CertMain Menu Alerts and Tips Resources Industrial Control Systems TLP:WHITE TLP:WHITE National Cyber Awareness System > Archives Alerts > Critical Vulnerabilities in Microsoft Windows This document is part of the US-CERT website archive. These documents are no longer updated and may contain outdated information. Links may also no longer function. Please contact info@us-cert.gov if you have any questions about the US-CERT website archive. More Alerts Alert (TA04-212A) Critical Vulnerabilities in Microsoft Windows Original release date: July 30, 2004 Systems Affected These vulnerabilities affect the following versions of Microsoft
+Internet Explorer: Microsoft Internet Explorer 5.01 Service Pack 2 Microsoft Internet Explorer 5.01 Service Pack 3 Microsoft Internet Explorer 5.01 Service Pack 4 Microsoft Internet Explorer 5.5 Service Pack 2 Microsoft Internet Explorer 6 Microsoft Internet Explorer 6 Service Pack 1 Microsoft Internet Explorer 6 Service Pack 1 (64-Bit Edition) Microsoft Internet Explorer 6 for Windows Server 2003 Microsoft Internet Explorer 6 for Windows Server 2003 (64-Bit Edition) These vulnerabilities affect the following versions of the
+Microsoft Windows operating system: Microsoft Windows NT Workstation 4.0 Service Pack 6a Microsoft Windows NT Server 4.0 Service Pack 6a Microsoft Windows NT Server 4.0 Terminal Server Edition Service Pack 6 Microsoft Windows 2000 Service Pack 2, Microsoft Windows 2000 Service Pack 3, Microsoft Windows 2000 Service Pack 4 Microsoft Windows XP and Microsoft Windows XP Service Pack 1 Microsoft Windows XP 64-Bit Edition Service Pack 1 Microsoft Windows XP 64-Bit Edition Version 2003 Microsoft Windows Server 2003 Microsoft Windows Server 2003 64-Bit Edition Microsoft Windows 98, Microsoft Windows 98 Second Edition (SE), and Microsoft Windows Millennium Edition (Me) Please note that these vulnerabilities my affect any software that
+uses the Microsoft Windows operating system to render HTML or
+graphics. Overview Microsoft Internet Explorer contains three vulnerabilities that may
+allow arbitrary code to be executed. The privileges gained by a remote
+attacker depend on the software component being attacked. For example,
+a user browsing to an unsafe web page using Internet Explorer could
+have code executed with the same privilege as the user.  These
+vulnerabilities have been reported to be relatively straightforward to
+exploit; even vigilant users visiting a malicious website, viewing a
+malformed image, or reading an HTML-rendered email message may be
+affected. Description Microsoft Security Bulletin MS04-025 describes three vulnerabilities in Internet Explorer; more detailed
+information is available in the individual vulnerability
+notes .  Note that in addition to Internet Explorer, any applications
+that use the Internet Explorer HTML rendering engine to interpret HTML
+documents may present additional attack vectors for these
+vulnerabilities. VU#266926 -
+Microsoft Internet Explorer contains an integer overflow in the processing
+of bitmap files An integer overflow vulnerability has been discovered in the way that
+Internet Explorer processes bitmap image files. This vulnerability could
+allow a remote attacker to execute arbitrary code on a vulnerable system
+by introducing a specially crafted bitmap file. (Other resources: CAN-2004-0566 ) VU#685364 -
+Microsoft Internet Explorer contains a double-free vulnerability in the
+processing of GIF files A double-free vulnerability has been discovered in the way that
+Internet Explorer processes GIF image files. When processing GIF image
+files, the routine responsible for freeing memory may attempt to free the
+same memory reference more than once. Deallocating the already freed
+memory can lead to memory corruption, which could cause a
+denial-of-service condition or potentially be leveraged by an attacker to
+execute arbitrary code. (Other resources: CAN-2003-1048 ) VU#713878 -
+Microsoft Internet Explorer does not properly validate source of
+redirected frame Microsoft Internet Explorer does not properly display
+URLs As previously discussed in TA-163A ,
+Microsoft Internet Explorer does not adequately validate the security
+context of a frame that has been redirected by a web server. An
+attacker could exploit this vulnerability to evaluate script in
+different security domains. By causing script to be evaluated in the
+Local Machine Zone, the attacker could execute arbitrary code with the
+privileges of the user running Internet Explorer.  For a detailed
+technical analysis of this vulnerability, please see VU#713878 . (Other resources: CAN-2004-0549 ) Impact Remote attackers exploiting the vulnerabilities described above may
+execute arbitrary code with the privileges of the user running the
+software components being attacked (e.g., Internet
+Explorer). Attackers can exploit these vulnerabilities by convincing a
+victim user to visit a malicious website, view a malformed image, or
+read an HTML-rendered email message.  No user intervention is required
+beyond viewing an attacker-supplied HTML document or image.  For
+further details, please see the individual vulnerability
+notes . Solution Apply a patch from Microsoft Apply the appropriate patch as specified by Microsoft Security
+Bulletin MS04-025 .
+Please note that this bulletin provides a cumulative update that
+replaces all previously released updates for Internet Explorer,
+including those provided in MS04-004 . However,
+users who have applied hotfixes released after MS04-004 will need to install MS04-025 . Please
+see the FAQ section of Microsoft's advisory for more details. Follow Microsoft recommendations for workarounds Microsoft provides several workarounds for each of these vulnerabilities.
+Please consult the appropriate section(s) of Microsoft Security Bulletin MS04-025 . Appendix A. Vendor Information This appendix contains information provided by vendors for this
+advisory.  As vendors report new information to US-CERT, we will update
+this section and note the changes in our revision history.  If a
+particular vendor is not listed below, we have not received their
+comments. Microsoft Please see Microsoft Security Bulletin MS04-025 . Appendix B. References US-CERT Technical Cyber Security Alert TA04-163A - http://www.us-cert.gov/cas/techalerts/TA04-163A.html US-CERT Cyber Security Alert TA04-212A - http://www.us-cert.gov/cas/alerts/SA04-212A.html US-CERT Vulnerability Note VU#266926 - http://www.kb.cert.org/vuls/id/266926 US-CERT Vulnerability Note VU#685364 - http://www.kb.cert.org/vuls/id/685364 US-CERT Vulnerability Note VU#713878 - http://www.kb.cert.org/vuls/id/713878 Microsoft Security Bulletin MS04-025 - http://microsoft.com/technet/security/bulletin/MS04-025.asp Microsoft KB Article 867801 - http://support.microsoft.com/?id=867801 Microsoft KB Article 871260 - http://support.microsoft.com/?id=871260 Microsoft KB Article 875345 - http://support.microsoft.com/?id=875345 CVE CAN-2004-0566 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2004-0566 CVE CAN-2003-1048 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2003-1048 CVE CAN-2004-0549 - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2004-0549 Feedback can be directed to the US-CERT
+Technical Staff . Revision History Jul 30, 2004:  Initial release Last updated This product is provided subject to this Notification and this Privacy & Use policy. Please share your thoughts. We recently updated our anonymous product survey ; we'd welcome your feedback. Contact Us (888)282-0870 Send us email Download PGP/GPG keys Submit website feedback Subscribe to Alerts Receive security alerts, tips, and other updates. Enter your email address HSIN Report Home Site Map FAQ Contact Us Traffic Light Protocol PCII Accountability Disclaimer Privacy Policy FOIA No Fear Act Accessibility Plain Writing Plug-ins Inspector General The White House USA.gov CISA is part of the Department of Homeland Security

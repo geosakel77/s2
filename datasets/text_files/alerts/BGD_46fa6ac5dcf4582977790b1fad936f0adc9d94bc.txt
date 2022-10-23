@@ -1,0 +1,25 @@
+Multiple Vulnerabilities in Mozilla Products Could Allow for Arbitrary Code Execution – BGD e-GOV CIRT | Bangladesh e-Government Computer Incident Response Team info@cirt.gov.bd +88-02-5500 7183 Home Services Articles Monthly Magazine News & Articles English Bangla Security Advisories & Alerts CVE CIRT In Media News Clipping Lecture Series Report Incident Report an Incident Statistics Traffic Light Protocol (TLP) Units Incident Handling Digital Forensic Lab Awareness Building Cyber Range Risk Assessment Unit Cyber Sensor Unit Cyber Threat Intelligence Unit IT Audit Unit Cyber Security Policy Development Unit About About us Team Organogram Contacts BGD e-GOV CIRT Service Catalogue Partners Events Documents Annual Report 2016 Mobile App Manual Bangla Ransomware Prevention & First Response Guideline Privacy Policy for Mobile App Acts/Policy Acts Policies Publications Gallery Notice Shop Multiple Vulnerabilities in Mozilla Products Could Allow for Arbitrary Code Execution Description : Multiple vulnerabilities have been discovered in Mozilla
+Firefox and Firefox Extended Support Release (ESR), the most severe of
+which could allow for arbitrary code execution. Mozilla Firefox is a web
+browser used to access the Internet. Mozilla Firefox ESR is a version of
+the web browser intended to be deployed in large organizations. Impact : Successful exploitation of the most severe of these
+vulnerabilities could allow for arbitrary code execution. Depending on
+the privileges associated with the user, an attacker could then install
+programs; view, change, or delete data; or create new accounts with full
+user rights. Users whose accounts are configured to have fewer user
+rights on the system could be less impacted than those who operate with
+administrative user rights.
+
+System Affected:
+* Mozilla Firefox prior to 60
+* Mozilla Firefox prior to ESR 52.8 Mitigation :
+The following actions are recommended:
+* Apply appropriate updates provided by Mozilla to vulnerable systems,
+immediately after appropriate testing.
+* Run all software as a non-privileged user (one without administrative
+privileges) to diminish the effects of a successful attack.
+* Remind users not to visit un-trusted websites or follow links provided
+by unknown or un-trusted sources.
+* Inform and educate users regarding the threats posed by hypertext
+links contained in emails or attachments especially from un-trusted sources.
+* Apply the Principle of Least Privilege to all systems and services. Reference URL's: https://www.mozilla.org/en-US/security/advisories/mfsa2018-11/ https://www.mozilla.org/en-US/security/advisories/mfsa2018-12/ http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5150 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5151 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5152 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5153 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5154 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5155 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5157 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5158 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5159 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5160 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5163 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5164 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5165 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5166 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5167 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5168 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5169 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5172 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5173 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5174 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5175 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5176 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5177 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5178 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5180 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5181 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5182 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5183 Share Recommended Posts New PHP information-stealing malware targets Facebook accounts 16 Oct 2022 - Security Advisories & Alerts Magniber ransomware now infects Windows users via JavaScript files 16 Oct 2022 - Security Advisories & Alerts CVE-2022-41352: Remote Code Execution Vulnerability in Zimbra Collaboration Suite CVSS 3.0: 9.8 (Critical) 16 Oct 2022 - Security Advisories & Alerts Subscribe here Subscribe For Latest Updates Name* Email* Important links National Portal BNDA Post & Telecom Division Access to Information Project Prime Minister's Office Ministry of Public Administration ICT Division MEMBER OF: BGD e-GOV CIRT Bangladesh Computer Council, E-14/X, ICT Tower, Agargaon, Dhaka-1207, Bangladesh Contact us Phone: +880255007183 I Email: info@cirt.gov.bd Social Media BGD e-GOV CIRT App

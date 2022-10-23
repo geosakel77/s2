@@ -1,0 +1,27 @@
+Microsoft Updates for Multiple Vulnerabilities | CISA Skip to main content An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. CISA.gov Services Report Toggle navigation CISA.gov Services Report CertMain Menu Alerts and Tips Resources Industrial Control Systems TLP:WHITE TLP:WHITE National Cyber Awareness System > Archives Alerts > Microsoft Updates for Multiple Vulnerabilities This document is part of the US-CERT website archive. These documents are no longer updated and may contain outdated information. Links may also no longer function. Please contact info@us-cert.gov if you have any questions about the US-CERT website archive. More Alerts Alert (TA06-346A) Microsoft Updates for Multiple Vulnerabilities Original release date: December 12, 2006  | Last revised : December 15, 2006 Systems Affected Microsoft Windows Microsoft Visual Studio Microsoft Outlook Express Microsoft Media Player Microsoft Internet Explorer Overview Microsoft has released updates that address critical vulnerabilities
+in Microsoft Windows, Visual Studio, Microsoft Outlook Express,
+Microsoft Media Player, and Microsoft Internet Explorer. Exploitation
+of these vulnerabilities could allow a remote, unauthenticated
+attacker to execute arbitrary code or cause a denial of service on a
+vulnerable system. Description Microsoft has released updates to address vulnerabilities in Microsoft
+Windows, Visual Studio, Microsoft Outlook Express, Microsoft Media
+Player, and Microsoft Internet Explorer as part of the Microsoft
+Security Bulletin Summary for December
+2006 . The most severe vulnerabilities could allow a remote,
+unauthenticated attacker to execute arbitrary code or cause a denial
+of service on a vulnerable system. Updates for Office for Mac were accidentally released by Microsoft and
+have since been retracted. More information can be found in the following Microsoft
+Security Response Center Blog entry . Further information about the vulnerabilities addressed by these
+updates is available in the Vulnerability
+Notes Database. Impact A remote, unauthenticated attacker could execute arbitrary code on a
+vulnerable system. An attacker may also be able to cause a denial of
+service. Solution Apply updates from Microsoft Microsoft has provided updates for these vulnerabilities in the
+December 2006 Security
+Bulletins . The Security Bulletins describe any known issues
+related to the updates. Note any known issues described in the
+Bulletins and test for any potentially adverse affects in your
+environment.
+
+System administrators may wish to consider using an automated patch
+distribution system such as Windows Server Update Services
+( WSUS). References US-CERT Vulnerability Notes for Microsoft December 2006 updates - http://www.kb.cert.org/vuls/byid?searchview&query=ms06-dec Microsoft Security Bulletin Summary for December 2006 - http://www.microsoft.com/technet/security/bulletin/ms06-dec.mspx Microsoft Update - https://update.microsoft.com/microsoftupdate/ Windows Server Update Services - http://www.microsoft.com/windowsserversystem/updateservices/default.mspx Information from Microsoft regarding accidental release of security updates for Office products for Mac - http://blogs.technet.com/msrc/archive/2006/12/13/information-on-accidental-posting-of-pre-release-security-updates-for-office-for-mac.aspx Revision History December 12, 2006:  Initial release December 15, 2006:  Replaced information about Mac updates with a reference to a Microsoft explanation about the error. This product is provided subject to this Notification and this Privacy & Use policy. Please share your thoughts. We recently updated our anonymous product survey ; we'd welcome your feedback. Contact Us (888)282-0870 Send us email Download PGP/GPG keys Submit website feedback Subscribe to Alerts Receive security alerts, tips, and other updates. Enter your email address HSIN Report Home Site Map FAQ Contact Us Traffic Light Protocol PCII Accountability Disclaimer Privacy Policy FOIA No Fear Act Accessibility Plain Writing Plug-ins Inspector General The White House USA.gov CISA is part of the Department of Homeland Security

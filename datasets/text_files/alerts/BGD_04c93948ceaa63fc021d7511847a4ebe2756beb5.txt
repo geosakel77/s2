@@ -1,0 +1,23 @@
+A Vulnerability in Microsoft Windows SMB Server (CVE-2020-0796) – BGD e-GOV CIRT | Bangladesh e-Government Computer Incident Response Team info@cirt.gov.bd +88-02-5500 7183 Home Services Articles Monthly Magazine News & Articles English Bangla Security Advisories & Alerts CVE CIRT In Media News Clipping Lecture Series Report Incident Report an Incident Statistics Traffic Light Protocol (TLP) Units Incident Handling Digital Forensic Lab Awareness Building Cyber Range Risk Assessment Unit Cyber Sensor Unit Cyber Threat Intelligence Unit IT Audit Unit Cyber Security Policy Development Unit About About us Team Organogram Contacts BGD e-GOV CIRT Service Catalogue Partners Events Documents Annual Report 2016 Mobile App Manual Bangla Ransomware Prevention & First Response Guideline Privacy Policy for Mobile App Acts/Policy Acts Policies Publications Gallery Notice Shop A Vulnerability in Microsoft Windows SMB Server (CVE-2020-0796) Description: A vulnerability has been discovered in
+      Microsoft Windows SMB Server that could allow for remote code
+      execution. This vulnerability is due to an error in handling
+      maliciously crafted compressed data packets within version 3.1.1
+      of Server Message Blocks. To exploit this vulnerability, an
+      attacker can send specially crafted compressed data packets to a
+      target Microsoft Server Message Block 3.0 (SMBv3) server. Clients
+      who connects to the malicious SMB server would then also be
+      impacted. Microsoft Server Message Block (SMB) is a network file
+      sharing protocol that allows users or applications to request
+      files and services over the network. Impact: Successful exploitation of this vulnerability
+      could result in an attacker gaining the same privileges as the
+      account running the SMB server and client processes. An attacker
+      could then install programs; view, change, or delete data; or
+      create new accounts with full user rights. System Affected: * Windows 10 Version 1903 for 32-bit Systems * Windows 10 Version 1903 for ARM64-based Systems * Windows 10 Version 1903 for x64-based Systems * Windows 10 Version 1909 for 32-bit Systems * Windows 10 Version 1909 for ARM64-based Systems * Windows 10 Version 1909 for x64-based Systems * Windows Server, version 1903 (Server Core installation) * Windows Server, version 1909 (Server Core installation) Mitigation: The following actions are recommended: * Consider applying the workarounds provided by Microsoft until
+      patches are released; The workaround does not mitigate attacks
+      targeting SMB clients. * Run all software as a non-privileged user (one without
+      administrative privileges) to diminish the effects of a successful
+      attack. * Remind users not to visit websites or follow links provided by
+      unknown or untrusted sources. * Inform and educate users regarding the threats posed by
+      hypertext links contained in emails or attachments especially from
+      un-trusted sources. * Apply the Principle of Least Privilege to all systems and
+      services. Reference URL’s: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/adv200005 https://www.tenable.com/blog/cve-2020-0796-wormable-remote-code-execution-vulnerability-in-microsoft-server-message-block http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-0796 Share Recommended Posts New PHP information-stealing malware targets Facebook accounts 16 Oct 2022 - Security Advisories & Alerts Magniber ransomware now infects Windows users via JavaScript files 16 Oct 2022 - Security Advisories & Alerts CVE-2022-41352: Remote Code Execution Vulnerability in Zimbra Collaboration Suite CVSS 3.0: 9.8 (Critical) 16 Oct 2022 - Security Advisories & Alerts Subscribe here Subscribe For Latest Updates Name* Email* Important links National Portal BNDA Post & Telecom Division Access to Information Project Prime Minister's Office Ministry of Public Administration ICT Division MEMBER OF: BGD e-GOV CIRT Bangladesh Computer Council, E-14/X, ICT Tower, Agargaon, Dhaka-1207, Bangladesh Contact us Phone: +880255007183 I Email: info@cirt.gov.bd Social Media BGD e-GOV CIRT App

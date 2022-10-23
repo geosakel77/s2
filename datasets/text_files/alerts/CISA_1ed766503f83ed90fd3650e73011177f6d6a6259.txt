@@ -1,0 +1,17 @@
+Multiple Vulnerabilities in Microsoft Windows | CISA Skip to main content An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. CISA.gov Services Report Toggle navigation CISA.gov Services Report CertMain Menu Alerts and Tips Resources Industrial Control Systems TLP:WHITE TLP:WHITE National Cyber Awareness System > Archives Alerts > Multiple Vulnerabilities in Microsoft Windows This document is part of the US-CERT website archive. These documents are no longer updated and may contain outdated information. Links may also no longer function. Please contact info@us-cert.gov if you have any questions about the US-CERT website archive. More Alerts Alert (SA04-041A) Multiple Vulnerabilities in Microsoft Windows Original release date: February 10, 2004 Systems Affected Systems running Microsoft Windows Overview Microsoft Windows contains multiple vulnerabilities,
+the most serious of which could allow attackers to take control of
+your computer. Description Microsoft's updated Home
+User Security Bulletin for February 2004 describes more
+vulnerabilities in the Microsoft Windows operating system. Microsoft
+is tracking these issues as Security Update
+828028 . It is unclear at this time how many different ways your computer
+can be compromised using these vulnerabilities, so we recommend you
+apply the updates below as soon as possible. A technical description
+of these vulnerabilities is available from US-CERT in TA04-041A and from Microsoft in MS04-007 . Resolution Apply a patch Microsoft has released a home user bulletin describing how to
+determine what patches you will need and how to get them. Follow the
+procedures outlined in Microsoft's updated Home User Security Bulletin for February 2004 . For additional information, and to receive updates on this alert, go
+to http://www.us-cert.gov/cas/alerts/SA04-041A.html References US-CERT Technical Alert TA04-041A - < http://www.us-cert.gov/cas/techalerts/TA04-041A.html > Microsoft's Updated Home User Security Bulletin for February 2004
+- < http://www.microsoft.com/security/security_bulletins/20040210_windows.asp > Microsoft Security Bulletin MS04-007 - < http://www.microsoft.com/technet/security/bulletin/MS04-007.asp > Microsoft
+Knowledge Base Article 828028: An ASN.1 vulnerability
+could allow code execution -  < http://support.microsoft.com/?kbid=828028 > This document is available from < http://www.us-cert.gov/cas/alerts/SA04-041A.html > Copyright 2004 Carnegie Mellon University. Terms of use Revision History February 10, 2004:  Initial release Last 
+updated This product is provided subject to this Notification and this Privacy & Use policy. Please share your thoughts. We recently updated our anonymous product survey ; we'd welcome your feedback. Contact Us (888)282-0870 Send us email Download PGP/GPG keys Submit website feedback Subscribe to Alerts Receive security alerts, tips, and other updates. Enter your email address HSIN Report Home Site Map FAQ Contact Us Traffic Light Protocol PCII Accountability Disclaimer Privacy Policy FOIA No Fear Act Accessibility Plain Writing Plug-ins Inspector General The White House USA.gov CISA is part of the Department of Homeland Security

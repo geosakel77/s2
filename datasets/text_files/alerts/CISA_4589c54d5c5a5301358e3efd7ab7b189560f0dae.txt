@@ -1,0 +1,21 @@
+Trend Micro ServerProtect Contains Multiple Vulnerabilities | CISA Skip to main content An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. CISA.gov Services Report Toggle navigation CISA.gov Services Report CertMain Menu Alerts and Tips Resources Industrial Control Systems TLP:WHITE TLP:WHITE National Cyber Awareness System > Archives Alerts > Trend Micro ServerProtect Contains Multiple Vulnerabilities This document is part of the US-CERT website archive. These documents are no longer updated and may contain outdated information. Links may also no longer function. Please contact info@us-cert.gov if you have any questions about the US-CERT website archive. More Alerts Alert (TA07-235A) Trend Micro ServerProtect Contains Multiple Vulnerabilities Original release date: August 23, 2007 Systems Affected Trend Micro ServerProtect for Windows/Novell Netware Overview A number of vulnerabilities exist in the Trend Micro ServerProtect
+antivirus product.  These vulnerabilities could allow a remote attacker
+to completely compromise an affected system. Description Multiple buffer overflow vulnerabilities and an integer overflow
+vulnerability have been discovered in the RPC interfaces used by various
+components in Trend Micro's ServerProtect software package.
+These vulnerabilities could be exploited by a remote attacker with the
+ability to supply a specially crafted RPC request to the system running
+the affected software. Further information about the vulnerabilities
+is available in the Vulnerability
+Notes Database . Impact A remote, unauthenticated attacker could execute arbitrary code on
+a vulnerable system.  The attacker-supplied code would be executed with
+system privileges, resulting in a complete compromise of the affected
+system. Solution Apply updates from Trend Micro Trend Micro has provided an update for these
+vulnerabilities in ServerProtect
+5.58 for Windows NT/2000/2003 Security Patch 4 - Build 1185 Administrators are encouraged to review this notice and apply the patch
+as soon as possible. Restrict network access to the affected components Until the patch can be applied, administrators may wish to block access to the
+vulnerable software from outside their network perimeters, specifically
+by blocking access to the ports used by the ServerProtect
+service (5168/tcp) and the ServerProtect Agent service (3628/tcp).
+This will limit exposure to attacks; however, attackers within the
+network perimeter could still exploit the vulnerabilities. References US-CERT Vulnerability Notes for Trend Micro ServerProtect Security Patch 4 - http://www.kb.cert.org/vuls/byid?searchview&query=spnt_558_win_en_securitypatch4 README for Trend Micro ServerProtect 5.58 for Windows NT/2000/2003 Security Patch 4 - Build 1185 - http://www.trendmicro.com/ftp/documentation/readme/spnt_558_win_en_securitypatch4_readme.txt Revision History August 23, 2007:  Initial release August 24, 2007:  Corrected typographic error in TCP port number for affected service This product is provided subject to this Notification and this Privacy & Use policy. Please share your thoughts. We recently updated our anonymous product survey ; we'd welcome your feedback. Contact Us (888)282-0870 Send us email Download PGP/GPG keys Submit website feedback Subscribe to Alerts Receive security alerts, tips, and other updates. Enter your email address HSIN Report Home Site Map FAQ Contact Us Traffic Light Protocol PCII Accountability Disclaimer Privacy Policy FOIA No Fear Act Accessibility Plain Writing Plug-ins Inspector General The White House USA.gov CISA is part of the Department of Homeland Security

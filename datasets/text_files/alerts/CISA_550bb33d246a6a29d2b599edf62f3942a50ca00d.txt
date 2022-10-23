@@ -1,0 +1,56 @@
+MyDoom.B Virus | CISA Skip to main content An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. CISA.gov Services Report Toggle navigation CISA.gov Services Report CertMain Menu Alerts and Tips Resources Industrial Control Systems TLP:WHITE TLP:WHITE National Cyber Awareness System > Archives Alerts > MyDoom.B Virus This document is part of the US-CERT website archive. These documents are no longer updated and may contain outdated information. Links may also no longer function. Please contact info@us-cert.gov if you have any questions about the US-CERT website archive. More Alerts Alert (SA04-028A) MyDoom.B Virus Original release date: January 28, 2004  | Last revised : January 30, 2004 Systems Affected Any system running Microsoft Windows (Windows 95 and newer) that
+are used for reading email or accessing peer-to-peer file sharing
+services. Overview A new variant of the previously discovered MyDoom
+virus , MyDoom.B, has been identified. In addition to the common
+traits of email-borne viruses, this virus may prevent your computer
+from updating anti-virus and other software. Description Quick Links Protect | Identify | Recover Protect Your Systems To protect your systems from infection by this virus, we recommend
+that you take the following steps. In addition to these steps, US-CERT
+encourages home users to review the " Home Network
+Security " and " Home
+Computer Security " documents. Avoid opening attachments from suspicious email messages Emails sent out by Mydoom.B are generated randomly. The From address
+may also be spoofed to appear as though the message is from a different
+address. The subject of the message will include one of the following: Delivery Error hello Error Mail Delivery System Mail Transaction Failed Returned mail Server Report Status Unable to deliver the message Not all email messages with these subject lines carry the MyDoom.B
+virus, some may be legitimate status messages. The message body will include one of the following: RANDOMIZED CHARACTERS test The message cannot be represented in 7-bit ASCII encoding and has been sent as a binary attachment. sendmail daemon reported: Error #804 occured during SMTP session. Partial message has been received. The message contains Unicode characters and has been sent as a binary attachment. The message contains MIME-encoded graphics and has been sent as a binary attachment. Mail transaction failed. Partial message is available. The attachment will have one of the following filenames: body doc text document data file readme message The filename also contains an extension (.exe, .bat, .scr, .cmd, or
+.pif). When the attachment is opened, the MyDoom.B virus is launched
+and the system is infected. Run and maintain an antivirus product It is important that you use antivirus software and keep it up to
+date. Most antivirus software vendors frequently release updated
+information, tools, or virus databases to help detect and recover from
+virus infections.  Many antivirus packages support automatic updates
+of virus definitions. US-CERT recommends using these automatic updates
+when possible. You may wish to read CERT Incident Note IN-2003-01 for more information on anti-virus software and security issues. Do not run programs of unknown origin Do not download, install, or run a program unless it was written by
+a person or company that you trust. Email users should be wary of unexpected attachments. Be sure you
+know the source of an attachment before opening it. Also remember that
+it is not enough that the mail originated from an email address you
+recognize. The Melissa
+virus spread precisely because it originated from a familiar email
+address. In addition, MyDoom.B attempts to spread through file-sharing
+services like KaZaA. Peer-to-peer file sharing users should be
+particularly careful of running software sent to them by other
+users. This is a commonly used method among intruders attempting to
+build networks of distributed denial-of-service (DDoS) agents. Use a personal firewall A personal
+firewall will not necessarily protect your system from an
+email-borne virus, but a properly configured personal firewall may
+prevent the virus from downloading additional components or launching
+attacks against other systems. How to Identify a MyDoom.B Infection To confirm that your system has been infected with the MyDoom.B virus, 
+perform the following steps. Check the 'hosts' file MyDoom.B overwrites the Windows 'hosts' file. The file it replaces
+it with will probably prevent your system from accessing your
+antivirus vendor's web site as well as some other web sites. You can check your hosts
+file by following these steps: Windows NT/2000/XP Systems Click on the Start menu and select Run In the dialog box that appears, type cmd and hit OK (a DOS window should appear) At the prompt in the DOS window type type %windir%\system32\drivers\etc\hosts If you see multiple lines starting with 0.0.0.0 , your system is probably infected Windows 95/98/Me Systems Click on the Start menu and select Run In the dialog box that appears, type command and hit OK (a DOS window should appear) At the prompt in the DOS window type type %windir%\hosts If you see multiple lines starting with 0.0.0.0 , your system is probably infected Check for files left by the virus MyDoom.B drops several files on an infected computer. The existence
+of these files is a good indication of infection. Be aware that
+thereare legitimate Windows files with names similar to those left by
+the virus. Only files with these names and in these specific
+directories indicate an infection. Windows NT/2000/XP Systems Click on the Start menu, select Search and then select For Files and Folders In the search box type explorer.exe The existence of explorer.exe in the System32 directory (typically C:\Windows\System32) is an indication of infection In the search box type ctfmon.dll The existence of ctfmon.dll in the System32 directory (typically C:\Windows\System32) is another indication of infection Windows 95/98/Me Systems Click on the Start menu, select Search In the search box type explorer.exe The existence of explorer.exe in the System directory (typically C:\Windows\System) is an indication of infection In the search box type ctfmon.dll The existence of ctfmon.dll in the System directory (typically C:\Windows\System) is another indication of infection Examine the Windows Registry The MyDoom.B virus also makes some changes to the Windows
+registry. Users who are unfamiliar with the registry should probably
+skip this step because it may cause serious damage to the operating system
+if accidental changes are made. Windows 95/98/Me/NT/2000/XP Systems At a DOS command prompt, type regedit.exe (the registry editor should appear) Search the Registry for the value Explorer=C:\WINDOWS\system32\explorer.exe in the key HKLM\Software\Microsoft\Windows\CurrentVersion\Run The existence of this value is an indication of MyDoom.B infection If Your System is Infected If your system is infected, you will probably be unable to access your
+antivirus vendor's web site for assistance due to some changes the
+virus has made to your system. If this is the case, follow these steps
+to delete a file installed by the virus (do not do this unless you are
+infected; it may affect the normal operation of your system): Windows NT/2000/XP Systems Click on the Start menu and select Run In the dialog box that appears, type del %windir%\system32\drivers\etc\hosts Windows 95/98/Me Systems Click on the Start menu and select Run In the dialog box that appears, type del %windir%\hosts After deleting this file, you should be able to access your
+antivirus vendor's web site, obtain the updates to your antivirus
+software and perform a full scan of your system. Some antivirus
+vendors may produce a Removal Tool and make it available on their
+web site. If your vendor provides such a tool, you may want to use it
+first. If you are still unsuccessful at removing the virus, contact your
+antivirus vendor to obtain further assistance with removal and recovery. Additional Information For additional technical details about this virus, please see US-CERT Technical Alert TA04-028A.html Copyright 2004 Carnegie Mellon University. Terms of use Revision History January 28, 2004:  Initial release January 30, 2004:  Added formatting, revised content Last 
+updated This product is provided subject to this Notification and this Privacy & Use policy. Please share your thoughts. We recently updated our anonymous product survey ; we'd welcome your feedback. Contact Us (888)282-0870 Send us email Download PGP/GPG keys Submit website feedback Subscribe to Alerts Receive security alerts, tips, and other updates. Enter your email address HSIN Report Home Site Map FAQ Contact Us Traffic Light Protocol PCII Accountability Disclaimer Privacy Policy FOIA No Fear Act Accessibility Plain Writing Plug-ins Inspector General The White House USA.gov CISA is part of the Department of Homeland Security

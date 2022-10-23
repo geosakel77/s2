@@ -1,0 +1,28 @@
+Multiple Vulnerabilities in Systems Running Microsoft Windows | CISA Skip to main content An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. CISA.gov Services Report Toggle navigation CISA.gov Services Report CertMain Menu Alerts and Tips Resources Industrial Control Systems TLP:WHITE TLP:WHITE National Cyber Awareness System > Archives Alerts > Multiple Vulnerabilities in Systems Running Microsoft Windows This document is part of the US-CERT website archive. These documents are no longer updated and may contain outdated information. Links may also no longer function. Please contact info@us-cert.gov if you have any questions about the US-CERT website archive. More Alerts Alert (SA04-212A) Multiple Vulnerabilities in Systems Running Microsoft Windows Original release date: July 30, 2004 Systems Affected Microsoft Windows systems; specifically, some versions of the following programs: Microsoft Windows NT Microsoft Windows 2000 Microsoft Windows XP Microsoft Windows Server 2003 Microsoft Windows 98 Microsoft Windows Millennium Edition Microsoft Internet Explorer 5 Microsoft Internet Explorer 6 Overview Microsoft has reported two vulnerabilities in the way Internet Explorer
+processes certain types of images. Attackers may be able to gain control
+of your machine if you view a malicious image, visit a web page, or open
+an email message that contains these images. Microsoft has also published an update to address the cross-domain
+vulnerability discussed in SA04-163A .
+This vulnerability may allow an attacker to alter a web site to point to a
+different location. If the attacker can convince you to visit the site,
+they may be able to gain control of your machine. Solution Apply a patch Microsoft has issued updates that resolve this problem. Obtain the
+appropriate update from Windows Update Use caution with email attachments Never open unexpected email attachments. Before opening an attachment,
+save it to a disk and scan it with anti-virus software. Make sure to
+turn off the option to automatically download attachments. View email messages in plain text Email programs like Outlook and Outlook Express interpret HTML code
+the same way that Internet Explorer does. Attackers may be able to
+take advantage of that by sending malicious HTML-formatted email
+messages. Maintain updated anti-virus software It is important that you use anti-virus software and keep it up to
+date. Most anti-virus software vendors frequently release updated
+information, tools, or virus databases to help detect and recover from
+virus infections. Many anti-virus packages support automatic updates
+of virus definitions. US-CERT recommends using these automatic updates
+when possible. Description In Microsoft
+Security Bulletin MS04-025 , Microsoft describes a critical
+vulnerability in the way Internet Explorer processes .GIF and .BMP
+images. An attacker can use malicious images on a web page or in
+HTML-formatted email messages. If the attacker can convince a user to
+visit the web page, open the message, or otherwise view the image, the
+attacker may be able to gain control of the user's machine. There is also a vulnerability in the way Internet Explorer processes
+scripts. An attacker may be able to take advantage of frames to
+redirect users to a malicious web site. More technical information about this issue is available in TA04-212A and Microsoft
+Security Bulletin MS04-025 . References Windows Security Updates for July 2004 - < http://www.microsoft.com/security/bulletins/200407_windows.mspx > Multiple Remote Code Execution Vulnerabilities in Microsoft Internet Explorer - < http://www.us-cert.gov/cas/techalerts/TA04-212A.html > Microsoft Security Bulletin MS04-025 - < http://www.microsoft.com/technet/security/bulletin/MS04-025.mspx > US-CERT Computer Virus Resources - < http://www.us-cert.gov/other_sources/viruses.html > Understanding Anti-Virus Software - < http://www.us-cert.gov/cas/tips/ST04-005.html > Using Caution with Email Attachments - < http://www.us-cert.gov/cas/tips/ST04-010.html > Home Network Security - < http://www.cert.org/tech_tips/home_networks.html > Home Computer Security - < http://www.cert.org/homeusers/HomeComputerSecurity/ Author: Mindi McDowell. Feedback can be directed to the This product is provided subject to this Notification and this Privacy & Use policy. Please share your thoughts. We recently updated our anonymous product survey ; we'd welcome your feedback. Contact Us (888)282-0870 Send us email Download PGP/GPG keys Submit website feedback Subscribe to Alerts Receive security alerts, tips, and other updates. Enter your email address HSIN Report Home Site Map FAQ Contact Us Traffic Light Protocol PCII Accountability Disclaimer Privacy Policy FOIA No Fear Act Accessibility Plain Writing Plug-ins Inspector General The White House USA.gov CISA is part of the Department of Homeland Security

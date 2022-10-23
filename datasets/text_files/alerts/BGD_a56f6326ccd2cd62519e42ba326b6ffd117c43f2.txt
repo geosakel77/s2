@@ -1,0 +1,28 @@
+Critical Alert: A Vulnerability in Adobe Flash Player Could Allow for Arbitrary Code Execution (APSB18-16) – BGD e-GOV CIRT | Bangladesh e-Government Computer Incident Response Team info@cirt.gov.bd +88-02-5500 7183 Home Services Articles Monthly Magazine News & Articles English Bangla Security Advisories & Alerts CVE CIRT In Media News Clipping Lecture Series Report Incident Report an Incident Statistics Traffic Light Protocol (TLP) Units Incident Handling Digital Forensic Lab Awareness Building Cyber Range Risk Assessment Unit Cyber Sensor Unit Cyber Threat Intelligence Unit IT Audit Unit Cyber Security Policy Development Unit About About us Team Organogram Contacts BGD e-GOV CIRT Service Catalogue Partners Events Documents Annual Report 2016 Mobile App Manual Bangla Ransomware Prevention & First Response Guideline Privacy Policy for Mobile App Acts/Policy Acts Policies Publications Gallery Notice Shop Critical Alert: A Vulnerability in Adobe Flash Player Could Allow for Arbitrary Code Execution (APSB18-16) Description : A vulnerability has been discovered in Adobe Flash Player,
+which could allow for arbitrary code execution. Adobe Flash Player is a
+widely distributed multimedia and application player used to enhance the
+user experience when visiting web pages or reading email messages. Impact : Successful exploitation of this vulnerability could allow for
+arbitrary code execution in the context of the user running the
+application. Depending on the privileges associated with the user, an
+attacker could then install programs; view, change, or delete data; or
+create new accounts with full user rights. Users whose accounts are
+configured to have fewer user rights on the system could be less
+impacted than those who operate with administrative user rights.
+
+System Affected:
+* Adobe Flash Player Desktop Runtime versions 29.0.0.140 and earlier for
+Windows, Macintosh, and Linux
+* Adobe Flash Player for Google Chrome versions 29.0.0.140 and earlier
+for Windows, Macintosh, Linux, and Chrome OS
+* Adobe Flash Player for Microsoft Edge and Internet Explorer 11
+versions 29.0.0.140 and earlier for Windows 10 and 8.1 Mitigation :
+The following actions are recommended:
+* Apply the appropriate patch provided by Adobe to vulnerable systems
+immediately after appropriate testing.
+* Run all software as a non-privileged user (one without administrative
+privileges) to diminish the effects of a successful attack.
+* Remind users not to visit un-trusted websites or follow links provided
+by unknown or un-trusted sources.
+* Inform and educate users regarding the threats posed by hypertext
+links contained in emails or attachments especially from un-trusted sources.
+* Apply the Principle of Least Privilege to all systems and services. Reference URL's : https://helpx.adobe.com/security/products/flash-player/apsb18-16.html https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-4944 Share Recommended Posts New PHP information-stealing malware targets Facebook accounts 16 Oct 2022 - Security Advisories & Alerts Magniber ransomware now infects Windows users via JavaScript files 16 Oct 2022 - Security Advisories & Alerts CVE-2022-41352: Remote Code Execution Vulnerability in Zimbra Collaboration Suite CVSS 3.0: 9.8 (Critical) 16 Oct 2022 - Security Advisories & Alerts Subscribe here Subscribe For Latest Updates Name* Email* Important links National Portal BNDA Post & Telecom Division Access to Information Project Prime Minister's Office Ministry of Public Administration ICT Division MEMBER OF: BGD e-GOV CIRT Bangladesh Computer Council, E-14/X, ICT Tower, Agargaon, Dhaka-1207, Bangladesh Contact us Phone: +880255007183 I Email: info@cirt.gov.bd Social Media BGD e-GOV CIRT App

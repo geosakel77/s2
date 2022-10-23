@@ -1,0 +1,17 @@
+Microsoft Windows and Internet Explorer Vulnerabilities | CISA Skip to main content An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. CISA.gov Services Report Toggle navigation CISA.gov Services Report CertMain Menu Alerts and Tips Resources Industrial Control Systems TLP:WHITE TLP:WHITE National Cyber Awareness System > Archives Alerts > Microsoft Windows and Internet Explorer Vulnerabilities This document is part of the US-CERT website archive. These documents are no longer updated and may contain outdated information. Links may also no longer function. Please contact info@us-cert.gov if you have any questions about the US-CERT website archive. More Alerts Alert (SA05-165A) Microsoft Windows and Internet Explorer Vulnerabilities Original release date: June 14, 2005 Systems Affected Microsoft Windows and various Microsoft products, including
+Internet Explorer Overview By taking advantage of vulnerabilities in various Microsoft products,
+an attacker may be able to stop affected programs or take control of your
+computer. Microsoft has released updates to address these issues. Solution Install Updates Microsoft has released security
+updates for Windows and Internet Explorer. To obtain the updates,
+visit the Windows
+Update web site. US-CERT also recommends enabling Automatic
+Updates . Description There are problems with various Microsoft applications and features: Help system - The HTML Help system is used by many Microsoft
+Windows applications. An attacker may be able to create a malicious 
+help file that may allow him or her to gain control of your computer. Image handling - Images can be saved in multiple formats,
+including .jpg, .gif, and .png. An attacker may be able to create a
+malicious image file that, if you view it, will allow him or her to
+stop affected programs or take control of your computer. Networking - Microsoft Windows uses networking to allow your 
+computer to talk to printers and other computers. A vulnerability 
+in Windows networking may allow an attacker to take control of your 
+computer. For more technical information, see US-CERT
+Technical Alert TA05-165A . References US-CERT Technical Cyber Security Alert TA05-165A - < http://www.us-cert.gov/cas/techalerts/TA05-165A.html > Microsoft Security Bulletin Summary for June, 2005 - < http://www.microsoft.com/technet/security/bulletin/ms05-jun.mspx > Author: Mindi McDowell. . Produced by US-CERT, a government organization. Terms of use Revision History June 14, 2005:  Initial release Last updated This product is provided subject to this Notification and this Privacy & Use policy. Please share your thoughts. We recently updated our anonymous product survey ; we'd welcome your feedback. Contact Us (888)282-0870 Send us email Download PGP/GPG keys Submit website feedback Subscribe to Alerts Receive security alerts, tips, and other updates. Enter your email address HSIN Report Home Site Map FAQ Contact Us Traffic Light Protocol PCII Accountability Disclaimer Privacy Policy FOIA No Fear Act Accessibility Plain Writing Plug-ins Inspector General The White House USA.gov CISA is part of the Department of Homeland Security

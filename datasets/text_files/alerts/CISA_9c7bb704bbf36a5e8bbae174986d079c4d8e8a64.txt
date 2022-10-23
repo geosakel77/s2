@@ -1,0 +1,41 @@
+CVS Heap Overflow Vulnerability | CISA Skip to main content An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. CISA.gov Services Report Toggle navigation CISA.gov Services Report CertMain Menu Alerts and Tips Resources Industrial Control Systems TLP:WHITE TLP:WHITE National Cyber Awareness System > Archives Alerts > CVS Heap Overflow Vulnerability This document is part of the US-CERT website archive. These documents are no longer updated and may contain outdated information. Links may also no longer function. Please contact info@us-cert.gov if you have any questions about the US-CERT website archive. More Alerts Alert (TA04-147A) CVS Heap Overflow Vulnerability Original release date: May 26, 2004 Systems Affected Concurrent Versions System (CVS) versions prior to 1.11.16 CVS Features versions prior to 1.12.8 Overview A heap overflow vulnerability in the Concurrent Versions System (CVS)
+could allow a remote attacker to execute arbitrary code on a vulnerable
+system. Description CVS is a source code maintenance system that is widely used by
+open-source software development projects. There is a heap memory overflow
+vulnerability in the way CVS handles the insertion of modified and
+unchanged flags within entry lines. When processing an entry line, an
+additional byte of memory is allocated to flag the entry as modified or
+unchanged. There is a failure to check if a byte has been previously
+allocated for the flag, which creates an off-by-one buffer overflow. By
+calling a vulnerable function several times and inserting specific
+characters into the entry lines, a remote attacker could overwrite
+multiple blocks of memory. In some environments, the CVS server process is
+started by the Internet services daemon (inetd) and may run with root
+privileges. An authenticated client could exploit this vulnerability to execute
+arbitrary code, execute commands, modify sensitive information, or cause a
+denial of service. Note that if a CVS server is configured to permit
+anonymous read-only access, then this provides sufficient access to
+exploit a vulnerable server, as anonymous users are authenticated through
+the cvspserver process. US-CERT is tracking this issue as VU#192038 .  This
+reference number corresponds to CVE candidate CAN-2004-0396 . Impact An authenticated client could exploit this vulnerability to execute
+arbitrary code on the vulnerable system with the privileges of the CVS
+server process. It is possible for an anonymous user with read-only access
+to exploit a vulnerable server as they are authenticated through the
+cvspserver process. In addition to compromising the system running CVS, there is a
+significant secondary impact in that source code maintained in CVS
+repositories could be modified to include Trojan horses, backdoors, or
+other malicious code. Solution Apply Patch or Upgrade Apply the appropriate patch or upgrade as specified by your vendor. For 
+vendor specific responses, please see your vendor's website or Vulnerability 
+Note VU#192038 . This issue has been resolved in Stable CVS Version 1.11.16 and CVS Feature Version 1.12.8 . Disable CVS Server Until a patch or upgrade can be applied, consider disabling the CVS 
+server. Block or Restrict Access Block or restrict access to the CVS server from untrusted hosts and
+networks. The CVS server typically listens on 2401/tcp, but may use
+another port or protocol. Limit CVS Server Privileges Configure CVS server to run in a
+restricted (chroot) environment. Run CVS servers with the minimum set
+of privileges required on the host file system. Provide separate
+systems for development (write) and public/anonymous (read-only) CVS
+access. Host public/anonymous CVS servers on single-purpose, secured
+systems. Note that some of these workarounds will only limit the scope
+and impact of possible attacks. Note also that anonymous (read-only) 
+access is sufficent to exploit this vulnerability. Appendix B. References http://security.e-matters.de/advisories/072004.html http://secunia.com/advisories/11641/ http://www.securitytracker.com/alerts/2004/May/1010208.html http://www.netsys.com/library/papers/chrooted-ssh-cvs-server.txt US-CERT thanks Stefan Esser of e-matters for reporting this
+problem and for information used to construct this advisory. Feedback can be directed to the authors: Jason
+A. Rafail and Damon Morda Revision History May 26, 2004:  Initial release Last updated This product is provided subject to this Notification and this Privacy & Use policy. Please share your thoughts. We recently updated our anonymous product survey ; we'd welcome your feedback. Contact Us (888)282-0870 Send us email Download PGP/GPG keys Submit website feedback Subscribe to Alerts Receive security alerts, tips, and other updates. Enter your email address HSIN Report Home Site Map FAQ Contact Us Traffic Light Protocol PCII Accountability Disclaimer Privacy Policy FOIA No Fear Act Accessibility Plain Writing Plug-ins Inspector General The White House USA.gov CISA is part of the Department of Homeland Security

@@ -1,0 +1,27 @@
+Multiple Vulnerabilities in Cisco Webex Network Recording Player – BGD e-GOV CIRT | Bangladesh e-Government Computer Incident Response Team info@cirt.gov.bd +88-02-5500 7183 Home Services Articles Monthly Magazine News & Articles English Bangla Security Advisories & Alerts CVE CIRT In Media News Clipping Lecture Series Report Incident Report an Incident Statistics Traffic Light Protocol (TLP) Units Incident Handling Digital Forensic Lab Awareness Building Cyber Range Risk Assessment Unit Cyber Sensor Unit Cyber Threat Intelligence Unit IT Audit Unit Cyber Security Policy Development Unit About About us Team Organogram Contacts BGD e-GOV CIRT Service Catalogue Partners Events Documents Annual Report 2016 Mobile App Manual Bangla Ransomware Prevention & First Response Guideline Privacy Policy for Mobile App Acts/Policy Acts Policies Publications Gallery Notice Shop Multiple Vulnerabilities in Cisco Webex Network Recording Player Description: Multiple vulnerabilities in the Cisco Webex
+      Network Recording Player and Cisco Webex Player could allow an
+      unauthenticated, remote attacker to execute arbitrary code on the
+      system of a targeted user. An attacker could exploit these
+      vulnerabilities by sending a user a link or email attachment
+      containing a malicious ARF (Advanced Recording Format) or WRF
+      (Webex Recording Format) file via a link or an email attachment
+      and persuading the user to open the file with the affected
+      software. Impact: Successful exploitation of these vulnerabilities
+      could allow the attacker to execute arbitrary code on the user’s
+      system. Depending on the privileges associated with the user, an
+      attacker could then install programs; view, change, or delete
+      data; or create new accounts with full user rights. Users whose
+      accounts are configured to have fewer user rights on the system
+      could be less impacted than those who operate with administrative
+      user rights. System Affected: * Cisco Webex — all Webex Network Recording Player and Webex
+      Player releases earlier than Release WBS 39.5.17 or WBS 39.11.0 * Cisco Webex Meetings Online — all Webex Network Recording Player
+      and Webex Player releases earlier than Release 1.3.49 * Cisco Webex Meetings Server — all Webex Network Recording Player
+      releases earlier than Release 3.0MR3SecurityPatch1 and
+      4.0MR2SecurityPatch2 Mitigation: The following actions are recommended: * Install the update provided by Cisco immediately after
+      appropriate testing. * Run all software as a non-privileged user (one without
+      administrative privileges) to diminish the effects of a successful
+      attack. * Remind users not to visit websites or follow links provided by
+      unknown or untrusted sources. * Inform and educate users regarding the threats posed by
+      hypertext links contained in emails or attachments especially from
+      un-trusted sources. * Apply the Principle of Least Privilege to all systems and
+      services. Reference URL’s: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200304-webex-player https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3127 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3128 Share Recommended Posts New PHP information-stealing malware targets Facebook accounts 16 Oct 2022 - Security Advisories & Alerts Magniber ransomware now infects Windows users via JavaScript files 16 Oct 2022 - Security Advisories & Alerts CVE-2022-41352: Remote Code Execution Vulnerability in Zimbra Collaboration Suite CVSS 3.0: 9.8 (Critical) 16 Oct 2022 - Security Advisories & Alerts Subscribe here Subscribe For Latest Updates Name* Email* Important links National Portal BNDA Post & Telecom Division Access to Information Project Prime Minister's Office Ministry of Public Administration ICT Division MEMBER OF: BGD e-GOV CIRT Bangladesh Computer Council, E-14/X, ICT Tower, Agargaon, Dhaka-1207, Bangladesh Contact us Phone: +880255007183 I Email: info@cirt.gov.bd Social Media BGD e-GOV CIRT App

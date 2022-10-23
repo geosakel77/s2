@@ -104,10 +104,6 @@ class SourceExtractor:
             entries[code] = data
         return entries
 
-    def get_stixv2(self):
-        pass
-
-
 class SourceManager:
 
     def __init__(self, alerts_path="../raw_data/html/alerts", reports_path="../raw_data/html/reports"):
@@ -323,5 +319,4 @@ class CrawlerManager:
 
 
 if __name__ == "__main__":
-    crawler = CrawlerManager()
-    crawler.main()
+    pass

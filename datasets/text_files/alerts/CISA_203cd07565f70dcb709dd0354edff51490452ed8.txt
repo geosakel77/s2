@@ -1,0 +1,28 @@
+Cisco IOS Input Queue Vulnerability | CISA Skip to main content An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. CISA.gov Services Report Toggle navigation CISA.gov Services Report CertMain Menu Alerts and Tips Resources Industrial Control Systems TLP:WHITE TLP:WHITE National Cyber Awareness System > Archives Alerts > Cisco IOS Input Queue Vulnerability This document is part of the US-CERT website archive. These documents are no longer updated and may contain outdated information. Links may also no longer function. Please contact info@us-cert.gov if you have any questions about the US-CERT website archive. More Alerts Alert (TA04-316A) Cisco IOS Input Queue Vulnerability Original release date: November 11, 2004 Systems Affected Cisco routers, switches, and line cards running vulnerable versions of IOS The following versions of IOS are known to be affected: 12.2(18)EW 12.2(18)EWA 12.2(18)S 12.2(18)SE 12.2(18)SV 12.2(18)SW 12.2(14)SZ Overview There is a vulnerability in the way Cisco IOS
+  processes DHCP packets. Exploitation of this vulnerability may lead to a denial
+  of service. The processing of DHCP packets is enabled by default. Description The Dynamic Host Configuration Protocol ( DHCP )
+  provides a means for distributing configuration information to hosts on a TCP/IP
+  network.The Cisco Internetwork Operating System (IOS) contains a vulnerability
+  that allows malformed DHCP packets to cause an affected device to stop processing
+  incoming network traffic. Cisco routers, switches,
+    and line cards provide support for processing DHCP packets. Cisco devices
+  can act as a DHCP server, providing host configuration information to clients,
+  or they can forward DHCP and BootP requests as a relay agent. The affected
+  devices have the DHCP service enabled by default and will accept and process
+  incoming DHCP packets. When a DHCP packet is received, it is placed into an
+  input queue so it can be processed. Undeliverable DHCP packets may remain in
+  the queue if malformed in a certain way. When the queue becomes full, the device
+  will stop accepting all traffic on that interface, not just DHCP traffic. The DHCP service is enabled by default in IOS. DHCP can only be disabled when
+  the no service dhcp command is specified in the running configuration.
+  Cisco notes the following in their advisory : Cisco routers are configured to process and accept DHCP packets by default, therefore the command service dhcp does not appear in the running configuration display, and only the command for the disabled feature, no service dhcp, will appear in the running configuration display when the feature is disabled. The vulnerability is present, regardless if the DHCP server or relay agent configurations are present on an affected product. The only required configuration for this vulnerability in affected versions is the lack of the no service dhcp command. Cisco is tracking this issue as CSCee50294. US-CERT is tracking this issue as VU#630104 . Impact By sending a specially crafted DHCP packet to an affected device, a remote,
+  unauthenticated attacker could cause the device to stop processing incoming
+  network traffic. Repeated exploitation of this vulnerability could lead to
+  a sustained denial-of-service condition. In order to regain functionality,
+the device must be rebooted to clear the input queue on the interface. Solution Upgrade to fixed versions of IOS Cisco has published detailed
+    information about upgrading affected Cisco IOS software to correct this vulnerability. System managers are encouraged to upgrade to one of the non-vulnerable releases. For additional information regarding availability of repaired releases, please refer to the " Software Versions and Fixes " section
+of the Cisco Security Advisory. Workarounds Cisco recommends a number of workarounds. For a complete list of workarounds,
+  see the Cisco Security Advisory . Appendix A. References Vulnerability Note VU#630104 - http://www.kb.cert.org/vuls/id/630104 Cisco Security Advisory: "Cisco IOS DHCP Blocked Interface Denial-of-Service"
+  - http://www.cisco.com/warp/public/707/cisco-sa-20041110-dhcp.shtml US-CERT thanks Cisco Systems for notifying us about
+this problem. Feedback can be directed to the authors: Jeff Havrilla,
+    Damon Morda, and Jason Rafail Copyright 2004 Carnegie Mellon University. Terms
+    of use Revision History November 11, 2004:  Initial release Last updated This product is provided subject to this Notification and this Privacy & Use policy. Please share your thoughts. We recently updated our anonymous product survey ; we'd welcome your feedback. Contact Us (888)282-0870 Send us email Download PGP/GPG keys Submit website feedback Subscribe to Alerts Receive security alerts, tips, and other updates. Enter your email address HSIN Report Home Site Map FAQ Contact Us Traffic Light Protocol PCII Accountability Disclaimer Privacy Policy FOIA No Fear Act Accessibility Plain Writing Plug-ins Inspector General The White House USA.gov CISA is part of the Department of Homeland Security

@@ -1,0 +1,123 @@
+Continuing Threats to Home Users | CISA Skip to main content An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. CISA.gov Services Report Toggle navigation CISA.gov Services Report CertMain Menu Alerts and Tips Resources Industrial Control Systems TLP:WHITE TLP:WHITE National Cyber Awareness System > Archives Alerts > Continuing Threats to Home Users This document is part of the US-CERT website archive. These documents are no longer updated and may contain outdated information. Links may also no longer function. Please contact info@us-cert.gov if you have any questions about the US-CERT website archive. More Alerts Alert (SA04-079A) Continuing Threats to Home Users Original release date: March 19, 2004 Systems Affected /W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> Continuing Threats to Home Users View Previous Alerts Alert (SA04-079A) Continuing Threats to Home Users Original Release date: March 19, 2004 | Last revised: -- Print Document Tweet Like Me Share Overview There are a number of pieces of malicious code
+spreading on the Internet through email attachments, peer-to-peer file
+sharing networks and known software vulnerabilities. Intruders target home users who have cable modem and DSL
+connections because many home users do not keep their machines up to
+date with security patches and workarounds, do not run current
+anti-virus software, and do not exercise caution when handling email
+attachments. Everyone should take precautions, patch vulnerabilities,
+and recover if you have been compromised. Current Threats US-CERT is currently tracking the incident activity related to
+several pieces of malicious code - Phatbot, W32/Beagle, W32/Netsky and
+W32/MyDoom. Phatbot Trojan Horse The Phatbot Trojan Horse is a piece of malicious code that allows a
+remote attacker to control a large number of systems. Phatbot attempts
+to propagate by exploiting vulnerabilities in the Microsoft Windows
+operating system for which users have not applied the available
+patches. If your computer is infected a remote attacker will have
+access to your files and programs. W32/Beagle Virus The W32/Beagle virus is a mass-mailing virus that arrives as an
+attachment to an email message. To be infected, a user must open the
+attachment. There are many variants of this virus. Some may require a
+password which is included in the email message. W32/Netsky Virus The Netsky.B virus, described in IN-2004-02 ,
+is a mass-mailing virus that attempts to propagate either as an
+attachment to an email message or by copying itself to Windows network
+shares. W32/MyDoom Virus The MyDoom virus, described in TA04-028A ,
+is a mass-mailing virus that attempts to propagate as an attachment to
+an email message. Protective Measures There are steps you can take to better protect your system from
+these attacks: Apply Patches Many viruses spread by exploiting known vulnerabilities in
+unpatched systems. It is very important for users to apply
+security-related patches to their operating systems and
+applications. Install and Maintain Anti-Virus Software US-CERT strongly recommends using anti-virus software. Most current
+anti-virus software products detect and alert the user of viruses. It
+is important to keep them up to date with current virus and attack
+signatures supplied by the software vendor. Many anti-virus packages
+support automatic updates of virus definitions. We recommend using
+these automatic updates when available. Deploy a Firewall US-CERT also recommends using a firewall product. In some
+situations, these products may be able to alert users to the fact that
+their machine has been compromised. Furthermore, they have the ability
+to block intruders from accessing backdoors over the network. However,
+no firewall can detect or stop all attacks, so it is important to
+continue to follow safe computing practices. Follow Best Practices The technical measures listed above do not provide a complete
+solution for securing a system. There are some best practices you can
+follow: Do not download, install, or run a program unless you know it
+was written by a person or company that you trust. Email users should be wary of unexpected attachments. Be sure you
+know the source of an attachment before opening it. Also remember that
+it is not enough that the mail originated from an email address you
+recognize. Many viruses spread precisely because they originate from a
+familiar email address. Users should also be wary of URLs in email or instant
+messages. URLs can link to malicious content that in some cases may be
+executed without user intervention. A common social engineering
+technique known as "phishing" uses misleading URLs to entice users to
+visit malicious web sites. These sites spoof legitimate web sites to
+solicit sensitive information such as passwords or account
+numbers. In addition, users of Internet Relay Chat (IRC), Instant Messaging
+(IM), and file-sharing services should be particularly careful of
+following links or running software sent to them by other users. These
+are commonly used methods among intruders attempting to build networks
+of distributed denial-of-service (DDoS) agents. For additional information about securing home systems and
+networks, please see the references below. Recovery If the protective measures above, or other indicators, reveal that
+a system has already been compromised, more drastic steps need to be
+taken to recover. In general, the only way to ensure that a
+compromised computer is free from backdoors and intruder modifications
+is to re-install t Description W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> Continuing Threats to Home Users View Previous Alerts Alert (SA04-079A) Continuing Threats to Home Users Original Release date: March 19, 2004 | Last revised: -- Print Document Tweet Like Me Share Overview There are a number of pieces of malicious code
+spreading on the Internet through email attachments, peer-to-peer file
+sharing networks and known software vulnerabilities. Intruders target home users who have cable modem and DSL
+connections because many home users do not keep their machines up to
+date with security patches and workarounds, do not run current
+anti-virus software, and do not exercise caution when handling email
+attachments. Everyone should take precautions, patch vulnerabilities,
+and recover if you have been compromised. Current Threats US-CERT is currently tracking the incident activity related to
+several pieces of malicious code - Phatbot, W32/Beagle, W32/Netsky and
+W32/MyDoom. Phatbot Trojan Horse The Phatbot Trojan Horse is a piece of malicious code that allows a
+remote attacker to control a large number of systems. Phatbot attempts
+to propagate by exploiting vulnerabilities in the Microsoft Windows
+operating system for which users have not applied the available
+patches. If your computer is infected a remote attacker will have
+access to your files and programs. W32/Beagle Virus The W32/Beagle virus is a mass-mailing virus that arrives as an
+attachment to an email message. To be infected, a user must open the
+attachment. There are many variants of this virus. Some may require a
+password which is included in the email message. W32/Netsky Virus The Netsky.B virus, described in IN-2004-02 ,
+is a mass-mailing virus that attempts to propagate either as an
+attachment to an email message or by copying itself to Windows network
+shares. W32/MyDoom Virus The MyDoom virus, described in TA04-028A ,
+is a mass-mailing virus that attempts to propagate as an attachment to
+an email message. Protective Measures There are steps you can take to better protect your system from
+these attacks: Apply Patches Many viruses spread by exploiting known vulnerabilities in
+unpatched systems. It is very important for users to apply
+security-related patches to their operating systems and
+applications. Install and Maintain Anti-Virus Software US-CERT strongly recommends using anti-virus software. Most current
+anti-virus software products detect and alert the user of viruses. It
+is important to keep them up to date with current virus and attack
+signatures supplied by the software vendor. Many anti-virus packages
+support automatic updates of virus definitions. We recommend using
+these automatic updates when available. Deploy a Firewall US-CERT also recommends using a firewall product. In some
+situations, these products may be able to alert users to the fact that
+their machine has been compromised. Furthermore, they have the ability
+to block intruders from accessing backdoors over the network. However,
+no firewall can detect or stop all attacks, so it is important to
+continue to follow safe computing practices. Follow Best Practices The technical measures listed above do not provide a complete
+solution for securing a system. There are some best practices you can
+follow: Do not download, install, or run a program unless you know it
+was written by a person or company that you trust. Email users should be wary of unexpected attachments. Be sure you
+know the source of an attachment before opening it. Also remember that
+it is not enough that the mail originated from an email address you
+recognize. Many viruses spread precisely because they originate from a
+familiar email address. Users should also be wary of URLs in email or instant
+messages. URLs can link to malicious content that in some cases may be
+executed without user intervention. A common social engineering
+technique known as "phishing" uses misleading URLs to entice users to
+visit malicious web sites. These sites spoof legitimate web sites to
+solicit sensitive information such as passwords or account
+numbers. In addition, users of Internet Relay Chat (IRC), Instant Messaging
+(IM), and file-sharing services should be particularly careful of
+following links or running software sent to them by other users. These
+are commonly used methods among intruders attempting to build networks
+of distributed denial-of-service (DDoS) agents. For additional information about securing home systems and
+networks, please see the references below. Recovery If the protective measures above, or other indicators, reveal that
+a system has already been compromised, more drastic steps need to be
+taken to recover. In general, the only way to ensure that a
+compromised computer is free from backdoors and intruder modifications
+is to re-install the operating system and install patches before
+connecting back to the network. Sometimes using an anti-virus software
+package to "clean" the system may not be enough. References Before
+You Connect a New Computer to the Internet -
+http://www.us-cert.gov/reading_room/before_you_plug_in.html Home
+Network Security -
+http://www.us-cert.gov/reading_room/home-network-security/ Home Computer Security - http://www.us-cert.gov/reading_room/HomeComputerSecurity/ Understanding Firewalls - http://www.us-cert.gov/cas/tips/ST04-004.html Good Security Habits - http://www.us-cert.gov/cas/tips/ST04-003.html Choosing and Protecting Passwords - http://www.us-cert.gov/cas/tips/ST04-002.html Authors: Brian B. King, Damon Morda Copyright 2004 Carnegie Mellon University. Terms of use Revision History March 19, 2004:  Initial release Last updated This product is provided subject to this Notification and this Privacy & Use policy. Please share your thoughts. We recently updated our anonymous product survey ; we'd welcome your feedback. Contact Us (888)282-0870 Send us email Download PGP/GPG keys Submit website feedback Subscribe to Alerts Receive security alerts, tips, and other updates. Enter your email address HSIN Report Home Site Map FAQ Contact Us Traffic Light Protocol PCII Accountability Disclaimer Privacy Policy FOIA No Fear Act Accessibility Plain Writing Plug-ins Inspector General The White House USA.gov CISA is part of the Department of Homeland Security

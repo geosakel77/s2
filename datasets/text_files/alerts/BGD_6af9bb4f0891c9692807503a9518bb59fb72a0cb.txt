@@ -1,0 +1,47 @@
+Critical Patches Issued for Microsoft Products, May 8, 2018 – BGD e-GOV CIRT | Bangladesh e-Government Computer Incident Response Team info@cirt.gov.bd +88-02-5500 7183 Home Services Articles Monthly Magazine News & Articles English Bangla Security Advisories & Alerts CVE CIRT In Media News Clipping Lecture Series Report Incident Report an Incident Statistics Traffic Light Protocol (TLP) Units Incident Handling Digital Forensic Lab Awareness Building Cyber Range Risk Assessment Unit Cyber Sensor Unit Cyber Threat Intelligence Unit IT Audit Unit Cyber Security Policy Development Unit About About us Team Organogram Contacts BGD e-GOV CIRT Service Catalogue Partners Events Documents Annual Report 2016 Mobile App Manual Bangla Ransomware Prevention & First Response Guideline Privacy Policy for Mobile App Acts/Policy Acts Policies Publications Gallery Notice Shop Critical Patches Issued for Microsoft Products, May 8, 2018 Description : Multiple vulnerabilities have been discovered in Microsoft
+products, the most severe of which could allow for code execution. There
+are reports of a remote code execution vulnerability (CVE-2018-8174)
+being actively exploited in the wild as part of a cyber-espionage campaign. Impact : Successful exploitation of the most severe of these
+vulnerabilities could result in an attacker gaining the same privileges
+as the logged on user. Depending on the privileges associated with the
+user, an attacker could then install programs; view, change, or delete
+data; or create new accounts with full user rights. Users whose accounts
+are configured to have fewer user rights on the system could be less
+impacted than those who operate with administrative user rights.
+
+System Affected:
+* Microsoft Windows 7, 8, RT 8.1, and 10
+* Microsoft Windows Server 2008, 2008 R2, 2012, 2012 R2, 2016
+* Microsoft Windows Server Core Installation 2008, 2008 R2, 2012, 2012 R2, 2016, versions 1709, 1803
+* Microsoft Office 2010, 2013, 2013 RT, 2016, 2016 Click-to-Run, 2016 for Mac
+* Microsoft Office Compatibility Pack
+* Microsoft Office Web Apps 2010
+* Microsoft Office Web Apps Server 2010, 2013
+* Microsoft Word 2013, 2013 RT, 2016
+* Microsoft Excel 2010, 2013, 2013 RT, 2016
+* Word Automation Services
+* Microsoft Internet Explorer 9, 10, 11
+* Microsoft Edge
+* Microsoft .NET Framework 2.0, 3.0, 3.5, 3.5.1, 4.5.2, 4.6, 4.6.1, 4.6.2, 4.7, 4.7.1, 4.7.2
+* .NET Core 2.0
+* Microsoft Exchange Server 2010, 2013, 2016
+* Microsoft Project Server 2010, 2013
+* Microsoft Infopath 2013
+* Microsoft SharePoint Foundation 2013
+* Microsoft SharePoint Server 2010
+* Microsoft SharePoint Enterprise Server 2013, 2016
+* ChakraCore
+* C SDK for Azure IoT
+* C# SDK for Azure IoT
+* Java SDK for Azure IoT
+* Windows Host Compute Service Shim Mitigation :
+The following actions are recommended:
+* Apply appropriate patches or appropriate mitigations provided by
+Microsoft to vulnerable systems immediately after appropriate testing
+* Run all software as a non-privileged user (one without administrative
+rights) to diminish the effects of a successful attack.
+* Remind all users not to visit untrusted websites or follow links
+provided by unknown or untrusted sources.
+* Inform and educate users regarding threats posed by hypertext links
+contained in emails or attachments especially from untrusted sources
+* Apply the Principle of Least Privilege to all systems and services. Reference URL's : https://portal.msrc.microsoft.com/en-us/security-guidance/summary https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/a82328f9-1f26-e811-a968-000d3a33a34d https://www.bleepingcomputer.com/news/microsoft/microsoft-may-2018-patch-tuesday-fixes-67-security-issues-including-ie-zero-day/ Share Recommended Posts New PHP information-stealing malware targets Facebook accounts 16 Oct 2022 - Security Advisories & Alerts Magniber ransomware now infects Windows users via JavaScript files 16 Oct 2022 - Security Advisories & Alerts CVE-2022-41352: Remote Code Execution Vulnerability in Zimbra Collaboration Suite CVSS 3.0: 9.8 (Critical) 16 Oct 2022 - Security Advisories & Alerts Subscribe here Subscribe For Latest Updates Name* Email* Important links National Portal BNDA Post & Telecom Division Access to Information Project Prime Minister's Office Ministry of Public Administration ICT Division MEMBER OF: BGD e-GOV CIRT Bangladesh Computer Council, E-14/X, ICT Tower, Agargaon, Dhaka-1207, Bangladesh Contact us Phone: +880255007183 I Email: info@cirt.gov.bd Social Media BGD e-GOV CIRT App

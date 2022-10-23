@@ -1,0 +1,48 @@
+Critical Alert: Multiple Vulnerabilities in Google Android OS Could Allow for Arbitrary Code Execution – BGD e-GOV CIRT | Bangladesh e-Government Computer Incident Response Team info@cirt.gov.bd +88-02-5500 7183 Home Services Articles Monthly Magazine News & Articles English Bangla Security Advisories & Alerts CVE CIRT In Media News Clipping Lecture Series Report Incident Report an Incident Statistics Traffic Light Protocol (TLP) Units Incident Handling Digital Forensic Lab Awareness Building Cyber Range Risk Assessment Unit Cyber Sensor Unit Cyber Threat Intelligence Unit IT Audit Unit Cyber Security Policy Development Unit About About us Team Organogram Contacts BGD e-GOV CIRT Service Catalogue Partners Events Documents Annual Report 2016 Mobile App Manual Bangla Ransomware Prevention & First Response Guideline Privacy Policy for Mobile App Acts/Policy Acts Policies Publications Gallery Notice Shop Critical Alert: Multiple Vulnerabilities in Google Android OS Could Allow for Arbitrary Code Execution Description : Multiple vulnerabilities have been discovered in Google
+Android OS, the most severe of which could allow for arbitrary code
+execution within the context of a privileged process. Details of these
+vulnerabilities are as follows:
+
+* An information disclosure vulnerability in Android runtime.
+(CVE-2017-13309)
+* Multiple elevation of privilege vulnerabilities in Framework.
+(CVE-2017-13310, CVE-2017-13311)
+* Multiple information disclosure vulnerabilities in Kernel components.
+(CVE-2017-16643, CVE-2017-5754)
+* An elevation of privilege vulnerability in Media framework.
+(CVE-2017-13312)
+* A denial of service vulnerability in Media framework. (CVE-2017-13313)
+* An information disclosure vulnerability in NVIDIA components.
+(CVE-2017-5715)
+* Multiple elevation of privilege vulnerabilities in NVIDIA components.
+(CVE-2017-6289, CVE-2017-6293)
+* Multiple elevation of privilege vulnerabilities in Qualcomm
+components. (CVE-2017-13077, CVE-2017-18154, CVE-2018-3562,
+CVE-2018-3565, CVE-2018-3578, CVE-2018-5840, CVE-2018-5841,
+CVE-2018-5845, CVE-2018-5846, CVE-2018-5850)
+* An arbitrary code vulnerability in Qualcomm components. (CVE-2018-3580)
+* Multiple elevation of privilege vulnerabilities in System.
+(CVE-2017-13314, CVE-2017-13315) Impact : Successful exploitation of the most severe of these
+vulnerabilities could allow for arbitrary code execution in the context
+of a privileged process. These vulnerabilities could be exploited
+through multiple methods such as email, web browsing, and MMS when
+processing media files. Depending on the privileges associated with the
+application, an attacker could then install programs; view, change, or
+delete data; or create new accounts with full user rights. If this
+application has been configured to have fewer user rights on the system,
+exploitation of the most severe of these vulnerabilities could have less
+impact than if it was configured with administrative rights.
+
+System Affected:
+* Android OS builds utilizing Security Patch Levels issued prior to May
+5, 2018. Mitigation :
+The following actions are recommended:
+* Apply appropriate updates by Google Android or mobile carriers to
+vulnerable systems, immediately after appropriate testing, when they
+become available.
+* Remind users to only download applications from trusted vendors in the
+Play Store.
+* Remind users not to visit un-trusted websites or follow links provided
+by unknown or un-trusted sources.
+* Inform and educate users regarding threats posed by hypertext links
+contained in emails or attachments, especially from un-trusted sources. Reference URL's : http://source.android.com/security/bulletin/2018-05-01 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5715 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5754 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-6289 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-6293 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-13077 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-13309 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-13310 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-13311 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-13312 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-13313 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-13314 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-13315 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-16643 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18154 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3562 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3565 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3578 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3580 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5840 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5841 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5845 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5846 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5850 Share Recommended Posts New PHP information-stealing malware targets Facebook accounts 16 Oct 2022 - Security Advisories & Alerts Magniber ransomware now infects Windows users via JavaScript files 16 Oct 2022 - Security Advisories & Alerts CVE-2022-41352: Remote Code Execution Vulnerability in Zimbra Collaboration Suite CVSS 3.0: 9.8 (Critical) 16 Oct 2022 - Security Advisories & Alerts Subscribe here Subscribe For Latest Updates Name* Email* Important links National Portal BNDA Post & Telecom Division Access to Information Project Prime Minister's Office Ministry of Public Administration ICT Division MEMBER OF: BGD e-GOV CIRT Bangladesh Computer Council, E-14/X, ICT Tower, Agargaon, Dhaka-1207, Bangladesh Contact us Phone: +880255007183 I Email: info@cirt.gov.bd Social Media BGD e-GOV CIRT App

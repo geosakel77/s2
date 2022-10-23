@@ -1,0 +1,21 @@
+Apple Mac Products Affected by Multiple Vulnerabilities | CISA Skip to main content An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. CISA.gov Services Report Toggle navigation CISA.gov Services Report CertMain Menu Alerts and Tips Resources Industrial Control Systems TLP:WHITE TLP:WHITE National Cyber Awareness System > Archives Alerts > Apple Mac Products Affected by Multiple Vulnerabilities This document is part of the US-CERT website archive. These documents are no longer updated and may contain outdated information. Links may also no longer function. Please contact info@us-cert.gov if you have any questions about the US-CERT website archive. More Alerts Alert (TA06-214A) Apple Mac Products Affected by Multiple Vulnerabilities Original release date: August 02, 2006 Systems Affected Apple Mac OS X version 10.3.9 and earlier (Panther) Apple Mac OS X version 10.4.7 and earlier (Tiger) Apple Mac OS X Server version 10.3.9 and earlier Apple Mac OS X Server version 10.4.7 and earlier Apple Safari web browser Apple Mail Overview Apple has released Security Update 2006-004 to correct multiple vulnerabilities affecting Mac OS X, Mac OS X
+Server, Safari web browser, Mail, and other products. The most serious
+of these vulnerabilities may allow a remote attacker to execute
+arbitrary code. Impacts of other vulnerabilities include bypass of
+security restrictions and denial of service. Description Apple Security Update 2006-004 resolves a number of vulnerabilities affecting Mac OS X, OS X Server,
+Safari web browser, Mail, and other products. Further details are
+available in the individual Vulnerability
+Notes . This security update addresses vulnerabilities in a range of
+different components, including the handling of a number of different
+image file formats, ZIP archive files, and HTML web pages, among
+others. Impact The impacts of these vulnerabilities vary. For information about
+specific impacts, please see the Vulnerability
+Notes . Potential consequences include remote execution of
+arbitrary code or commands, bypass of security restrictions, and
+denial of service. Solution Install an update Install Apple Security Update 2006-004 .  This and other updates are available via Apple Update . Workaround Disable "Open 'safe' files after downloading" For additional protection, disable the Safari web browser option to
+"Open 'safe' files after downloading," as specified in " Securing
+Your Web Browser ." Note that this workaround will not mitigate
+all of the vulnerabilities described in the Apple Security Update,
+only those which are exacerbated by the default behavior of the Safari
+web browser. Appendix A. References Vulnerability Notes for Apple Security Update 2006-004 - http://www.kb.cert.org/vuls/byid?searchview&query=apple-2006-004 Securing Your Web Browser - http://www.us-cert.gov/reading_room/securing_browser/#Safari Apple Security Update 2006-004 - http://docs.info.apple.com/article.html?artnum=304063 Mac OS X: Updating your software - http://docs.info.apple.com/article.html?artnum=106704 These vulnerabilities were reported in Apple Security Update 2006-004 . Please
+see the Vulnerability Notes for individual reporter acknowledgements. Revision History August 02, 2006:  Initial release This product is provided subject to this Notification and this Privacy & Use policy. Please share your thoughts. We recently updated our anonymous product survey ; we'd welcome your feedback. Contact Us (888)282-0870 Send us email Download PGP/GPG keys Submit website feedback Subscribe to Alerts Receive security alerts, tips, and other updates. Enter your email address HSIN Report Home Site Map FAQ Contact Us Traffic Light Protocol PCII Accountability Disclaimer Privacy Policy FOIA No Fear Act Accessibility Plain Writing Plug-ins Inspector General The White House USA.gov CISA is part of the Department of Homeland Security

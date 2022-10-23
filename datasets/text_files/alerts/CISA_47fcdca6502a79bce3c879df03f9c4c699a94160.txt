@@ -1,0 +1,21 @@
+SQL Injection Vulnerabilities in Oracle E-Business Suite | CISA Skip to main content An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. CISA.gov Services Report Toggle navigation CISA.gov Services Report CertMain Menu Alerts and Tips Resources Industrial Control Systems TLP:WHITE TLP:WHITE National Cyber Awareness System > Archives Alerts > SQL Injection Vulnerabilities in Oracle E-Business Suite This document is part of the US-CERT website archive. These documents are no longer updated and may contain outdated information. Links may also no longer function. Please contact info@us-cert.gov if you have any questions about the US-CERT website archive. More Alerts Alert (TA04-160A) SQL Injection Vulnerabilities in Oracle E-Business Suite Original release date: June 08, 2004  | Last revised : June 09, 2004 Systems Affected Oracle Applications 11.0 (all releases) Oracle E-Business Suite 11i, 11.5.1 through 11.5.8 Overview A vulnerability in the Oracle's E-Business Suite allows a remote
+attacker to execute arbitrary script on a vulnerable database system. 
+Exploitation may lead to compromise of the database application, data 
+integrity, or underlying operating system. Description Oracle E-Business Suite is a set of applications and modules that
+enables an organization to manage customer interactions, deliver services,
+manufacture products, ship orders, collect payments, and other tasks using
+a single database model. According to the Oracle
+Security Alert 67 , Oracle Applications 11.0 (all releases) and Oracle
+E-Business Suite Release 11i, 11.5.1 through 11.5.8 are vulnerable to SQL
+injection vulnerabilities. Oracle E-Business Suite Release 11.5.9 and
+later are not vulnerable. This vulnerability is not platform specific.
+Integrigy Corporation has also released an alert about these vulnerabilities. Note that no authentication mechanisms of Oracle E-Business Suite will 
+mitigate exploitation of the attack. US-CERT is tracking this issue as VU#961579 . Impact An unauthenticated attacker could exploit this vulnerability to execute
+arbitrary SQL statements on the vulnerable system with the privileges of
+the Oracle server process. In addition to compromising the integrity of
+the database information, this may lead to the compromise of the database
+application and the underlying operating system. Solution Apply Patch or Upgrade According to the Oracle Security
+Alert 67 , patches and related information are available from: http://metalink.oracle.com/metalink/plsql/ml2_documents.showDocument?p_database_id=NOT&p_id=274375.1 Note that the above link requires registration to Oracle Metalink. To 
+register for support, please visit: http://metalink.oracle.com/register/pls/registration.step_1 Appendix B. References http://otn.oracle.com/deploy/security/pdf/2004alert67.pdf http://www.integrigy.com/alerts/OraAppsSQLInjection.htm http://www.kb.cert.org/vuls/id/961579 US-CERT thanks Stephen Kost of Integrigy Corporation for reporting this
+problem and for information used to construct this advisory. Feedback can be directed to the author: Jason
+A. Rafail Revision History June 8, 2004:  Initial release June 9, 2004:  Added Oracle support registration link Last updated This product is provided subject to this Notification and this Privacy & Use policy. Please share your thoughts. We recently updated our anonymous product survey ; we'd welcome your feedback. Contact Us (888)282-0870 Send us email Download PGP/GPG keys Submit website feedback Subscribe to Alerts Receive security alerts, tips, and other updates. Enter your email address HSIN Report Home Site Map FAQ Contact Us Traffic Light Protocol PCII Accountability Disclaimer Privacy Policy FOIA No Fear Act Accessibility Plain Writing Plug-ins Inspector General The White House USA.gov CISA is part of the Department of Homeland Security
