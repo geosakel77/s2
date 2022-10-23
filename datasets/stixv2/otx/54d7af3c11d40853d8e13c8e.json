@@ -1,0 +1,108 @@
+{
+  "id": "bundle--4a55c48b-1ad9-44e0-8103-ce48bf41773b",
+  "objects": [
+    {
+      "created": "2015-02-08T18:47:24.193Z",
+      "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+      "id": "report--4a55c48b-1ad9-44e0-8103-ce48bf41773b",
+      "labels": [
+        "threat-report"
+      ],
+      "modified": "2015-02-08T18:47:26.879Z",
+      "name": "Xhamster victim of large malvertising campaign",
+      "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--045d9c0a-346f-4859-a093-9a4061363aae",
+        "indicator--91adb224-c096-4e0a-862f-a495b69a4203",
+        "indicator--92e4de38-9793-4ea5-96c9-276ea3930907",
+        "indicator--1f50636a-1c6d-4d73-bdc3-d0c3d67f5789",
+        "indicator--96db9fef-3d0d-4dc8-a63c-2b04ba564b22"
+      ],
+      "published": "2015-02-08T18:47:24.193Z",
+      "spec_version": "2.1",
+      "type": "report"
+    },
+    {
+      "contact_information": "https://otx.alienvault.com/",
+      "created": "2015-02-08T18:47:24.193Z",
+      "id": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+      "identity_class": "organization",
+      "modified": "2015-02-08T18:47:24.193Z",
+      "name": "Open Threat Exchange",
+      "spec_version": "2.1",
+      "type": "identity"
+    },
+    {
+      "created": "2015-02-08T18:47:24.000Z",
+      "description": "",
+      "id": "indicator--045d9c0a-346f-4859-a093-9a4061363aae",
+      "labels": [],
+      "modified": "2015-02-08T18:47:24.000Z",
+      "name": "OTX pulse_name=Xhamster victim of large malvertising campaign",
+      "pattern": "[domain-name:value = 'musthave-media.org']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2015-02-08T18:47:24.000Z"
+    },
+    {
+      "created": "2015-02-08T18:47:24.000Z",
+      "description": "",
+      "id": "indicator--91adb224-c096-4e0a-862f-a495b69a4203",
+      "labels": [],
+      "modified": "2015-02-08T18:47:24.000Z",
+      "name": "OTX pulse_name=Xhamster victim of large malvertising campaign",
+      "pattern": "[domain-name:value = 'nertafopadertam.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2015-02-08T18:47:24.000Z"
+    },
+    {
+      "created": "2015-02-08T18:47:24.000Z",
+      "description": "",
+      "id": "indicator--92e4de38-9793-4ea5-96c9-276ea3930907",
+      "labels": [],
+      "modified": "2015-02-08T18:47:24.000Z",
+      "name": "OTX pulse_name=Xhamster victim of large malvertising campaign",
+      "pattern": "[url:value = 'http://musthave-media.org/tracking.php']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2015-02-08T18:47:24.000Z"
+    },
+    {
+      "created": "2015-02-08T18:47:24.000Z",
+      "description": "",
+      "id": "indicator--1f50636a-1c6d-4d73-bdc3-d0c3d67f5789",
+      "labels": [],
+      "modified": "2015-02-08T18:47:24.000Z",
+      "name": "OTX pulse_name=Xhamster victim of large malvertising campaign",
+      "pattern": "[url:value = 'http://musthave-media.org/banner/count.swf']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2015-02-08T18:47:24.000Z"
+    },
+    {
+      "created": "2015-02-08T18:47:24.000Z",
+      "description": "",
+      "id": "indicator--96db9fef-3d0d-4dc8-a63c-2b04ba564b22",
+      "labels": [],
+      "modified": "2015-02-08T18:47:24.000Z",
+      "name": "OTX pulse_name=Xhamster victim of large malvertising campaign",
+      "pattern": "[url:value = 'http://nertafopadertam.com/2/showthread.php']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2015-02-08T18:47:24.000Z"
+    }
+  ],
+  "spec_version": "2.1",
+  "type": "bundle"
+}

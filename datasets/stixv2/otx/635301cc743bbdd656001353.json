@@ -1,0 +1,139 @@
+{
+  "id": "bundle--ec18a93d-4498-412d-9cd7-4885fd8c2041",
+  "objects": [
+    {
+      "created": "2022-10-21T20:32:12.542Z",
+      "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+      "description": "The FBI, CISA and Department of Health and Human Services (HHS) release a joint Cybersecurity Advisory (CSA) to help organizations protect against ransomware and other cybercrime threats, as part of a #StopRansomware effort.",
+      "id": "report--ec18a93d-4498-412d-9cd7-4885fd8c2041",
+      "labels": [
+        "threat-report"
+      ],
+      "modified": "2022-10-21T20:32:12.542Z",
+      "name": "CISA | Alert (AA22-294A) #StopRansomware: Daixin Team",
+      "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--595d1648-e559-4b84-8a90-e1a0cece7818",
+        "indicator--270a37c5-8bc7-45be-ac03-f87ba4eb1b35",
+        "indicator--e815951e-385f-4d40-8774-4fafebae52a8",
+        "indicator--1c71828c-7f10-481e-a1fc-2329b2c8a0ad",
+        "indicator--60dbeb75-ceb7-46af-aaeb-eb8e2d60fb71",
+        "indicator--af466c33-db02-425c-a223-f918980e7186",
+        "indicator--02787741-1e91-40cf-a618-a9e9297f226d"
+      ],
+      "published": "2022-10-21T20:32:12.542Z",
+      "spec_version": "2.1",
+      "type": "report"
+    },
+    {
+      "contact_information": "https://otx.alienvault.com/",
+      "created": "2022-10-21T20:32:12.542Z",
+      "id": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+      "identity_class": "organization",
+      "modified": "2022-10-21T20:32:12.542Z",
+      "name": "Open Threat Exchange",
+      "spec_version": "2.1",
+      "type": "identity"
+    },
+    {
+      "created": "2022-10-21T20:32:13.000Z",
+      "description": "dbgdetect_files / MD5 of 54e3b5a2521a84741dc15810e6fed9d739eb8083cb1fe097cb98b345af24e939",
+      "id": "indicator--595d1648-e559-4b84-8a90-e1a0cece7818",
+      "labels": [],
+      "modified": "2022-10-21T20:32:13.000Z",
+      "name": "OTX pulse_name=CISA | Alert (AA22-294A) #StopRansomware: Daixin Team",
+      "pattern": "[file:hashes.MD5 = '7197a917066b2af5212bcefb3922a35a']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T20:32:13.000Z"
+    },
+    {
+      "created": "2022-10-21T20:32:13.000Z",
+      "description": "dbgdetect_files / SHA1 of 54e3b5a2521a84741dc15810e6fed9d739eb8083cb1fe097cb98b345af24e939",
+      "id": "indicator--270a37c5-8bc7-45be-ac03-f87ba4eb1b35",
+      "labels": [],
+      "modified": "2022-10-21T20:32:13.000Z",
+      "name": "OTX pulse_name=CISA | Alert (AA22-294A) #StopRansomware: Daixin Team",
+      "pattern": "[file:hashes.'SHA-1' = '4e1a15d960b1d1a4e67f6613e072ff327a9ab976']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T20:32:13.000Z"
+    },
+    {
+      "created": "2022-10-21T20:32:13.000Z",
+      "description": "",
+      "id": "indicator--e815951e-385f-4d40-8774-4fafebae52a8",
+      "labels": [],
+      "modified": "2022-10-21T20:32:13.000Z",
+      "name": "OTX pulse_name=CISA | Alert (AA22-294A) #StopRansomware: Daixin Team",
+      "pattern": "[file:hashes.'SHA-256' = '19ed36f063221e161d740651e6578d50e0d3cacee89d27a6ebed4ab4272585bd']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T20:32:13.000Z"
+    },
+    {
+      "created": "2022-10-21T20:32:13.000Z",
+      "description": "",
+      "id": "indicator--1c71828c-7f10-481e-a1fc-2329b2c8a0ad",
+      "labels": [],
+      "modified": "2022-10-21T20:32:13.000Z",
+      "name": "OTX pulse_name=CISA | Alert (AA22-294A) #StopRansomware: Daixin Team",
+      "pattern": "[file:hashes.'SHA-256' = '475d6e80cf4ef70926a65df5551f59e35b71a0e92f0fe4dd28559a9deba60c28']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T20:32:13.000Z"
+    },
+    {
+      "created": "2022-10-21T20:32:13.000Z",
+      "description": "dbgdetect_files",
+      "id": "indicator--60dbeb75-ceb7-46af-aaeb-eb8e2d60fb71",
+      "labels": [],
+      "modified": "2022-10-21T20:32:13.000Z",
+      "name": "OTX pulse_name=CISA | Alert (AA22-294A) #StopRansomware: Daixin Team",
+      "pattern": "[file:hashes.'SHA-256' = '54e3b5a2521a84741dc15810e6fed9d739eb8083cb1fe097cb98b345af24e939']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T20:32:13.000Z"
+    },
+    {
+      "created": "2022-10-21T20:32:13.000Z",
+      "description": "",
+      "id": "indicator--af466c33-db02-425c-a223-f918980e7186",
+      "labels": [],
+      "modified": "2022-10-21T20:32:13.000Z",
+      "name": "OTX pulse_name=CISA | Alert (AA22-294A) #StopRansomware: Daixin Team",
+      "pattern": "[file:hashes.'SHA-256' = '9e42e07073e03bdea4cd978d9e7b44a9574972818593306be1f3dcfdee722238']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T20:32:13.000Z"
+    },
+    {
+      "created": "2022-10-21T20:32:13.000Z",
+      "description": "",
+      "id": "indicator--02787741-1e91-40cf-a618-a9e9297f226d",
+      "labels": [],
+      "modified": "2022-10-21T20:32:13.000Z",
+      "name": "OTX pulse_name=CISA | Alert (AA22-294A) #StopRansomware: Daixin Team",
+      "pattern": "[file:hashes.'SHA-256' = 'ec16e2de3a55772f5dfac8bf8f5a365600fad40a244a574cbab987515aa40cbf']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T20:32:13.000Z"
+    }
+  ],
+  "spec_version": "2.1",
+  "type": "bundle"
+}

@@ -92,7 +92,6 @@ class TextExtractor:
 
 if __name__ == "__main__":
     cleaner = DataCleaner()
-
     cleaner.clean_alerts()
     cleaner.clean_reports()
     print(len(cleaner.get_clean_alerts()))

@@ -1,0 +1,82 @@
+{
+  "id": "bundle--fd19360f-6e24-40c9-b3f9-accf5cb4dcdb",
+  "objects": [
+    {
+      "created": "2022-10-21T22:14:14.555Z",
+      "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+      "description": "Bruteforce hitting the server on any SASL.",
+      "id": "report--fd19360f-6e24-40c9-b3f9-accf5cb4dcdb",
+      "labels": [
+        "threat-report"
+      ],
+      "modified": "2022-10-21T22:14:14.555Z",
+      "name": "Bruteforce Simple Authentication and Security Layer - SASL (S3)",
+      "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--bea9d239-4915-4d88-8524-fa3c077b6ba5",
+        "indicator--5d6bcdb0-3a07-4541-a42a-b85b80af1ffe",
+        "indicator--d4dc2d18-3928-4692-a8e3-3238a2fa2b0e"
+      ],
+      "published": "2022-10-21T22:14:14.555Z",
+      "spec_version": "2.1",
+      "type": "report"
+    },
+    {
+      "contact_information": "https://otx.alienvault.com/",
+      "created": "2022-10-21T22:14:14.555Z",
+      "id": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+      "identity_class": "organization",
+      "modified": "2022-10-21T22:14:14.555Z",
+      "name": "Open Threat Exchange",
+      "spec_version": "2.1",
+      "type": "identity"
+    },
+    {
+      "created": "2022-10-21T22:14:15.000Z",
+      "description": "",
+      "id": "indicator--bea9d239-4915-4d88-8524-fa3c077b6ba5",
+      "labels": [],
+      "modified": "2022-10-21T22:14:15.000Z",
+      "name": "OTX pulse_name=Bruteforce Simple Authentication and Security Layer - SASL (S3)",
+      "pattern": "[ipv4-addr:value = '206.217.216.11']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T22:14:15.000Z",
+      "valid_until": "2022-11-20T22:00:00.000Z"
+    },
+    {
+      "created": "2022-10-21T22:14:15.000Z",
+      "description": "",
+      "id": "indicator--5d6bcdb0-3a07-4541-a42a-b85b80af1ffe",
+      "labels": [],
+      "modified": "2022-10-21T22:14:15.000Z",
+      "name": "OTX pulse_name=Bruteforce Simple Authentication and Security Layer - SASL (S3)",
+      "pattern": "[ipv4-addr:value = '206.217.216.13']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T22:14:15.000Z",
+      "valid_until": "2022-11-20T22:00:00.000Z"
+    },
+    {
+      "created": "2022-10-21T22:14:15.000Z",
+      "description": "",
+      "id": "indicator--d4dc2d18-3928-4692-a8e3-3238a2fa2b0e",
+      "labels": [],
+      "modified": "2022-10-21T22:14:15.000Z",
+      "name": "OTX pulse_name=Bruteforce Simple Authentication and Security Layer - SASL (S3)",
+      "pattern": "[ipv4-addr:value = '93.177.75.66']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T22:14:15.000Z",
+      "valid_until": "2022-11-20T22:00:00.000Z"
+    }
+  ],
+  "spec_version": "2.1",
+  "type": "bundle"
+}

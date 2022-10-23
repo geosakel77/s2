@@ -1,0 +1,130 @@
+{
+  "id": "bundle--936e049f-b6c9-4365-9345-ed5272018ef0",
+  "objects": [
+    {
+      "created": "2022-10-21T09:00:03.239Z",
+      "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+      "description": "IPV4 hosts detected attempting to attack SNMP on private honeypot",
+      "id": "report--936e049f-b6c9-4365-9345-ed5272018ef0",
+      "labels": [
+        "threat-report"
+      ],
+      "modified": "2022-10-21T09:00:03.239Z",
+      "name": "Digital Ocean (Toronto (Canada)) SNMP Attacker Hosts for 2022-10-20",
+      "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--edd610f8-94b0-4afe-acdf-c2f58bd44633",
+        "indicator--be700919-ceb6-4273-bdfd-d1f68b2ec7f6",
+        "indicator--624d81cd-e30d-49cb-a4a2-c0119c550662",
+        "indicator--594d3d12-1943-474e-b198-4f97adf9bb42",
+        "indicator--0dfa68be-d8ab-4380-b7c1-8975716a653e",
+        "indicator--74564442-648c-448e-9cb9-4dcad34b44ac"
+      ],
+      "published": "2022-10-21T09:00:03.239Z",
+      "spec_version": "2.1",
+      "type": "report"
+    },
+    {
+      "contact_information": "https://otx.alienvault.com/",
+      "created": "2022-10-21T09:00:03.239Z",
+      "id": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+      "identity_class": "organization",
+      "modified": "2022-10-21T09:00:03.239Z",
+      "name": "Open Threat Exchange",
+      "spec_version": "2.1",
+      "type": "identity"
+    },
+    {
+      "created": "2022-10-21T09:00:04.000Z",
+      "description": "",
+      "id": "indicator--edd610f8-94b0-4afe-acdf-c2f58bd44633",
+      "labels": [],
+      "modified": "2022-10-21T09:00:04.000Z",
+      "name": "OTX pulse_name=Digital Ocean (Toronto (Canada)) SNMP Attacker Hosts for 2022-10-20",
+      "pattern": "[ipv4-addr:value = '74.82.47.12']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T09:00:04.000Z",
+      "valid_until": "2022-11-20T09:00:00.000Z"
+    },
+    {
+      "created": "2022-10-21T09:00:04.000Z",
+      "description": "",
+      "id": "indicator--be700919-ceb6-4273-bdfd-d1f68b2ec7f6",
+      "labels": [],
+      "modified": "2022-10-21T09:00:04.000Z",
+      "name": "OTX pulse_name=Digital Ocean (Toronto (Canada)) SNMP Attacker Hosts for 2022-10-20",
+      "pattern": "[ipv4-addr:value = '146.88.240.4']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T09:00:04.000Z",
+      "valid_until": "2022-11-20T09:00:00.000Z"
+    },
+    {
+      "created": "2022-10-21T09:00:04.000Z",
+      "description": "",
+      "id": "indicator--624d81cd-e30d-49cb-a4a2-c0119c550662",
+      "labels": [],
+      "modified": "2022-10-21T09:00:04.000Z",
+      "name": "OTX pulse_name=Digital Ocean (Toronto (Canada)) SNMP Attacker Hosts for 2022-10-20",
+      "pattern": "[ipv4-addr:value = '154.89.5.92']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T09:00:04.000Z",
+      "valid_until": "2022-11-20T09:00:00.000Z"
+    },
+    {
+      "created": "2022-10-21T09:00:04.000Z",
+      "description": "",
+      "id": "indicator--594d3d12-1943-474e-b198-4f97adf9bb42",
+      "labels": [],
+      "modified": "2022-10-21T09:00:04.000Z",
+      "name": "OTX pulse_name=Digital Ocean (Toronto (Canada)) SNMP Attacker Hosts for 2022-10-20",
+      "pattern": "[ipv4-addr:value = '162.142.125.136']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T09:00:04.000Z",
+      "valid_until": "2022-11-20T09:00:00.000Z"
+    },
+    {
+      "created": "2022-10-21T09:00:04.000Z",
+      "description": "",
+      "id": "indicator--0dfa68be-d8ab-4380-b7c1-8975716a653e",
+      "labels": [],
+      "modified": "2022-10-21T09:00:04.000Z",
+      "name": "OTX pulse_name=Digital Ocean (Toronto (Canada)) SNMP Attacker Hosts for 2022-10-20",
+      "pattern": "[ipv4-addr:value = '192.241.221.73']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T09:00:04.000Z",
+      "valid_until": "2022-11-20T09:00:00.000Z"
+    },
+    {
+      "created": "2022-10-21T09:00:04.000Z",
+      "description": "",
+      "id": "indicator--74564442-648c-448e-9cb9-4dcad34b44ac",
+      "labels": [],
+      "modified": "2022-10-21T09:00:04.000Z",
+      "name": "OTX pulse_name=Digital Ocean (Toronto (Canada)) SNMP Attacker Hosts for 2022-10-20",
+      "pattern": "[ipv4-addr:value = '205.210.31.13']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T09:00:04.000Z",
+      "valid_until": "2022-11-20T09:00:00.000Z"
+    }
+  ],
+  "spec_version": "2.1",
+  "type": "bundle"
+}

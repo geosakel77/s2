@@ -1,0 +1,337 @@
+{
+  "id": "bundle--2bee1c4c-2f96-4412-a5d7-3d1053f868c6",
+  "objects": [
+    {
+      "created": "2022-10-21T14:48:32.956Z",
+      "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+      "description": "Symantec\u2019s Threat Hunter Team has discovered that at least one affiliate of the BlackByte ransomware (Ransom.Blackbyte) operation has begun using a custom data exfiltration tool during their attacks. The malware (Infostealer.Exbyte) is designed to expedite the theft of data from the victim\u2019s network and upload it to an external server.",
+      "id": "report--2bee1c4c-2f96-4412-a5d7-3d1053f868c6",
+      "labels": [
+        "threat-report"
+      ],
+      "modified": "2022-10-21T17:06:37.827Z",
+      "name": "Exbyte: BlackByte Ransomware Attackers Deploy New Exfiltration Tool",
+      "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--17e20afc-4a29-4157-a7b7-1dea3526cb4d",
+        "indicator--611e520d-6064-409b-a751-17b6fb9e8017",
+        "indicator--c9f2f246-8742-465e-86c1-21e8209a27f7",
+        "indicator--7959c9cf-9da5-4ce3-8dd2-650b61611504",
+        "indicator--da1e171b-faeb-4247-9227-824aeb9336a7",
+        "indicator--808c10b9-2354-48c6-b6a8-85fabb185463",
+        "indicator--7ba0cc9b-5dfb-4dfb-b8ff-0ccb8b987c43",
+        "indicator--ac59b406-6945-458d-af4c-4ff9b9f91519",
+        "indicator--56ac28e2-0f7a-49c7-b38a-e326b69fdea8",
+        "indicator--cbe06c1c-652e-45f2-944b-99472a2e2696",
+        "indicator--4342ca4d-749f-459d-9841-3e096a75d5f4",
+        "indicator--030a2004-b49f-4d7a-93d7-f23bb1005e85",
+        "indicator--ec932c6a-e1b6-4f62-a66b-9ff42b88e683",
+        "indicator--646fab3d-d1c3-4410-9feb-7d87676f86c3",
+        "indicator--70acc43b-bf72-4427-aa8a-f1aa297f1435",
+        "threat-actor--87491231-935f-4a7a-b418-58c1ee2e7e15"
+      ],
+      "published": "2022-10-21T14:48:32.956Z",
+      "spec_version": "2.1",
+      "type": "report"
+    },
+    {
+      "contact_information": "https://otx.alienvault.com/",
+      "created": "2022-10-21T14:48:32.956Z",
+      "id": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+      "identity_class": "organization",
+      "modified": "2022-10-21T14:48:32.956Z",
+      "name": "Open Threat Exchange",
+      "spec_version": "2.1",
+      "type": "identity"
+    },
+    {
+      "created": "2022-10-21T14:48:33.000Z",
+      "description": "",
+      "id": "indicator--17e20afc-4a29-4157-a7b7-1dea3526cb4d",
+      "labels": [],
+      "modified": "2022-10-21T14:48:33.000Z",
+      "name": "OTX pulse_name=Exbyte: BlackByte Ransomware Attackers Deploy New Exfiltration Tool",
+      "pattern": "[file:hashes.'SHA-256' = '4877ff7c3c2abd349646db1163814811e69b36374e289f5808cc794113ef55ae']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T14:48:33.000Z"
+    },
+    {
+      "created": "2022-10-21T14:48:33.000Z",
+      "description": "",
+      "id": "indicator--611e520d-6064-409b-a751-17b6fb9e8017",
+      "labels": [],
+      "modified": "2022-10-21T14:48:33.000Z",
+      "name": "OTX pulse_name=Exbyte: BlackByte Ransomware Attackers Deploy New Exfiltration Tool",
+      "pattern": "[file:hashes.'SHA-256' = 'efc2125e628b116eb0c097c699e473a47a280dfcd3e02cada41bdf6969600b41']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T14:48:33.000Z"
+    },
+    {
+      "created": "2022-10-21T14:48:33.000Z",
+      "description": "",
+      "id": "indicator--c9f2f246-8742-465e-86c1-21e8209a27f7",
+      "labels": [],
+      "modified": "2022-10-21T14:48:33.000Z",
+      "name": "OTX pulse_name=Exbyte: BlackByte Ransomware Attackers Deploy New Exfiltration Tool",
+      "pattern": "[file:hashes.'SHA-256' = '572d88c419c6ae75aeb784ceab327d040cb589903d6285bbffa77338111af14b']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T14:48:33.000Z"
+    },
+    {
+      "created": "2022-10-21T14:48:33.000Z",
+      "description": "",
+      "id": "indicator--7959c9cf-9da5-4ce3-8dd2-650b61611504",
+      "labels": [],
+      "modified": "2022-10-21T14:48:33.000Z",
+      "name": "OTX pulse_name=Exbyte: BlackByte Ransomware Attackers Deploy New Exfiltration Tool",
+      "pattern": "[file:hashes.'SHA-256' = '794a5621fda2106fcb94cbd91b6ab9567fb8383caa7f62febafcf701175f2b91']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T14:48:33.000Z"
+    },
+    {
+      "created": "2022-10-21T14:48:33.000Z",
+      "description": "",
+      "id": "indicator--da1e171b-faeb-4247-9227-824aeb9336a7",
+      "labels": [],
+      "modified": "2022-10-21T14:48:33.000Z",
+      "name": "OTX pulse_name=Exbyte: BlackByte Ransomware Attackers Deploy New Exfiltration Tool",
+      "pattern": "[file:hashes.'SHA-256' = 'f157090fd3ccd4220298c06ce8734361b724d80459592b10ac632acc624f455e']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T14:48:33.000Z"
+    },
+    {
+      "created": "2022-10-21T14:48:33.000Z",
+      "description": "",
+      "id": "indicator--808c10b9-2354-48c6-b6a8-85fabb185463",
+      "labels": [],
+      "modified": "2022-10-21T14:48:33.000Z",
+      "name": "OTX pulse_name=Exbyte: BlackByte Ransomware Attackers Deploy New Exfiltration Tool",
+      "pattern": "[file:hashes.'SHA-256' = '754ac79aca0cc1bcf46000ef6c4cbe8bebeb50dae60823a1e844647ac16b6867']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T14:48:33.000Z"
+    },
+    {
+      "created": "2022-10-21T14:48:33.000Z",
+      "description": "",
+      "id": "indicator--7ba0cc9b-5dfb-4dfb-b8ff-0ccb8b987c43",
+      "labels": [],
+      "modified": "2022-10-21T14:48:33.000Z",
+      "name": "OTX pulse_name=Exbyte: BlackByte Ransomware Attackers Deploy New Exfiltration Tool",
+      "pattern": "[file:hashes.'SHA-256' = '20848d28414d4811b63b9645adb549eed0afbd6415d08b75b0a93fbf7cfbf21f']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T14:48:33.000Z"
+    },
+    {
+      "created": "2022-10-21T14:48:33.000Z",
+      "description": "",
+      "id": "indicator--ac59b406-6945-458d-af4c-4ff9b9f91519",
+      "labels": [],
+      "modified": "2022-10-21T14:48:33.000Z",
+      "name": "OTX pulse_name=Exbyte: BlackByte Ransomware Attackers Deploy New Exfiltration Tool",
+      "pattern": "[file:hashes.'SHA-256' = 'f361bafcc00b1423d24a7ea205264f5a0b96011e4928d9a91c2abc9911b433a1']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T14:48:33.000Z"
+    },
+    {
+      "created": "2022-10-21T14:48:33.000Z",
+      "description": "",
+      "id": "indicator--56ac28e2-0f7a-49c7-b38a-e326b69fdea8",
+      "labels": [],
+      "modified": "2022-10-21T14:48:33.000Z",
+      "name": "OTX pulse_name=Exbyte: BlackByte Ransomware Attackers Deploy New Exfiltration Tool",
+      "pattern": "[file:hashes.'SHA-256' = 'eb24370166021f9243fd98c0be7b22ab8cbc22147c15ecef8e75746eb484bb1a']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T14:48:33.000Z"
+    },
+    {
+      "created": "2022-10-21T14:48:33.000Z",
+      "description": "",
+      "id": "indicator--cbe06c1c-652e-45f2-944b-99472a2e2696",
+      "labels": [],
+      "modified": "2022-10-21T14:48:33.000Z",
+      "name": "OTX pulse_name=Exbyte: BlackByte Ransomware Attackers Deploy New Exfiltration Tool",
+      "pattern": "[file:hashes.'SHA-256' = '44a5e78fce5455579123af23665262b10165ac710a9f7538b764af76d7771550']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T14:48:33.000Z"
+    },
+    {
+      "created": "2022-10-21T14:48:33.000Z",
+      "description": "",
+      "id": "indicator--4342ca4d-749f-459d-9841-3e096a75d5f4",
+      "labels": [],
+      "modified": "2022-10-21T14:48:33.000Z",
+      "name": "OTX pulse_name=Exbyte: BlackByte Ransomware Attackers Deploy New Exfiltration Tool",
+      "pattern": "[file:hashes.'SHA-256' = '1df11bc19aa52b623bdf15380e3fded56d8eb6fb7b53a2240779864b1a6474ad']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T14:48:33.000Z"
+    },
+    {
+      "created": "2022-10-21T14:48:33.000Z",
+      "description": "",
+      "id": "indicator--030a2004-b49f-4d7a-93d7-f23bb1005e85",
+      "labels": [],
+      "modified": "2022-10-21T14:48:33.000Z",
+      "name": "OTX pulse_name=Exbyte: BlackByte Ransomware Attackers Deploy New Exfiltration Tool",
+      "pattern": "[file:hashes.'SHA-256' = '477382529659c3452020170d8150820210ab8cbdc6417a0f0ac86a793cd0d9b4']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T14:48:33.000Z"
+    },
+    {
+      "created": "2022-10-21T14:48:33.000Z",
+      "description": "",
+      "id": "indicator--ec932c6a-e1b6-4f62-a66b-9ff42b88e683",
+      "labels": [],
+      "modified": "2022-10-21T14:48:33.000Z",
+      "name": "OTX pulse_name=Exbyte: BlackByte Ransomware Attackers Deploy New Exfiltration Tool",
+      "pattern": "[file:hashes.'SHA-256' = 'aeb1b789395357e8cc8dbd313b95f624fc03e037984040cd7c1704775bfb4bd2']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T14:48:33.000Z"
+    },
+    {
+      "created": "2022-10-21T14:48:33.000Z",
+      "description": "",
+      "id": "indicator--646fab3d-d1c3-4410-9feb-7d87676f86c3",
+      "labels": [],
+      "modified": "2022-10-21T14:48:33.000Z",
+      "name": "OTX pulse_name=Exbyte: BlackByte Ransomware Attackers Deploy New Exfiltration Tool",
+      "pattern": "[file:hashes.'SHA-256' = '0097b8722c8c0840e8c1a4dd579438344b3e6b4d630d17b0bbe9c55159f43142']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T14:48:33.000Z"
+    },
+    {
+      "created": "2022-10-21T14:48:33.000Z",
+      "description": "",
+      "id": "indicator--70acc43b-bf72-4427-aa8a-f1aa297f1435",
+      "labels": [],
+      "modified": "2022-10-21T14:48:33.000Z",
+      "name": "OTX pulse_name=Exbyte: BlackByte Ransomware Attackers Deploy New Exfiltration Tool",
+      "pattern": "[file:hashes.'SHA-256' = '3fb160e1770fafeedff2d77841bf02108c25cca4cb6d77e3fbf759077f356b70']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T14:48:33.000Z"
+    },
+    {
+      "aliases": [
+        "Comment Panda",
+        "PLA Unit 61398",
+        "APT 1",
+        "APT1",
+        "Advanced Persistent Threat 1",
+        "Byzantine Candor",
+        "Group 3",
+        "TG-8223",
+        "Comment Group",
+        "Brown Fox",
+        "GIF89a",
+        "ShadyRAT",
+        "Shanghai Group"
+      ],
+      "created": "2022-10-21T14:48:32.956Z",
+      "description": [
+        "PLA Unit 61398 (Chinese: 61398\u90e8\u961f, Pinyin: 61398 b\u00f9du\u00ec) is the Military Unit Cover Designator (MUCD)[1] of a People's Liberation Army advanced persistent threat unit that has been alleged to be a source of Chinese computer hacking attacks"
+      ],
+      "external_references": [
+        [
+          {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://en.wikipedia.org/wiki/PLA_Unit_61398"
+          },
+          {
+            "source_name": "MISP Threat Actor list",
+            "url": "http://intelreport.mandiant.com/Mandiant_APT1_Report.pdf"
+          },
+          {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://www.cfr.org/interactive/cyber-operations/pla-unit-61398"
+          },
+          {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+          },
+          {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/the-siesta-campaign-a-new-targeted-attack-awakens/"
+          },
+          {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://www.fireeye.com/blog/threat-research/2014/03/a-detailed-examination-of-the-siesta-campaign.html"
+          },
+          {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/operation-oceansalt-delivers-wave-after-wave/"
+          },
+          {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-oceansalt.pdf"
+          },
+          {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=f1265df5-6e5e-4fcc-9828-d4ddbbafd3d7&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments"
+          },
+          {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://attack.mitre.org/groups/G0006/"
+          },
+          {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://www.nytimes.com/2014/05/20/us/us-to-charge-chinese-workers-with-cyberspying.html"
+          }
+        ]
+      ],
+      "id": "threat-actor--87491231-935f-4a7a-b418-58c1ee2e7e15",
+      "labels": [
+        "activist"
+      ],
+      "modified": "2022-10-21T14:48:32.956Z",
+      "name": "Hecamede",
+      "spec_version": "2.1",
+      "type": "threat-actor"
+    }
+  ],
+  "spec_version": "2.1",
+  "type": "bundle"
+}

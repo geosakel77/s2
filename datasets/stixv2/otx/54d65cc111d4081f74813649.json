@@ -1,0 +1,93 @@
+{
+  "id": "bundle--d9ca6827-0763-4ea1-ab71-807c83f44db8",
+  "objects": [
+    {
+      "created": "2015-02-07T18:43:13.899Z",
+      "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+      "id": "report--d9ca6827-0763-4ea1-ab71-807c83f44db8",
+      "labels": [
+        "threat-report"
+      ],
+      "modified": "2017-08-24T10:52:39.470Z",
+      "name": "Pawn Storm IOS_XAGENT",
+      "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--21585108-0e6e-4d19-9d25-d589a9a0d31c",
+        "indicator--65dc03c2-92c4-4770-970c-b0f70063b31c",
+        "indicator--b417a603-ec39-4c41-858c-c750b78cf7ee",
+        "indicator--7ac1e4dd-1439-49f6-8d9f-6a66de0d2d72"
+      ],
+      "published": "2015-02-07T18:43:13.899Z",
+      "spec_version": "2.1",
+      "type": "report"
+    },
+    {
+      "contact_information": "https://otx.alienvault.com/",
+      "created": "2015-02-07T18:43:13.899Z",
+      "id": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+      "identity_class": "organization",
+      "modified": "2015-02-07T18:43:13.899Z",
+      "name": "Open Threat Exchange",
+      "spec_version": "2.1",
+      "type": "identity"
+    },
+    {
+      "created": "2017-08-24T10:52:39.000Z",
+      "description": "",
+      "id": "indicator--21585108-0e6e-4d19-9d25-d589a9a0d31c",
+      "labels": [],
+      "modified": "2017-08-24T10:52:39.000Z",
+      "name": "OTX pulse_name=Pawn Storm IOS_XAGENT",
+      "pattern": "[file:hashes.'SHA-1' = '30e4decd68808cb607c2aba4aa69fb5fdb598c64']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2017-08-24T10:52:39.000Z"
+    },
+    {
+      "created": "2017-08-24T10:52:39.000Z",
+      "description": "",
+      "id": "indicator--65dc03c2-92c4-4770-970c-b0f70063b31c",
+      "labels": [],
+      "modified": "2017-08-24T10:52:39.000Z",
+      "name": "OTX pulse_name=Pawn Storm IOS_XAGENT",
+      "pattern": "[file:hashes.'SHA-1' = '05298a48e4ca6d9778b32259c8ae74527be33815']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2017-08-24T10:52:39.000Z"
+    },
+    {
+      "created": "2017-08-24T10:52:39.000Z",
+      "description": "",
+      "id": "indicator--b417a603-ec39-4c41-858c-c750b78cf7ee",
+      "labels": [],
+      "modified": "2017-08-24T10:52:39.000Z",
+      "name": "OTX pulse_name=Pawn Storm IOS_XAGENT",
+      "pattern": "[file:hashes.'SHA-1' = '176e92e7cfc0e57be83e901c36ba17b255ba0b1b']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2017-08-24T10:52:39.000Z"
+    },
+    {
+      "created": "2017-08-24T10:52:39.000Z",
+      "description": "",
+      "id": "indicator--7ac1e4dd-1439-49f6-8d9f-6a66de0d2d72",
+      "labels": [],
+      "modified": "2017-08-24T10:52:39.000Z",
+      "name": "OTX pulse_name=Pawn Storm IOS_XAGENT",
+      "pattern": "[url:value = 'http://www.adobeincorp.net/adhoc/XAgent.ipa']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2017-08-24T10:52:39.000Z"
+    }
+  ],
+  "spec_version": "2.1",
+  "type": "bundle"
+}
