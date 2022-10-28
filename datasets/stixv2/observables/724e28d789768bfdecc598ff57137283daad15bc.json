@@ -1,0 +1,7 @@
+{
+    "type": "email-message",
+    "spec_version": "2.1",
+    "id": "email-message--cce0ba7b-75da-5e3f-830a-361d13ea2582",
+    "is_multipart": false,
+    "from_ref": "email-addr--004a0a23-f3f6-54b0-bec5-a94c3fc68c05"
+}

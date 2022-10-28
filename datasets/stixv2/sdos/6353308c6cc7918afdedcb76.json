@@ -1,0 +1,48 @@
+{
+  "id": "bundle--fd075659-2307-4d33-8e7e-ab977fb54367",
+  "objects": [
+    {
+      "created": "2022-10-21T23:51:40.559Z",
+      "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+      "id": "report--fd075659-2307-4d33-8e7e-ab977fb54367",
+      "labels": [
+        "threat-report"
+      ],
+      "modified": "2022-10-21T23:51:40.559Z",
+      "name": "Twitter Feed - satontonton - 21-10-2022",
+      "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--0be1d6e9-d774-40f6-b16d-976a79d45f23"
+      ],
+      "published": "2022-10-21T23:51:40.559Z",
+      "spec_version": "2.1",
+      "type": "report"
+    },
+    {
+      "contact_information": "https://otx.alienvault.com/",
+      "created": "2022-10-21T23:51:40.559Z",
+      "id": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+      "identity_class": "organization",
+      "modified": "2022-10-21T23:51:40.559Z",
+      "name": "Open Threat Exchange",
+      "spec_version": "2.1",
+      "type": "identity"
+    },
+    {
+      "created": "2022-10-21T23:51:41.000Z",
+      "description": "",
+      "id": "indicator--0be1d6e9-d774-40f6-b16d-976a79d45f23",
+      "labels": [],
+      "modified": "2022-10-21T23:51:41.000Z",
+      "name": "OTX pulse_name=Twitter Feed - satontonton - 21-10-2022",
+      "pattern": "[url:value = 'https://netstation2aplus.mjfuzhvvzsgdve.com/']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2022-10-21T23:51:41.000Z"
+    }
+  ],
+  "spec_version": "2.1",
+  "type": "bundle"
+}
