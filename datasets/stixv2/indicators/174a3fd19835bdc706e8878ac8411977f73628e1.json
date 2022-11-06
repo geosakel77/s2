@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--d5b928a3-86a2-4fa9-aad7-332f15341fde",
+    "created": "2022-10-21T06:58:42.000Z",
+    "modified": "2022-10-21T06:58:42.000Z",
+    "name": "OTX pulse_name=From RM3 to LDR4: URSNIF Leaves Banking Fraud Behind",
+    "description": " / CC=RO ASN=AS44477 Stark Industries Solutions Ltd",
+    "pattern": "[ipv4-addr:value = '45.67.34.245']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T06:58:42Z",
+    "valid_until": "2022-11-19T13:00:00Z"
+}

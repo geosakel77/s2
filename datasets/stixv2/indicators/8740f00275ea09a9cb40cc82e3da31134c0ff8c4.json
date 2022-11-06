@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--ada707f1-d5c8-4d80-8d8e-c479147d872b",
+    "created": "2015-02-11T04:56:37.000Z",
+    "modified": "2015-02-11T04:56:37.000Z",
+    "name": "OTX pulse_name=Symmi new DGA",
+    "description": "",
+    "pattern": "[domain-name:value = 'deivekmiuwoxe.ddns.net']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2015-02-11T04:56:37Z"
+}

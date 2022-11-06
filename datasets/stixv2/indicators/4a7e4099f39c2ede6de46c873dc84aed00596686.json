@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--fba5349e-0a50-421f-81c4-ebca31ea9336",
+    "created": "2017-08-24T10:52:03.000Z",
+    "modified": "2017-08-24T10:52:03.000Z",
+    "name": "OTX pulse_name=Operation Double Tap",
+    "description": "",
+    "pattern": "[file:hashes.MD5 = '5c08957f05377004376e6a622406f9aa']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2017-08-24T10:52:03Z"
+}

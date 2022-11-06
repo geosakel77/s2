@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--cd469184-0230-4c05-a9ac-802067facab1",
+    "created": "2014-12-02T16:26:17.000Z",
+    "modified": "2014-12-02T16:26:17.000Z",
+    "name": "OTX pulse_name= RAZOR BLADES IN THE CANDY JAR",
+    "description": "",
+    "pattern": "[domain-name:value = 'yimg.1stdayofwinter.com']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2014-12-02T16:26:17Z"
+}

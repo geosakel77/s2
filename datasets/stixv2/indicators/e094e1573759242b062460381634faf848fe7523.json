@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--a56ac734-974d-4bfb-896a-9cc7e6c938b8",
+    "created": "2017-08-24T09:26:22.000Z",
+    "modified": "2017-08-24T09:26:22.000Z",
+    "name": "OTX pulse_name=Operation Cleaver",
+    "description": "",
+    "pattern": "[file:hashes.'SHA-256' = '9aec3f14ec69e9942a7d3075bb5479dc5fa61e6c2a03cbee1a9269264efac51c']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2017-08-24T09:26:22Z"
+}

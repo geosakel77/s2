@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--110544d7-bc23-4e2e-975a-9238776a4dcf",
+    "created": "2022-10-21T20:59:07.000Z",
+    "modified": "2022-10-21T20:59:07.000Z",
+    "name": "OTX pulse_name=CobaltStrikeC2s_1666385883",
+    "description": "",
+    "pattern": "[ipv4-addr:value = '182.42.102.180']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T20:59:07Z",
+    "valid_until": "2022-11-20T20:00:00Z"
+}

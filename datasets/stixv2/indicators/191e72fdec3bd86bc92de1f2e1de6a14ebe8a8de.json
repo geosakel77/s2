@@ -1,0 +1,17 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--5fcd8fb5-1e3b-4a67-b3dc-16bab1af4b85",
+    "created": "2022-10-21T00:00:07.000Z",
+    "modified": "2022-10-21T00:00:07.000Z",
+    "name": "OTX pulse_name=Lion Team_Honeypots_Bruteforce_Source_IP 2022/10/20",
+    "description": " / SSH bruteforce authentication activity",
+    "pattern": "[ipv4-addr:value = '64.227.172.225']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T00:00:07Z",
+    "valid_until": "2022-11-20T00:00:00Z",
+    "labels": [
+        "bruteforce"
+    ]
+}

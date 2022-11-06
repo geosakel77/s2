@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--12c65aa9-799b-48d8-80b3-bbf5b3997fc1",
+    "created": "2022-10-21T05:07:17.000Z",
+    "modified": "2022-10-21T05:07:17.000Z",
+    "name": "OTX pulse_name=Log4j Attack Payloads In The Wild",
+    "description": " / CC=DE ASN=AS24940 Hetzner Online GmbH",
+    "pattern": "[ipv4-addr:value = '85.10.195.175']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T05:07:17Z",
+    "valid_until": "2022-11-20T05:00:00Z"
+}

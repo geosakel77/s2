@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--c2d82492-5825-4b3a-ba00-a499eeaf0bf2",
+    "created": "2022-10-21T06:58:42.000Z",
+    "modified": "2022-10-21T06:58:42.000Z",
+    "name": "OTX pulse_name=From RM3 to LDR4: URSNIF Leaves Banking Fraud Behind",
+    "description": "",
+    "pattern": "[domain-name:value = 'binchfog.xyz']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T06:58:42Z"
+}

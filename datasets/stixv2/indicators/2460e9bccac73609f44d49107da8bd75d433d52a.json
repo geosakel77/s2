@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--22b46eef-610e-4935-b429-2dfcdc2a620c",
+    "created": "2022-10-21T05:07:17.000Z",
+    "modified": "2022-10-21T05:07:17.000Z",
+    "name": "OTX pulse_name=Log4j Attack Payloads In The Wild",
+    "description": " / CC=NL ASN=AS47583 Hostinger International Limited",
+    "pattern": "[ipv4-addr:value = '185.224.139.151']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T05:07:17Z",
+    "valid_until": "2022-11-20T05:00:00Z"
+}

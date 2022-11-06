@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--0d3b847a-5fb3-4e10-8e0b-6ed410639726",
+    "created": "2014-12-02T16:26:17.000Z",
+    "modified": "2014-12-02T16:26:17.000Z",
+    "name": "OTX pulse_name=PoS Scammers Toolbox",
+    "description": "",
+    "pattern": "[domain-name:value = 'blog.wordpress-catalog.com']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2014-12-02T16:26:17Z"
+}

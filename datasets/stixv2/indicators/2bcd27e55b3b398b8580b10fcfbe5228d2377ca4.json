@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--db5c5a50-b2df-4504-a67c-ace0998bd0c6",
+    "created": "2022-10-21T03:30:06.000Z",
+    "modified": "2022-10-21T03:30:06.000Z",
+    "name": "OTX pulse_name=TELNET - US Honeypot IoCs 2022-10-20",
+    "description": "",
+    "pattern": "[file:hashes.'SHA-256' = '2a547c0715784298fdebb09faf4fc1667ed3565792a67ccff9fa5127e457e1cb']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T03:30:06Z"
+}

@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--da7bcdca-3f1f-46e3-8c90-910d2892cd45",
+    "created": "2017-08-24T10:53:01.000Z",
+    "modified": "2017-08-24T10:53:01.000Z",
+    "name": "OTX pulse_name=Cloud Atlas / RedOctober",
+    "description": "",
+    "pattern": "[file:hashes.MD5 = '60dac48e555d139e29edaec41c85e2b4']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2017-08-24T10:53:01Z"
+}

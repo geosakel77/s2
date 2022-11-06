@@ -1,0 +1,17 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--0c3d7ce0-2383-4a0a-8122-a42754482bb7",
+    "created": "2022-10-21T05:07:17.000Z",
+    "modified": "2022-10-21T05:07:17.000Z",
+    "name": "OTX pulse_name=Log4j Attack Payloads In The Wild",
+    "description": " / CC=US ASN=AS14061 DIGITALOCEAN-ASN",
+    "pattern": "[ipv4-addr:value = '68.183.165.105']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T05:07:17Z",
+    "valid_until": "2022-11-20T05:00:00Z",
+    "labels": [
+        "exploit_source"
+    ]
+}

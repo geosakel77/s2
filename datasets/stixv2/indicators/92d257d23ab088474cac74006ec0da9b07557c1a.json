@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--b7d083a9-fc8f-4fe3-9a8c-21f4aa02d7b9",
+    "created": "2015-03-09T22:02:49.000Z",
+    "modified": "2015-03-09T22:02:49.000Z",
+    "name": "OTX pulse_name=Skype Worm",
+    "description": "",
+    "pattern": "[domain-name:value = 'videoss.in.ua']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2015-03-09T22:02:49Z"
+}

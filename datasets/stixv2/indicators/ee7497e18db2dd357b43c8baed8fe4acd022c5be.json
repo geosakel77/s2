@@ -1,0 +1,12 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--bd7cf6b9-6feb-4b1f-bffe-2e8b404b4f66",
+    "created": "2017-08-23T14:11:13.000Z",
+    "modified": "2017-08-23T14:11:13.000Z",
+    "name": "OTX pulse_name=Regin",
+    "description": "",
+    "pattern": "rule Regin_Sample_Set_2    \n   {   \n      \n       meta:   \n           description = \"Detects Regin Backdoor sample 4139149552b0322f2c5c993abccc0f0d1b38db4476189a9f9901ac0d57a656be and e420d0cf7a7983f78f5a15e6cb460e93c7603683ae6c41b27bf7f2fa34b2d935\"   \n           author = \"@MalwrSignatures\"   \n           date = \"27.11.14\"   \n           hash1 = \"4139149552b0322f2c5c993abccc0f0d1b38db4476189a9f9901ac0d57a656be\"   \n           hash2 = \"e420d0cf7a7983f78f5a15e6cb460e93c7603683ae6c41b27bf7f2fa34b2d935\"   \n      \n       strings:   \n           $hd = { fe ba dc fe }       \n           $s0 = \"d%ls%ls\" fullword wide   \n           $s1 = \"\\\\\\\\?\\\\UNC\" fullword wide   \n           $s2 = \"Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\" fullword wide   \n           $s3 = \"\\\\\\\\?\\\\UNC\\\\\" fullword wide   \n           $s4 = \"SYSTEM\\\\CurrentControlSet\\\\Control\\\\Class\\\\{4D36E972-E325-11CE-BFC1-08002BE10318}\" fullword wide   \n           $s5 = \"System\\\\CurrentControlSet\\\\Services\\\\Tcpip\\\\Linkage\" wide fullword   \n           $s6 = \"\\\\\\\\.\\\\Global\\\\%s\" fullword wide   \n           $s7 = \"temp\" fullword wide   \n           $s8 = \"\\\\\\\\.\\\\%s\" fullword wide   \n           $s9 = \"Memory location: 0x%p, size 0x%08x\" fullword wide           \n              \n           $s10 = \"sscanf\" fullword ascii   \n           $s11 = \"disp.dll\" fullword ascii   \n           $s12 = \"%x:%x:%x:%x:%x:%x:%x:%x%c\" fullword ascii   \n           $s13 = \"%d.%d.%d.%d%c\" fullword ascii   \n           $s14 = \"imagehlp.dll\" fullword ascii   \n           $s15 = \"%hd %d\" fullword ascii   \n         \n       condition:   \n           ( $hd at 0 ) and all of ($s*) and filesize < 450KB and filesize > 360KB   \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-08-23T14:11:13Z"
+}

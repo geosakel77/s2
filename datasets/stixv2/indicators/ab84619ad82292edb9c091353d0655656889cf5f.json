@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--ae182d76-2653-4c7f-8cbb-9d6b31c52831",
+    "created": "2022-10-22T00:11:59.000Z",
+    "modified": "2022-10-22T00:11:59.000Z",
+    "name": "OTX pulse_name=2022-10-21 Fail2Ban ecce2fb5-08ab-420c-9e4c-c9680e95a226",
+    "description": "Ban [sshd] / Banned by Fail2Ban [sshd]",
+    "pattern": "[ipv4-addr:value = '140.238.122.212']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-22T00:11:59Z",
+    "valid_until": "2022-11-21T00:00:00Z"
+}

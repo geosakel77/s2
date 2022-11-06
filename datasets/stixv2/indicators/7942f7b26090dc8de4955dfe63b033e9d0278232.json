@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--5fb7ceb9-f93d-46ae-8727-454c4c544217",
+    "created": "2022-10-21T03:30:06.000Z",
+    "modified": "2022-10-21T03:30:06.000Z",
+    "name": "OTX pulse_name=TELNET - US Honeypot IoCs 2022-10-20",
+    "description": "",
+    "pattern": "[ipv4-addr:value = '92.87.6.205']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T03:30:06Z",
+    "valid_until": "2022-11-20T03:00:00Z"
+}

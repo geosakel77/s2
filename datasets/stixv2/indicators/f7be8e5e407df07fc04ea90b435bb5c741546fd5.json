@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--9e4ec0ee-98c7-4dd3-ae33-aad6851341ab",
+    "created": "2022-10-21T07:03:33.000Z",
+    "modified": "2022-10-21T07:03:33.000Z",
+    "name": "OTX pulse_name=New Malicious Clicker found in apps installed by 20M+ users",
+    "description": "Payload delivery",
+    "pattern": "[file:hashes.'SHA-256' = '00c0164d787db2ad6ff4eeebbc0752fcd773e7bf016ea74886da3eeceaefcf76']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T07:03:33Z"
+}

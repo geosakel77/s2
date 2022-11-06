@@ -1,0 +1,12 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--21a70a2a-d4fb-4745-a49f-0716b189b9fd",
+    "created": "2017-08-23T14:11:13.000Z",
+    "modified": "2017-08-23T14:11:13.000Z",
+    "name": "OTX pulse_name=Regin",
+    "description": "",
+    "pattern": "rule Regin_sig_svcsstat    \n   {   \n      \n       meta:   \n           description = \"Detects svcstat from Regin report - file svcsstat.exe_sample\"   \n           author = \"@MalwrSignatures\"   \n           date = \"26.11.14\"   \n           hash = \"5164edc1d54f10b7cb00a266a1b52c623ab005e2\"   \n      \n       strings:   \n           $s0 = \"Service Control Manager\" fullword ascii   \n           $s1 = \"_vsnwprintf\" fullword ascii   \n           $s2 = \"Root Agency\" fullword ascii   \n           $s3 = \"Root Agency0\" fullword ascii   \n           $s4 = \"StartServiceCtrlDispatcherA\" fullword ascii   \n           $s5 = \"\\\\\\\\?\\\\UNC\" fullword wide   \n           $s6 = \"%ls%ls\" fullword wide   \n      \n       condition:   \n           all of them and filesize < 15KB and filesize > 10KB    \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-08-23T14:11:13Z"
+}

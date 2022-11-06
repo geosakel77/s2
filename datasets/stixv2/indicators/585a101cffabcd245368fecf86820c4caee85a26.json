@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--08323765-7f3a-4860-94cd-3d93e2d96e38",
+    "created": "2014-12-02T16:26:17.000Z",
+    "modified": "2014-12-02T16:26:17.000Z",
+    "name": "OTX pulse_name=PoS Scammers Toolbox",
+    "description": "",
+    "pattern": "[domain-name:value = '143biz.cc.md-14.webhostbox.net']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2014-12-02T16:26:17Z"
+}

@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--5e3b788f-960b-40ed-94a7-173291a68dca",
+    "created": "2015-03-09T22:02:49.000Z",
+    "modified": "2015-03-09T22:02:49.000Z",
+    "name": "OTX pulse_name=Skype Worm",
+    "description": "",
+    "pattern": "[file:hashes.'SHA-1' = '726db7f1c956db8c5e94d21558cbbe650b949b7e']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2015-03-09T22:02:49Z"
+}

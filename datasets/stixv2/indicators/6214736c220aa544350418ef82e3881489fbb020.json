@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--06c2e017-60ee-4305-88b7-f1a8c45b55e2",
+    "created": "2022-10-21T22:16:16.000Z",
+    "modified": "2022-10-21T22:16:16.000Z",
+    "name": "OTX pulse_name=Non Standard HTTP Access - Header formation failure: ENCODE (S3)",
+    "description": "",
+    "pattern": "[ipv4-addr:value = '191.184.33.17']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T22:16:16Z",
+    "valid_until": "2022-11-20T22:00:00Z"
+}

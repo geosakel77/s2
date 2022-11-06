@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--a4a26084-665c-40dd-a9a9-db3ec113129c",
+    "created": "2022-10-21T23:57:11.000Z",
+    "modified": "2022-10-21T23:57:11.000Z",
+    "name": "OTX pulse_name=Active Malware samples detected on 2022-10-21",
+    "description": "Win32.Webdialer.Dialer.Porn",
+    "pattern": "[file:hashes.MD5 = 'f7c4f012b5e535e8b7b79fee12b659da']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T23:57:11Z"
+}

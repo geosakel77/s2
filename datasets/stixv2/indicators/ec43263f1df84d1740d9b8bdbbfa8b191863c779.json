@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--0a892312-14da-473b-ad36-573060bdabcd",
+    "created": "2017-08-23T14:11:13.000Z",
+    "modified": "2017-08-23T14:11:13.000Z",
+    "name": "OTX pulse_name=Regin",
+    "description": "",
+    "pattern": "[file:hashes.MD5 = '26297dc3cd0b688de3b846983c5385e5']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2017-08-23T14:11:13Z"
+}

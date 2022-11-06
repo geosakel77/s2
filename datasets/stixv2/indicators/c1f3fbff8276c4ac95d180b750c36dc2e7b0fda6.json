@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--dfe815fa-7200-49dd-89f0-9b6caec7d849",
+    "created": "2022-10-21T14:15:30.000Z",
+    "modified": "2022-10-21T14:15:30.000Z",
+    "name": "OTX pulse_name=Server Scanning 21/10/2022",
+    "description": " / CC=US ASN=AS398324 CENSYS-ARIN-01",
+    "pattern": "[ipv4-addr:value = '162.142.125.139']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T14:15:30Z",
+    "valid_until": "2022-11-20T14:00:00Z"
+}

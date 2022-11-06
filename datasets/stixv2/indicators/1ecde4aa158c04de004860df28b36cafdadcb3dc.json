@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--e9ea6402-d039-4863-ab00-710c29f9908e",
+    "created": "2017-08-24T10:52:03.000Z",
+    "modified": "2017-08-24T10:52:03.000Z",
+    "name": "OTX pulse_name=Operation Double Tap",
+    "description": "",
+    "pattern": "[domain-name:value = 'pn.lamb-site.com']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2017-08-24T10:52:03Z"
+}

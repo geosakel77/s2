@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--2c5b6417-2f54-4b41-b0d1-fcf91c722214",
+    "created": "2022-10-21T23:57:11.000Z",
+    "modified": "2022-10-21T23:57:11.000Z",
+    "name": "OTX pulse_name=Active Malware samples detected on 2022-10-21",
+    "description": "Adware.Win32.Extinstaller.Generic",
+    "pattern": "[domain-name:value = 'down10d.zol.com.cn']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T23:57:11Z"
+}

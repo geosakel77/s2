@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--279120c6-6879-4629-9a9e-f88ee643871a",
+    "created": "2015-02-11T04:56:37.000Z",
+    "modified": "2015-02-11T04:56:37.000Z",
+    "name": "OTX pulse_name=Symmi new DGA",
+    "description": "",
+    "pattern": "[domain-name:value = 'vebiabipkilo.ddns.net']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2015-02-11T04:56:37Z"
+}

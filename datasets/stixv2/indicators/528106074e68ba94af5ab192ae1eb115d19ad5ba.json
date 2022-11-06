@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--50de6515-aadb-4d73-aeed-aecc24720ed2",
+    "created": "2017-08-24T10:52:09.000Z",
+    "modified": "2017-08-24T10:52:09.000Z",
+    "name": "OTX pulse_name=EquationDrug Espionage Platform",
+    "description": "",
+    "pattern": "[file:hashes.MD5 = 'b2c7339e87c932c491e34cdcd99feb07']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2017-08-24T10:52:09Z"
+}

@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--8162ce0f-59f2-490e-9547-2f9ca2934478",
+    "created": "2022-10-21T14:15:30.000Z",
+    "modified": "2022-10-21T14:15:30.000Z",
+    "name": "OTX pulse_name=Server Scanning 21/10/2022",
+    "description": " / CC=US ASN=AS21859 ZEN-ECN",
+    "pattern": "[ipv4-addr:value = '162.221.192.27']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T14:15:30Z",
+    "valid_until": "2022-11-20T14:00:00Z"
+}

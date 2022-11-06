@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--542035d4-e44d-45e7-8996-4a97e5b8a0dc",
+    "created": "2022-10-21T20:59:07.000Z",
+    "modified": "2022-10-21T20:59:07.000Z",
+    "name": "OTX pulse_name=CobaltStrikeC2s_1666385883",
+    "description": "",
+    "pattern": "[domain-name:value = 'service-ifur8txe-1309094654.hk.apigw.tencentcs.com']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T20:59:07Z"
+}

@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--93953f2b-b4a2-46d8-90fa-9dd765e0b6ec",
+    "created": "2022-10-21T05:07:17.000Z",
+    "modified": "2022-10-21T05:07:17.000Z",
+    "name": "OTX pulse_name=Log4j Attack Payloads In The Wild",
+    "description": "SLFPER:WebClientObjDLExec / MD5 of 8ad160ddb9d617cf61ff0a7af0fa6d12ae26cf85a5d6e551c617f6c6bb770299",
+    "pattern": "[file:hashes.MD5 = '35697fadc752d99409ccc4c7545d139f']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T05:07:17Z"
+}

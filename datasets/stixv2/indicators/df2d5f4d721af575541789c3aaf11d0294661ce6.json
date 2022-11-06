@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--fe447d23-a8a0-4c31-91d1-c0cb84842d29",
+    "created": "2017-08-24T10:52:59.000Z",
+    "modified": "2017-08-24T10:52:59.000Z",
+    "name": "OTX pulse_name=Bots, Machines,\tand the Matrix",
+    "description": "",
+    "pattern": "[file:hashes.'SHA-1' = 'a87c5b6a588ef4b351ce1a3a0fe2b035e685e96c']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2017-08-24T10:52:59Z"
+}

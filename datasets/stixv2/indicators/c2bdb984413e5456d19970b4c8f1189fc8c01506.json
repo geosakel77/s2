@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--f7ff9c52-f260-45e7-b681-23ec880dabf1",
+    "created": "2022-10-21T23:55:18.000Z",
+    "modified": "2022-10-21T23:55:18.000Z",
+    "name": "OTX pulse_name=Active Bamital DGA(s) for 20221021",
+    "description": "",
+    "pattern": "[domain-name:value = '9b2c13cef98871b05bdd7922b68199ed.co.cc']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T23:55:18Z"
+}

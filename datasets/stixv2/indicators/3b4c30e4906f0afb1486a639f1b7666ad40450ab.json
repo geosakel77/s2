@@ -1,0 +1,12 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--68e284ef-a191-40c5-97c6-6678441e3876",
+    "created": "2017-08-24T09:26:22.000Z",
+    "modified": "2017-08-24T09:26:22.000Z",
+    "name": "OTX pulse_name=Operation Cleaver",
+    "description": "",
+    "pattern": "rule OPCLEAVER_pvz_out   \n   {   \n      \n       meta:   \n           description = \"Parviz tool used by attackers in Operation Cleaver\"   \n           reference = \"http://cylance.com/assets/Cleaver/Cylance_Operation_Cleaver_Report.pdf\"   \n           date = \"2014/12/02\"   \n           author = \"Cylance Inc.\"   \n           score = \"70\"   \n      \n       strings:   \n           $s1 = \"Network Connectivity Module\" wide   \n           $s2 = \"OSPPSVC\" wide   \n      \n       condition:   \n           all of them   \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-08-24T09:26:22Z"
+}

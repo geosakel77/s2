@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--688d5bb9-8e18-4e77-b9de-e2792b59b2f7",
+    "created": "2022-10-21T20:59:07.000Z",
+    "modified": "2022-10-21T20:59:07.000Z",
+    "name": "OTX pulse_name=CobaltStrikeC2s_1666385883",
+    "description": "",
+    "pattern": "[domain-name:value = 'www.ggdddhm.tk']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T20:59:07Z"
+}

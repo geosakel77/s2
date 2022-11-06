@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--043c67dc-44bc-4e99-8d37-ac620418f3c8",
+    "created": "2022-10-21T05:07:17.000Z",
+    "modified": "2022-10-21T05:07:17.000Z",
+    "name": "OTX pulse_name=Log4j Attack Payloads In The Wild",
+    "description": " / CC=CN ASN=AS4134 Chinanet",
+    "pattern": "[ipv4-addr:value = '14.215.128.148']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T05:07:17Z",
+    "valid_until": "2022-11-20T05:00:00Z"
+}

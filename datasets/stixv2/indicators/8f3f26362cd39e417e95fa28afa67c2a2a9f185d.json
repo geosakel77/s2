@@ -1,0 +1,12 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--111f299e-86d1-4cd7-a2fd-8fb388f34bf7",
+    "created": "2017-08-23T14:11:13.000Z",
+    "modified": "2017-08-23T14:11:13.000Z",
+    "name": "OTX pulse_name=Regin",
+    "description": "",
+    "pattern": "rule Regin_Sample_3    \n   {   \n      \n       meta:   \n           description = \"Detects Regin Backdoor sample fe1419e9dde6d479bd7cda27edd39fafdab2668d498931931a2769b370727129\"   \n           author = \"@Malwrsignatures\"   \n           date = \"27.11.14\"   \n           hash = \"fe1419e9dde6d479bd7cda27edd39fafdab2668d498931931a2769b370727129\"          \n         \n       strings:   \n           $hd = { fe ba dc fe }   \n           $s0 = \"Service Pack x\" fullword wide   \n           $s1 = \"\\\\REGISTRY\\\\MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows NT\\\\CurrentVersion\" fullword wide   \n           $s2 = \"\\\\REGISTRY\\\\Machine\\\\Software\\\\Microsoft\\\\Windows NT\\\\CurrentVersion\\\\HotFix\" fullword wide   \n           $s3 = \"mntoskrnl.exe\" fullword wide   \n           $s4 = \"\\\\REGISTRY\\\\Machine\\\\System\\\\CurrentControlSet\\\\Control\\\\Session Manager\\\\Memory Management\" fullword wide   \n           $s5 = \"Memory location: 0x%p, size 0x%08x\" wide fullword   \n           $s6 = \"Service Pack\" fullword wide   \n           $s7 = \".sys\" fullword wide   \n           $s8 = \".dll\" fullword wide         \n           $s10 = \"\\\\REGISTRY\\\\Machine\\\\Software\\\\Microsoft\\\\Updates\" fullword wide   \n           $s11 = \"IoGetRelatedDeviceObject\" fullword ascii   \n           $s12 = \"VMEM.sys\" fullword ascii   \n           $s13 = \"RtlGetVersion\" fullword wide   \n           $s14 = \"ntkrnlpa.exe\" fullword ascii   \n         \n       condition:   \n           ( $hd at 0 ) and all of ($s*) and filesize > 160KB and filesize < 200KB   \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-08-23T14:11:13Z"
+}

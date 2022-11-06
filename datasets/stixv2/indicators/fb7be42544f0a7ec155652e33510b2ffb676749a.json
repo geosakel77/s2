@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--94b936d2-186e-47d5-a7a4-27e1ba0909c9",
+    "created": "2022-10-21T19:50:13.000Z",
+    "modified": "2022-10-21T19:50:13.000Z",
+    "name": "OTX pulse_name=Attackers Abusing Various Remote Control Tools",
+    "description": "",
+    "pattern": "[url:value = 'http://106.250.168.50/todesk.rar']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T19:50:13Z"
+}

@@ -1,0 +1,12 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--47f80a27-bb04-4585-9eb7-16794ab24390",
+    "created": "2017-08-23T14:11:13.000Z",
+    "modified": "2017-08-23T14:11:13.000Z",
+    "name": "OTX pulse_name=Regin",
+    "description": "",
+    "pattern": "rule apt_regin_vfs    \n   {   \n          \n       meta:   \n           copyright = \"Kaspersky Lab\"   \n           author = \"Kaspersky Lab\"   \n           description = \"Rule to detect Regin VFSes\"   \n           version = \"1.0\"   \n           last_modified = \"2014-11-18\"   \n          \n       strings:   \n           $a1={00 02 00 08 00 08 03 F6 D7 F3 52}   \n           $a2={00 10 F0 FF F0 FF 11 C7 7F E8 52}   \n           $a3={00 04 00 10 00 10 03 C2 D3 1C 93}   \n           $a4={00 04 00 10 C8 00 04 C8 93 06 D8}   \n          \n       condition:   \n       ($a1 at 0) or ($a2 at 0) or ($a3 at 0) or ($a4 at 0)   \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-08-23T14:11:13Z"
+}

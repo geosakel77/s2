@@ -1,0 +1,17 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--4211ff60-fe3f-486e-88b9-5e84aa81145f",
+    "created": "2022-10-21T20:00:02.000Z",
+    "modified": "2022-10-21T20:00:02.000Z",
+    "name": "OTX pulse_name=Honeypot Hits (2022-10-21)",
+    "description": "Web Scanning Host",
+    "pattern": "[ipv4-addr:value = '167.172.65.168']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T20:00:02Z",
+    "valid_until": "2022-11-20T20:00:00Z",
+    "labels": [
+        "web_attack"
+    ]
+}

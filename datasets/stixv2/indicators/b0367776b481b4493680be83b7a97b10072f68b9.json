@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--0f75d99e-4da8-42a6-80e4-a25b09f662f4",
+    "created": "2022-10-21T14:15:30.000Z",
+    "modified": "2022-10-21T14:15:30.000Z",
+    "name": "OTX pulse_name=Server Scanning 21/10/2022",
+    "description": " / CC=DE ASN=AS23470 RELIABLESITE",
+    "pattern": "[ipv4-addr:value = '45.93.16.71']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T14:15:30Z",
+    "valid_until": "2022-11-20T14:00:00Z"
+}

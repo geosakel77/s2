@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--e3350419-38b4-44ec-b7f8-7c0a8b7cae31",
+    "created": "2022-10-21T10:43:15.000Z",
+    "modified": "2022-10-21T10:43:15.000Z",
+    "name": "OTX pulse_name=BC FEED - Scanning IPs",
+    "description": "",
+    "pattern": "[ipv4-addr:value = '192.241.212.71']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T10:43:15Z",
+    "valid_until": "2022-11-20T00:00:00Z"
+}

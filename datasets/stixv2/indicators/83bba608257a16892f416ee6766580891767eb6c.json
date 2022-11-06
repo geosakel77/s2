@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--a1f40271-768b-4ded-81a0-fe9addfc68cc",
+    "created": "2017-08-24T10:52:03.000Z",
+    "modified": "2017-08-24T10:52:03.000Z",
+    "name": "OTX pulse_name=Operation Double Tap",
+    "description": "",
+    "pattern": "[domain-name:value = 'walterclean.com']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2017-08-24T10:52:03Z"
+}

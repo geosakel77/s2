@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--43aa6f1a-f955-465b-98f7-2ee5c5781b60",
+    "created": "2015-02-11T04:56:37.000Z",
+    "modified": "2015-02-11T04:56:37.000Z",
+    "name": "OTX pulse_name=Symmi new DGA",
+    "description": "",
+    "pattern": "[domain-name:value = 'efrubatoiketxa.ddns.net']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2015-02-11T04:56:37Z"
+}

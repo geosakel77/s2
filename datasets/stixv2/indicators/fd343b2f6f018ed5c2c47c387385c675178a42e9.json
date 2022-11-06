@@ -1,0 +1,12 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--255d1c1f-169c-44b0-b4ca-e28c3b1a21a8",
+    "created": "2017-08-23T14:11:13.000Z",
+    "modified": "2017-08-23T14:11:13.000Z",
+    "name": "OTX pulse_name=Regin",
+    "description": "",
+    "pattern": "rule apt_regin_dispatcher_disp_dll    \n   {   \n      \n       meta:   \n           copyright = \"Kaspersky Lab\"   \n           author = \"Kaspersky Lab\"   \n           description = \"Rule to detect Regin disp.dll dispatcher\"   \n           version = \"1.0\"   \n           last_modified = \"2014-11-18\"   \n      \n       strings:   \n           $mz=\"MZ\"   \n           $string1=\"shit\"   \n           $string2=\"disp.dll\"   \n           $string3=\"255.255.255.255\"   \n           $string4=\"StackWalk64\"   \n           $string5=\"imagehlp.dll\"   \n          \n       condition:   \n           ($mz at 0) and (all of ($string*))   \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-08-23T14:11:13Z"
+}

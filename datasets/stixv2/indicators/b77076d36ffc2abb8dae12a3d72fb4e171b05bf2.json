@@ -1,0 +1,12 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--1bcec7d3-ed5a-4ae2-8355-3836795a478e",
+    "created": "2017-08-24T09:26:22.000Z",
+    "modified": "2017-08-24T09:26:22.000Z",
+    "name": "OTX pulse_name=Operation Cleaver",
+    "description": "",
+    "pattern": "rule Zh0uSh311   \n   {   \n      \n     meta:   \n       author = \"Cylance\"   \n       date = \"2014-12-02\"   \n       description = \"http://cylance.com/opcleaver\"   \n      \n     strings:   \n       $s1 = \"Zh0uSh311\"   \n      \n     condition:   \n       all of them   \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-08-24T09:26:22Z"
+}

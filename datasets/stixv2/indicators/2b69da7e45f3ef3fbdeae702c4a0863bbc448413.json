@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--0be1d6e9-d774-40f6-b16d-976a79d45f23",
+    "created": "2022-10-21T23:51:41.000Z",
+    "modified": "2022-10-21T23:51:41.000Z",
+    "name": "OTX pulse_name=Twitter Feed - satontonton - 21-10-2022",
+    "description": "",
+    "pattern": "[url:value = 'https://netstation2aplus.mjfuzhvvzsgdve.com/']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T23:51:41Z"
+}

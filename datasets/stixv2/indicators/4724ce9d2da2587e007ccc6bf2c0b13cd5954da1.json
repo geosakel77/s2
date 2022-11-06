@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--7d0d179e-8c40-4fe6-8f60-3e58ff31af18",
+    "created": "2022-10-21T10:19:03.000Z",
+    "modified": "2022-10-21T10:19:03.000Z",
+    "name": "OTX pulse_name=SQL Injection attack (S3)",
+    "description": "",
+    "pattern": "[ipv4-addr:value = '20.236.32.189']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T10:19:03Z",
+    "valid_until": "2022-11-20T10:00:00Z"
+}

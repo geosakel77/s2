@@ -1,0 +1,17 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--cf246b32-17c9-4c40-ac96-f1e587217670",
+    "created": "2022-10-21T14:15:30.000Z",
+    "modified": "2022-10-21T14:15:30.000Z",
+    "name": "OTX pulse_name=Server Scanning 21/10/2022",
+    "description": " / CC=CA ASN=AS396982 GOOGLE-CLOUD-PLATFORM",
+    "pattern": "[ipv4-addr:value = '34.152.16.243']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T14:15:30Z",
+    "valid_until": "2022-11-20T14:00:00Z",
+    "labels": [
+        "scanning_host"
+    ]
+}

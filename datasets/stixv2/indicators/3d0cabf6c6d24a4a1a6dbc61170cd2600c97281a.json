@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--64d6cf69-9f5c-41c5-b9a3-1758f69c61e7",
+    "created": "2022-10-21T05:07:17.000Z",
+    "modified": "2022-10-21T05:07:17.000Z",
+    "name": "OTX pulse_name=Log4j Attack Payloads In The Wild",
+    "description": "",
+    "pattern": "[file:hashes.'SHA-256' = '70ffac4b8f2cf00a6876b3aa622c0efa87b53b681791302eea27692dd81f273d']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T05:07:17Z"
+}

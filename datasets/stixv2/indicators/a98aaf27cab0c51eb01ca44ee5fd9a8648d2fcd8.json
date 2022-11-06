@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--f4c1ab46-e864-4d74-9cdb-faf24a6fa65e",
+    "created": "2022-10-21T05:28:13.000Z",
+    "modified": "2022-10-21T05:28:13.000Z",
+    "name": "OTX pulse_name=Sophos X-Ops finds Attackers Using Covert Channels in Backdoor Against Devices",
+    "description": "Network activity",
+    "pattern": "[domain-name:value = 'lifeforkids.org']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T05:28:13Z"
+}

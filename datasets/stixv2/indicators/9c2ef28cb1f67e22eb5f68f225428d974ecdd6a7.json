@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--956b95ed-5497-4ae2-8023-f901320824b2",
+    "created": "2022-10-21T04:05:33.000Z",
+    "modified": "2022-10-21T04:05:33.000Z",
+    "name": "OTX pulse_name=Enumerating Energy Infrastructure",
+    "description": "Win32:MalwareX-gen\\ [Trj]",
+    "pattern": "[file:hashes.'SHA-1' = '6fa04992c0624c7aa3ca80da6a30e6de91226a16']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T04:05:33Z"
+}

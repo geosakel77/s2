@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--7f4d1f09-e92e-422a-a78d-a1910aba9b4d",
+    "created": "2017-08-24T10:52:03.000Z",
+    "modified": "2017-08-24T10:52:03.000Z",
+    "name": "OTX pulse_name=Operation Double Tap",
+    "description": "",
+    "pattern": "[url:value = 'http://www.playboysplus.com']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2017-08-24T10:52:03Z"
+}

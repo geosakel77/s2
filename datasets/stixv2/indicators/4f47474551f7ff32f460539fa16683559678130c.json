@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--589d07ec-4fa9-4d07-9b6d-310d7284fa3d",
+    "created": "2022-10-21T05:28:13.000Z",
+    "modified": "2022-10-21T05:28:13.000Z",
+    "name": "OTX pulse_name=Sophos X-Ops finds Attackers Using Covert Channels in Backdoor Against Devices",
+    "description": "Payload delivery / Payload delivery",
+    "pattern": "[file:hashes.'SHA-256' = '487bc1cf00f37606cff612321c2d75f54565a7b8bc6c0a8be15ef30ee4d4f33c']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T05:28:13Z"
+}

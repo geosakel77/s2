@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--781b8d02-5add-4eea-b15f-5ed1759bcc3e",
+    "created": "2022-10-21T04:05:33.000Z",
+    "modified": "2022-10-21T04:05:33.000Z",
+    "name": "OTX pulse_name=Enumerating Energy Infrastructure",
+    "description": "",
+    "pattern": "[ipv4-addr:value = '217.150.58.9']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T04:05:33Z",
+    "valid_until": "2022-11-20T04:00:00Z"
+}

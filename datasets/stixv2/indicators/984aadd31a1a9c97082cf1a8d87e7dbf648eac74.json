@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--60c63b55-6ec7-4c7d-b94f-6c05bf2dc170",
+    "created": "2022-10-21T06:58:42.000Z",
+    "modified": "2022-10-21T06:58:42.000Z",
+    "name": "OTX pulse_name=From RM3 to LDR4: URSNIF Leaves Banking Fraud Behind",
+    "description": " / CC=CH ASN=AS51395 Datasource AG",
+    "pattern": "[ipv4-addr:value = '5.182.36.248']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T06:58:42Z",
+    "valid_until": "2022-11-19T13:00:00Z"
+}

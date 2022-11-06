@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--cbab6932-4fd4-4c81-a310-10d8ff483940",
+    "created": "2022-10-21T06:58:42.000Z",
+    "modified": "2022-10-21T06:58:42.000Z",
+    "name": "OTX pulse_name=From RM3 to LDR4: URSNIF Leaves Banking Fraud Behind",
+    "description": " / CC=HU ASN=AS56322 ServerAstra Kft.",
+    "pattern": "[ipv4-addr:value = '5.182.38.43']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T06:58:42Z",
+    "valid_until": "2022-11-19T13:00:00Z"
+}

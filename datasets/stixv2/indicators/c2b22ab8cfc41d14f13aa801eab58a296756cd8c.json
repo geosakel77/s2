@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--334791ef-e3d4-4e82-ae4b-bb8a6e5f6870",
+    "created": "2022-10-21T19:50:13.000Z",
+    "modified": "2022-10-21T19:50:13.000Z",
+    "name": "OTX pulse_name=Attackers Abusing Various Remote Control Tools",
+    "description": "Ammyy_Admin_AA_v3 / SHA1 of fe1bb6811f5c808414c4a357031c2718",
+    "pattern": "[file:hashes.'SHA-1' = 'e30174a9f99766d07667de19a74732d8f121b42b']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T19:50:13Z"
+}

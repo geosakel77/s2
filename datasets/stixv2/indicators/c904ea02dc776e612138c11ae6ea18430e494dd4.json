@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--a6f5e05f-6f85-4999-afe7-a820375781ac",
+    "created": "2015-03-12T20:16:25.000Z",
+    "modified": "2015-03-12T20:16:25.000Z",
+    "name": "OTX pulse_name=Targeted Attack Campaign Against Indian Organizations",
+    "description": "",
+    "pattern": "[file:hashes.MD5 = 'b0ae36bcf725d53ed73126ed56e55951']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2015-03-12T20:16:25Z"
+}

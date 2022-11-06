@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--00d13c8d-ffcb-404a-b9b8-4a5e91a732a2",
+    "created": "2015-02-08T18:41:50.000Z",
+    "modified": "2015-02-08T18:41:50.000Z",
+    "name": "OTX pulse_name=Google Chrome update Spam drops CTB Locker",
+    "description": "",
+    "pattern": "[url:value = 'http://www.goodtobeloved.com/ChromeSetup.exe']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2015-02-08T18:41:50Z"
+}

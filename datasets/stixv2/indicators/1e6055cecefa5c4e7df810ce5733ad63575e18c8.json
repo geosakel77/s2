@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--626fd004-7f88-4850-b688-700387eaf634",
+    "created": "2017-08-24T09:27:23.000Z",
+    "modified": "2017-08-24T09:27:23.000Z",
+    "name": "OTX pulse_name=Linking Asprox, Zemot, Rovix and  Rerdom Malware Families ",
+    "description": "",
+    "pattern": "[file:hashes.MD5 = '7166665cf5d69422fb710009161faf64']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2017-08-24T09:27:23Z"
+}

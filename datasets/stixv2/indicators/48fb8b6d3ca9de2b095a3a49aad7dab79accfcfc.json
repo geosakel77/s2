@@ -1,0 +1,17 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--1c9d8467-a86a-4f74-a271-f1b132fdb8fe",
+    "created": "2022-09-21T20:15:28.000Z",
+    "modified": "2022-09-21T20:15:28.000Z",
+    "name": "OTX pulse_name=Webscanners 2018-02-09  thru current day",
+    "description": "404 NOT FOUND",
+    "pattern": "[ipv4-addr:value = '112.80.237.30']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-09-21T20:15:28Z",
+    "valid_until": "2022-12-20T00:00:00Z",
+    "labels": [
+        "scanning_host"
+    ]
+}

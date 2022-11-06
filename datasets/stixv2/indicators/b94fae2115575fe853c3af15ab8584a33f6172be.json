@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--66a8e416-d4de-42b7-8d07-5955a4323cdb",
+    "created": "2022-10-21T19:50:13.000Z",
+    "modified": "2022-10-21T19:50:13.000Z",
+    "name": "OTX pulse_name=Attackers Abusing Various Remote Control Tools",
+    "description": "",
+    "pattern": "[url:value = 'http://106.250.168.50/rd.exe']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T19:50:13Z"
+}

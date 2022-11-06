@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--f6e757e7-fddb-4a38-a286-eb7e8784a101",
+    "created": "2015-03-09T22:02:49.000Z",
+    "modified": "2015-03-09T22:02:49.000Z",
+    "name": "OTX pulse_name=Skype Worm",
+    "description": "",
+    "pattern": "[domain-name:value = 'popvideoskype.com']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2015-03-09T22:02:49Z"
+}

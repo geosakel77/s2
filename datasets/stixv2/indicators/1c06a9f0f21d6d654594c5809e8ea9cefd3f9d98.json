@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--99089063-cfae-45b5-9862-c5eaa8903a05",
+    "created": "2014-12-02T16:26:17.000Z",
+    "modified": "2014-12-02T16:26:17.000Z",
+    "name": "OTX pulse_name=PoS Scammers Toolbox",
+    "description": "",
+    "pattern": "[file:hashes.MD5 = '7a5580ddf2eb2fc4f4a0ea28c40f0da9']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2014-12-02T16:26:17Z"
+}

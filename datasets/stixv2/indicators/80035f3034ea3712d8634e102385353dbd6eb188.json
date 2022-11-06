@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--be700919-ceb6-4273-bdfd-d1f68b2ec7f6",
+    "created": "2022-10-21T09:00:04.000Z",
+    "modified": "2022-10-21T09:00:04.000Z",
+    "name": "OTX pulse_name=Digital Ocean (Toronto (Canada)) SNMP Attacker Hosts for 2022-10-20",
+    "description": "",
+    "pattern": "[ipv4-addr:value = '146.88.240.4']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T09:00:04Z",
+    "valid_until": "2022-11-20T09:00:00Z"
+}

@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--1c71828c-7f10-481e-a1fc-2329b2c8a0ad",
+    "created": "2022-10-21T20:32:13.000Z",
+    "modified": "2022-10-21T20:32:13.000Z",
+    "name": "OTX pulse_name=CISA | Alert (AA22-294A) #StopRansomware: Daixin Team",
+    "description": "",
+    "pattern": "[file:hashes.'SHA-256' = '475d6e80cf4ef70926a65df5551f59e35b71a0e92f0fe4dd28559a9deba60c28']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T20:32:13Z"
+}

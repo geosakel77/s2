@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--9605e37d-b4e4-44c8-82ef-92e0b6f0d0fa",
+    "created": "2022-10-21T19:50:13.000Z",
+    "modified": "2022-10-21T19:50:13.000Z",
+    "name": "OTX pulse_name=Attackers Abusing Various Remote Control Tools",
+    "description": "",
+    "pattern": "[url:value = 'http://58.180.56.28/mscorsvw2.exe']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T19:50:13Z"
+}

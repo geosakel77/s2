@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--84073d22-3224-44e1-88c4-7bd3cf441e6b",
+    "created": "2022-10-21T23:57:11.000Z",
+    "modified": "2022-10-21T23:57:11.000Z",
+    "name": "OTX pulse_name=Active Malware samples detected on 2022-10-21",
+    "description": "Adware.Win32.Extinstaller.Generic",
+    "pattern": "[file:hashes.'SHA-1' = 'c0f7e826645b1ba2ba1fed866992beb9de7a31df']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T23:57:11Z"
+}

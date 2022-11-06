@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--9ba6b530-3c26-41d6-a499-7846af2060a3",
+    "created": "2017-08-24T09:27:23.000Z",
+    "modified": "2017-08-24T09:27:23.000Z",
+    "name": "OTX pulse_name=Linking Asprox, Zemot, Rovix and  Rerdom Malware Families ",
+    "description": "",
+    "pattern": "[domain-name:value = 'lowbalance.su']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2017-08-24T09:27:23Z"
+}

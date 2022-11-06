@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--41e79d0a-9769-461b-9c22-fdd876b6f1dd",
+    "created": "2017-08-24T10:52:59.000Z",
+    "modified": "2017-08-24T10:52:59.000Z",
+    "name": "OTX pulse_name=Bots, Machines,\tand the Matrix",
+    "description": "",
+    "pattern": "[domain-name:value = 'a2kiaymoster14902.com']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2017-08-24T10:52:59Z"
+}

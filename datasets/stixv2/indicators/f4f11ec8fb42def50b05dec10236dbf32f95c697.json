@@ -1,0 +1,12 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--8e8e3a88-230c-4286-b123-bf9d0f3a2cb8",
+    "created": "2017-08-24T09:26:22.000Z",
+    "modified": "2017-08-24T09:26:22.000Z",
+    "name": "OTX pulse_name=Operation Cleaver",
+    "description": "",
+    "pattern": "rule SynFlooder   \n   {   \n      \n     meta:   \n       author = \"Cylance\"   \n       date = \"2014-12-02\"   \n       description = \"http://cylance.com/opcleaver\"   \n      \n     strings:   \n       $s1 = \"Unable to resolve [ %s ]. ErrorCode %d\"   \n       $s2 = \"your target's IP is : %s\"   \n       $s3 = \"Raw TCP Socket Created successfully.\"   \n      \n     condition:   \n       all of them   \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-08-24T09:26:22Z"
+}

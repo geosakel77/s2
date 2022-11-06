@@ -1,0 +1,12 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--b636da34-7bef-4bd6-b48f-98afcc6aded3",
+    "created": "2017-08-23T14:11:13.000Z",
+    "modified": "2017-08-23T14:11:13.000Z",
+    "name": "OTX pulse_name=Regin",
+    "description": "",
+    "pattern": "rule Regin_APT_KernelDriver_Generic_C    \n   {   \n      \n       meta:   \n           description = \"Generic rule for Regin APT kernel driver Malware - Symantec http://t.co/qu53359Cb2\"   \n           author = \"@Malwrsignatures - included in APT Scanner THOR\"   \n           date = \"23.11.14\"   \n           hash1 = \"e0895336617e0b45b312383814ec6783556d7635\"   \n           hash2 = \"732298fa025ed48179a3a2555b45be96f7079712\"         \n      \n       strings:   \n           $m0 = { 4d 5a 90 00 03 00 00 00 04 00 00 00 ff ff 00 00 b8 }       \n           $s0 = \"KeGetCurrentIrql\" fullword ascii   \n           $s1 = \"5.2.3790.0 (srv03_rtm.030324-2048)\" fullword wide   \n           $s2 = \"usbclass\" fullword wide   \n           $x1 = \"PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDING\" ascii   \n           $x2 = \"Universal Serial Bus Class Driver\" fullword wide   \n           $x3 = \"5.2.3790.0\" fullword wide   \n           $y1 = \"LSA Shell\" fullword wide   \n           $y2 = \"0Richw\" fullword ascii          \n          \n       condition:   \n           $m0 at 0 and all of ($s*) and ( all of ($x*) or all of ($y*) )  and filesize < 20KB   \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-08-23T14:11:13Z"
+}

@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--29de6518-68c2-4fd1-b93a-a4028d49091d",
+    "created": "2022-10-21T05:07:17.000Z",
+    "modified": "2022-10-21T05:07:17.000Z",
+    "name": "OTX pulse_name=Log4j Attack Payloads In The Wild",
+    "description": "SUSP_ELF_LNX_UPX_Compressed_File / SHA1 of e7c5b3de93a3184dc99c98c7f45e6ff5f6881b15d4a56c144e2e53e96dcc0e82",
+    "pattern": "[file:hashes.'SHA-1' = '07a3fb97c339a186f79c33d4de32997b2ad735d4']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T05:07:17Z"
+}

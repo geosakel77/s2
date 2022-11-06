@@ -1,0 +1,16 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--81bce134-8860-4e61-9d2d-452f2d152960",
+    "created": "2022-10-21T05:07:17.000Z",
+    "modified": "2022-10-21T05:07:17.000Z",
+    "name": "OTX pulse_name=Log4j Attack Payloads In The Wild",
+    "description": "CoinMiner, nspps / SHA1 of 6e25ad03103a1a972b78c642bac09060fa79c460011dc5748cbb433cc459938b",
+    "pattern": "[file:hashes.'SHA-1' = '0194637f1e83c2efc8bcda8d20c446805698c7bc']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T05:07:17Z",
+    "labels": [
+        "backdoor"
+    ]
+}

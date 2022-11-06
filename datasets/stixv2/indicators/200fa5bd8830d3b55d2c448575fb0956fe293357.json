@@ -1,0 +1,17 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--4d2291c8-c2ff-4824-a564-5644604dda13",
+    "created": "2022-10-21T14:15:30.000Z",
+    "modified": "2022-10-21T14:15:30.000Z",
+    "name": "OTX pulse_name=Server Scanning 21/10/2022",
+    "description": " / CC=VN ASN=AS135905 VIETNAM POSTS AND TELECOMMUNICATIONS GROUP",
+    "pattern": "[ipv4-addr:value = '103.133.109.141']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T14:15:30Z",
+    "valid_until": "2022-11-20T14:00:00Z",
+    "labels": [
+        "exploit_source"
+    ]
+}

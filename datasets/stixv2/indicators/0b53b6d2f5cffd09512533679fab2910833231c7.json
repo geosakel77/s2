@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--8e9712bf-d94d-4bee-badb-ff86a8d7042e",
+    "created": "2014-12-02T16:26:17.000Z",
+    "modified": "2014-12-02T16:26:17.000Z",
+    "name": "OTX pulse_name= RAZOR BLADES IN THE CANDY JAR",
+    "description": "",
+    "pattern": "[domain-name:value = 'src.sandcastlesmagazine.com']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2014-12-02T16:26:17Z"
+}

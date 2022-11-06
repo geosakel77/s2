@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--16a65fe7-06a7-4d46-8c4c-43527040450b",
+    "created": "2022-10-21T23:57:11.000Z",
+    "modified": "2022-10-21T23:57:11.000Z",
+    "name": "OTX pulse_name=Active Malware samples detected on 2022-10-21",
+    "description": "Trojan.Win64.Pef.Bropass.PSW",
+    "pattern": "[file:hashes.MD5 = 'e4d3f5b6e53c0188e6ff2081b87cbd82']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T23:57:11Z"
+}

@@ -1,0 +1,17 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--6299a3e2-6b4f-44cf-9e4c-6e5601f0297d",
+    "created": "2022-10-22T06:00:02.000Z",
+    "modified": "2022-10-22T06:00:02.000Z",
+    "name": "OTX pulse_name=Honeypot Hits (2022-10-22)",
+    "description": "SSH Attempt Host",
+    "pattern": "[ipv4-addr:value = '195.68.98.221']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-22T06:00:02Z",
+    "valid_until": "2022-11-21T06:00:00Z",
+    "labels": [
+        "scanning_host"
+    ]
+}

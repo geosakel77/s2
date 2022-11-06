@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--28c522c1-913a-4447-889b-1a693aa4c302",
+    "created": "2022-10-21T05:51:07.000Z",
+    "modified": "2022-10-21T05:51:07.000Z",
+    "name": "OTX pulse_name=Muhstik Gang targets Redis Servers",
+    "description": "",
+    "pattern": "[file:hashes.'SHA-256' = '4fdec1c9111132a7f57fabfa83a6b7f73b3012d9100a790deaa53df184c1d4c4']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T05:51:07Z"
+}

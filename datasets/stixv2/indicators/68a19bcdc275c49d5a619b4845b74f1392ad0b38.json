@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--5630ed39-4432-413f-9bc3-bf9728980602",
+    "created": "2022-10-21T05:51:07.000Z",
+    "modified": "2022-10-21T05:51:07.000Z",
+    "name": "OTX pulse_name=Muhstik Gang targets Redis Servers",
+    "description": "",
+    "pattern": "[ipv4-addr:value = '106.246.224.219']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T05:51:07Z",
+    "valid_until": "2022-11-20T00:00:00Z"
+}

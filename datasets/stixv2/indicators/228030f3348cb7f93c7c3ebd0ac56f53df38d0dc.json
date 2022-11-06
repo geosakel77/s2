@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--b681f3f9-f038-4391-a133-3486b4fb645d",
+    "created": "2015-02-12T20:22:35.000Z",
+    "modified": "2015-02-12T20:22:35.000Z",
+    "name": "OTX pulse_name=Ongoing Angler Exploit Kit and Bedep Fraud Campaign",
+    "description": "",
+    "pattern": "[domain-name:value = 'asop83uyteramxop.com']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2015-02-12T20:22:35Z"
+}

@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--1c28ad47-a591-4513-96bc-7d854d0511d3",
+    "created": "2022-10-21T05:07:17.000Z",
+    "modified": "2022-10-21T05:07:17.000Z",
+    "name": "OTX pulse_name=Log4j Attack Payloads In The Wild",
+    "description": " / CC=NL ASN=AS51447 RootLayer Web Services Ltd.",
+    "pattern": "[ipv4-addr:value = '45.137.21.9']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T05:07:17Z",
+    "valid_until": "2022-11-20T05:00:00Z"
+}

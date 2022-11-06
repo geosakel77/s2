@@ -1,0 +1,12 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--a2f66c41-1b33-448c-8003-c4f6d64eeed0",
+    "created": "2017-08-24T09:26:22.000Z",
+    "modified": "2017-08-24T09:26:22.000Z",
+    "name": "OTX pulse_name=Operation Cleaver",
+    "description": "",
+    "pattern": "rule OPCLEAVER_zhmimikatz   \n   {   \n      \n       meta:   \n           description = \"Mimikatz wrapper used by attackers in Operation Cleaver\"   \n           reference = \"http://cylance.com/assets/Cleaver/Cylance_Operation_Cleaver_Report.pdf\"   \n           date = \"2014/12/02\"   \n           author = \"Cylance Inc.\"   \n           score = \"70\"   \n      \n       strings:   \n           $s1 = \"MimikatzRunner\"   \n           $s2 = \"zhmimikatz\"   \n      \n       condition:   \n           all of them   \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-08-24T09:26:22Z"
+}

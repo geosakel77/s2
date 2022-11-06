@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--65dc03c2-92c4-4770-970c-b0f70063b31c",
+    "created": "2017-08-24T10:52:39.000Z",
+    "modified": "2017-08-24T10:52:39.000Z",
+    "name": "OTX pulse_name=Pawn Storm IOS_XAGENT",
+    "description": "",
+    "pattern": "[file:hashes.'SHA-1' = '05298a48e4ca6d9778b32259c8ae74527be33815']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2017-08-24T10:52:39Z"
+}

@@ -1,0 +1,17 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--2305beaa-e65e-4058-a966-bb251e941179",
+    "created": "2022-10-21T05:07:17.000Z",
+    "modified": "2022-10-21T05:07:17.000Z",
+    "name": "OTX pulse_name=Log4j Attack Payloads In The Wild",
+    "description": " / CC=SA ASN=AS22363 PHMGMT-AS1",
+    "pattern": "[ipv4-addr:value = '128.90.61.199']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T05:07:17Z",
+    "valid_until": "2022-11-20T05:00:00Z",
+    "labels": [
+        "exploit_source"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--c59946b1-9a3a-4713-b0d3-73f1747878c5",
+    "created": "2022-10-21T05:28:12.000Z",
+    "modified": "2022-10-21T05:28:12.000Z",
+    "name": "OTX pulse_name=Discovery of spying malware in the phones of protest detainees in Iran",
+    "description": "Payload delivery / Trojan for Android distributed under the guise of benign applications\u2014for example, Adobe Flash Player",
+    "pattern": "[file:hashes.'SHA-1' = 'c80ce28bae65d06c6855b0e2647f752a3b7c4fbe']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T05:28:12Z"
+}

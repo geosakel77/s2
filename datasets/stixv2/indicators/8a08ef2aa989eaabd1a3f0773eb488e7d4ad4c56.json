@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--c760dae6-0bba-4080-b9b6-fc34a58a36b2",
+    "created": "2022-10-21T04:05:33.000Z",
+    "modified": "2022-10-21T04:05:33.000Z",
+    "name": "OTX pulse_name=Enumerating Energy Infrastructure",
+    "description": " / MD5 of fc0e6f2effbfa287217b8930ab55b7a77bb86dbd923c0e8150551627138c9caa",
+    "pattern": "[file:hashes.MD5 = 'b63b9929b8f214c4e8dcff7956c87277']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T04:05:33Z"
+}

@@ -1,0 +1,17 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--63b7f850-5341-4f1b-8888-beb4441a0b8f",
+    "created": "2022-10-21T14:15:30.000Z",
+    "modified": "2022-10-21T14:15:30.000Z",
+    "name": "OTX pulse_name=Server Scanning 21/10/2022",
+    "description": " / CC=CN ASN=AS38365 Beijing Baidu Netcom Science and Technology Co., Ltd.",
+    "pattern": "[ipv4-addr:value = '106.12.145.140']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T14:15:30Z",
+    "valid_until": "2022-11-20T14:00:00Z",
+    "labels": [
+        "exploit_source"
+    ]
+}

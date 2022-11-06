@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--5018df82-23c0-413b-9c4d-ea010a2919b2",
+    "created": "2015-03-09T22:02:49.000Z",
+    "modified": "2015-03-09T22:02:49.000Z",
+    "name": "OTX pulse_name=Skype Worm",
+    "description": "",
+    "pattern": "[domain-name:value = 'skyvideotape.in.ua']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2015-03-09T22:02:49Z"
+}

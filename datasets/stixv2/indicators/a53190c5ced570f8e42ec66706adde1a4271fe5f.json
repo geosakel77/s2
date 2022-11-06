@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--be2b3703-6c2c-499b-b763-d74aa3651e30",
+    "created": "2022-10-21T23:57:11.000Z",
+    "modified": "2022-10-21T23:57:11.000Z",
+    "name": "OTX pulse_name=Active Malware samples detected on 2022-10-21",
+    "description": "Win32.Webdialer.Dialer.Porn",
+    "pattern": "[domain-name:value = 'r4---sn-4g5e6nze.gvt1.com']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T23:57:11Z"
+}

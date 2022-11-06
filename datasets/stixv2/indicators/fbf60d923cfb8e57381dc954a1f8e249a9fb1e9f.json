@@ -1,0 +1,12 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--59299a0a-d12d-4bf8-8fc7-7d402c2b3d6c",
+    "created": "2017-08-24T09:26:22.000Z",
+    "modified": "2017-08-24T09:26:22.000Z",
+    "name": "OTX pulse_name=Operation Cleaver",
+    "description": "",
+    "pattern": "rule ShellCreator2   \n   {   \n      \n     meta:   \n       author = \"Cylance\"   \n       date = \"2014-12-02\"   \n       description = \"http://cylance.com/opcleaver\"   \n      \n     strings:   \n       $s1 = \"ShellCreator2.Properties\"   \n       $s2 = \"set_IV\"   \n      \n     condition:   \n       all of them   \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-08-24T09:26:22Z"
+}

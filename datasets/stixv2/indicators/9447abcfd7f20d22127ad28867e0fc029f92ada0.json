@@ -1,0 +1,17 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--f6b74fdf-1899-441c-96da-8bd8dc0f5945",
+    "created": "2022-10-21T14:15:30.000Z",
+    "modified": "2022-10-21T14:15:30.000Z",
+    "name": "OTX pulse_name=Server Scanning 21/10/2022",
+    "description": " / CC=US ASN=AS14061 DIGITALOCEAN-ASN",
+    "pattern": "[ipv4-addr:value = '167.71.104.74']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T14:15:30Z",
+    "valid_until": "2022-11-20T14:00:00Z",
+    "labels": [
+        "scanning_host"
+    ]
+}

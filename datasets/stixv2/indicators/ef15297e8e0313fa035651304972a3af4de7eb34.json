@@ -1,0 +1,15 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--d6d24505-66f7-4e69-b59d-c1e7cf0cde83",
+    "created": "2017-07-24T21:42:36.000Z",
+    "modified": "2017-07-24T21:42:36.000Z",
+    "name": "OTX pulse_name=PoS Scammers Toolbox",
+    "description": "BackoffROMHashes",
+    "pattern": "rule BackoffROMHashes   \n   {   \n   \tmeta:   \n   \t\tauthor = \"Alienvault Labs\"   \n   \t\treference_hash = \"35fb5c75a5b472eb2c6fd059ca136a9e,01dd913425f36e56e42fec6f96282a3d\"   \n   \t\treference = \"http://blog.fortinet.com/post/rom-a-new-version-of-the-backoff-pos-malware\"   \n   \tstrings:   \n   \t\t$mz = {4d 5a}   \n   \t\t$func1 = {56 57 8B F9 33 F6 8B D6 85 FF ?? ?? 33 C0 ?? ?? 0F B7 0F 8B C6 66 85 C9 ?? ?? 66 83 F9 2E 0F 44 D0 40 0F B7 0C 47 66 85 C9 ?? ?? 85 D2 ?? ?? 8B D0 53 8B DE 85 D2 ?? ?? 8A 04 5F 0C 20 0F BE C8 03 F1 C1 E1 07 33 F1 43 3B DA}   \n   \t\t$func2 = {7E 7C 00 00 73 37 00 00 68 07 00 00 0A 31 00 00 C6 0C 00 00 2E 35 00 00 02 31 00 00 1A 34 00 00 88 03 00 00 1B 4F 00 00 2C 27 00 00 FB 0E 00 00 25 01 00 00 ED 0C 00 00 64 03 00 00 26 3F 00 00 16 36 00 00 1B 0B 00 00 34 34 00 00 84 08 00 00 07 0A 00 00 9A 0B 00 00 FD 72 00 00 7D 3D 00 00 F1 07 00 00 85 3F 00 00 99 2B 00 00 24 3C 00 00 55 6C 7B 6F 2F 29 00 00 6E 75 79 68 6E 4A 6D 6B 75 54 67 44 00 00 00 00 66 4F 68 4A 63 41 51 6B 36 4F 00 00}   \n   \tcondition:   \n   \t\t($mz at 0) and (any of ($func*))   \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-07-24T21:42:36Z",
+    "labels": [
+        "file_scanning"
+    ]
+}

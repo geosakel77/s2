@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--bea9d239-4915-4d88-8524-fa3c077b6ba5",
+    "created": "2022-10-21T22:14:15.000Z",
+    "modified": "2022-10-21T22:14:15.000Z",
+    "name": "OTX pulse_name=Bruteforce Simple Authentication and Security Layer - SASL (S3)",
+    "description": "",
+    "pattern": "[ipv4-addr:value = '206.217.216.11']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T22:14:15Z",
+    "valid_until": "2022-11-20T22:00:00Z"
+}

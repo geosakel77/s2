@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--31709f99-d042-4455-bec3-43fffe596d37",
+    "created": "2014-12-02T16:26:17.000Z",
+    "modified": "2014-12-02T16:26:17.000Z",
+    "name": "OTX pulse_name= RAZOR BLADES IN THE CANDY JAR",
+    "description": "",
+    "pattern": "[domain-name:value = 'cdn2.movetoclarksville.com']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2014-12-02T16:26:17Z"
+}

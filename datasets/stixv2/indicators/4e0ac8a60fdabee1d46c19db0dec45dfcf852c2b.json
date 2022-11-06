@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--cb723914-702e-40c7-8210-668d5cae5fbf",
+    "created": "2022-10-21T06:58:42.000Z",
+    "modified": "2022-10-21T06:58:42.000Z",
+    "name": "OTX pulse_name=From RM3 to LDR4: URSNIF Leaves Banking Fraud Behind",
+    "description": "Win32:BotX-gen\\ [Trj] / SHA256 of 9f68d1a4b33e3ace6215040dc9fc73e8",
+    "pattern": "[file:hashes.'SHA-256' = 'd2fc2e2b90b23c2a91e144fd8ac22668dd682f7d0145963615203d087c48aca4']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T06:58:42Z"
+}

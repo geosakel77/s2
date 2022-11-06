@@ -1,0 +1,17 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--d0f6fa21-503d-4809-8f37-61a34d9c5139",
+    "created": "2022-10-21T05:07:17.000Z",
+    "modified": "2022-10-21T05:07:17.000Z",
+    "name": "OTX pulse_name=Log4j Attack Payloads In The Wild",
+    "description": " / CC=UA ASN=AS48693 Rices Privately owned enterprise",
+    "pattern": "[ipv4-addr:value = '80.71.158.44']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T05:07:17Z",
+    "valid_until": "2022-11-20T05:00:00Z",
+    "labels": [
+        "scanning_host"
+    ]
+}

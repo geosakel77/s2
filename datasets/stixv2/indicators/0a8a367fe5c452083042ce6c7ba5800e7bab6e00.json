@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--ea6dfc01-cd1a-44a2-92b4-7ec35020bfb7",
+    "created": "2014-12-02T16:26:17.000Z",
+    "modified": "2014-12-02T16:26:17.000Z",
+    "name": "OTX pulse_name= RAZOR BLADES IN THE CANDY JAR",
+    "description": "",
+    "pattern": "[domain-name:value = 'img.greenwoodhouse.info']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2014-12-02T16:26:17Z"
+}

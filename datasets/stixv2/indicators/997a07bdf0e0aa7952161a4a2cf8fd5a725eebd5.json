@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--a2c8f731-7771-47ea-811e-3676df0560ce",
+    "created": "2022-10-21T05:28:12.000Z",
+    "modified": "2022-10-21T05:28:12.000Z",
+    "name": "OTX pulse_name=Discovery of spying malware in the phones of protest detainees in Iran",
+    "description": "Payload delivery",
+    "pattern": "[file:hashes.'SHA-1' = '18747eaf81daaf51abe76749dc6fa89937e2a6f5']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T05:28:12Z"
+}

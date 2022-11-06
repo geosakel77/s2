@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--8a4ff715-2cd1-4dbb-a1bd-9961be3c7b3b",
+    "created": "2017-08-24T09:27:23.000Z",
+    "modified": "2017-08-24T09:27:23.000Z",
+    "name": "OTX pulse_name=Linking Asprox, Zemot, Rovix and  Rerdom Malware Families ",
+    "description": "",
+    "pattern": "[domain-name:value = 'everydaypp.ru']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2017-08-24T09:27:23Z"
+}

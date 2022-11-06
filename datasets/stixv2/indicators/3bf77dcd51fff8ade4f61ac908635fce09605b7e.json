@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--e069c5fb-25c7-4d4c-b7f4-b810d28e08f3",
+    "created": "2022-10-21T22:11:43.000Z",
+    "modified": "2022-10-21T22:11:43.000Z",
+    "name": "OTX pulse_name=Scan port 53 DNS (S3#)",
+    "description": "",
+    "pattern": "[ipv4-addr:value = '185.94.111.1']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T22:11:43Z",
+    "valid_until": "2022-11-20T22:00:00Z"
+}

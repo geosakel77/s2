@@ -1,0 +1,12 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--fe64a977-e3a9-4aed-9522-457c58018b22",
+    "created": "2017-08-24T09:26:22.000Z",
+    "modified": "2017-08-24T09:26:22.000Z",
+    "name": "OTX pulse_name=Operation Cleaver",
+    "description": "",
+    "pattern": "rule pvz_out   \n   {   \n      \n     meta:   \n       author = \"Cylance\"   \n       date = \"2014-12-02\"   \n       description = \"http://cylance.com/opcleaver\"   \n      \n     strings:   \n       $s1 = \"Network Connectivity Module\" wide   \n       $s2 = \"OSPPSVC\" wide   \n      \n     condition:   \n       all of them   \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-08-24T09:26:22Z"
+}

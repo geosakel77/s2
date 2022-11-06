@@ -1,0 +1,17 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--033812bc-7b76-41fe-90a0-3c32693b8358",
+    "created": "2022-10-21T10:43:15.000Z",
+    "modified": "2022-10-21T10:43:15.000Z",
+    "name": "OTX pulse_name=BC FEED - Scanning IPs",
+    "description": " / CC=US ASN=AS60068 Datacamp Limited",
+    "pattern": "[ipv4-addr:value = '143.244.35.193']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T10:43:15Z",
+    "valid_until": "2022-11-20T10:00:00Z",
+    "labels": [
+        "exploit_source"
+    ]
+}

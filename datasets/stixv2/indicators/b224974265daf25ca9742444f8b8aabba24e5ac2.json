@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--0c4fdf0f-4d64-4ecc-8611-3120c49d625d",
+    "created": "2022-10-21T23:55:20.000Z",
+    "modified": "2022-10-21T23:55:20.000Z",
+    "name": "OTX pulse_name=Active Beebone DGA(s) for 20221021",
+    "description": "",
+    "pattern": "[domain-name:value = 'ns1.dnsfor3.com']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T23:55:20Z"
+}

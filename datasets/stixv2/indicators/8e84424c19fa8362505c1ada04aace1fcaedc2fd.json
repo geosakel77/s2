@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--071a25fd-eff0-415f-838f-7a0d7e1d87e5",
+    "created": "2022-10-21T05:07:17.000Z",
+    "modified": "2022-10-21T05:07:17.000Z",
+    "name": "OTX pulse_name=Log4j Attack Payloads In The Wild",
+    "description": "Trojan:Linux/CoinMiner.AF!MTB / SHA1 of 68cc0ae1ca1e26d5f1dba19d065291ae6c5c69c9f37b9f384245d6fa070f1d69",
+    "pattern": "[file:hashes.'SHA-1' = '284a97cab405a28732035186a0c6306a692d4480']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T05:07:17Z"
+}

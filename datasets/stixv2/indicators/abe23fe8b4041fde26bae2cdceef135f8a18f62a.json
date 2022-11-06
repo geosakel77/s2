@@ -1,0 +1,12 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--6ea3771c-c79f-4053-bcfd-4a807051c84b",
+    "created": "2017-08-23T14:11:13.000Z",
+    "modified": "2017-08-23T14:11:13.000Z",
+    "name": "OTX pulse_name=Regin",
+    "description": "",
+    "pattern": "rule apt_regin_hopscotch    \n   {   \n      \n       meta:   \n           copyright = \"Kaspersky Lab\"   \n           description = \"Rule to detect Regin's Hopscotch module\"   \n           version = \"1.0\"   \n           last_modified = \"2015-01-22\"   \n           reference = \"https://securelist.com/blog/research/68438/an-analysis-of-regins-hopscotch-and-legspin/\"   \n           md5 = \"6c34031d7a5fc2b091b623981a8ae61c\"   \n      \n       strings:   \n           $mz=\"MZ\"   \n           $a1=\"AuthenticateNetUseIpc\"   \n           $a2=\"Failed to authenticate to\"   \n           $a3=\"Failed to disconnect from\"   \n           $a4=\"%S\\\\ipc$\" wide   \n           $a5=\"Not deleting...\"   \n           $a6=\"CopyServiceToRemoteMachine\"   \n           $a7=\"DH Exchange failed\"   \n           $a8=\"ConnectToNamedPipes\"   \n        \n       condition:   \n           ($mz at 0) and all of ($a*)   \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-08-23T14:11:13Z"
+}

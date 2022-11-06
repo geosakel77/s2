@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--c2d5c022-a5eb-45e2-9c75-4cb5dcda9508",
+    "created": "2022-10-21T10:43:15.000Z",
+    "modified": "2022-10-21T10:43:15.000Z",
+    "name": "OTX pulse_name=BC FEED - Scanning IPs",
+    "description": " / CC=US ASN=AS14061 DIGITALOCEAN-ASN",
+    "pattern": "[ipv4-addr:value = '192.241.222.4']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T10:43:15Z",
+    "valid_until": "2022-11-20T10:00:00Z"
+}

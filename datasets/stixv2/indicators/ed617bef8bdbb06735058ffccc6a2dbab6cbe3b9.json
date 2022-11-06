@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--c200deb7-0892-41ce-b060-c4f017f9c709",
+    "created": "2022-10-21T22:13:14.000Z",
+    "modified": "2022-10-21T22:13:14.000Z",
+    "name": "OTX pulse_name=Rogue Robot (S3)",
+    "description": "",
+    "pattern": "[ipv4-addr:value = '190.15.96.58']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T22:13:14Z",
+    "valid_until": "2022-11-20T22:00:00Z"
+}

@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--861321eb-ef7e-48fe-bc62-6863a1fa478e",
+    "created": "2015-02-08T18:41:50.000Z",
+    "modified": "2015-02-08T18:41:50.000Z",
+    "name": "OTX pulse_name=Google Chrome update Spam drops CTB Locker",
+    "description": "",
+    "pattern": "[url:value = 'http://cognacbrown.co.uk/ChromeSetup.exe']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2015-02-08T18:41:50Z"
+}

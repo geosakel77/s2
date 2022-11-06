@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--e59fc152-5f9a-44e1-a696-d2f8eba6f2f2",
+    "created": "2022-10-21T19:50:13.000Z",
+    "modified": "2022-10-21T19:50:13.000Z",
+    "name": "OTX pulse_name=Attackers Abusing Various Remote Control Tools",
+    "description": " / CC=KR ASN=AS3786 LG DACOM Corporation",
+    "pattern": "[ipv4-addr:value = '106.250.168.50']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T19:50:13Z",
+    "valid_until": "2022-11-20T18:00:00Z"
+}

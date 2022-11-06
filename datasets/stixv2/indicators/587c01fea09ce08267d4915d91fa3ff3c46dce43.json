@@ -1,0 +1,15 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--2116359d-9ac4-4ac1-af73-07493ff04092",
+    "created": "2017-07-24T21:42:36.000Z",
+    "modified": "2017-07-24T21:42:36.000Z",
+    "name": "OTX pulse_name=PoS Scammers Toolbox",
+    "description": "BackoffROM",
+    "pattern": "rule BackoffROM    \n   {   \n   \tmeta:   \n   \t\tauthor = \"Alienvault Labs\"   \n   \t\treference = \"http://blog.fortinet.com/post/rom-a-new-version-of-the-backoff-pos-malware\"   \n   \tstrings:   \n   \t\t$mz = {4d 5a}   \n   \t\t$mutex = \"aMD6qt7lWb1N3TNBSe4N\"   \n   \t\t$httpparam1 = \"data=%s\"   \n   \t\t$httpparam2 = \"oprat=%d\"   \n   \t\t$httpparam3 = \"uid=%s\"   \n   \t\t$httpparam4 = \"uinfo=%s\"   \n   \t\t$httpparam5 = \"win=%d\"   \n   \t\t$httpparam6 = \"grup=%s\"   \n   \t\t$httpparam7 = \"vers=%s\"   \n   \tcondition:   \n   \t\t($mz at 0) and ($mutex or all of ($httpparam*))   \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-07-24T21:42:36Z",
+    "labels": [
+        "file_scanning"
+    ]
+}

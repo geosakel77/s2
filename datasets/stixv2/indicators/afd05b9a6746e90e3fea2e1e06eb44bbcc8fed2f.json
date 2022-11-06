@@ -1,0 +1,12 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--d5acb5db-aadf-4290-94f2-e758aa60a0ff",
+    "created": "2017-08-23T14:11:13.000Z",
+    "modified": "2017-08-23T14:11:13.000Z",
+    "name": "OTX pulse_name=Regin",
+    "description": "",
+    "pattern": "rule Regin_Sample_1    \n   {   \n      \n       meta:   \n           description = \"Auto-generated rule - file-3665415_sys\"   \n           author = \"@MalwrSignatures\"   \n           date = \"26.11.14\"   \n           hash = \"773d7fab06807b5b1bc2d74fa80343e83593caf2\"   \n      \n       strings:   \n           $s0 = \"Getting PortName/Identifier failed - %x\" fullword ascii   \n           $s1 = \"SerialAddDevice - error creating new devobj [%#08lx]\" fullword ascii   \n           $s2 = \"External Naming Failed - Status %x\" fullword ascii   \n           $s3 = \"------- Same multiport - different interrupts\" fullword ascii   \n           $s4 = \"%x occurred prior to the wait - starting the\" fullword ascii   \n           $s5 = \"'user registry info - userPortIndex: %d\" fullword ascii   \n           $s6 = \"Could not report legacy device - %x\" fullword ascii   \n           $s7 = \"entering SerialGetPortInfo\" fullword ascii   \n           $s8 = \"'user registry info - userPort: %x\" fullword ascii   \n           $s9 = \"IoOpenDeviceRegistryKey failed - %x \" fullword ascii   \n           $s10 = \"Kernel debugger is using port at address %X\" fullword ascii   \n           $s12 = \"Release - freeing multi context\" fullword ascii   \n           $s13 = \"Serial driver will not load port\" fullword ascii   \n           $s14 = \"'user registry info - userAddressSpace: %d\" fullword ascii   \n           $s15 = \"SerialAddDevice: Enumeration request, returning NO_MORE_ENTRIES\" fullword ascii   \n           $s20 = \"'user registry info - userIndexed: %d\" fullword ascii   \n      \n       condition:   \n           all of them and filesize < 110KB and filesize > 80KB   \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-08-23T14:11:13Z"
+}

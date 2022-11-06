@@ -1,0 +1,12 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--25d1ec68-a402-4c3c-9010-bab6b7d1702a",
+    "created": "2017-08-23T14:11:13.000Z",
+    "modified": "2017-08-23T14:11:13.000Z",
+    "name": "OTX pulse_name=Regin",
+    "description": "",
+    "pattern": "rule Regin_APT_KernelDriver_Generic_A    \n   {   \n      \n       meta:   \n           description = \"Generic rule for Regin APT kernel driver Malware - Symantec http://t.co/qu53359Cb2\"   \n           author = \"@Malwrsignatures - included in APT Scanner THOR\"   \n           date = \"23.11.14\"   \n           hash1 = \"187044596bc1328efa0ed636d8aa4a5c\"   \n           hash2 = \"06665b96e293b23acc80451abb413e50\"   \n           hash3 = \"d240f06e98c8d3e647cbf4d442d79475\"   \n      \n       strings:   \n           $m0 = { 4d 5a 90 00 03 00 00 00 04 00 00 00 ff ff 00 00 b8 }    \n           $m1 = { 0e 1f ba 0e 00 b4 09 cd 21 b8 01 4c cd 21 54 68 69 73 20 70 72 6f 67 72 61 6d 20 63 61 6e 6e 6f 74 20 62 65 20 72 75 6e 20 69 6e 20 44 4f 53 20 6d 6f 64 65 2e }       \n           $s0 = \"atapi.sys\" fullword wide   \n           $s1 = \"disk.sys\" fullword wide   \n           $s3 = \"h.data\" fullword ascii   \n           $s4 = \"\\\\system32\" fullword ascii   \n           $s5 = \"\\\\SystemRoot\" fullword ascii   \n           $s6 = \"system\" fullword ascii   \n           $s7 = \"temp\" fullword ascii   \n           $s8 = \"windows\" fullword ascii   \n           $x1 = \"LRich6\" fullword ascii   \n           $x2 = \"KeServiceDescriptorTable\" fullword ascii        \n          \n       condition:   \n           $m0 at 0 and $m1 and all of ($s*) and 1 of ($x*)   \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-08-23T14:11:13Z"
+}

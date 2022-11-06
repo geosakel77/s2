@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--4b5c0fd4-2d50-4975-a5ca-df98f04c595a",
+    "created": "2014-12-02T16:26:17.000Z",
+    "modified": "2014-12-02T16:26:17.000Z",
+    "name": "OTX pulse_name= RAZOR BLADES IN THE CANDY JAR",
+    "description": "",
+    "pattern": "[domain-name:value = 'yimg.1208nw199thpl.info']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2014-12-02T16:26:17Z"
+}

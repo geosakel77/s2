@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--c0bd73bf-a4f6-4c0e-b2dc-bcc4e48e2d13",
+    "created": "2022-10-21T14:52:12.000Z",
+    "modified": "2022-10-21T14:52:12.000Z",
+    "name": "OTX pulse_name=Server Scanning 21/10/2022",
+    "description": "",
+    "pattern": "[ipv4-addr:value = '4.227.187.25']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T14:52:12Z",
+    "valid_until": "2022-11-20T00:00:00Z"
+}

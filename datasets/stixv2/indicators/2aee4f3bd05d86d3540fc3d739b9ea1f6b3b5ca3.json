@@ -1,0 +1,12 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--42f25491-0e1e-4646-bcf7-96541d99af23",
+    "created": "2017-08-24T09:26:22.000Z",
+    "modified": "2017-08-24T09:26:22.000Z",
+    "name": "OTX pulse_name=Operation Cleaver",
+    "description": "",
+    "pattern": "rule OPCLEAVER_zhCat   \n   {   \n      \n       meta:   \n           description = \"Network tool used by Iranian hackers and used by attackers in Operation Cleaver\"   \n           reference = \"http://cylance.com/assets/Cleaver/Cylance_Operation_Cleaver_Report.pdf\"   \n           date = \"2014/12/02\"   \n           author = \"Cylance Inc.\"   \n           score = \"70\"   \n      \n       strings:   \n           $s1 = \"Mozilla/4.0 ( compatible; MSIE 7.0; AOL 8.0 )\" ascii fullword   \n           $s2 = \"ABC ( A Big Company )\" wide fullword   \n      \n       condition:   \n           all of them   \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-08-24T09:26:22Z"
+}

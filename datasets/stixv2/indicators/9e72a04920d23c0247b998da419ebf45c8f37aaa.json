@@ -1,0 +1,12 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--47ef96b7-177c-4cd1-af2e-053ec3145ac7",
+    "created": "2017-08-23T14:11:13.000Z",
+    "modified": "2017-08-23T14:11:13.000Z",
+    "name": "OTX pulse_name=Regin",
+    "description": "",
+    "pattern": "rule apt_regin_legspin    \n   {   \n      \n       meta:   \n           copyright = \"Kaspersky Lab\"   \n           description = \"Rule to detect Regin's Legspin module\"   \n           version = \"1.0\"   \n           last_modified = \"2015-01-22\"   \n           reference = \"https://securelist.com/blog/research/68438/an-analysis-of-regins-hopscotch-and-legspin/\"   \n           md5 = \"29105f46e4d33f66fee346cfd099d1cc\"   \n      \n       strings:   \n           $mz=\"MZ\"   \n           $a1=\"sharepw\"   \n           $a2=\"reglist\"   \n           $a3=\"logdump\"   \n           $a4=\"Name:\" wide   \n           $a5=\"Phys Avail:\"   \n           $a6=\"cmd.exe\" wide   \n           $a7=\"ping.exe\" wide   \n           $a8=\"millisecs\"   \n         \n       condition:   \n           ($mz at 0) and all of ($a*)   \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-08-23T14:11:13Z"
+}

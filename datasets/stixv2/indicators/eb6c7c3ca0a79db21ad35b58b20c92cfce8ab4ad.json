@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--7959c9cf-9da5-4ce3-8dd2-650b61611504",
+    "created": "2022-10-21T14:48:33.000Z",
+    "modified": "2022-10-21T14:48:33.000Z",
+    "name": "OTX pulse_name=Exbyte: BlackByte Ransomware Attackers Deploy New Exfiltration Tool",
+    "description": "",
+    "pattern": "[file:hashes.'SHA-256' = '794a5621fda2106fcb94cbd91b6ab9567fb8383caa7f62febafcf701175f2b91']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T14:48:33Z"
+}

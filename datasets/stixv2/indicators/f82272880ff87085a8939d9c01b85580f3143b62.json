@@ -1,0 +1,13 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--7ffde73e-25a3-44ad-95e7-078eafc25211",
+    "created": "2015-02-11T01:02:00.000Z",
+    "modified": "2015-02-11T01:02:00.000Z",
+    "name": "OTX pulse_name=Forbes.com Waterhole Attack",
+    "description": "",
+    "pattern": "[file:hashes.MD5 = 'faa74be286c58be616470558d78a137f']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2015-02-11T01:02:00Z"
+}

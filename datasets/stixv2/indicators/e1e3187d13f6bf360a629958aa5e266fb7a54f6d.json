@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--2b0ddf8a-c145-4295-8fe5-400c618c4f89",
+    "created": "2022-10-21T10:43:15.000Z",
+    "modified": "2022-10-21T10:43:15.000Z",
+    "name": "OTX pulse_name=BC FEED - Scanning IPs",
+    "description": " / CC=UZ ASN=AS8193 Uzbektelekom Joint Stock Company",
+    "pattern": "[ipv4-addr:value = '213.230.90.153']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T10:43:15Z",
+    "valid_until": "2022-11-20T10:00:00Z"
+}

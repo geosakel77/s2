@@ -1,0 +1,12 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--29ba86fa-6e79-4361-bfa6-2f553827bfb2",
+    "created": "2017-08-23T14:11:13.000Z",
+    "modified": "2017-08-23T14:11:13.000Z",
+    "name": "OTX pulse_name=Regin",
+    "description": "",
+    "pattern": "rule Regin_Sample_2    \n   {   \n      \n       meta:   \n           description = \"Auto-generated rule - file hiddenmod_hookdisk_and_kdbg_8949d000.bin\"   \n           author = \"@MalwrSignatures\"   \n           date = \"26.11.14\"   \n           hash = \"a7b285d4b896b66fce0ebfcd15db53b3a74a0400\"   \n      \n       strings:   \n           $s0 = \"\\\\SYSTEMROOT\\\\system32\\\\lsass.exe\" fullword wide   \n           $s1 = \"atapi.sys\" fullword wide   \n           $s2 = \"disk.sys\" fullword wide   \n           $s3 = \"IoGetRelatedDeviceObject\" fullword ascii   \n           $s4 = \"HAL.dll\" fullword ascii   \n           $s5 = \"\\\\Registry\\\\Machine\\\\System\\\\CurrentControlSet\\\\Services\" fullword ascii   \n           $s6 = \"PsGetCurrentProcessId\" fullword ascii   \n           $s7 = \"KeGetCurrentIrql\" fullword ascii   \n           $s8 = \"\\\\REGISTRY\\\\Machine\\\\System\\\\CurrentControlSet\\\\Control\\\\Session Manager\" wide   \n           $s9 = \"KeSetImportanceDpc\" fullword ascii   \n           $s10 = \"KeQueryPerformanceCounter\" fullword ascii   \n           $s14 = \"KeInitializeEvent\" fullword ascii   \n           $s15 = \"KeDelayExecutionThread\" fullword ascii   \n           $s16 = \"KeInitializeTimerEx\" fullword ascii   \n           $s18 = \"PsLookupProcessByProcessId\" fullword ascii   \n           $s19 = \"ExReleaseFastMutexUnsafe\" fullword ascii   \n           $s20 = \"ExAcquireFastMutexUnsafe\" fullword ascii   \n          \n       condition:   \n           all of them and filesize < 40KB and filesize > 30KB   \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-08-23T14:11:13Z"
+}

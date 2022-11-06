@@ -1,0 +1,12 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--4cfa777f-834a-44de-bd57-0031953d9dda",
+    "created": "2017-08-23T14:11:13.000Z",
+    "modified": "2017-08-23T14:11:13.000Z",
+    "name": "OTX pulse_name=Regin",
+    "description": "",
+    "pattern": "rule Regin_Sample_Set_1    \n   {   \n      \n       meta:   \n           description = \"Auto-generated rule - file SHF-000052 and ndisips.sys\"   \n           author = \"@MalwrSignatures\"   \n           date = \"26.11.14\"   \n           hash1 = \"8487a961c8244004c9276979bb4b0c14392fc3b8\"   \n           hash2 = \"bcf3461d67b39a427c83f9e39b9833cfec977c61\"         \n      \n       strings:   \n           $s0 = \"HAL.dll\" fullword ascii   \n           $s1 = \"IoGetDeviceObjectPointer\" fullword ascii   \n           $s2 = \"MaximumPortsServiced\" fullword wide   \n           $s3 = \"KeGetCurrentIrql\" fullword ascii   \n           $s4 = \"ntkrnlpa.exe\" fullword ascii   \n           $s5 = \"\\\\REGISTRY\\\\Machine\\\\System\\\\CurrentControlSet\\\\Control\\\\Session Manager\" wide   \n           $s6 = \"ConnectMultiplePorts\" fullword wide   \n           $s7 = \"\\\\SYSTEMROOT\" fullword wide   \n           $s8 = \"IoWriteErrorLogEntry\" fullword ascii   \n           $s9 = \"KeQueryPerformanceCounter\" fullword ascii   \n           $s10 = \"KeServiceDescriptorTable\" fullword ascii   \n           $s11 = \"KeRemoveEntryDeviceQueue\" fullword ascii   \n           $s12 = \"SeSinglePrivilegeCheck\" fullword ascii   \n           $s13 = \"KeInitializeEvent\" fullword ascii   \n           $s14 = \"IoBuildDeviceIoControlRequest\" fullword ascii   \n           $s15 = \"KeRemoveDeviceQueue\" fullword ascii   \n           $s16 = \"IofCompleteRequest\" fullword ascii   \n           $s17 = \"KeInitializeSpinLock\" fullword ascii   \n           $s18 = \"MmIsNonPagedSystemAddressValid\" fullword ascii   \n           $s19 = \"IoCreateDevice\" fullword ascii   \n           $s20 = \"KefReleaseSpinLockFromDpcLevel\" fullword ascii   \n         \n       condition:   \n           all of them and filesize < 40KB and filesize > 30KB   \n   }",
+    "pattern_type": "yara",
+    "valid_from": "2017-08-23T14:11:13Z"
+}

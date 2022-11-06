@@ -1,0 +1,14 @@
+{
+    "type": "indicator",
+    "spec_version": "2.1",
+    "id": "indicator--01839e46-63f7-4430-abf5-44411080c0c1",
+    "created": "2022-10-21T22:12:43.000Z",
+    "modified": "2022-10-21T22:12:43.000Z",
+    "name": "OTX pulse_name=Bruteforce SSH port 22 (S3)",
+    "description": "",
+    "pattern": "[ipv4-addr:value = '38.15.36.7']",
+    "pattern_type": "stix",
+    "pattern_version": "2.1",
+    "valid_from": "2022-10-21T22:12:43Z",
+    "valid_until": "2022-11-20T22:00:00Z"
+}
