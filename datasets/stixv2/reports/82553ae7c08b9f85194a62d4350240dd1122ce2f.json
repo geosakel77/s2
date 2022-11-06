@@ -1,0 +1,42 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--aceb0d68-9893-49a9-8abe-17169c1f96a5",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2015-03-11T16:33:33.678Z",
+    "modified": "2017-08-24T10:52:09.070Z",
+    "name": "EquationDrug Espionage Platform",
+    "published": "2015-03-11T16:33:33.678Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--23c0da42-8789-4592-b9cd-a685181959c5",
+        "indicator--7a1fecf7-e00d-480b-898e-ffa7c87404e8",
+        "indicator--e998ab2a-4116-4e03-b23e-e0320ea4e54a",
+        "indicator--354bb6e3-62cb-4ae5-993e-5d10c4f77a59",
+        "indicator--93053bd8-5682-4c17-8075-6a6c39aacf37",
+        "indicator--428308d4-3cb2-4e18-a0f8-6c1284f19b7e",
+        "indicator--0c0568c2-cc9a-42b7-aade-bb0614a7bc0b",
+        "indicator--056f5b0a-eb5c-4871-b985-6c6e74ab687a",
+        "indicator--87e5b6d7-7c72-4c86-bf13-2ff8f210ee75",
+        "indicator--717b7a59-6cc8-4b32-8c7c-1f5ed2ad3c16",
+        "indicator--3852123c-4e1f-473d-b6b2-cfb528f90536",
+        "indicator--e6cab336-55b7-4687-a30e-40b268b3d9aa",
+        "indicator--d2ed6f34-19ec-4ca4-b0ee-a5dab2c926f7",
+        "indicator--079c2472-e6b7-4ae6-a340-20854b9cc33b",
+        "indicator--b7853c81-bf53-4c7f-8725-99ecab26deaf",
+        "indicator--fe009ce5-8f85-4266-8bd5-200a4a24edb5",
+        "indicator--5ab6f4a5-5003-4b61-b568-05a30f0eb01c",
+        "indicator--6fb9a607-a4a7-49ba-b596-a32bcaa0555b",
+        "indicator--f5e68983-7484-49f0-a1ee-a1d7e48b1f61",
+        "indicator--88cbca03-8ee8-4ffd-937f-16d9765c8f10",
+        "indicator--31722bb9-9efa-4281-8ef9-42f30132ba67",
+        "indicator--50de6515-aadb-4d73-aeed-aecc24720ed2",
+        "indicator--c1358dee-ac40-4e8b-b227-3710bc91b403",
+        "indicator--6e0edb86-ffb2-4d67-829f-d55e37044164",
+        "indicator--57f4415a-00db-4559-918c-f5eb8858ed95",
+        "indicator--d67c3e86-1013-4567-82a6-bb19137dd7ab"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}

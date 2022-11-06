@@ -1,0 +1,39 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--5883f639-e0f2-446f-87bc-fee46205dd21",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2014-11-21T23:16:15.351Z",
+    "modified": "2017-08-24T10:52:02.614Z",
+    "name": "Operation Double Tap",
+    "published": "2014-11-21T23:16:15.351Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--38f8f444-e4c3-4348-ba8f-4bec31b2ba8e",
+        "indicator--a1f40271-768b-4ded-81a0-fe9addfc68cc",
+        "indicator--aa661a42-7551-4de0-83c4-b9a590b85c00",
+        "indicator--5036fd26-278f-4600-9ffe-faa65e341537",
+        "indicator--5c712efb-82f4-445c-8ff7-95d83191a954",
+        "indicator--7f4d1f09-e92e-422a-a78d-a1910aba9b4d",
+        "indicator--4c0a800d-a155-42f8-862c-fdddb569771e",
+        "indicator--30a2a6c6-373a-41aa-995b-bd2e617b1351",
+        "indicator--61a39715-ef83-471c-b635-9ebf1484bc2b",
+        "indicator--e71cb57e-8dc1-4986-afef-2032a45bfb2b",
+        "indicator--ecc33c0e-8e46-44ab-8f28-67e2e5d5bc93",
+        "indicator--e9ea6402-d039-4863-ab00-710c29f9908e",
+        "indicator--9bec99cb-a423-4a0d-ab8c-cce8e2d11a77",
+        "indicator--a6307c34-e32f-46c2-b069-27c2cb6ea5f3",
+        "indicator--6cdf1ebf-1b3f-45d0-b204-fdaf78a8f114",
+        "indicator--d992f233-f69f-4e98-869f-2558bede2008",
+        "indicator--b856ba43-d04e-4f5c-87c9-697a07e024f5",
+        "indicator--fba5349e-0a50-421f-81c4-ebca31ea9336",
+        "indicator--e7f18696-0dbc-47ba-9d7a-fa6dd6f995f2",
+        "indicator--340f546b-275b-4b27-a958-77a7f5a91979",
+        "indicator--a9f5cbad-b2e2-41e5-b40c-5583f952cf0e",
+        "vulnerability--8fd8e04d-afd1-499d-95cb-fd09dcf251b9",
+        "vulnerability--0fe639aa-7a19-4f90-afc2-21b4e1bca7eb"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}

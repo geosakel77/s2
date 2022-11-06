@@ -1,0 +1,24 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--ec18a93d-4498-412d-9cd7-4885fd8c2041",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2022-10-21T20:32:12.542Z",
+    "modified": "2022-10-21T20:32:12.542Z",
+    "name": "CISA | Alert (AA22-294A) #StopRansomware: Daixin Team",
+    "description": "The FBI, CISA and Department of Health and Human Services (HHS) release a joint Cybersecurity Advisory (CSA) to help organizations protect against ransomware and other cybercrime threats, as part of a #StopRansomware effort.",
+    "published": "2022-10-21T20:32:12.542Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--595d1648-e559-4b84-8a90-e1a0cece7818",
+        "indicator--270a37c5-8bc7-45be-ac03-f87ba4eb1b35",
+        "indicator--e815951e-385f-4d40-8774-4fafebae52a8",
+        "indicator--1c71828c-7f10-481e-a1fc-2329b2c8a0ad",
+        "indicator--60dbeb75-ceb7-46af-aaeb-eb8e2d60fb71",
+        "indicator--af466c33-db02-425c-a223-f918980e7186",
+        "indicator--02787741-1e91-40cf-a618-a9e9297f226d"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}

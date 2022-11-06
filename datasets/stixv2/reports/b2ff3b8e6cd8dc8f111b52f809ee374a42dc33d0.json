@@ -1,0 +1,26 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--fc5a0b60-329c-4b28-9409-c37014a7400e",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2022-10-21T23:57:10.847Z",
+    "modified": "2022-10-21T23:57:10.847Z",
+    "name": "Active Malware samples detected on 2022-10-21",
+    "description": "Some active Malware samples detected on 2022-10-21.  For our Enterprise Threat Data services, please visit https://malwarepatrol.net/ or contact us at commercial@malwarepatrol.net.",
+    "published": "2022-10-21T23:57:10.847Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--2c5b6417-2f54-4b41-b0d1-fcf91c722214",
+        "indicator--3914aee9-cd4a-485b-9898-26f958ace256",
+        "indicator--84073d22-3224-44e1-88c4-7bd3cf441e6b",
+        "indicator--38be8c71-d188-499d-88d0-e6057ae4bf26",
+        "indicator--16a65fe7-06a7-4d46-8c4c-43527040450b",
+        "indicator--5d36cc3f-6fe9-4988-b957-c35179da2283",
+        "indicator--be2b3703-6c2c-499b-b763-d74aa3651e30",
+        "indicator--a4a26084-665c-40dd-a9a9-db3ec113129c",
+        "indicator--14ea6864-20f6-4830-a16e-163a177f7d50"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}

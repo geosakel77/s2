@@ -1,0 +1,21 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--4a55c48b-1ad9-44e0-8103-ce48bf41773b",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2015-02-08T18:47:24.193Z",
+    "modified": "2015-02-08T18:47:26.879Z",
+    "name": "Xhamster victim of large malvertising campaign",
+    "published": "2015-02-08T18:47:24.193Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--045d9c0a-346f-4859-a093-9a4061363aae",
+        "indicator--91adb224-c096-4e0a-862f-a495b69a4203",
+        "indicator--92e4de38-9793-4ea5-96c9-276ea3930907",
+        "indicator--1f50636a-1c6d-4d73-bdc3-d0c3d67f5789",
+        "indicator--96db9fef-3d0d-4dc8-a63c-2b04ba564b22"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}

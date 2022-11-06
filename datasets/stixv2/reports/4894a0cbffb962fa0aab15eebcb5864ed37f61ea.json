@@ -1,0 +1,35 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--d7eec98c-4baf-451e-bb0a-9e42f81c5ebe",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2022-10-21T05:51:06.981Z",
+    "modified": "2022-10-21T05:51:06.981Z",
+    "name": "Muhstik Gang targets Redis Servers",
+    "description": "Juniper Threat Labs has uncovered an attack that targets Redis Servers using a recently disclosed vulnerability, namely CVE-2022-0543. This vulnerability exists in some Redis Debian packages. The attack started on March 11, 2022 from the same threat actor we\u2019ve seen targeting confluence servers back in September 2021 and the same group targeting Log4j back in December. The payload used is a variant of Muhstik bot that can be used to launch DDOS attacks",
+    "published": "2022-10-21T05:51:06.981Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--1bcaa17d-3668-4c9d-95a7-46d2bc7e0d6c",
+        "indicator--0881ca41-df48-46dd-bafe-17728d4e7562",
+        "indicator--5630ed39-4432-413f-9bc3-bf9728980602",
+        "indicator--b14b6e92-dd0d-4336-976c-20b838337a14",
+        "indicator--b19911fa-1d38-4cd5-bbc3-b59a2e171322",
+        "indicator--76c5f9d5-200c-4fdd-9e0c-f325529d89ec",
+        "indicator--0ed714af-cf3e-4490-ba37-0e2032690fbe",
+        "indicator--1451665a-3930-4701-b2d5-167d821098ff",
+        "indicator--9a0bee40-83f6-40b6-b82a-dc6be258708f",
+        "indicator--6cd0c8d0-0fe3-445e-b6b4-b223ad79fbb6",
+        "indicator--08c8234a-c100-4a55-bcb8-b9a6713729f0",
+        "indicator--b73f8394-faf7-426f-9470-52ac537ed334",
+        "indicator--7525d5df-968c-4174-b3b7-48f6bb7f1f01",
+        "indicator--2bb01b8a-334d-4068-a276-3c1ac8e9ebea",
+        "indicator--4a03fb86-a3ce-4482-870f-bbdebaf06c1b",
+        "indicator--28c522c1-913a-4447-889b-1a693aa4c302",
+        "indicator--3970a310-2b87-46f0-8f9d-407db3659e69",
+        "indicator--ccffdd59-eb8a-46fa-b858-c78a44a51ba0"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}

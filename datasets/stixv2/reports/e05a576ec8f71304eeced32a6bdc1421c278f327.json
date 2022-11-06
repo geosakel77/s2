@@ -1,0 +1,25 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--efb31aef-1670-43fe-a80d-4c929024a01e",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2022-10-21T22:12:43.180Z",
+    "modified": "2022-10-21T22:12:43.180Z",
+    "name": "Bruteforce SSH port 22 (S3)",
+    "description": "Bruteforce hitting the server at TCP port 22 SSH. Same IP should not appear more than once in 24 hours in this list.",
+    "published": "2022-10-21T22:12:43.18Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--14a81da1-fb28-46ec-8a84-5076ea535323",
+        "indicator--5d6c8abd-f2a5-4bef-ac3c-c712cf02bab3",
+        "indicator--ed530f91-7a56-481f-ac8e-2489f077e2a3",
+        "indicator--369feda0-49ab-47f0-b98f-c5ba4025e893",
+        "indicator--42358852-0254-449a-9256-02c1ca0036aa",
+        "indicator--01839e46-63f7-4430-abf5-44411080c0c1",
+        "indicator--b8d3f6c3-1324-4ed5-8b53-f866a39c4f81",
+        "indicator--953a774e-aa75-4fa2-bf6c-6b6f709a089e"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}

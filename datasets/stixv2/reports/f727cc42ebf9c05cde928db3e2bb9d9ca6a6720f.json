@@ -1,0 +1,21 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--93c6ee30-aec7-4251-89d1-fd00d52bd7fe",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2015-02-08T18:41:50.141Z",
+    "modified": "2019-01-14T12:52:58.693Z",
+    "name": "Google Chrome update Spam drops CTB Locker",
+    "published": "2015-02-08T18:41:50.141Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--5be67f56-2b3a-442e-aba9-194a03de4db1",
+        "indicator--356bff03-f918-4a39-8b57-79fe6967dac0",
+        "indicator--861321eb-ef7e-48fe-bc62-6863a1fa478e",
+        "indicator--fa945590-5d15-4d18-8d2f-1da3d3e5f812",
+        "indicator--00d13c8d-ffcb-404a-b9b8-4a5e91a732a2"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}

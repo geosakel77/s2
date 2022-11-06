@@ -1,0 +1,24 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--c2cb44dd-8690-4ab6-b14e-822f38f27735",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2015-02-11T01:02:00.409Z",
+    "modified": "2017-06-27T16:40:45.309Z",
+    "name": "Forbes.com Waterhole Attack",
+    "description": "A Chinese advanced persistent threat (APT) compromised Forbes.com to set up a watering hole style web-based drive-by attack against US Defense and Financial Services firms in late November 2014. The brazen attack used chained 0-days against Adobe Flash and Microsoft Internet Explorer 9  to attempt to gain access to internal networks at these companies. This report is the first to detail the attack against strategic US interests to China.\n",
+    "published": "2015-02-11T01:02:00.409Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--2695961f-28d1-41d1-ba2e-5f1e7a16e241",
+        "indicator--827b50a1-87a9-4583-8257-50cbb9286df5",
+        "indicator--9d304263-1e98-4710-b1f4-4bffec692764",
+        "indicator--7ffde73e-25a3-44ad-95e7-078eafc25211",
+        "threat-actor--dfba4685-253d-4157-a09a-d1b10e905cf0",
+        "vulnerability--03c7d710-0698-49ba-b86e-051e3c378539",
+        "vulnerability--0152ec36-233a-46b2-bbe5-225c0494f878"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}

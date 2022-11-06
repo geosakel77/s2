@@ -1,0 +1,20 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--fd19360f-6e24-40c9-b3f9-accf5cb4dcdb",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2022-10-21T22:14:14.555Z",
+    "modified": "2022-10-21T22:14:14.555Z",
+    "name": "Bruteforce Simple Authentication and Security Layer - SASL (S3)",
+    "description": "Bruteforce hitting the server on any SASL.",
+    "published": "2022-10-21T22:14:14.555Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--bea9d239-4915-4d88-8524-fa3c077b6ba5",
+        "indicator--5d6bcdb0-3a07-4541-a42a-b85b80af1ffe",
+        "indicator--d4dc2d18-3928-4692-a8e3-3238a2fa2b0e"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--8ac8be63-19ca-4527-b340-6634612e32d5",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2014-11-19T19:55:38.646Z",
+    "modified": "2015-07-29T18:41:42.015Z",
+    "name": " RAZOR BLADES IN THE CANDY JAR",
+    "published": "2014-11-19T19:55:38.646Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--8e9712bf-d94d-4bee-badb-ff86a8d7042e",
+        "indicator--02778979-f48b-4422-9c63-30c4267e9bea",
+        "indicator--190d7c46-2010-4471-9721-45ae0c8ef6c0",
+        "indicator--31709f99-d042-4455-bec3-43fffe596d37",
+        "indicator--6b0023b0-cce6-4dc7-ba21-6d84af45218f",
+        "indicator--ea6dfc01-cd1a-44a2-92b4-7ec35020bfb7",
+        "indicator--cd469184-0230-4c05-a9ac-802067facab1",
+        "indicator--4b5c0fd4-2d50-4975-a5ca-df98f04c595a",
+        "indicator--ff1648f2-7ad8-41df-9737-8d2844f8a3d2",
+        "indicator--ca1287bb-8daf-4c63-a569-19ff61473c80",
+        "indicator--61f8dab7-e176-4d96-a178-baa0c165830d"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}

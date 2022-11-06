@@ -1,0 +1,33 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--2bee1c4c-2f96-4412-a5d7-3d1053f868c6",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2022-10-21T14:48:32.956Z",
+    "modified": "2022-10-21T17:06:37.827Z",
+    "name": "Exbyte: BlackByte Ransomware Attackers Deploy New Exfiltration Tool",
+    "description": "Symantec\u2019s Threat Hunter Team has discovered that at least one affiliate of the BlackByte ransomware (Ransom.Blackbyte) operation has begun using a custom data exfiltration tool during their attacks. The malware (Infostealer.Exbyte) is designed to expedite the theft of data from the victim\u2019s network and upload it to an external server.",
+    "published": "2022-10-21T14:48:32.956Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--17e20afc-4a29-4157-a7b7-1dea3526cb4d",
+        "indicator--611e520d-6064-409b-a751-17b6fb9e8017",
+        "indicator--c9f2f246-8742-465e-86c1-21e8209a27f7",
+        "indicator--7959c9cf-9da5-4ce3-8dd2-650b61611504",
+        "indicator--da1e171b-faeb-4247-9227-824aeb9336a7",
+        "indicator--808c10b9-2354-48c6-b6a8-85fabb185463",
+        "indicator--7ba0cc9b-5dfb-4dfb-b8ff-0ccb8b987c43",
+        "indicator--ac59b406-6945-458d-af4c-4ff9b9f91519",
+        "indicator--56ac28e2-0f7a-49c7-b38a-e326b69fdea8",
+        "indicator--cbe06c1c-652e-45f2-944b-99472a2e2696",
+        "indicator--4342ca4d-749f-459d-9841-3e096a75d5f4",
+        "indicator--030a2004-b49f-4d7a-93d7-f23bb1005e85",
+        "indicator--ec932c6a-e1b6-4f62-a66b-9ff42b88e683",
+        "indicator--646fab3d-d1c3-4410-9feb-7d87676f86c3",
+        "indicator--70acc43b-bf72-4427-aa8a-f1aa297f1435",
+        "threat-actor--87491231-935f-4a7a-b418-58c1ee2e7e15"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--936e049f-b6c9-4365-9345-ed5272018ef0",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2022-10-21T09:00:03.239Z",
+    "modified": "2022-10-21T09:00:03.239Z",
+    "name": "Digital Ocean (Toronto (Canada)) SNMP Attacker Hosts for 2022-10-20",
+    "description": "IPV4 hosts detected attempting to attack SNMP on private honeypot",
+    "published": "2022-10-21T09:00:03.239Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--edd610f8-94b0-4afe-acdf-c2f58bd44633",
+        "indicator--be700919-ceb6-4273-bdfd-d1f68b2ec7f6",
+        "indicator--624d81cd-e30d-49cb-a4a2-c0119c550662",
+        "indicator--594d3d12-1943-474e-b198-4f97adf9bb42",
+        "indicator--0dfa68be-d8ab-4380-b7c1-8975716a653e",
+        "indicator--74564442-648c-448e-9cb9-4dcad34b44ac"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}

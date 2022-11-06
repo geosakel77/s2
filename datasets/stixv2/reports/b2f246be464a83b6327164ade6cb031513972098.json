@@ -1,0 +1,37 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--2f8f4b48-45b2-444f-9416-25c6443eb79c",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2022-10-21T10:43:14.884Z",
+    "modified": "2022-10-21T10:43:14.884Z",
+    "name": "BC FEED - Scanning IPs",
+    "description": "Scanning IPs",
+    "published": "2022-10-21T10:43:14.884Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--e3350419-38b4-44ec-b7f8-7c0a8b7cae31",
+        "indicator--c379cdde-c5b6-44be-8b8e-6c51e7654979",
+        "indicator--033812bc-7b76-41fe-90a0-3c32693b8358",
+        "indicator--7f161832-2c13-47e7-a8eb-f0a9faf958d0",
+        "indicator--fc71d832-3632-42e1-9ee5-4f8b94cdf2c7",
+        "indicator--1d64adfa-ae45-4fa8-aab2-610490163a0f",
+        "indicator--0388726f-04a6-4a22-99a5-98915d5d402f",
+        "indicator--3cd52bfd-d152-47c6-9a31-0e6118bed30a",
+        "indicator--94bf8475-946e-4c53-9a07-da7482578401",
+        "indicator--79524067-998b-4d2d-97c4-179ad370d132",
+        "indicator--c046e756-944c-4da5-a68c-9fc479cff96c",
+        "indicator--fe98b2ab-4438-458f-84f2-42a7eb45853e",
+        "indicator--29257f1f-db6a-490d-803c-c5b298ac2115",
+        "indicator--b2810512-3d74-4eb9-89f8-0541a275c39d",
+        "indicator--743a2404-a872-407d-9351-134f4a8b0b5a",
+        "indicator--9262bce5-8ac7-4673-a06f-b54c7615eeb8",
+        "indicator--c2d5c022-a5eb-45e2-9c75-4cb5dcda9508",
+        "indicator--ff93cc46-b6cc-427a-93fb-f1e7125c9d5c",
+        "indicator--2b0ddf8a-c145-4295-8fe5-400c618c4f89",
+        "indicator--106fae8a-1742-4117-ab70-f16a0d5b7ed3"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}

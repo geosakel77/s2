@@ -1,0 +1,35 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--35c4a75f-3d6d-4cb6-b08b-638d9f8b709b",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2022-10-20T22:15:50.333Z",
+    "modified": "2022-10-20T22:15:50.333Z",
+    "name": "Non Standard HTTP Access - Header formation failure: ENCODE (S3)",
+    "description": "Hitting the server with good user agent, but no standard accesses. Wrong encode in header. Deceiving robot masked in common browser. Same IP should not appear more than once in 24 hours in this list.",
+    "published": "2022-10-20T22:15:50.333Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--3e40824b-6d2e-44fb-9f0d-34280e1d2f1e",
+        "indicator--accb99f3-5ade-4eee-86cf-e4d55c218f85",
+        "indicator--1ef6f396-0b1e-4112-a4fa-91a68d629981",
+        "indicator--adec7e50-6d7e-47e8-9696-e878bd49023e",
+        "indicator--a1c36b5c-ee90-4ec0-ac43-a89bd3230533",
+        "indicator--24ecb5f5-4f65-40c8-874f-8100edfa07f4",
+        "indicator--48146f90-6c8d-47f4-ab3b-04e14f89c4f7",
+        "indicator--3e740d3f-b03a-4263-a77d-811a2426749e",
+        "indicator--1152a5c1-914a-4463-a8bb-eb1e8fe6ebef",
+        "indicator--e6a77bb6-8568-437e-ae10-679e01f0f6d1",
+        "indicator--073d0e55-83d7-4455-8865-a2ac8a799af9",
+        "indicator--fd830c9c-afc7-45c0-bde7-a1302721acaf",
+        "indicator--5c88223b-a1f0-49f1-8f57-4a90e1f23e25",
+        "indicator--23d6c275-3e56-4c24-bd23-165b66359632",
+        "indicator--0795ce73-2a67-4e40-8f5e-44d308d67d42",
+        "indicator--0e8955b5-b2ab-4d2b-85c9-bd5c53191707",
+        "indicator--f2e3ed32-4fa5-4c44-942f-8c80a7493cb6",
+        "indicator--2f549cc8-658b-4f40-9922-fc6f634154a8"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}

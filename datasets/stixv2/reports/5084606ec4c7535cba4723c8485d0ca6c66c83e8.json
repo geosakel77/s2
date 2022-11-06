@@ -1,0 +1,26 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--1ba818cf-cef6-4344-a68d-621584bef2df",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2022-10-21T10:19:02.575Z",
+    "modified": "2022-10-21T10:19:02.575Z",
+    "name": "SQL Injection attack (S3)",
+    "description": "SQL Injection attack hitting the server at HTTPS. Same IP should not appear more than once in 24 hours in this list.",
+    "published": "2022-10-21T10:19:02.575Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--c172fc3e-d3dd-4c42-ab2e-0619078a8371",
+        "indicator--d4f29901-4fcb-4496-914f-b569f47e908c",
+        "indicator--f882f06d-567b-4e30-81d4-7800eb416ad7",
+        "indicator--ce18e810-3d21-4b8e-ab6b-af988695884e",
+        "indicator--3e450fcc-cd36-46e0-9d70-2a361810869a",
+        "indicator--7d0d179e-8c40-4fe6-8f60-3e58ff31af18",
+        "indicator--e0e2133e-9794-400e-81ef-c52e67cc4b38",
+        "indicator--ff011c45-cdb3-49ec-8845-df005fe338fa",
+        "indicator--cb606704-d8cd-4df1-b09c-7cbb1c246de1"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--d8ac39dc-6db6-4906-875a-5a1f5bb28f61",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2022-10-21T22:13:13.794Z",
+    "modified": "2022-10-21T22:13:13.794Z",
+    "name": "Rogue Robot (S3)",
+    "description": "Hitting the server no stop. No scrupulous. No indentification from user agent. Same IP should not appear more than once in 24 hours in this list.",
+    "published": "2022-10-21T22:13:13.794Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--c200deb7-0892-41ce-b060-c4f017f9c709"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}

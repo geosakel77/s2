@@ -1,0 +1,17 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--fd075659-2307-4d33-8e7e-ab977fb54367",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2022-10-21T23:51:40.559Z",
+    "modified": "2022-10-21T23:51:40.559Z",
+    "name": "Twitter Feed - satontonton - 21-10-2022",
+    "published": "2022-10-21T23:51:40.559Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--0be1d6e9-d774-40f6-b16d-976a79d45f23"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}

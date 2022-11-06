@@ -1,0 +1,27 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--35d11a7c-b4d4-4144-868b-0c74e73d1d10",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2022-10-21T05:28:11.221Z",
+    "modified": "2022-10-21T05:28:11.221Z",
+    "name": "Discovery of spying malware in the phones of protest detainees in Iran",
+    "description": "RMPAC7/2022/002/09 78 Data  20/10/2022   Iran: lo spyware open -source L3MON colpisce i manifestanti",
+    "published": "2022-10-21T05:28:11.221Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--c59946b1-9a3a-4713-b0d3-73f1747878c5",
+        "indicator--d4df4d5e-90dc-4202-a73e-50676c767c14",
+        "indicator--9f9f8bd5-1dd6-4820-ad13-28e7cd2f5a46",
+        "indicator--b415dd30-e5cc-4299-85e8-6f16c7d90461",
+        "indicator--eabaf2e7-791e-4a60-b357-26ec0e2d956b",
+        "indicator--a2c8f731-7771-47ea-811e-3676df0560ce",
+        "indicator--15914f97-f1a7-4616-8d83-957307917bcb",
+        "indicator--03fdc28c-f230-49c2-a58c-3f3d144e64b1",
+        "indicator--7e112a4b-71f3-4a85-a086-b19a80bc3b87",
+        "indicator--09658fe3-4fd2-43c6-aba1-17f93b89e656"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--d9ca6827-0763-4ea1-ab71-807c83f44db8",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2015-02-07T18:43:13.899Z",
+    "modified": "2017-08-24T10:52:39.470Z",
+    "name": "Pawn Storm IOS_XAGENT",
+    "published": "2015-02-07T18:43:13.899Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--21585108-0e6e-4d19-9d25-d589a9a0d31c",
+        "indicator--65dc03c2-92c4-4770-970c-b0f70063b31c",
+        "indicator--b417a603-ec39-4c41-858c-c750b78cf7ee",
+        "indicator--7ac1e4dd-1439-49f6-8d9f-6a66de0d2d72"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}

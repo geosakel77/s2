@@ -1,0 +1,21 @@
+{
+    "type": "report",
+    "spec_version": "2.1",
+    "id": "report--eb69be17-1a38-4cd6-8b7b-aa6c9caded9c",
+    "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2022-10-21T22:11:42.203Z",
+    "modified": "2022-10-21T22:11:42.203Z",
+    "name": "Scan port 53 DNS (S3#)",
+    "description": "Scans hitting the server at TCP port 53 DNS. Same IP should not appear more than once in 96 hours in our lists S3#.",
+    "published": "2022-10-21T22:11:42.203Z",
+    "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--58787ca8-e734-4bf6-b533-5b2aaa06b62f",
+        "indicator--e069c5fb-25c7-4d4c-b7f4-b810d28e08f3",
+        "indicator--531b6c85-639d-40f0-8700-9e4707a4b0a1",
+        "indicator--7e097f91-2e79-45f4-a676-889a8d735450"
+    ],
+    "labels": [
+        "threat-report"
+    ]
+}
