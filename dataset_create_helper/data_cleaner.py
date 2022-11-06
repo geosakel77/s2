@@ -43,7 +43,8 @@ class DataCleaner:
         return clean_alerts_files
 
     def get_clean_reports(self):
-        clean_reports_files = [os.path.join(self.clean_reports_path, file) for file in os.listdir(self.clean_reports_path)]
+        clean_reports_files = [os.path.join(self.clean_reports_path, file) for file in
+                               os.listdir(self.clean_reports_path)]
         return clean_reports_files
 
     def clean_alerts(self):
@@ -57,7 +58,7 @@ class DataCleaner:
         for report in self.get_dirty_reports_files():
             htmlfilename = os.path.join(self.dirty_reports_path, report)
             report_to_text = TextExtractor(htmlfilename).get_text()
-            self.write_report(report_to_text,report.split('.')[0])
+            self.write_report(report_to_text, report.split('.')[0])
             print("Report : {} cleaned".format(report))
 
     def write_alert(self, alert, filenameprefix, suffix="txt"):

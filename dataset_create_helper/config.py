@@ -34,28 +34,29 @@ def config(filename='database.ini', section='postgresql'):
         raise Exception('Section {0} not found in the {1} file'.format(section, filename))
     return db
 
-def configstix(filename='api.ini', section1='xforce',section2='otx'):
+
+def configstix(filename='api.ini', section1='xforce', section2='otx'):
     # create a parser
     parser = ConfigParser()
     # read config file
     parser.read(filename)
 
     # get section, default to postgresql
-    config = {}
+    config_dictionary = {}
     if parser.has_section(section1):
         params = parser.items(section1)
-        config[section1]=params
+        config_dictionary[section1] = params
     else:
         raise Exception('Section {0} not found in the {1} file'.format(section1, filename))
 
     if parser.has_section(section2):
         params = parser.items(section2)
-        config[section2] = params
+        config_dictionary[section2] = params
     else:
         raise Exception('Section {0} not found in the {1} file'.format(section1, filename))
 
-    return config
+    return config_dictionary
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     print(configstix())

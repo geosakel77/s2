@@ -12,12 +12,12 @@ All source code and datasets is available under a GNUv3 General Public License
 ----
 #### Alert files number: 1706
 
-| Source | Number |
-| ------ | ----- |
-| Alerts of AU | 97 |
-| Alerts of BGD | 589 | 
-| Alerts of CISA | 473 |
-| Alerts of JPCERT | 547|
+| Source           | Number |
+|------------------|--------|
+| Alerts of AU     | 97     |
+| Alerts of BGD    | 589    | 
+| Alerts of CISA   | 473    |
+| Alerts of JPCERT | 547    |
 
 ###### Average words per alert file : 6956
 
@@ -25,10 +25,10 @@ All source code and datasets is available under a GNUv3 General Public License
 
 #### Report files number: 123
 
-| Source        | Number |
-|---------------|--------|
-| Reports of AU |  10    |
-| Reports of CISA | 113 |
+| Source          | Number |
+|-----------------|--------|
+| Reports of AU   | 10     |
+| Reports of CISA | 113    |
 
 ###### Average words per report file : 2477.9268292682927
 

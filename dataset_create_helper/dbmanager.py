@@ -30,7 +30,6 @@ class DBManager:
 
     def _connect(self):
         """ Connect to the PostgreSQL database server """
-        conn = None
         try:
             # read connection parameters
             params = config()
@@ -48,12 +47,12 @@ class DBManager:
             # execute the INSERT statement
             cur.execute(sql_query, (code, collected, link, title, text_link, source,))
             # get the generated id back
-            id = cur.fetchone()[0]
+            idx = cur.fetchone()[0]
             # commit the changes to the database
             self.connection.commit()
             # close communication with the database
             cur.close()
-            self.logger.info("Alert inserted successfully : {}".format(id))
+            self.logger.info("Alert inserted successfully : {}".format(idx))
         except (Exception, psycopg2.DatabaseError) as e:
             self.logger.error("Error in alert insertion :{}:{}".format(code, e))
 
@@ -65,12 +64,12 @@ class DBManager:
             # execute the INSERT statement
             cur.execute(sql_query, (code, collected, link, title, text_link, source,))
             # get the generated id back
-            id = cur.fetchone()[0]
+            idx = cur.fetchone()[0]
             # commit the changes to the database
             self.connection.commit()
             # close communication with the database
             cur.close()
-            self.logger.info("Report inserted successfully :{}".format(id))
+            self.logger.info("Report inserted successfully :{}".format(idx))
         except (Exception, psycopg2.DatabaseError) as e:
             self.logger.error("Error in insertion of report:{}:{}".format(code, e))
 
@@ -82,12 +81,12 @@ class DBManager:
             # execute the INSERT statement
             cur.execute(sql_query, (code, collected, link, title, text_link, stixv2_type, source,))
             # get the generated id back
-            id = cur.fetchone()[0]
+            idx = cur.fetchone()[0]
             # commit the changes to the database
             self.connection.commit()
             # close communication with the database
             cur.close()
-            self.logger.info("STIX v2 artifact inserted successfully :{}".format(id))
+            self.logger.info("STIX v2 artifact inserted successfully :{}".format(idx))
         except (Exception, psycopg2.DatabaseError) as e:
             self.logger.error("Error in insertion of STIX v2 artifact:{}:{}".format(code, e))
 

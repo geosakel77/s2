@@ -19,7 +19,7 @@ import json
 import os
 
 
-def list_sdos(sdos_path="../raw_data/stixv2_schemas/sdos"):
+def list_sdos(sdos_path="../raw_data/stixv2_schemas/bundles"):
     sdos_list = os.listdir(sdos_path)
     sdos_cleaned = [s.split(".")[0] for s in sdos_list]
     return sdos_cleaned
@@ -36,17 +36,15 @@ def list_observables(observables_path="../raw_data/stixv2_schemas/observables"):
     observables_cleaned = [s.split(".")[0] for s in observables_list]
     return observables_cleaned
 
+
 def list_common(common_path="../raw_data/stixv2_schemas/common"):
     common_list = os.listdir(common_path)
     common_cleaned = [s.split(".")[0] for s in common_list]
     return common_cleaned
 
+
 def extract_objdt():
-    objdt = {}
-    objdt["sdos"] = list_sdos()
-    objdt["observables"] = list_observables()
-    objdt["common"] = list_common()
-    objdt["sros"] = list_sros()
+    objdt = {"bundles": list_sdos(), "observables": list_observables(), "common": list_common(), "sros": list_sros()}
     return objdt
 
 
@@ -73,6 +71,7 @@ def count_max_properties_stixv2(schema_dictionary, key_1="allOf", key_2="propert
         mpr = (("alpha", 0), 0)
     return mpr
 
+
 def count_mpr_of_all_objdt():
     objdt = extract_objdt()
     objdt_dictionary = {}
@@ -85,6 +84,7 @@ def count_mpr_of_all_objdt():
             category[objdi] = mpr
         objdt_dictionary[key] = category
     return objdt_dictionary
+
 
 def store_sigma(transformed_sigma):
     with open("../datasets/sigma_stixv2.json", 'w') as out:

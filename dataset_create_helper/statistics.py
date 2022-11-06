@@ -29,7 +29,8 @@ class Statistics:
     def __init__(self, clean_alerts_path="../datasets/text_files/alerts",
                  clean_reports_path="../datasets/text_files/reports", dirty_alerts_path="../raw_data/html_files/alerts",
                  dirty_reports_path="../raw_data/html_files/reports", otx_path="../datasets/stixv2/otx",
-                 cpes_path="../datasets/cpes.json", delta_path="../datasets/delta.json", sigma_path="../datasets/sigma_stixv2.json"):
+                 cpes_path="../datasets/cpes.json", delta_path="../datasets/delta.json",
+                 sigma_path="../datasets/sigma_stixv2.json"):
         self.clean_alerts_path = clean_alerts_path
         self.clean_reports_path = clean_reports_path
         self.dirty_alerts_path = dirty_alerts_path
@@ -38,7 +39,7 @@ class Statistics:
         self.cpes_path = cpes_path
         self.stop_words = set(stopwords.words('english'))
         self.delta_path = delta_path
-        self.sigma_path =sigma_path
+        self.sigma_path = sigma_path
 
     def _get_otx_files(self):
         otx_files = os.listdir(self.otx_path)
@@ -66,11 +67,11 @@ class Statistics:
         return clean_reports_files
 
     def _get_alerts_statistics(self):
-        statistics = {}
+        xstatistics = {}
         sources = []
         for alert in self._get_clean_alerts():
             sources.append(alert.split('_')[0])
-        statistics['sources'] = sources
+        xstatistics['sources'] = sources
         count_words = 0
         for alert in self._get_clean_alerts_paths():
             with open(alert, 'r', encoding='utf-8') as textfile:
@@ -79,15 +80,15 @@ class Statistics:
             tokens = nltk.word_tokenize(re.sub(r"[^a-zA-Z0-9 ]", "", document))
             filtered_tokens = [w for w in tokens if not w.lower() in self.stop_words]
             count_words += len(filtered_tokens)
-        statistics['words_avg'] = count_words / len(self._get_clean_reports())
-        return statistics
+        xstatistics['words_avg'] = count_words / len(self._get_clean_reports())
+        return xstatistics
 
     def _get_reports_statistics(self):
-        statistics = {}
+        xstatistics = {}
         sources = []
         for report in self._get_clean_reports():
             sources.append(report.split('_')[0])
-        statistics['sources'] = sources
+        xstatistics['sources'] = sources
 
         count_words = 0
         for report in self._get_clean_reports_paths():
@@ -97,9 +98,9 @@ class Statistics:
             tokens = nltk.word_tokenize(re.sub(r"[^a-zA-Z0-9 ]", "", document))
             filtered_tokens = [w for w in tokens if not w.lower() in self.stop_words]
             count_words += len(filtered_tokens)
-        statistics['words_avg'] = count_words / len(self._get_clean_reports())
+        xstatistics['words_avg'] = count_words / len(self._get_clean_reports())
 
-        return statistics
+        return xstatistics
 
     def _get_stixv2_statistics(self):
         count_bundles = 0
@@ -112,13 +113,13 @@ class Statistics:
             with open(stixv2file, 'r') as jsonfile:
                 stixv2 = json.load(jsonfile)
                 jsonfile.close()
-            for object in stixv2['objects']:
-                object_type = object["id"].split("--")[0]
+            for objectx in stixv2['objects']:
+                object_type = objectx["id"].split("--")[0]
                 if object_type not in objects_types:
                     objects_types.append(object_type)
                     objects_per_type[object_type] = 0
                 if object_type == 'indicator':
-                    object_observable = object['pattern']
+                    object_observable = objectx['pattern']
                     if 'rule' not in object_observable:
                         a = object_observable.replace("[", "")
                         b = a.replace("]", "")
@@ -144,11 +145,11 @@ class Statistics:
         return text_formated
 
     def _get_cpe_statistics(self):
-        statistics = {}
+        xstatistics = {}
         with open(self.cpes_path, 'r') as cpesfile:
             cpes = json.load(cpesfile)
             cpesfile.close()
-        statistics['cpes_number'] = len(cpes)
+        xstatistics['cpes_number'] = len(cpes)
         application_cpes_num = 0
         os_cpes_num = 0
         hardware_cpes_num = 0
@@ -159,29 +160,29 @@ class Statistics:
                 os_cpes_num += 1
             elif cpe['part'] == "hardware devices":
                 hardware_cpes_num += 1
-        statistics['hardware'] = hardware_cpes_num
-        statistics['os'] = os_cpes_num
-        statistics['app'] = application_cpes_num
-        return statistics
+        xstatistics['hardware'] = hardware_cpes_num
+        xstatistics['os'] = os_cpes_num
+        xstatistics['app'] = application_cpes_num
+        return xstatistics
 
     def _get_delta_statistics(self):
-        statistics = {}
+        xstatistics = {}
         with open(self.delta_path, 'r') as deltafile:
             delta = json.load(deltafile)
             deltafile.close()
-        statistics['delta'] = len(delta.keys())
-        return statistics
+        xstatistics['delta'] = len(delta.keys())
+        return xstatistics
 
     def _get_sigma_statistics(self):
-        statistics = {}
+        xstatistics = {}
         with open(self.sigma_path, 'r') as sigmafile:
             sigma = json.load(sigmafile)
             sigmafile.close()
-        statistics['sdos'] = len(sigma['sdos'].keys())
-        statistics['observables'] = len(sigma['observables'].keys())
-        statistics['common'] = len(sigma['common'].keys())
-        statistics['sros'] = len(sigma['sros'].keys())
-        return statistics
+        xstatistics['bundles'] = len(sigma['bundles'].keys())
+        xstatistics['observables'] = len(sigma['observables'].keys())
+        xstatistics['common'] = len(sigma['common'].keys())
+        xstatistics['sros'] = len(sigma['sros'].keys())
+        return xstatistics
 
     def print_statistics(self):
         alerts_number = len(statistics._get_clean_alerts())
@@ -222,7 +223,7 @@ class Statistics:
                  "############################################\n" \
                  "Delta Industry domains number: {}\n" \
                  "############################################\n" \
-                 "Stix V2.1 schema sdos objects: {} \n" \
+                 "Stix V2.1 schema bundles objects: {} \n" \
                  "Stix V2.1 schema observables objects: {} \n" \
                  "Stix V2.1 schema common objects: {}\n" \
                  "Stix V2.1 schema sros objects: {}\n" \
@@ -238,8 +239,10 @@ class Statistics:
                                                                          cpes_statistics['cpes_number'],
                                                                          cpes_statistics['app'], cpes_statistics['os'],
                                                                          cpes_statistics['hardware'],
-                                                                         delta_statistics['delta'],sigma_statistics['sdos'],
-                                                                         sigma_statistics['observables'],sigma_statistics['common'],
+                                                                         delta_statistics['delta'],
+                                                                         sigma_statistics['bundles'],
+                                                                         sigma_statistics['observables'],
+                                                                         sigma_statistics['common'],
                                                                          sigma_statistics['sros'])
         print(report)
 

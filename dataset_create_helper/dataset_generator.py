@@ -19,6 +19,7 @@ import os
 from hashlib import sha1
 from random import randint, shuffle
 from time import sleep
+
 import requests
 from bs4 import BeautifulSoup
 
@@ -103,6 +104,7 @@ class SourceExtractor:
             data = (href, title)
             entries[code] = data
         return entries
+
 
 class SourceManager:
 
@@ -226,7 +228,7 @@ class CrawlerManager:
         return content
 
     def _seed_generator(self, source):
-        if source =='JPCERT':
+        if source == 'JPCERT':
             iv = randint(1, 5)
         elif source == 'BGD':
             iv = randint(2, 6)
@@ -239,21 +241,20 @@ class CrawlerManager:
         seed = randint(iv, 9)
         return seed
 
-    def hanlde_alerts(self,alerts):
-        counter=0
+    def hanlde_alerts(self, alerts):
+        counter = 0
         for alert in alerts:
-            href = ""
             code = alert[0]
             collected = alert[1]
             source = alert[4]
-            suffix="html"
-            alerts_path="../raw_data/html_files/alerts"
+            suffix = "html"
+            alerts_path = "../raw_data/html_files/alerts"
             if not collected:
                 if alert[3] != 'nourl':
                     if alert[3] is not None:
                         href = alert[3]
-                        suffix="txt"
-                        alerts_path="../datasets/text_files/alerts"
+                        suffix = "txt"
+                        alerts_path = "../datasets/text_files/alerts"
                     else:
                         href = None
                 else:
@@ -261,35 +262,35 @@ class CrawlerManager:
                 if href is not None:
                     try:
                         print(alert)
-                        self.write_alert(alert=self.get_content(href, self.headers),code=code,source=source,alerts_path=alerts_path,suffix=suffix)
-                        self.dbmanager.update_alert(code,True)
-                        counter+=1
-                        print("{}-Successfully crawled alert href : {}".format(counter,href))
-                        seed= self._seed_generator(source=source)
+                        self.write_alert(alert=self.get_content(href, self.headers), code=code, source=source,
+                                         alerts_path=alerts_path, suffix=suffix)
+                        self.dbmanager.update_alert(code, True)
+                        counter += 1
+                        print("{}-Successfully crawled alert href : {}".format(counter, href))
+                        seed = self._seed_generator(source=source)
                         print(seed)
                         sleep(seed)
                     except Exception as e:
                         print(e)
                 else:
-                    self.dbmanager.update_alert(code,True)
+                    self.dbmanager.update_alert(code, True)
             else:
                 print(alert[0])
 
-    def hanlde_reports(self,reports):
-        counter=0
+    def hanlde_reports(self, reports):
+        counter = 0
         for report in reports:
-            href = ""
             code = report[0]
             collected = report[1]
             source = report[4]
-            suffix="html"
-            reports_path="../raw_data/html_files/reports"
+            suffix = "html"
+            reports_path = "../raw_data/html_files/reports"
             if not collected:
                 if report[3] != 'nourl':
                     if report[3] is not None:
                         href = report[3]
-                        suffix="txt"
-                        reports_path="../datasets/text_files/reports"
+                        suffix = "txt"
+                        reports_path = "../datasets/text_files/reports"
                     else:
                         href = None
                 else:
@@ -297,17 +298,18 @@ class CrawlerManager:
                 if href is not None:
                     try:
                         print(report)
-                        self.write_report(report=self.get_content(href, self.headers),code=code,source=source,reports_path=reports_path,suffix=suffix)
-                        self.dbmanager.update_report(code,True)
-                        counter+=1
-                        print("{}-Successfully crawled report href : {}".format(counter,href))
+                        self.write_report(report=self.get_content(href, self.headers), code=code, source=source,
+                                          reports_path=reports_path, suffix=suffix)
+                        self.dbmanager.update_report(code, True)
+                        counter += 1
+                        print("{}-Successfully crawled report href : {}".format(counter, href))
                         seed = self._seed_generator(source=source)
                         print(seed)
                         sleep(seed)
                     except Exception as e:
                         print(e)
                 else:
-                    self.dbmanager.update_report(code,True)
+                    self.dbmanager.update_report(code, True)
             else:
                 print(report[0])
 
