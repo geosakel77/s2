@@ -1,0 +1,73 @@
+{
+    "type": "threat-actor",
+    "spec_version": "2.1",
+    "id": "threat-actor--87491231-935f-4a7a-b418-58c1ee2e7e15",
+    "created": "2022-10-21T14:48:32.956Z",
+    "modified": "2022-10-29T17:11:31.744234Z",
+    "name": "Hecamede",
+    "description": "PLA Unit 61398 (Chinese: 61398\u90e8\u961f, Pinyin: 61398 b\u00f9du\u00ec) is the Military Unit Cover Designator (MUCD)[1] of a People's Liberation Army advanced persistent threat unit that has been alleged to be a source of Chinese computer hacking attacks",
+    "aliases": [
+        "Comment Panda",
+        "PLA Unit 61398",
+        "APT 1",
+        "APT1",
+        "Advanced Persistent Threat 1",
+        "Byzantine Candor",
+        "Group 3",
+        "TG-8223",
+        "Comment Group",
+        "Brown Fox",
+        "GIF89a",
+        "ShadyRAT",
+        "Shanghai Group"
+    ],
+    "labels": [
+        "activist"
+    ],
+    "external_references": [
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://en.wikipedia.org/wiki/PLA_Unit_61398"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "http://intelreport.mandiant.com/Mandiant_APT1_Report.pdf"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://www.cfr.org/interactive/cyber-operations/pla-unit-61398"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/the-siesta-campaign-a-new-targeted-attack-awakens/"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://www.fireeye.com/blog/threat-research/2014/03/a-detailed-examination-of-the-siesta-campaign.html"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/operation-oceansalt-delivers-wave-after-wave/"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-oceansalt.pdf"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=f1265df5-6e5e-4fcc-9828-d4ddbbafd3d7&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://attack.mitre.org/groups/G0006/"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://www.nytimes.com/2014/05/20/us/us-to-charge-chinese-workers-with-cyberspying.html"
+        }
+    ]
+}

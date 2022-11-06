@@ -1,0 +1,14 @@
+{
+    "type": "vulnerability",
+    "spec_version": "2.1",
+    "id": "vulnerability--0fe639aa-7a19-4f90-afc2-21b4e1bca7eb",
+    "created": "2017-08-24T10:52:03.000Z",
+    "modified": "2017-08-24T10:52:03.000Z",
+    "name": "CVE-2014-6332",
+    "external_references": [
+        {
+            "source_name": "cve",
+            "external_id": "CVE-2014-6332"
+        }
+    ]
+}

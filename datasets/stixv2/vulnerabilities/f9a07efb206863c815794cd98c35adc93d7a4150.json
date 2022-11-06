@@ -1,0 +1,14 @@
+{
+    "type": "vulnerability",
+    "spec_version": "2.1",
+    "id": "vulnerability--8fd8e04d-afd1-499d-95cb-fd09dcf251b9",
+    "created": "2017-08-24T10:52:03.000Z",
+    "modified": "2017-08-24T10:52:03.000Z",
+    "name": "CVE-2014-4113",
+    "external_references": [
+        {
+            "source_name": "cve",
+            "external_id": "CVE-2014-4113"
+        }
+    ]
+}

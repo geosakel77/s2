@@ -1,0 +1,14 @@
+{
+    "type": "vulnerability",
+    "spec_version": "2.1",
+    "id": "vulnerability--03c7d710-0698-49ba-b86e-051e3c378539",
+    "created": "2015-02-11T01:02:00.000Z",
+    "modified": "2015-02-11T01:02:00.000Z",
+    "name": "CVE-2015-0071",
+    "external_references": [
+        {
+            "source_name": "cve",
+            "external_id": "CVE-2015-0071"
+        }
+    ]
+}

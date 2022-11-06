@@ -1,0 +1,14 @@
+{
+    "type": "vulnerability",
+    "spec_version": "2.1",
+    "id": "vulnerability--0152ec36-233a-46b2-bbe5-225c0494f878",
+    "created": "2015-02-11T01:02:00.000Z",
+    "modified": "2015-02-11T01:02:00.000Z",
+    "name": "CVE-2014-9163",
+    "external_references": [
+        {
+            "source_name": "cve",
+            "external_id": "CVE-2014-9163"
+        }
+    ]
+}

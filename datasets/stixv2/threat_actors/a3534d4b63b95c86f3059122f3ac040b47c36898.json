@@ -1,0 +1,82 @@
+{
+    "type": "threat-actor",
+    "spec_version": "2.1",
+    "id": "threat-actor--dfcfac9e-68e3-4b84-9c11-d139ae6be322",
+    "created": "2014-12-02T18:53:09.715Z",
+    "modified": "2022-10-29T17:11:31.761257Z",
+    "name": "Cleaver",
+    "description": "A group of cyber actors utilizing infrastructure located in Iran have been conducting computer network exploitation activity against public and private U.S. organizations, including Cleared Defense Contractors (CDCs), academic institutions, and energy sector companies. This threat actor targets entities in the government, energy, and technology sectors that are located in or do business with Saudi Arabia.",
+    "aliases": [
+        "Operation Cleaver",
+        "Tarh Andishan",
+        "Alibaba",
+        "2889",
+        "TG-2889",
+        "Cobalt Gypsy",
+        "Rocket_Kitten",
+        "Cutting Kitten",
+        "Group 41",
+        "Magic Hound",
+        "APT35",
+        "APT 35",
+        "TEMP.Beanie",
+        "Ghambar"
+    ],
+    "labels": [
+        "activist"
+    ],
+    "external_references": [
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://www.cfr.org/interactive/cyber-operations/magic-hound"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://www.secureworks.com/research/the-curious-case-of-mia-ash"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://www.cfr.org/interactive/cyber-operations/operation-cleaver"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance_Operation_Cleaver_Report.pdf"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/suspected-iran-based-hacker-group-creates-network-of-fake-linkedin-profiles/"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/operation-woolen-goldfish-when-kittens-go-phishing"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://unit42.paloaltonetworks.com/unit42-magic-hound-campaign-attacks-saudi-targets/"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://www.secureworks.com/blog/iranian-pupyrat-bites-middle-eastern-organizations"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://blogs.microsoft.com/on-the-issues/2019/03/27/new-steps-to-protect-customers-from-hacking/"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://www.trendmicro.de/cloud-content/us/pdfs/security-intelligence/white-papers/wp-the-spy-kittens-are-back.pdf"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://blog.checkpoint.com/wp-content/uploads/2015/11/rocket-kitten-report.pdf"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://attack.mitre.org/groups/G0059/"
+        },
+        {
+            "source_name": "MISP Threat Actor list",
+            "url": "https://attack.mitre.org/groups/G0003/"
+        }
+    ]
+}
