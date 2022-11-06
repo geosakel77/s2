@@ -1,0 +1,10 @@
+{
+    "type": "identity",
+    "spec_version": "2.1",
+    "id": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+    "created": "2022-10-21T22:18:17.153Z",
+    "modified": "2022-10-21T22:18:17.153Z",
+    "name": "Open Threat Exchange",
+    "identity_class": "organization",
+    "contact_information": "https://otx.alienvault.com/"
+}
