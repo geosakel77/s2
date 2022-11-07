@@ -16,6 +16,10 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
+from experiments.re.re_experiment import re_main
+from experiments.wc.wc_experiment import wc_main
 
 if __name__ == '__main__':
-    print("s2")
+    print("Run the experiments of CTI quality metrics...")
+    re_main()
+    wc_main()

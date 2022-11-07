@@ -1,6 +1,3 @@
-#Project : s2
-#Developer : George Sakellariou
-#Date :7/11/22
 """
 <Cyber Threat Intelligence Quality Metrics Library and Datasets.>
     Copyright (C) 2022  Georgios Sakellariou
@@ -18,3 +15,6 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
+
+if __name__=="__main__":
+    pass
