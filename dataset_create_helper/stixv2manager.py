@@ -17,7 +17,8 @@
 """
 import json
 import os
-from hashlib import sha1
+import random
+from hashlib import sha1,sha256
 
 from stix2 import parse
 from stix2.v21 import URL, DomainName, File, IPv4Address, EmailMessage, EmailAddress, ThreatActor, ExternalReference
@@ -44,8 +45,8 @@ class STIXv2Manager:
 
     def write_observables(self):
         for observable in self.create_stixv2_observables():
-            serialized_observable = observable.serialize(pretty=True)
-            filenameprefix = sha1(serialized_observable.encode()).hexdigest()
+            serialized_observable = observable.serialize(pretty=True)+str(random.random())
+            filenameprefix = sha256(serialized_observable.encode()).hexdigest()
             filename = filenameprefix + ".json"
             filepath = os.path.join(self.observables_path, filename)
             # noinspection PyTypeChecker
@@ -266,4 +267,4 @@ class STIXv2Manager:
 
 
 if __name__ == '__main__':
-    STIXv2Manager().write_vulnerabilities()
+    STIXv2Manager().write_observables()
