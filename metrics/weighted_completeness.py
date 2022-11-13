@@ -1,4 +1,3 @@
-
 """
 <Cyber Threat Intelligence Quality Metrics Library and Datasets.>
     Copyright (C) 2022  Georgios Sakellariou
@@ -18,3 +17,25 @@
 """
 
 
+def wc_metric(weights, delta_p, delta_s):
+    sum_1 = 0
+    sum_2 = 0
+    for i in range(len(delta_s)):
+        sum_1 += weights[i] * (delta_p[i] / delta_s[i])
+        if weights[i] > 0:
+            sum_2 += 1
+    if sum_2 != 0:
+        f = sum_1 / sum_2
+    else:
+        f = None
+    return f
+
+
+def c_metric(delta_p, delta_s):
+    sum_1 = 0
+    sum_2 = 0
+    for i in range(len(delta_s)):
+        sum_1 += delta_s[i] - delta_p[i]
+        sum_2 += delta_s[i]
+        f = sum_1 / sum_2
+    return f

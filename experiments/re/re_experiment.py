@@ -15,9 +15,12 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
+from metrics.relevance import re_metric
+
 
 def re_main():
     pass
+
 
 if __name__=="__main__":
     pass
