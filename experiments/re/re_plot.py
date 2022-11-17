@@ -15,27 +15,5 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
-from metrics.relevance import re_metric
-import json
 
-def load_data():
-    all_delta = _load('all_organizations_delta.json.json')
-    all_giota = _load('all_organizations_giota.json')
-    all_pu = _load('all_organizations_pu.json')
-    return all_delta, all_giota, all_pu
-
-
-def _load(path):
-    with open(path, 'r', encoding='utf-8') as jsonfile:
-        data = json.load(jsonfile)
-        jsonfile.close()
-    return data
-
-def re_main():
-    all_delta, all_giota, all_pu = load_data()
-
-
-
-if __name__=="__main__":
-    re_main()
 

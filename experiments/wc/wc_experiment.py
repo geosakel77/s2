@@ -19,7 +19,6 @@ import json
 import time
 from math import ceil
 from statistics import mean
-
 from metrics.weighted_completeness import wc_metric, c_metric
 from wc_experiment_preparation import write_json
 
