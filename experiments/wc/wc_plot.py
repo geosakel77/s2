@@ -152,7 +152,6 @@ def exp3_plot(exp):
 
 def exp4_plot(exp, exp1):
     x_axis_labels = list(exp.keys())
-    width = 0.15
     x_axis = list(range(1, 11))
     doc1 = []
     for org in exp.keys():

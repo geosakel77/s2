@@ -111,6 +111,7 @@ def _intesection_results(results):
         for document in common_items:
             cleaned_organization_results[document] = results[organization][document]
         cleaned_results[organization] = cleaned_organization_results
+    print(cleaned_results)
     return cleaned_results
 
 
@@ -177,15 +178,15 @@ def experiment_3(all_delta_p1, all_giota, all_delta_p2, all_delta):
 
 def re_main():
     all_delta_p1, all_giota, all_delta_p2, all_delta = load_data()
-    data_1 = experiment_1(all_delta_p1, all_giota, all_delta_p2, all_delta)
-    print(data_1)
-    write_json(data1=data_1, filepath='experiment_1_results.json')
+    #data_1 = experiment_1(all_delta_p1, all_giota, all_delta_p2, all_delta)
+    #print(data_1)
+    #write_json(data1=data_1, filepath='experiment_1_results.json')
     data_2 = experiment_2(all_delta_p1, all_giota, all_delta_p2, all_delta)
     print(data_2)
-    write_json(data1=data_2, filepath='experiment_2_results.json')
-    data_3 = experiment_3(all_delta_p1, all_giota, all_delta_p2, all_delta)
-    print(data_3)
-    write_json(data1=data_3, filepath='experiment_3_results.json')
+    #write_json(data1=data_2, filepath='experiment_2_results.json')
+    #data_3 = experiment_3(all_delta_p1, all_giota, all_delta_p2, all_delta)
+    #print(data_3)
+    #write_json(data1=data_3, filepath='experiment_3_results.json')
 
 
 if __name__ == "__main__":
