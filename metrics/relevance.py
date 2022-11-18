@@ -19,7 +19,7 @@
 from math import sqrt
 
 
-def re_metric(delta_i, delta_p1, delta_d, delta_p2):
+def re_metric(delta_p1, delta_i, delta_p2, delta_d):
     a = 0
     b = 0
     sum_2 = 0

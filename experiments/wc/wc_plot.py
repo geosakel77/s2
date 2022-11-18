@@ -135,13 +135,13 @@ def exp3_plot(exp):
     x_axis_labels = list(exp.keys())
     x_axis = list(range(1, 11))
     y_time = []
-    y_cpu_time = []
+    #y_cpu_time = []
     for org in exp.keys():
         y_time.append(exp[org]['doc1']['time'] * 1000)
-        y_cpu_time.append(exp[org]['doc1']['cpu_time'] * 1000)
+        #y_cpu_time.append(exp[org]['doc1']['cpu_time'] * 1000)
 
     plt.scatter(np.array(x_axis), np.array(y_time), s=6, label='Execution Time')
-    plt.scatter(np.array(x_axis), np.array(y_cpu_time), s=6, label='CPU Execution Time')
+    #plt.scatter(np.array(x_axis), np.array(y_cpu_time), s=6, label='CPU Execution Time')
     plt.ylabel('milliseconds')
     plt.xlabel('Organization')
     plt.xticks(np.array(x_axis), x_axis_labels)
@@ -174,8 +174,8 @@ def plot_main():
     exp1, exp2, exp3, exp4 = load_data()
     # exp1_plot(exp1)
     # exp2_plot(exp2)
-    # exp3_plot(exp3)
-    exp4_plot(exp2, exp4)
+    exp3_plot(exp3)
+    #exp4_plot(exp2, exp4)
 
 
 if __name__ == "__main__":
